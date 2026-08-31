@@ -17,22 +17,23 @@ web) por peças gratuitas:
    página de cada notícia selecionada e extrai o texto completo com a
    biblioteca `trafilatura` (roda no seu próprio script, sem API, sem
    custo). Isso dá ao resumo final muito mais conteúdo pra trabalhar.
-3. **Gemini (Google) na camada gratuita** em vez da API paga da Anthropic —
-   o Google AI Studio dá acesso de graça, sem cartão de crédito, aos modelos
-   Flash e Flash-Lite. O script usa 2 etapas: uma chamada pra triagem (decide
-   quais notícias do lote servem pra cada categoria) e uma chamada por
-   categoria pra síntese (resume o texto completo das notícias escolhidas).
-   No total, 7 chamadas por dia — bem dentro de qualquer limite gratuito
-   atual do Gemini.
+3. **Groq na camada gratuita** — a Groq dá acesso de graça, sem cartão de
+   crédito, a modelos open-source (Llama, GPT-OSS, Qwen) rodando no
+   hardware próprio dela, que é muito rápido. O script usa 2 etapas: uma
+   chamada pra triagem (decide quais notícias do lote servem pra cada
+   categoria) e uma chamada por categoria pra síntese (resume o texto
+   completo das notícias escolhidas). No total, 7 chamadas por dia — bem
+   dentro do limite gratuito da Groq, que é de 14.400 requisições por dia.
 4. **Telegram Bot API e GitHub Actions** — já eram gratuitos, sem mudança.
 
-**Sendo honesto sobre o único risco:** a camada gratuita do Gemini já teve
-os limites reduzidos pelo Google mais de uma vez em 2025/2026. No volume que
-esse script usa (6 chamadas por dia), está bem dentro de qualquer limite
-gratuito atual — mas se um dia o script começar a falhar com erro de "limite
-excedido", é sinal de que o Google apertou de novo, e vale checar
-[ai.google.dev/gemini-api/docs/pricing](https://ai.google.dev/gemini-api/docs/pricing)
-pra ver o estado atual.
+**Por que Groq e não Gemini:** começamos com o Gemini, mas esbarramos em
+dois problemas reais no meio do caminho — nome de modelo que mudou de uma
+hora pra outra, e uma mudança recente no formato das chaves de API do
+Google que quebrou chamada HTTP direta pra várias contas (inclusive a
+nossa). A Groq usa autenticação padrão do mercado (token Bearer simples,
+igual a praticamente todo mundo usa) e tem tier gratuito estável desde o
+lançamento, sem sinal de mudança. Nenhuma garantia é eterna, mas essa tem
+o histórico mais limpo.
 
 ## Passo a passo
 
@@ -76,12 +77,12 @@ Categoria sem grupo próprio configurado cai aqui.
    Categoria que não estiver no JSON cai no `TELEGRAM_CHAT_ID` padrão — não
    precisa preencher tudo de uma vez.
 
-### 3. Pegar sua chave gratuita do Gemini
+### 3. Pegar sua chave gratuita da Groq
 
-1. Entre em [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
-   com uma conta Google.
-2. Clique em **Create API key** — não pede cartão de crédito.
-3. Guarde esse valor — é o seu `GEMINI_API_KEY`.
+1. Entre em [console.groq.com](https://console.groq.com) e faça login com
+   e-mail ou conta Google/GitHub.
+2. Vá em **API Keys** e crie uma nova chave — não pede cartão de crédito.
+3. Guarde esse valor — é o seu `GROQ_API_KEY`.
 
 ### 4. Subir esse projeto pro GitHub
 
@@ -102,17 +103,45 @@ repository secret**.
 
 | Nome | Valor |
 |---|---|
-| `GEMINI_API_KEY` | a chave do passo 3 |
+| `GROQ_API_KEY` | a chave do passo 3 |
 | `TELEGRAM_BOT_TOKEN` | o token do passo 1 |
 | `TELEGRAM_CHAT_ID` | o número do passo 2 |
 | `TELEGRAM_CATEGORY_CHAT_IDS` | o JSON do passo 2b — opcional |
 
 ### 6. Testar
 
+Você tem duas formas de testar — local (mais rápido pra depurar) ou direto
+no GitHub Actions (mais fiel ao que vai rodar de verdade todo dia).
+
+**Testar local, com `.env`:**
+
+1. Copie `.env.example` pra um arquivo novo chamado `.env` (mesma pasta do
+   `market_digest.py`).
+2. Preencha os valores reais nesse `.env` (chave da Groq, token do bot,
+   etc — os mesmos do passo 3, 1 e 2 acima).
+3. Rode:
+   ```bash
+   pip install -r requirements.txt
+   python3 market_digest.py
+   ```
+4. As mensagens já devem chegar no seu Telegram.
+
+**⚠️ Segurança:** o `.env` tem suas chaves reais em texto puro — nunca
+suba ele pro GitHub. Já deixei um `.gitignore` no projeto com `.env`
+listado nele, então o Git já ignora esse arquivo sozinho por padrão; mesmo
+assim, antes do primeiro `git push`, vale conferir com `git status` que o
+`.env` não aparece na lista de arquivos a serem enviados.
+
+**Testar no GitHub Actions (depois de configurar os secrets):**
+
 Aba **Actions** → workflow "Resumo de Mercado" → **Run workflow**. Se
 estiver tudo certo, as mensagens chegam no Telegram em menos de um minuto.
-Depois disso, roda sozinho todo dia útil às 8h de Brasília — não precisa
-fazer mais nada.
+
+Depois desse teste, ele roda sozinho todo dia útil às 8h (horário de
+Brasília) — pra isso, precisa mesmo dos secrets configurados no GitHub (o
+`.env` só serve pra teste no seu computador; a nuvem não tem acesso a ele).
+Pra mudar o horário, edite a linha `cron` em
+`.github/workflows/market-digest.yml` (o horário do cron é sempre em UTC).
 
 ## Ajustes que você provavelmente vai querer fazer
 
@@ -139,6 +168,19 @@ fazer mais nada.
   internacionais de peso (Investing.com e Seeking Alpha) pra reforçar a
   categoria "Mercado Internacional".
 
+  **Sobre B3, BTG e XP, que você perguntou:** pesquisei os três.
+  - **BTG Pactual**: não achei nenhum RSS público pro conteúdo de research
+    deles — bancos grandes geralmente não publicam feed aberto disso.
+  - **XP**: o hub de conteúdo (`conteudos.xpi.com.br`) não expõe RSS que eu
+    conseguisse confirmar, mas o podcast diário "Morning Call" tem feed
+    confirmado (`https://www.spreaker.com/show/3668124/episodes/feed`) — só
+    que é conteúdo de áudio, então a extração de texto completo do script
+    não rende muito nele (a descrição do episódio é curta). Não incluí por
+    esse motivo, mas fica a opção se você quiser testar.
+  - **B3**: tem um portal educacional próprio, o "Bora Investir"
+    (`borainvestir.b3.com.br`), que aparentemente tem RSS — mas a URL que
+    encontrei estava cortada demais pra eu confiar sem testar.
+
   Candidatos que valem seu teste (achei referência de que existem, mas a
   URL completa não veio clara o suficiente pra eu confiar sem verificar):
   `borainvestir.b3.com.br` (B3), `braziljournal.com` (jornalismo de
@@ -160,7 +202,7 @@ fazer mais nada.
   código-fonte da página no navegador (Ctrl+U) e procurando por "rss" ou
   "feed".
 - **Categorias**: edite a lista `CATEGORIES` — o campo `hint` é o que
-  orienta o Gemini a filtrar o que é relevante pra cada uma.
+  orienta a Groq a filtrar o que é relevante pra cada uma.
 - **Janela de tempo**: `JANELA_HORAS` controla quantas horas pra trás contam
   como "recente" no pool de notícias (36h por padrão).
 - **Quantidade de notícias por categoria**: `MAX_ITENS_POR_CATEGORIA` (4 por
@@ -170,12 +212,12 @@ fazer mais nada.
 - **Horário**: edite o `cron` em `.github/workflows/market-digest.yml`
   (sempre em UTC).
 
-## Por que agora são 2 chamadas de Gemini por categoria (e não 1)
+## Por que agora são 2 chamadas de Groq por categoria (e não 1)
 
 Antes, uma única chamada tentava filtrar E resumir ao mesmo tempo, só com o
 resuminho do RSS. Agora o processo é em duas etapas: uma triagem rápida
 (barata, só título e resuminho) decide o que é relevante, e só depois disso
-o script busca o artigo inteiro e manda pro Gemini resumir com o texto
+o script busca o artigo inteiro e manda pra Groq resumir com o texto
 completo. Isso evita baixar o texto de dezenas de notícias que nem vão ser
 usadas, e dá um resumo final bem mais rico do que o "clique aqui" de duas
 linhas que vem no RSS.

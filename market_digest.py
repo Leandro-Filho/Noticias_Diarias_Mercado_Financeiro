@@ -3,26 +3,27 @@ Resumo de Mercado — bot de digest diário no Telegram, 100% gratuito.
 
 Como funciona agora (com texto completo, não só resuminho de RSS):
   1. Busca notícias recentes em vários feeds RSS (gratuito, sem limite).
-  2. TRIAGEM (1 chamada ao Gemini): olha o pool inteiro (títulos + resumo
+  2. TRIAGEM (1 chamada à Groq): olha o pool inteiro (títulos + resumo
      curto) e decide quais notícias são relevantes pra cada categoria.
   3. TEXTO COMPLETO: baixa e extrai o artigo inteiro (não só o resuminho do
      RSS) de cada notícia selecionada, usando a biblioteca trafilatura.
-  4. SÍNTESE (1 chamada ao Gemini por categoria): junta o texto completo de
+  4. SÍNTESE (1 chamada à Groq por categoria): junta o texto completo de
      todas as notícias selecionadas daquela categoria e produz um resumo
      rico, com números e impacto no mercado — usando o máximo de conteúdo
      disponível, não só a linha do RSS.
   5. Envia uma mensagem por categoria pro Telegram.
 
 Custo: R$ 0. RSS, extração de texto (trafilatura roda local, sem API), a
-camada gratuita do Gemini (7 chamadas por dia: 1 triagem + 6 síntese) e o
+camada gratuita da Groq (7 chamadas por dia: 1 triagem + 6 síntese) e o
 Telegram Bot API não cobram nada nesse volume. Ver README para o único
-cuidado real (limite gratuito do Gemini pode mudar).
+cuidado real (limite gratuito pode mudar, embora o da Groq tenha histórico
+bem mais estável que o do Gemini).
 
 Variáveis de ambiente necessárias (ver README.md):
-  GEMINI_API_KEY              - chave gratuita do Google AI Studio
-  TELEGRAM_BOT_TOKEN          - token do bot, gerado pelo @BotFather
-  TELEGRAM_CHAT_ID            - chat padrão (fallback)
-  TELEGRAM_CATEGORY_CHAT_IDS  - JSON opcional mapeando categoria -> chat_id
+  GROQ_API_KEY                 - chave gratuita do console.groq.com
+  TELEGRAM_BOT_TOKEN           - token do bot, gerado pelo @BotFather
+  TELEGRAM_CHAT_ID             - chat padrão (fallback)
+  TELEGRAM_CATEGORY_CHAT_IDS   - JSON opcional mapeando categoria -> chat_id
 """
 
 import json
@@ -34,6 +35,7 @@ import feedparser
 import requests
 import trafilatura
 from dotenv import load_dotenv
+from openai import OpenAI
 from trafilatura import sitemaps as trafilatura_sitemaps
 from trafilatura import feeds as trafilatura_feeds
 
@@ -41,14 +43,21 @@ load_dotenv()  # se existir um .env local, carrega ele; no GitHub Actions
                 # não existe .env, então isso não faz nada e os secrets
                 # continuam vindo normalmente das variáveis de ambiente
 
-GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
+GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 DEFAULT_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 CATEGORY_CHAT_IDS = json.loads(os.environ.get("TELEGRAM_CATEGORY_CHAT_IDS") or "{}")
 
+# A Groq expõe uma API compatível com o formato da OpenAI (autenticação
+# padrão via Bearer token) — por isso dá pra usar o pacote "openai" comum,
+# só apontando pra base_url da Groq. Formato de autenticação padrão do
+# mercado, sem as pegadinhas de formato de chave que tivemos com o Gemini.
+groq_client = OpenAI(api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai/v1")
+
 # Nomes de modelo mudam com o tempo — se parar de funcionar, confira
-# https://ai.google.dev/gemini-api/docs/models
-GEMINI_MODEL = "gemini-3.5-flash-lite"
+# https://console.groq.com/docs/models (a Groq costuma avisar por e-mail
+# com bastante antecedência quando descontinua um modelo).
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 # Pool de feeds RSS — gratuitos, sem chave. Mantive só os que dá pra
 # confirmar de forma completa e sem ambiguidade (ver README pra por que
@@ -193,22 +202,15 @@ def fetch_pool() -> list[dict]:
     return pool
 
 
-# ------------------------------------------------------------------ Gemini
+# --------------------------------------------------------------------- Groq
 
-def call_gemini_json(prompt: str) -> dict:
-    resp = requests.post(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
-        params={"key": GEMINI_API_KEY},
-        json={
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {"responseMimeType": "application/json"},
-        },
-        timeout=90,
+def call_groq_json(prompt: str) -> dict:
+    response = groq_client.chat.completions.create(
+        model=GROQ_MODEL,
+        messages=[{"role": "user", "content": prompt}],
+        response_format={"type": "json_object"},
     )
-    resp.raise_for_status()
-    data = resp.json()
-    text = data["candidates"][0]["content"]["parts"][0]["text"]
-    return json.loads(text)
+    return json.loads(response.choices[0].message.content)
 
 
 def triagem(pool: list[dict]) -> dict:
@@ -235,7 +237,7 @@ JSON no formato exato, usando a URL exata de cada notícia escolhida:
 
 {{"Renda Fixa": ["url1", "url2"], "Renda Variável / Ações": [], "Criptomoedas": [], "Debêntures e Crédito Privado": [], "Mercado Internacional": [], "Mercado Imobiliário": []}}"""
 
-    return call_gemini_json(prompt)
+    return call_groq_json(prompt)
 
 
 def sintese(cat: dict, articles: list[dict]) -> dict:
@@ -273,7 +275,7 @@ Regras:
 - "market_impact": 1 a 2 frases objetivas sobre o efeito esperado no mercado.
 - "sentiment": "up", "down" ou "neutral"."""
 
-    return call_gemini_json(prompt)
+    return call_groq_json(prompt)
 
 
 # -------------------------------------------------------------- Texto completo
