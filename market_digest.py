@@ -48,6 +48,22 @@ TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 DEFAULT_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 CATEGORY_CHAT_IDS = json.loads(os.environ.get("TELEGRAM_CATEGORY_CHAT_IDS") or "{}")
 
+# Checagem explícita: se algum secret obrigatório não foi configurado no
+# GitHub (ou ficou vazio), o GitHub Actions passa string vazia em vez de
+# não passar nada — o que gera erro confuso lá na frente. Falhando aqui,
+# com mensagem clara, poupa tempo de depuração.
+if not GROQ_API_KEY:
+    raise SystemExit(
+        "GROQ_API_KEY está vazio ou não configurado. Confere em "
+        "Settings → Secrets and variables → Actions no GitHub se o secret "
+        "GROQ_API_KEY existe com esse nome exato e tem um valor de verdade."
+    )
+if not TELEGRAM_BOT_TOKEN:
+    raise SystemExit(
+        "TELEGRAM_BOT_TOKEN está vazio ou não configurado. Confere o secret "
+        "TELEGRAM_BOT_TOKEN no GitHub."
+    )
+
 # A Groq expõe uma API compatível com o formato da OpenAI (autenticação
 # padrão via Bearer token) — por isso dá pra usar o pacote "openai" comum,
 # só apontando pra base_url da Groq. Formato de autenticação padrão do
