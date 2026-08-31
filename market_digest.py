@@ -115,6 +115,10 @@ MAX_LINKS_POR_HTML_SOURCE = 8
 # Quantas horas pra trás considerar uma notícia "recente" no pool.
 JANELA_HORAS = 36
 
+# Onde o digest do dia é salvo — o chat_bot.py lê esse arquivo pra poder
+# conversar com base no que já foi analisado hoje.
+DIGEST_PATH = "ultimo_digest.json"
+
 # Quantos itens no máximo por categoria vão pro texto completo (controla
 # custo de banda/tempo e tamanho do prompt de síntese). Reduzido de 4 pra 2
 # porque cada item agora traz análise bem mais rica (mecanismo, implicação,
@@ -517,6 +521,43 @@ def main() -> None:
 
         send_telegram(chat_id, message)
         time.sleep(2)
+
+    salvar_digest_do_dia(selecao, analises_por_indice, indices_validos)
+
+
+def salvar_digest_do_dia(selecao, analises_por_indice, indices_validos) -> None:
+    """Grava o digest de hoje num arquivo do próprio repositório, pro
+    chat_bot.py conseguir responder pergunta com base nisso depois."""
+    categorias_por_indice: dict[int, list[str]] = {}
+    for cat in CATEGORIES:
+        for i in indices_validos(selecao.get(cat["id"], [])):
+            categorias_por_indice.setdefault(i, []).append(cat["id"])
+
+    itens = []
+    for i, analise in analises_por_indice.items():
+        itens.append(
+            {
+                "title": analise.get("title"),
+                "source": analise.get("source"),
+                "link": analise.get("link"),
+                "categorias": categorias_por_indice.get(i, []),
+                "resumo": analise.get("resumo"),
+                "mecanismo": analise.get("mecanismo"),
+                "implicacao": analise.get("implicacao"),
+                "proximo_evento": analise.get("proximo_evento"),
+                "key_numbers": analise.get("key_numbers"),
+                "sentiment": analise.get("sentiment"),
+            }
+        )
+
+    with open(DIGEST_PATH, "w", encoding="utf-8") as f:
+        json.dump(
+            {"gerado_em": datetime.now(timezone.utc).isoformat(), "itens": itens},
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
+    print(f"Salvo {DIGEST_PATH} com {len(itens)} notícias analisadas hoje.")
 
 
 if __name__ == "__main__":

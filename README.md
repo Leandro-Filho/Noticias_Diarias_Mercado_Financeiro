@@ -143,6 +143,44 @@ Brasília) — pra isso, precisa mesmo dos secrets configurados no GitHub (o
 Pra mudar o horário, edite a linha `cron` em
 `.github/workflows/market-digest.yml` (o horário do cron é sempre em UTC).
 
+## Conversar com o bot sobre o digest do dia
+
+Além de mandar o digest, agora dá pra responder no Telegram com uma pergunta
+(tipo "aquela notícia sobre IPCA, o que isso muda pra renda fixa mesmo?")
+e o bot responde com base no que foi analisado no dia.
+
+**Limitação importante, de propósito:** isso roda como um job agendado que
+checa mensagem nova a cada 30 minutos — não é instantâneo como WhatsApp. Uma
+conversa em tempo real de verdade precisaria de um servidor sempre ligado,
+o que sairia do "100% gratuito, sem manutenção" que o projeto inteiro
+persegue. 30 minutos é o intervalo que cabe com folga no limite gratuito de
+minutos do GitHub Actions pra repositório privado — se você tornar o
+repositório **público** (o código não tem nada sensível, as chaves
+continuam protegidas como secret), o limite de minutos deixa de existir e
+dá pra reduzir esse intervalo bastante, editando o `cron` em
+`.github/workflows/chat.yml`.
+
+**Como funciona por baixo:** o `market_digest.py` agora salva um arquivo
+`ultimo_digest.json` no próprio repositório ao final de cada rodada, com
+tudo que foi analisado no dia. Um workflow novo, `chat.yml`, roda o
+`chat_bot.py` periodicamente: ele confere se chegou mensagem nova no
+Telegram, e se chegou, usa esse arquivo como contexto pra Groq responder.
+
+**Não precisa fazer nada de configuração nova** — os arquivos usam os
+mesmos secrets que você já tem (`GROQ_API`, `API_BOT_TELEGRAM`,
+`TELEGRAM_ID`). Só suba os arquivos novos:
+
+```
+chat_bot.py
+ultimo_digest.json (esse é gerado sozinho na primeira rodada do market_digest.py — não precisa criar na mão)
+.github/workflows/chat.yml
+```
+
+E confirme que o `market_digest.py` e o `.github/workflows/market-digest.yml`
+também estão com a versão mais recente (o primeiro agora salva o digest, o
+segundo agora tem permissão pra commitar esse arquivo de volta no
+repositório — sem isso, o chat nunca teria dado com o que responder).
+
 ## Ajustes que você provavelmente vai querer fazer
 
 - **Sites sem RSS**: a lista `HTML_SOURCES` resolve o problema que apareceu
