@@ -21,7 +21,7 @@ jobs:
 
       - run: python market_digest.py
         env:
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.API_BOT_TELEGRAM }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_ID }}
           TELEGRAM_CATEGORY_CHAT_IDS: ${{ secrets.TELEGRAM_CATEGORY_CHAT_IDS }}
