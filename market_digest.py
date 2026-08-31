@@ -120,7 +120,7 @@ MAX_CHARS_POR_ARTIGO = 4000
 # categoria, então mantemos curto — com o pool crescendo (mais feeds, mais
 # notícias), isso evita estourar o limite de tokens por minuto da camada
 # gratuita.
-MAX_CHARS_TRIAGEM = 120
+MAX_CHARS_TRIAGEM = 80
 
 CATEGORIES = [
     {"id": "renda_fixa", "name": "Renda Fixa", "emoji": "🏦", "hint": "Selic, CDI, IPCA, Tesouro Direto, CDBs, LCI, LCA"},
@@ -228,13 +228,14 @@ def fetch_pool() -> list[dict]:
 
 # --------------------------------------------------------------------- Groq
 
-def call_groq_json(prompt: str) -> dict:
+def call_groq_json(prompt: str, max_tokens: int = 1500) -> dict:
     response = groq_client.chat.completions.create(
         model=GROQ_MODEL,
         messages=[{"role": "user", "content": prompt}],
         response_format={"type": "json_object"},
         temperature=0,  # mais previsível pra gerar JSON válido, menos "criativo"
-        max_tokens=2000,  # evita resposta cortada no meio por falta de espaço
+        max_tokens=max_tokens,  # a Groq conta isso junto do tamanho do pedido (TPM) —
+                                 # por isso cada chamada usa o menor valor que baste.
     )
     return json.loads(response.choices[0].message.content)
 
@@ -267,7 +268,7 @@ escolhida como valor. Formato exato, sem nenhum texto antes ou depois:
 
 {exemplo_schema}"""
 
-    return call_groq_json(prompt)
+    return call_groq_json(prompt, max_tokens=700)  # resposta é só lista de URLs, cabe folgado
 
 
 def sintese(cat: dict, articles: list[dict]) -> dict:
