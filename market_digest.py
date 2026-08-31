@@ -243,7 +243,7 @@ def call_groq_json(prompt: str, max_tokens: int = 1500) -> dict:
 def triagem(pool: list[dict]) -> dict:
     """1 chamada só: decide quais itens do pool servem pra cada categoria."""
     pool_text = "\n".join(
-        f"{i}. [{item['source']}] {item['title']} — {item['summary'][:MAX_CHARS_TRIAGEM]} ({item['link']})"
+        f"{i}. [{item['source']}] {item['title']} — {item['summary'][:MAX_CHARS_TRIAGEM]}"
         for i, item in enumerate(pool)
     )
     categorias_text = "\n".join(f'- "{c["id"]}" ({c["name"]}): {c["hint"]}' for c in CATEGORIES)
@@ -256,19 +256,22 @@ financeiro, sem categoria definida, e a lista de categorias que existem
 Categorias:
 {categorias_text}
 
-Notícias:
+Notícias (numeradas de 0 em diante):
 {pool_text}
 
 Pra cada categoria, escolha até {MAX_ITENS_POR_CATEGORIA} notícias da lista
 que sejam relevantes pra ela (pode ser lista vazia). Uma mesma notícia pode
 servir pra mais de uma categoria se fizer sentido. Responda SOMENTE com um
 JSON válido, usando exatamente os identificadores entre aspas acima como
-chave (não use o nome completo da categoria) e a URL exata de cada notícia
-escolhida como valor. Formato exato, sem nenhum texto antes ou depois:
+chave, e o NÚMERO de cada notícia escolhida (não a URL, não o título — só o
+número que precede ela na lista) como valor. Formato exato, sem nenhum texto
+antes ou depois:
 
-{exemplo_schema}"""
+{exemplo_schema}
 
-    return call_groq_json(prompt, max_tokens=700)  # resposta é só lista de URLs, cabe folgado
+Exemplo de resposta válida (números são só ilustrativos): {{"renda_fixa": [3, 17], "acoes": [0, 5, 22]}}"""
+
+    return call_groq_json(prompt, max_tokens=400)  # resposta é só números, cabe tranquilo
 
 
 def sintese(cat: dict, articles: list[dict]) -> dict:
@@ -393,9 +396,14 @@ def main() -> None:
         print(f"Triagem falhou ({exc}) — abortando.")
         return
 
+    # a triagem devolve números (índices na lista `pool`), não URL — resolvemos aqui
+    def indices_validos(valores):
+        return [i for i in valores if isinstance(i, int) and 0 <= i < len(pool)]
+
     # baixa texto completo só das URLs que alguma categoria escolheu, uma vez cada
     # (itens de HTML_SOURCES já estão em full_text_cache, então não baixam de novo)
-    urls_selecionadas = {url for urls in selecao.values() for url in urls}
+    indices_selecionados = {i for idxs in selecao.values() for i in indices_validos(idxs)}
+    urls_selecionadas = {pool[i]["link"] for i in indices_selecionados}
     textos = dict(full_text_cache)
     for url in urls_selecionadas:
         if url in textos:
@@ -410,13 +418,11 @@ def main() -> None:
             print(f"Sem grupo nem chat padrão configurado para '{cat['name']}' — pulando.")
             continue
 
-        urls_cat = selecao.get(cat["id"], [])
+        idxs_cat = indices_validos(selecao.get(cat["id"], []))
         articles = []
-        for url in urls_cat:
-            base = pool_by_link.get(url)
-            if not base:
-                continue
-            articles.append({**base, "text": textos.get(url, base["summary"])})
+        for i in idxs_cat:
+            base = pool[i]
+            articles.append({**base, "text": textos.get(base["link"], base["summary"])})
 
         try:
             data = sintese(cat, articles)
