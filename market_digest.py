@@ -228,16 +228,27 @@ def fetch_pool() -> list[dict]:
 
 # --------------------------------------------------------------------- Groq
 
-def call_groq_json(prompt: str, max_tokens: int = 1500) -> dict:
-    response = groq_client.chat.completions.create(
-        model=GROQ_MODEL,
-        messages=[{"role": "user", "content": prompt}],
-        response_format={"type": "json_object"},
-        temperature=0,  # mais previsível pra gerar JSON válido, menos "criativo"
-        max_tokens=max_tokens,  # a Groq conta isso junto do tamanho do pedido (TPM) —
-                                 # por isso cada chamada usa o menor valor que baste.
-    )
-    return json.loads(response.choices[0].message.content)
+def call_groq_json(prompt: str, max_tokens: int = 1500, tentativas: int = 3) -> dict:
+    """Chama a Groq pedindo JSON. Os modelos gpt-oss têm um bug conhecido e
+    documentado no fórum da própria Groq (json_validate_failed, intermitente,
+    ~10% das chamadas) — a comunidade relata que tentar de novo resolve na
+    prática, então repetimos automaticamente antes de desistir de vez."""
+    ultimo_erro = None
+    for tentativa in range(1, tentativas + 1):
+        try:
+            response = groq_client.chat.completions.create(
+                model=GROQ_MODEL,
+                messages=[{"role": "user", "content": prompt}],
+                response_format={"type": "json_object"},
+                temperature=0,  # mais previsível pra gerar JSON válido, menos "criativo"
+                max_tokens=max_tokens,  # a Groq conta isso junto do tamanho do pedido (TPM)
+            )
+            return json.loads(response.choices[0].message.content)
+        except Exception as exc:
+            ultimo_erro = exc
+            print(f"Tentativa {tentativa}/{tentativas} falhou ({exc}); tentando de novo...")
+            time.sleep(2)
+    raise ultimo_erro
 
 
 def triagem(pool: list[dict]) -> dict:
