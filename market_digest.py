@@ -229,21 +229,29 @@ def fetch_pool() -> list[dict]:
 # --------------------------------------------------------------------- Groq
 
 def call_groq_json(prompt: str, max_tokens: int = 1500, tentativas: int = 3) -> dict:
-    """Chama a Groq pedindo JSON. Os modelos gpt-oss têm um bug conhecido e
-    documentado no fórum da própria Groq (json_validate_failed, intermitente,
-    ~10% das chamadas) — a comunidade relata que tentar de novo resolve na
-    prática, então repetimos automaticamente antes de desistir de vez."""
+    """Chama a Groq pedindo JSON. NÃO usamos response_format={"type":"json_object"}
+    de propósito: esse modo ("JSON garantido"/constrained decoding) tem bug
+    documentado no fórum da própria Groq nos modelos gpt-oss (json_validate_failed,
+    reproduzível). Em vez disso, pedimos JSON só por instrução no prompt e
+    extraímos o bloco {...} da resposta na mão — mais simples, mas não depende
+    de um mecanismo da Groq que está com bug conhecido."""
+    prompt_com_reforco = prompt + "\n\nResponda em português, SOMENTE com o JSON pedido, sem markdown, sem texto antes ou depois."
+
     ultimo_erro = None
     for tentativa in range(1, tentativas + 1):
         try:
             response = groq_client.chat.completions.create(
                 model=GROQ_MODEL,
-                messages=[{"role": "user", "content": prompt}],
-                response_format={"type": "json_object"},
+                messages=[{"role": "user", "content": prompt_com_reforco}],
                 temperature=0,  # mais previsível pra gerar JSON válido, menos "criativo"
-                max_tokens=max_tokens,  # a Groq conta isso junto do tamanho do pedido (TPM)
+                max_tokens=max_tokens,
             )
-            return json.loads(response.choices[0].message.content)
+            raw = response.choices[0].message.content.strip()
+            clean = raw.replace("```json", "").replace("```", "").strip()
+            start, end = clean.find("{"), clean.rfind("}")
+            if start == -1 or end == -1:
+                raise ValueError(f"Resposta sem JSON reconhecível: {raw[:200]}")
+            return json.loads(clean[start : end + 1])
         except Exception as exc:
             ultimo_erro = exc
             print(f"Tentativa {tentativa}/{tentativas} falhou ({exc}); tentando de novo...")
