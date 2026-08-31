@@ -73,12 +73,16 @@ groq_client = OpenAI(api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai
 # Nomes de modelo mudam com o tempo — se parar de funcionar, confira
 # https://console.groq.com/docs/models (a Groq costuma avisar por e-mail
 # com bastante antecedência quando descontinua um modelo).
-# Kimi K2, não gpt-oss: gpt-oss é modelo "de raciocínio" (pensa antes de
-# responder, gastando tokens nisso — o que causava resposta vazia com
-# limite de tokens apertado) e teve bug documentado no fórum da Groq com
-# o modo de JSON garantido. Kimi K2 não tem essa etapa de raciocínio e é
-# recomendado pela própria Groq pra saída JSON confiável.
-GROQ_MODEL = "moonshotai/kimi-k2-instruct"
+# Histórico do que já tentamos e não deu certo, pra não repetir:
+#   - openai/gpt-oss-120b: modelo "de raciocínio" (gasta token pensando
+#     antes de responder) + bug documentado no fórum da Groq com JSON
+#     garantido (json_validate_failed).
+#   - moonshotai/kimi-k2-instruct: descontinuado pela Groq em 2026.
+# Qwen 3.6 27B suporta desligar o raciocínio via reasoning_effort="none"
+# (ver abaixo, em call_groq_json) — é servido como modelo "preview" pela
+# Groq, então pode mudar de status; se um dia parar de funcionar, comece
+# a investigação por aí.
+GROQ_MODEL = "qwen/qwen3.6-27b"
 
 # Pool de feeds RSS — gratuitos, sem chave. Mantive só os que dá pra
 # confirmar de forma completa e sem ambiguidade (ver README pra por que
@@ -250,6 +254,9 @@ def call_groq_json(prompt: str, max_tokens: int = 1500, tentativas: int = 3) -> 
                 messages=[{"role": "user", "content": prompt_com_reforco}],
                 temperature=0,  # mais previsível pra gerar JSON válido, menos "criativo"
                 max_tokens=max_tokens,
+                extra_body={"reasoning_effort": "none"},  # desliga a etapa de "pensar" do
+                                                            # Qwen 3.6, que senão gasta tokens
+                                                            # de saída antes de escrever o JSON
             )
             raw = response.choices[0].message.content.strip()
             clean = raw.replace("```json", "").replace("```", "").strip()
