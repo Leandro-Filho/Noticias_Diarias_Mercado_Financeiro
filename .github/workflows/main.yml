@@ -19,6 +19,12 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: Debug (temporário — remover depois)
+        run: |
+          echo "Tamanho da GROQ_API_KEY recebida: ${#GROQ_API_KEY} caracteres"
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
       - run: python market_digest.py
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
