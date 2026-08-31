@@ -48,7 +48,7 @@ CATEGORY_CHAT_IDS = json.loads(os.environ.get("TELEGRAM_CATEGORY_CHAT_IDS") or "
 
 # Nomes de modelo mudam com o tempo — se parar de funcionar, confira
 # https://ai.google.dev/gemini-api/docs/models
-GEMINI_MODEL = "gemini-2.5-flash-lite"
+GEMINI_MODEL = "gemini-3.5-flash-lite"
 
 # Pool de feeds RSS — gratuitos, sem chave. Mantive só os que dá pra
 # confirmar de forma completa e sem ambiguidade (ver README pra por que
@@ -155,7 +155,13 @@ def fetch_pool() -> list[dict]:
 
     for feed_url in RSS_FEEDS:
         try:
-            parsed = feedparser.parse(feed_url)
+            # feedparser.parse(url) não tem timeout embutido — se passarmos
+            # a URL direto, um feed lento pode travar o script indefinidamente.
+            # Por isso baixamos com requests (que tem timeout) e só então
+            # entregamos o conteúdo já baixado pro feedparser interpretar.
+            resp = requests.get(feed_url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+            resp.raise_for_status()
+            parsed = feedparser.parse(resp.content)
             if parsed.bozo and not parsed.entries:
                 print(f"Feed vazio/inválido, pulando: {feed_url}")
                 continue
