@@ -123,12 +123,12 @@ MAX_CHARS_POR_ARTIGO = 4000
 MAX_CHARS_TRIAGEM = 120
 
 CATEGORIES = [
-    {"name": "Renda Fixa", "emoji": "🏦", "hint": "Selic, CDI, IPCA, Tesouro Direto, CDBs, LCI, LCA"},
-    {"name": "Renda Variável / Ações", "emoji": "📈", "hint": "Ibovespa, ações e empresas listadas na bolsa brasileira"},
-    {"name": "Criptomoedas", "emoji": "🪙", "hint": "Bitcoin, Ethereum, criptomoedas, regulação cripto"},
-    {"name": "Debêntures e Crédito Privado", "emoji": "📄", "hint": "debêntures, emissões, crédito privado, spread de crédito"},
-    {"name": "Mercado Internacional", "emoji": "🌎", "hint": "Federal Reserve, juros nos EUA, S&P 500, Nasdaq, mercados globais"},
-    {"name": "Mercado Imobiliário", "emoji": "🏗️", "hint": "fundos imobiliários (FIIs), CRI, financiamento imobiliário"},
+    {"id": "renda_fixa", "name": "Renda Fixa", "emoji": "🏦", "hint": "Selic, CDI, IPCA, Tesouro Direto, CDBs, LCI, LCA"},
+    {"id": "acoes", "name": "Renda Variável / Ações", "emoji": "📈", "hint": "Ibovespa, ações e empresas listadas na bolsa brasileira"},
+    {"id": "cripto", "name": "Criptomoedas", "emoji": "🪙", "hint": "Bitcoin, Ethereum, criptomoedas, regulação cripto"},
+    {"id": "debentures", "name": "Debêntures e Crédito Privado", "emoji": "📄", "hint": "debêntures, emissões, crédito privado, spread de crédito"},
+    {"id": "exterior", "name": "Mercado Internacional", "emoji": "🌎", "hint": "Federal Reserve, juros nos EUA, S&P 500, Nasdaq, mercados globais"},
+    {"id": "imobiliario", "name": "Mercado Imobiliário", "emoji": "🏗️", "hint": "fundos imobiliários (FIIs), CRI, financiamento imobiliário"},
 ]
 
 
@@ -233,6 +233,8 @@ def call_groq_json(prompt: str) -> dict:
         model=GROQ_MODEL,
         messages=[{"role": "user", "content": prompt}],
         response_format={"type": "json_object"},
+        temperature=0,  # mais previsível pra gerar JSON válido, menos "criativo"
+        max_tokens=2000,  # evita resposta cortada no meio por falta de espaço
     )
     return json.loads(response.choices[0].message.content)
 
@@ -243,10 +245,12 @@ def triagem(pool: list[dict]) -> dict:
         f"{i}. [{item['source']}] {item['title']} — {item['summary'][:MAX_CHARS_TRIAGEM]} ({item['link']})"
         for i, item in enumerate(pool)
     )
-    categorias_text = "\n".join(f"- {c['name']}: {c['hint']}" for c in CATEGORIES)
+    categorias_text = "\n".join(f'- "{c["id"]}" ({c["name"]}): {c["hint"]}' for c in CATEGORIES)
+    exemplo_schema = "{" + ", ".join(f'"{c["id"]}": []' for c in CATEGORIES) + "}"
 
     prompt = f"""Abaixo está uma lista numerada de notícias recentes de mercado
-financeiro, sem categoria definida, e a lista de categorias que existem.
+financeiro, sem categoria definida, e a lista de categorias que existem
+(o texto entre aspas é o identificador que você deve usar como chave).
 
 Categorias:
 {categorias_text}
@@ -255,11 +259,13 @@ Notícias:
 {pool_text}
 
 Pra cada categoria, escolha até {MAX_ITENS_POR_CATEGORIA} notícias da lista
-que sejam relevantes pra ela (pode ser nenhuma). Uma mesma notícia pode
+que sejam relevantes pra ela (pode ser lista vazia). Uma mesma notícia pode
 servir pra mais de uma categoria se fizer sentido. Responda SOMENTE com um
-JSON no formato exato, usando a URL exata de cada notícia escolhida:
+JSON válido, usando exatamente os identificadores entre aspas acima como
+chave (não use o nome completo da categoria) e a URL exata de cada notícia
+escolhida como valor. Formato exato, sem nenhum texto antes ou depois:
 
-{{"Renda Fixa": ["url1", "url2"], "Renda Variável / Ações": [], "Criptomoedas": [], "Debêntures e Crédito Privado": [], "Mercado Internacional": [], "Mercado Imobiliário": []}}"""
+{exemplo_schema}"""
 
     return call_groq_json(prompt)
 
@@ -403,7 +409,7 @@ def main() -> None:
             print(f"Sem grupo nem chat padrão configurado para '{cat['name']}' — pulando.")
             continue
 
-        urls_cat = selecao.get(cat["name"], [])
+        urls_cat = selecao.get(cat["id"], [])
         articles = []
         for url in urls_cat:
             base = pool_by_link.get(url)
