@@ -35,6 +35,7 @@ import feedparser
 import requests
 import trafilatura
 from dotenv import load_dotenv
+from json_repair import repair_json
 from openai import OpenAI
 from trafilatura import sitemaps as trafilatura_sitemaps
 from trafilatura import feeds as trafilatura_feeds
@@ -263,7 +264,12 @@ def call_groq_json(prompt: str, max_tokens: int = 1500, tentativas: int = 3) -> 
             start, end = clean.find("{"), clean.rfind("}")
             if start == -1 or end == -1:
                 raise ValueError(f"Resposta sem JSON reconhecível: {raw[:200]}")
-            return json.loads(clean[start : end + 1])
+            # repair_json conserta erros comuns de LLM (vírgula faltando, chave
+            # sem aspas, vírgula sobrando no fim) em vez de exigir JSON perfeito
+            resultado = repair_json(clean[start : end + 1], return_objects=True)
+            if not isinstance(resultado, dict):
+                raise ValueError(f"JSON reparado não é um objeto: {resultado!r}")
+            return resultado
         except Exception as exc:
             ultimo_erro = exc
             print(f"Tentativa {tentativa}/{tentativas} falhou ({exc}); tentando de novo...")
