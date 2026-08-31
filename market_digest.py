@@ -142,6 +142,19 @@ CATEGORIES = [
 ]
 
 
+def parse_data_artigo(data_str: str | None) -> datetime | None:
+    """O trafilatura (via htmldate) devolve a data do artigo no formato
+    YYYY-MM-DD. Se não vier nesse formato ou vier vazio, devolve None — nesse
+    caso o item é descartado por segurança em vez de arriscar mostrar
+    notícia velha como se fosse recente."""
+    if not data_str:
+        return None
+    try:
+        return datetime.strptime(data_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+
 def discover_article_links(listing_url: str) -> list[str]:
     """Pra sites sem RSS: acha links de notícia via sitemap, com fallback pra
     heurística de 'página é uma lista de links' do trafilatura."""
@@ -163,7 +176,15 @@ def discover_article_links(listing_url: str) -> list[str]:
 
 def fetch_pool_from_html_sources(full_text_cache: dict) -> list[dict]:
     """Monta itens de pool a partir de sites sem RSS, já aproveitando o
-    texto completo baixado (evita baixar a mesma página duas vezes)."""
+    texto completo baixado (evita baixar a mesma página duas vezes).
+
+    Importante: como não vem de RSS, não tem data pronta — extraímos a data
+    do próprio artigo e descartamos qualquer um fora da janela de recência
+    (JANELA_HORAS), ou sem data reconhecível. Sem isso, notícia velha da
+    lista do site (o sitemap não garante ordem cronológica) podia entrar
+    junto com as de hoje sem nenhum aviso — o que já aconteceu na prática.
+    """
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=JANELA_HORAS)
     pool = []
     for listing_url in HTML_SOURCES:
         links = discover_article_links(listing_url)
@@ -176,6 +197,15 @@ def fetch_pool_from_html_sources(full_text_cache: dict) -> list[dict]:
             if not text:
                 continue
             metadata = trafilatura.extract_metadata(downloaded)
+
+            data_artigo = parse_data_artigo(metadata.date if metadata else None)
+            if data_artigo is None:
+                print(f"Sem data reconhecível, descartando por segurança: {link}")
+                continue
+            if data_artigo < cutoff:
+                print(f"Notícia antiga ({data_artigo.date()}), descartando: {link}")
+                continue
+
             title = (metadata.title if metadata and metadata.title else link)
             full_text_cache[link] = text[:MAX_CHARS_POR_ARTIGO]
             pool.append(
@@ -335,14 +365,17 @@ pra produzir um resumo rico e preciso — não fique só na manchete.
 
 Responda SOMENTE com um JSON no formato exato:
 
-{{"items":[{{"title":"...","source":"...","url":"...","summary":"...","key_numbers":["..."],"market_impact":"...","sentiment":"up"}}]}}
+{{"items":[{{"title":"...","source":"...","url":"...","summary":"...","key_numbers":["Rótulo: valor"],"market_impact":"...","sentiment":"up"}}]}}
 
 Regras:
 - Um item por notícia recebida (não invente notícia que não está no texto acima).
 - "summary": 2 a 4 frases, com suas PRÓPRIAS palavras, aproveitando o texto
   completo (não só o título) — nunca copie frases exatas da fonte.
-- "key_numbers": todos os números relevantes citados no texto (percentuais,
-  valores, datas de referência).
+- "key_numbers": no máximo 4 números, só os mais importantes — e cada um
+  com um RÓTULO curto explicando o que ele representa, no formato
+  "Rótulo: valor" (exemplo: "Selic: 15%", "Ouro: -1%", "Ibovespa: 138.200
+  pontos"). Nunca um número sozinho sem dizer o que ele é — isso fica
+  ilegível quando junta vários números de fontes diferentes.
 - "market_impact": 1 a 2 frases objetivas sobre o efeito esperado no mercado.
 - "sentiment": "up", "down" ou "neutral"."""
 
