@@ -33,13 +33,18 @@ from datetime import datetime, timedelta, timezone
 import feedparser
 import requests
 import trafilatura
+from dotenv import load_dotenv
 from trafilatura import sitemaps as trafilatura_sitemaps
 from trafilatura import feeds as trafilatura_feeds
+
+load_dotenv()  # se existir um .env local, carrega ele; no GitHub Actions
+                # não existe .env, então isso não faz nada e os secrets
+                # continuam vindo normalmente das variáveis de ambiente
 
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 DEFAULT_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
-CATEGORY_CHAT_IDS = json.loads(os.environ.get("TELEGRAM_CATEGORY_CHAT_IDS", "{}"))
+CATEGORY_CHAT_IDS = json.loads(os.environ.get("TELEGRAM_CATEGORY_CHAT_IDS") or "{}")
 
 # Nomes de modelo mudam com o tempo — se parar de funcionar, confira
 # https://ai.google.dev/gemini-api/docs/models
