@@ -2,9 +2,11 @@ name: Chat com o Digest
 
 on:
   schedule:
-    # a cada 30 min — intervalo escolhido pra caber no limite gratuito de
-    # minutos do GitHub Actions em repositório privado (ver README)
-    - cron: "*/30 * * * *"
+    # a cada 5 min — o mínimo que o GitHub Actions permite pra workflow
+    # agendado. Só cabe de graça se o repositório for PÚBLICO (minutos
+    # ilimitados); em repositório privado, isso estouraria o limite
+    # gratuito de 2.000 min/mês rapidinho.
+    - cron: "*/5 * * * *"
   workflow_dispatch: {} # permite rodar manualmente pela aba Actions no GitHub
 
 jobs:

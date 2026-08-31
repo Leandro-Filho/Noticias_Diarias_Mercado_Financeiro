@@ -1,4 +1,5 @@
 """
+jhbvhkvbkrvbdjsvwevkjrkvqdhkvbqjlefbvkçabsdfçvbkfrfkjwqdbvklqv bnsdv dwjl
 Chat sobre o digest do dia — roda periodicamente via GitHub Actions
 (não é um servidor sempre ligado, então a resposta não é instantânea; o
 atraso máximo é o intervalo entre execuções, configurado no workflow).
