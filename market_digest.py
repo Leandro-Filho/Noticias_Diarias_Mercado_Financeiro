@@ -114,6 +114,14 @@ MAX_ITENS_POR_CATEGORIA = 4
 # tokens da camada gratuita).
 MAX_CHARS_POR_ARTIGO = 4000
 
+# Quantos caracteres do resumo de cada notícia entram no prompt de TRIAGEM
+# (não confundir com MAX_CHARS_POR_ARTIGO, que é pro texto completo na
+# síntese). A triagem só precisa de contexto suficiente pra classificar a
+# categoria, então mantemos curto — com o pool crescendo (mais feeds, mais
+# notícias), isso evita estourar o limite de tokens por minuto da camada
+# gratuita.
+MAX_CHARS_TRIAGEM = 120
+
 CATEGORIES = [
     {"name": "Renda Fixa", "emoji": "🏦", "hint": "Selic, CDI, IPCA, Tesouro Direto, CDBs, LCI, LCA"},
     {"name": "Renda Variável / Ações", "emoji": "📈", "hint": "Ibovespa, ações e empresas listadas na bolsa brasileira"},
@@ -232,7 +240,7 @@ def call_groq_json(prompt: str) -> dict:
 def triagem(pool: list[dict]) -> dict:
     """1 chamada só: decide quais itens do pool servem pra cada categoria."""
     pool_text = "\n".join(
-        f"{i}. [{item['source']}] {item['title']} — {item['summary']} ({item['link']})"
+        f"{i}. [{item['source']}] {item['title']} — {item['summary'][:MAX_CHARS_TRIAGEM]} ({item['link']})"
         for i, item in enumerate(pool)
     )
     categorias_text = "\n".join(f"- {c['name']}: {c['hint']}" for c in CATEGORIES)
