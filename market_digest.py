@@ -73,7 +73,12 @@ groq_client = OpenAI(api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai
 # Nomes de modelo mudam com o tempo — se parar de funcionar, confira
 # https://console.groq.com/docs/models (a Groq costuma avisar por e-mail
 # com bastante antecedência quando descontinua um modelo).
-GROQ_MODEL = "openai/gpt-oss-120b"
+# Kimi K2, não gpt-oss: gpt-oss é modelo "de raciocínio" (pensa antes de
+# responder, gastando tokens nisso — o que causava resposta vazia com
+# limite de tokens apertado) e teve bug documentado no fórum da Groq com
+# o modo de JSON garantido. Kimi K2 não tem essa etapa de raciocínio e é
+# recomendado pela própria Groq pra saída JSON confiável.
+GROQ_MODEL = "moonshotai/kimi-k2-instruct"
 
 # Pool de feeds RSS — gratuitos, sem chave. Mantive só os que dá pra
 # confirmar de forma completa e sem ambiguidade (ver README pra por que
