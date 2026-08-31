@@ -116,8 +116,11 @@ MAX_LINKS_POR_HTML_SOURCE = 8
 JANELA_HORAS = 36
 
 # Quantos itens no máximo por categoria vão pro texto completo (controla
-# custo de banda/tempo e tamanho do prompt de síntese).
-MAX_ITENS_POR_CATEGORIA = 4
+# custo de banda/tempo e tamanho do prompt de síntese). Reduzido de 4 pra 2
+# porque cada item agora traz análise bem mais rica (mecanismo, implicação,
+# próximo evento) — 4 itens desse tamanho estourava o limite de caracteres
+# de uma mensagem do Telegram.
+MAX_ITENS_POR_CATEGORIA = 2
 
 # Quantos caracteres do texto completo de cada artigo entram no prompt de
 # síntese (o suficiente pra uma notícia inteira, sem estourar o limite de
@@ -341,45 +344,46 @@ Exemplo de resposta válida (números são só ilustrativos): {{"renda_fixa": [3
     return call_groq_json(prompt, max_tokens=400)  # resposta é só números, cabe tranquilo
 
 
-def sintese(cat: dict, articles: list[dict]) -> dict:
-    """1 chamada por categoria: resume o texto completo dos artigos escolhidos."""
-    if not articles:
-        return {"items": []}
+def analisa_noticia(article: dict) -> dict:
+    """1 chamada por notícia (não por categoria): analisa em profundidade,
+    focado em ajudar decisão de investimento de curto/médio prazo — não só
+    resumir o que já aconteceu."""
+    prompt = f"""Você é um analista de mercado ajudando um investidor de curto/médio
+prazo a decidir onde prestar atenção — não é só um resumo de notícia, é uma
+leitura de investimento. Responda sempre em português do Brasil.
 
-    corpo = "\n\n---\n\n".join(
-        f"Fonte: {a['source']}\nTítulo: {a['title']}\nURL: {a['link']}\nTexto:\n{a['text']}"
-        for a in articles
-    )
-
-    prompt = f"""Você é um analista de mercado preparando um resumo diário curto para
-um profissional que está se preparando para atuar com wealth management em
-um banco. Responda sempre em português do Brasil.
-
-Categoria: {cat['name']} ({cat['hint']})
-
-Abaixo está o texto completo de {len(articles)} notícia(s) já selecionadas
-como relevantes pra essa categoria. Use o máximo de conteúdo desses textos
-pra produzir um resumo rico e preciso — não fique só na manchete.
-
-{corpo}
+Fonte: {article['source']}
+Título: {article['title']}
+Texto completo:
+{article['text']}
 
 Responda SOMENTE com um JSON no formato exato:
 
-{{"items":[{{"title":"...","source":"...","url":"...","summary":"...","key_numbers":["Rótulo: valor"],"market_impact":"...","sentiment":"up"}}]}}
+{{"resumo":"...","mecanismo":"...","proximo_evento":"...","implicacao":"...","key_numbers":["Rótulo: valor"],"sentiment":"up"}}
 
-Regras:
-- Um item por notícia recebida (não invente notícia que não está no texto acima).
-- "summary": 2 a 4 frases, com suas PRÓPRIAS palavras, aproveitando o texto
-  completo (não só o título) — nunca copie frases exatas da fonte.
-- "key_numbers": no máximo 4 números, só os mais importantes — e cada um
-  com um RÓTULO curto explicando o que ele representa, no formato
-  "Rótulo: valor" (exemplo: "Selic: 15%", "Ouro: -1%", "Ibovespa: 138.200
-  pontos"). Nunca um número sozinho sem dizer o que ele é — isso fica
-  ilegível quando junta vários números de fontes diferentes.
-- "market_impact": 1 a 2 frases objetivas sobre o efeito esperado no mercado.
+Regras pra cada campo:
+- "resumo": 1 a 2 frases, o fato em si, com suas PRÓPRIAS palavras — nunca
+  copie frases exatas da fonte.
+- "mecanismo": explique a CADEIA causal — o que está acontecendo e POR QUE
+  isso leva ao efeito esperado. Exemplo do estilo esperado: "O Copom sinaliza
+  corte de 0,50 p.p. na próxima reunião porque a inflação desacelerou mais
+  que o previsto — isso reduz o custo de crédito e tende a beneficiar ativos
+  sensíveis a juros, como IPCA+ mais longos.". Seja específico, não genérico.
+- "proximo_evento": qual é o PRÓXIMO gatilho relacionado a essa notícia que
+  vale acompanhar (próxima reunião, próximo dado divulgado, prazo) — isso é
+  o que vira notícia depois, não o que já aconteceu.
+- "implicacao": a cadeia de raciocínio setorial/classe de ativo, no estilo
+  "porque X, o setor/classe Y tende a Z, já que [mecanismo]". Exemplo do
+  estilo esperado: "Com a Selic caindo, o setor imobiliário tende a se
+  beneficiar, porque crédito mais barato aumenta o poder de financiamento e
+  puxa demanda por imóveis.". Fale de SETOR ou CLASSE DE ATIVO, nunca de uma
+  ação/empresa específica por nome — isso não é recomendação de compra/venda,
+  é raciocínio pra você aplicar com seu próprio julgamento.
+- "key_numbers": no máximo 4 números, cada um com RÓTULO (formato "Rótulo:
+  valor", ex: "Selic: 15%") — nunca número solto sem dizer o que é.
 - "sentiment": "up", "down" ou "neutral"."""
 
-    return call_groq_json(prompt)
+    return call_groq_json(prompt, max_tokens=900)
 
 
 # -------------------------------------------------------------- Texto completo
@@ -404,10 +408,9 @@ def escape_html(text: str) -> str:
     return (text or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def format_category_message(cat: dict, data: dict) -> str:
+def format_category_message(cat: dict, items: list[dict]) -> str:
     today = datetime.now().strftime("%d/%m")
     lines = [f"<b>{cat['emoji']} {cat['name']}</b> · {today}"]
-    items = data.get("items", [])
     if not items:
         lines.append("Sem novidades relevantes hoje.")
     for it in items:
@@ -416,13 +419,17 @@ def format_category_message(cat: dict, data: dict) -> str:
         lines.append(f"{icon} <b>{escape_html(it.get('title', ''))}</b>")
         if it.get("source"):
             lines.append(f"<i>{escape_html(it['source'])}</i>")
-        if it.get("summary"):
-            lines.append(escape_html(it["summary"]))
+        if it.get("resumo"):
+            lines.append(escape_html(it["resumo"]))
         nums = it.get("key_numbers") or []
         if nums:
             lines.append("📊 " + " · ".join(escape_html(n) for n in nums))
-        if it.get("market_impact"):
-            lines.append("💡 " + escape_html(it["market_impact"]))
+        if it.get("mecanismo"):
+            lines.append("🔎 " + escape_html(it["mecanismo"]))
+        if it.get("implicacao"):
+            lines.append("💡 " + escape_html(it["implicacao"]))
+        if it.get("proximo_evento"):
+            lines.append("📅 <i>De olho em:</i> " + escape_html(it["proximo_evento"]))
     return "\n".join(lines)
 
 
@@ -482,6 +489,18 @@ def main() -> None:
         # se não conseguir o texto completo, cai pro resuminho do RSS mesmo assim
         textos[url] = texto or pool_by_link.get(url, {}).get("summary", "")
 
+    # analisa cada notícia selecionada UMA VEZ (mesmo que sirva pra mais de uma
+    # categoria), cacheando por índice — evita gastar chamada em dobro
+    analises_por_indice: dict[int, dict] = {}
+    for i in sorted(indices_selecionados):
+        base = pool[i]
+        article = {**base, "text": textos.get(base["link"], base["summary"])}
+        try:
+            analises_por_indice[i] = {**base, **analisa_noticia(article)}
+        except Exception as exc:
+            print(f"Falha analisando notícia {i} ({base.get('title', '')[:60]}): {exc}")
+        time.sleep(1)  # espaça as chamadas de análise entre si
+
     for cat in CATEGORIES:
         chat_id = resolve_chat_id(cat["name"])
         if not chat_id:
@@ -489,16 +508,12 @@ def main() -> None:
             continue
 
         idxs_cat = indices_validos(selecao.get(cat["id"], []))
-        articles = []
-        for i in idxs_cat:
-            base = pool[i]
-            articles.append({**base, "text": textos.get(base["link"], base["summary"])})
+        items = [analises_por_indice[i] for i in idxs_cat if i in analises_por_indice]
 
         try:
-            data = sintese(cat, articles)
-            message = format_category_message(cat, data)
+            message = format_category_message(cat, items)
         except Exception as exc:
-            message = f"⚠️ <b>{cat['emoji']} {cat['name']}</b>\nNão consegui buscar essa categoria hoje ({exc})."
+            message = f"⚠️ <b>{cat['emoji']} {cat['name']}</b>\nNão consegui montar essa categoria hoje ({exc})."
 
         send_telegram(chat_id, message)
         time.sleep(2)
