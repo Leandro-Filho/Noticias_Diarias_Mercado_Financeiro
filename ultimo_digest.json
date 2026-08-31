@@ -1,62 +1,82 @@
 {
-  "gerado_em": "2026-08-31T21:36:37.731812+00:00",
+  "gerado_em": "2026-08-31T22:08:29.923946+00:00",
   "itens": [
     {
-      "title": "Ibovespa tem 9ª alta seguida com Petrobras (PETR4) e cenário eleitoral; dólar cai a R$ 5,18",
+      "title": "Ibovespa: 2 motivos que fizeram índice cair em agosto; ação do agro lidera altas",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-31-8-26-apsa/",
+      "link": "https://www.moneytimes.com.br/ibovespa-agosto-26-apsa/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa registrou sua nona alta consecutiva, impulsionado pelo desempenho da Petrobras e pela rotação de capital, enquanto o dólar recuava para R$ 5,18 em meio à atenção do mercado com as pesquisas eleitorais.",
-      "mecanismo": "A valorização do petróleo Brent elevou as receitas esperadas da Petrobras, que possui peso significativo no índice, compensando a queda de outros setores; simultaneamente, a percepção de menor risco político ou a rotação para ativos locais fortaleceu o real, pressionando o dólar para baixo e atraindo fluxo para o mercado acionário brasileiro.",
-      "implicacao": "Com a alta do petróleo e a queda do dólar, o setor de energia tende a se beneficiar com margens expandidas, enquanto empresas exportadoras de commodities não energéticas e bens de consumo sensíveis ao câmbio podem enfrentar pressão sobre seus resultados em reais devido à valorização da moeda local.",
-      "proximo_evento": "Publicação de novas pesquisas de intenção de voto e divulgação de dados macroeconômicos que possam alterar a percepção de risco fiscal e eleitoral.",
+      "resumo": "O Ibovespa recuou em agosto devido à saída de capital estrangeiro motivada por riscos fiscais e desaceleração econômica, enquanto o setor agropecuário se destacou com altas significativas.",
+      "mecanismo": "A rebaixamento de recomendações por grandes bancos internacionais, como JP Morgan e Morgan Stanley, sinalizou que os riscos fiscais e a deterioração do ciclo de crédito brasileiro superaram os benefícios da queda da inflação, levando investidores globais a reduzirem sua exposição ao país em favor de ativos com melhor relação risco-retorno.",
+      "implicacao": "Com a expectativa de cortes na Selic mantida apesar da cautela fiscal, o setor de crédito tende a se beneficiar a médio prazo pela redução do custo de captação, enquanto o setor agropecuário deve continuar atraindo fluxo defensivo devido à percepção de que riscos climáticos já estão precificados e à demanda global por commodities.",
+      "proximo_evento": "Decisão do Federal Reserve sobre os juros dos EUA em setembro e a divulgação dos dados de inflação (IPCA) de setembro.",
       "key_numbers": [
-        "Ibovespa: 177.418,78 pontos",
+        "Ibovespa: -0,33%",
         "Dólar: R$ 5,18",
-        "Petrobras (PETR4): +3,38%",
-        "Vantagem Lula: 4,5 p.p."
+        "Selic 2026 (XP): 13,25%",
+        "SLC Agrícola: +19,66%"
       ],
-      "sentiment": "up"
+      "sentiment": "down"
     },
     {
-      "title": "Wall Street avança mais 1% em agosto, apesar de Oriente Médio; Nasdaq salta 3%",
+      "title": "Dólar recua a R$ 5,18, mas avança mais de 2% em agosto",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-31-8-26-apsa/",
+      "link": "https://www.moneytimes.com.br/dolar-31-8-26-apsa/",
       "categorias": [
+        "renda_fixa",
         "exterior"
       ],
-      "resumo": "Wall Street encerrou agosto com ganhos liderados pelo setor de tecnologia, apesar da volatilidade intradiária causada pela escalada geopolítica no Oriente Médio e pela alta do petróleo.",
-      "mecanismo": "A tensão entre EUA e Irã elevou o preço do petróleo, reacendendo temores inflacionários e forçando uma rotação para ativos de refúgio como os Treasuries; contudo, a força dos resultados corporativos, especialmente em tecnologia, sustentou os índices de ações, enquanto o mercado de juros precifica uma possível alta de juros pelo Fed.",
-      "implicacao": "Com a alta do petróleo e a expectativa de juros mais altos, o setor de energia tende a se beneficiar com margens expandidas, enquanto setores sensíveis ao custo de capital, como tecnologia e imobiliário, podem enfrentar pressão de valuation devido ao aumento da taxa livre de risco.",
-      "proximo_evento": "Reunião do Federal Reserve em setembro para definição da taxa de juros.",
+      "resumo": "O dólar recuou levemente para R$ 5,18 impulsionado pela alta do petróleo, mas manteve uma valorização mensal de mais de 2% frente ao real devido à incerteza eleitoral e tensões geopolíticas.",
+      "mecanismo": "A escalada de tensões entre EUA e Irã elevou o preço do petróleo, o que fortalece a moeda brasileira por ser um exportador líquido de energia; simultaneamente, a disputa eleitoral acirrada no Brasil gera prêmio de risco, sustentando a valorização cambial apesar da queda pontual.",
+      "implicacao": "O setor de exportação de commodities, especialmente energia e agronegócio, tende a se beneficiar com a valorização cambial e preços altos de insumos, enquanto empresas importadoras de insumos ou com dívida em dólar enfrentam pressão sobre margens e custos.",
+      "proximo_evento": "Divulgação de novas pesquisas eleitorais e evolução dos preços do petróleo Brent nos próximos dias de negociação.",
       "key_numbers": [
-        "Nasdaq agosto: +3,93%",
-        "Petróleo Brent: US$ 90,49",
-        "Probabilidade de alta Fed: 65,9%",
-        "S&P 500 agosto: +2,62%"
+        "Dólar à vista: R$ 5,18",
+        "Valorização mensal do dólar: 2,16%",
+        "Preço do Brent: US$ 90,49",
+        "Intenção de voto Lula: 47,1%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Taxas têm variações contidas sob influência de pesquisas eleitorais e Treasuries",
+      "title": "Sai Itaúsa (ITSA4), entra Itaú (ITUB4): 5 ações para quem busca dividendos, segundo a Ágora Investimentos",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/taxas-tem-variacoes-contidas-sob-influencia-de-pesquisas-eleitorais-e-treasuries/",
+      "link": "https://www.moneytimes.com.br/sai-itausa-itsa4-entra-itau-itub4-5-acoes-para-quem-busca-dividendos-segundo-a-agora-investimentos-lmrs/",
       "categorias": [
-        "renda_fixa"
+        "acoes"
       ],
-      "resumo": "As taxas de juros no Brasil apresentam movimentos contidos, equilibrando a pressão baixista de uma disputa eleitoral acirrada com a pressão altista dos rendimentos americanos elevados devido a tensões geopolíticas no Oriente Médio.",
-      "mecanismo": "A percepção de que uma reeleição de Lula pode comprometer o equilíbrio fiscal reduz a demanda por proteção via dólar e juros altos, exercendo pressão baixista; contudo, os ataques militares EUA-Irã elevam o preço do petróleo e os rendimentos dos Treasuries, importando inflação e puxando a curva de juros brasileira para cima.",
-      "implicacao": "Títulos públicos prefixados tendem a sofrer volatilidade com suporte nos rendimentos externos, enquanto o setor de energia pode se beneficiar com a alta do petróleo, embora o risco geopolítico possa pressionar a aversão a risco global.",
-      "proximo_evento": "Divulgação de novas pesquisas eleitorais e dados de inflação nos EUA que possam alterar a expectativa de política monetária do Fed.",
+      "resumo": "A Ágora Investimentos ajustou sua carteira de dividendos para setembro, substituindo a Itaúsa pela ação ordinária do Itaú Unibanco em busca de melhor qualidade e retorno.",
+      "mecanismo": "A troca ocorre porque o Itaú Unibanco apresenta um ROE líder e execução consistente, justificando seu prêmio de valuation em relação aos pares; a expectativa é que a lucratividade sustentável e o yield atrativo ofereçam proteção defensiva e valorização em cenários de queda de juros.",
+      "implicacao": "O setor bancário tende a se beneficiar de ciclos de redução da taxa de juros, pois a queda nos custos de captação e o aumento da demanda por crédito potencializam as margens financeiras e a geração de caixa para distribuição de dividendos.",
+      "proximo_evento": "Divulgação dos resultados trimestrais do Itaú Unibanco e demais empresas da carteira para o próximo período apurado.",
       "key_numbers": [
-        "DI Jan/2028: 13,79%",
-        "DI Jan/2035: 14,56%",
-        "Treasury 10 anos: 4,756%",
-        "Petróleo Brent: acima de US$ 90"
+        "Yield médio projetado: 7,4%",
+        "Desempenho carteira agosto: -5,4%",
+        "Yield projetado Allos: 13,0%",
+        "Yield projetado Itaú: 7,7%"
       ],
-      "sentiment": "neutral"
+      "sentiment": "up"
+    },
+    {
+      "title": "Here’s what happened in crypto today",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "Grandes corporações como Strive e Strategy retomaram agressivamente a compra de Bitcoin, impulsionando o preço acima de US$ 81.000, enquanto um exploit de US$ 75 milhões na rede Cronos gerou volatilidade pontual no setor DeFi.",
+      "mecanismo": "A entrada massiva de capital corporativo (Strive e Strategy) cria uma pressão de compra estrutural que absorve a oferta disponível, elevando o preço do Bitcoin; simultaneamente, o anúncio de recompra de títulos pelo Tesouro dos EUA sinaliza liquidez, reforçando a apetite por ativos de risco, embora o hack na Cronos demonstre riscos operacionais que podem drenar liquidez temporariamente de protocolos DeFi específicos.",
+      "implicacao": "O setor de ativos digitais tende a se beneficiar com a validação institucional contínua, pois a acumulação corporativa reduz a oferta circulante e aumenta a percepção de escassez, enquanto o setor DeFi enfrenta pressão de confiança até que a resolução do exploit na Cronos seja esclarecida.",
+      "proximo_evento": "Comunicação oficial de Cronos e Tectonic sobre a recuperação dos fundos e reinício da rede, além do próximo relatório trimestral de tesouraria da Strategy.",
+      "key_numbers": [
+        "Compra Strive: 1.800 BTC",
+        "Compra Strategy: 4.603 BTC",
+        "Preço médio BTC: US$ 80.318",
+        "Perda estimada Cronos: US$ 75 milhões"
+      ],
+      "sentiment": "up"
     },
     {
       "title": "Bitcoin begins volatile monthly close as US bond yields eye new 20-year high",
@@ -78,74 +98,40 @@
       "sentiment": "down"
     },
     {
-      "title": "Strategy buys $370M Bitcoin in first corporate purchase since June",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/strategy-buys-370m-bitcoin-first-acquisition-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Brookfield’s HomeServe plans $1.8B bond deal for $600M dividend - Bloomberg",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/brookfields-homeserve-plans-18b-bond-deal-for-600m-dividend--bloomberg-93CH-4883314",
       "categorias": [
-        "cripto"
+        "renda_fixa",
+        "debentures"
       ],
-      "resumo": "A Strategy retomou a compra de Bitcoin após duas meses de pausa, adquirindo 4.603 BTC por US$ 370 milhões, financiados pela venda de ações ordinárias e recompra de ações preferenciais.",
-      "mecanismo": "A empresa utiliza a emissão e venda de seu capital próprio (ações MSTR e preferenciais STRC) para financiar a acumulação de Bitcoin, criando um ciclo onde a demanda corporativa estruturada por ativos de risco sustenta o preço do BTC, enquanto o desconto nas ações preferenciais sinaliza pressão de financiamento que pode levar a ajustes nos dividendos.",
-      "implicacao": "A retomada das compras por um dos maiores detentores corporativos tende a fortalecer o sentimento de mercado para a classe de ativos criptográficos, especialmente Bitcoin, validando a tese de acumulação institucional e reduzindo a oferta circulante disponível no mercado spot.",
-      "proximo_evento": "Monitorar o preço de negociação das ações preferenciais STRC em relação ao seu valor nominal de US$ 100, pois um desconto persistente pode forçar a empresa a aumentar a taxa de dividendos ou alterar sua estratégia de captação de recursos.",
+      "resumo": "A HomeServe, braço residencial da Brookfield, estruturou uma emissão de dívida de US$ 1,8 bilhão para financiar o pagamento de um dividêndio de US$ 600 milhões aos acionistas.",
+      "mecanismo": "A empresa está substituindo capital próprio por capital de dívida (alavancagem) para distribuir caixa imediato, o que aumenta a alavancagem financeira e a obrigação de serviço da dívida, mas sinaliza confiança na geração de caixa futuro para honrar os juros e amortizações.",
+      "implicacao": "Para o setor de seguros e serviços residenciais, a operação demonstra que empresas maduras com fluxo de caixa estável podem usar o mercado de crédito para otimizar o retorno ao acionista, beneficiando ativos sensíveis a dividendos, desde que o custo da dívida permaneça atrativo em relação ao custo de capital próprio.",
+      "proximo_evento": "O fechamento efetivo da emissão de títulos e a divulgação dos termos finais, incluindo a taxa de cupom e o vencimento da dívida.",
       "key_numbers": [
-        "BTC Adquiridos: 4.603",
-        "Valor da Compra: US$ 370 milhões",
-        "Preço Médio de Compra: US$ 80.318",
-        "Total de BTC na Carteira: 845.050"
+        "Emissão de dívida: US$ 1,8 bilhão",
+        "Dividêndio: US$ 600 milhões"
       ],
       "sentiment": "up"
     },
     {
-      "title": "U.S. stocks lower at close of trade; Dow Jones Industrial Average down 0.70%",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-070-4883258",
+      "title": "Stocks Were Strong In August. Here's What Could Derail The S&P 500's Rally",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4941878-stocks-strong-in-august-what-could-derail-the-sp500-rally?source=feed_all_articles",
       "categorias": [
         "exterior"
       ],
-      "resumo": "Os mercados americanos encerraram a sessão em baixa, com o índice Dow Jones recuando 0,70%, refletindo uma pressão vendedora generalizada nos ativos de risco.",
-      "mecanismo": "O fechamento negativo indica uma aversão temporária ao risco ou lucros tomadores, onde investidores realizam ganhos ou se protegem contra incertezas macroeconômicas, reduzindo a demanda imediata por ações e pressionando os preços para baixo.",
-      "implicacao": "Com a queda nos índices americanos, o setor de tecnologia e ações de crescimento tendem a sofrer maior pressão, pois são mais sensíveis a mudanças no apetite por risco e expectativas de juros, enquanto ativos defensivos podem atrair fluxos de proteção.",
-      "proximo_evento": "Acompanhar os próximos dados de inflação (CPI/PCE) ou decisões da Reserva Federal (Fed) que possam redefinir as expectativas de juros e validar ou reverter essa correção.",
+      "resumo": "O mercado de ações registrou ganhos amplos em agosto, impulsionados pela força das grandes empresas de tecnologia e pelo setor de energia, apesar dos riscos macroeconômicos persistentes.",
+      "mecanismo": "A alta dos rendimentos das títulos do Tesouro americano penalizou setores defensivos como utilidades, enquanto a resiliência do consumidor e o forte crescimento dos lucros (EPS) sustentaram a valorização das mega-cap tech e refinarias menores, criando um cenário onde o otimismo com os resultados trimestrais supera temporariamente as preocupações com a inflação subjacente.",
+      "implicacao": "Com os juros em alta e a inflação central teimosa, o setor de utilidades tende a sofrer pressão por ser sensível a taxas, enquanto o setor de tecnologia e energia podem manter força se o crescimento dos lucros continuar robusto, já que investidores priorizam empresas com geração de caixa forte em ambientes de custo de capital elevado.",
+      "proximo_evento": "Decisão do Federal Reserve sobre os juros em setembro e divulgação dos dados do mercado de trabalho e inflação que precederão a reunião.",
       "key_numbers": [
-        "Dow Jones: -0,70%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Brazil stocks higher at close of trade; Bovespa up 1.00%",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/brazil-stocks-higher-at-close-of-trade-bovespa-up-100-4883255",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O índice Bovespa encerrou a sessão com alta de 1%, refletindo um sentimento otimista entre os investidores no fechamento do pregão.",
-      "mecanismo": "O movimento de alta sugere uma entrada de fluxo de capital ou uma reação positiva a dados macroeconômicos recentes, reduzindo a aversão ao risco e incentivando a compra de ações em detrimento de ativos de renda fixa ou dólar.",
-      "implicacao": "Com o índice em alta, o setor financeiro tende a se beneficiar inicialmente, pois a valorização do mercado acionário melhora a percepção de risco e pode aumentar a demanda por produtos de investimento, embora a sustentabilidade dependa da fundamentação macroeconômica.",
-      "proximo_evento": "Acompanhar os indicadores de fluxo de capital estrangeiro e as próximas divulgações de dados inflacionários ou de atividade econômica que possam confirmar ou reverter essa tendência.",
-      "key_numbers": [
-        "Variação Bovespa: 1.00%"
+        "S&P 500 em agosto: +2%",
+        "Alvo ano S&P 500: >8000",
+        "Probabilidade corte Fed set: ~50%"
       ],
       "sentiment": "up"
-    },
-    {
-      "title": "Should You Wait Around For A Lower Mortgage Rate?",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4941897-should-you-wait-around-for-lower-mortgage-rate?source=feed_all_articles",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O artigo argumenta que esperar por uma queda drástica nas taxas de hipoteca pode ser uma estratégia arriscada, sugerindo que o mercado imobiliário já está se ajustando às novas condições de juros.",
-      "mecanismo": "A persistência das taxas de juros em patamares elevados reduz o poder de compra dos compradores, o que limita a oferta de imóveis e sustenta os preços, criando um cenário onde a espera por taxas mais baixas pode resultar em perda de oportunidade de compra ou aumento de custos de oportunidade.",
-      "implicacao": "O setor imobiliário e os títulos lastreados em hipotecas (MBS) tendem a enfrentar volatilidade, pois a sensibilidade às taxas de juros continua alta, afetando a demanda por financiamento e a valorização dos ativos imobiliários.",
-      "proximo_evento": "Próximas decisões do Federal Reserve sobre a taxa de juros federal e a divulgação dos dados de inflação (CPI/PCE) que influenciam diretamente as taxas hipotecárias.",
-      "key_numbers": [
-        "Taxa Hipotecária Média: ~7%",
-        "Inflação EUA: ~3%",
-        "Meta do Fed: 2%",
-        "Estoque de Imóveis: Baixo"
-      ],
-      "sentiment": "neutral"
     }
   ]
 }
