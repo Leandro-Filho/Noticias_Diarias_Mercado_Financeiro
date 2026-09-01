@@ -1,8 +1,9 @@
 """
-jhbvhkvbkrvbdjsvwevkjrkvqdhkvbqjlefbvkçabsdfçvbkfrfkjwqdbvklqv bnsdv dwjl
-Chat sobre o digest do dia — roda periodicamente via GitHub Actions
-(não é um servidor sempre ligado, então a resposta não é instantânea; o
-atraso máximo é o intervalo entre execuções, configurado no workflow).
+Chat sobre o digest do dia — roda via GitHub Actions, disparado pelo
+cron-job.org (não pelo agendamento interno do GitHub, que provou ser pouco
+confiável — ver README). Não é um servidor sempre ligado, então a resposta
+não é instantânea; o atraso máximo é o intervalo entre disparos do
+cron-job.org (2 min, por padrão).
 
 Como funciona:
   1. Pergunta pro Telegram se tem mensagem nova desde a última checada (o
@@ -12,13 +13,16 @@ Como funciona:
      nos grupos configurados em TELEGRAM_CATEGORY_CHAT_IDS) — evita gastar
      chamada de API se alguém de fora achar o bot.
   3. Pra cada mensagem válida, monta o contexto com o digest do dia (lido
-     de ultimo_digest.json, que o market_digest.py deixa salvo no
-     repositório) e manda pra Groq responder.
-  4. Manda a resposta de volta no mesmo chat.
+     de ultimo_digest.json) + o histórico da conversa (guardado no Upstash
+     Redis, já que cada execução do GitHub Actions começa do zero e não
+     lembra da execução anterior sozinha) e manda pra Groq responder.
+  4. Manda a resposta de volta no mesmo chat, e salva a troca no histórico.
 
-Variáveis de ambiente necessárias (as mesmas do market_digest.py):
+Variáveis de ambiente necessárias:
   GROQ_API_KEY, TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID,
   TELEGRAM_CATEGORY_CHAT_IDS (opcional)
+  UPSTASH_REDIS_REST_URL, UPSTASH_REDIS_REST_TOKEN (opcional — sem isso o
+  bot funciona igual, só sem lembrar de mensagens anteriores)
 """
 
 import json
@@ -35,6 +39,8 @@ GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 DEFAULT_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 CATEGORY_CHAT_IDS = json.loads(os.environ.get("TELEGRAM_CATEGORY_CHAT_IDS") or "{}")
+UPSTASH_URL = os.environ.get("UPSTASH_REDIS_REST_URL", "")
+UPSTASH_TOKEN = os.environ.get("UPSTASH_REDIS_REST_TOKEN", "")
 
 if not GROQ_API_KEY:
     raise SystemExit("GROQ_API_KEY está vazio ou não configurado.")
@@ -44,6 +50,9 @@ if not TELEGRAM_BOT_TOKEN:
 groq_client = OpenAI(api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai/v1")
 GROQ_MODEL = "qwen/qwen3.6-27b"  # mesmo modelo do market_digest.py — ver comentários lá
 DIGEST_PATH = "ultimo_digest.json"
+
+# Quantas trocas (pergunta+resposta) manter no histórico de cada conversa.
+MAX_TROCAS_HISTORICO = 6
 
 # Só responde em chats reconhecidos — evita gastar chamada de API se alguém
 # de fora encontrar o bot e mandar mensagem.
@@ -83,7 +92,7 @@ def busca_mensagens_novas() -> list[dict]:
     return mensagens
 
 
-def monta_contexto(digest: dict) -> str:
+def monta_contexto_digest(digest: dict) -> str:
     itens = digest.get("itens", [])
     if not itens:
         return "Nenhuma notícia no digest de hoje ainda."
@@ -99,29 +108,79 @@ def monta_contexto(digest: dict) -> str:
     return "\n\n".join(blocos)
 
 
-def responde(pergunta: str, digest: dict) -> str:
-    contexto = monta_contexto(digest)
+# --------------------------------------------------------- Histórico (Upstash)
 
-    prompt = f"""Você é um analista de mercado conversando com um investidor de
-curto/médio prazo sobre o resumo de notícias que ele recebeu hoje. Responda
-sempre em português do Brasil, em texto corrido normal (nada de JSON aqui).
+def historico_carrega(chat_id: str) -> list[dict]:
+    """Pega as últimas mensagens dessa conversa. Se o Upstash não estiver
+    configurado, ou der qualquer erro, devolve vazio — o bot ainda funciona,
+    só sem lembrar de mensagens anteriores."""
+    if not UPSTASH_URL or not UPSTASH_TOKEN:
+        return []
+    try:
+        resp = requests.get(
+            f"{UPSTASH_URL}/get/historico:{chat_id}",
+            headers={"Authorization": f"Bearer {UPSTASH_TOKEN}"},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        valor = resp.json().get("result")
+        return json.loads(valor) if valor else []
+    except Exception as exc:
+        print(f"Falha lendo histórico do Upstash ({chat_id}): {exc}")
+        return []
 
-Notícias do digest de hoje:
-{contexto}
 
-Pergunta da pessoa: {pergunta}
+def historico_salva(chat_id: str, historico: list[dict]) -> None:
+    if not UPSTASH_URL or not UPSTASH_TOKEN:
+        return
+    historico = historico[-(MAX_TROCAS_HISTORICO * 2):]  # cada troca = 2 entradas (user+assistant)
+    try:
+        requests.post(
+            f"{UPSTASH_URL}/set/historico:{chat_id}",
+            headers={"Authorization": f"Bearer {UPSTASH_TOKEN}"},
+            json=json.dumps(historico),  # valor precisa ir como string JSON
+            timeout=10,
+        )
+    except Exception as exc:
+        print(f"Falha salvando histórico no Upstash ({chat_id}): {exc}")
 
-Use as notícias acima quando fizerem sentido pra pergunta. Se a pergunta não
-tiver relação com nenhuma delas, responda com seu conhecimento geral sobre o
-tema, deixando claro que essa parte não veio do digest de hoje. Fale de
-setor ou classe de ativo — nunca recomende comprar ou vender uma ação
-específica por nome; dê o raciocínio, não a ordem de compra."""
+
+# ------------------------------------------------------------------- Resposta
+
+def responde(pergunta: str, digest: dict, historico: list[dict]) -> str:
+    contexto_digest = monta_contexto_digest(digest)
+
+    system_prompt = f"""Você é um analista de mercado conversando por chat com um
+investidor de curto/médio prazo. Responda sempre em português do Brasil, em
+texto corrido normal (nada de JSON).
+
+Regras importantes:
+- Responda DIRETO à pergunta feita — não recapitule o digest inteiro antes
+  se a pergunta for específica. Se a pessoa pergunta sobre um tema pontual
+  (ex: FIIs, uma ação, um setor), vá direto nesse tema.
+- Só traga o contexto do digest de hoje quando ele for relevante pra
+  pergunta específica — não é obrigatório usar tudo, nem citar tudo.
+- Se a pergunta não tiver relação com o digest, responda com seu
+  conhecimento geral, deixando claro que essa parte não veio do digest.
+- Fale de setor ou classe de ativo — nunca recomende comprar ou vender uma
+  ação específica por nome; dê o raciocínio, não a ordem de compra.
+- Seja conciso: 2 a 4 parágrafos curtos costuma bastar, a não ser que a
+  pergunta peça claramente mais profundidade.
+- Essa é uma conversa contínua — use as mensagens anteriores pra entender o
+  contexto (ex: "aquela notícia" pode se referir a algo já mencionado antes).
+
+Notícias do digest de hoje (use quando for relevante):
+{contexto_digest}"""
+
+    mensagens = [{"role": "system", "content": system_prompt}]
+    mensagens.extend(historico)
+    mensagens.append({"role": "user", "content": pergunta})
 
     response = groq_client.chat.completions.create(
         model=GROQ_MODEL,
-        messages=[{"role": "user", "content": prompt}],
+        messages=mensagens,
         temperature=0.3,
-        max_tokens=700,
+        max_tokens=1000,
         extra_body={"reasoning_effort": "none"},
     )
     return response.choices[0].message.content.strip()
@@ -154,12 +213,19 @@ def main() -> None:
             continue
 
         print(f"Pergunta recebida ({chat_id}): {texto[:60]}")
+        historico = historico_carrega(chat_id)
         try:
-            resposta = responde(texto, digest)
+            resposta = responde(texto, digest, historico)
         except Exception as exc:
             resposta = f"Não consegui responder agora ({exc}). Tenta de novo daqui a pouco."
+            envia_telegram(chat_id, resposta)
+            time.sleep(1)
+            continue
 
         envia_telegram(chat_id, resposta)
+        historico.append({"role": "user", "content": texto})
+        historico.append({"role": "assistant", "content": resposta})
+        historico_salva(chat_id, historico)
         time.sleep(1)
 
 
