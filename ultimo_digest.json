@@ -1,24 +1,43 @@
 {
-  "gerado_em": "2026-09-01T14:54:06.767215+00:00",
+  "gerado_em": "2026-09-01T15:27:37.176726+00:00",
   "itens": [
     {
-      "title": "Bitcoin dispara, ouro avança e Bolsa recua em mês turbulento: veja os investimentos que mais renderam em agosto",
+      "title": "Lula ‘ajuda’ etanol com alívio tributário e possível subsídio direto; BTG vê ganho para 4 ações",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bitcoin-dispara-ouro-avanca-e-bolsa-recua-em-mes-turbulento-veja-os-investimentos-que-mais-renderam-em-agosto/",
+      "link": "https://www.moneytimes.com.br/lula-ajuda-etanol-com-alivio-tributario-e-possivel-subsidio-direto-btg-ve-ganho-para-4-acoes-pads/",
       "categorias": [
-        "cripto"
+        "acoes"
       ],
-      "resumo": "O bitcoin liderou os retornos em agosto com alta expressiva, enquanto o Ibovespa apresentou volatilidade e fechamento negativo devido à saída massiva de capital estrangeiro.",
-      "mecanismo": "A fuga de investidores estrangeiros, que retiraram mais de R$ 18 bilhões, pressionou a demanda por ações brasileiras, especialmente as de menor capitalização, enquanto a aversão ao risco e a busca por ativos alternativos impulsionaram criptomoedas e ouro.",
-      "implicacao": "A classe de ativos de renda variável doméstica, particularmente small caps, tende a enfrentar pressão de venda e maior volatilidade, já que a saída de 'hot money' reduz a liquidez e o suporte de preços, enquanto ativos de reserva de valor como ouro e bitcoin podem manter atratividade em cenários de incerteza.",
-      "proximo_evento": "Monitorar os fluxos de capital estrangeiro na B3 e os dados de inflação que podem influenciar a política monetária e o câmbio nos próximos meses.",
+      "resumo": "A sanção da Lei Complementar 235/2026 institui alívio tributário e subsídios diretos para o setor de etanol, visando preservar sua competitividade frente a cortes na carga fiscal da gasolina.",
+      "mecanismo": "A lei determina que, se a tributação da gasolina cair 30% ou mais, os impostos federais sobre o etanol serão zerados, além de prever compensações financeiras aos produtores; isso protege a margem dos fabricantes ao garantir que o biocombustível não perca vantagem de preço relativa ao derivado do petróleo.",
+      "implicacao": "O setor de etanol tende a se beneficiar com a expansão de margens e fluxo de caixa, pois a redução efetiva de custos tributários aumenta a competitividade do hidratado frente à gasolina, potencializando a demanda e a rentabilidade das usinas.",
+      "proximo_evento": "Publicação da regulamentação pela Receita Federal definindo as regras de habilitação, cálculo e pagamento dos subsídios.",
       "key_numbers": [
-        "Alta Bitcoin Agosto: 26,99%",
-        "Saída Capital Estrangeiro: R$ 18,4 bilhões",
-        "Variação Ibovespa Agosto: -0,33%",
-        "Alta Ouro 12 meses: 28,06%"
+        "Redução tributária gasolina: 49%",
+        "Compensação prevista: R$ 1,2 bilhão",
+        "Créditos PIS/Cofins: R$ 750 milhões",
+        "Ganho preço etanol: >10%"
       ],
-      "sentiment": "neutral"
+      "sentiment": "up"
+    },
+    {
+      "title": "Dividendos: 10 ações que mais pagaram proventos em 2026 — e uma chega a dividend yield de 12%",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/dividendos-10-acoes-que-mais-pagaram-proventos-em-2026-e-uma-chega-a-dividend-yield-de-12-ceci/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "Um levantamento do IDIV destaca que empresas de utilities, seguradoras e incorporadoras lideraram os pagamentos de proventos em 2026, com a PetroReconcavo atingindo um dividend yield de 12,1% até julho.",
+      "mecanismo": "O alto dividend yield observado reflete tanto a robustez dos fluxos de caixa em setores regulados e de infraestrutura quanto a dinâmica de preços das ações, onde quedas no valor de mercado podem inflar o indicador percentual sem aumento real na distribuição absoluta, exigindo análise conjunta de fundamentos e valuation.",
+      "implicacao": "O setor de utilities e seguradoras tende a atrair capital de investidores de renda, pois a estabilidade regulatória e a geração de caixa previsível sustentam pagamentos recorrentes, embora a sensibilidade aos juros e riscos geopolíticos possa moderar a expansão dos yields no médio prazo.",
+      "proximo_evento": "Divulgação dos resultados trimestrais e políticas de distribuição de lucros das empresas do IDIV no próximo balanço, além do calendário de assembleias gerais para aprovação de dividendos extraordinários.",
+      "key_numbers": [
+        "Top DY (RECV3): 12,10%",
+        "2º lugar DY (LOGG3): 11,04%",
+        "3º lugar DY (TAEE11): 7,83%",
+        "Empresas analisadas: 52"
+      ],
+      "sentiment": "up"
     },
     {
       "title": "Wall Street inicia setembro em queda com alta dos rendimentos dos títulos e tensão geopolítica; Nasdaq cai 1%",
@@ -59,59 +78,20 @@
       "sentiment": "up"
     },
     {
-      "title": "Mini índice do Ibovespa mira 182 mil pontos enquanto mini dólar testa região de 5.230; veja suportes e resistências",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/mini-indice-do-ibovespa-mira-182-mil-pontos-enquanto-mini-dolar-testa-regiao-de-5-230-veja-suportes-e-resistencias-ceci/",
+      "title": "Fake Claude desktop app spreads crypto-stealing malware",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/news/fake-claude-desktop-app-spreads-crypto-stealing-malware?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
-        "acoes"
+        "cripto"
       ],
-      "resumo": "O mini índice do Ibovespa consolidou alta técnica renovando máximas recentes, enquanto o mini dólar se mantém em faixa de consolidação com leve recuo.",
-      "mecanismo": "A formação de topos e fundos ascendentes no gráfico de 60 minutos do WINV confirma a tendência de alta no curto e médio prazo, atraindo compradores que visam o próximo nível de resistência; simultaneamente, a estabilidade do WDO acima de suportes chave sugere que a pressão vendedora sobre a moeda estrangeira está contida no momento, permitindo testes de resistências superiores.",
-      "implicacao": "Com a tendência de alta preservada no curto prazo para o índice, ativos de renda variável sensíveis ao sentimento de mercado, como ETFs de índice e ações de alta liquidez, tendem a atrair fluxo de compra especulativa, já que a estrutura técnica favorece a continuidade do movimento até as próximas resistências.",
-      "proximo_evento": "Monitorar se o mini índice consegue fechar sustentado acima de 180 mil pontos para validar a ruptura e mirar 182 mil, e observar se o mini dólar mantém suporte em 5.207,50 para tentar 5.230.",
+      "resumo": "Um malware chamado RevStealer está sendo distribuído através de uma falsa aplicação desktop do Claude, visando roubar dados de mais de 50 carteiras de criptomoedas e credenciais de navegadores.",
+      "mecanismo": "A distribuição de malware sofisticado que se disfarça de ferramenta popular de IA aumenta o risco operacional para usuários de criptoativos, pois o código explora a confiança na marca Anthropic para infectar dispositivos Windows e exfiltrar chaves privadas e cookies de sessão sem detecção imediata.",
+      "implicacao": "O setor de infraestrutura de segurança cibernética para criptoativos tende a se beneficiar, já que o aumento de ataques direcionados a carteiras e navegadores eleva a demanda por soluções de proteção de endpoint e auditoria de segurança para investidores.",
+      "proximo_evento": "Monitorar relatórios de segurança cibernética sobre novas variantes do RevStealer ou alertas de exchanges sobre picos de acesso não autorizado a contas comprometidas.",
       "key_numbers": [
-        "Mini Índice Fechamento: 180.045 pontos",
-        "Mini Índice Alvo: 182.000 pontos",
-        "Mini Dólar Fechamento: 5.218,50 pontos",
-        "Mini Dólar Suporte Chave: 5.207,50 pontos"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Ibovespa avança e destoa do exterior com petróleo e PIB; 5 coisas para saber antes de investir hoje (1º)",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-1-9-26-lils/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Ibovespa inicia setembro em alta, impulsionado por dados de PIB acima do esperado e pela escalada das tensões geopolíticas no Oriente Médio que elevam o preço do petróleo.",
-      "mecanismo": "O crescimento do PIB superior à expectativa sinaliza resiliência da economia doméstica, atraindo fluxo para ações brasileiras, enquanto a ameaça de conflito EUA-Irã restringe a oferta global de petróleo, elevando o preço do barril e beneficiando diretamente as receitas das petrolíferas listadas na bolsa.",
-      "implicacao": "Com o petróleo operando acima de US$ 90, o setor de energia tende a se valorizar, pois as maiores empresas do índice possuem forte exposição à commodity e se beneficiam da margem ampliada, enquanto o dólar pode sofrer pressão de alta devido ao fortalecimento da moeda norte-americana ante a expectativa de juros mais altos.",
-      "proximo_evento": "Divulgação do relatório oficial de empregos dos EUA (payroll) de agosto, agendada para sexta-feira (4), que será decisiva para confirmar a expectativa de alta de juros pelo Fed.",
-      "key_numbers": [
-        "PIB 2T26: 0,5%",
-        "Petróleo Brent: US$ 92,63",
-        "Dólar: R$ 5,18",
-        "Probabilidade alta Fed: 66,4%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Fundo imobiliário da Kinea dará tchau à B3 antes da hora; Ifix avança",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/fundo-imobiliario-da-kinea-dara-tchau-a-b3-antes-da-hora-ifix-avanca-jcav/",
-      "categorias": [
-        "imobiliario"
-      ],
-      "resumo": "O fundo imobiliário KNPR11 da Kinea encerra suas negociações na B3 em setembro de 2026 como parte do processo de liquidação final, enquanto o índice IFIX registra alta no pregão.",
-      "mecanismo": "A suspensão das cotações é um procedimento técnico necessário para calcular o custo médio de aquisição dos cotistas e definir a tributação da devolução do capital, garantindo a transparência fiscal na amortização final do fundo de prazo determinado.",
-      "implicacao": "O setor de Fundos Imobiliários tende a manter a atratividade para investidores de renda passiva, pois a liquidação ordenada de fundos de curto prazo demonstra a eficiência do mercado em devolver capital, reforçando a confiança na classe de ativos mesmo com volatilidade pontual no índice IFIX.",
-      "proximo_evento": "Divulgação da data exata do pagamento final e do valor líquido a ser devolvido por cota, conforme o avanço do desinvestimento dos ativos restantes.",
-      "key_numbers": [
-        "Data fim negociações: 21/09/2026",
-        "Alta IFIX: 0,59%",
-        "Preço XPSF11: R$ 6,48",
-        "Preço GZIT11: R$ 35,30"
+        "Carteiras alvo: 50+",
+        "Plataforma afetada: Windows",
+        "Tipo de malware: RevStealer"
       ],
       "sentiment": "neutral"
     },
@@ -167,24 +147,6 @@
         "Pior venda de títulos: desde 2007"
       ],
       "sentiment": "neutral"
-    },
-    {
-      "title": "Jones Lang LaSalle Upgraded As Real Estate Services Sector Sees Tailwinds And Momentum",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4942099-jones-lang-lasalle-upgraded-as-real-estate-services-sector-sees-tailwinds-and-momentum?source=feed_all_articles",
-      "categorias": [
-        "imobiliario"
-      ],
-      "resumo": "A Jones Lang LaSalle foi reclassificada para alta devido à identificação de ventos favoráveis e ganho de momentum no setor de serviços imobiliários.",
-      "mecanismo": "A reclassificação reflete a expectativa de que a demanda por serviços especializados em imóveis (como gestão, avaliação e consultoria) esteja se acelerando, impulsionada por um ambiente macroeconômico que favorece a atividade do setor, o que tende a aumentar as receitas e a confiança dos investidores nas empresas do segmento.",
-      "implicacao": "Com o setor de serviços imobiliários apresentando ventos favoráveis, empresas que prestam serviços de gestão e consultoria imobiliária tendem a se beneficiar, já que a maior atividade no mercado de imóveis gera demanda recorrente por esses serviços especializados.",
-      "proximo_evento": "Divulgação dos próximos resultados trimestrais da JLL ou de outras grandes empresas do setor de serviços imobiliários para validação do momentum.",
-      "key_numbers": [
-        "Reclassificação: Upgrade",
-        "Setor: Serviços Imobiliários",
-        "Empresa: Jones Lang LaSalle (JLL)"
-      ],
-      "sentiment": "up"
     }
   ]
 }
