@@ -1,149 +1,150 @@
 {
-  "gerado_em": "2026-08-31T21:36:37.731812+00:00",
+  "gerado_em": "2026-09-01T15:27:37.176726+00:00",
   "itens": [
     {
-      "title": "Ibovespa tem 9ª alta seguida com Petrobras (PETR4) e cenário eleitoral; dólar cai a R$ 5,18",
+      "title": "Lula ‘ajuda’ etanol com alívio tributário e possível subsídio direto; BTG vê ganho para 4 ações",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-31-8-26-apsa/",
+      "link": "https://www.moneytimes.com.br/lula-ajuda-etanol-com-alivio-tributario-e-possivel-subsidio-direto-btg-ve-ganho-para-4-acoes-pads/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa registrou sua nona alta consecutiva, impulsionado pelo desempenho da Petrobras e pela rotação de capital, enquanto o dólar recuava para R$ 5,18 em meio à atenção do mercado com as pesquisas eleitorais.",
-      "mecanismo": "A valorização do petróleo Brent elevou as receitas esperadas da Petrobras, que possui peso significativo no índice, compensando a queda de outros setores; simultaneamente, a percepção de menor risco político ou a rotação para ativos locais fortaleceu o real, pressionando o dólar para baixo e atraindo fluxo para o mercado acionário brasileiro.",
-      "implicacao": "Com a alta do petróleo e a queda do dólar, o setor de energia tende a se beneficiar com margens expandidas, enquanto empresas exportadoras de commodities não energéticas e bens de consumo sensíveis ao câmbio podem enfrentar pressão sobre seus resultados em reais devido à valorização da moeda local.",
-      "proximo_evento": "Publicação de novas pesquisas de intenção de voto e divulgação de dados macroeconômicos que possam alterar a percepção de risco fiscal e eleitoral.",
+      "resumo": "A sanção da Lei Complementar 235/2026 institui alívio tributário e subsídios diretos para o setor de etanol, visando preservar sua competitividade frente a cortes na carga fiscal da gasolina.",
+      "mecanismo": "A lei determina que, se a tributação da gasolina cair 30% ou mais, os impostos federais sobre o etanol serão zerados, além de prever compensações financeiras aos produtores; isso protege a margem dos fabricantes ao garantir que o biocombustível não perca vantagem de preço relativa ao derivado do petróleo.",
+      "implicacao": "O setor de etanol tende a se beneficiar com a expansão de margens e fluxo de caixa, pois a redução efetiva de custos tributários aumenta a competitividade do hidratado frente à gasolina, potencializando a demanda e a rentabilidade das usinas.",
+      "proximo_evento": "Publicação da regulamentação pela Receita Federal definindo as regras de habilitação, cálculo e pagamento dos subsídios.",
       "key_numbers": [
-        "Ibovespa: 177.418,78 pontos",
-        "Dólar: R$ 5,18",
-        "Petrobras (PETR4): +3,38%",
-        "Vantagem Lula: 4,5 p.p."
+        "Redução tributária gasolina: 49%",
+        "Compensação prevista: R$ 1,2 bilhão",
+        "Créditos PIS/Cofins: R$ 750 milhões",
+        "Ganho preço etanol: >10%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Wall Street avança mais 1% em agosto, apesar de Oriente Médio; Nasdaq salta 3%",
+      "title": "Dividendos: 10 ações que mais pagaram proventos em 2026 — e uma chega a dividend yield de 12%",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-31-8-26-apsa/",
+      "link": "https://www.moneytimes.com.br/dividendos-10-acoes-que-mais-pagaram-proventos-em-2026-e-uma-chega-a-dividend-yield-de-12-ceci/",
       "categorias": [
-        "exterior"
+        "acoes"
       ],
-      "resumo": "Wall Street encerrou agosto com ganhos liderados pelo setor de tecnologia, apesar da volatilidade intradiária causada pela escalada geopolítica no Oriente Médio e pela alta do petróleo.",
-      "mecanismo": "A tensão entre EUA e Irã elevou o preço do petróleo, reacendendo temores inflacionários e forçando uma rotação para ativos de refúgio como os Treasuries; contudo, a força dos resultados corporativos, especialmente em tecnologia, sustentou os índices de ações, enquanto o mercado de juros precifica uma possível alta de juros pelo Fed.",
-      "implicacao": "Com a alta do petróleo e a expectativa de juros mais altos, o setor de energia tende a se beneficiar com margens expandidas, enquanto setores sensíveis ao custo de capital, como tecnologia e imobiliário, podem enfrentar pressão de valuation devido ao aumento da taxa livre de risco.",
-      "proximo_evento": "Reunião do Federal Reserve em setembro para definição da taxa de juros.",
+      "resumo": "Um levantamento do IDIV destaca que empresas de utilities, seguradoras e incorporadoras lideraram os pagamentos de proventos em 2026, com a PetroReconcavo atingindo um dividend yield de 12,1% até julho.",
+      "mecanismo": "O alto dividend yield observado reflete tanto a robustez dos fluxos de caixa em setores regulados e de infraestrutura quanto a dinâmica de preços das ações, onde quedas no valor de mercado podem inflar o indicador percentual sem aumento real na distribuição absoluta, exigindo análise conjunta de fundamentos e valuation.",
+      "implicacao": "O setor de utilities e seguradoras tende a atrair capital de investidores de renda, pois a estabilidade regulatória e a geração de caixa previsível sustentam pagamentos recorrentes, embora a sensibilidade aos juros e riscos geopolíticos possa moderar a expansão dos yields no médio prazo.",
+      "proximo_evento": "Divulgação dos resultados trimestrais e políticas de distribuição de lucros das empresas do IDIV no próximo balanço, além do calendário de assembleias gerais para aprovação de dividendos extraordinários.",
       "key_numbers": [
-        "Nasdaq agosto: +3,93%",
-        "Petróleo Brent: US$ 90,49",
-        "Probabilidade de alta Fed: 65,9%",
-        "S&P 500 agosto: +2,62%"
+        "Top DY (RECV3): 12,10%",
+        "2º lugar DY (LOGG3): 11,04%",
+        "3º lugar DY (TAEE11): 7,83%",
+        "Empresas analisadas: 52"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Taxas têm variações contidas sob influência de pesquisas eleitorais e Treasuries",
+      "title": "Wall Street inicia setembro em queda com alta dos rendimentos dos títulos e tensão geopolítica; Nasdaq cai 1%",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/taxas-tem-variacoes-contidas-sob-influencia-de-pesquisas-eleitorais-e-treasuries/",
+      "link": "https://www.moneytimes.com.br/wall-street-abertura-1-9-26-lils/",
       "categorias": [
         "renda_fixa"
       ],
-      "resumo": "As taxas de juros no Brasil apresentam movimentos contidos, equilibrando a pressão baixista de uma disputa eleitoral acirrada com a pressão altista dos rendimentos americanos elevados devido a tensões geopolíticas no Oriente Médio.",
-      "mecanismo": "A percepção de que uma reeleição de Lula pode comprometer o equilíbrio fiscal reduz a demanda por proteção via dólar e juros altos, exercendo pressão baixista; contudo, os ataques militares EUA-Irã elevam o preço do petróleo e os rendimentos dos Treasuries, importando inflação e puxando a curva de juros brasileira para cima.",
-      "implicacao": "Títulos públicos prefixados tendem a sofrer volatilidade com suporte nos rendimentos externos, enquanto o setor de energia pode se beneficiar com a alta do petróleo, embora o risco geopolítico possa pressionar a aversão a risco global.",
-      "proximo_evento": "Divulgação de novas pesquisas eleitorais e dados de inflação nos EUA que possam alterar a expectativa de política monetária do Fed.",
+      "resumo": "Wall Street abre setembro em baixa impulsionada pela alta dos juros americanos e pelo aumento das tensões geopolíticas entre EUA e Irã.",
+      "mecanismo": "A elevação dos rendimentos dos títulos do Tesouro de 10 anos torna a renda fixa mais atrativa, drenando capital das ações, enquanto o risco de interrupção no fornecimento de petróleo devido ao conflito no Estreito de Ormuz eleva o preço do barril e alimenta temores inflacionários, reforçando a postura restritiva do Fed.",
+      "implicacao": "O setor de tecnologia tende a sofrer pressão, pois a alta dos juros aumenta o custo de capital e desvaloriza fluxos de caixa futuros, enquanto empresas de energia podem se beneficiar temporariamente com a valorização do petróleo, embora o risco sistêmico de inflação prejudique ativos de risco em geral.",
+      "proximo_evento": "Divulgação do Relatório Jolts hoje e do Payroll de agosto na próxima sexta-feira (4).",
       "key_numbers": [
-        "DI Jan/2028: 13,79%",
-        "DI Jan/2035: 14,56%",
-        "Treasury 10 anos: 4,756%",
-        "Petróleo Brent: acima de US$ 90"
+        "S&P 500: -0,72%",
+        "Nasdaq: -1,47%",
+        "Petróleo: acima de US$ 90/bbl",
+        "Yield 10 anos: máximo desde jan/2025"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Itaú BBA: Investidor local volta à Bolsa e estrangeiro reduz ritmo de saída; saiba que tipo de ações eles estão escolhendo",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/itau-bba-investidor-local-volta-a-bolsa-e-estrangeiro-reduz-ritmo-de-saida-saiba-que-tipo-de-acoes-eles-estao-escolhendo/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "Investidores locais retomam a entrada na bolsa brasileira com cautela, enquanto a pressão de venda por parte do capital estrangeiro diminui significativamente.",
+      "mecanismo": "A combinação de valuations descontados e a expectativa de queda dos juros reduz o custo de oportunidade da renda variável, atraindo o investidor local para ativos de qualidade e defensivos, enquanto a desaceleração da saída de estrangeiros remove uma pressão vendedora estrutural, criando um ambiente de suporte técnico e fundamentalista.",
+      "implicacao": "Setores defensivos, utilities e incorporadoras de baixa renda tendem a se valorizar, pois oferecem fluxo de caixa previsível e se beneficiam da queda de juros e da busca por segurança em meio à incerteza macroeconômica.",
+      "proximo_evento": "Decisão do Copom sobre o corte de 0,25 ponto percentual na taxa Selic e divulgação de dados de inflação e PIB.",
+      "key_numbers": [
+        "Saída estrangeira acumulada: R$ 17,9 bilhões",
+        "Selic projetada fim 2026: 13,75%",
+        "Corte esperado Selic: 0,25 p.p.",
+        "Nível sobrevenda Ibovespa: 171 mil pontos"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Fake Claude desktop app spreads crypto-stealing malware",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/news/fake-claude-desktop-app-spreads-crypto-stealing-malware?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "Um malware chamado RevStealer está sendo distribuído através de uma falsa aplicação desktop do Claude, visando roubar dados de mais de 50 carteiras de criptomoedas e credenciais de navegadores.",
+      "mecanismo": "A distribuição de malware sofisticado que se disfarça de ferramenta popular de IA aumenta o risco operacional para usuários de criptoativos, pois o código explora a confiança na marca Anthropic para infectar dispositivos Windows e exfiltrar chaves privadas e cookies de sessão sem detecção imediata.",
+      "implicacao": "O setor de infraestrutura de segurança cibernética para criptoativos tende a se beneficiar, já que o aumento de ataques direcionados a carteiras e navegadores eleva a demanda por soluções de proteção de endpoint e auditoria de segurança para investidores.",
+      "proximo_evento": "Monitorar relatórios de segurança cibernética sobre novas variantes do RevStealer ou alertas de exchanges sobre picos de acesso não autorizado a contas comprometidas.",
+      "key_numbers": [
+        "Carteiras alvo: 50+",
+        "Plataforma afetada: Windows",
+        "Tipo de malware: RevStealer"
       ],
       "sentiment": "neutral"
     },
     {
-      "title": "Bitcoin begins volatile monthly close as US bond yields eye new 20-year high",
+      "title": "BlackRock drives $217M Bitcoin ETF rebound as altcoin funds continue streaks",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-begins-volatile-monthly-close-as-us-bond-yields-eye-new-20-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/markets/blackrock-bitcoin-etf-inflow-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "O Bitcoin oscila em torno de US$ 78.000 enquanto os rendimentos dos títulos do Tesouro dos EUA se aproximam de máximas de 20 anos, apesar dos comentários do secretário do Tesouro sobre possíveis intervenções.",
-      "mecanismo": "O aumento dos juros de longo prazo nos EUA eleva o custo de oportunidade para ativos sem rendimento como o Bitcoin, pressionando sua demanda; simultaneamente, a divergência bearish no RSI diário indica que o momentum de alta está enfraquecendo, sugerindo que o preço pode não sustentar os ganhos recentes sem novo fluxo de capital especulativo.",
-      "implicacao": "Para a classe de ativos de criptomoedas, especificamente o Bitcoin, o cenário tende a ser de volatilidade e possível correção de curto prazo, já que juros reais mais altos desincentivam a alavancagem e o risco, enquanto a divergência técnica alerta para exaustão de compradores.",
-      "proximo_evento": "Fechamento da vela mensal de agosto e a próxima divulgação de dados de inflação ou emprego nos EUA que possam confirmar ou reverter a tendência dos juros.",
+      "resumo": "Os ETFs de Bitcoin nos EUA registraram um retorno aos fluxos positivos impulsionado majoritariamente pela BlackRock, revertendo saídas anteriores, enquanto os fundos de Ether, XRP e Solana mantêm streaks consecutivos de entrada de capital.",
+      "mecanismo": "A entrada massiva de capital institucional via BlackRock sinaliza confiança renovada e suporte de preço para o Bitcoin, enquanto a consistência nos fluxos de altcoins (ETH, XRP, SOL) indica uma rotação de capital e apetite de risco que fortalece a narrativa de adoção institucional além da moeda líder.",
+      "implicacao": "O setor de criptoativos tende a se beneficiar com a validação institucional contínua, pois fluxos consistentes em ETFs spot reduzem a pressão de venda no mercado spot e aumentam a liquidez, favorecendo tanto o Bitcoin quanto as principais altcoins com produtos regulados.",
+      "proximo_evento": "Monitorar os fluxos diários dos ETFs de Bitcoin e Altcoins nas próximas sessões para confirmar se o rebote é sustentável ou apenas uma correção técnica, além de observar o preço do Bitcoin em relação à marca dos US$ 78.700.",
       "key_numbers": [
-        "BTC: US$ 78.000",
-        "Juro 10 anos: 4.76%",
-        "Juro 30 anos: 5.269%",
-        "RSI Diário: 70.7"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Strategy buys $370M Bitcoin in first corporate purchase since June",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/strategy-buys-370m-bitcoin-first-acquisition-june?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "A Strategy retomou a compra de Bitcoin após duas meses de pausa, adquirindo 4.603 BTC por US$ 370 milhões, financiados pela venda de ações ordinárias e recompra de ações preferenciais.",
-      "mecanismo": "A empresa utiliza a emissão e venda de seu capital próprio (ações MSTR e preferenciais STRC) para financiar a acumulação de Bitcoin, criando um ciclo onde a demanda corporativa estruturada por ativos de risco sustenta o preço do BTC, enquanto o desconto nas ações preferenciais sinaliza pressão de financiamento que pode levar a ajustes nos dividendos.",
-      "implicacao": "A retomada das compras por um dos maiores detentores corporativos tende a fortalecer o sentimento de mercado para a classe de ativos criptográficos, especialmente Bitcoin, validando a tese de acumulação institucional e reduzindo a oferta circulante disponível no mercado spot.",
-      "proximo_evento": "Monitorar o preço de negociação das ações preferenciais STRC em relação ao seu valor nominal de US$ 100, pois um desconto persistente pode forçar a empresa a aumentar a taxa de dividendos ou alterar sua estratégia de captação de recursos.",
-      "key_numbers": [
-        "BTC Adquiridos: 4.603",
-        "Valor da Compra: US$ 370 milhões",
-        "Preço Médio de Compra: US$ 80.318",
-        "Total de BTC na Carteira: 845.050"
+        "Influxo Bitcoin ETF: US$ 216,7 milhões",
+        "Participação BlackRock: 95%",
+        "Streak Ether ETF: 11 sessões",
+        "Preço Bitcoin: US$ 78.700"
       ],
       "sentiment": "up"
     },
     {
-      "title": "U.S. stocks lower at close of trade; Dow Jones Industrial Average down 0.70%",
+      "title": "Casey’s General Stores stock may move 6.9% on earnings release",
       "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-070-4883258",
+      "link": "https://www.investing.com/news/stock-market-news/caseys-general-stores-stock-may-move-69-on-earnings-release-93CH-4884275",
       "categorias": [
         "exterior"
       ],
-      "resumo": "Os mercados americanos encerraram a sessão em baixa, com o índice Dow Jones recuando 0,70%, refletindo uma pressão vendedora generalizada nos ativos de risco.",
-      "mecanismo": "O fechamento negativo indica uma aversão temporária ao risco ou lucros tomadores, onde investidores realizam ganhos ou se protegem contra incertezas macroeconômicas, reduzindo a demanda imediata por ações e pressionando os preços para baixo.",
-      "implicacao": "Com a queda nos índices americanos, o setor de tecnologia e ações de crescimento tendem a sofrer maior pressão, pois são mais sensíveis a mudanças no apetite por risco e expectativas de juros, enquanto ativos defensivos podem atrair fluxos de proteção.",
-      "proximo_evento": "Acompanhar os próximos dados de inflação (CPI/PCE) ou decisões da Reserva Federal (Fed) que possam redefinir as expectativas de juros e validar ou reverter essa correção.",
+      "resumo": "A Casey's General Stores deve registrar uma volatilidade de aproximadamente 6,9% em seu preço de ação em torno do anúncio de seus resultados trimestrais.",
+      "mecanismo": "O mercado precifica a expectativa de que os resultados financeiros (lucro por ação e receita) desviem significativamente das estimativas dos analistas, gerando uma reação imediata de ajuste de preço para refletir a nova realidade fundamental da empresa.",
+      "implicacao": "Para o setor de varejo de conveniência, a atenção deve recair sobre a resiliência da margem operacional e o crescimento do tráfego de lojas, já que empresas com forte geração de caixa e eficiência operacional tendem a se valorizar em cenários de incerteza macroeconômica.",
+      "proximo_evento": "Divulgação oficial do balanço trimestral e da conferência de resultados da Casey's General Stores.",
       "key_numbers": [
-        "Dow Jones: -0,70%"
+        "Volatilidade esperada: 6,9%"
       ],
-      "sentiment": "down"
+      "sentiment": "neutral"
     },
     {
-      "title": "Brazil stocks higher at close of trade; Bovespa up 1.00%",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/brazil-stocks-higher-at-close-of-trade-bovespa-up-100-4883255",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O índice Bovespa encerrou a sessão com alta de 1%, refletindo um sentimento otimista entre os investidores no fechamento do pregão.",
-      "mecanismo": "O movimento de alta sugere uma entrada de fluxo de capital ou uma reação positiva a dados macroeconômicos recentes, reduzindo a aversão ao risco e incentivando a compra de ações em detrimento de ativos de renda fixa ou dólar.",
-      "implicacao": "Com o índice em alta, o setor financeiro tende a se beneficiar inicialmente, pois a valorização do mercado acionário melhora a percepção de risco e pode aumentar a demanda por produtos de investimento, embora a sustentabilidade dependa da fundamentação macroeconômica.",
-      "proximo_evento": "Acompanhar os indicadores de fluxo de capital estrangeiro e as próximas divulgações de dados inflacionários ou de atividade econômica que possam confirmar ou reverter essa tendência.",
-      "key_numbers": [
-        "Variação Bovespa: 1.00%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Should You Wait Around For A Lower Mortgage Rate?",
+      "title": "Macro Insights: Signals From Jackson Hole, Historic Bond Selloff And The September Outlook",
       "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4941897-should-you-wait-around-for-lower-mortgage-rate?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4942032-macro-insights-signals-from-jackson-hole-historic-bond-selloff-and-the-september-outlook?source=feed_all_articles",
       "categorias": [
         "renda_fixa"
       ],
-      "resumo": "O artigo argumenta que esperar por uma queda drástica nas taxas de hipoteca pode ser uma estratégia arriscada, sugerindo que o mercado imobiliário já está se ajustando às novas condições de juros.",
-      "mecanismo": "A persistência das taxas de juros em patamares elevados reduz o poder de compra dos compradores, o que limita a oferta de imóveis e sustenta os preços, criando um cenário onde a espera por taxas mais baixas pode resultar em perda de oportunidade de compra ou aumento de custos de oportunidade.",
-      "implicacao": "O setor imobiliário e os títulos lastreados em hipotecas (MBS) tendem a enfrentar volatilidade, pois a sensibilidade às taxas de juros continua alta, afetando a demanda por financiamento e a valorização dos ativos imobiliários.",
-      "proximo_evento": "Próximas decisões do Federal Reserve sobre a taxa de juros federal e a divulgação dos dados de inflação (CPI/PCE) que influenciam diretamente as taxas hipotecárias.",
+      "resumo": "O tom hawkish do Fed em Jackson Hole reforça a prioridade pela estabilidade de preços, elevando os juros de longo prazo e a fragilidade do mercado, apesar da resiliência dos lucros corporativos.",
+      "mecanismo": "A postura firme do Fed contra a inflação impede a queda dos juros de longo prazo, o que encarece o custo de capital e pressiona as avaliações elevadas das ações, criando uma dinâmica onde a renda fixa se torna menos atraente devido à perda real, mas o risco de contração de múltiplos nas ações aumenta se as expectativas inflacionárias ultrapassarem 2,5%.",
+      "implicacao": "Com a volatilidade esperada em setembro e a rotação setorial, setores defensivos e de qualidade tendem a se proteger melhor contra a contração de múltiplos, enquanto setores sensíveis a juros, como tecnologia de crescimento, enfrentam maior pressão de venda devido ao aumento do custo de desconto.",
+      "proximo_evento": "Relatório de emprego e dados de IPC (CPI) de setembro",
       "key_numbers": [
-        "Taxa Hipotecária Média: ~7%",
-        "Inflação EUA: ~3%",
-        "Meta do Fed: 2%",
-        "Estoque de Imóveis: Baixo"
+        "Alvo S&P 500: 8.000",
+        "Limite inflação: 2,5%",
+        "Pior venda de títulos: desde 2007"
       ],
       "sentiment": "neutral"
     }
