@@ -1,135 +1,188 @@
 {
-  "gerado_em": "2026-08-31T22:08:29.923946+00:00",
+  "gerado_em": "2026-09-01T14:54:06.767215+00:00",
   "itens": [
     {
-      "title": "Ibovespa: 2 motivos que fizeram índice cair em agosto; ação do agro lidera altas",
+      "title": "Bitcoin dispara, ouro avança e Bolsa recua em mês turbulento: veja os investimentos que mais renderam em agosto",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-agosto-26-apsa/",
+      "link": "https://www.moneytimes.com.br/bitcoin-dispara-ouro-avanca-e-bolsa-recua-em-mes-turbulento-veja-os-investimentos-que-mais-renderam-em-agosto/",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O bitcoin liderou os retornos em agosto com alta expressiva, enquanto o Ibovespa apresentou volatilidade e fechamento negativo devido à saída massiva de capital estrangeiro.",
+      "mecanismo": "A fuga de investidores estrangeiros, que retiraram mais de R$ 18 bilhões, pressionou a demanda por ações brasileiras, especialmente as de menor capitalização, enquanto a aversão ao risco e a busca por ativos alternativos impulsionaram criptomoedas e ouro.",
+      "implicacao": "A classe de ativos de renda variável doméstica, particularmente small caps, tende a enfrentar pressão de venda e maior volatilidade, já que a saída de 'hot money' reduz a liquidez e o suporte de preços, enquanto ativos de reserva de valor como ouro e bitcoin podem manter atratividade em cenários de incerteza.",
+      "proximo_evento": "Monitorar os fluxos de capital estrangeiro na B3 e os dados de inflação que podem influenciar a política monetária e o câmbio nos próximos meses.",
+      "key_numbers": [
+        "Alta Bitcoin Agosto: 26,99%",
+        "Saída Capital Estrangeiro: R$ 18,4 bilhões",
+        "Variação Ibovespa Agosto: -0,33%",
+        "Alta Ouro 12 meses: 28,06%"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Wall Street inicia setembro em queda com alta dos rendimentos dos títulos e tensão geopolítica; Nasdaq cai 1%",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/wall-street-abertura-1-9-26-lils/",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "Wall Street abre setembro em baixa impulsionada pela alta dos juros americanos e pelo aumento das tensões geopolíticas entre EUA e Irã.",
+      "mecanismo": "A elevação dos rendimentos dos títulos do Tesouro de 10 anos torna a renda fixa mais atrativa, drenando capital das ações, enquanto o risco de interrupção no fornecimento de petróleo devido ao conflito no Estreito de Ormuz eleva o preço do barril e alimenta temores inflacionários, reforçando a postura restritiva do Fed.",
+      "implicacao": "O setor de tecnologia tende a sofrer pressão, pois a alta dos juros aumenta o custo de capital e desvaloriza fluxos de caixa futuros, enquanto empresas de energia podem se beneficiar temporariamente com a valorização do petróleo, embora o risco sistêmico de inflação prejudique ativos de risco em geral.",
+      "proximo_evento": "Divulgação do Relatório Jolts hoje e do Payroll de agosto na próxima sexta-feira (4).",
+      "key_numbers": [
+        "S&P 500: -0,72%",
+        "Nasdaq: -1,47%",
+        "Petróleo: acima de US$ 90/bbl",
+        "Yield 10 anos: máximo desde jan/2025"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Itaú BBA: Investidor local volta à Bolsa e estrangeiro reduz ritmo de saída; saiba que tipo de ações eles estão escolhendo",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/itau-bba-investidor-local-volta-a-bolsa-e-estrangeiro-reduz-ritmo-de-saida-saiba-que-tipo-de-acoes-eles-estao-escolhendo/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "Investidores locais retomam a entrada na bolsa brasileira com cautela, enquanto a pressão de venda por parte do capital estrangeiro diminui significativamente.",
+      "mecanismo": "A combinação de valuations descontados e a expectativa de queda dos juros reduz o custo de oportunidade da renda variável, atraindo o investidor local para ativos de qualidade e defensivos, enquanto a desaceleração da saída de estrangeiros remove uma pressão vendedora estrutural, criando um ambiente de suporte técnico e fundamentalista.",
+      "implicacao": "Setores defensivos, utilities e incorporadoras de baixa renda tendem a se valorizar, pois oferecem fluxo de caixa previsível e se beneficiam da queda de juros e da busca por segurança em meio à incerteza macroeconômica.",
+      "proximo_evento": "Decisão do Copom sobre o corte de 0,25 ponto percentual na taxa Selic e divulgação de dados de inflação e PIB.",
+      "key_numbers": [
+        "Saída estrangeira acumulada: R$ 17,9 bilhões",
+        "Selic projetada fim 2026: 13,75%",
+        "Corte esperado Selic: 0,25 p.p.",
+        "Nível sobrevenda Ibovespa: 171 mil pontos"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Mini índice do Ibovespa mira 182 mil pontos enquanto mini dólar testa região de 5.230; veja suportes e resistências",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/mini-indice-do-ibovespa-mira-182-mil-pontos-enquanto-mini-dolar-testa-regiao-de-5-230-veja-suportes-e-resistencias-ceci/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa recuou em agosto devido à saída de capital estrangeiro motivada por riscos fiscais e desaceleração econômica, enquanto o setor agropecuário se destacou com altas significativas.",
-      "mecanismo": "A rebaixamento de recomendações por grandes bancos internacionais, como JP Morgan e Morgan Stanley, sinalizou que os riscos fiscais e a deterioração do ciclo de crédito brasileiro superaram os benefícios da queda da inflação, levando investidores globais a reduzirem sua exposição ao país em favor de ativos com melhor relação risco-retorno.",
-      "implicacao": "Com a expectativa de cortes na Selic mantida apesar da cautela fiscal, o setor de crédito tende a se beneficiar a médio prazo pela redução do custo de captação, enquanto o setor agropecuário deve continuar atraindo fluxo defensivo devido à percepção de que riscos climáticos já estão precificados e à demanda global por commodities.",
-      "proximo_evento": "Decisão do Federal Reserve sobre os juros dos EUA em setembro e a divulgação dos dados de inflação (IPCA) de setembro.",
+      "resumo": "O mini índice do Ibovespa consolidou alta técnica renovando máximas recentes, enquanto o mini dólar se mantém em faixa de consolidação com leve recuo.",
+      "mecanismo": "A formação de topos e fundos ascendentes no gráfico de 60 minutos do WINV confirma a tendência de alta no curto e médio prazo, atraindo compradores que visam o próximo nível de resistência; simultaneamente, a estabilidade do WDO acima de suportes chave sugere que a pressão vendedora sobre a moeda estrangeira está contida no momento, permitindo testes de resistências superiores.",
+      "implicacao": "Com a tendência de alta preservada no curto prazo para o índice, ativos de renda variável sensíveis ao sentimento de mercado, como ETFs de índice e ações de alta liquidez, tendem a atrair fluxo de compra especulativa, já que a estrutura técnica favorece a continuidade do movimento até as próximas resistências.",
+      "proximo_evento": "Monitorar se o mini índice consegue fechar sustentado acima de 180 mil pontos para validar a ruptura e mirar 182 mil, e observar se o mini dólar mantém suporte em 5.207,50 para tentar 5.230.",
       "key_numbers": [
-        "Ibovespa: -0,33%",
+        "Mini Índice Fechamento: 180.045 pontos",
+        "Mini Índice Alvo: 182.000 pontos",
+        "Mini Dólar Fechamento: 5.218,50 pontos",
+        "Mini Dólar Suporte Chave: 5.207,50 pontos"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Ibovespa avança e destoa do exterior com petróleo e PIB; 5 coisas para saber antes de investir hoje (1º)",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-1-9-26-lils/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O Ibovespa inicia setembro em alta, impulsionado por dados de PIB acima do esperado e pela escalada das tensões geopolíticas no Oriente Médio que elevam o preço do petróleo.",
+      "mecanismo": "O crescimento do PIB superior à expectativa sinaliza resiliência da economia doméstica, atraindo fluxo para ações brasileiras, enquanto a ameaça de conflito EUA-Irã restringe a oferta global de petróleo, elevando o preço do barril e beneficiando diretamente as receitas das petrolíferas listadas na bolsa.",
+      "implicacao": "Com o petróleo operando acima de US$ 90, o setor de energia tende a se valorizar, pois as maiores empresas do índice possuem forte exposição à commodity e se beneficiam da margem ampliada, enquanto o dólar pode sofrer pressão de alta devido ao fortalecimento da moeda norte-americana ante a expectativa de juros mais altos.",
+      "proximo_evento": "Divulgação do relatório oficial de empregos dos EUA (payroll) de agosto, agendada para sexta-feira (4), que será decisiva para confirmar a expectativa de alta de juros pelo Fed.",
+      "key_numbers": [
+        "PIB 2T26: 0,5%",
+        "Petróleo Brent: US$ 92,63",
         "Dólar: R$ 5,18",
-        "Selic 2026 (XP): 13,25%",
-        "SLC Agrícola: +19,66%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Dólar recua a R$ 5,18, mas avança mais de 2% em agosto",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/dolar-31-8-26-apsa/",
-      "categorias": [
-        "renda_fixa",
-        "exterior"
-      ],
-      "resumo": "O dólar recuou levemente para R$ 5,18 impulsionado pela alta do petróleo, mas manteve uma valorização mensal de mais de 2% frente ao real devido à incerteza eleitoral e tensões geopolíticas.",
-      "mecanismo": "A escalada de tensões entre EUA e Irã elevou o preço do petróleo, o que fortalece a moeda brasileira por ser um exportador líquido de energia; simultaneamente, a disputa eleitoral acirrada no Brasil gera prêmio de risco, sustentando a valorização cambial apesar da queda pontual.",
-      "implicacao": "O setor de exportação de commodities, especialmente energia e agronegócio, tende a se beneficiar com a valorização cambial e preços altos de insumos, enquanto empresas importadoras de insumos ou com dívida em dólar enfrentam pressão sobre margens e custos.",
-      "proximo_evento": "Divulgação de novas pesquisas eleitorais e evolução dos preços do petróleo Brent nos próximos dias de negociação.",
-      "key_numbers": [
-        "Dólar à vista: R$ 5,18",
-        "Valorização mensal do dólar: 2,16%",
-        "Preço do Brent: US$ 90,49",
-        "Intenção de voto Lula: 47,1%"
+        "Probabilidade alta Fed: 66,4%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Sai Itaúsa (ITSA4), entra Itaú (ITUB4): 5 ações para quem busca dividendos, segundo a Ágora Investimentos",
+      "title": "Fundo imobiliário da Kinea dará tchau à B3 antes da hora; Ifix avança",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/sai-itausa-itsa4-entra-itau-itub4-5-acoes-para-quem-busca-dividendos-segundo-a-agora-investimentos-lmrs/",
+      "link": "https://www.moneytimes.com.br/fundo-imobiliario-da-kinea-dara-tchau-a-b3-antes-da-hora-ifix-avanca-jcav/",
       "categorias": [
-        "acoes"
+        "imobiliario"
       ],
-      "resumo": "A Ágora Investimentos ajustou sua carteira de dividendos para setembro, substituindo a Itaúsa pela ação ordinária do Itaú Unibanco em busca de melhor qualidade e retorno.",
-      "mecanismo": "A troca ocorre porque o Itaú Unibanco apresenta um ROE líder e execução consistente, justificando seu prêmio de valuation em relação aos pares; a expectativa é que a lucratividade sustentável e o yield atrativo ofereçam proteção defensiva e valorização em cenários de queda de juros.",
-      "implicacao": "O setor bancário tende a se beneficiar de ciclos de redução da taxa de juros, pois a queda nos custos de captação e o aumento da demanda por crédito potencializam as margens financeiras e a geração de caixa para distribuição de dividendos.",
-      "proximo_evento": "Divulgação dos resultados trimestrais do Itaú Unibanco e demais empresas da carteira para o próximo período apurado.",
+      "resumo": "O fundo imobiliário KNPR11 da Kinea encerra suas negociações na B3 em setembro de 2026 como parte do processo de liquidação final, enquanto o índice IFIX registra alta no pregão.",
+      "mecanismo": "A suspensão das cotações é um procedimento técnico necessário para calcular o custo médio de aquisição dos cotistas e definir a tributação da devolução do capital, garantindo a transparência fiscal na amortização final do fundo de prazo determinado.",
+      "implicacao": "O setor de Fundos Imobiliários tende a manter a atratividade para investidores de renda passiva, pois a liquidação ordenada de fundos de curto prazo demonstra a eficiência do mercado em devolver capital, reforçando a confiança na classe de ativos mesmo com volatilidade pontual no índice IFIX.",
+      "proximo_evento": "Divulgação da data exata do pagamento final e do valor líquido a ser devolvido por cota, conforme o avanço do desinvestimento dos ativos restantes.",
       "key_numbers": [
-        "Yield médio projetado: 7,4%",
-        "Desempenho carteira agosto: -5,4%",
-        "Yield projetado Allos: 13,0%",
-        "Yield projetado Itaú: 7,7%"
+        "Data fim negociações: 21/09/2026",
+        "Alta IFIX: 0,59%",
+        "Preço XPSF11: R$ 6,48",
+        "Preço GZIT11: R$ 35,30"
       ],
-      "sentiment": "up"
+      "sentiment": "neutral"
     },
     {
-      "title": "Here’s what happened in crypto today",
+      "title": "BlackRock drives $217M Bitcoin ETF rebound as altcoin funds continue streaks",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/markets/blackrock-bitcoin-etf-inflow-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "Grandes corporações como Strive e Strategy retomaram agressivamente a compra de Bitcoin, impulsionando o preço acima de US$ 81.000, enquanto um exploit de US$ 75 milhões na rede Cronos gerou volatilidade pontual no setor DeFi.",
-      "mecanismo": "A entrada massiva de capital corporativo (Strive e Strategy) cria uma pressão de compra estrutural que absorve a oferta disponível, elevando o preço do Bitcoin; simultaneamente, o anúncio de recompra de títulos pelo Tesouro dos EUA sinaliza liquidez, reforçando a apetite por ativos de risco, embora o hack na Cronos demonstre riscos operacionais que podem drenar liquidez temporariamente de protocolos DeFi específicos.",
-      "implicacao": "O setor de ativos digitais tende a se beneficiar com a validação institucional contínua, pois a acumulação corporativa reduz a oferta circulante e aumenta a percepção de escassez, enquanto o setor DeFi enfrenta pressão de confiança até que a resolução do exploit na Cronos seja esclarecida.",
-      "proximo_evento": "Comunicação oficial de Cronos e Tectonic sobre a recuperação dos fundos e reinício da rede, além do próximo relatório trimestral de tesouraria da Strategy.",
+      "resumo": "Os ETFs de Bitcoin nos EUA registraram um retorno aos fluxos positivos impulsionado majoritariamente pela BlackRock, revertendo saídas anteriores, enquanto os fundos de Ether, XRP e Solana mantêm streaks consecutivos de entrada de capital.",
+      "mecanismo": "A entrada massiva de capital institucional via BlackRock sinaliza confiança renovada e suporte de preço para o Bitcoin, enquanto a consistência nos fluxos de altcoins (ETH, XRP, SOL) indica uma rotação de capital e apetite de risco que fortalece a narrativa de adoção institucional além da moeda líder.",
+      "implicacao": "O setor de criptoativos tende a se beneficiar com a validação institucional contínua, pois fluxos consistentes em ETFs spot reduzem a pressão de venda no mercado spot e aumentam a liquidez, favorecendo tanto o Bitcoin quanto as principais altcoins com produtos regulados.",
+      "proximo_evento": "Monitorar os fluxos diários dos ETFs de Bitcoin e Altcoins nas próximas sessões para confirmar se o rebote é sustentável ou apenas uma correção técnica, além de observar o preço do Bitcoin em relação à marca dos US$ 78.700.",
       "key_numbers": [
-        "Compra Strive: 1.800 BTC",
-        "Compra Strategy: 4.603 BTC",
-        "Preço médio BTC: US$ 80.318",
-        "Perda estimada Cronos: US$ 75 milhões"
+        "Influxo Bitcoin ETF: US$ 216,7 milhões",
+        "Participação BlackRock: 95%",
+        "Streak Ether ETF: 11 sessões",
+        "Preço Bitcoin: US$ 78.700"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Bitcoin begins volatile monthly close as US bond yields eye new 20-year high",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-begins-volatile-monthly-close-as-us-bond-yields-eye-new-20-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O Bitcoin oscila em torno de US$ 78.000 enquanto os rendimentos dos títulos do Tesouro dos EUA se aproximam de máximas de 20 anos, apesar dos comentários do secretário do Tesouro sobre possíveis intervenções.",
-      "mecanismo": "O aumento dos juros de longo prazo nos EUA eleva o custo de oportunidade para ativos sem rendimento como o Bitcoin, pressionando sua demanda; simultaneamente, a divergência bearish no RSI diário indica que o momentum de alta está enfraquecendo, sugerindo que o preço pode não sustentar os ganhos recentes sem novo fluxo de capital especulativo.",
-      "implicacao": "Para a classe de ativos de criptomoedas, especificamente o Bitcoin, o cenário tende a ser de volatilidade e possível correção de curto prazo, já que juros reais mais altos desincentivam a alavancagem e o risco, enquanto a divergência técnica alerta para exaustão de compradores.",
-      "proximo_evento": "Fechamento da vela mensal de agosto e a próxima divulgação de dados de inflação ou emprego nos EUA que possam confirmar ou reverter a tendência dos juros.",
-      "key_numbers": [
-        "BTC: US$ 78.000",
-        "Juro 10 anos: 4.76%",
-        "Juro 30 anos: 5.269%",
-        "RSI Diário: 70.7"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Brookfield’s HomeServe plans $1.8B bond deal for $600M dividend - Bloomberg",
+      "title": "Casey’s General Stores stock may move 6.9% on earnings release",
       "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/brookfields-homeserve-plans-18b-bond-deal-for-600m-dividend--bloomberg-93CH-4883314",
-      "categorias": [
-        "renda_fixa",
-        "debentures"
-      ],
-      "resumo": "A HomeServe, braço residencial da Brookfield, estruturou uma emissão de dívida de US$ 1,8 bilhão para financiar o pagamento de um dividêndio de US$ 600 milhões aos acionistas.",
-      "mecanismo": "A empresa está substituindo capital próprio por capital de dívida (alavancagem) para distribuir caixa imediato, o que aumenta a alavancagem financeira e a obrigação de serviço da dívida, mas sinaliza confiança na geração de caixa futuro para honrar os juros e amortizações.",
-      "implicacao": "Para o setor de seguros e serviços residenciais, a operação demonstra que empresas maduras com fluxo de caixa estável podem usar o mercado de crédito para otimizar o retorno ao acionista, beneficiando ativos sensíveis a dividendos, desde que o custo da dívida permaneça atrativo em relação ao custo de capital próprio.",
-      "proximo_evento": "O fechamento efetivo da emissão de títulos e a divulgação dos termos finais, incluindo a taxa de cupom e o vencimento da dívida.",
-      "key_numbers": [
-        "Emissão de dívida: US$ 1,8 bilhão",
-        "Dividêndio: US$ 600 milhões"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Stocks Were Strong In August. Here's What Could Derail The S&P 500's Rally",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4941878-stocks-strong-in-august-what-could-derail-the-sp500-rally?source=feed_all_articles",
+      "link": "https://www.investing.com/news/stock-market-news/caseys-general-stores-stock-may-move-69-on-earnings-release-93CH-4884275",
       "categorias": [
         "exterior"
       ],
-      "resumo": "O mercado de ações registrou ganhos amplos em agosto, impulsionados pela força das grandes empresas de tecnologia e pelo setor de energia, apesar dos riscos macroeconômicos persistentes.",
-      "mecanismo": "A alta dos rendimentos das títulos do Tesouro americano penalizou setores defensivos como utilidades, enquanto a resiliência do consumidor e o forte crescimento dos lucros (EPS) sustentaram a valorização das mega-cap tech e refinarias menores, criando um cenário onde o otimismo com os resultados trimestrais supera temporariamente as preocupações com a inflação subjacente.",
-      "implicacao": "Com os juros em alta e a inflação central teimosa, o setor de utilidades tende a sofrer pressão por ser sensível a taxas, enquanto o setor de tecnologia e energia podem manter força se o crescimento dos lucros continuar robusto, já que investidores priorizam empresas com geração de caixa forte em ambientes de custo de capital elevado.",
-      "proximo_evento": "Decisão do Federal Reserve sobre os juros em setembro e divulgação dos dados do mercado de trabalho e inflação que precederão a reunião.",
+      "resumo": "A Casey's General Stores deve registrar uma volatilidade de aproximadamente 6,9% em seu preço de ação em torno do anúncio de seus resultados trimestrais.",
+      "mecanismo": "O mercado precifica a expectativa de que os resultados financeiros (lucro por ação e receita) desviem significativamente das estimativas dos analistas, gerando uma reação imediata de ajuste de preço para refletir a nova realidade fundamental da empresa.",
+      "implicacao": "Para o setor de varejo de conveniência, a atenção deve recair sobre a resiliência da margem operacional e o crescimento do tráfego de lojas, já que empresas com forte geração de caixa e eficiência operacional tendem a se valorizar em cenários de incerteza macroeconômica.",
+      "proximo_evento": "Divulgação oficial do balanço trimestral e da conferência de resultados da Casey's General Stores.",
       "key_numbers": [
-        "S&P 500 em agosto: +2%",
-        "Alvo ano S&P 500: >8000",
-        "Probabilidade corte Fed set: ~50%"
+        "Volatilidade esperada: 6,9%"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Macro Insights: Signals From Jackson Hole, Historic Bond Selloff And The September Outlook",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4942032-macro-insights-signals-from-jackson-hole-historic-bond-selloff-and-the-september-outlook?source=feed_all_articles",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "O tom hawkish do Fed em Jackson Hole reforça a prioridade pela estabilidade de preços, elevando os juros de longo prazo e a fragilidade do mercado, apesar da resiliência dos lucros corporativos.",
+      "mecanismo": "A postura firme do Fed contra a inflação impede a queda dos juros de longo prazo, o que encarece o custo de capital e pressiona as avaliações elevadas das ações, criando uma dinâmica onde a renda fixa se torna menos atraente devido à perda real, mas o risco de contração de múltiplos nas ações aumenta se as expectativas inflacionárias ultrapassarem 2,5%.",
+      "implicacao": "Com a volatilidade esperada em setembro e a rotação setorial, setores defensivos e de qualidade tendem a se proteger melhor contra a contração de múltiplos, enquanto setores sensíveis a juros, como tecnologia de crescimento, enfrentam maior pressão de venda devido ao aumento do custo de desconto.",
+      "proximo_evento": "Relatório de emprego e dados de IPC (CPI) de setembro",
+      "key_numbers": [
+        "Alvo S&P 500: 8.000",
+        "Limite inflação: 2,5%",
+        "Pior venda de títulos: desde 2007"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Jones Lang LaSalle Upgraded As Real Estate Services Sector Sees Tailwinds And Momentum",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4942099-jones-lang-lasalle-upgraded-as-real-estate-services-sector-sees-tailwinds-and-momentum?source=feed_all_articles",
+      "categorias": [
+        "imobiliario"
+      ],
+      "resumo": "A Jones Lang LaSalle foi reclassificada para alta devido à identificação de ventos favoráveis e ganho de momentum no setor de serviços imobiliários.",
+      "mecanismo": "A reclassificação reflete a expectativa de que a demanda por serviços especializados em imóveis (como gestão, avaliação e consultoria) esteja se acelerando, impulsionada por um ambiente macroeconômico que favorece a atividade do setor, o que tende a aumentar as receitas e a confiança dos investidores nas empresas do segmento.",
+      "implicacao": "Com o setor de serviços imobiliários apresentando ventos favoráveis, empresas que prestam serviços de gestão e consultoria imobiliária tendem a se beneficiar, já que a maior atividade no mercado de imóveis gera demanda recorrente por esses serviços especializados.",
+      "proximo_evento": "Divulgação dos próximos resultados trimestrais da JLL ou de outras grandes empresas do setor de serviços imobiliários para validação do momentum.",
+      "key_numbers": [
+        "Reclassificação: Upgrade",
+        "Setor: Serviços Imobiliários",
+        "Empresa: Jones Lang LaSalle (JLL)"
       ],
       "sentiment": "up"
     }
