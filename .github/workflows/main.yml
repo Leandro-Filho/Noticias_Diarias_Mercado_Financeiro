@@ -2,8 +2,11 @@ name: Resumo de Mercado
 
 on:
   schedule:
-    # 11:00 UTC = 08:00 no horário de Brasília (ajuste se seu fuso mudar)
-    - cron: "0 11 * * 1-5"
+    # 08:07 no horário de Brasília (11:07 UTC) — de propósito FORA da hora
+    # cheia. O GitHub documenta que horário cheio (xx:00) é quando a fila de
+    # agendamento fica mais congestionada e o atraso é maior; alguns minutos
+    # de diferença já ajuda bastante.
+    - cron: "7 11 * * 1-5"
   workflow_dispatch: {} # permite rodar manualmente pela aba Actions no GitHub
 
 permissions:
@@ -12,7 +15,7 @@ permissions:
 jobs:
   send-digest:
     runs-on: ubuntu-latest
-    timeout-minutes: 10 # se travar por qualquer motivo, desiste sozinho em vez de rodar até 6h
+    timeout-minutes: 20 # mais fontes = mais tempo; ainda desiste sozinho em vez de rodar até 6h
     steps:
       - uses: actions/checkout@v4
 

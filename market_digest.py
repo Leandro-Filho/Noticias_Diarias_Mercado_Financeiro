@@ -103,9 +103,12 @@ RSS_FEEDS = [
 # Sites SEM RSS que funcionam: entramos pelo sitemap (ou link list) em vez
 # do feed. Cada entrada é só a página de listagem/seção do site — a função
 # discover_article_links() cuida do resto. Bom pra sites que não expõem
-# feed de jeito nenhum (caso do Bora Investir, da B3).
+# feed de jeito nenhum.
 HTML_SOURCES = [
     "https://borainvestir.b3.com.br/noticias/",
+    "https://www.clubefiinews.com.br/",  # fundos imobiliários (FIIs) — reforça a categoria mais fraca hoje
+    "https://livecoins.com.br/noticias/",  # cripto — maior portal brasileiro do tema
+    "https://guiadobitcoin.com.br/noticias/",  # cripto — segunda fonte, pra não depender só do Livecoins
 ]
 
 # Quantos links puxar de cada fonte sem RSS (a lista costuma vir sem
