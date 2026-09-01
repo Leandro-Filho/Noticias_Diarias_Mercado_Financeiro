@@ -98,6 +98,8 @@ RSS_FEEDS = [
     "https://cma.com.br/feed",
     "https://www.investing.com/rss/news_25.rss",
     "https://seekingalpha.com/feed.xml",
+    "https://agenciabrasil.ebc.com.br/feed/",  # macro Brasil — agência oficial do governo federal
+    "https://fredblog.stlouisfed.org/feed",  # macro mundo — Federal Reserve Bank de St. Louis
 ]
 
 # Sites SEM RSS que funcionam: entramos pelo sitemap (ou link list) em vez
@@ -109,6 +111,7 @@ HTML_SOURCES = [
     "https://www.clubefiinews.com.br/",  # fundos imobiliários (FIIs) — reforça a categoria mais fraca hoje
     "https://livecoins.com.br/noticias/",  # cripto — maior portal brasileiro do tema
     "https://guiadobitcoin.com.br/noticias/",  # cripto — segunda fonte, pra não depender só do Livecoins
+    "https://agenciadenoticias.ibge.gov.br/agencia-noticias.html?editoria=economicas",  # macro Brasil — IPCA, PIB, SINAPI (índice de custo de construção)
 ]
 
 # Quantos links puxar de cada fonte sem RSS (a lista costuma vir sem
