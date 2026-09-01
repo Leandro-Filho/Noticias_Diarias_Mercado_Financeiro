@@ -124,7 +124,17 @@ def historico_carrega(chat_id: str) -> list[dict]:
         )
         resp.raise_for_status()
         valor = resp.json().get("result")
-        return json.loads(valor) if valor else []
+        if not valor:
+            return []
+        historico = json.loads(valor)
+        # validação defensiva: se sobrou algo corrompido de uma versão
+        # anterior com bug, descarta em vez de mandar lixo pra Groq de novo
+        if not isinstance(historico, list) or not all(
+            isinstance(m, dict) and "role" in m and "content" in m for m in historico
+        ):
+            print(f"Histórico corrompido encontrado pro chat {chat_id}, descartando.")
+            return []
+        return historico
     except Exception as exc:
         print(f"Falha lendo histórico do Upstash ({chat_id}): {exc}")
         return []
@@ -135,10 +145,15 @@ def historico_salva(chat_id: str, historico: list[dict]) -> None:
         return
     historico = historico[-(MAX_TROCAS_HISTORICO * 2):]  # cada troca = 2 entradas (user+assistant)
     try:
+        # IMPORTANTE: usa data= (corpo cru), não json= — o Upstash espera o
+        # valor puro no corpo da requisição, sem embrulhar numa camada extra
+        # de JSON (ver https://upstash.com/docs/redis/features/restapi).
+        # Usar json= aqui faz o valor ser codificado duas vezes, corrompendo
+        # o histórico salvo.
         requests.post(
             f"{UPSTASH_URL}/set/historico:{chat_id}",
             headers={"Authorization": f"Bearer {UPSTASH_TOKEN}"},
-            json=json.dumps(historico),  # valor precisa ir como string JSON
+            data=json.dumps(historico),
             timeout=10,
         )
     except Exception as exc:
