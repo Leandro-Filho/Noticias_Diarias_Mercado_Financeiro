@@ -148,6 +148,32 @@ CATEGORIES = [
     {"id": "imobiliario", "name": "Mercado Imobiliário", "emoji": "🏗️", "hint": "fundos imobiliários (FIIs), CRI, financiamento imobiliário"},
 ]
 
+MESES_PT = [
+    "janeiro", "fevereiro", "março", "abril", "maio", "junho",
+    "julho", "agosto", "setembro", "outubro", "novembro", "dezembro",
+]
+
+
+def data_hoje_pt() -> str:
+    """Monta a data em português sem depender de locale do sistema (que pode
+    não estar disponível/configurado igual no GitHub Actions)."""
+    agora = datetime.now()
+    return f"{agora.day} de {MESES_PT[agora.month - 1]} de {agora.year}"
+
+
+def aviso_data() -> str:
+    """Aviso pra colocar em todo prompt: sem isso, o modelo pode tratar
+    notícia/lei datada do ano corrente como 'futuro' ou 'erro', porque o
+    conhecimento de treinamento dele tem um corte anterior a hoje."""
+    return (
+        f"IMPORTANTE: a data de hoje é {data_hoje_pt()}. Trate isso como o "
+        "presente real — seu conhecimento de treinamento pode ter um corte "
+        f"anterior a essa data, então NUNCA trate uma notícia, lei ou evento "
+        f"datado de {datetime.now().year} como \"futuro\", \"hipotético\" ou "
+        '"erro de data" só por parecer posterior ao que você aprendeu. Se a '
+        "notícia afirma algo com essa data, é fato atual, não projeção."
+    )
+
 
 def parse_data_artigo(data_str: str | None) -> datetime | None:
     """O trafilatura (via htmldate) devolve a data do artigo no formato
@@ -323,7 +349,9 @@ def triagem(pool: list[dict]) -> dict:
     categorias_text = "\n".join(f'- "{c["id"]}" ({c["name"]}): {c["hint"]}' for c in CATEGORIES)
     exemplo_schema = "{" + ", ".join(f'"{c["id"]}": []' for c in CATEGORIES) + "}"
 
-    prompt = f"""Abaixo está uma lista numerada de notícias recentes de mercado
+    prompt = f"""{aviso_data()}
+
+Abaixo está uma lista numerada de notícias recentes de mercado
 financeiro, sem categoria definida, e a lista de categorias que existem
 (o texto entre aspas é o identificador que você deve usar como chave).
 
@@ -352,7 +380,9 @@ def analisa_noticia(article: dict) -> dict:
     """1 chamada por notícia (não por categoria): analisa em profundidade,
     focado em ajudar decisão de investimento de curto/médio prazo — não só
     resumir o que já aconteceu."""
-    prompt = f"""Você é um analista de mercado ajudando um investidor de curto/médio
+    prompt = f"""{aviso_data()}
+
+Você é um analista de mercado ajudando um investidor de curto/médio
 prazo a decidir onde prestar atenção — não é só um resumo de notícia, é uma
 leitura de investimento. Responda sempre em português do Brasil.
 

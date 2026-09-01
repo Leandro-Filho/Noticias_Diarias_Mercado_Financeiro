@@ -25,6 +25,7 @@ Variáveis de ambiente necessárias:
 import json
 import os
 import time
+from datetime import datetime
 
 import requests
 from dotenv import load_dotenv
@@ -100,12 +101,33 @@ def monta_contexto_digest(digest: dict) -> str:
     return "\n\n".join(blocos)
 
 
+MESES_PT = [
+    "janeiro", "fevereiro", "março", "abril", "maio", "junho",
+    "julho", "agosto", "setembro", "outubro", "novembro", "dezembro",
+]
+
+
+def data_hoje_pt() -> str:
+    """Monta a data em português sem depender de locale do sistema (que pode
+    não estar disponível/configurado igual no GitHub Actions)."""
+    agora = datetime.now()
+    return f"{agora.day} de {MESES_PT[agora.month - 1]} de {agora.year}"
+
+
 def responde(pergunta: str, digest: dict) -> str:
     contexto_digest = monta_contexto_digest(digest)
+    hoje = data_hoje_pt()
 
     prompt = f"""Você é um analista de mercado conversando com um investidor de
 curto/médio prazo sobre o resumo de notícias que ele recebeu hoje. Responda
 sempre em português do Brasil, em texto corrido normal (nada de JSON aqui).
+
+A data de hoje é {hoje}. Trate isso como o presente real — seu conhecimento
+de treinamento pode ter um corte anterior a essa data, então NUNCA assuma
+que uma notícia, lei ou evento datado de {datetime.now().year} é "futuro",
+"hipotético" ou "erro de data" só porque parece posterior ao que você
+aprendeu. Se a notícia do digest afirma algo com essa data, trate como fato
+atual, não como projeção.
 
 Notícias do digest de hoje:
 {contexto_digest}
