@@ -96,6 +96,7 @@ def monta_contexto_digest(digest: dict) -> str:
             f"  Resumo: {it.get('resumo')}\n"
             f"  Mecanismo: {it.get('mecanismo')}\n"
             f"  Implicação: {it.get('implicacao')}\n"
+            f"  Risco: {it.get('risco')}\n"
             f"  De olho em: {it.get('proximo_evento')}"
         )
     return "\n\n".join(blocos)

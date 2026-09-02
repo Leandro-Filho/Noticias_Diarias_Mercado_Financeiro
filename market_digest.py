@@ -125,12 +125,18 @@ JANELA_HORAS = 36
 # conversar com base no que já foi analisado hoje.
 DIGEST_PATH = "ultimo_digest.json"
 
-# Quantos itens no máximo por categoria vão pro texto completo (controla
-# custo de banda/tempo e tamanho do prompt de síntese). Reduzido de 4 pra 2
-# porque cada item agora traz análise bem mais rica (mecanismo, implicação,
-# próximo evento) — 4 itens desse tamanho estourava o limite de caracteres
-# de uma mensagem do Telegram.
-MAX_ITENS_POR_CATEGORIA = 2
+# Quantas notícias por categoria recebem análise completa (mecanismo,
+# implicação, próximo evento) — essas baixam o texto integral do artigo.
+MAX_ITENS_PROFUNDOS_POR_CATEGORIA = 2
+
+# Quantas notícias adicionais por categoria entram só como menção rápida
+# (uma frase, presa ao resumo original — sem análise funda, sem baixar
+# artigo completo). Existe pra não descartar notícia relevante em silêncio,
+# só resumir menos ela.
+MAX_ITENS_RASOS_POR_CATEGORIA = 4
+
+# Total que a triagem pode escolher por categoria (profundos + rasos).
+MAX_ITENS_POR_CATEGORIA = MAX_ITENS_PROFUNDOS_POR_CATEGORIA + MAX_ITENS_RASOS_POR_CATEGORIA
 
 # Quantos caracteres do texto completo de cada artigo entram no prompt de
 # síntese (o suficiente pra uma notícia inteira, sem estourar o limite de
@@ -178,6 +184,58 @@ def aviso_data() -> str:
         f"datado de {datetime.now().year} como \"futuro\", \"hipotético\" ou "
         '"erro de data" só por parecer posterior ao que você aprendeu. Se a '
         "notícia afirma algo com essa data, é fato atual, não projeção."
+    )
+
+
+# --------------------------------------------------------- Boletim Focus (BCB)
+
+# Indicador (nome oficial na API) -> rótulo pra exibir
+INDICADORES_FOCUS = {
+    "Selic": "Selic (fim do ano)",
+    "IPCA": "IPCA (fim do ano)",
+    "Câmbio": "Câmbio, R$/US$ (fim do ano)",
+    "PIB Total": "PIB (crescimento no ano)",
+}
+
+
+def fetch_boletim_focus() -> str:
+    """Busca a projeção mediana mais recente de cada indicador no Boletim
+    Focus (API oficial e gratuita do Banco Central, sem chave). Isso dá pro
+    modelo números OFICIAIS e verificados como pano de fundo, em vez de só
+    confiar no que a notícia do dia menciona — reduz risco de invenção
+    justamente nos números mais importantes (Selic, IPCA, câmbio, PIB)."""
+    ano_atual = str(datetime.now().year)
+    linhas = []
+
+    for indicador, rotulo in INDICADORES_FOCUS.items():
+        try:
+            resp = requests.get(
+                "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativasMercadoAnuais",
+                params={
+                    "$filter": f"Indicador eq '{indicador}' and DataReferencia eq '{ano_atual}'",
+                    "$orderby": "Data desc",
+                    "$top": 1,
+                    "$format": "json",
+                },
+                timeout=15,
+            )
+            resp.raise_for_status()
+            dados = resp.json().get("value", [])
+            if dados:
+                d = dados[0]
+                linhas.append(
+                    f"- {rotulo}: mediana {d['Mediana']}% (pesquisa de {d['Data']}, "
+                    f"{d['numeroRespondentes']} instituições consultadas)"
+                )
+        except Exception as exc:
+            print(f"Falha buscando Focus pra {indicador}: {exc}")
+
+    if not linhas:
+        return ""
+
+    return (
+        "Projeções oficiais do Boletim Focus (Banco Central, pesquisa semanal "
+        f"com instituições do mercado, referência {ano_atual}):\n" + "\n".join(linhas)
     )
 
 
@@ -369,25 +427,32 @@ Notícias (numeradas de 0 em diante):
 
 Pra cada categoria, escolha até {MAX_ITENS_POR_CATEGORIA} notícias da lista
 que sejam relevantes pra ela (pode ser lista vazia). Uma mesma notícia pode
-servir pra mais de uma categoria se fizer sentido. Responda SOMENTE com um
+servir pra mais de uma categoria se fizer sentido. IMPORTANTE: liste os
+números de cada categoria em ORDEM DE RELEVÂNCIA, a mais importante
+primeiro — os primeiros {MAX_ITENS_PROFUNDOS_POR_CATEGORIA} de cada
+categoria vão receber uma análise mais aprofundada depois, então a ordem
+importa de verdade, não é só uma lista solta. Responda SOMENTE com um
 JSON válido, usando exatamente os identificadores entre aspas acima como
 chave, e o NÚMERO de cada notícia escolhida (não a URL, não o título — só o
-número que precede ela na lista) como valor. Formato exato, sem nenhum texto
-antes ou depois:
+número que precede ela na lista) como valor, na ordem de relevância.
+Formato exato, sem nenhum texto antes ou depois:
 
 {exemplo_schema}
 
-Exemplo de resposta válida (números são só ilustrativos): {{"renda_fixa": [3, 17], "acoes": [0, 5, 22]}}"""
+Exemplo de resposta válida (números são só ilustrativos, primeiro = mais
+relevante): {{"renda_fixa": [3, 17], "acoes": [0, 5, 22]}}"""
 
     return call_groq_json(prompt, max_tokens=400)  # resposta é só números, cabe tranquilo
 
 
-def analisa_noticia(article: dict) -> dict:
+def analisa_noticia(article: dict, contexto_macro: str = "") -> dict:
     """1 chamada por notícia (não por categoria): analisa em profundidade,
     focado em ajudar decisão de investimento de curto/médio prazo — não só
     resumir o que já aconteceu."""
-    prompt = f"""{aviso_data()}
+    bloco_macro = f"\n{contexto_macro}\n" if contexto_macro else ""
 
+    prompt = f"""{aviso_data()}
+{bloco_macro}
 Você é um analista de mercado ajudando um investidor de curto/médio
 prazo a decidir onde prestar atenção — não é só um resumo de notícia, é uma
 leitura de investimento. Responda sempre em português do Brasil.
@@ -399,7 +464,7 @@ Texto completo:
 
 Responda SOMENTE com um JSON no formato exato:
 
-{{"resumo":"...","mecanismo":"...","proximo_evento":"...","implicacao":"...","key_numbers":["Rótulo: valor"],"sentiment":"up"}}
+{{"resumo":"...","mecanismo":"...","proximo_evento":"...","implicacao":"...","risco":"...","key_numbers":["Rótulo: valor"],"sentiment":"up"}}
 
 Regras pra cada campo:
 - "resumo": 1 a 2 frases, o fato em si, com suas PRÓPRIAS palavras — nunca
@@ -409,6 +474,8 @@ Regras pra cada campo:
   corte de 0,50 p.p. na próxima reunião porque a inflação desacelerou mais
   que o previsto — isso reduz o custo de crédito e tende a beneficiar ativos
   sensíveis a juros, como IPCA+ mais longos.". Seja específico, não genérico.
+  Se houver projeção oficial do Boletim Focus relacionada (acima), use ela
+  como referência factual, não invente número que contradiga ela.
 - "proximo_evento": qual é o PRÓXIMO gatilho relacionado a essa notícia que
   vale acompanhar (próxima reunião, próximo dado divulgado, prazo) — isso é
   o que vira notícia depois, não o que já aconteceu.
@@ -419,11 +486,71 @@ Regras pra cada campo:
   puxa demanda por imóveis.". Fale de SETOR ou CLASSE DE ATIVO, nunca de uma
   ação/empresa específica por nome — isso não é recomendação de compra/venda,
   é raciocínio pra você aplicar com seu próprio julgamento.
+- "risco": em 1 frase, o que poderia invalidar esse raciocínio — o cenário
+  contrário, ou uma incerteza real que o tornaria errado. Todo analista de
+  verdade apresenta isso junto da tese, não só o lado favorável. Se
+  genuinamente não houver risco relevante identificável no texto, diga isso
+  claramente em vez de inventar um.
 - "key_numbers": no máximo 4 números, cada um com RÓTULO (formato "Rótulo:
   valor", ex: "Selic: 15%") — nunca número solto sem dizer o que é.
 - "sentiment": "up", "down" ou "neutral"."""
 
-    return call_groq_json(prompt, max_tokens=900)
+    return call_groq_json(prompt, max_tokens=1000)
+
+
+def resumo_raso_e_de_olho(cat: dict, itens_rasos: list[dict], analises_profundas: list[dict]) -> dict:
+    """1 chamada por categoria: em vez de descartar notícia que não recebeu
+    análise completa, gera uma frase por notícia — PRESA ao resumo original
+    dela, com instrução explícita contra invenção — e um parágrafo de 'o que
+    observar' juntando o contexto de tudo que já foi analisado na categoria."""
+    if not itens_rasos and not analises_profundas:
+        return {"linhas": [], "de_olho": ""}
+
+    contexto_rasos = (
+        "\n".join(f"- [{it['source']}] {it['title']}: {it['summary']}" for it in itens_rasos)
+        or "(nenhuma)"
+    )
+    contexto_profundos = (
+        "\n".join(
+            f"- {a.get('title')}: mecanismo já identificado = {a.get('mecanismo')}; "
+            f"próximo evento já identificado = {a.get('proximo_evento')}"
+            for a in analises_profundas
+        )
+        or "(nenhuma)"
+    )
+
+    prompt = f"""{aviso_data()}
+
+Categoria: {cat['name']} ({cat['hint']})
+
+Notícias dessa categoria já analisadas em profundidade (contexto — NÃO
+repita o conteúdo delas nas linhas abaixo, use só como pano de fundo):
+{contexto_profundos}
+
+Notícias adicionais dessa categoria, ainda sem análise, cada uma com o
+resumo original vindo da fonte:
+{contexto_rasos}
+
+Duas tarefas:
+
+1. Pra CADA notícia adicional listada acima, escreva UMA frase factual e
+   direta. REGRA CRÍTICA: baseie-se SOMENTE no resumo original fornecido
+   pra aquela notícia — nunca invente número, data, nome ou fato que não
+   esteja explícito nesse resumo. Se o resumo for vago ou incompleto,
+   mantenha a frase igualmente vaga — não complete a lacuna com suposição
+   sua. Se não houver notícias adicionais, devolva lista vazia.
+
+2. Escreva UM parágrafo curto (2-3 frases) de "o que observar" pra essa
+   categoria como um todo, combinando o contexto das notícias já analisadas
+   em profundidade com as adicionais. REGRA CRÍTICA: baseie-se SOMENTE no
+   que foi fornecido acima — nunca cite evento, data ou reunião futura que
+   não tenha sido mencionada explicitamente em alguma das notícias listadas.
+
+Responda SOMENTE com um JSON no formato exato:
+
+{{"linhas": ["frase sobre notícia 1", "frase sobre notícia 2"], "de_olho": "parágrafo"}}"""
+
+    return call_groq_json(prompt, max_tokens=700)
 
 
 # -------------------------------------------------------------- Texto completo
@@ -448,11 +575,12 @@ def escape_html(text: str) -> str:
     return (text or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def format_category_message(cat: dict, items: list[dict]) -> str:
+def format_category_message(cat: dict, items: list[dict], linhas_rasas: list[str], de_olho: str) -> str:
     today = datetime.now().strftime("%d/%m")
     lines = [f"<b>{cat['emoji']} {cat['name']}</b> · {today}"]
-    if not items:
+    if not items and not linhas_rasas:
         lines.append("Sem novidades relevantes hoje.")
+
     for it in items:
         icon = {"up": "📈", "down": "📉"}.get(it.get("sentiment", "neutral"), "➖")
         lines.append("")
@@ -468,8 +596,21 @@ def format_category_message(cat: dict, items: list[dict]) -> str:
             lines.append("🔎 " + escape_html(it["mecanismo"]))
         if it.get("implicacao"):
             lines.append("💡 " + escape_html(it["implicacao"]))
+        if it.get("risco"):
+            lines.append("⚠️ <i>Risco:</i> " + escape_html(it["risco"]))
         if it.get("proximo_evento"):
             lines.append("📅 <i>De olho em:</i> " + escape_html(it["proximo_evento"]))
+
+    if linhas_rasas:
+        lines.append("")
+        lines.append("<b>Outras notícias:</b>")
+        for linha in linhas_rasas:
+            lines.append(f"• {escape_html(linha)}")
+
+    if de_olho:
+        lines.append("")
+        lines.append("🔍 <b>De olho:</b> " + escape_html(de_olho))
+
     return "\n".join(lines)
 
 
@@ -498,6 +639,9 @@ def resolve_chat_id(category_name: str) -> str | None:
 def main() -> None:
     full_text_cache: dict[str, str] = {}
 
+    contexto_macro = fetch_boletim_focus()
+    print("Boletim Focus:", "OK" if contexto_macro else "indisponível, seguindo sem esse contexto")
+
     pool = fetch_pool()
     pool += fetch_pool_from_html_sources(full_text_cache)  # sites sem RSS, ex: Bora Investir
     print(f"{len(pool)} notícias no pool (últimas {JANELA_HORAS}h, {len(RSS_FEEDS)} feeds RSS + {len(HTML_SOURCES)} sites sem RSS).")
@@ -517,29 +661,42 @@ def main() -> None:
     def indices_validos(valores):
         return [i for i in valores if isinstance(i, int) and 0 <= i < len(pool)]
 
-    # baixa texto completo só das URLs que alguma categoria escolheu, uma vez cada
+    selecao_por_categoria = {cat["id"]: indices_validos(selecao.get(cat["id"], [])) for cat in CATEGORIES}
+
+    # índices que recebem análise completa: os N primeiros de CADA categoria
+    # (união — se um índice já ganhou análise funda por causa de outra
+    # categoria, ele não vira "raso" de novo só porque essa categoria também
+    # o escolheu mais abaixo na lista)
+    indices_profundos = set()
+    for idxs in selecao_por_categoria.values():
+        indices_profundos.update(idxs[:MAX_ITENS_PROFUNDOS_POR_CATEGORIA])
+
+    # baixa texto completo só dos índices que vão ter análise completa —
+    # os "rasos" ficam só com o resumo original, mais rápido e mais barato
     # (itens de HTML_SOURCES já estão em full_text_cache, então não baixam de novo)
-    indices_selecionados = {i for idxs in selecao.values() for i in indices_validos(idxs)}
-    urls_selecionadas = {pool[i]["link"] for i in indices_selecionados}
+    urls_profundas = {pool[i]["link"] for i in indices_profundos}
     textos = dict(full_text_cache)
-    for url in urls_selecionadas:
+    for url in urls_profundas:
         if url in textos:
             continue
         texto = fetch_full_text(url)
         # se não conseguir o texto completo, cai pro resuminho do RSS mesmo assim
         textos[url] = texto or pool_by_link.get(url, {}).get("summary", "")
 
-    # analisa cada notícia selecionada UMA VEZ (mesmo que sirva pra mais de uma
+    # analisa cada notícia "profunda" UMA VEZ (mesmo que sirva pra mais de uma
     # categoria), cacheando por índice — evita gastar chamada em dobro
     analises_por_indice: dict[int, dict] = {}
-    for i in sorted(indices_selecionados):
+    for i in sorted(indices_profundos):
         base = pool[i]
         article = {**base, "text": textos.get(base["link"], base["summary"])}
         try:
-            analises_por_indice[i] = {**base, **analisa_noticia(article)}
+            analises_por_indice[i] = {**base, **analisa_noticia(article, contexto_macro)}
         except Exception as exc:
             print(f"Falha analisando notícia {i} ({base.get('title', '')[:60]}): {exc}")
         time.sleep(1)  # espaça as chamadas de análise entre si
+
+    rasos_por_categoria: dict[str, list[str]] = {}
+    de_olho_por_categoria: dict[str, str] = {}
 
     for cat in CATEGORIES:
         chat_id = resolve_chat_id(cat["name"])
@@ -547,27 +704,52 @@ def main() -> None:
             print(f"Sem grupo nem chat padrão configurado para '{cat['name']}' — pulando.")
             continue
 
-        idxs_cat = indices_validos(selecao.get(cat["id"], []))
+        idxs_cat = selecao_por_categoria[cat["id"]]
         items = [analises_por_indice[i] for i in idxs_cat if i in analises_por_indice]
+        itens_rasos = [pool[i] for i in idxs_cat if i not in analises_por_indice]
 
         try:
-            message = format_category_message(cat, items)
+            resultado_raso = (
+                resumo_raso_e_de_olho(cat, itens_rasos, items) if (itens_rasos or items) else {"linhas": [], "de_olho": ""}
+            )
+        except Exception as exc:
+            # se essa chamada falhar, cai pro mais seguro possível contra
+            # alucinação: só título + fonte, nada gerado, nada inventado
+            print(f"Falha gerando resumo raso/de olho pra {cat['name']} ({exc}) — usando fallback simples.")
+            resultado_raso = {
+                "linhas": [f"{it.get('title')} ({it.get('source')})" for it in itens_rasos],
+                "de_olho": "",
+            }
+
+        try:
+            message = format_category_message(
+                cat, items, resultado_raso.get("linhas", []), resultado_raso.get("de_olho", "")
+            )
         except Exception as exc:
             message = f"⚠️ <b>{cat['emoji']} {cat['name']}</b>\nNão consegui montar essa categoria hoje ({exc})."
+
+        rasos_por_categoria[cat["id"]] = resultado_raso.get("linhas", [])
+        de_olho_por_categoria[cat["id"]] = resultado_raso.get("de_olho", "")
 
         send_telegram(chat_id, message)
         time.sleep(2)
 
-    salvar_digest_do_dia(selecao, analises_por_indice, indices_validos)
+    salvar_digest_do_dia(selecao_por_categoria, analises_por_indice, rasos_por_categoria, de_olho_por_categoria)
 
 
-def salvar_digest_do_dia(selecao, analises_por_indice, indices_validos) -> None:
+def salvar_digest_do_dia(
+    selecao_por_categoria: dict[str, list[int]],
+    analises_por_indice: dict[int, dict],
+    rasos_por_categoria: dict[str, list[str]],
+    de_olho_por_categoria: dict[str, str],
+) -> None:
     """Grava o digest de hoje num arquivo do próprio repositório, pro
-    chat_bot.py conseguir responder pergunta com base nisso depois."""
+    chat_bot.py conseguir responder pergunta com base nisso depois —
+    incluindo as menções rasas e o "de olho", não só as análises completas."""
     categorias_por_indice: dict[int, list[str]] = {}
-    for cat in CATEGORIES:
-        for i in indices_validos(selecao.get(cat["id"], [])):
-            categorias_por_indice.setdefault(i, []).append(cat["id"])
+    for cat_id, idxs in selecao_por_categoria.items():
+        for i in idxs:
+            categorias_por_indice.setdefault(i, []).append(cat_id)
 
     itens = []
     for i, analise in analises_por_indice.items():
@@ -580,6 +762,7 @@ def salvar_digest_do_dia(selecao, analises_por_indice, indices_validos) -> None:
                 "resumo": analise.get("resumo"),
                 "mecanismo": analise.get("mecanismo"),
                 "implicacao": analise.get("implicacao"),
+                "risco": analise.get("risco"),
                 "proximo_evento": analise.get("proximo_evento"),
                 "key_numbers": analise.get("key_numbers"),
                 "sentiment": analise.get("sentiment"),
@@ -588,7 +771,12 @@ def salvar_digest_do_dia(selecao, analises_por_indice, indices_validos) -> None:
 
     with open(DIGEST_PATH, "w", encoding="utf-8") as f:
         json.dump(
-            {"gerado_em": datetime.now(timezone.utc).isoformat(), "itens": itens},
+            {
+                "gerado_em": datetime.now(timezone.utc).isoformat(),
+                "itens": itens,
+                "outras_noticias_por_categoria": rasos_por_categoria,
+                "de_olho_por_categoria": de_olho_por_categoria,
+            },
             f,
             ensure_ascii=False,
             indent=2,
