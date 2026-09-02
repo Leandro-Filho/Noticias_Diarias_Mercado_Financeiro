@@ -476,6 +476,11 @@ Regras pra cada campo:
   sensíveis a juros, como IPCA+ mais longos.". Seja específico, não genérico.
   Se houver projeção oficial do Boletim Focus relacionada (acima), use ela
   como referência factual, não invente número que contradiga ela.
+  REGRA CRÍTICA: nunca afirme a DIREÇÃO de um indicador (subiu, caiu, está
+  em alta) que não esteja explícito no texto da notícia ou nas projeções
+  acima — vale especialmente pra juros americanos, petróleo, índices de
+  Wall Street e câmbio. Não complete com o padrão que "normalmente"
+  acontece: se o texto não diz a direção, não afirme direção nenhuma.
 - "proximo_evento": qual é o PRÓXIMO gatilho relacionado a essa notícia que
   vale acompanhar (próxima reunião, próximo dado divulgado, prazo) — isso é
   o que vira notícia depois, não o que já aconteceu.
