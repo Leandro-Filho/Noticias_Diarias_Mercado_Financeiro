@@ -1,152 +1,195 @@
 {
-  "gerado_em": "2026-09-01T15:27:37.176726+00:00",
+  "gerado_em": "2026-09-02T11:15:57.509347+00:00",
   "itens": [
     {
-      "title": "Lula ‘ajuda’ etanol com alívio tributário e possível subsídio direto; BTG vê ganho para 4 ações",
+      "title": "Mercado internacional reage às falas do presidente do BoJ e ataques dos EUA ao Irã; Ibovespa em dólar sobe nesta quarta-feira (2)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/lula-ajuda-etanol-com-alivio-tributario-e-possivel-subsidio-direto-btg-ve-ganho-para-4-acoes-pads/",
+      "link": "https://www.moneytimes.com.br/mercado-internacional-reage-as-falas-do-presidente-do-boj-e-ataques-dos-eua-ao-ira-ibovespa-em-dolar-sobe-nesta-quarta-feira-2-rens/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "A sanção da Lei Complementar 235/2026 institui alívio tributário e subsídios diretos para o setor de etanol, visando preservar sua competitividade frente a cortes na carga fiscal da gasolina.",
-      "mecanismo": "A lei determina que, se a tributação da gasolina cair 30% ou mais, os impostos federais sobre o etanol serão zerados, além de prever compensações financeiras aos produtores; isso protege a margem dos fabricantes ao garantir que o biocombustível não perca vantagem de preço relativa ao derivado do petróleo.",
-      "implicacao": "O setor de etanol tende a se beneficiar com a expansão de margens e fluxo de caixa, pois a redução efetiva de custos tributários aumenta a competitividade do hidratado frente à gasolina, potencializando a demanda e a rentabilidade das usinas.",
-      "proximo_evento": "Publicação da regulamentação pela Receita Federal definindo as regras de habilitação, cálculo e pagamento dos subsídios.",
+      "resumo": "A Ibovespa em dólar avança impulsionada pela alta do petróleo devido a tensões geopolíticas, enquanto o mercado internacional sofre pressão com a possibilidade de fim do carry trade japonês.",
+      "mecanismo": "Os ataques dos EUA ao Irã elevam o preço do petróleo, beneficiando diretamente as ações de energia no Brasil; simultaneamente, a fala do presidente do BoJ sobre aumento de juros ameaça desmontar o carry trade, retirando liquidez global e elevando juros de longo prazo nos EUA, o que gera aversão a risco nas bolsas asiáticas e europeias.",
+      "implicacao": "O setor de energia tende a se beneficiar com a alta do Brent, pois a receita das empresas do segmento acompanha o preço da commodity; por outro lado, ativos sensíveis a juros globais e moeda forte podem sofrer pressão de venda devido à saída de capitais do carry trade e à valorização do dólar em relação a outras moedas.",
+      "proximo_evento": "Divulgação do relatório de empregos ADP nos EUA e do Livro Bege do Federal Reserve nesta quarta-feira.",
       "key_numbers": [
-        "Redução tributária gasolina: 49%",
-        "Compensação prevista: R$ 1,2 bilhão",
-        "Créditos PIS/Cofins: R$ 750 milhões",
-        "Ganho preço etanol: >10%"
+        "Ibovespa: 179.722 pontos",
+        "Dólar: R$ 5,1557",
+        "Petróleo Brent: US$ 95,23",
+        "Nikkei: -2,96%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Dividendos: 10 ações que mais pagaram proventos em 2026 — e uma chega a dividend yield de 12%",
+      "title": "Iene ainda é o rei do ‘carry trade’? Juros maiores e intervenção cambial no Japão fazem investidores buscarem alternativas",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/dividendos-10-acoes-que-mais-pagaram-proventos-em-2026-e-uma-chega-a-dividend-yield-de-12-ceci/",
+      "link": "https://www.moneytimes.com.br/iene-em-xeque-juros-altos-e-intervencoes-colocam-carry-trade-a-prova-lils/",
       "categorias": [
-        "acoes"
+        "exterior"
       ],
-      "resumo": "Um levantamento do IDIV destaca que empresas de utilities, seguradoras e incorporadoras lideraram os pagamentos de proventos em 2026, com a PetroReconcavo atingindo um dividend yield de 12,1% até julho.",
-      "mecanismo": "O alto dividend yield observado reflete tanto a robustez dos fluxos de caixa em setores regulados e de infraestrutura quanto a dinâmica de preços das ações, onde quedas no valor de mercado podem inflar o indicador percentual sem aumento real na distribuição absoluta, exigindo análise conjunta de fundamentos e valuation.",
-      "implicacao": "O setor de utilities e seguradoras tende a atrair capital de investidores de renda, pois a estabilidade regulatória e a geração de caixa previsível sustentam pagamentos recorrentes, embora a sensibilidade aos juros e riscos geopolíticos possa moderar a expansão dos yields no médio prazo.",
-      "proximo_evento": "Divulgação dos resultados trimestrais e políticas de distribuição de lucros das empresas do IDIV no próximo balanço, além do calendário de assembleias gerais para aprovação de dividendos extraordinários.",
+      "resumo": "O aumento dos juros no Japão e as intervenções cambiais para fortalecer o iene estão elevando o custo do carry trade tradicional, levando investidores a diversificar para moedas como o franco suíço.",
+      "mecanismo": "A elevação da taxa de juros japonesa para 1% e a expectativa de novo aumento reduzem o diferencial de juros favorável ao financiamento em iene, enquanto o risco de intervenção governamental para valorizar a moeda aumenta a volatilidade e o custo de manutenção das posições, incentivando a migração para alternativas com menor risco político e juros ainda baixos.",
+      "implicacao": "O setor de mercados de câmbio e fundos de hedge de taxa de juros tende a ver uma redistribuição de fluxos, pois a redução da atratividade do iene como moeda de funding deve aumentar a demanda por ativos denominados em franco suíço e dólar australiano, alterando a dinâmica de liquidez e spreads cambiais.",
+      "proximo_evento": "Reunião de política monetária do Banco Central do Japão (BoJ) em setembro, com expectativa de alta de 25 pontos-base na taxa de juros.",
       "key_numbers": [
-        "Top DY (RECV3): 12,10%",
-        "2º lugar DY (LOGG3): 11,04%",
-        "3º lugar DY (TAEE11): 7,83%",
-        "Empresas analisadas: 52"
+        "Juros Japão: 1%",
+        "Expectativa BoJ Set: 1,25%",
+        "USD/JPY: 160",
+        "Juros EUA: 3,50%-3,75%"
       ],
-      "sentiment": "up"
+      "sentiment": "neutral"
     },
     {
-      "title": "Wall Street inicia setembro em queda com alta dos rendimentos dos títulos e tensão geopolítica; Nasdaq cai 1%",
+      "title": "Tempo real: Ibovespa acompanha indústria no Brasil e Livro Bege do Fed",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-abertura-1-9-26-lils/",
+      "link": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-02-09-2026-jals-lils-apsa/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "O mercado brasileiro opera com cautela diante da confirmação de ajustes fiscais graduais pelo governo e da rotação de carteiras para ativos sensíveis a juros, enquanto o Ibovespa em dólar recua no pré-market dos EUA.",
+      "mecanismo": "A admissão da necessidade de mais ajuste fiscal, combinada com a trajetória de superávit projetada, busca ancorar as expectativas de inflação e juros de longo prazo; simultaneamente, a rotação observada pela Genial indica que investidores estão migrando de defensivos para ações cíclicas e sensíveis à queda de juros, pressionando o índice em dólar devido à cautela global e fluxo cambial.",
+      "implicacao": "Com a sinalização de continuidade no ajuste fiscal e a rotação para ativos sensíveis a juros, o setor de infraestrutura e empresas cíclicas tendem a se beneficiar no médio prazo, já que a redução da curva de juros favorece a valorização de ativos com maior beta e sensibilidade ao custo de capital.",
+      "proximo_evento": "Votação da Medida Provisória das blusinhas no Congresso, agendada para quarta-feira.",
+      "key_numbers": [
+        "Bitcoin: US$ 76.437,53",
+        "Petróleo Brent: US$ 94,86",
+        "Ibovespa em dólar: US$ 36,36",
+        "Superávit 2027: 0,5%"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Na contramão dos Treasuries, juros futuros perdem força com eleições e PIB",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/juros-futuros-1-9-26-apsa/",
       "categorias": [
         "renda_fixa"
       ],
-      "resumo": "Wall Street abre setembro em baixa impulsionada pela alta dos juros americanos e pelo aumento das tensões geopolíticas entre EUA e Irã.",
-      "mecanismo": "A elevação dos rendimentos dos títulos do Tesouro de 10 anos torna a renda fixa mais atrativa, drenando capital das ações, enquanto o risco de interrupção no fornecimento de petróleo devido ao conflito no Estreito de Ormuz eleva o preço do barril e alimenta temores inflacionários, reforçando a postura restritiva do Fed.",
-      "implicacao": "O setor de tecnologia tende a sofrer pressão, pois a alta dos juros aumenta o custo de capital e desvaloriza fluxos de caixa futuros, enquanto empresas de energia podem se beneficiar temporariamente com a valorização do petróleo, embora o risco sistêmico de inflação prejudique ativos de risco em geral.",
-      "proximo_evento": "Divulgação do Relatório Jolts hoje e do Payroll de agosto na próxima sexta-feira (4).",
+      "resumo": "Os juros futuros brasileiros recuaram em todos os vencimentos, impulsionados pela expectativa de desaceleração econômica no terceiro trimestre e pela incerteza política, movendo-se na contramão da alta dos títulos americanos.",
+      "mecanismo": "A combinação de um PIB do 2T2026 puxado por setores não cíclicos (agro e extrativa) e a projeção de queda para 0,2% no 3T2026 reforça a tese de enfraquecimento da demanda interna, o que reduz a pressão inflacionária e aumenta a probabilidade de cortes de juros pelo Copom, beneficiando os DIs; simultaneamente, a tensão geopolítica EUA-Irã eleva os yields dos Treasuries, mas o foco local na desaceleração econômica e no cenário eleitoral mantém a curva brasileira em queda.",
+      "implicacao": "Com a queda dos juros futuros, a classe de ativos de renda fixa pré-fixada tende a se valorizar, pois a redução das taxas implícitas aumenta o preço dos títulos existentes, enquanto o setor imobiliário pode se beneficiar a médio prazo pela expectativa de crédito mais barato, embora a incerteza política mantenha a volatilidade.",
+      "proximo_evento": "Divulgação do PIB do terceiro trimestre de 2026 e as próximas pesquisas eleitorais de intenção de voto.",
       "key_numbers": [
-        "S&P 500: -0,72%",
-        "Nasdaq: -1,47%",
-        "Petróleo: acima de US$ 90/bbl",
-        "Yield 10 anos: máximo desde jan/2025"
+        "DI Jan/2027: 13,585%",
+        "DI Jan/2029: 14,110%",
+        "DI Jan/2036: 14,480%",
+        "PIB 2T2026: 0,5%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Juros globais disparam e renovam máximas de décadas com nova onda de ataques no Oriente Médio",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/juros-globais-disparam-e-renovam-maximas-de-decadas-com-nova-onda-de-ataques-no-oriente-medio-lils/",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "A escalada militar entre EUA e Irã elevou o petróleo acima de US$ 90, reacendendo temores inflacionários e provocando uma fuga de títulos soberanos que levou os juros globais a máximas de décadas.",
+      "mecanismo": "O risco geopolítico no Oriente Médio pressiona o preço do petróleo, o que aumenta a expectativa de inflação persistente; isso força os investidores a venderem títulos de longo prazo para se protegerem da perda de poder de compra, elevando os rendimentos (juros) e aumentando o custo de captação para governos e empresas.",
+      "implicacao": "O setor de infraestrutura e imobiliário tende a sofrer pressão nos valuations, pois a alta dos juros soberanos encarece o custo de dívida de longo prazo e reduz o atrativo de ativos de renda fixa em relação a ações de setores sensíveis a taxas de juros.",
+      "proximo_evento": "Decisões de política monetária dos bancos centrais, especialmente do Federal Reserve, que precisarão avaliar se a inflação impulsionada pelo petróleo é temporária ou estrutural.",
+      "key_numbers": [
+        "Petróleo Brent: US$ 94,65",
+        "Treasuries 10 anos: 4,80%",
+        "JGBs 10 anos: 3%",
+        "Gilts 10 anos: 5,23%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Itaú BBA: Investidor local volta à Bolsa e estrangeiro reduz ritmo de saída; saiba que tipo de ações eles estão escolhendo",
+      "title": "Ibovespa fecha aos 179 mil pontos com ‘trade eleitoral’ e Petrobras (PETR4); dólar cai a R$ 5,15",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/itau-bba-investidor-local-volta-a-bolsa-e-estrangeiro-reduz-ritmo-de-saida-saiba-que-tipo-de-acoes-eles-estao-escolhendo/",
+      "link": "https://www.moneytimes.com.br/ibovespa-1-9-26-apsa/",
       "categorias": [
-        "exterior"
+        "acoes"
       ],
-      "resumo": "Investidores locais retomam a entrada na bolsa brasileira com cautela, enquanto a pressão de venda por parte do capital estrangeiro diminui significativamente.",
-      "mecanismo": "A combinação de valuations descontados e a expectativa de queda dos juros reduz o custo de oportunidade da renda variável, atraindo o investidor local para ativos de qualidade e defensivos, enquanto a desaceleração da saída de estrangeiros remove uma pressão vendedora estrutural, criando um ambiente de suporte técnico e fundamentalista.",
-      "implicacao": "Setores defensivos, utilities e incorporadoras de baixa renda tendem a se valorizar, pois oferecem fluxo de caixa previsível e se beneficiam da queda de juros e da busca por segurança em meio à incerteza macroeconômica.",
-      "proximo_evento": "Decisão do Copom sobre o corte de 0,25 ponto percentual na taxa Selic e divulgação de dados de inflação e PIB.",
+      "resumo": "O Ibovespa registrou sua décima alta consecutiva, impulsionado pelo otimismo com o cenário eleitoral e pela valorização da Petrobras, enquanto o dólar recuou para R$ 5,15.",
+      "mecanismo": "A convergência nas pesquisas eleitorais e os desdobramentos políticos reduziram a aversão a risco local, atraindo fluxo para o mercado acionário brasileiro; simultaneamente, a alta do petróleo Brent elevou as expectativas de receita para o setor de energia, puxando o índice principal.",
+      "implicacao": "Com a alta do petróleo e a queda do dólar, o setor de energia tende a se beneficiar com margens expandidas e valorização cambial, enquanto o setor bancário ganha com a melhora do sentimento de risco e a estabilidade da taxa de juros.",
+      "proximo_evento": "Divulgação dos dados do PIB do terceiro trimestre de 2026 e novas pesquisas eleitorais que possam confirmar ou reverter a tendência de empate técnico.",
       "key_numbers": [
-        "Saída estrangeira acumulada: R$ 17,9 bilhões",
-        "Selic projetada fim 2026: 13,75%",
-        "Corte esperado Selic: 0,25 p.p.",
-        "Nível sobrevenda Ibovespa: 171 mil pontos"
+        "Ibovespa: 179.722 pontos",
+        "Dólar: R$ 5,15",
+        "PETR4: +4,11%",
+        "PIB 2T2026: +0,5%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Fake Claude desktop app spreads crypto-stealing malware",
+      "title": "Bitcoin ETFs notch best month of 2026 as BTC gains 25% in August",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/fake-claude-desktop-app-spreads-crypto-stealing-malware?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-best-month-2026-btc-up-25-august?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "Um malware chamado RevStealer está sendo distribuído através de uma falsa aplicação desktop do Claude, visando roubar dados de mais de 50 carteiras de criptomoedas e credenciais de navegadores.",
-      "mecanismo": "A distribuição de malware sofisticado que se disfarça de ferramenta popular de IA aumenta o risco operacional para usuários de criptoativos, pois o código explora a confiança na marca Anthropic para infectar dispositivos Windows e exfiltrar chaves privadas e cookies de sessão sem detecção imediata.",
-      "implicacao": "O setor de infraestrutura de segurança cibernética para criptoativos tende a se beneficiar, já que o aumento de ataques direcionados a carteiras e navegadores eleva a demanda por soluções de proteção de endpoint e auditoria de segurança para investidores.",
-      "proximo_evento": "Monitorar relatórios de segurança cibernética sobre novas variantes do RevStealer ou alertas de exchanges sobre picos de acesso não autorizado a contas comprometidas.",
+      "resumo": "Os ETFs de Bitcoin nos EUA registraram seu melhor mês de 2026 com ingressos líquidos de US$ 3,52 bilhões em agosto, impulsionados pela alta de 25% da criptomoeda, enquanto os ETFs de Ether e XRP também reverteram para solidez positiva no acumulado do ano.",
+      "mecanismo": "A forte performance de preço do Bitcoin atraiu fluxo institucional e varejista significativo para os ETFs spot, reduzindo drasticamente os saques acumulados do ano e validando a demanda por exposição regulada ao ativo, o que por sua vez reforça a liquidez e a confiança do mercado na sustentabilidade da tendência de alta.",
+      "implicacao": "O setor de infraestrutura de criptoativos e corretoras tende a se beneficiar, pois o aumento do volume de negociação e dos ativos sob gestão nos ETFs eleva as taxas de custódia e comissões de trading, além de sinalizar maior adoção institucional que pode derramar positivamente para outras classes de ativos digitais correlacionados.",
+      "proximo_evento": "Monitorar a persistência dos fluxos de ETFs em setembro após o início negativo do mês e a reação do preço do Bitcoin ao suporte psicológico de US$ 77.000.",
       "key_numbers": [
-        "Carteiras alvo: 50+",
-        "Plataforma afetada: Windows",
-        "Tipo de malware: RevStealer"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "BlackRock drives $217M Bitcoin ETF rebound as altcoin funds continue streaks",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/blackrock-bitcoin-etf-inflow-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "Os ETFs de Bitcoin nos EUA registraram um retorno aos fluxos positivos impulsionado majoritariamente pela BlackRock, revertendo saídas anteriores, enquanto os fundos de Ether, XRP e Solana mantêm streaks consecutivos de entrada de capital.",
-      "mecanismo": "A entrada massiva de capital institucional via BlackRock sinaliza confiança renovada e suporte de preço para o Bitcoin, enquanto a consistência nos fluxos de altcoins (ETH, XRP, SOL) indica uma rotação de capital e apetite de risco que fortalece a narrativa de adoção institucional além da moeda líder.",
-      "implicacao": "O setor de criptoativos tende a se beneficiar com a validação institucional contínua, pois fluxos consistentes em ETFs spot reduzem a pressão de venda no mercado spot e aumentam a liquidez, favorecendo tanto o Bitcoin quanto as principais altcoins com produtos regulados.",
-      "proximo_evento": "Monitorar os fluxos diários dos ETFs de Bitcoin e Altcoins nas próximas sessões para confirmar se o rebote é sustentável ou apenas uma correção técnica, além de observar o preço do Bitcoin em relação à marca dos US$ 78.700.",
-      "key_numbers": [
-        "Influxo Bitcoin ETF: US$ 216,7 milhões",
-        "Participação BlackRock: 95%",
-        "Streak Ether ETF: 11 sessões",
-        "Preço Bitcoin: US$ 78.700"
+        "Ingressos ETF BTC Agosto: US$ 3,52 bilhões",
+        "Ganho BTC Agosto: 25%",
+        "Saques Acumulados BTC: US$ 1,77 bilhão",
+        "Ingressos ETF ETH YTD: US$ 732 milhões"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Casey’s General Stores stock may move 6.9% on earnings release",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/caseys-general-stores-stock-may-move-69-on-earnings-release-93CH-4884275",
+      "title": "BofA, Citi, Goldman Sachs among 21 institutions planning stablecoin launch",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/news/21-financial-institutions-g7-stablecoin-venture?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
-        "exterior"
+        "cripto"
       ],
-      "resumo": "A Casey's General Stores deve registrar uma volatilidade de aproximadamente 6,9% em seu preço de ação em torno do anúncio de seus resultados trimestrais.",
-      "mecanismo": "O mercado precifica a expectativa de que os resultados financeiros (lucro por ação e receita) desviem significativamente das estimativas dos analistas, gerando uma reação imediata de ajuste de preço para refletir a nova realidade fundamental da empresa.",
-      "implicacao": "Para o setor de varejo de conveniência, a atenção deve recair sobre a resiliência da margem operacional e o crescimento do tráfego de lojas, já que empresas com forte geração de caixa e eficiência operacional tendem a se valorizar em cenários de incerteza macroeconômica.",
-      "proximo_evento": "Divulgação oficial do balanço trimestral e da conferência de resultados da Casey's General Stores.",
+      "resumo": "Um consórcio de 21 grandes instituições financeiras globais, incluindo BofA e Goldman Sachs, formalizou planos para lançar uma stablecoin lastreada em dólar até o primeiro semestre de 2027, com expansão futura para outras moedas do G7.",
+      "mecanismo": "A consolidação de players tradicionais de alta reputação em um veículo único reduz o risco de contraparte e aumenta a legitimidade regulatória das stablecoins, o que tende a acelerar a adoção institucional para pagamentos transfronteiriros e liquidação de ativos digitais, deslocando parte da demanda de soluções descentralizadas ou de emissores menores para esta infraestrutura bancária regulada.",
+      "implicacao": "O setor de infraestrutura de ativos digitais e custódia tende a se beneficiar, pois a entrada massiva de bancos tradicionais exige soluções robustas de segurança e conformidade, enquanto as stablecoins existentes de menor escala podem enfrentar pressão competitiva devido à maior confiança depositada neste consórcio bancário.",
+      "proximo_evento": "O fechamento da formação jurídica da nova empresa emissora e o anúncio oficial do lançamento da stablecoin em dólar, previsto para o primeiro semestre de 2027.",
       "key_numbers": [
-        "Volatilidade esperada: 6,9%"
+        "Instituições no consórcio: 21",
+        "Meta de lançamento USD: 1H 2027",
+        "Moeda inicial: Dólar dos EUA",
+        "Moeda seguinte priorizada: Euro"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "IBBP11 detalha troca de cotas por IVBP11",
+      "source": "ClubeFII News",
+      "link": "https://clubefii.com.br/noticias/outros/ibbp11-detalha-troca-de-cotas-por-ivbp11",
+      "categorias": [
+        "imobiliario"
+      ],
+      "resumo": "O IBBP11 oferece aos cotistas a opção facultativa de trocar suas cotas por unidades do IVBP11 na proporção de 1 para 1, como parte de uma estratégia de consolidação dos fundos sob gestão da Invista.",
+      "mecanismo": "A operação permite a migração de ativos entre veículos do mesmo gestor, otimizando a estrutura de gestão e potencialmente reduzindo custos operacionais duplicados; para o investidor, a troca é neutra em quantidade, mas gera um evento tributário imediato que exige gestão de caixa para o IR sobre ganho de capital, caso o custo de aquisição seja inferior ao valor de referência.",
+      "implicacao": "Para o setor de Fundos de Investimento Imobiliário (FIIs), operações de consolidação tendem a sinalizar eficiência operacional e foco na valorização do patrimônio líquido, o que pode ser visto positivamente pelo mercado como um passo para simplificar a oferta e melhorar a governança, embora o impacto direto no preço seja limitado pela natureza facultativa e pela equivalência patrimonial da troca.",
+      "proximo_evento": "A liquidação estimada da operação, prevista para 11 de setembro de 2026, que confirmará a efetiva transferência das cotas e o encerramento do ciclo de manifestação.",
+      "key_numbers": [
+        "Valor de referência: R$ 9,42",
+        "Relação de troca: 1:1",
+        "Início das manifestações: 31/08/2026",
+        "Liquidação estimada: 11/09/2026"
       ],
       "sentiment": "neutral"
     },
     {
-      "title": "Macro Insights: Signals From Jackson Hole, Historic Bond Selloff And The September Outlook",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4942032-macro-insights-signals-from-jackson-hole-historic-bond-selloff-and-the-september-outlook?source=feed_all_articles",
+      "title": "Veja os FIIs com melhor performance em Agosto de 2026",
+      "source": "ClubeFII News",
+      "link": "https://clubefii.com.br/noticias/mercado/veja-os-fiis-com-melhor-performance-em-agosto-de-2026",
       "categorias": [
-        "renda_fixa"
+        "imobiliario"
       ],
-      "resumo": "O tom hawkish do Fed em Jackson Hole reforça a prioridade pela estabilidade de preços, elevando os juros de longo prazo e a fragilidade do mercado, apesar da resiliência dos lucros corporativos.",
-      "mecanismo": "A postura firme do Fed contra a inflação impede a queda dos juros de longo prazo, o que encarece o custo de capital e pressiona as avaliações elevadas das ações, criando uma dinâmica onde a renda fixa se torna menos atraente devido à perda real, mas o risco de contração de múltiplos nas ações aumenta se as expectativas inflacionárias ultrapassarem 2,5%.",
-      "implicacao": "Com a volatilidade esperada em setembro e a rotação setorial, setores defensivos e de qualidade tendem a se proteger melhor contra a contração de múltiplos, enquanto setores sensíveis a juros, como tecnologia de crescimento, enfrentam maior pressão de venda devido ao aumento do custo de desconto.",
-      "proximo_evento": "Relatório de emprego e dados de IPC (CPI) de setembro",
+      "resumo": "O Clube FII divulgou o ranking dos Fundos Imobiliários com melhor desempenho no índice IFIX durante agosto de 2026, considerando a soma da valorização das cotas e dos proventos distribuídos.",
+      "mecanismo": "A liderança de fundos de papel (como CACR11 e URPR11) no ranking indica que o mercado está premiando ativos com fluxo de caixa previsível e alavancagem eficiente em um cenário de juros, onde a rentabilidade absoluta (cota + proventos) supera a simples valorização patrimonial, atraindo investidores de renda que buscam proteção e retorno imediato.",
+      "implicacao": "O destaque de FIIs de papel no topo do ranking sugere que a classe de ativos de recebíveis imobiliários tende a atrair maior fluxo de capital no curto prazo, pois investidores priorizam a consistência dos dividendos e a sensibilidade positiva a taxas de juros elevadas em detrimento da valorização pura de ativos físicos.",
+      "proximo_evento": "Divulgação dos resultados operacionais e das distribuições de proventos referentes ao mês de setembro de 2026, geralmente ocorrendo em outubro.",
       "key_numbers": [
-        "Alvo S&P 500: 8.000",
-        "Limite inflação: 2,5%",
-        "Pior venda de títulos: desde 2007"
+        "Performance CACR11 (cota+proventos): +10,22%",
+        "Performance XPSF11 (cota+proventos): +6,68%",
+        "P/VPA CACR11: 0,16",
+        "Variação cota XPSF11: +5,54%"
       ],
-      "sentiment": "neutral"
+      "sentiment": "up"
     }
   ]
 }
