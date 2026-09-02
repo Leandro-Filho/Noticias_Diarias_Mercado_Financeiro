@@ -1,119 +1,146 @@
 {
-  "gerado_em": "2026-09-02T11:15:57.509347+00:00",
+  "gerado_em": "2026-09-02T17:00:58.512339+00:00",
   "itens": [
     {
-      "title": "Mercado internacional reage às falas do presidente do BoJ e ataques dos EUA ao Irã; Ibovespa em dólar sobe nesta quarta-feira (2)",
+      "title": "BDRs: Empiricus tira uma ação da carteira e três apostas ganham espaço; veja quais",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/mercado-internacional-reage-as-falas-do-presidente-do-boj-e-ataques-dos-eua-ao-ira-ibovespa-em-dolar-sobe-nesta-quarta-feira-2-rens/",
+      "link": "https://www.moneytimes.com.br/bdrs-empiricus-tira-uma-acao-sai-da-carteira-e-tres-apostas-ganham-espaco-saiba-quais-ceci/",
+      "categorias": [
+        "acoes",
+        "imobiliario"
+      ],
+      "resumo": "A Empiricus ajustou sua carteira de BDRs para setembro, removendo SLB e aumentando a exposição a refinarias, ouro e semicondutores de memória.",
+      "mecanismo": "A saída da SLB ocorre após valorização por petróleo forte e aquisições, liberando capital para a Valero, que deve lucrar com a expansão das margens de refino devido à oferta restrita de derivados no Oriente Médio; simultaneamente, a Micron ganha peso pela demanda estrutural de memória para IA, e o ETF de ouro entra como proteção contra incertezas geopolíticas e fiscais.",
+      "implicacao": "O setor de refino tende a se beneficiar com a alavancagem das margens de crack spread em cenários de oferta limitada, enquanto o setor de semicondutores de memória e o mercado de commodities preciosas ganham força devido ao ciclo de investimento em IA e à busca por ativos refúgio em meio a tensões geopolíticas.",
+      "risco": "Uma queda abrupta nos preços do petróleo ou uma desaceleração nos investimentos globais em infraestrutura de IA poderia reduzir as margens das refinarias e a demanda por chips de memória, invalidando a tese de alta.",
+      "proximo_evento": "Publicação dos relatórios trimestrais da Valero e Micron, além de dados de estoques de petróleo e indicadores de inflação nos EUA que impactam a taxa de juros e o preço do ouro.",
+      "key_numbers": [
+        "Peso Valero: 5,0%",
+        "Peso Micron: 7,5%",
+        "Peso Gold Miners: 2,5%",
+        "Peso SLB: 0,0%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "FIIs descontados criam oportunidade? Empiricus troca dois fundos na carteira de setembro",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/fiis-descontados-criam-oportunidade-empiricus-troca-dois-fundos-na-carteira-de-setembro/",
+      "categorias": [
+        "imobiliario"
+      ],
+      "resumo": "A Empiricus ajustou sua carteira de FIIs para setembro, trocando fundos com riscos específicos por ativos descontados e reforçando a exposição a shoppings e hedge, aproveitando a queda recente do setor.",
+      "mecanismo": "A correção das cotas em agosto, impulsionada por aversão ao risco e fluxo institucional, levou o índice Ifix a negociar abaixo de 0,86x do valor patrimonial; historicamente, esse nível de desconto cria uma janela de oportunidade com retorno médio superior a 23%, justificando a entrada seletiva em ativos sólidos como o VISC11 e KNHF11.",
+      "implicacao": "O setor de Fundos Imobiliários tende a atrair compradores de valor e gerar retornos acima da média no médio prazo, pois o desconto significativo em relação ao patrimônio líquido oferece margem de segurança e potencial de recomposição de valor, especialmente em fundos com gestão ativa e diversificação.",
+      "risco": "A persistência do ambiente macroeconômico adverso e a maior sensibilidade dos FIIs a movimentos de juros e crédito, devido à crescente participação institucional, podem manter a pressão de venda e impedir a recomposição dos descontos no curto prazo.",
+      "proximo_evento": "Monitorar a evolução do volume negociado por investidores institucionais e a reação do índice Ifix aos próximos dados macroeconômicos e ao cenário eleitoral.",
+      "key_numbers": [
+        "Desconto Ifix: 0,86x VP",
+        "Dividend Yield Médio: 11,4%",
+        "Retorno Histórico em Desconto: 23,8%",
+        "Queda Ifix em Agosto: -1,46%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Banco do Brasil (BBSA3): Trade eleitoral contamina e ação salta até 7% com gringos ‘enchendo o carrinho’",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/banco-do-brasil-bbsa3-trade-eleitoral-contamina-e-acao-salta-ate-7-com-gringos-enchendo-o-carrinho-rnda/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "A Ibovespa em dólar avança impulsionada pela alta do petróleo devido a tensões geopolíticas, enquanto o mercado internacional sofre pressão com a possibilidade de fim do carry trade japonês.",
-      "mecanismo": "Os ataques dos EUA ao Irã elevam o preço do petróleo, beneficiando diretamente as ações de energia no Brasil; simultaneamente, a fala do presidente do BoJ sobre aumento de juros ameaça desmontar o carry trade, retirando liquidez global e elevando juros de longo prazo nos EUA, o que gera aversão a risco nas bolsas asiáticas e europeias.",
-      "implicacao": "O setor de energia tende a se beneficiar com a alta do Brent, pois a receita das empresas do segmento acompanha o preço da commodity; por outro lado, ativos sensíveis a juros globais e moeda forte podem sofrer pressão de venda devido à saída de capitais do carry trade e à valorização do dólar em relação a outras moedas.",
-      "proximo_evento": "Divulgação do relatório de empregos ADP nos EUA e do Livro Bege do Federal Reserve nesta quarta-feira.",
+      "resumo": "A ação do Banco do Brasil disparou quase 7% impulsionada por compras de estrangeiros que antecipam uma possível vitória de Flávio Bolsonaro e as mudanças de gestão ou privatização que isso traria.",
+      "mecanismo": "O mercado está precificando a expectativa de que uma vitória de Flávio Bolsonaro leve a uma troca na diretoria do banco ou até à sua privatização, o que seria visto como uma melhoria na governança e eficiência operacional, compensando temporariamente a deterioração dos fundamentos atuais.",
+      "implicacao": "O setor bancário, especialmente as estatais, tende a reagir positivamente a cenários políticos que prometem desregulamentação ou privatização, pois isso reduz o risco percebido de interferência política e aumenta a expectativa de retorno sobre o capital.",
+      "risco": "A tese depende inteiramente de um resultado eleitoral incerto e de promessas não oficializadas, enquanto os fundamentos operacionais do banco continuam enfraquecendo com o aumento de calotes.",
+      "proximo_evento": "A divulgação dos resultados do terceiro trimestre do Banco do Brasil e o desenrolar das pesquisas eleitorais nas semanas seguintes.",
       "key_numbers": [
-        "Ibovespa: 179.722 pontos",
-        "Dólar: R$ 5,1557",
-        "Petróleo Brent: US$ 95,23",
-        "Nikkei: -2,96%"
+        "Alta da ação: 7%",
+        "Lucro 2T: R$ 3,9 bilhões",
+        "Payout atual: 30%",
+        "Preço-alvo XP: R$ 21"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Iene ainda é o rei do ‘carry trade’? Juros maiores e intervenção cambial no Japão fazem investidores buscarem alternativas",
+      "title": "Dividendos de até 14,6%: os FIIs recomendados pelo BTG para setembro",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/iene-em-xeque-juros-altos-e-intervencoes-colocam-carry-trade-a-prova-lils/",
+      "link": "https://www.moneytimes.com.br/dividendos-de-ate-146-os-fiis-recomendados-pelo-btg-para-setembro/",
       "categorias": [
-        "exterior"
+        "imobiliario"
       ],
-      "resumo": "O aumento dos juros no Japão e as intervenções cambiais para fortalecer o iene estão elevando o custo do carry trade tradicional, levando investidores a diversificar para moedas como o franco suíço.",
-      "mecanismo": "A elevação da taxa de juros japonesa para 1% e a expectativa de novo aumento reduzem o diferencial de juros favorável ao financiamento em iene, enquanto o risco de intervenção governamental para valorizar a moeda aumenta a volatilidade e o custo de manutenção das posições, incentivando a migração para alternativas com menor risco político e juros ainda baixos.",
-      "implicacao": "O setor de mercados de câmbio e fundos de hedge de taxa de juros tende a ver uma redistribuição de fluxos, pois a redução da atratividade do iene como moeda de funding deve aumentar a demanda por ativos denominados em franco suíço e dólar australiano, alterando a dinâmica de liquidez e spreads cambiais.",
-      "proximo_evento": "Reunião de política monetária do Banco Central do Japão (BoJ) em setembro, com expectativa de alta de 25 pontos-base na taxa de juros.",
+      "resumo": "O BTG Pactual ajustou sua carteira recomendada de FIIs para setembro, aumentando a exposição a fundos de recebíveis da Kinea e a shoppings da Vinci, enquanto retirou o RBRR11 devido a uma possível incorporação.",
+      "mecanismo": "O banco realocou recursos para fundos com maior controle sobre a estruturação de operações e garantias, buscando proteger o fluxo de caixa e o valor patrimonial em um cenário de juros em queda, onde a qualidade da gestão e a liquidez se tornam diferenciais competitivos para sustentar dividendos.",
+      "implicacao": "A classe de FIIs de recebíveis tende a se beneficiar da preferência por gestores com capacidade de originação própria, pois isso permite negociar taxas mais atrativas e mitigar riscos de crédito, enquanto o setor de shoppings maduros ganha com a perspectiva de valorização de ativos em ambiente de juros menores.",
+      "risco": "A deterioração do risco fiscal ou uma inflação mais persistente do que o esperado pode frear os cortes da Selic, pressionando os preços das cotas e reduzindo a atratividade relativa dos dividendos em relação a títulos públicos.",
+      "proximo_evento": "A confirmação ou desmentida da incorporação do RBRR11 pelo PCIP11 e a divulgação dos próximos dados de inflação (IPCA) e atividade econômica que validem a continuidade do ciclo de cortes da Selic.",
       "key_numbers": [
-        "Juros Japão: 1%",
-        "Expectativa BoJ Set: 1,25%",
-        "USD/JPY: 160",
-        "Juros EUA: 3,50%-3,75%"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Tempo real: Ibovespa acompanha indústria no Brasil e Livro Bege do Fed",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-02-09-2026-jals-lils-apsa/",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "O mercado brasileiro opera com cautela diante da confirmação de ajustes fiscais graduais pelo governo e da rotação de carteiras para ativos sensíveis a juros, enquanto o Ibovespa em dólar recua no pré-market dos EUA.",
-      "mecanismo": "A admissão da necessidade de mais ajuste fiscal, combinada com a trajetória de superávit projetada, busca ancorar as expectativas de inflação e juros de longo prazo; simultaneamente, a rotação observada pela Genial indica que investidores estão migrando de defensivos para ações cíclicas e sensíveis à queda de juros, pressionando o índice em dólar devido à cautela global e fluxo cambial.",
-      "implicacao": "Com a sinalização de continuidade no ajuste fiscal e a rotação para ativos sensíveis a juros, o setor de infraestrutura e empresas cíclicas tendem a se beneficiar no médio prazo, já que a redução da curva de juros favorece a valorização de ativos com maior beta e sensibilidade ao custo de capital.",
-      "proximo_evento": "Votação da Medida Provisória das blusinhas no Congresso, agendada para quarta-feira.",
-      "key_numbers": [
-        "Bitcoin: US$ 76.437,53",
-        "Petróleo Brent: US$ 94,86",
-        "Ibovespa em dólar: US$ 36,36",
-        "Superávit 2027: 0,5%"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Na contramão dos Treasuries, juros futuros perdem força com eleições e PIB",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/juros-futuros-1-9-26-apsa/",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "Os juros futuros brasileiros recuaram em todos os vencimentos, impulsionados pela expectativa de desaceleração econômica no terceiro trimestre e pela incerteza política, movendo-se na contramão da alta dos títulos americanos.",
-      "mecanismo": "A combinação de um PIB do 2T2026 puxado por setores não cíclicos (agro e extrativa) e a projeção de queda para 0,2% no 3T2026 reforça a tese de enfraquecimento da demanda interna, o que reduz a pressão inflacionária e aumenta a probabilidade de cortes de juros pelo Copom, beneficiando os DIs; simultaneamente, a tensão geopolítica EUA-Irã eleva os yields dos Treasuries, mas o foco local na desaceleração econômica e no cenário eleitoral mantém a curva brasileira em queda.",
-      "implicacao": "Com a queda dos juros futuros, a classe de ativos de renda fixa pré-fixada tende a se valorizar, pois a redução das taxas implícitas aumenta o preço dos títulos existentes, enquanto o setor imobiliário pode se beneficiar a médio prazo pela expectativa de crédito mais barato, embora a incerteza política mantenha a volatilidade.",
-      "proximo_evento": "Divulgação do PIB do terceiro trimestre de 2026 e as próximas pesquisas eleitorais de intenção de voto.",
-      "key_numbers": [
-        "DI Jan/2027: 13,585%",
-        "DI Jan/2029: 14,110%",
-        "DI Jan/2036: 14,480%",
-        "PIB 2T2026: 0,5%"
+        "Selic: 14%",
+        "Dividend Yield Médio: 11,8%",
+        "Desconto ao VP: 11%",
+        "Peso Recebíveis: 47%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Juros globais disparam e renovam máximas de décadas com nova onda de ataques no Oriente Médio",
+      "title": "Sino tocou: BTG lança DINF11, primeiro ETF híbrido de infraestrutura em parceria com o BNDES",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/juros-globais-disparam-e-renovam-maximas-de-decadas-com-nova-onda-de-ataques-no-oriente-medio-lils/",
+      "link": "https://www.moneytimes.com.br/sino-tocou-btg-lanca-dinf11-primeiro-etf-hibrido-de-infraestrutura-em-parceria-com-o-bndes/",
       "categorias": [
-        "renda_fixa"
+        "debentures"
       ],
-      "resumo": "A escalada militar entre EUA e Irã elevou o petróleo acima de US$ 90, reacendendo temores inflacionários e provocando uma fuga de títulos soberanos que levou os juros globais a máximas de décadas.",
-      "mecanismo": "O risco geopolítico no Oriente Médio pressiona o preço do petróleo, o que aumenta a expectativa de inflação persistente; isso força os investidores a venderem títulos de longo prazo para se protegerem da perda de poder de compra, elevando os rendimentos (juros) e aumentando o custo de captação para governos e empresas.",
-      "implicacao": "O setor de infraestrutura e imobiliário tende a sofrer pressão nos valuations, pois a alta dos juros soberanos encarece o custo de dívida de longo prazo e reduz o atrativo de ativos de renda fixa em relação a ações de setores sensíveis a taxas de juros.",
-      "proximo_evento": "Decisões de política monetária dos bancos centrais, especialmente do Federal Reserve, que precisarão avaliar se a inflação impulsionada pelo petróleo é temporária ou estrutural.",
+      "resumo": "O BTG Pactual lançou o DINF11, o primeiro ETF híbrido do mercado que combina ações e renda fixa do setor de infraestrutura, em parceria com o BNDES.",
+      "mecanismo": "O produto une 80% de ações de infraestrutura e 20% de debêntures ou IPCA+ em um único veículo, atendendo à demanda estrutural por logística e energia no Brasil e aproveitando a tendência de migração de investidores para produtos mais transparentes e eficientes após mudanças regulatórias recentes.",
+      "implicacao": "A classe de ativos de infraestrutura tende a se beneficiar com o influxo de capital institucional facilitado por veículos padronizados, pois a estrutura híbrida oferece diversificação e acesso simplificado a setores essenciais como saneamento e energia, potencialmente elevando a demanda por esses ativos.",
+      "risco": "A tese pode ser invalidada se houver desaceleração nos investimentos em obras públicas ou se a volatilidade do mercado de ações superar a proteção oferecida pela parcela de renda fixa, reduzindo a atratividade do fundo.",
+      "proximo_evento": "Monitorar a aplicação dos recursos da chamada pública do BNDES, que prevê até R$ 200 milhões para cada um dos cinco ETFs selecionados, e observar o volume de negociação inicial do DINF11 para validar o interesse institucional.",
       "key_numbers": [
-        "Petróleo Brent: US$ 94,65",
-        "Treasuries 10 anos: 4,80%",
-        "JGBs 10 anos: 3%",
-        "Gilts 10 anos: 5,23%"
+        "Alocação ações: 80%",
+        "Alocação renda fixa: 20%",
+        "Cota inicial: R$ 10",
+        "Limite BNDES por ETF: R$ 200 milhões"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Wall Street avança apesar da escalada de tensão no Oriente Médio",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/wall-street-abertura-2-9-26-apsa/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "Os índices americanos fecharam em alta nesta quarta-feira, impulsionados pela queda nos rendimentos dos títulos do Tesouro e na cotação do petróleo, que atenuaram os receios inflacionários gerados pela escalada de tensões geopolíticas no Oriente Médio.",
+      "mecanismo": "A moderação nos preços do Brent e a inversão de tendência nos juros dos Treasuries reduziram a pressão sobre os custos de produção e o custo de oportunidade dos ativos de risco, permitindo que o mercado absorvesse o enfraquecimento do mercado de trabalho privado (ADP) sem entrar em pânico, já que a inflação parece estar sob controle apesar do conflito.",
+      "implicacao": "A classe de ativos de renda variável, especialmente tecnologia (Nasdaq), tende a se beneficiar com a queda dos juros de longo prazo, pois isso aumenta o valor presente dos fluxos de caixa futuros e reduz a atratividade relativa de títulos seguros, enquanto o setor de energia pode enfrentar pressão de margens se o petróleo continuar recuando.",
+      "risco": "Uma nova escalada violenta no Oriente Médio que dispare o preço do petróleo acima de US$ 100 ou um dado de emprego (payroll) muito mais forte que o esperado, reacendendo temores de inflação persistente e forçando o Fed a manter juros altos por mais tempo.",
+      "proximo_evento": "Divulgação do relatório de emprego não agrícola (payroll) dos EUA, principal indicador observado pelo Federal Reserve para decisões de política monetária.",
+      "key_numbers": [
+        "S&P 500: +0,56%",
+        "Brent: US$ 94",
+        "Empregos ADP: 38 mil",
+        "Dow Jones: +0,76%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bitcoin’s apparent demand turns negative as price struggles with $77K",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoins-apparent-demand-turns-negative-price-struggles-with-77k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "A demanda aparente do Bitcoin voltou a ser negativa e o preço recuou abaixo de US$ 77 mil, refletindo uma saída de capital dos ETFs e um ambiente macroeconômico hostil com vendas em ações asiáticas e títulos.",
+      "mecanismo": "O indicador de demanda aparente inverteu para negativo porque as moedas estão entrando em dormência mais rápido do que a emissão de novos blocos, sinalizando falta de absorção de oferta no mercado spot; isso foi exacerbado por saques de US$ 236 milhões nos ETFs de Bitcoin nos EUA e por um movimento de fuga para liquidez global, evidenciado pela queda acentuada nos índices asiáticos e na intervenção suspeita no par USD/JPY.",
+      "implicacao": "Para a classe de ativos de criptomoças, especificamente Bitcoin, a tendência é de pressão de venda ou consolidação lateral, pois a demanda negativa indica que investidores estão acumulando para segurar (HODL) em vez de comprar ativamente, reduzindo a liquidez imediata necessária para romper resistências de preço.",
+      "risco": "Uma reversão rápida na narrativa macroeconômica, como uma queda drástica nos juros dos EUA ou uma intervenção coordenada que estabilize os mercados asiáticos, poderia inverter o fluxo dos ETFs e tornar a demanda aparente positiva novamente.",
+      "proximo_evento": "Monitorar a confirmação oficial de intervenção do Banco do Japão no câmbio e os próximos fluxos diários dos ETFs de Bitcoin nos EUA para validar se a pressão vendedora persiste ou se há recompra.",
+      "key_numbers": [
+        "Preço BTC: US$ 76.400",
+        "Saída ETFs BTC: US$ 236 milhões",
+        "Queda KOSPI: 4,0%",
+        "USD/JPY: 158,5"
       ],
       "sentiment": "down"
-    },
-    {
-      "title": "Ibovespa fecha aos 179 mil pontos com ‘trade eleitoral’ e Petrobras (PETR4); dólar cai a R$ 5,15",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-1-9-26-apsa/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Ibovespa registrou sua décima alta consecutiva, impulsionado pelo otimismo com o cenário eleitoral e pela valorização da Petrobras, enquanto o dólar recuou para R$ 5,15.",
-      "mecanismo": "A convergência nas pesquisas eleitorais e os desdobramentos políticos reduziram a aversão a risco local, atraindo fluxo para o mercado acionário brasileiro; simultaneamente, a alta do petróleo Brent elevou as expectativas de receita para o setor de energia, puxando o índice principal.",
-      "implicacao": "Com a alta do petróleo e a queda do dólar, o setor de energia tende a se beneficiar com margens expandidas e valorização cambial, enquanto o setor bancário ganha com a melhora do sentimento de risco e a estabilidade da taxa de juros.",
-      "proximo_evento": "Divulgação dos dados do PIB do terceiro trimestre de 2026 e novas pesquisas eleitorais que possam confirmar ou reverter a tendência de empate técnico.",
-      "key_numbers": [
-        "Ibovespa: 179.722 pontos",
-        "Dólar: R$ 5,15",
-        "PETR4: +4,11%",
-        "PIB 2T2026: +0,5%"
-      ],
-      "sentiment": "up"
     },
     {
       "title": "Bitcoin ETFs notch best month of 2026 as BTC gains 25% in August",
@@ -123,73 +150,114 @@
         "cripto"
       ],
       "resumo": "Os ETFs de Bitcoin nos EUA registraram seu melhor mês de 2026 com ingressos líquidos de US$ 3,52 bilhões em agosto, impulsionados pela alta de 25% da criptomoeda, enquanto os ETFs de Ether e XRP também reverteram para solidez positiva no acumulado do ano.",
-      "mecanismo": "A forte performance de preço do Bitcoin atraiu fluxo institucional e varejista significativo para os ETFs spot, reduzindo drasticamente os saques acumulados do ano e validando a demanda por exposição regulada ao ativo, o que por sua vez reforça a liquidez e a confiança do mercado na sustentabilidade da tendência de alta.",
-      "implicacao": "O setor de infraestrutura de criptoativos e corretoras tende a se beneficiar, pois o aumento do volume de negociação e dos ativos sob gestão nos ETFs eleva as taxas de custódia e comissões de trading, além de sinalizar maior adoção institucional que pode derramar positivamente para outras classes de ativos digitais correlacionados.",
-      "proximo_evento": "Monitorar a persistência dos fluxos de ETFs em setembro após o início negativo do mês e a reação do preço do Bitcoin ao suporte psicológico de US$ 77.000.",
+      "mecanismo": "A forte performance de preço do Bitcoin atraiu fluxos institucionais e de varejo significativos para os ETFs spot, reduzindo drasticamente os saques acumulados do ano e aumentando a base de ativos sob gestão; esse influxo de capital valida a demanda institucional e cria um ciclo de feedback positivo onde a liquidez e a visibilidade aumentam a atratividade do ativo para novos investidores.",
+      "implicacao": "O setor de infraestrutura de criptoativos e corretoras que listam esses ETFs tende a se beneficiar com o aumento do volume de negociação e das taxas de administração, já que a base de ativos sob gestão cresceu 31% em um mês, sinalizando maior adoção institucional e legitimidade de mercado.",
+      "risco": "A reversão imediata dos fluxos para saques no início de setembro, combinada com a queda do preço abaixo de US$ 77.000, indica que o momentum de agosto pode ter sido um pico de euforia de curto prazo, sujeito a correção se a demanda institucional não se sustentar.",
+      "proximo_evento": "Monitorar a sustentabilidade dos fluxos de ETFs em setembro após o início negativo com saques de US$ 236 milhões e a reação do preço do Bitcoin ao romper a barreira psicológica de US$ 77.000.",
       "key_numbers": [
-        "Ingressos ETF BTC Agosto: US$ 3,52 bilhões",
-        "Ganho BTC Agosto: 25%",
-        "Saques Acumulados BTC: US$ 1,77 bilhão",
-        "Ingressos ETF ETH YTD: US$ 732 milhões"
+        "Ingressos líquidos ETF BTC (ago): US$ 3,52 bilhões",
+        "Alta BTC (ago): 25%",
+        "Saques acumulados YTD (apos ago): US$ 1,77 bilhão",
+        "Ativos sob gestão ETF BTC (fim ago): US$ 99,61 bilhões"
       ],
       "sentiment": "up"
     },
     {
-      "title": "BofA, Citi, Goldman Sachs among 21 institutions planning stablecoin launch",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/21-financial-institutions-g7-stablecoin-venture?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Palantir stock tumbles as Google encroaches on defense AI market",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/palantir-stock-tumbles-as-google-encroaches-on-defense-ai-market-4886537",
       "categorias": [
-        "cripto"
+        "acoes",
+        "exterior"
       ],
-      "resumo": "Um consórcio de 21 grandes instituições financeiras globais, incluindo BofA e Goldman Sachs, formalizou planos para lançar uma stablecoin lastreada em dólar até o primeiro semestre de 2027, com expansão futura para outras moedas do G7.",
-      "mecanismo": "A consolidação de players tradicionais de alta reputação em um veículo único reduz o risco de contraparte e aumenta a legitimidade regulatória das stablecoins, o que tende a acelerar a adoção institucional para pagamentos transfronteiriros e liquidação de ativos digitais, deslocando parte da demanda de soluções descentralizadas ou de emissores menores para esta infraestrutura bancária regulada.",
-      "implicacao": "O setor de infraestrutura de ativos digitais e custódia tende a se beneficiar, pois a entrada massiva de bancos tradicionais exige soluções robustas de segurança e conformidade, enquanto as stablecoins existentes de menor escala podem enfrentar pressão competitiva devido à maior confiança depositada neste consórcio bancário.",
-      "proximo_evento": "O fechamento da formação jurídica da nova empresa emissora e o anúncio oficial do lançamento da stablecoin em dólar, previsto para o primeiro semestre de 2027.",
+      "resumo": "A ação da Palantir recuou significativamente após a Google intensificar sua presença no mercado de inteligência artificial para defesa, gerando preocupações sobre a perda de participação de mercado e margens da empresa.",
+      "mecanismo": "A entrada agressiva da Google, com sua vasta infraestrutura de nuvem e recursos de IA, aumenta a concorrência direta em contratos governamentais de alto valor; isso pressiona a avaliação da Palantir, pois o mercado antecipa uma guerra de preços ou uma dificuldade maior em capturar novos contratos exclusivos, reduzindo as expectativas de crescimento futuro.",
+      "implicacao": "O setor de software de defesa e IA governamental tende a enfrentar pressão sobre as avaliações (múltiplos), pois a entrada de gigantes de tecnologia generalistas reduz a percepção de moats exclusivos e aumenta a incerteza sobre a sustentabilidade das margens das empresas especializadas.",
+      "risco": "A tese de queda pode ser invalidada se a Palantir demonstrar uma vantagem tecnológica insuperável em integração de dados sensíveis que a infraestrutura genérica da Google não consegue replicar, mantendo sua posição dominante nos contratos existentes.",
+      "proximo_evento": "Próximo relatório trimestral de resultados da Palantir, onde a gestão deve comentar sobre a retenção de contratos e a margem bruta frente à concorrência crescente.",
+      "key_numbers": [],
+      "sentiment": "down"
+    },
+    {
+      "title": "Invesco Short Duration High Yield Municipal Fund Q2 2026 Commentary",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4942461-invesco-short-duration-high-yield-municipal-fund-q2-2026-commentary?source=feed_all_articles",
+      "categorias": [
+        "renda_fixa",
+        "debentures"
+      ],
+      "resumo": "O mercado de títulos municipais de alta renda registrou retornos positivos no segundo trimestre de 2026, impulsionado por fundamentos creditícios sólidos, apesar do fundo Invesco ter subdesempenhado seu índice de referência devido a exposições setoriais específicas.",
+      "mecanismo": "A Reserva Federal manteve os juros inalterados, mas adotou um tom mais restritivo devido à inflação persistente e à resiliência econômica; isso sustentou a demanda por renda isenta de impostos, elevando os preços dos títulos municipais, embora a posição de curto prazo do fundo tenha limitado os ganhos relativos em um ambiente onde títulos de maior duração e utilidades públicas se saíram melhor.",
+      "implicacao": "A classe de ativos de títulos municipais de alta renda tende a se beneficiar da demanda contínua por renda isenta de impostos e dos rendimentos absolutos elevados, já que os fundamentos creditícios subjacentes permanecem saudáveis e a emissão é estável.",
+      "risco": "Uma aceleração inesperada da inflação que force a Reserva Federal a adotar uma postura ainda mais agressiva de aperto monetário poderia pressionar os preços dos títulos e aumentar o custo de refinanciamento para os emissores municipais.",
+      "proximo_evento": "Próximas decisões de política monetária do Federal Reserve e a divulgação de novos dados de inflação que confirmem ou refutem a rigidez dos preços.",
       "key_numbers": [
-        "Instituições no consórcio: 21",
-        "Meta de lançamento USD: 1H 2027",
-        "Moeda inicial: Dólar dos EUA",
-        "Moeda seguinte priorizada: Euro"
+        "Retorno High Yield Municipal: 3,35%",
+        "Retorno Investment Grade Municipal: 2,50%",
+        "Retorno Municipais Tributáveis: 0,74%",
+        "Data da análise: 02/09/2026"
       ],
       "sentiment": "up"
     },
     {
-      "title": "IBBP11 detalha troca de cotas por IVBP11",
-      "source": "ClubeFII News",
-      "link": "https://clubefii.com.br/noticias/outros/ibbp11-detalha-troca-de-cotas-por-ivbp11",
+      "title": "RITM: A 10% Yield Built For Higher Rates",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4942447-ritm-a-10-percent-yield-built-for-higher-rates?source=feed_all_articles",
       "categorias": [
-        "imobiliario"
+        "renda_fixa",
+        "debentures"
       ],
-      "resumo": "O IBBP11 oferece aos cotistas a opção facultativa de trocar suas cotas por unidades do IVBP11 na proporção de 1 para 1, como parte de uma estratégia de consolidação dos fundos sob gestão da Invista.",
-      "mecanismo": "A operação permite a migração de ativos entre veículos do mesmo gestor, otimizando a estrutura de gestão e potencialmente reduzindo custos operacionais duplicados; para o investidor, a troca é neutra em quantidade, mas gera um evento tributário imediato que exige gestão de caixa para o IR sobre ganho de capital, caso o custo de aquisição seja inferior ao valor de referência.",
-      "implicacao": "Para o setor de Fundos de Investimento Imobiliário (FIIs), operações de consolidação tendem a sinalizar eficiência operacional e foco na valorização do patrimônio líquido, o que pode ser visto positivamente pelo mercado como um passo para simplificar a oferta e melhorar a governança, embora o impacto direto no preço seja limitado pela natureza facultativa e pela equivalência patrimonial da troca.",
-      "proximo_evento": "A liquidação estimada da operação, prevista para 11 de setembro de 2026, que confirmará a efetiva transferência das cotas e o encerramento do ciclo de manifestação.",
+      "resumo": "A Rithm Capital destaca-se no setor de mortgage REITs por oferecer um rendimento de 10% estruturado para se beneficiar de um ambiente de juros mais altos, desafiando a visão tradicional de que o setor gera retornos pobres.",
+      "mecanismo": "O modelo de negócios da Rithm é construído para capitalizar taxas de juros elevadas, o que aumenta a margem de financiamento e a atratividade do dividendo em 10% quando o custo do dinheiro permanece alto, diferenciando-a de pares que sofrem com a estrutura de alavancagem típica do setor.",
+      "implicacao": "Para o setor de mortgage REITs, um cenário de juros persistentemente altos tende a favorecer empresas com estruturas de hedge eficientes e margens robustas, como a Rithm, em detrimento de players mais sensíveis a quedas bruscas nas taxas ou aumentos no custo de captação.",
+      "risco": "Uma queda acelerada nas taxas de juros ou um aumento inesperado nos custos de financiamento pode comprimir as margens e reduzir a atratividade do yield de 10%, invalidando a tese de que a estrutura é ideal para o ambiente atual.",
+      "proximo_evento": "Acompanhar as próximas decisões do Federal Reserve sobre a taxa de juros e os relatórios trimestrais de resultados da Rithm para validar a sustentabilidade do yield.",
       "key_numbers": [
-        "Valor de referência: R$ 9,42",
-        "Relação de troca: 1:1",
-        "Início das manifestações: 31/08/2026",
-        "Liquidação estimada: 11/09/2026"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Veja os FIIs com melhor performance em Agosto de 2026",
-      "source": "ClubeFII News",
-      "link": "https://clubefii.com.br/noticias/mercado/veja-os-fiis-com-melhor-performance-em-agosto-de-2026",
-      "categorias": [
-        "imobiliario"
-      ],
-      "resumo": "O Clube FII divulgou o ranking dos Fundos Imobiliários com melhor desempenho no índice IFIX durante agosto de 2026, considerando a soma da valorização das cotas e dos proventos distribuídos.",
-      "mecanismo": "A liderança de fundos de papel (como CACR11 e URPR11) no ranking indica que o mercado está premiando ativos com fluxo de caixa previsível e alavancagem eficiente em um cenário de juros, onde a rentabilidade absoluta (cota + proventos) supera a simples valorização patrimonial, atraindo investidores de renda que buscam proteção e retorno imediato.",
-      "implicacao": "O destaque de FIIs de papel no topo do ranking sugere que a classe de ativos de recebíveis imobiliários tende a atrair maior fluxo de capital no curto prazo, pois investidores priorizam a consistência dos dividendos e a sensibilidade positiva a taxas de juros elevadas em detrimento da valorização pura de ativos físicos.",
-      "proximo_evento": "Divulgação dos resultados operacionais e das distribuições de proventos referentes ao mês de setembro de 2026, geralmente ocorrendo em outubro.",
-      "key_numbers": [
-        "Performance CACR11 (cota+proventos): +10,22%",
-        "Performance XPSF11 (cota+proventos): +6,68%",
-        "P/VPA CACR11: 0,16",
-        "Variação cota XPSF11: +5,54%"
+        "Yield: 10%"
       ],
       "sentiment": "up"
     }
-  ]
+  ],
+  "outras_noticias_por_categoria": {
+    "renda_fixa": [
+      "O resumo fornecido para o Allspring Intermediate Tax/AMT-Free Fund Q2 2026 Commentary é vazio, não permitindo a extração de fatos.",
+      "O resumo fornecido para SCD: High Midstream/Low Bond Exposure Is A Good Combination é vazio, não permitindo a extração de fatos.",
+      "O resumo fornecido para Mixed Data, Cooler Payrolls - And Still A Low Probability Of Recession é vazio, não permitindo a extração de fatos.",
+      "O Bitcoin permanece estável enquanto um mercado de baixa global em títulos impulsiona os títulos do governo japonês (JGB) para patamares altos."
+    ],
+    "acoes": [
+      "A XP revisou o preço-alvo e as expectativas de dividendos do Banco do Brasil (BBAS3), destacando que, apesar da alta de mais de 20% impulsionada pelo trade eleitoral, a situação fundamental do banco permanece complexa.",
+      "As ações da Azzas 2154 (AZZA3) subiram mais de 14% após o anúncio da reorganização societária decorrente do divórcio entre os acionistas Alexandre Birman e Roberto Jatahy, visando separar os negócios da empresa.",
+      "O Citi indicou bancos específicos para carteiras dependendo do resultado eleitoral entre Lula e Flávio Bolsonaro, refletindo a crescente influência da disputa política nos mercados com menos de um mês para as eleições."
+    ],
+    "cripto": [
+      "BofA, Citi e Goldman Sachs estão entre 21 instituições que planejam o lançamento de stablecoins.",
+      "Arthur Hayes prevê que o BTC atingirá US$ 1 milhão até 2030, mas afirma estar comprando ETH.",
+      "A Tailândia adota a Travel Rule para criptomoedas com verificações em carteiras de auto-custódia.",
+      "A Binance expande sua entrada no mercado tradicional de finanças oferecendo opções sobre 1.000 ações e ETFs dos EUA."
+    ],
+    "debentures": [
+      "O resumo fornecido para o Allspring Intermediate Tax/AMT-Free Fund Q2 2026 Commentary está vazio, não permitindo a extração de fatos.",
+      "O resumo fornecido para a análise de SCD sobre a combinação de Midstream e baixa exposição a títulos está vazio, não permitindo a extração de fatos.",
+      "O resumo fornecido para a análise sobre dados mistos, payrolls mais frios e baixa probabilidade de recessão está vazio, não permitindo a extração de fatos."
+    ],
+    "exterior": [
+      "O FTSE 100 recuou com a escalada do conflito entre EUA e Irã.",
+      "As ações europeias caíram para mínimos de mais de um mês devido à alta dos rendimentos globais.",
+      "O Google lançou o Gemini 3.8 Flash Cyber focado em segurança governamental.",
+      "O CEO da Berkshire Hathaway, Abel, afirmou que a IA impulsionará o crescimento."
+    ],
+    "imobiliario": [
+      "O relatório de agosto de 2026 da Kantar BrandZ identificou Itaú, Nubank, Claro, Brahma e Vivo como as marcas mais valiosas do Brasil, destacando que elas somam centenas de milhares de metros quadrados no mercado imobiliário.",
+      "Um artigo do Seeking Alpha argumenta que a diluição na Broadstone Net Lease parece pior do que a fundamentação econômica do ativo."
+    ]
+  },
+  "de_olho_por_categoria": {
+    "renda_fixa": "O cenário de renda fixa é marcado pela manutenção de juros elevados e um tom restritivo do Federal Reserve, o que beneficia modelos de negócios adaptados a altas taxas e sustenta a demanda por títulos isentos de impostos. Paralelamente, um mercado de baixa global em títulos continua a pressionar os preços, como evidenciado pelo comportamento dos JGBs e pela estabilidade do Bitcoin nesse contexto. Investidores devem monitorar as próximas decisões de política monetária e dados de inflação para validar a rigidez dos preços e a sustentabilidade dos yields atuais.",
+    "acoes": "O mercado de renda variável brasileiro está sendo fortemente moldado pela incerteza eleitoral, com movimentos especulativos em bancos como o Banco do Brasil e recomendações estratégicas do Citi baseadas no cenário político, enquanto reestruturações societárias, como a da Azzas 2154, geram volatilidade pontual. Paralelamente, fatores globais e setoriais continuam relevantes, com a Empiricus ajustando sua carteira de BDRs em resposta a dinâmicas de petróleo, demanda por IA e proteção com ouro, e a concorrência no setor de defesa de IA pressionando avaliações como a da Palantir. Investidores devem monitorar de perto os resultados trimestrais das empresas mencionadas, a evolução das pesquisas eleitorais e os indicadores macroeconômicos internacionais que impactam tanto os ativos locais quanto as apostas globais em tecnologia e commodities.",
+    "cripto": "Enquanto a demanda aparente do Bitcoin enfrenta pressões negativas e saques iniciais em ETFs em setembro, o setor mostra sinais de maturação institucional com o planejamento de stablecoins por grandes bancos e a expansão da Binance para ativos tradicionais. A adoção regulatória rigorosa, como a Travel Rule na Tailândia, contrasta com as previsões de longo prazo otimistas, como a de Arthur Hayes para o BTC, embora ele mesmo esteja posicionado em ETH, sugerindo uma diversificação de estratégias entre investidores experientes.",
+    "debentures": "O mercado de crédito privado e debêntures deve ser monitorado com foco na aplicação dos recursos da chamada pública do BNDES para ETFs de infraestrutura e no volume de negociação inicial do DINF11, que validam o interesse institucional em produtos híbridos. Simultaneamente, é crucial acompanhar as próximas decisões de política monetária do Federal Reserve e a divulgação de novos dados de inflação, fatores que influenciam diretamente a demanda por renda isenta de impostos e a sustentabilidade de yields elevados em veículos como o da Rithm.",
+    "exterior": "Enquanto o mercado de trabalho dos EUA aguarda o relatório de emprego não agrícola para definir o rumo da política monetária, a escalada geopolítica no Oriente Médio e a alta dos rendimentos globais pressionam os índices europeus e britânicos para baixo. Paralelamente, a intensificação da concorrência em IA, evidenciada pelo lançamento do Gemini 3.8 Flash Cyber da Google e pelo impacto na avaliação da Palantir, contrasta com a visão otimista da Berkshire Hathaway sobre o potencial de crescimento da tecnologia.",
+    "imobiliario": "Com o índice Ifix negociando em descontos históricos e bancos recomendando FIIs com foco na qualidade da gestão e garantias para sustentar dividendos, o mercado imobiliário mostra sinais de oportunidade seletiva impulsionada pela aversão ao risco e pela queda dos juros. Paralelamente, a presença de grandes marcas nacionais no ranking de valorização reforça a demanda por imóveis corporativos de alta qualidade, enquanto análises internacionais alertam para riscos de diluição em ativos de leaseback e oportunidades em resseguro de catástrofes. O investidor deve monitorar a reação do Ifix aos dados macroeconômicos, a evolução dos fluxos institucionais e a confirmação de operações corporativas, como a possível incorporação do RBRR11 pelo PCIP11, para validar a continuidade do ciclo de cortes da Selic."
+  }
 }
