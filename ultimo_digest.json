@@ -1,108 +1,125 @@
 {
-  "gerado_em": "2026-09-03T11:15:54.706508+00:00",
+  "gerado_em": "2026-09-03T15:08:14.949869+00:00",
   "itens": [
     {
-      "title": "Petróleo perde força e eleição ganha espaço no mercado; Ibovespa em dólar sobe nesta quinta-feira (3)",
+      "title": "Até onde o rali eleitoral deve impulsionar o Ibovespa?",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/petroleo-perde-forca-e-eleicao-ganha-espaco-no-mercado-ibovespa-em-dolar-sobe-nesta-quinta-feira-03/",
+      "link": "https://www.moneytimes.com.br/ate-onde-o-rali-eleitoral-deve-impulsionar-o-ibovespa-lils/",
       "categorias": [
-        "renda_fixa",
-        "exterior"
+        "acoes"
       ],
-      "resumo": "O Ibovespa em dólar avança impulsionado pela queda do dólar local e pela redução de tensões geopolíticas no Oriente Médio, enquanto o mercado brasileiro aguarda novos dados eleitorais.",
-      "mecanismo": "A afirmação de Trump sobre a limitação temporal do ataque ao Irã aliviou o prêmio de risco sobre o petróleo, reduzindo a pressão inflacionária global e fortalecendo o dólar americano em relação a commodities, o que, combinado com a queda do câmbio doméstico, elevou o valor do Ibovespa em moeda forte; simultaneamente, a percepção de alternância de poder gerada pelas pesquisas eleitorais está recalibrando as expectativas de risco político no Brasil.",
-      "implicacao": "A estabilização dos preços do petróleo e a queda do câmbio tendem a beneficiar o setor de energia e empresas exportadoras, pois reduzem custos de insumos e aumentam a competitividade internacional, enquanto a incerteza eleitoral pode manter volatilidade em ativos sensíveis a risco político doméstico.",
-      "risco": "Uma escalada inesperada das tensões no Oriente Médio ou um resultado eleitoral que aumente a percepção de instabilidade política no Brasil pode reverter a queda do dólar e pressionar o Ibovespa para baixo.",
-      "proximo_evento": "Divulgação da nova pesquisa Datafolha sobre intenções de voto no Brasil.",
+      "resumo": "O Ibovespa registra sua 12ª alta consecutiva, atingindo 188 mil pontos, impulsionado pela expectativa de uma disputa eleitoral acirrada que aumenta as chances de uma troca de governo em 2027 e pela retomada do fluxo de capital estrangeiro.",
+      "mecanismo": "O acirramento da corrida presidencial, com pesquisas indicando empate técnico ou leve vantagem para Flávio Bolsonaro, eleva a probabilidade de uma mudança de administração, o que o mercado interpreta como um sinal de maior ortodoxia fiscal e controle da inflação; essa expectativa, somada à entrada de investidores estrangeiros, gera pressão compradora sobre o índice, rompendo resistências técnicas e estabelecendo uma tendência de alta clara.",
+      "implicacao": "O setor financeiro e as ações de valor tendem a se beneficiar, pois a expectativa de políticas econômicas mais conservadoras sob um eventual novo governo reduz a percepção de risco fiscal e atrai capital externo em busca de ativos com melhor perfil de risco-retorno.",
+      "risco": "Uma consolidação da liderança de Lula nas pesquisas ou a materialização de riscos jurídicos e institucionais, como os envolvendo o STF, podem inverter a narrativa de ortodoxia fiscal, reduzindo o apetite por risco e pressionando o índice para baixo.",
+      "proximo_evento": "As eleições presidenciais brasileiras, ocorrendo em aproximadamente um mês, que definirão o cenário político e econômico para 2027.",
       "key_numbers": [
-        "Ibovespa: 185.205,09 pontos",
-        "Dólar: R$ 5,1084",
-        "Petróleo Brent: US$ 96,25",
-        "Bitcoin: US$ 77.803,27"
+        "Ibovespa: 188 mil pontos",
+        "Alta semanal do IBOV: 6,3%",
+        "Intenção de voto Lula (1º turno): 37%",
+        "Intenção de voto Flávio Bolsonaro (1º turno): 29%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Bolsas da Ásia fecham sem rumo único e Nikkei tem nova baixa; Dynamic Map estende salto",
+      "title": "Wall Street avança com alívio dos Treasuries",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-sem-rumo-unico-e-nikkei-tem-nova-baixa-dynamic-map-estende-salto-fets/",
+      "link": "https://www.moneytimes.com.br/wall-street-abertura-3-9-26-apsa/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "Os mercados asiáticos apresentaram desempenho misto, com o Nikkei recuando devido à valorização do iene e expectativas de aperto monetário, enquanto ações de tecnologia como a Dynamic Map subiram impulsionadas por mudanças geopolíticas em mapas digitais.",
-      "mecanismo": "A valorização do iene frente ao dólar, alimentada por comentários de membros do Banco do Japão sobre possíveis aumentos expressivos de juros, encarece as exportações japonesas e reduz a atratividade do Nikkei para investidores estrangeiros; simultaneamente, a renomeação de locais geográficos em aplicativos de mapas por grandes empresas de tecnologia gera especulação e demanda por provedores de dados cartográficos que se adaptem a essas novas diretrizes.",
-      "implicacao": "O setor de exportação japonês tende a sofrer pressão sobre margens e valuation devido ao iene forte, enquanto o segmento de tecnologia e dados geoespaciais pode atrair capital especulativo em resposta a mudanças regulatórias ou geopolíticas nos EUA.",
-      "risco": "O Banco do Japão pode sinalizar uma postura mais gradualista do que o esperado, enfraquecendo o iene e revertendo a queda do Nikkei, ou as mudanças nos mapas podem ter impacto comercial menor do que o mercado está precificando.",
-      "proximo_evento": "Comunicados oficiais do Banco do Japão sobre a decisão de política monetária e a magnitude eventual do ajuste nas taxas de juros.",
+      "resumo": "Wall Street reage positivamente à queda nos rendimentos dos Treasuries e ao sinal de pausa nos juros do Fed, enquanto a Nvidia anuncia a compra da Hugging Face.",
+      "mecanismo": "A redução nos rendimentos dos títulos do Tesouro americano alivia a pressão sobre ativos de crescimento, especialmente tecnologia, ao diminuir o custo de desconto dos fluxos de caixa futuros; simultaneamente, o comentário de Christopher Waller reduz as apostas de novo aumento de juros, reforçando a confiança de que o ciclo de aperto monetário pode estar estabilizado.",
+      "implicacao": "O setor de tecnologia e inteligência artificial tende a se beneficiar, pois a combinação de juros menos agressivos e consolidação de mercado (via aquisição da Hugging Face) fortalece a narrativa de crescimento sustentável para empresas de hardware e software de IA.",
+      "risco": "Uma inflação de agosto mais alta que o esperado pode forçar o Fed a reconsiderar a manutenção dos juros, revertendo a queda nos rendimentos dos Treasuries e pressionando as ações de tecnologia.",
+      "proximo_evento": "Divulgação dos dados de inflação de agosto, que serão decisivos para a postura do Fed na próxima reunião de política monetária.",
       "key_numbers": [
-        "Nikkei: -0,17%",
-        "Dynamic Map: +21%",
-        "PMI Serviços China: 51,4",
-        "Hang Seng: -0,4%"
+        "Dow Jones: +0,56%",
+        "S&P 500: +0,48%",
+        "Nasdaq: +0,86%",
+        "Aposta de aumento de juros (FedWatch): 50,4%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "FII da XP encerra negociação na B3 e inicia processo de liquidação; veja os prazos",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/fii-da-xp-encerra-negociacao-na-b3-e-inicia-processo-de-liquidacao-veja-os-prazos-jcav/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O fundo XPEX11 cessa negociações na B3 e inicia a liquidação após aprovação dos cotistas, com previsão de encerramento em setembro de 2026.",
+      "mecanismo": "A amortização integral das cotas foi aprovada, obrigando o fundo a vender seus ativos logísticos e devolver o capital aos investidores, o que remove o título do mercado secundário e encerra sua existência jurídica.",
+      "implicacao": "Para o setor de FIIs, a saída de um fundo reduz a oferta de papéis negociáveis e sinaliza o fim de ciclos de investimento em ativos logísticos específicos, direcionando o foco dos investidores para fundos em operação ou novas emissões.",
+      "risco": "Atrasos operacionais na venda dos ativos ou na distribuição dos recursos podem estender o prazo de liquidação além da segunda quinzena de setembro, impactando o fluxo de caixa dos cotistas.",
+      "proximo_evento": "Prazo final de 14 de setembro para que cotistas fora da XP informem o custo médio de aquisição para fins de Imposto de Renda.",
+      "key_numbers": [
+        "Último pregão: 4 de setembro",
+        "Prazo custo médio: 14 de setembro",
+        "Distribuição 18/ago: R$ 101,67",
+        "Distribuição 25/ago: R$ 140,61"
       ],
       "sentiment": "neutral"
     },
     {
-      "title": "Curva de juros recua com ‘trade eleitoral’ e alívio nos Treasuries",
+      "title": "Swing trade: BB Investimentos recomenda a compra de BTG Pactual (BPAC11), Gerdau (GGBR4) e Ambev (ABEV3) nesta quinta (3)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/curva-de-juros-recua-com-trade-eleitoral-e-alivio-nos-treasuries-lils/",
+      "link": "https://www.moneytimes.com.br/swing-trade-bb-investimentos-recomenda-a-compra-de-btg-pactual-bpac11-gerdau-ggbr4-e-ambev-abev3-nesta-quinta-3-ceci/",
       "categorias": [
-        "renda_fixa",
-        "acoes"
+        "acoes",
+        "imobiliario"
       ],
-      "resumo": "A curva de juros brasileira recuou impulsionada pela percepção de maior competitividade eleitoral e pela queda nos rendimentos dos títulos do Tesouro americano.",
-      "mecanismo": "O estreitamento da vantagem de Lula nas pesquisas elevou a aposta em uma possível troca de governo em 2027, o que o mercado interpreta como um sinal de maior ortodoxia fiscal e controle das contas públicas; simultaneamente, a interrupção da alta dos Treasuries reduziu a pressão externa sobre os juros domésticos, permitindo a queda nos DIs.",
-      "implicacao": "Títulos públicos de longo prazo (NTN-B e NTN-F) tendem a se valorizar, pois a queda nas taxas de juros aumenta o preço desses ativos, enquanto o setor imobiliário pode se beneficiar indiretamente com a expectativa de crédito mais barato no médio prazo.",
-      "risco": "Uma nova pesquisa que reforce a reeleição do governo atual ou dados de inflação acima do esperado podem invalidar a tese de ortodoxia fiscal e travar a queda dos juros.",
-      "proximo_evento": "Resultado das pesquisas eleitorais de outubro e a reunião do Copom em novembro, que definirão a consolidação do cenário fiscal e a continuidade dos cortes de juros.",
+      "resumo": "O BB Investimentos emitiu recomendação de compra para BTG Pactual, Gerdau e Ambev com foco em swing trade, sugerindo entrada na abertura com limite de preço.",
+      "mecanismo": "A recomendação baseia-se em um algoritmo de análise técnica que identificou padrões de alta iminente, indicando que a captura de movimentos de curto prazo é estatisticamente favorável no momento da abertura do pregão.",
+      "implicacao": "Para o setor financeiro e de commodities, a validação de sinais técnicos de alta tende a atrair fluxo de capital especulativo de curto prazo, aumentando a liquidez e a volatilidade positiva nesses ativos específicos.",
+      "risco": "O sinal técnico pode falhar se houver uma reversão abrupta de tendência ou notícias macroeconômicas negativas que invalidem o padrão identificado pelo algoritmo.",
+      "proximo_evento": "A execução das ordens de compra na abertura do mercado nesta quinta-feira (3) e a confirmação do movimento de alta rastreado pelo algoritmo.",
       "key_numbers": [
-        "DI Jan/2027: 13,575%",
-        "DI Jan/2029: 13,950%",
-        "Yield Treasury 10 anos: 4,78%",
-        "Probabilidade corte Selic set: 100%"
+        "Data da recomendação: 03/09/2026",
+        "Limite de preço: 1% acima da abertura",
+        "Ativos recomendados: 3"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Eleição faz preço, Ibovespa salta 3% e engata 11ª alta consecutiva; dólar cai a R$ 5,10",
+      "title": "Fundo imobiliário quer captar R$ 440 milhões no mercado; Ifix no positivo",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-2-9-26-lils/",
+      "link": "https://www.moneytimes.com.br/fundo-imobiliario-quer-captar-r-440-milhoes-no-mercado-ifix-no-positivo-jcav/",
       "categorias": [
-        "renda_fixa",
-        "acoes"
+        "imobiliario"
       ],
-      "resumo": "O Ibovespa registrou sua 11ª alta consecutiva, impulsionado por pesquisas eleitorais que indicam acirramento na disputa presidencial e reforçam a expectativa de mudança de governo em 2027, enquanto o dólar recuou para a casa dos R$ 5,10.",
-      "mecanismo": "A redução da vantagem do atual presidente nas pesquisas aumenta a probabilidade percebida de uma troca de governo, o que o mercado associa a uma política fiscal mais ortodoxa e controle de gastos; essa expectativa de menor risco fiscal e juros reais mais baixos atrai fluxo estrangeiro para ativos de risco, especialmente commodities e bancos, pressionando o câmbio para baixo.",
-      "implicacao": "O setor financeiro e as ações cíclicas tendem a se beneficiar com a queda na curva de juros e a valorização do real, pois a perspectiva de disciplina fiscal reduz o prêmio de risco e melhora as condições de financiamento para empresas sensíveis ao custo de capital.",
-      "risco": "A volatilidade política pode se intensificar com novos desdobramentos institucionais ou vazamentos, alterando rapidamente a percepção de risco-país e revertendo o fluxo de capitais estrangeiros.",
-      "proximo_evento": "Divulgação do relatório oficial de empregos dos EUA (payroll) de agosto, previsto para a próxima sexta-feira (4).",
+      "resumo": "O fundo Kinea Unique HY CDI (KNUQ11) aprovou uma nova emissão de cotas com potencial de captar até R$ 440 milhões, enquanto o índice IFIX registrou alta de 0,32% no pregão.",
+      "mecanismo": "A emissão de novas cotas por um fundo de recebíveis imobiliários injeta capital fresco para expansão da carteira de ativos, sinalizando confiança da gestora no fluxo de caixa e na capacidade de gerar retorno acima do CDI; simultaneamente, a alta do IFIX reflete apetite por renda variável no setor imobiliário, possivelmente impulsionado pela demanda por ativos que oferecem proteção inflacionária e dividendos.",
+      "implicacao": "Para o setor de FIIs de papel e recebíveis, a captação robusta indica liquidez e oportunidades de alavancagem positiva, tendendo a fortalecer a classe de ativos que busca rentabilidade atrelada ao CDI com menor volatilidade que os fundos de tijolo.",
+      "risco": "A operação está sob regime de melhores esforços, o que significa que a oferta pode ser cancelada se não atingir o volume mínimo de subscrição, invalidando a tese de expansão imediata da carteira.",
+      "proximo_evento": "O início da oferta pública das novas cotas do KNUQ11 e o exercício do direito de preferência pelos cotistas atuais, cujas datas específicas ainda serão divulgadas.",
       "key_numbers": [
-        "Ibovespa: 185.205 pontos",
-        "Dólar: R$ 5,1084",
-        "Alta do Ibovespa: 3,05%",
-        "Alta da Magazine Luiza: 16,88%"
+        "Volume inicial da oferta: R$ 351,9 milhões",
+        "Potencial máximo da oferta: R$ 439,9 milhões",
+        "Valor da cota: R$ 100,55",
+        "Variação do IFIX: +0,32%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Bitcoin’s apparent demand turns negative as price struggles with $77K",
+      "title": "Standard Chartered launches spot Bitcoin and Ether trading in UAE",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoins-apparent-demand-turns-negative-price-struggles-with-77k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/news/standard-chartered-bitcoin-ether-trading-uae?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "A demanda aparente do Bitcoin voltou a ser negativa e o preço recuou abaixo de US$ 77 mil, refletindo saídas de capital dos ETFs e um ambiente macroeconômico hostil com vendas em ações asiáticas e títulos.",
-      "mecanismo": "O indicador de demanda aparente inverteu para negativo porque as moedas estão entrando em dormência mais rápido do que a emissão de novos blocos, sinalizando falta de absorção de oferta no mercado spot; isso ocorre em paralelo com saídas de US$ 236 milhões nos ETFs de Bitcoin nos EUA e uma venda generalizada em ações asiáticas e títulos globais, pressionando o preço para baixo.",
-      "implicacao": "Para a classe de ativos de criptomoças, especificamente Bitcoin, a demanda negativa combinada com aversão ao risco global tende a pressionar os preços para baixo, pois indica que investidores institucionais estão reduzindo posições e que não há compradores suficientes para absorver a oferta circulante.",
-      "risco": "O raciocínio de queda pode ser invalidado se houver uma intervenção cambial confirmada e agressiva do Banco do Japão que estabilize os mercados asiáticos, ou se os fluxos dos ETFs revertam rapidamente para entradas significativas, restaurando a demanda aparente.",
-      "proximo_evento": "Monitorar a próxima divulgação de fluxos dos ETFs de Bitcoin nos EUA e possíveis comunicados oficiais do Banco do Japão sobre intervenções cambiais no par USD/JPY.",
+      "resumo": "O Standard Chartered se tornou o primeiro banco global sistemicamente importante a oferecer negociação de Bitcoin e Ether à vista para clientes institucionais nos Emirados Árabes Unidos, operando sob a regulação do DIFC.",
+      "mecanismo": "A entrada de um G-SIB no mercado de ativos digitais institucionais valida a infraestrutura regulatória do UAE e reduz a barreira de confiança para grandes capitais, facilitando o fluxo de fundos tradicionais para criptoativos através de canais bancários integrados e seguros.",
+      "implicacao": "O setor de infraestrutura cripto e exchanges reguladas tende a se beneficiar, pois a adoção bancária institucional aumenta a liquidez e a legitimidade do mercado, atraindo mais participantes corporativos que exigem conformidade rigorosa.",
+      "risco": "Uma mudança abrupta no tom regulatório global ou local que restrinja o acesso de bancos tradicionais a criptoativos poderia invalidar a tese de adoção institucional acelerada.",
+      "proximo_evento": "Acompanhar a aprovação final da licença da Revolut pela VARA de Dubai e o progresso da Capital.com na CMA, além de monitorar o volume inicial de negociações institucionais no Standard Chartered.",
       "key_numbers": [
-        "Preço local mínimo BTC: US$ 76.400",
-        "Saída ETFs BTC (dia anterior): US$ 236 milhões",
-        "Queda KOSPI: 4,0%",
-        "Queda Nikkei 225: 2,9%"
+        "Banco: Standard Chartered",
+        "Região: UAE",
+        "Ativos: BTC e ETH",
+        "Tipo: G-SIB"
       ],
-      "sentiment": "down"
+      "sentiment": "up"
     },
     {
       "title": "Bitcoin ETFs notch best month of 2026 as BTC gains 25% in August",
@@ -125,103 +142,52 @@
       "sentiment": "up"
     },
     {
-      "title": "Sector Spotlight: Multifamily REITs - The Wait For Lower Rates Is Over",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4942692-sector-spotlight-multifamily-reits-wait-for-lower-rates-over?source=feed_all_articles",
+      "title": "Palantir, Robinhood among market cap stock movers on Thursday",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/palantir-robinhood-among-market-cap-stock-movers-on-thursday-93CH-4888213",
       "categorias": [
-        "imobiliario"
+        "exterior"
       ],
-      "resumo": "O setor de REITs multifamiliares está sendo reavaliado positivamente após o fim da expectativa de cortes de juros, com múltiplos de valuation em níveis atrativos e sinais de aquecimento em fusões e aquisições.",
-      "mecanismo": "A fala do novo presidente do Fed, Kevin Warsh, inverteu as expectativas de aumento de juros em setembro, eliminando a esperança de cortes adicionais e elevando o custo de refinanciamento; isso pressiona desenvolvedores e proprietários a buscar vendas ou fusões para lidar com dívidas, enquanto a oferta excessiva de imóveis em certas regiões estabiliza os aluguéis, criando um ambiente onde o valor é encontrado em ativos descontados.",
-      "implicacao": "O setor de REITs multifamiliares tende a se beneficiar de oportunidades de valor e consolidação, pois a estagnação dos aluguéis combinada com múltiplos de FFO significativamente abaixo da média pré-pandemia sugere que o pior da correção de preços já ocorreu, atraindo capital para aquisições.",
-      "risco": "A persistência de altas taxas de juros pode tornar o refinanciamento inviável para alguns emissores, levando a estresse de liquidez ou inadimplência, além de a oferta excessiva de novos imóveis continuar pressionando os aluguéis para baixo em mercados-chave.",
-      "proximo_evento": "A decisão oficial sobre a taxa de juros do Federal Reserve em 16 de setembro e o acompanhamento do volume de transações de M&A no setor.",
-      "key_numbers": [
-        "Múltiplo P/FFO Setor: 14.3x",
-        "Múltiplo P/FFO Pré-COVID: 21x",
-        "Múltiplo P/FFO Mercado REITs: 14.8x",
-        "Data Decisão Juros Fed: 16 de setembro"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Notícias sobre investimentos e o mercado financeiro | Bora Investir",
-      "source": "Bora Investir",
-      "link": "https://borainvestir.b3.com.br/noticias/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Ibovespa B3 registrou sua 11ª alta consecutiva, ultrapassando a marca de 180 mil pontos, impulsionado por dados macroeconômicos positivos como a retomada da produção industrial e o forte crescimento do PIB no segundo trimestre.",
-      "mecanismo": "A combinação da produção industrial interrompendo a queda e o Brasil registrar a 5ª maior alta de PIB global no 2T2026 reforça a narrativa de recuperação econômica doméstica, atraindo fluxo de capitais para ações brasileiras e pressionando o dólar para baixo, que recuou para a casa dos R$ 5,10.",
-      "implicacao": "O setor cíclico e sensível à atividade econômica tende a se beneficiar com a confirmação do crescimento do PIB e da indústria, pois a maior demanda interna e a desvalorização relativa do dólar favorecem as receitas das empresas exportadoras e de consumo.",
-      "risco": "A cautela dos investidores devido ao conflito geopolítico entre EUA e Irã pode elevar o preço do petróleo e aumentar a aversão a risco global, potencialmente revertendo o fluxo de capitais para o Brasil.",
-      "proximo_evento": "Divulgação de novos indicadores econômicos nos EUA e acompanhamento da evolução da produção industrial nos próximos meses para confirmar a sustentabilidade da retomada.",
-      "key_numbers": [
-        "Ibovespa: 180 mil pontos",
-        "Dólar: R$ 5,10",
-        "Alta do PIB 2T26: 5ª maior do mundo",
-        "Produção industrial julho: +0,2%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Notícias para o investidor de fundos imobiliários",
-      "source": "clubefiinews.com.br",
-      "link": "https://www.clubefiinews.com.br",
-      "categorias": [
-        "imobiliario"
-      ],
-      "resumo": "O setor de galpões logísticos atinge recorde de valorização com média de R$ 30/m² e receita de locações crescendo 20%, enquanto a saída de estrangeiros e investigações judiciais pressionam a ocupação de escritórios em SP e Campinas.",
-      "mecanismo": "A alta demanda por logística impulsiona os preços de transação e receitas no segmento, criando um efeito de refúgio de qualidade; simultaneamente, a desocupação de escritórios devido a falências corporativas e reestruturações de multinacionais reduz a oferta de imóveis disponíveis, mas também sinaliza enfraquecimento da demanda corporativa tradicional, fragmentando o mercado entre ativos premium e obsoletos.",
-      "implicacao": "Fundos imobiliários do segmento logístico tendem a se beneficiar com a valorização dos ativos e crescimento de receita, enquanto fundos de escritórios podem enfrentar pressão sobre dividendos e valor patrimonial devido à desocupação e à necessidade de readequação dos imóveis.",
-      "risco": "Uma desaceleração mais acentuada da economia global pode reduzir o volume de e-commerce e logística, invalidando a tese de alta contínua dos galpões, ou a recuperação mais rápida das empresas afetadas pode estabilizar a demanda por escritórios mais cedo que o esperado.",
-      "proximo_evento": "Conclusão da aquisição da Navi Real Estate Selection pela Vinci, prevista para o fim de 2026, e novos dados de vacância em escritórios de São Paulo e Campinas.",
-      "key_numbers": [
-        "Preço médio galpões: R$ 30/m²",
-        "Crescimento receita locação: 20%",
-        "Área desocupada escritórios: 38 mil m²",
-        "Variação Ifix: +0,65%"
-      ],
+      "resumo": "Palantir e Robinhood se destacaram como as maiores movimentadoras de valor de mercado na sessão de quinta-feira, indicando forte interesse dos investidores em ações de tecnologia e fintech.",
+      "mecanismo": "O destaque no ranking de variação de market cap reflete uma rotação de capital para ativos de crescimento e sensíveis ao risco, onde a expectativa de lucros robustos ou adoção de IA (no caso da Palantir) e o volume de negociação (Robinhood) atraem fluxo especulativo de curto prazo.",
+      "implicacao": "A liderança de valor de mercado por parte de empresas de tecnologia e fintech tende a beneficiar o setor de tecnologia e serviços financeiros digitais, já que o fluxo de capital para esses nomes sinaliza apetite por risco e otimismo com a adoção de novas tecnologias.",
+      "risco": "O movimento pode ser revertido rapidamente se houver uma correção geral no mercado de ações ou se os fundamentos das empresas não justificarem as altas valuations, caracterizando uma possível bolha especulativa de curto prazo.",
+      "proximo_evento": "Acompanhar os próximos relatórios trimestrais de resultados dessas empresas para validar se o momentum de preço é sustentado por fundamentos ou apenas euforia de mercado.",
+      "key_numbers": [],
       "sentiment": "up"
     }
   ],
   "outras_noticias_por_categoria": {
-    "renda_fixa": [
-      "Os preços do petróleo recuam levemente nesta quinta-feira (3) enquanto investidores avaliam a incerteza provocada pela retomada dos ataques militares entre os EUA e o Irã, que ameaça interromper o fornecimento de petróleo do Oriente Médio, com os contratos futuros do Brent caindo 65 centavos.",
-      "O relatório Triple-Factor Closed-End Fund Report de agosto de 2026 destaca algumas posições de portfólio específicas.",
-      "O comentário do Goldman Sachs sobre portfólios de alocação de ativos do segundo trimestre de 2026 foi divulgado."
-    ],
+    "renda_fixa": [],
     "acoes": [
-      "Os contratos futuros de trigo em Chicago recuaram após atingirem máximas de vários anos, com operadores realizando lucros e avaliando os desdobramentos recentes.",
-      "O UBS identificou quatro oportunidades de investimento à medida que o ciclo de resultados da Europa se inverte.",
-      "A Nvidia apresenta argumentos de que o suporte de US$ 40 bilhões por gigawatt indica uma significativa margem de alta."
+      "A Ágora Investimentos recomenda a compra de PetroReconcavo (RECV3) e a venda de MRV&Co (MRVE3) para day trade nesta quinta-feira (3), com potencial de ganho de 1,47% para a primeira e stop sugerido em R$ 11,48.",
+      "As ações da CSN (CSNA3) dispararam quase 20% nesta quinta-feira (3) após o anúncio da saída de Benjamin Steinbruch como CEO e sua substituição por Fabio Schvartsman.",
+      "O mini índice do Ibovespa (WINV26) avançou 3,04% e renovou máximas recentes aos 187.940 pontos, embora o BTG Pactual aponte que o IFR está em região de sobrecompra."
     ],
     "cripto": [
-      "O Standard Chartered lançou negociações à vista de Bitcoin e Ether nos Emirados Árabes Unidos.",
+      "A demanda aparente do Bitcoin tornou-se negativa enquanto o preço enfrenta dificuldades na marca de US$ 77.000.",
+      "A VARA e a Securitize assinaram uma carta de intenções para inovação em tokenização em Dubai.",
       "A Coinbase lançou derivativos de criptomoedas regulados no Canadá.",
-      "Arthur Hayes prevê que o Bitcoin atingirá US$ 1 milhão até 2030, mas afirma estar comprando Ethereum.",
-      "As streaks de entrada de fluxo nos ETFs de Ether e XRP terminaram, enquanto os fundos de Bitcoin registraram uma recuperação."
+      "Arthur Hayes prevê que o BTC atingirá US$ 1 milhão até 2030, mas afirma estar comprando ETH."
     ],
     "debentures": [],
     "exterior": [
-      "Os preços do petróleo recuam levemente nesta quinta-feira (3) enquanto investidores avaliam a incerteza provocada pela retomada dos ataques militares entre os EUA e o Irã, que ameaça interromper o fornecimento de petróleo do Oriente Médio, com os contratos futuros do Brent caindo 65 centavos.",
-      "As ações da Índia fecharam em baixa, com o índice Nifty 50 recuando 0,17% ao final do pregão.",
-      "A Apple enfrenta uma ação judicial no Reino Unido no valor de US$ 2,7 bilhões relacionada a regras de rastreamento de aplicativos consideradas injustas.",
-      "A Tesla tem agendado um evento para esta quinta-feira sobre o Cybercab, com poucos detalhes divulgados até o momento."
+      "A General Motors lidera os fabricantes de automóveis dos EUA com base em uma configuração técnica de curto prazo.",
+      "A economia da zona do euro permanece resiliente.",
+      "A ING apresenta suas últimas visões sobre os principais bancos centrais.",
+      "Os mercados globais de títulos estão em um ponto de virada."
     ],
     "imobiliario": [
-      "O artigo sobre MLPI argumenta que a distribuição de 15% ocorre em um momento inadequado.",
-      "O artigo sobre Farmland Partners descreve a classe de ativos como única e digna de manutenção à medida que o momento se recupera.",
-      "O Clube FII destaca seu compromisso com a qualidade e verificação das informações, esclarecendo que não faz recomendações de investimento nem se responsabiliza por perdas.",
-      "O Clube FII reitera que não realiza recomendações de investimento e não se responsabiliza por danos ou lucros cessantes."
+      "O índice IFIX registrou alta de 0,65% no pregão.",
+      "As marcas mais valiosas do Brasil, incluindo Itaú, Nubank, Claro, Brahma e Vivo, lideram o ranking da Kantar BrandZ e possuem centenas de milhares de metros quadrados no mercado imobiliário."
     ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O mercado de renda fixa segue influenciado pelo 'trade eleitoral', onde a percepção de alternância de governo e maior ortodoxia fiscal tem pressionado a curva de juros para baixo, alinhada com a queda nos Treasuries americanos. Enquanto o câmbio se desvaloriza e o Ibovespa sobe em dólar devido a esse fluxo de risco, a volatilidade externa persiste com a incerteza geopolítica no Oriente Médio afetando os preços do petróleo, um insumo crítico para as expectativas de inflação. Investidores devem monitorar de perto a divulgação do relatório de empregos dos EUA (payroll) de agosto e a nova pesquisa Datafolha, eventos que podem recalibrar as expectativas de juros reais e a trajetória da Selic em direção à reunião do Copom em novembro.",
-    "acoes": "O mercado brasileiro de renda variável consolida alta impulsionado pelo 'trade eleitoral' e pela expectativa de ortodoxia fiscal, que atraem fluxo estrangeiro e pressionam o dólar para baixo, enquanto a recuperação do PIB e da produção industrial reforçam a narrativa doméstica. Paralelamente, investidores devem monitorar a volatilidade em commodities como o trigo e as oportunidades globais sinalizadas por grandes bancos, além de aguardar a divulgação do relatório de empregos dos EUA e a reunião do Copom em novembro para confirmar a trajetória dos juros e do câmbio.",
-    "cripto": "Enquanto a demanda aparente do Bitcoin enfraquece e os fluxos dos ETFs de BTC mostram sinais de reversão com saques líquidos, a adoção institucional avança com o lançamento de serviços de negociação à vista e derivativos regulados por grandes players como Standard Chartered e Coinbase. O mercado deve monitorar a persistência das saídas nos ETFs de Bitcoin e a reação do preço ao suporte de US$ 77.000, além de observar se a rotação de capital para Ethereum, sugerida por analistas como Arthur Hayes, consegue sustentar os preços diante da incerteza macroeconômica global.",
+    "renda_fixa": "",
+    "acoes": "O mercado de renda variável brasileiro opera sob forte pressão compradora impulsionada pelo rali eleitoral e pela expectativa de ortodoxia fiscal, refletida na renovação de máximas do mini índice do Ibovespa e em recomendações de swing trade para grandes bancos e siderúrgicas. Paralelamente, movimentos pontuais de day trade e reações corporativas, como a alta da CSN devido à troca de CEO, coexistem com ajustes estruturais no mercado de fundos, exemplificados pela liquidação de um FII da XP. Investidores devem monitorar a sustentabilidade da tendência de alta do índice frente a sinais de sobrecompra técnica e os desdobramentos das eleições presidenciais em aproximadamente um mês.",
+    "cripto": "Enquanto a entrada de instituições tradicionais como o Standard Chartered no UAE e a expansão regulatória da Coinbase no Canadá validam a infraestrutura institucional, o mercado de varejo e institucional mostra sinais de cautela imediata com a reversão de fluxos nos ETFs de Bitcoin e a queda da demanda aparente abaixo de US$ 77.000. O foco deve permanecer na persistência desses saques líquidos durante setembro e na reação do preço ao suporte crítico, além de monitorar o progresso das aprovações regulatórias em Dubai e o volume inicial de negociações institucionais.",
     "debentures": "",
-    "exterior": "O mercado internacional navega entre a volatilidade geopolítica no Oriente Médio, que pressiona os preços do petróleo, e a cautela dos investidores diante de incertezas eleitorais nos EUA e ajustes de política monetária no Japão. Enquanto bolsas asiáticas como a do Japão e da Índia registram quedas ou fechamentos sem rumo claro, a atenção também se volta para eventos corporativos de grande peso, como o anúncio do Cybercab da Tesla e a disputa judicial da Apple no Reino Unido, que podem influenciar o sentimento de risco em setores específicos.",
-    "imobiliario": "O mercado imobiliário enfrenta uma fragmentação entre ativos premium e obsoletos, impulsionada pela alta demanda logística e pela desocupação de escritórios, enquanto a incerteza sobre as taxas de juros nos EUA pressiona proprietários a buscar vendas ou fusões. Investidores devem monitorar a conclusão da aquisição da Navi pela Vinci e os novos dados de vacância em São Paulo e Campinas, além da decisão oficial do Federal Reserve em 16 de setembro e do volume de transações de M&A."
+    "exterior": "O mercado internacional opera em um ambiente onde a redução nos rendimentos dos Treasuries e a estabilização das expectativas de juros do Fed favorecem ativos de crescimento, enquanto a resiliência da economia da zona do euro e a liderança técnica da General Motors indicam força setorial específica. Simultaneamente, a percepção de que os mercados de títulos globais atingiram um ponto de virada, reforçada pelas visões da ING sobre os bancos centrais, sugere uma sensibilidade elevada a novos dados macroeconômicos. O foco permanece na validação dos fundamentos por trás do momentum de ações de tecnologia e na reação dos mercados aos próximos indicadores de inflação e política monetária.",
+    "imobiliario": "O mercado imobiliário apresenta sinais de apetite por renda variável, refletidos na alta do IFIX e na recomendação de swing trade para ações do setor, enquanto a emissão de novas cotas por fundos imobiliários indica confiança na expansão da carteira de ativos. A presença de grandes marcas nacionais no ranking de valorização reforça a solidez dos inquilinos e a demanda por espaços corporativos, fatores que, somados à execução de ordens de compra na abertura do pregão, sustentam a dinâmica atual do setor."
   }
 }
