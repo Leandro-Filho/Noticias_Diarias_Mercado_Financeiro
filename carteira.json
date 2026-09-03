@@ -1,0 +1,39 @@
+{
+  "_comentario": "Sua carteira, em duas partes. 'posicoes_b3' são ativos com ticker de bolsa (o bot busca cotação real via brapi). 'outras_posicoes' são produtos sem ticker público (LCA, debênture, fundo) — sem preço ao vivo, mas o bot ainda sabe que existem e conecta notícia relevante a eles.",
+
+  "posicoes_b3": [
+    { "ticker": "HGLG11", "tipo": "FII", "peso": 25, "nota": "logística" }
+  ],
+
+  "outras_posicoes": [
+    {
+      "nome": "LCA Rabobank",
+      "codigo": "LCA-26H03428961",
+      "tipo": "Renda fixa - LCA (isenta de IR)",
+      "indexador": "não informado",
+      "peso": 35,
+      "nota": "emissor Rabobank"
+    },
+    {
+      "nome": "Debênture IPCA+ Usina Termelétrica Pampa Sul",
+      "codigo": "UTPS12",
+      "tipo": "Debênture incentivada",
+      "indexador": "IPCA+",
+      "peso": 35,
+      "nota": "crédito privado, setor de energia térmica"
+    },
+    {
+      "nome": "BTG Pactual Crédito Corporativo Dinâmico FIC FIF",
+      "tipo": "Fundo de crédito privado",
+      "peso": 5,
+      "nota": "realocado de uma posição anterior em Bitcoin"
+    }
+  ],
+
+  "acompanhando": ["^BVSP", "IFIX"],
+
+  "perfil": {
+    "horizonte": "curto a médio prazo",
+    "objetivo": "entender o mercado com profundidade e melhorar as decisões de alocação"
+  }
+}
