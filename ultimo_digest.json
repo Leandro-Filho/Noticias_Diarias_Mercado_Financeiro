@@ -1,126 +1,104 @@
 {
-  "gerado_em": "2026-09-04T15:06:07.845843+00:00",
+  "gerado_em": "2026-09-05T11:17:24.602668+00:00",
   "itens": [
     {
-      "title": "Wall Street opera em queda após surpresa com payroll",
+      "title": "Juros futuros recuam com fatores domésticos no radar",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-4-9-26-apsa/",
+      "link": "https://www.moneytimes.com.br/juros-futuros-4-9-26-apsa/",
       "categorias": [
         "renda_fixa",
+        "debentures"
+      ],
+      "resumo": "A curva de juros futuros no Brasil recuou em todos os vencimentos, impulsionada por sinais de desaceleração econômica e pela percepção de maior rigor fiscal caso a oposição vença as eleições, enquanto os EUA registraram alta nos yields após forte relatório de empregos.",
+      "mecanismo": "A queda nos DIs ocorre porque o mercado está precificando uma desaceleração mais acentuada da atividade econômica (com projeção de PIB reduzida para 1,7%) e a possibilidade de um governo mais fiscalista, o que reduz a pressão inflacionária e a demanda por crédito; simultaneamente, nos EUA, o forte número de vagas criadas reforça a resiliência da economia, elevando a probabilidade de manutenção ou alta dos juros pelo Fed.",
+      "implicacao": "Para a classe de ativos de Renda Fixa prefixada no Brasil, a queda da curva de juros tende a valorizar os títulos existentes, pois o preço dos títulos sobe quando as taxas de mercado caem, beneficiando carteiras expostas a DI e NTN-F.",
+      "risco": "O raciocínio pode ser invalidado se a desaceleração econômica for menos pronunciada que o esperado ou se a disputa eleitoral se resolver de forma a manter a incerteza fiscal, além do risco de uma inflação persistente nos EUA forçar o Fed a manter juros altos por mais tempo, pressionando o câmbio e os juros domésticos.",
+      "proximo_evento": "Acompanhar a divulgação de novos dados de inflação e atividade econômica no Brasil, bem como a decisão do Fed em setembro e a evolução das pesquisas eleitorais brasileiras.",
+      "key_numbers": [
+        "DI Jan/2027: 13,575%",
+        "DI Jan/2029: 13,840%",
+        "DI Jan/2036: 14,200%",
+        "Probabilidade alta Fed Set: 58%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Aposta de alta nos juros dos EUA contamina Ibovespa, que fecha em leve queda; dólar sobe a R$ 5,13",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-4-9-26-lils/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "Dados robustos de emprego nos EUA reforçam a expectativa de juros altos por mais tempo, pressionando a aversão ao risco global e elevando o dólar frente ao real, enquanto o Ibovespa registra leve recuo apesar de ganhos semanais.",
+      "mecanismo": "O relatório de payrolls americano superou as expectativas, criando a percepção de que o Fed manterá ou até aumentará os juros para conter a inflação; isso eleva o custo de oportunidade de ativos de risco e fortalece o dólar, o que, por sua vez, pressiona a moeda brasileira e reduz o apetite por ações emergentes.",
+      "implicacao": "O setor financeiro brasileiro tende a se beneficiar no curto prazo com a alta dos juros externos e internos, pois os bancos podem ampliar suas margens de juros, enquanto setores exportadores de commodities podem sofrer com a valorização do dólar que encarece seus produtos no exterior, embora recebam mais reais pela conversão.",
+      "risco": "Uma mudança brusca na narrativa do Fed para um tom mais dovish ou dados futuros de inflação abaixo do esperado podem reverter rapidamente a expectativa de juros altos, desvalorizando o dólar e alterando a dinâmica de fluxo de capitais.",
+      "proximo_evento": "Reunião do FOMC do Federal Reserve em 16 de setembro, onde será definida a nova taxa de juros dos EUA.",
+      "key_numbers": [
+        "Ibovespa: 185.147,15 pontos",
+        "Dólar: R$ 5,13",
+        "Payrolls EUA: 162 mil vagas",
+        "Probabilidade alta juros Fed: 58,2%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Wall Street fecha em queda após payroll e apostas de alta nos juros pelo Fed",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/wall-street-4-9-26-apsa-2/",
+      "categorias": [
         "exterior"
       ],
-      "resumo": "Os índices de Wall Street recuam após o relatório de empregos de agosto superar amplamente as expectativas, elevando as apostas de que o Federal Reserve manterá ou aumentará os juros na reunião de setembro.",
-      "mecanismo": "O número robusto de 162 mil vagas criadas, muito acima dos 55 mil esperados, sinaliza uma economia aquecida que pressiona a inflação, levando o mercado a precificar uma política monetária mais restritiva do Fed, o que eleva os rendimentos dos Treasuries e desconta o valor presente dos fluxos de caixa das ações, especialmente as sensíveis a juros.",
-      "implicacao": "O setor de tecnologia e ações de crescimento tendem a sofrer pressão adicional, pois a elevação dos juros americanos aumenta o custo de capital e reduz a atratividade de ativos de risco em comparação com títulos de renda fixa mais seguros.",
-      "risco": "A tese de aperto monetário pode ser invalidada se dados subsequentes mostrarem fraqueza na inflação ou se a intervenção política mencionada por Trump for interpretada como um fator de desestabilização que force o Fed a adotar uma postura mais cautelosa.",
-      "proximo_evento": "A reunião do Federal Reserve em setembro, onde será definida a nova taxa de juros com base neste cenário de mercado.",
+      "resumo": "O forte desempenho do mercado de trabalho americano em agosto elevou as expectativas de um aumento nos juros pelo Fed, pressionando os índices de Wall Street para baixo, enquanto a tensão geopolítica no Oriente Médio impulsionou o preço do petróleo.",
+      "mecanismo": "A criação de 162 mil vagas, muito acima da expectativa de 55 mil, sinaliza uma economia aquecida que pode exigir juros mais altos para conter a inflação, o que aumenta os rendimentos dos títulos do Tesouro e torna os ativos de risco menos atraentes em comparação com renda fixa segura, além de elevar o dólar.",
+      "implicacao": "O setor de tecnologia tende a sofrer pressão inicial devido ao aumento dos custos de financiamento e da aversão ao risco, enquanto o setor de energia pode se beneficiar com a alta do petróleo impulsionada pela ameaça de ataques militares no Irã.",
+      "risco": "Os dados de inflação (CPI) podem revelar uma desaceleração significativa dos preços, levando o Fed a ignorar a força do mercado de trabalho e manter os juros estáveis ou até cortar, invalidando a tese de aperto monetário.",
+      "proximo_evento": "Divulgação dos dados de inflação (CPI) na próxima semana e a reunião do Federal Reserve em setembro.",
       "key_numbers": [
         "Payroll Agosto: 162 mil vagas",
         "Expectativa Payroll: 55 mil vagas",
-        "Taxa de Desemprego: 4,1%",
-        "Probabilidade Alta Juros Fed: 60,4%"
+        "Probabilidade Alta Juros Set: 58%",
+        "Brent Novembro: US$ 96,28"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Day trade: ação dispara 20% e vira aposta do Itaú BBA para venda no curto prazo",
+      "title": "Dólar sobe a R$ 5,13 após emprego nos EUA reforçar aposta de alta dos juros pelo Fed",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/day-trade-acao-dispara-20-e-vira-aposta-do-itau-bba-para-venda-no-curto-prazo-ceci/",
+      "link": "https://www.moneytimes.com.br/dolar-4-9-26-lils/",
       "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Itaú BBA recomendou a venda de ações da Vivara para day trade após alta de 20% em nove pregões, citando desaceleração operacional e cenário macroeconômico desfavorável.",
-      "mecanismo": "A valorização recente criou uma oportunidade de realização de lucros, enquanto a receita abaixo do esperado e a concorrência no setor de joias pressionam a fundamentação; somado a juros elevados que inibem o consumo discricionário, o ativo torna-se vulnerável a ajustes técnicos e revisões negativas de resultados.",
-      "implicacao": "Para o setor de varejo de luxo e consumo discricionário, a combinação de juros altos por mais tempo e desaceleração econômica tende a pressionar margens e volumes de venda, reduzindo a atratividade de ativos que já sofreram valorização significativa sem suporte de resultados robustos.",
-      "risco": "Uma reversão súbita no sentimento de mercado ou dados macroeconômicos mais otimistas do que o previsto poderiam invalidar a tese de venda, mantendo a alta da ação acima do stop loss.",
-      "proximo_evento": "Monitorar a execução da ordem de venda no pregão desta sexta-feira (4) e a reação do preço em relação ao alvo de R$ 20,00 e ao stop loss de R$ 27,05.",
-      "key_numbers": [
-        "Alta recente: 20%",
-        "Preço atual: R$ 23,68",
-        "Alvo de venda: R$ 20,00",
-        "Stop loss: R$ 27,05"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "FII de logística do BTG negocia compra de galpões locados para Mercado Livre e Amazon por R$ 918,5 milhões",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/fii-de-logistica-do-btg-negocia-compra-de-galpoes-locados-para-mercado-livre-e-amazon-por-r-9185-milhoes-jcav/",
-      "categorias": [
-        "imobiliario"
-      ],
-      "resumo": "O BTLG11 avançou na negociação para adquirir três galpões logísticos de alta qualidade, ocupados por grandes players como Amazon e Mercado Livre, por um valor total de R$ 918,5 milhões.",
-      "mecanismo": "A operação combina ativos já em operação com imóveis em construção (BTS), onde o capital aplicado durante a obra rende IPCA+11% ao ano, protegendo o fundo da inflação e reduzindo o custo de oportunidade até a entrega, o que sustenta um yield projetado de 12,6% nos próximos dois anos.",
-      "implicacao": "Para o setor de Fundos Imobiliários de Logística, a capacidade de captar recursos e alocá-los rapidamente em ativos com locatários de alta qualidade e estrutura de pagamento que protege o poder de compra reforça a atratividade da classe, especialmente em um ambiente onde a preservação do capital real é prioridade.",
-      "risco": "A transação ainda é não vinculante e depende de aprovações e negociações finais, havendo risco de quebra do acordo ou alteração nas condições financeiras e de preço.",
-      "proximo_evento": "Conclusão das diligências, assinatura dos contratos definitivos e aprovações internas e regulatórias necessárias para fechar a transação.",
-      "key_numbers": [
-        "Valor da transação: R$ 918,5 milhões",
-        "Cap rate estimado: 9%",
-        "Yield médio projetado: 12,6%",
-        "Remuneração durante obra: IPCA+11% a.a."
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Ibovespa cai com emprego mais forte nos EUA e avanço dos Treasuries; 5 coisas para saber antes de investir hoje (4)",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-4-9-26-lils/",
-      "categorias": [
-        "renda_fixa",
-        "acoes"
-      ],
-      "resumo": "Dados de emprego nos EUA superaram expectativas, elevando a aversão ao risco e fortalecendo o dólar, o que pressionou o Ibovespa para baixo nesta sexta-feira, apesar de o índice caminhar para um fechamento semanal positivo.",
-      "mecanismo": "A criação de 162 mil vagas nos EUA, muito acima dos 55 mil esperados, sinaliza uma economia resiliente que reduz a probabilidade de cortes agressivos de juros pelo Fed; isso fortalece os Treasuries e o dólar (DXY), atraindo capital de volta aos EUA e pressionando moedas emergentes como o real e ativos de risco como o Ibovespa.",
-      "implicacao": "O fortalecimento do dólar e a alta dos juros americanos tendem a pressionar negativamente o setor exportador sensível à câmbio e ativos de crescimento, enquanto podem beneficiar ativos atrelados ao dólar ou setores defensivos que se beneficiam de um real mais fraco, devido ao aumento do custo de oportunidade para investir em emergentes.",
-      "risco": "Se os dados subsequentes mostrarem sinais de resfriamento da economia americana ou se o Fed sinalizar que o mercado de trabalho está mais frágil do que aparenta, a narrativa de juros altos por mais tempo pode ser revertida, aliviando a pressão sobre o real e o Ibovespa.",
-      "proximo_evento": "Fechamento do pregão desta sexta-feira (4) e a pausa nos mercados domésticos na próxima segunda-feira (7) devido ao feriado do Dia da Independência.",
-      "key_numbers": [
-        "Ibovespa: 184.282,95 pontos",
-        "Variação Ibovespa: -0,49%",
-        "Dólar: R$ 5,1328",
-        "Vagas EUA (Payroll): 162 mil"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Mini índice do Ibovespa sobe? Veja os suportes e resistências para ficar de olho",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/mini-indice-do-ibovespa-sobe-veja-os-suportes-e-resistencias-para-ficar-de-olho-ceci/",
-      "categorias": [
-        "renda_fixa",
         "exterior"
       ],
-      "resumo": "O mini índice do Ibovespa manteve estabilidade próxima às máximas recentes, preservando uma estrutura de alta no curto prazo, enquanto o mini dólar segue sob pressão vendedora abaixo de suas médias móveis.",
-      "mecanismo": "A formação de topos e fundos ascendentes no gráfico de 60 minutos do WINV26 indica força compradora sustentada, apoiada pela média de 21 períodos como suporte imediato; simultaneamente, o WDOV26 opera abaixo das médias de 21 e 50 períodos, o que tecnicamente reforça o viés de desvalorização da moeda americana frente ao real no curto prazo.",
-      "implicacao": "A manutenção da tendência de alta no índice e a pressão sobre o dólar tendem a beneficiar ativos de risco e o setor exportador, já que a combinação de bolsa forte e câmbio mais favorável melhora a percepção de risco e a competitividade das empresas que faturam em moeda forte.",
-      "risco": "Uma perda sustentada do suporte de 186.924 pontos no mini índice pode desencadear uma correção técnica em direção aos 184 mil pontos, invalidando a tese de alta imediata.",
-      "proximo_evento": "Monitorar a reação do mini índice ao suporte de 186.924 pontos e a possível tentativa de rompimento do mini dólar acima da resistência de 5.176 pontos nos próximos pregões.",
+      "resumo": "O dólar comercial atingiu R$ 5,13 impulsionado por dados de emprego nos EUA que superaram as expectativas, renovando as apostas de que o Fed manterá juros altos por mais tempo.",
+      "mecanismo": "A criação de 162 mil vagas nos EUA, muito acima dos 55 mil esperados, sinaliza um mercado de trabalho resiliente que dificulta cortes de juros pelo Fed; essa expectativa de juros mais altos por mais tempo aumenta a atratividade do dólar frente a moedas emergentes como o real, pressionando o câmbio para cima.",
+      "implicacao": "A valorização do dólar tende a pressionar negativamente ativos de renda variável brasileira sensíveis ao câmbio, como ações de exportadores de commodities que podem ver margens comprimidas em reais, enquanto favorece ativos atrelados à moeda americana como o CDI em dólar ou títulos indexados ao câmbio.",
+      "risco": "Uma inflação abaixo do esperado nos EUA na próxima semana pode reverter a narrativa de juros altos, enfraquecendo o dólar e invalidando a tese de alta cambial.",
+      "proximo_evento": "Divulgação dos dados de inflação nos EUA (CPI) na próxima semana e a decisão de juros do Fed em 16 de setembro.",
       "key_numbers": [
-        "Fechamento WINV26: 187.850 pontos",
-        "Suporte imediato (M21): 186.924 pontos",
-        "Resistência WDOV26 (M50): 5.176,00 pontos",
-        "Fechamento WDOV26: 5.132,50 pontos"
+        "Dólar à vista: R$ 5,1308",
+        "Vagas criadas nos EUA: 162 mil",
+        "Expectativa de vagas: 55 mil",
+        "Chance de alta de juros Fed: 58,2%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "FII acerta venda de três galpões por quase R$ 1 bilhão e operação pode gerar R$ 2,15 por cota; Ifix avança",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/fii-acerta-venda-de-tres-galpoes-por-quase-r-1-bilhao-e-operacao-pode-gerar-r-215-por-cota-ifix-avanca/",
+      "title": "Bitcoin ETF inflows hit $3.8B in strongest three-week stretch of 2026",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-3-8-billion-strongest-three-week-run-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
-        "imobiliario"
+        "cripto"
       ],
-      "resumo": "O fundo de investimento imobiliário Capitânia Logística firmou acordo para vender três galpões logísticos por cerca de R$ 958 milhões, operação que deve gerar lucro significativo por cota.",
-      "mecanismo": "A venda de ativos logísticos de alta qualidade (100% ocupados) por um valor que gera lucro estimado de R$ 121 milhões injeta capital e valor contábil direto no fundo, elevando o valor patrimonial por cota em aproximadamente R$ 2,15 e demonstrando eficiência na gestão de portfólio.",
-      "implicacao": "Para o setor de FIIs de logística, operações de venda com lucro robusto e TIR alta reforçam a tese de valorização patrimonial e a capacidade das gestoras de reciclar capital em ativos mais eficientes, tendendo a atrair investidores que buscam ganho de capital além da renda mensal.",
-      "risco": "A operação pode ser desfeita ou atrasada se o Cade não aprovar a venda ou se as diligências do comprador revelarem problemas não previstos nos ativos.",
-      "proximo_evento": "A conclusão definitiva da transação, que está condicionada à aprovação do Cade, diligências do comprador e assinatura dos contratos finais.",
+      "resumo": "Os ETFs de Bitcoin nos EUA registraram o maior fluxo de entrada em três semanas de 2026, totalizando US$ 3,8 bilhões, impulsionados por uma semana com quase US$ 1 bilhão de aportes líquidos.",
+      "mecanismo": "A demanda institucional por Bitcoin se intensificou, revertendo saídas anteriores no ano, enquanto a atração por ETFs de Ether e XRP enfraqueceu significativamente, indicando uma rotação de capital em direção ao Bitcoin como ativo de refúgio ou preferência relativa dentro do setor de criptoativos.",
+      "implicacao": "O setor de infraestrutura de criptoativos e exchanges tende a se beneficiar com o aumento do volume e da liquidez, já que a entrada massiva de capital via ETFs aumenta a demanda por custódia e negociação, fortalecendo a narrativa de adoção institucional do Bitcoin em detrimento de altcoins.",
+      "risco": "A queda recente do Bitcoin abaixo de US$ 79.000 pode sinalizar resistência de venda, e se os fluxos positivos não se sustentarem na próxima semana, a tese de recuperação de demanda pode ser invalidada, retornando ao cenário de saídas líquidas.",
+      "proximo_evento": "Monitorar os fluxos diários dos ETFs e a reação do preço do Bitcoin ao suporte psicológico de US$ 79.000, além de novos dados macroeconômicos dos EUA que possam influenciar a aversão ao risco.",
       "key_numbers": [
-        "Valor da venda: R$ 958,6 milhões",
-        "Lucro estimado: R$ 121,2 milhões",
-        "Lucro por cota: R$ 2,15",
-        "TIR projetada: 43,6% a.a."
+        "Influxo 3 semanas: US$ 3,8 bilhões",
+        "Influxo semanal: US$ 986,9 milhões",
+        "Ativos sob gestão: US$ 101,3 bilhões",
+        "Preço Bitcoin: US$ 79.716"
       ],
       "sentiment": "up"
     },
@@ -131,79 +109,154 @@
       "categorias": [
         "cripto"
       ],
-      "resumo": "Os ETFs de Bitcoin nos EUA registraram entradas líquidas de US$ 731 milhões, o maior volume desde janeiro, impulsionando a recuperação do ativo acima de US$ 80.000, embora analistas apontem que o movimento foi liderado pelo fechamento de posições curtas e não por nova demanda de compra.",
-      "mecanismo": "O influxo massivo de capital institucional, especialmente via BlackRock, combinado com o 'short squeeze' (cobertura de vendas a descoberto), gerou pressão de compra imediata que elevou o preço; contudo, a ausência de compradores novos sustenta a tese de que o rally é técnico e frágil, dependendo da superação da média móvel de 365 dias para confirmar tendência de alta estrutural.",
-      "implicacao": "Para a classe de ativos cripto, especificamente Bitcoin, a superação dessa resistência tende a atrair fluxo institucional adicional e reduzir a volatilidade de curto prazo, enquanto uma rejeção pode levar a uma correção profunda em direção a US$ 69.000, afetando negativamente a percepção de risco de ativos correlacionados.",
-      "risco": "A rejeição do preço na faixa de US$ 83.000 pode desencadear uma nova onda de vendas e uma queda para a média móvel de 200 dias, invalidando a tese de retomada de tendência de alta.",
-      "proximo_evento": "A confirmação de fechamento diário acima da barreira de US$ 83.000, que atua como o limiar crítico para validar o início de um novo mercado de alta segundo a análise técnica da CryptoQuant.",
+      "resumo": "Os ETFs de Bitcoin nos EUA registraram entradas líquidas de US$ 731 milhões, o maior volume desde janeiro, impulsionando a recuperação da moeda para a casa dos US$ 80 mil.",
+      "mecanismo": "O fluxo significativo de capital institucional, liderado pelo fundo da BlackRock, gerou pressão de compra imediata que ajudou a superar resistências técnicas; contudo, a análise on-chain indica que parte desse movimento é sustentada pelo fechamento de posições curtas (short covering) e não apenas por nova demanda de longo prazo, o que torna a sustentabilidade da alta dependente da confirmação de compradores reais acima da média móvel de 365 dias.",
+      "implicacao": "Para a classe de ativos cripto, especificamente Bitcoin e seus derivados, o cenário tende a ser de volatilidade com viés de alta condicional, pois a validação do nível de US$ 83 mil atrairia mais fluxo institucional, enquanto uma rejeção nesse ponto poderia desencadear vendas de realização de lucros e puxar o preço em direção à média móvel de 200 dias.",
+      "risco": "A alta pode ser invalidada se o preço for rejeitado na resistência de US$ 83 mil, revelando a falta de demanda fresca e provocando uma correção em direção a US$ 69 mil conforme alertado pela análise on-chain.",
+      "proximo_evento": "A consolidação do preço acima da marca de US$ 83 mil, que atua como o limiar técnico crítico para a confirmação de um novo mercado de alta segundo a CryptoQuant.",
       "key_numbers": [
         "Influxo ETFs: US$ 731 milhões",
-        "Nível de suporte recuperado: US$ 80.000",
-        "Barreira crítica de alta: US$ 83.000",
-        "Suporte em caso de rejeição: US$ 69.000"
+        "Nível de suporte recuperado: US$ 80 mil",
+        "Limiar de mercado de alta: US$ 83 mil",
+        "Suporte de 200 dias: US$ 69 mil"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Bitcoin reclaims $80K as DXY falls amid continuing suspected yen intervention",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-reclaims-810-dxy-falls-amid-continuing-suspected-yen-intervention?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Nuveen Churchill Direct Lending Q2: 27% Discount And 9.5% Expected ROE",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4943320-nuveen-churchill-direct-lending-q2-27-percent-discount-9_5-percent-expected-roe?source=feed_all_articles",
       "categorias": [
-        "cripto"
+        "renda_fixa",
+        "debentures"
       ],
-      "resumo": "O Bitcoin recuperou a marca de US$ 80.000 impulsionado pelo enfraquecimento do dólar americano, que foi pressionado por uma intervenção suspeita do Banco do Japão para fortalecer o iene.",
-      "mecanismo": "A intervenção do Banco do Japão fortaleceu o iene e enfraqueceu o dólar (DXY), criando um ambiente de liquidez global mais favorável que historicamente beneficia ativos de risco como o Bitcoin, enquanto o mercado já precifica com alta probabilidade um aumento nos juros japoneses.",
-      "implicacao": "A classe de ativos criptográficos tende a se valorizar em cenários de dólar fraco e expansão de liquidez, pois o Bitcoin opera como um ativo sensível à liquidez global e inversamente correlacionado ao índice do dólar.",
-      "risco": "Se a intervenção do Banco do Japão for insuficiente para sustentar o iene ou se o mercado reinterpretar a política monetária como restritiva demais para a liquidez global, o suporte ao Bitcoin pode ser retirado rapidamente.",
-      "proximo_evento": "Reunião do Banco do Japão em 18 de setembro, onde o mercado espera um aumento de 25 pontos-base nos juros.",
+      "resumo": "A Nuveen Churchill Direct Lending reportou resultados do segundo trimestre com um desconto de 27% sobre o valor patrimonial e um retorno esperado sobre o capital próprio de 9,5%, destacando uma gestão de risco conservadora.",
+      "mecanismo": "O portfólio é composto majoritariamente por empréstimos de primeira garantia (90%) e alavancagem de taxa flutuante (94,2%), o que protege o retorno em ambientes de juros altos, enquanto a baixa taxa de inadimplência (1,5%) reduz a necessidade de provisões, sustentando a rentabilidade acima da média do setor.",
+      "implicacao": "Para o setor de empréstimos diretos (direct lending), a manutenção de spreads saudáveis e a qualidade do crédito tendem a atrair investidores em busca de renda fixa alternativa, especialmente quando os descontos sobre o valor patrimonial oferecem margem de segurança adicional.",
+      "risco": "Uma queda acentuada nas taxas de juros reduziria a receita de juros da alavancagem flutuante, enquanto uma deterioração súbita da qualidade do crédito aumentaria as provisões e pressionaria o valor patrimonial.",
+      "proximo_evento": "Acompanhar a divulgação dos resultados do terceiro trimestre e a evolução da taxa de inadimplência e do spread de crédito no mercado de empréstimos diretos.",
       "key_numbers": [
-        "Bitcoin: US$ 81.000",
-        "DXY: 99",
-        "USD/JPY: 155.4",
-        "Probabilidade de hike BOJ: 98%"
+        "Desconto sobre VP: 27%",
+        "ROE Esperado: 9,5%",
+        "Taxa de Não-Aquisição: 1,5%",
+        "Empréstimos de 1ª Garantia: 90%"
       ],
       "sentiment": "up"
+    },
+    {
+      "title": "Western Asset Active Bond Gov/Corp Portfolios Q2 2026 Commentary",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4943311-western-asset-active-bond-govcorp-portfolios-q2-2026-commentary?source=feed_all_articles",
+      "categorias": [
+        "renda_fixa",
+        "debentures"
+      ],
+      "resumo": "O texto fornecido é apenas um título de relatório trimestral da Western Asset para fundos de renda fixa, sem conteúdo factual detalhado sobre movimentos de mercado ou dados específicos.",
+      "mecanismo": "Na ausência de dados numéricos ou narrativas no corpo do texto, não é possível estabelecer uma cadeia causal entre variáveis macroeconômicas e preços de ativos, pois faltam as premissas necessárias para a análise.",
+      "implicacao": "Sem informações sobre alocação ou visão de mercado, não há implicação setorial ou de classe de ativo derivável deste fragmento isolado.",
+      "risco": "A análise é inviável devido à falta de dados; qualquer inferência seria especulação não fundamentada no texto fornecido.",
+      "proximo_evento": "A divulgação do corpo completo do relatório Q2 2026 ou a próxima atualização de posicionamento da Western Asset.",
+      "key_numbers": [],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Notícias sobre investimentos e o mercado financeiro | Bora Investir",
+      "source": "Bora Investir",
+      "link": "https://borainvestir.b3.com.br/noticias/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O mercado brasileiro manteve estabilidade com leve recuo no Ibovespa, enquanto o dólar subiu para R$ 5,13 impulsionado por dados surpreendentes de emprego nos EUA que reforçam a manutenção de juros altos.",
+      "mecanismo": "Os dados do Payroll nos EUA superaram expectativas, fortalecendo a tese de que o Federal Reserve manterá os juros elevados por mais tempo; isso aumenta o diferencial de juros em favor do dólar, atraindo fluxos de capital para ativos em moeda americana e pressionando o câmbio brasileiro para cima, o que pesa sobre o índice acionário local.",
+      "implicacao": "A valorização do dólar tende a pressionar negativamente o setor exportador sensível ao câmbio e ativos de renda variável brasileira, devido ao aumento do custo de importação de insumos e à possível fuga de capitais para ativos em dólar com juros mais atrativos.",
+      "risco": "Uma revisão abrupta dos dados de emprego americanos ou uma sinalização de flexibilização da política monetária pelo Fed poderia inverter a tendência do dólar e beneficiar o Ibovespa.",
+      "proximo_evento": "Próximas divulgações de dados macroeconômicos dos EUA e comunicados do Federal Reserve que possam alterar as expectativas de política monetária americana.",
+      "key_numbers": [
+        "Ibovespa: -0,02%",
+        "Dólar: R$ 5,13",
+        "Produção Industrial: +0,2%",
+        "Ibovespa anterior: 180 mil pontos"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Notícias para o investidor de fundos imobiliários",
+      "source": "clubefiinews.com.br",
+      "link": "https://www.clubefiinews.com.br",
+      "categorias": [
+        "imobiliario"
+      ],
+      "resumo": "O setor de galpões logísticos atinge recorde de valorização com média de R$ 30/m² e receita de locações crescendo 20%, enquanto a saída de estrangeiros e investigações judiciais pressionam a ocupação de escritórios em SP e Campinas.",
+      "mecanismo": "A alta demanda por logística impulsiona os preços de transação e receitas, beneficiando FIIs do segmento, ao passo que a desocupação de escritórios por fatores específicos (investigações e reestruturação corporativa) reduz a demanda por ativos corporativos, criando uma divergência de performance entre as classes de ativos.",
+      "implicacao": "FIIs de logística tendem a se valorizar ou manter dividendos robustos devido à alta de preços e receitas, enquanto FIIs de escritórios podem enfrentar pressão sobre vacância e renovação de contratos, exigindo cautela na seleção de ativos corporativos.",
+      "risco": "Uma desaceleração mais ampla da economia ou aumento da desocupação corporativa além dos casos específicos citados pode derrubar a demanda por logística e agravar a crise de ocupação em escritórios.",
+      "proximo_evento": "Conclusão da aquisição da Navi Real Estate Selection pela Vinci, prevista para o fim de 2026, e novos dados de ocupação de escritórios em São Paulo e Campinas.",
+      "key_numbers": [
+        "Preço médio galpões: R$ 30/m²",
+        "Crescimento receita locações: 20%",
+        "Área desocupada escritórios: 38 mil m²",
+        "Variação Ifix: +0,65%"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Notícias para o investidor de fundos imobiliários",
+      "source": "clubefiinews.com.br",
+      "link": "https://www.clubefiinews.com.br/logisticos-industriais",
+      "categorias": [
+        "imobiliario"
+      ],
+      "resumo": "O texto fornecido consiste exclusivamente em um aviso legal padrão do Clube FII, sem apresentar dados de mercado, notícias econômicas ou eventos específicos.",
+      "mecanismo": "Não há evento econômico ou corporativo descrito no texto para estabelecer uma cadeia causal de impacto nos mercados.",
+      "implicacao": "Sem informação de mercado, não é possível derivar implicações para setores ou classes de ativos.",
+      "risco": "A ausência de conteúdo informativo impede qualquer análise de risco ou oportunidade.",
+      "proximo_evento": "Não aplicável, pois não há notícia factual para gerar um gatilho futuro.",
+      "key_numbers": [],
+      "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [
-      "Um relatório de empregos forte pode ser um fator transformador para a política do Fed.",
-      "A criação de 162 mil empregos não representa necessariamente um boom de contratações.",
-      "As medidas de bem-estar financeiro das famílias nem sempre estão alinhadas com o sentimento do consumidor."
+      "O título sugere que as taxas de juros tenderão a restringir cada vez mais a economia dos EUA.",
+      "O título questiona o momento em que os rendimentos mais altos dos títulos se tornam um problema maior para as ações.",
+      "O título apresenta a Teoria Monetária Moderna (MMT) como uma oportunidade de renda de alta convicção nos mercados globais."
     ],
     "acoes": [
-      "A Ágora Investimentos recomenda compra de Embraer (EMBJ3) e venda de B3 (B3SA3) para day trade nesta sexta-feira (4), com potencial de ganho de 1,49% e stop sugerido de R$ 93,45 para a Embraer.",
-      "O dólar à vista e o Ibovespa futuro registraram leve alta na expectativa pelos dados de emprego nos Estados Unidos e pela perda de força do 'trade eleitoral'.",
-      "Os EUA abriram uma investigação sobre o cumprimento das regras federais de segurança pelo Cybercab da Tesla.",
-      "Lam Research e Tesla estão entre os maiores movimentos de capitalização de mercado na sexta-feira."
+      "A Verde Asset aumentou a exposição à renda variável no Brasil em meados de agosto, apostando na competitividade da eleição presidencial de 2026 e na possível reprecificação dos ativos locais.",
+      "O JP Morgan rebaixou a recomendação da Intelbras (INTB3) de compra para neutra e cortou o preço-alvo para R$ 18,50 no fim de 2027, citando uma perspectiva mais fraca para o segundo semestre.",
+      "O Goldman Sachs elevou a meta de ações para a região Ásia-Pacífico com base na perspectiva de resultados do setor de tecnologia.",
+      "A Foxconn afirmou que o terceiro trimestre deve superar as expectativas do mercado devido à força da inteligência artificial."
     ],
     "cripto": [
-      "A Revolut e a OpenReserve receberam aprovação preliminar para operar como bancos nos EUA com planos que incluem criptomoedas.",
-      "O Standard Chartered lançou o comércio à vista de Bitcoin e Ether nos Emirados Árabes Unidos.",
-      "Os reguladores da Coreia do Sul apresentaram um roteiro para valores mobiliários tokenizados.",
-      "A Payward, matriz da Kraken, fez uma parceria com a SoFi focada em stablecoins e liquidação 24/7."
+      "Um relatório surpreendente de empregos não agrícolas nos EUA fez o preço do Bitcoin recuar para abaixo de US$ 80 mil.",
+      "A Revolut e a OpenReserve receberam aprovação preliminar para operar como bancos nos EUA, com planos que incluem serviços de criptomoedas.",
+      "Os reguladores da Coreia do Sul apresentaram um roteiro para a tokenização de valores mobiliários.",
+      "A Polônia manteve o veto a um projeto de lei sobre criptomoedas enquanto o escândalo envolvendo a Zondacrypto se amplia."
     ],
-    "debentures": [],
+    "debentures": [
+      "O resumo fornecido para o artigo sobre MMT não contém informações suficientes para extrair um fato factual.",
+      "O resumo fornecido para o comentário do Columbia Quality Income Fund Q2 2026 não contém informações suficientes para extrair um fato factual.",
+      "O resumo fornecido para o artigo sobre RQI não contém informações suficientes para extrair um fato factual."
+    ],
     "exterior": [
-      "Um relatório de emprego forte em agosto pode ser um fator decisivo para a política do Fed.",
-      "A criação de 162 mil empregos não representa um boom de contratações, apesar do número elevado.",
-      "A Nvidia adquire a Hugging Face por US$ 12,9 bilhões como parte de sua expansão no setor de software de IA.",
-      "A G42 explora a possibilidade de ter proprietários nos EUA para garantir acesso a chips de IA."
+      "O Goldman Sachs elevou sua meta para ações da Ásia-Pacífico com base na perspectiva de resultados do setor de tecnologia.",
+      "A Foxconn informou que o terceiro trimestre deve superar as expectativas do mercado devido à força da inteligência artificial.",
+      "O artigo analisa os principais movimentos dos mercados durante a semana.",
+      "Os juros estão cada vez mais pressionando a economia dos Estados Unidos."
     ],
     "imobiliario": [
-      "O índice Ifix registrou uma variação de +0,65%.",
-      "Marcas como Itaú, Nubank, Claro, Brahma e Vivo lideram o ranking da Kantar BrandZ e possuem centenas de milhares de metros quadrados no mercado imobiliário.",
-      "Um artigo da Seeking Alpha discute o desempenho do Apple Hospitality REIT.",
-      "A PGIM publicou seu comentário sobre o Fundo Global de Imóveis para o segundo trimestre de 2026.",
-      "O BB Investimentos recomenda a compra de ações do Bradesco (BBDC4) na abertura do mercado, com preço limite de até 1% acima, visando capturar um movimento de alta rastreado por algoritmo."
+      "O Clube FII informa que não faz recomendações de investimento e não se responsabiliza por perdas ou danos.",
+      "O Clube FII informa que não faz recomendações de investimento e não se responsabiliza por perdas ou danos.",
+      "O Clube FII informa que não faz recomendações de investimento e não se responsabiliza por perdas ou danos.",
+      "O Clube FII informa que não faz recomendações de investimento e não se responsabiliza por perdas ou danos."
     ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário de renda fixa é pressionado pela surpresa positiva do payroll nos EUA, que eleva os rendimentos dos Treasuries e fortalece o dólar, reduzindo a expectativa de cortes agressivos de juros pelo Fed. Enquanto o Ibovespa reage negativamente a esse fluxo de capital para os EUA, investidores devem monitorar a reação técnica do mini índice e do dólar, além de aguardar a definição da nova taxa de juros na reunião do Federal Reserve em setembro.",
-    "acoes": "O mercado brasileiro enfrenta pressão externa devido à criação robusta de empregos nos EUA, que fortalece o dólar e os Treasuries, atraindo capital de volta aos Estados Unidos e pesando sobre o Ibovespa e o real. No pregão desta sexta-feira (4), investidores devem monitorar a execução de operações de day trade sugeridas por analistas, como a compra de Embraer e venda de B3, além da reação dos ativos em meio à pausa nos mercados domésticos na próxima segunda-feira (7) por causa do feriado do Dia da Independência.",
-    "cripto": "Enquanto o Bitcoin recupera os US$ 80.000 impulsionado por fluxos institucionais e enfraquecimento do dólar, a adoção regulatória avança globalmente com aprovações bancárias nos EUA e lançamentos de trading spot no Oriente Médio. O foco agora está na confirmação técnica de um novo mercado de alta acima de US$ 83.000 e na decisão de juros do Banco do Japão em 18 de setembro, que pode alterar a liquidez global e o apetite por ativos de risco.",
-    "debentures": "",
-    "exterior": "O mercado internacional reage à tensão entre um mercado de trabalho mais resiliente do que o esperado, que pressiona por uma postura mais restritiva do Fed na reunião de setembro, e os desenvolvimentos estratégicos no setor de tecnologia, como a aquisição da Hugging Face pela Nvidia e as manobras da G42 para acesso a chips. Enquanto os investidores monitoram os níveis técnicos do mini índice e do dólar, a narrativa dominante equilibra o risco de juros mais altos nos EUA contra a contínua inovação e consolidação no setor de inteligência artificial.",
-    "imobiliario": "O mercado imobiliário mostra dinamismo com operações de grande porte em fundos de logística, como a compra de galpões para Mercado Livre e Amazon e a venda de ativos que elevam o valor patrimonial, ambas aguardando aprovações regulatórias e diligências finais. Paralelamente, a forte presença de marcas líderes como Itaú e Nubank no setor imobiliário reforça a demanda por espaço, enquanto movimentos técnicos em ações bancárias e variações no índice Ifix indicam atenção aos fluxos de capital e recomendações de curto prazo."
+    "renda_fixa": "O cenário de renda fixa deve ser monitorado considerando a precificação de desaceleração econômica no Brasil e a resiliência dos EUA, que influenciam a trajetória dos juros futuros e a decisão do Fed em setembro. Paralelamente, é crucial observar como a restrição crescente das taxas de juros nos EUA impacta o mercado de ações e se as oportunidades de renda global, como as associadas à MMT, se mantêm relevantes diante da volatilidade dos rendimentos de títulos.",
+    "acoes": "Enquanto o Ibovespa enfrenta pressão externa devido ao fortalecimento do dólar e às expectativas de juros elevados nos EUA, com foco na reunião do FOMC em 16 de setembro, há movimentos internos de realocação de capital, como o aumento de exposição da Verde Asset à bolsa brasileira em meio à incerteza eleitoral. Paralelamente, ajustes setoriais ocorrem, exemplificados pelo rebaixamento da Intelbras pelo JP Morgan, contrastando com otimismo global em tecnologia impulsionado por IA e resultados corporativos na Ásia-Pacífico.",
+    "cripto": "Enquanto os fluxos institucionais para ETFs de Bitcoin continuam a impulsionar o preço em direção a resistências técnicas críticas como US$ 83 mil, a volatilidade permanece elevada devido a dados macroeconômicos dos EUA, como os recentes números de emprego que pressionaram o ativo abaixo de US$ 80 mil. Paralelamente, o cenário regulatório global se fragmenta, com avanços significativos na integração bancária de criptoativos nos EUA e na tokenização de ativos na Coreia do Sul, contrastando com a estagnação legislativa na Polônia agravada por escândalos locais. O foco deve permanecer na confirmação de sustentabilidade da alta do Bitcoin acima da média móvel de 365 dias e na reação do mercado a esses desenvolvimentos regulatórios divergentes.",
+    "debentures": "O mercado de crédito privado e debêntures deve ser monitorado com foco na divulgação dos resultados do terceiro trimestre e na evolução da taxa de inadimplência e do spread de crédito, especialmente no segmento de empréstimos diretos. Paralelamente, é crucial acompanhar a divulgação do corpo completo do relatório Q2 2026 da Western Asset para obter dados concretos sobre o posicionamento de fundos de renda fixa. A análise macroeconômica deve considerar a precificação de uma desaceleração da atividade econômica no Brasil e a decisão do Fed em setembro, que influenciam diretamente os juros futuros e a demanda por crédito.",
+    "exterior": "Enquanto dados robustos de emprego nos EUA reforçam a expectativa de juros mais altos pelo Fed, pressionando o dólar e os ativos de risco, sinais de resiliência no setor de tecnologia, como as projeções da Foxconn e a revisão otimista do Goldman Sachs para a Ásia-Pacífico, indicam que a demanda por IA continua a impulsionar expectativas de resultados. O investidor deve observar como a tensão entre o aperto monetário nos EUA e a força dos lucros tecnológicos moldará a volatilidade dos mercados globais até a próxima divulgação de inflação e a reunião do Fed em setembro.",
+    "imobiliario": "O mercado imobiliário apresenta uma divergência clara entre a alta demanda por ativos logísticos e a desocupação de escritórios devido a reestruturações corporativas. Investidores devem monitorar a conclusão da aquisição da Navi Real Estate Selection pela Vinci, prevista para o fim de 2026, além dos novos dados de ocupação em São Paulo e Campinas, mantendo em mente que as fontes de informação não oferecem recomendações diretas de investimento."
   }
 }
