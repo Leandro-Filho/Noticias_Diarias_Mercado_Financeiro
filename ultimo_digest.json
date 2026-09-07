@@ -1,217 +1,168 @@
 {
-  "gerado_em": "2026-09-06T11:16:52.052046+00:00",
+  "gerado_em": "2026-09-07T11:14:36.809324+00:00",
   "itens": [
     {
-      "title": "Itaú (ITUB4), WEG (WEGE3) e 8 ações para ter na carteira em setembro, segundo a Terra Investimentos",
+      "title": "Preferência entre os seniores? Parcela que investe em FIIs salta para 60% em 6 anos, mostra pesquisa",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/itau-itub4-weg-wege3-e-8-acoes-para-ter-na-carteira-em-setembro-segundo-a-terra-investimentos-lmrs/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "A Terra Investimentos rebalanceou sua carteira recomendada para setembro, substituindo quatro ativos por outros quatro, incluindo Itaú, WEG, Cyrela e Rede D'Or, enquanto manteve seis posições inalteradas.",
-      "mecanismo": "A saída de empresas cíclicas como Embraer e Assaí, combinada com a entrada de bancos (Itaú), imobiliária (Cyrela) e saúde (Rede D'Or), sugere uma rotação de estilo visando setores com fundamentos mais defensivos ou sensíveis a diferentes variáveis macroeconômicas, buscando proteger o portfólio após o subdesempenho de agosto em relação ao Ibovespa.",
-      "implicacao": "A preferência por bancos e imobiliárias indica que analistas podem estar apostando em estabilidade ou recuperação de crédito e demanda por imóveis, enquanto a manutenção de commodities (Vale, Gerdau) sugere cautela com o ciclo externo, beneficiando setores financeiros e de construção civil em detrimento de varejo e aeronáutica no curto prazo.",
-      "risco": "Se a economia brasileira entrar em desaceleração abrupta ou se houver volatilidade extrema nos mercados internacionais, a estratégia de rotação pode falhar, especialmente se os setores defensivos escolhidos também sofrerem com a queda de apetite por risco.",
-      "proximo_evento": "Acompanhar os resultados trimestrais das empresas incluídas e a evolução do Ibovespa em setembro para validar a eficácia da nova alocação.",
-      "key_numbers": [
-        "Recuo portfólio agosto: -1,14%",
-        "Queda Ibovespa agosto: -0,33%",
-        "Peso por ação: 10%",
-        "Pior desempenho (Renner): -19,38%"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Potencial de alta de até 41%: Itaú BBA troca 3 ações da carteira e adota postura defensiva para setembro",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/potencial-de-alta-de-ate-41-itau-bba-troca-3-acoes-da-carteira-e-adota-postura-defensiva-para-setembro-jcav/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Itaú BBA ajustou sua carteira recomendada para setembro, adotando uma postura defensiva ao substituir ações sensíveis ao consumo doméstico e crédito pessoal por empresas com receitas mais previsíveis ou dolarizadas.",
-      "mecanismo": "A saída de investidores estrangeiros e as tensões geopolíticas elevaram os juros americanos e o petróleo, pressionando a inflação e o câmbio; isso levou o banco a reduzir a exposição ao crédito de varejo (Nubank, Bradesco) e saneamento local (Sabesp), priorizando ativos com receitas contratadas ou em dólar (BTG, Eneva, Suzano) para mitigar o impacto da desaceleração econômica doméstica e da volatilidade cambial.",
-      "implicacao": "O setor financeiro tende a se beneficiar de instituições com receitas diversificadas fora do varejo, enquanto utilities e commodities com receita em dólar ganham atratividade como proteção contra riscos fiscais e cambiais, em detrimento de empresas dependentes do consumo interno brasileiro.",
-      "risco": "Uma resolução rápida das tensões no Oriente Médio ou uma sinalização de corte de juros mais agressivo pelo Fed poderia reverter o fluxo de capitais para emergentes, beneficiando novamente as ações de crescimento e consumo que foram descartadas.",
-      "proximo_evento": "Monitorar os fluxos de investidores estrangeiros e a evolução dos juros de longo prazo nos EUA, além dos resultados trimestrais das empresas da nova carteira.",
-      "key_numbers": [
-        "Potencial de alta máxima: 41,1%",
-        "Saída de estrangeiros em agosto: R$ 18,5 bilhões",
-        "Queda do Ibovespa em agosto: 0,3%",
-        "Peso de cada ação na Top 5: 20%"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "KNCR11, BTLG11 e as principais recomendações de FIIs para setembro, segundo 13 analistas",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/kncr11-btlg11-e-as-principais-recomendacoes-de-fiis-para-setembro-segundo-13-analistas-jcav/",
+      "link": "https://www.moneytimes.com.br/preferencia-entre-os-seniores-parcela-que-investe-em-fiis-salta-para-60-em-6-anos-mostra-pesquisa-apsa/",
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "Analistas concentram recomendações em FIIs de papel como o KNCR11 pela renda atrativa em juros altos, enquanto fundos de tijolo como BTLG11 e XPML11 ganham destaque por descontos e resiliência.",
-      "mecanismo": "A manutenção da Selic em patamares elevados sustenta os dividendos dos fundos de recebíveis indexados ao CDI, ao passo que a captação de recursos e a negociação com desconto em relação ao valor patrimonnel nos fundos de logística e shoppings oferecem margem de segurança e potencial de valorização conforme a taxa de juros recua.",
-      "implicacao": "O setor de FIIs tende a manter atratividade, com fundos de papel beneficiando-se da renda corrente imediata e fundos de tijolo posicionando-se para valorização de capital em um cenário de normalização gradual dos juros.",
-      "risco": "Cortes mais agressivos ou acelerados da Selic do que o esperado podem reduzir abruptamente a renda dos fundos de recebíveis e pressionar os descontos dos fundos de tijolo caso a demanda por crédito não acompanhe.",
-      "proximo_evento": "Monitorar as próximas decisões do Copom sobre a taxa Selic e os relatórios trimestrais de ocupação e dividend yield dos fundos citados.",
+      "resumo": "A base de investidores em Fundos Imobiliários amadureceu significativamente, com a parcela de cotistas experientes saltando para 60% e o perfil de carteiras se concentrando em maiores valores aplicados e maior diversificação.",
+      "mecanismo": "A consolidação de investidores de longo prazo, que priorizam renda recorrente e gestão autônoma para reduzir custos, sustenta a demanda por FIIs mesmo em ambiente de juros elevados, pois esse público valoriza a isenção fiscal e a previsibilidade dos proventos acima da especulação de curto prazo.",
+      "implicacao": "A classe de ativos de Fundos Imobiliários tende a manter resiliência e atratividade para novos aportes, especialmente nos segmentos de galpões logísticos e recebíveis, devido à preferência dos investidores seniores por segurança, baixa vacância e geração de renda mensal isenta de IR.",
+      "risco": "A percepção de risco político aumentou drasticamente para 70% dos investidores, o que pode levar a uma redução na disposição para investir ou a uma fuga para ativos mais conservadores se a instabilidade se agravar.",
+      "proximo_evento": "Monitorar as próximas divulgações de fluxo de caixa e taxa de vacância dos principais fundos logísticos e de recebíveis, além de eventuais mudanças na política monetária que afetem a atratividade relativa dos FIIs versus renda fixa.",
       "key_numbers": [
-        "Recomendações KNCR11: 9",
-        "Recomendações BTLG11: 8",
-        "Dividend Yield KNCR11 estimado: 13,2%",
-        "Desconto BTLG11: 7%"
+        "Seniores (>5 anos): 60%",
+        "Iniciantes (<=1 ano): 4%",
+        "Selic: 14,50% a.a.",
+        "Risco político percebido: 70%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Here’s what happened in crypto today",
+      "title": "Vale (VALE3) e Itaú (ITUB4): Confira as ações para maximizar os ganhos com dividendos, segundo o Andbank",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/vale-vale3-e-itau-itub4-confira-as-acoes-para-maximizar-os-ganhos-com-dividendos-segundo-o-andbank-apsa/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O Andbank atualizou sua carteira de dividendos para setembro de 2026, mantendo posições em bancos e utilities como Itaú e Vale, destacando a forte geração de caixa e programas de recompra de ações.",
+      "mecanismo": "A manutenção dessas empresas na carteira se baseia na combinação de resultados operacionais robustos no segundo trimestre de 2026 e no compromisso explícito de retorno ao acionista via dividendos e recompras, o que sustenta a atratividade dos ativos mesmo com variações pontuais em despesas financeiras ou inadimplência.",
+      "implicacao": "O setor financeiro e de energia elétrica tende a se beneficiar de fluxos de caixa consistentes e políticas de distribuição de lucros, pois investidores de renda fixa e dividendos priorizam a previsibilidade de pagamentos e a valorização patrimonial em ambientes de juros elevados.",
+      "risco": "Uma desaceleração brusca na demanda global por commodities ou um aumento inesperado na inadimplência bancária poderia comprometer a geração de caixa e a capacidade de manter os níveis atuais de dividendos e recompras.",
+      "proximo_evento": "Acompanhar a divulgação dos resultados do terceiro trimestre de 2026 e a execução efetiva dos programas de recompra de ações anunciados pela Vale e Axia.",
+      "key_numbers": [
+        "Potencial de Valorização Carteira: 20,59%",
+        "Dividend Yield Médio 2026: 7,85%",
+        "Preço Alvo Itaú (ITUB4): R$ 49,50",
+        "Preço Alvo Vale (VALE3): R$ 87,32"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Brasil tem melhor desempenho entre mercados globais na semana",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/brasil-tem-melhor-desempenho-entre-mercados-globais-com-retorno-do-gringo-apsa/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O Ibovespa liderou os ganhos globais na semana com alta de 7,6% em dólar, impulsionado por entradas de capital estrangeiro e recompra de posições vendidas, enquanto o mercado precifica cautela ante as eleições.",
+      "mecanismo": "A reversão do fluxo de capital estrangeiro, que entrou com quase R$ 6 bilhões, combinada com a cobertura de vendas a descoberto (short covering) em ativos com posições congestionadas, gerou pressão de compra imediata; simultaneamente, a expectativa de continuidade do ciclo de flexibilização monetária melhora os indicadores técnicos e atrai investidores para capturar a opcionalidade de preço antes do pleito.",
+      "implicacao": "A classe de ativos de ações brasileiras, especialmente aquelas com maior exposição a vendas a descoberto e sensibilidade a juros, tende a se beneficiar no curto prazo devido à liquidez injetada e à redução do prêmio de risco percebido, enquanto o setor financeiro pode reagir positivamente à expectativa de queda de juros.",
+      "risco": "A incerteza política elevada em torno das eleições pode invalidar a tese otimista, causando volatilidade abrupta ou nova saída de capitais se o cenário macroeconômico ou político se deteriorar.",
+      "proximo_evento": "Eleições presidenciais de outubro e próximos dados de fluxo de capital estrangeiro na B3.",
+      "key_numbers": [
+        "Alta Ibovespa (dólar): 7,6%",
+        "Entrada capital estrangeiro (10 dias): R$ 6 bilhões",
+        "Alta Ibovespa desde 18/ago: 14%",
+        "Saída fundos locais (semana): R$ 0,5 bilhão"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bitcoin sidechain Liquid pauses after purported ‘white hats’ withdraw $320M in BTC",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/news/liquid-network-pauses-320m-bitcoin-withdrawal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "A oposição dos xerifes americanos ao projeto de lei CLARITY foi retirada, facilitando sua aprovação no Senado, enquanto o FMI confirmou que El Salvador não usou recursos públicos para comprar Bitcoin após a revisão do programa.",
-      "mecanismo": "A mudança de postura da Associação Nacional de Xerifes remove uma barreira política significativa para a estruturação regulatória dos EUA, reduzindo a incerteza jurídica que historicamente pressionava os ativos digitais; simultaneamente, a validação do FMI sobre as compras de Bitcoin em El Salvador reduz o risco de sanções ou ruptura do acordo financeiro, sinalizando maior legitimidade institucional para a adoção de criptoativos.",
-      "implicacao": "O setor de infraestrutura cripto e exchanges reguladas tende a se beneficiar, pois a clareza regulatória nos EUA atrai capital institucional que evita jurisdições ambíguas, enquanto a confirmação do FMI reduz o prêmio de risco associado a países adotantes de Bitcoin.",
-      "risco": "O projeto CLARITY ainda pode falhar no Senado devido a disputas sobre recompensas de stablecoins ou conflitos de interesse, e o FMI pode impor novas restrições se detectar novas aquisições não documentadas por El Salvador.",
-      "proximo_evento": "Votação de clausura no Senado dos EUA agendada para 15 de setembro, que definirá o cronograma final da votação do CLARITY Act.",
+      "resumo": "A sidechain Liquid suspendeu operações após hackers autoproclamados 'white hats' retirarem a maior parte dos reservas de Bitcoin da carteira da federação, condicionando a devolução dos fundos à correção de uma vulnerabilidade no software Elements.",
+      "mecanismo": "A retirada de 95% das reservas de colateral (BTC) que garantem o L-BTC quebra temporariamente a paridade e a confiança na liquidez da rede, forçando a paralisação dos nós de ponte e das operações de exchanges para evitar perdas, enquanto a Blockstream negocia a devolução dos ativos sob a condição de que a falha de segurança seja corrigida em todos os nós.",
+      "implicacao": "O setor de infraestrutura de Layer 2 e sidechains de Bitcoin tende a sofrer pressão de confiança e volatilidade de liquidez, pois incidentes que comprometem as reservas de colateral expõem riscos sistêmicos de custódia e podem levar investidores a migrar temporariamente para ativos nativos ou soluções com auditorias mais robustas.",
+      "risco": "Os atores podem se recusar a devolver os fundos após a correção da vulnerabilidade ou a falha pode ser mais grave do que relatado, comprometendo a solvência do L-BTC e gerando perdas irreversíveis para os usuários da rede.",
+      "proximo_evento": "A confirmação da aplicação do patch de segurança na rede Elements e a subsequente devolução dos 3.998,5 BTC pela carteira dos atores.",
       "key_numbers": [
-        "Votos contra veto na Polônia: 241",
-        "Votos a favor veto na Polônia: 198",
-        "Data da clausura no Senado: 15 de setembro",
-        "Valor das compras recentes em El Salvador: 100 milhões de dólares"
+        "Valor retirado: US$ 320 milhões",
+        "Quantidade de BTC: 4.000 BTC",
+        "Percentual da carteira: 95%",
+        "BTC retidos: 3.998,5 BTC"
       ],
-      "sentiment": "up"
+      "sentiment": "down"
     },
     {
-      "title": "Bitcoin ETF inflows hit $3.8B in strongest three-week stretch of 2026",
+      "title": "‘White hats’ take 4000 BTC from Liquid, ETFs see best inflows of 2026: Hodler’s Digest",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-inflows-3-8-billion-strongest-three-week-run-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/magazine/white-hats-take-4000-btc-from-liquid-btc-etfs-best-week-of-2026-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "Os ETFs de Bitcoin nos EUA registraram seu período de três semanas mais forte de 2026, com entradas líquidas de US$ 3,8 bilhões, revertendo a tendência de saques iniciais do ano.",
-      "mecanismo": "A demanda institucional se intensificou apesar da volatilidade recente do preço, que caiu abaixo de US$ 79.000, indicando que investidores estão acumulando posições em momentos de correção; essa dinâmica de compra em quedas sustenta o preço e demonstra resiliência da demanda estrutural, especialmente concentrada em grandes players como BlackRock e Fidelity.",
-      "implicacao": "O setor de criptoativos tende a se beneficiar com a validação institucional contínua, pois o fluxo consistente de capital para ETFs spot reduz a pressão vendedora estrutural e aumenta a legitimidade do ativo como classe de reserva de valor, atraindo mais capital de longo prazo.",
-      "risco": "Um novo ciclo de saques massivos dos ETFs, impulsionado por uma deterioração macroeconômica ou regulatória, poderia invalidar a tese de acumulação e pressionar o preço do Bitcoin para baixo.",
-      "proximo_evento": "Monitorar os fluxos diários dos ETFs e a reação do preço do Bitcoin aos próximos dados macroeconômicos dos EUA, como relatórios de emprego, que podem influenciar a apetite por risco.",
+      "resumo": "Houve um incidente de segurança na sidechain Liquid envolvendo a remoção de 4000 BTC por supostos 'white hats', enquanto os ETFs de Bitcoin nos EUA registraram o maior fluxo de entrada de três semanas de 2026.",
+      "mecanismo": "A pausa nas operações da Liquid Network para investigar a vulnerabilidade no software Elements gera incerteza técnica imediata, mas o forte ingresso de capital institucional nos ETFs ($3,8 bilhões em três semanas) demonstra apetite de risco elevado e demanda por exposição direta ao Bitcoin, independentemente de falhas em camadas secundárias.",
+      "implicacao": "O setor de infraestrutura de Bitcoin e sidechains tende a sofrer pressão de confiança no curto prazo devido à falha de segurança, enquanto a classe de ativos de Bitcoin spot tende a se beneficiar do fluxo institucional robusto, que atua como suporte de preço e valida a narrativa de adoção macro.",
+      "risco": "Se os fundos removidos da Liquid forem misturados ou vendidos agressivamente, ou se o incidente revelar uma vulnerabilidade sistêmica mais ampla no protocolo Elements, a confiança no ecossistema pode ser abalada, potencialmente revertendo o otimismo dos fluxos dos ETFs.",
+      "proximo_evento": "A resolução do incidente na Liquid Network e a confirmação da recuperação ou destino dos fundos, além do monitoramento contínuo dos fluxos diários dos ETFs para validar a sustentabilidade da tendência de alta.",
       "key_numbers": [
-        "Entradas líquidas (3 semanas): US$ 3,8 bilhões",
-        "Ativos sob gestão total: US$ 101,3 bilhões",
-        "Entradas líquidas (semana): US$ 986,9 milhões",
-        "Preço do Bitcoin: US$ 79.716"
+        "BTC removidos: 4000",
+        "Valor estimado: $319 milhões",
+        "Influxo ETFs (3 semanas): $3,8 bilhões",
+        "Preço Bitcoin: ~$80.000"
       ],
       "sentiment": "up"
     },
     {
-      "title": "What is driving Europe’s yield decoupling?",
+      "title": "India stocks lower at close of trade; Nifty 50 down 0.57%",
       "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/what-is-driving-europes-yield-decoupling-4890276",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O texto da fonte fornecido está vazio, impedindo a extração de fatos específicos sobre o desacoplamento dos rendimentos na Europa.",
-      "mecanismo": "Sem dados de entrada, não é possível estabelecer uma cadeia causal entre variáveis macroeconômicas e movimentos de mercado.",
-      "implicacao": "Não há base factual para projetar impactos setoriais ou em classes de ativos.",
-      "risco": "A ausência de informação impede qualquer análise de risco ou validação de tese de investimento.",
-      "proximo_evento": "Aguardando fornecimento do texto completo da notícia para identificar o próximo gatilho relevante.",
-      "key_numbers": [],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Investors turn to Chinese stocks as alternative to crowded AI trades",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/investors-turn-to-chinese-stocks-as-alternative-to-crowded-ai-trades-4890253",
+      "link": "https://www.investing.com/news/stock-market-news/india-stocks-lower-at-close-of-trade-nifty-50-down-057-4890602",
       "categorias": [
         "acoes",
         "exterior"
       ],
-      "resumo": "Investidores estão realocando capital para ações chinesas em busca de valor, fugindo da saturação e dos altos preços observados no setor de inteligência artificial nos mercados ocidentais.",
-      "mecanismo": "A concentração excessiva de posições em ações de IA gera aversão ao risco de correção, levando o capital a buscar mercados com múltiplos de valuation mais atrativos e potencial de crescimento, como a China, onde a demanda por alternativas baratas supera temporariamente as preocupações geopolíticas.",
-      "implicacao": "O setor de tecnologia chinesa e ETFs focados na Ásia emergente tendem a se beneficiar com a entrada de fluxo de capital, já que a rotação de portfólio aumenta a liquidez e a demanda por esses ativos subvalorizados.",
-      "risco": "Uma escalada nas tensões geopolíticas entre EUA e China ou uma desaceleração econômica mais acentuada do que o esperado na China pode inverter o fluxo de capital e invalidar a tese de valor.",
-      "proximo_evento": "Divulgação dos dados de varejo e produção industrial da China, além de eventuais anúncios de estímulos fiscais ou monetários por Pequim.",
-      "key_numbers": [],
-      "sentiment": "up"
+      "resumo": "O mercado indiano encerrou a sessão em baixa, com o principal índice de ações recuando 0,57% no fechamento.",
+      "mecanismo": "A queda no Nifty 50 reflete uma pressão vendedora no fechamento das negociações, indicando que os investidores realizaram lucros ou reduziram posições de risco no final do dia, sem que o texto forneça detalhes sobre o catalisador específico (como dados macroeconômicos ou fluxo externo) que motivou essa decisão.",
+      "implicacao": "A desvalorização do índice amplo tende a pressionar negativamente ativos de renda variável expostos à Índia, como ETFs regionais e ações de multinacionais com receita significativa no país, devido à redução imediata da avaliação de mercado.",
+      "risco": "A queda pode ser apenas um ajuste técnico de curto prazo sem fundamentos macroeconômicos adversos, permitindo uma rápida recuperação nos dias seguintes.",
+      "proximo_evento": "Monitorar a abertura da próxima sessão de negociação na Índia para verificar se a tendência de baixa se mantém ou se há uma correção de curto prazo.",
+      "key_numbers": [
+        "Nifty 50: -0,57%"
+      ],
+      "sentiment": "down"
     },
     {
-      "title": "Nvidia's $279 Billion Bet Changes Everything",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4943399-nvidias-279-billion-bet-changes-everything?source=feed_all_articles",
+      "title": "Goldman Sachs downgrades Schindler on weak growth, China headwinds",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/goldman-sachs-downgrades-schindler-on-weak-growth-china-headwinds-4890600",
       "categorias": [
         "acoes",
         "exterior"
       ],
-      "resumo": "A Nvidia anunciou um investimento recorde de US$ 279 bilhões, sinalizando uma expansão agressiva de capacidade que redefine a escala necessária para a infraestrutura de inteligência artificial.",
-      "mecanismo": "O aporte massivo de capital indica que a demanda por chips de IA continua superando a oferta, forçando a empresa a acelerar a construção de fábricas e parcerias para evitar gargalos de produção, o que valida a tese de crescimento estrutural do setor de semicondutores.",
-      "implicacao": "O setor de infraestrutura de data centers e equipamentos de fabricação de semicondutores tende a se beneficiar, pois o aumento da capex da Nvidia gera demanda direta por máquinas, energia e serviços de engenharia especializados.",
-      "risco": "A execução desse investimento pode ser comprometida por atrasos na construção de fábricas ou por uma desaceleração inesperada na demanda por GPUs, tornando o retorno sobre o investimento inferior ao esperado.",
-      "proximo_evento": "Acompanhar os próximos relatórios trimestrais de receita e margens da Nvidia para verificar se a execução desse investimento está alinhada com as expectativas de retorno.",
-      "key_numbers": [
-        "Investimento Nvidia: US$ 279 bilhões"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Acadia Realty Trust: An Excellent Retail REIT, With More To Come",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4943398-acadia-realty-trust-excellent-retail-reit-with-more-to-come?source=feed_all_articles",
-      "categorias": [
-        "imobiliario"
-      ],
-      "resumo": "A análise destaca a Acadia Realty Trust como um REIT de varejo de alta qualidade com potencial de crescimento adicional, sugerindo que a empresa está bem posicionada para capturar valor no setor.",
-      "mecanismo": "A tese de investimento baseia-se na qualidade dos ativos e na capacidade da empresa de gerar retornos, o que tende a atrair capital de investidores que buscam exposição a varejo resiliente, pressionando o preço do ativo para cima à medida que o mercado reconhece o potencial não realizado.",
-      "implicacao": "Para o setor de REITs de varejo, a identificação de empresas com fundamentos sólidos e margem de crescimento tende a aumentar a alocação de capital nessa classe de ativo, pois investidores de curto e médio prazo buscam segurança combinada com potencial de valorização em um ambiente de juros estáveis ou em queda.",
-      "risco": "Uma desaceleração inesperada no consumo das famílias ou aumento nos custos de financiamento poderia comprometer a capacidade de geração de caixa e a expansão planejada da empresa.",
-      "proximo_evento": "Próximos relatórios trimestrais de resultados e atualizações sobre a ocupação e renovação de contratos de aluguel.",
+      "resumo": "O Goldman Sachs rebaixou a recomendação da Schindler devido à desaceleração do crescimento e aos desafios específicos no mercado chinês.",
+      "mecanismo": "A combinação de crescimento fraco global e headwinds na China reduz as expectativas de receita e margem da empresa, levando o banco de investimento a ajustar sua avaliação para baixo em resposta à deterioração do panorama fundamental.",
+      "implicacao": "O setor de equipamentos de elevadores e escadas rolantes tende a sofrer pressão, já que a demanda está correlacionada com o ciclo de construção civil e a saúde econômica da China, principal motor de crescimento recente.",
+      "risco": "Uma recuperação mais rápida do mercado imobiliário chinês ou ganhos de market share em outras regiões poderiam invalidar a tese de crescimento fraco.",
+      "proximo_evento": "Divulgação dos próximos resultados trimestrais da Schindler para verificar se a desaceleração se mantém ou se há sinais de estabilização.",
       "key_numbers": [],
-      "sentiment": "up"
-    },
-    {
-      "title": "Wells Fargo: Stick To High-Yield Preferred Shares During Interest Rate Volatility",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4941930-wells-fargo-stick-to-high-yield-preferred-shares-during-interest-rate-volatility?source=feed_all_articles",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O analista recomenda priorizar ações preferenciais de alto rendimento da Wells Fargo como estratégia defensiva diante da volatilidade atual dos juros.",
-      "mecanismo": "A volatilidade nos juros eleva a incerteza sobre a valorização de capital de ações ordinárias, tornando o fluxo de caixa previsível e os dividendos elevados das ações preferenciais mais atraentes para investidores que buscam proteção e renda imediata em vez de ganhos especulativos.",
-      "implicacao": "O setor bancário, especificamente a classe de ações preferenciais, tende a se beneficiar como refúgio de renda, já que investidores realocam capital de ativos de crescimento volátil para instrumentos com cupons fixos atrativos durante períodos de instabilidade macroeconômica.",
-      "risco": "Um cenário de recessão profunda que comprometa a saúde financeira dos bancos e force a suspensão ou redução dos dividendos das ações preferenciais invalidaria a tese de segurança.",
-      "proximo_evento": "Próximas decisões do Federal Reserve sobre a taxa de juros e relatórios trimestrais de resultados da Wells Fargo.",
-      "key_numbers": [],
-      "sentiment": "up"
+      "sentiment": "down"
     }
   ],
   "outras_noticias_por_categoria": {
-    "renda_fixa": [
-      "O mercado de trabalho está se mostrando resiliente apesar das preocupações generalizadas sobre a economia.",
-      "A UBS sugere que commodities podem oferecer diversificação diante do aumento da inflação e dos riscos geopolíticos."
-    ],
+    "renda_fixa": [],
     "acoes": [
-      "O Ibovespa acumulou valorização de 5,4% na semana, impulsionado por entrada de fluxo estrangeiro e precificação de eleições, enquanto a Magalu (MGLU3) se destacou com forte alta.",
-      "A Orionx, apoiada pela Tether, encerra suas operações após uma auditoria identificar uma lacuna de custódia de US$ 7 milhões."
+      "A carteira de BDRs da Genial Investimentos registrou alta de 6,29% em agosto de 2026, impulsionada pelo forte posicionamento em tecnologia americana e pela valorização do dólar.",
+      "O resumo fornecido para a notícia sobre a Intel contém apenas o título indicando que sua recuperação enfrentará seu maior teste, sem detalhes adicionais no texto."
     ],
     "cripto": [
-      "A Polônia mantém o veto a um projeto de lei sobre criptomoedas enquanto o escândalo envolvendo a Zondacrypto se amplia.",
-      "A Orionx, apoiada pela Tether, encerra suas operações após uma auditoria identificar uma lacuna de custódia de US$ 7 milhões."
+      "O atacante da terceira onda do Coldcard movimentou 45% do Bitcoin roubado.",
+      "As Filipinas consideram congelar o registro de operadores de pagamento e aplicar verificações mais rigorosas aos VASPs.",
+      "Uma carteira da era Satoshi acordou após 16 anos de inatividade ao movimentar 600 BTC.",
+      "A Harmony propõe desligar sua camada 1 e migrar o token ONE para a Ethereum."
     ],
     "debentures": [],
     "exterior": [
-      "Analistas preveem que o lançamento do iPhone terá impacto negativo nas ações da Apple.",
-      "Analistas consideram a queda recente nas ações da Lockheed Martin uma oportunidade de compra forte devido ao backlog recorde e à alta demanda por mísseis.",
-      "Analistas recomendam downgrade nas ações da Boeing, sugerindo que a empresa precisa reduzir sua valorização.",
-      "Analistas observam um colapso rápido nos fundamentos da Lululemon, surpreendendo até os investidores pessimistas."
+      "O retorno da Intel está prestes a enfrentar seu maior teste.",
+      "Os preços do petróleo sobem ligeiramente em meio a ataques a petroleiros no Golfo Pérsico.",
+      "O mercado de câmbio global registra a desmontagem da carry trade do iene devido à divergência de políticas.",
+      "A produção industrial alemã em julho ilustra a fragilidade da recuperação cíclica."
     ],
-    "imobiliario": [
-      "A LTC Properties foi elevada para recomendação de compra, destacando-se como uma oportunidade de renda mensal impulsionada pelo setor de cuidados com idosos.",
-      "O NXG apresenta um yield elevado, mas seu valor patrimonial líquido está se movendo na direção contrária à desejada pelos investidores."
-    ]
+    "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário de renda fixa deve ser monitorado à luz da volatilidade dos juros, que favorece ativos com fluxo de caixa previsível, como ações preferenciais de alto rendimento, enquanto a resiliência do mercado de trabalho e os riscos inflacionários reforçam o papel das commodities como ferramenta de diversificação. A desconexão nos rendimentos europeus permanece um ponto de atenção, embora os gatilhos específicos ainda aguardem esclarecimento com novos dados.",
-    "acoes": "Enquanto a rotação de estilo no mercado brasileiro prioriza setores defensivos e ativos com receitas em dólar para mitigar riscos macroeconômicos e a saída de estrangeiros, o índice Ibovespa registra ganhos consecutivos impulsionados pelo retorno de fluxo externo e expectativas eleitorais. Paralelamente, a estabilidade do ecossistema de ativos digitais enfrenta testes com o fechamento da Orionx devido a irregularidades de custódia, reforçando a necessidade de monitorar tanto a evolução dos resultados trimestrais das empresas da nova carteira quanto a confiança institucional em plataformas de criptoativos.",
-    "cripto": "Enquanto a demanda institucional por Bitcoin se fortalece com fluxos recordes nos ETFs e a adoção em El Salvador ganha legitimidade do FMI, o setor enfrenta desafios regulatórios e de confiança, evidenciados pelo veto polonês e pelo fechamento da Orionx devido a falhas de custódia. O foco agora recai sobre a votação de clausura do CLARITY Act no Senado dos EUA em 15 de setembro, que definirá o marco regulatório americano, contrastando com a incerteza jurídica persistente em outras jurisdições.",
+    "renda_fixa": "",
+    "acoes": "O mercado brasileiro apresenta atratividade reforçada por fluxos estrangeiros positivos e expectativas de flexibilização monetária, com destaque para a manutenção de ativos como Vale e Itaú devido aos seus programas de retorno ao acionista. Enquanto isso, a performance de carteiras de BDRs segue influenciada pela valorização do dólar e pelo setor de tecnologia, contrastando com pressões pontuais em mercados globais como o da Índia e ajustes setoriais em empresas expostas à China. O foco permanece nos resultados do terceiro trimestre de 2026 e na execução de recompras de ações, além do monitoramento das eleições presidenciais de outubro.",
+    "cripto": "Enquanto a confiança institucional no Bitcoin se fortalece com recordes de entrada em ETFs e a resolução técnica do incidente na Liquid Network avança, o ecossistema enfrenta pressões regulatórias crescentes, como as medidas nas Filipinas, e riscos de segurança persistentes evidenciados pelo movimento de fundos roubados do Coldcard. A movimentação de 600 BTC de uma carteira antiga da era Satoshi adiciona volatilidade potencial ao mercado, enquanto a proposta da Harmony de migrar para a Ethereum sinaliza uma consolidação ou reestruturação significativa nas camadas de aplicação. O foco deve permanecer na sustentabilidade dos fluxos dos ETFs e na confirmação da devolução dos ativos da Liquid, além do impacto das novas regulações e movimentos de grandes carteiras no preço e na liquidez.",
     "debentures": "",
-    "exterior": "Enquanto a Nvidia acelera investimentos para atender à demanda insaciável por chips de IA e investidores buscam refúgio em ações chinesas para diversificar posições superlotadas, o mercado mostra sinais de rotação setorial com analistas apontando oportunidades defensivas em defesa como a Lockheed Martin. Ao mesmo tempo, pressões específicas pesam sobre gigantes de tecnologia e consumo, com expectativas negativas para a Apple pós-lançamento do iPhone, downgrade na Boeing e deterioração fundamentalista na Lululemon, indicando que o otimismo generalizado em IA não está blindando todos os setores contra revisões de valuation.",
-    "imobiliario": "O cenário do mercado imobiliário exige atenção às decisões do Copom sobre a taxa Selic, que sustentam dividendos de fundos indexados ao CDI e influenciam a valorização de ativos negociados com desconto, além de monitorar os relatórios trimestrais de ocupação e resultados de empresas como Acadia Realty Trust, LTC Properties e NXG para avaliar a saúde dos contratos de aluguel e a trajetória do valor patrimonial."
+    "exterior": "O cenário internacional apresenta tensões geopolíticas e divergências de política monetária que pressionam ativos de risco, evidenciado pela alta do petróleo devido a ataques no Golfo Pérsico e pela desmontagem da carry trade do iene. Paralelamente, indicadores fundamentais apontam para fragilidade na recuperação cíclica, como visto na produção industrial alemã e nos headwinds na China que afetam empresas como a Schindler, enquanto investidores na Índia realizam lucros em meio à incerteza. O foco deve permanecer na reação dos mercados a esses choques externos e na validação da sustentabilidade da recuperação econômica global.",
+    "imobiliario": "A consolidação de investidores de longo prazo, que priorizam renda recorrente e gestão autônoma, sustenta a demanda por FIIs mesmo em ambiente de juros elevados, impulsionando a parcela desse público para 60%. O foco agora deve ser monitorar as divulgações de fluxo de caixa e taxa de vacância dos principais fundos logísticos e de recebíveis, além de eventuais mudanças na política monetária que afetem a atratividade relativa dos FIIs versus renda fixa."
   }
 }
