@@ -1,126 +1,145 @@
 {
-  "gerado_em": "2026-09-07T16:34:48.927591+00:00",
+  "gerado_em": "2026-09-08T11:17:11.302386+00:00",
   "itens": [
     {
-      "title": "Pequenas e poderosas: 14 small caps para investir em setembro, segundo a XP Investimentos",
+      "title": "Investidores voltam do feriado com petróleo perto de US$ 100 e cautela eleitoral; Ibovespa em dólar salta nesta terça-feira (8)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/pequenas-e-poderosas-14-small-caps-para-investir-em-setembro-segundo-a-xp-investimentos-lmrs/",
+      "link": "https://www.moneytimes.com.br/investidores-voltam-do-feriado-com-petroleo-perto-de-us-100-e-cautela-eleitoral-ibovespa-em-dolar-salta-nesta-terca-feira-8-rens/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "A XP Investimentos ajustou sua carteira de small caps para setembro, aumentando a exposição a agronegócio e incorporadoras enquanto reduz posições em varejo de vestuário.",
-      "mecanismo": "A elevação do peso da SLC Agrícola reflete uma visão construtiva sobre commodities agrícolas, melhorando o balanço risco-retorno, enquanto a entrada da Direcional é impulsionada por múltiplos atrativos e expectativas positivas do programa Minha Casa Minha Vida; simultaneamente, a redução na C&A visa mitigar riscos do setor de consumo frente a um cenário macroeconômico desafiador e resultados trimestrais pressionados.",
-      "implicacao": "O setor de agronegócio e imobiliário tende a se beneficiar com a realocação de capital, já que a melhora nas perspectivas de commodities e políticas habitacionais aumenta a atratividade relativa desses ativos em comparação ao varejo de vestuário, que enfrenta pressões sazonais e macroeconômicas.",
-      "risco": "Um cenário macroeconômico mais adverso do que o esperado ou uma desaceleração nas vendas de imóveis do programa habitacional podem invalidar a tese de valorização das incorporadoras e pressionar o setor de consumo além do previsto.",
-      "proximo_evento": "Divulgação dos resultados trimestrais das empresas da carteira e novos dados sobre o desempenho do programa Minha Casa Minha Vida e preços de commodities agrícolas.",
+      "resumo": "O petróleo Brent se aproxima de US$ 100 impulsionado por tensões no Oriente Médio, enquanto o Ibovespa em dólar sobe apesar da aversão global a riscos e da cautela com a pesquisa eleitoral no Brasil.",
+      "mecanismo": "Os ataques dos Houtis na Arábia Saudita elevam o prêmio de risco geopolítico, pressionando o preço do petróleo para cima; simultaneamente, a força do Ibovespa em dólar reflete uma resiliência relativa do mercado brasileiro frente à queda das bolsas asiáticas e europeias, possivelmente atenuada por expectativas de juros nos EUA que ainda sustentam o câmbio.",
+      "implicacao": "O setor de energia e as empresas exportadoras de commodities tendem a se beneficiar com a valorização do petróleo, já que a receita em dólar aumenta e a margem de lucro se expande com preços mais altos do barril.",
+      "risco": "Uma escalada militar que paralise totalmente o fluxo de petróleo ou uma reação agressiva de bancos centrais para conter a inflação importada poderia inverter a tendência de alta dos ativos de risco.",
+      "proximo_evento": "Divulgação dos dados de inflação ao consumidor (CPI) e ao produtor (PPI) da China nesta noite, que podem alterar a percepção sobre a demanda global por commodities.",
       "key_numbers": [
-        "Desempenho carteira agosto: 1,2%",
-        "Recuo Ibovespa agosto: 0,3%",
-        "Peso Orizon: 15,00%",
-        "Peso Alupar: 12,50%"
+        "Brent: US$ 98,72",
+        "Ibovespa: 185.147 pontos",
+        "Dólar: R$ 5,13",
+        "Bitcoin: US$ 78.544"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Na China, reservas cambiais sobem e compras de ouro crescem no ritmo mais forte em 3 anos",
+      "title": "Bolsas da Ásia fecham majoritariamente em baixa e Xangai tem leve alta após superávit comercial",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/na-china-reservas-cambiais-sobem-e-compras-de-ouro-crescem-no-ritmo-mais-forte-em-3-anos-lmrs/",
+      "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-majoritariamente-em-baixa-e-xangai-tem-leve-alta-apos-superavit-comercial-fets/",
       "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "As reservas cambiais da China registraram alta em agosto, impulsionadas pelo superávit comercial e pela desvalorização do dólar, enquanto o país acelerou a compra de ouro para o maior ritmo mensal em três anos.",
-      "mecanismo": "O aumento das reservas e a valorização do yuan, combinados com a estratégia de diversificação via ouro, sinalizam que o Banco Popular da China está fortalecendo sua posição externa e reduzindo a dependência do dólar, o que pode sustentar a moeda chinesa e pressionar o preço do metal precioso pela demanda institucional contínua.",
-      "implicacao": "O setor de mineração de ouro e ativos denominados em ouro tendem a se beneficiar, pois a compra acelerada pela maior reserva mundial de ouro cria um piso de demanda estrutural, enquanto a valorização do yuan pode atrair fluxos para ativos reais chineses.",
-      "risco": "Uma valorização rápida e não gerenciada do yuan poderia prejudicar as exportações chinesas e o crescimento econômico, forçando o PBoC a intervir no mercado cambial e potencialmente reduzir o ritmo de acumulação de ativos.",
-      "proximo_evento": "Divulgação dos dados de reservas cambiais e estoques de ouro de setembro, bem como comunicados do Banco Popular da China sobre a política cambial.",
-      "key_numbers": [
-        "Reservas cambiais: US$ 3,438 trilhões",
-        "Variação reservas: +US$ 19,55 bilhões",
-        "Estoques de ouro: 76,73 milhões de onças",
-        "Compra mensal de ouro: 650 mil onças"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "BDRs: 10 ações internacionais para investir em setembro, segundo a Terra Investimentos",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bdrs-10-acoes-internacionais-para-investir-em-setembro-segundo-a-terra-investimentos-lmrs/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "A Terra Investimentos atualizou sua carteira de BDRs para setembro de 2026, trocando três ativos por Alibaba, Colgate-Palmolive e Alphabet, mantendo pesos iguais e registrando desempenho superior ao BDRX e Ibovespa em agosto.",
-      "mecanismo": "A entrada de gigantes de tecnologia (Alphabet, Alibaba) e consumo defensivo (Colgate) substitui posições em saúde, software e pagamentos, refletindo uma aposta técnica em setores com momentum positivo e diversificação setorial equilibrada, o que tende a atrair fluxo de investidores buscando exposição internacional com menor volatilidade relativa ao mercado local.",
-      "implicacao": "O setor de tecnologia e consumo internacional tende a se beneficiar da realocação de capital, já que a estratégia de peso igual em ativos de grande capitalização oferece uma via de diversificação eficiente para investidores brasileiros expostos à desvalorização cambial ou à estagnação do Ibovespa.",
-      "risco": "Uma reversão abrupta no apetite por risco global ou uma apreciação forte do real poderia desvalorizar os BDRs, anulando os ganhos das empresas subjacentes em moeda estrangeira.",
-      "proximo_evento": "Divulgação dos resultados trimestrais das empresas incluídas na carteira, especialmente as de tecnologia, que podem validar ou refutar as teses técnicas de alta.",
-      "key_numbers": [
-        "Peso por ativo: 10%",
-        "Retorno agosto: 11,26%",
-        "Retorno BDRX agosto: 6,06%",
-        "Retorno Ibovespa agosto: -0,33%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Maioria das Bolsas da Ásia fecha em alta, com impulso de dados dos EUA e tensão no Golfo",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/maioria-das-bolsas-da-asia-fecha-em-alta-com-impulso-de-dados-dos-eua-e-tensao-no-golfo-lmrs/",
-      "categorias": [
-        "acoes",
         "exterior"
       ],
-      "resumo": "As bolsas asiáticas registraram alta generalizada, impulsionadas por dados positivos de emprego nos EUA e pelo setor de tecnologia, enquanto tensões geopolíticas no Golfo elevam o preço do petróleo e o iene se fortalece com intervenções japonesas.",
-      "mecanismo": "A combinação de um mercado de trabalho forte nos EUA e a escalada de tensões entre EUA e Irã gerou um fluxo de capital para ativos de risco na Ásia, especialmente tecnologia, ao mesmo tempo que a ameaça de restrição no Estreito de Ormuz pressiona o preço do Brent para cima e fortalece o iene devido às vendas de títulos estrangeiros pelo Japão para financiar intervenções cambiais.",
-      "implicacao": "O setor de energia tende a se beneficiar com a alta do petróleo devido ao risco de oferta, enquanto o setor de tecnologia asiático pode continuar atraindo capitais pela resiliência dos dados americanos, embora a alta dos juros soberanos globais possa pressionar negativamente ativos sensíveis a taxas de juros.",
-      "risco": "Uma resolução rápida das tensões geopolíticas no Golfo ou uma reação mais agressiva dos bancos centrais para conter a inflação importada pelo petróleo poderia inverter o otimismo nos mercados de risco e derrubar os ganhos recentes.",
-      "proximo_evento": "O anúncio oficial da zona restrita no Estreito de Ormuz pelas autoridades iranianas e a próxima divulgação de dados econômicos dos EUA que confirmem ou refutem a força do mercado de trabalho.",
+      "resumo": "As bolsas asiáticas encerraram em queda generalizada, exceto Xangai, que registrou leve alta impulsionada por dados positivos de exportação da China, enquanto o Japão sofreu com a valorização do iene e a alta do petróleo.",
+      "mecanismo": "O superávit comercial chinês em agosto, embora abaixo da expectativa, confirmou a aceleração das exportações, especialmente em infraestrutura de IA, o que sustentou o índice de Xangai; simultaneamente, a apreciação do iene pressionou as ações de exportadores japoneses, como relógios, e a alta do petróleo adicionou custos de produção, gerando aversão a risco na região.",
+      "implicacao": "Setores de tecnologia e infraestrutura de IA na China tendem a se beneficiar do forte desempenho exportador, enquanto empresas exportadoras japonesas e setores sensíveis a custos de energia podem enfrentar pressão de margens devido ao iene forte e ao petróleo alto.",
+      "risco": "O raciocínio pode ser invalidado se as tensões comerciais levarem a retaliações tarifárias imediatas contra a China ou se a alta do petróleo se intensificar, estrangulando a demanda global e a lucratividade corporativa.",
+      "proximo_evento": "Monitorar a reação dos mercados às tensões comerciais decorrentes do aumento dos embarques chineses e os próximos dados de inflação e juros nos EUA, que influenciam o dólar e o petróleo.",
       "key_numbers": [
-        "Brent: US$ 97,93",
-        "Kospi: +4,61%",
-        "Nikkei: +2,12%",
-        "Iene: 154,05 por dólar"
+        "Superávit China Ago: US$ 119,1 bi",
+        "Queda Nikkei: 1,7%",
+        "Alta Xangai: 0,2%",
+        "Queda Kospi: 0,58%"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Tempo real: Ibovespa começa a semana de olho no Focus e na inflação no atacado",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/tempo-real-8-9-26-apsa-lils/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "O mercado brasileiro retoma as negociações com foco na inflação no atacado e no Boletim Focus, enquanto o petróleo se aproxima da marca de US$ 100 e a volatilidade política eleitoral permanece em alta.",
+      "mecanismo": "A agenda macroeconômica local (IGP-DI e Focus) define o tom para a curva de juros e câmbio, enquanto a alta do petróleo pressiona a inflação de serviços e bens, mas beneficia as receitas das petrolíferas; simultaneamente, a incerteza sobre os resultados eleitorais em estados-chave como Minas Gerais e Ceará gera cautela nos fluxos de capital estrangeiro.",
+      "implicacao": "Setores sensíveis a juros, como imobiliário e varejo, tendem a sofrer com a cautela se a inflação no atacado vier acima do esperado, enquanto o setor de energia e commodities pode se beneficiar do preço elevado do petróleo, desde que a demanda global não entre em recessão.",
+      "risco": "Uma surpresa inflacionária alta no IGP-DI combinada com resultados eleitorais que aumentem a percepção de risco político pode inverter a tendência de alta do Ibovespa em dólar e pressionar o real.",
+      "proximo_evento": "Divulgação oficial do Boletim Focus e do índice IGP-DI nesta terça-feira (8).",
+      "key_numbers": [
+        "Petróleo Brent: US$ 98,72",
+        "Bitcoin: US$ 78.544,73",
+        "Ibovespa em dólar (EWZ): US$ 38,30",
+        "Intenção de voto Cleitinho (MG): 31%"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Petróleo sobe com riscos de conflito prolongado no Oriente Médio pressionando oferta",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/petroleo-sobe-com-riscos-de-conflito-prolongado-no-oriente-medio-pressionando-oferta-fets/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "Os preços do petróleo Brent e WTI atingiram máximas de semanas devido ao aumento do risco de um conflito prolongado entre EUA e Irã, que ameaça restringir a oferta global.",
+      "mecanismo": "A escalada militar, incluindo ataques a petroleiros e ameaças ao Estreito de Ormuz, eleva a probabilidade de interrupções logísticas no Golfo Pérsico; essa restrição de oferta, somada ao medo de uma 'guerra econômica', pressiona os preços futuros para cima conforme os agentes de mercado precificam a escassez esperada até 2027.",
+      "implicacao": "Com a expectativa de preços elevados de petróleo, o setor de energia tende a se beneficiar financeiramente, já que receitas maiores compensam custos operacionais, enquanto setores intensivos em combustível, como aviação e transporte, podem sofrer com margens apertadas devido ao aumento dos insumos.",
+      "risco": "Um acordo diplomático rápido ou uma desescalada imediata das hostilidades entre EUA e Irã poderia reverter a percepção de risco de oferta, fazendo os preços do petróleo recuarem abruptamente.",
+      "proximo_evento": "Monitorar novas ações militares ou diplomáticas envolvendo EUA e Irã, bem como dados de tráfego marítimo no Estreito de Ormuz e atualizações de previsões de bancos como Goldman Sachs e ANZ para o final de 2026 e início de 2027.",
+      "key_numbers": [
+        "Brent: US$ 98,75",
+        "WTI: US$ 94,27",
+        "Previsão Brent Dez/26 (Goldman): US$ 85",
+        "Previsão WTI 2027 (Goldman): US$ 75"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Títulos de 10 anos sob pressão: O que a alta dos juros revela sobre a economia global",
+      "title": "Moedas Globais: dólar opera em queda com força do iene em sessão limitada por feriado nos EUA",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/titulos-de-10-anos-sob-pressao-o-que-a-alta-dos-juros-revela-sobre-a-economia-global-lils/",
+      "link": "https://www.moneytimes.com.br/moedas-globais-dolar-opera-em-queda-com-forca-do-iene-em-sessao-limitada-por-feriado-nos-eua/",
       "categorias": [
         "renda_fixa"
       ],
-      "resumo": "Os rendimentos dos títulos soberanos de 10 anos nos EUA, Reino Unido e Alemanha atingiram máximas históricas ou de longo prazo, impulsionados por tensões geopolíticas no Oriente Médio e expectativas de manutenção de juros altos pelos bancos centrais.",
-      "mecanismo": "A escalada dos yields é causada pela combinação de um prêmio de risco inflacionário devido ao conflito no Oriente Médio e pela revisão das expectativas de política monetária, com o mercado precificando menos cortes e até novos aumentos de juros pelo Fed, BoE e BCE, o que reduz o preço dos títulos existentes e eleva seus rendimentos.",
-      "implicacao": "A classe de ativos de renda fixa de longo prazo tende a sofrer perdas de capital, enquanto o setor imobiliário e empresas com alta alavancagem de dívida podem enfrentar pressão nos custos de financiamento, já que as taxas de referência para hipotecas e empréstimos corporativos estão atreladas aos yields dos Treasuries e Bunds.",
-      "risco": "Uma resolução rápida do conflito no Oriente Médio ou dados de inflação mais fracos do que o esperado poderiam reduzir o prêmio de risco e as expectativas de juros altos, revertendo a alta dos rendimentos.",
-      "proximo_evento": "Decisões de política monetária do Federal Reserve e do Banco Central Europeu em setembro de 2026.",
+      "resumo": "O dólar enfraqueceu frente ao iene e outras moedas fortes em uma sessão de baixa liquidez marcada pelo feriado nos EUA, com o iene superando patamares anteriores de intervenção cambial.",
+      "mecanismo": "A queda do dólar é impulsionada pela força do iene, que se beneficia de expectativas de um ciclo de aperto monetário mais acelerado pelo Banco do Japão e ajustes de portfólio, enquanto o euro ganha com a antecipação de alta de juros pelo BCE, tudo isso amplificado pela reduzida liquidez devido ao feriado americano.",
+      "implicacao": "A desvalorização do dólar tende a beneficiar ativos denominados em moedas estrangeiras e commodities precificadas em dólar, como o petróleo, já que a moeda americana mais fraca reduz o custo relativo desses ativos para investidores de outras moedas.",
+      "risco": "Um acordo diplomático ou econômico significativo entre EUA e Japão poderia frear a alta do iene, mantendo a taxa de câmbio na faixa de 155-160 ienes por dólar e invalidando a tese de uma queda imediata abaixo de 150.",
+      "proximo_evento": "Divulgação do índice de preços ao consumidor (CPI) dos EUA na sexta-feira, que servirá como principal indicador antes da decisão do Federal Reserve.",
       "key_numbers": [
-        "Yield Treasury 10 anos EUA: 4,818%",
-        "Yield Gilts 10 anos Reino Unido: 5,2341%",
-        "Yield Bund 10 anos Alemanha: 3,3546%",
-        "Probabilidade de alta do Fed em setembro: 50%"
+        "Dólar/Yen: 154,38",
+        "Euro/Dólar: 1,1623",
+        "DXY: 98,926",
+        "Queda DXY: 0,25%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Preferência entre os seniores? Parcela que investe em FIIs salta para 60% em 6 anos, mostra pesquisa",
+      "title": "Petróleo encosta nos US$ 100 com novo fator de risco no Oriente Médio; entenda",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/preferencia-entre-os-seniores-parcela-que-investe-em-fiis-salta-para-60-em-6-anos-mostra-pesquisa-apsa/",
+      "link": "https://www.moneytimes.com.br/petroleo-encosta-nos-us-100-com-novo-fator-de-risco-no-oriente-medio-entenda/",
       "categorias": [
-        "imobiliario"
+        "renda_fixa"
       ],
-      "resumo": "A base de investidores em Fundos Imobiliários amadureceu significativamente, com a parcela de cotistas experientes saltando para 60% e o perfil de carteiras se concentrando em maiores valores aplicados e maior diversificação.",
-      "mecanismo": "A consolidação de investidores de longo prazo, que priorizam renda recorrente e gestão autônoma para reduzir custos, sustenta a demanda por FIIs mesmo em ambiente de juros elevados, pois esse público valoriza a isenção fiscal e a previsibilidade dos proventos acima da especulação de curto prazo.",
-      "implicacao": "A classe de ativos de Fundos Imobiliários tende a manter resiliência e atratividade para novos aportes, especialmente nos segmentos de galpões logísticos e recebíveis, devido à preferência dos investidores seniores por segurança, baixa vacância e geração de renda mensal isenta de IR.",
-      "risco": "A percepção de risco político aumentou drasticamente para 70% dos investidores, o que pode levar a uma redução na disposição para investir ou a uma fuga para ativos mais conservadores se a instabilidade se agravar.",
-      "proximo_evento": "Monitorar as próximas divulgações de fluxo de caixa e taxa de vacância dos principais fundos logísticos e de recebíveis, além de eventuais mudanças na política monetária que afetem a atratividade relativa dos FIIs versus renda fixa.",
+      "resumo": "O petróleo Brent e WTI se aproximam da marca de US$ 100 por barril impulsionados por ataques a instalações da Saudi Aramco e pela escalada de tensões militares entre EUA e Irã no Oriente Médio.",
+      "mecanismo": "Os ataques diretos à infraestrutura de produção na Arábia Saudita, somados às ameaças iranianas de restringir o trânsito no Estreito de Ormuz, criam um medo concreto de interrupção física no fornecimento global, o que pressiona os preços para cima devido à expectativa de escassez imediata.",
+      "implicacao": "O setor de energia e empresas exploradoras de petróleo tendem a se beneficiar com a valorização das receitas, enquanto setores intensivos em transporte e logística enfrentam pressão sobre os custos operacionais devido à alta do combustível.",
+      "risco": "Uma rápida desescalada diplomática ou a confirmação de que os danos à infraestrutura são menores do que o esperado pode reverter a narrativa de escassez e derrubar os preços rapidamente.",
+      "proximo_evento": "Monitorar a evolução do tráfego marítimo no Estreito de Ormuz e possíveis novas escaladas militares ou declarações oficiais sobre a segurança dos corredores de navegação.",
       "key_numbers": [
-        "Seniores (>5 anos): 60%",
-        "Iniciantes (<=1 ano): 4%",
-        "Selic: 14,50% a.a.",
-        "Risco político percebido: 70%"
+        "Brent (fechamento): US$ 97,00",
+        "WTI (intradia): US$ 92,68",
+        "Queda tráfego Ormuz: 28%",
+        "Limite Canal Panamá: 27 navios/dia"
       ],
       "sentiment": "up"
+    },
+    {
+      "title": "New Bitcoin whales spark sell-side risk as unrealized gains hit $9B",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/new-bitcoin-whales-spark-sell-side-risk-as-unrealized-gains-hit-9b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "Baleias de curto prazo acumularam lucros não realizados recorde de US$ 9 bilhões, elevando o risco de vendas defensivas, enquanto as reservas da Binance atingem máximas de dois anos.",
+      "mecanismo": "A concentração histórica de lucros não realizados em carteiras de curto prazo (custo base próximo a US$ 69.000) cria uma pressão vendedora latente, pois esses investidores especulativos são sensíveis a pequenas quedas de preço e tendem a realizar lucros rapidamente; simultaneamente, o aumento das reservas na Binance indica oferta disponível para venda, exigindo forte demanda de ETFs para superar a resistência em US$ 83.000.",
+      "implicacao": "O setor de criptoativos, especificamente o Bitcoin, tende a enfrentar volatilidade de baixa ou consolidação lateral, pois a pressão vendedora de baleias de curto prazo e a alta oferta nas exchanges dificultam rupturas de alta sustentadas sem um influxo massivo de capital institucional.",
+      "risco": "A tese de pressão vendedora pode ser invalidada se houver uma entrada abrupta e massiva de demanda orgânica ou via ETFs que absorva rapidamente a oferta disponível nas exchanges, neutralizando a intenção de venda das baleias.",
+      "proximo_evento": "Monitorar a capacidade de absorção de demanda spot por ETFs e a reação do preço do Bitcoin a flutuações próximas da faixa de US$ 83.000 para validar se a oferta das exchanges será consumida ou se pressionará o preço para baixo.",
+      "key_numbers": [
+        "Lucros não realizados STH: US$ 9,07 bilhões",
+        "Custo base STH: US$ 69.000",
+        "Reservas Binance: 691.658 BTC",
+        "Resistência chave: US$ 83.000"
+      ],
+      "sentiment": "down"
     },
     {
       "title": "Bitcoin chips away at weekend upside as $80K hangs in the balance",
@@ -129,85 +148,53 @@
       "categorias": [
         "cripto"
       ],
-      "resumo": "O Bitcoin recuou 2% para abaixo de US$ 80.000 devido à baixa liquidez do feriado americano, mantendo-se em uma faixa lateral consolidada desde meados de agosto.",
-      "mecanismo": "A queda de liquidez durante o Labor Day ampliou a volatilidade de curto prazo e provocou liquidações equilibradas, enquanto o mercado adota postura de espera por dados macroeconômicos dos EUA que definirão as expectativas de juros do Fed, impedindo uma ruptura direcional clara no momento.",
-      "implicacao": "Ativos de risco, incluindo criptomoedas, tendem a experimentar maior volatilidade e possível reprecificação conforme os dados de inflação ajustem as expectativas de política monetária do Fed, já que a resiliência recente do Bitcoin sugere que o mercado está sensível a sinais de endurecimento ou flexibilização dos juros.",
-      "risco": "Uma leitura de inflação significativamente mais alta que o esperado pode forçar uma queda acentuada nos ativos de risco, invalidando a tese de resiliência e pressionando o Bitcoin para longe da faixa de consolidação atual.",
+      "resumo": "O Bitcoin recuou 2% para abaixo de US$ 80.000 devido à baixa liquidez do feriado americano, mantendo-se em uma faixa lateral resiliente após o fechamento semanal mais alto desde maio.",
+      "mecanismo": "A queda de liquidez durante o Labor Day ampliou a volatilidade de curto prazo e provocou liquidações equilibradas, enquanto o mercado adota postura de espera por dados macroeconômicos que definirão as expectativas de juros do Fed, impedindo uma direção clara até então.",
+      "implicacao": "Ativos de risco, incluindo criptomoedas, tendem a experimentar uma ruptura de volatilidade significativa, pois a compressão atual indica que o preço está aguardando clareza sobre a política monetária para definir a próxima tendência direcional.",
+      "risco": "Uma leitura de inflação mais alta que o esperado pode reforçar as expectativas de manutenção ou aumento dos juros, pressionando negativamente ativos sensíveis a taxas de juros como o Bitcoin.",
       "proximo_evento": "Divulgação dos dados de inflação dos EUA, agendados para quinta e sexta-feira desta semana.",
       "key_numbers": [
         "Preço BTC: abaixo de US$ 80.000",
         "Queda diária: 2%",
         "Liquidações 24h: US$ 178 milhões",
-        "Influxo ETFs: US$ 730 milhões"
+        "Influxo ETF: US$ 730 milhões"
       ],
       "sentiment": "neutral"
-    },
-    {
-      "title": "Zcash hits highest price since 2016 as market cap tops $20B",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/zcash-highest-price-market-cap-20-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O Zcash atingiu seu maior preço desde 2016 e ultrapassou US$ 20 bilhões em valor de mercado, impulsionado pela conversão do fundo da Grayscale em ETF e pelo crescente interesse em privacidade financeira.",
-      "mecanismo": "A conversão do trust da Grayscale em um ETF negociado na bolsa (ZCSH) removeu barreiras de acesso para investidores institucionais e varejistas, permitindo exposição direta via corretoras tradicionais; simultaneamente, a narrativa de que a IA facilita a desanonimização em blockchains públicas aumenta a demanda por soluções de privacidade robustas como as provas de conhecimento zero do Zcash.",
-      "implicacao": "O setor de criptoativos focados em privacidade tende a se beneficiar de uma reavaliação de valor, pois a institucionalização via ETFs confere legitimidade regulatória e atrai capital que anteriormente evitava ativos de nicho por questões de custódia e compliance.",
-      "risco": "Reguladores podem intensificar a pressão sobre ativos de privacidade, classificando-os como não conformes com normas de combate à lavagem de dinheiro, o que poderia levar à delistagem de exchanges ou restrições ao ETF.",
-      "proximo_evento": "Monitorar os fluxos de entrada e saída do ETF ZCSH e o volume de transações 'shielded' na rede Zcash nas próximas semanas para validar a sustentabilidade da demanda institucional.",
-      "key_numbers": [
-        "Preço ZEC: US$ 1.195",
-        "Market Cap: US$ 20 bilhões",
-        "Ganho semanal: 45%",
-        "AUM do ETF: US$ 463,2 milhões"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "U.K. stocks lower at close of trade; Investing.com United Kingdom 100 down 0.11%",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/uk-stocks-lower-at-close-of-trade-investingcom-united-kingdom-100-down-011-4890705",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "O índice FTSE 100 encerrou a sessão com leve recuo de 0,11%, refletindo uma dinâmica de mercado lateralizada e sem direcionamento forte no fechamento.",
-      "mecanismo": "A pequena queda no principal índice britânico indica uma leve pressão vendedora ou falta de apetite por risco no encerramento, sem que haja um catalisador macroeconômico específico mencionado no texto para justificar uma reversão de tendência imediata.",
-      "implicacao": "A instabilidade ou leve queda no índice tende a pressionar negativamente ativos de risco e ações de crescimento no curto prazo, já que investidores podem buscar refúgio em ativos mais seguros diante da incerteza de mercado.",
-      "risco": "A leitura pode ser invalidada se o movimento for apenas ruído estatístico de curto prazo e não refletir uma mudança estrutural na demanda por ações britânicas, especialmente se dados futuros surpreenderem positivamente.",
-      "proximo_evento": "Monitorar os próximos dados macroeconômicos do Reino Unido ou comunicados do Banco da Inglaterra que possam alterar a expectativa de juros e impactar a valuation das empresas listadas.",
-      "key_numbers": [
-        "Variação FTSE 100: -0,11%"
-      ],
-      "sentiment": "down"
     }
   ],
   "outras_noticias_por_categoria": {
-    "renda_fixa": [],
+    "renda_fixa": [
+      "Fluxos de fundos em Bitcoin indicam que investidores estão ajustando posições com base no caminho das taxas do Fed, e não saindo do mercado.",
+      "A agenda da semana para Bitcoin inclui a intervenção no iene e a divulgação de dados de inflação dos EUA.",
+      "Títulos de curto prazo indexados à inflação (STIP) ainda mantêm mérito de investimento."
+    ],
     "acoes": [
-      "A XP Investimentos elevou o peso da Petrobras (PETR4) de 10% para 12,5% em sua carteira de dividendos para setembro, visando aumentar a exposição ao setor de Óleo e Gás.",
-      "O Andbank manteve o foco em empresas com geração consistente de caixa nos setores de energia e financeiro em sua carteira de dividendos, destacando a manutenção de posições como Axia (AXIA3) e BB Seguridade.",
-      "O Itaú BBA reiterou a recomendação de compra para a Plano&Plano (PLPL3) com preço-alvo de R$ 15, projetando uma valorização superior a 130% nos próximos 12 meses a partir da cotação de R$ 6,51."
+      "A Rico retirou Vale (VALE3) e Itaú (ITUB4) de sua carteira de dividendos e incluiu Iguatemi (IGTI11) e Localiza (RENT3), citando a redução do dividend yield esperado.",
+      "A XP Investimentos adicionou a Direcional (DIRR3) com 5% de peso à sua carteira de small caps para setembro, apoiada por múltiplo atrativo e exposição ao programa Minha Casa Minha Vida.",
+      "O Andbank retirou Cemig (CMIG4) e incluiu Suzano (SUZB3) em sua carteira de ações de setembro, refletindo a volatilidade diante das eleições presidenciais brasileiras e decisões econômicas internacionais.",
+      "O índice Nifty 50 da Índia fechou em baixa de 0,61% ao final do pregão."
     ],
     "cripto": [
-      "Ator identificado como 'white hats' retirou 4000 BTC da sidechain Liquid, enquanto os ETFs de Bitcoin registram os melhores fluxos de entrada de 2026.",
-      "A sidechain Liquid suspendeu suas operações após a retirada de 320 milhões de dólares em BTC por supostos 'white hats'.",
-      "Citi e DBS concluíram o primeiro depósito transfronteiriço tokenizado em fim de semana via Swift.",
-      "As Filipinas consideram congelar o registro de operadores de pagamento e implementar verificações mais rigorosas para provedores de serviços de ativos virtuais."
+      "Atores identificados como 'white hats' retiraram 4000 BTC da exchange Liquid, enquanto os ETFs de Bitcoin registraram os maiores fluxos de entrada de 2026.",
+      "Os mesmos atores devolveram 270 milhões de dólares em Bitcoin à medida que a rede Liquid se prepara para reiniciar suas operações.",
+      "A Ethereum Foundation designou duas Propostas de Melhoria do Ethereum (EIPs) como obrigatórias para a atualização Hegotá.",
+      "A empresa Capital B adquiriu 376 Bitcoin por 29 milhões de dólares, elevando suas reservas totais para 3.521 BTC."
     ],
     "debentures": [],
     "exterior": [
-      "O índice DAX da Alemanha encerrou o pregão com queda de 0,25%, resultando em desempenho misto.",
-      "O índice CAC 40 da França fechou em alta de 0,33%.",
-      "Foi divulgado o comentário do segundo trimestre de 2026 do Harbor Mid Cap Value Fund.",
-      "Há uma discussão sobre se as empresas do Mag 7 estão prestes a liderar o mercado novamente."
+      "As ações da Índia encerraram a negociação em baixa, com o índice Nifty 50 recuando 0,61%.",
+      "Após uma queda de 18% nas ações de semicondutores durante o verão, o Citi questiona qual será o próximo movimento do setor.",
+      "As tarifas impostas pelo Canadá entraram em vigor, conforme destacado no podcast Wall Street Breakfast.",
+      "A maioria dos grandes bancos europeus superou as previsões de analistas para o lucro do segundo trimestre."
     ],
     "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O mercado de renda fixa global enfrenta pressão nos títulos de longo prazo devido à combinação de prêmio de risco inflacionário oriundo do conflito no Oriente Médio e à revisão das expectativas de política monetária, com menos cortes e possíveis aumentos de juros pelo Fed, BoE e BCE. Paralelamente, a estratégia do Banco Popular da China de fortalecer reservas cambiais e diversificar para ouro sinaliza uma redução da dependência do dólar, sustentando o yuan e pressionando o preço do metal precioso. Os investidores devem monitorar as decisões de política monetária do Federal Reserve e do Banco Central Europeu em setembro de 2026, bem como a divulgação dos dados de reservas cambiais e estoques de ouro chineses do mesmo mês.",
-    "acoes": "O cenário para setembro na Renda Variável combina uma visão construtiva sobre commodities agrícolas e energia, evidenciada pelo aumento da exposição à SLC Agrícola e Petrobras, com oportunidades em small caps impulsionadas pelo programa Minha Casa Minha Vida e setores de construção como a Plano&Plano. Investidores devem monitorar a divulgação dos resultados trimestrais das empresas da carteira e novos dados sobre o desempenho do Minha Casa Minha Vida, além de acompanhar a evolução das tensões geopolíticas no Golfo e os preços do petróleo, que influenciam tanto o fluxo de capital para ativos de risco quanto a rentabilidade do setor de energia.",
-    "cripto": "O mercado de criptomoedas enfrenta uma dinâmica complexa onde a adoção institucional avança com recordes de inflows em ETFs de Bitcoin e testes de infraestrutura bancária tradicional, como o depósito tokenizado via Swift, contrastando com tensões de segurança na rede Liquid e um endurecimento regulatório nas Filipinas. Enquanto investidores aguardam dados macroeconômicos dos EUA para definir expectativas de juros, a conversão do trust da Grayscale em ETF de Zcash destaca a crescente demanda por privacidade e acesso institucional diversificado. A observação deve focar na sustentabilidade dos fluxos institucionais e na resposta do mercado às novas medidas regulatórias e incidentes de segurança.",
+    "renda_fixa": "O cenário de renda fixa global é marcado pela tensão entre a força do iene, impulsionada por expectativas de aperto monetário no Japão, e a queda do dólar devido à reduzida liquidez nos EUA. Investidores devem monitorar de perto a divulgação do índice de preços ao consumidor (CPI) dos EUA, que servirá como principal indicador antes da decisão do Federal Reserve, enquanto a volatilidade no petróleo, com preços encostando em US$ 100 devido a riscos geopolíticos no Oriente Médio, adiciona pressão inflacionária ao ambiente macroeconômico.",
+    "acoes": "Enquanto o cenário geopolítico no Oriente Médio pressiona o petróleo para cima e o Ibovespa em dólar demonstra resiliência, investidores devem monitorar os dados de inflação da China e novas ações militares que podem alterar a percepção de risco global. No mercado interno, as mudanças nas carteiras recomendadas por corretoras como Rico, XP e Andbank sinalizam uma rotação de ativos em resposta à volatilidade eleitoral e ajustes nos yields, com destaque para a entrada de nomes como Suzano e Direcional e a saída de Vale, Itaú e Cemig.",
+    "cripto": "O mercado de Bitcoin enfrenta uma dinâmica complexa onde a pressão vendedora de grandes detentores com lucros não realizados e a oferta nas exchanges contrastam com os robustos fluxos de entrada nos ETFs e compras corporativas, como a recente da Capital B. Enquanto a volatilidade de curto prazo é influenciada pela baixa liquidez e pela expectativa pelos dados de inflação dos EUA, eventos específicos como a devolução de fundos na rede Liquid e o foco técnico na atualização Hegotá do Ethereum adicionam camadas de atenção operacional e de desenvolvimento. O equilíbrio entre a resistência em US$ 83.000 e a capacidade de absorção da demanda institucional será crucial para definir a direção do preço antes da divulgação dos dados macroeconômicos.",
     "debentures": "",
-    "exterior": "Enquanto a Ásia reage positivamente à força do mercado de trabalho dos EUA e às tensões geopolíticas no Golfo, os mercados europeios apresentam desempenho divergente, com alta na França e queda na Alemanha, sugerindo cautela seletiva. O foco permanece na possível retomada da liderança das grandes tecnológicas americanas (Mag 7) e nos fluxos de capital influenciados pela volatilidade do petróleo e pelas intervenções cambiais no Japão.",
-    "imobiliario": "A consolidação de investidores de longo prazo, que priorizam renda recorrente e gestão autônoma, sustenta a demanda por FIIs mesmo em ambiente de juros elevados, impulsionando a parcela desse público para 60%. O foco agora deve ser monitorar as divulgações de fluxo de caixa e taxa de vacância dos principais fundos logísticos e de recebíveis, além de eventuais mudanças na política monetária que afetem a atratividade relativa dos FIIs versus renda fixa."
+    "exterior": "Os mercados globais enfrentam volatilidade com a aversão a risco na Ásia, impulsionada pela apreciação do iene e custos elevados de petróleo, enquanto a Índia registra perdas e o setor de semicondutores busca direção após forte correção. No Ocidente, a implementação das tarifas canadenses adiciona incerteza comercial, contrastando com o desempenho robusto dos bancos europeus que superaram expectativas de lucro. O foco permanece na reação dos mercados às tensões comerciais e aos dados macroeconômicos dos EUA, que influenciam diretamente o dólar e os fluxos de capital.",
+    "imobiliario": ""
   }
 }
