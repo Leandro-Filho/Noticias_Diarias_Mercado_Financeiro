@@ -1,200 +1,209 @@
 {
-  "gerado_em": "2026-09-08T11:17:11.302386+00:00",
+  "gerado_em": "2026-09-08T15:16:10.417499+00:00",
   "itens": [
     {
-      "title": "Investidores voltam do feriado com petróleo perto de US$ 100 e cautela eleitoral; Ibovespa em dólar salta nesta terça-feira (8)",
+      "title": "O que impulsiona a alta de 5% da CSN (CSNA3) nesta terça-feira (8)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/investidores-voltam-do-feriado-com-petroleo-perto-de-us-100-e-cautela-eleitoral-ibovespa-em-dolar-salta-nesta-terca-feira-8-rens/",
+      "link": "https://www.moneytimes.com.br/o-que-impulsiona-a-alta-de-5-da-csn-csna3-nesta-terca-feira-8-apsa/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O petróleo Brent se aproxima de US$ 100 impulsionado por tensões no Oriente Médio, enquanto o Ibovespa em dólar sobe apesar da aversão global a riscos e da cautela com a pesquisa eleitoral no Brasil.",
-      "mecanismo": "Os ataques dos Houtis na Arábia Saudita elevam o prêmio de risco geopolítico, pressionando o preço do petróleo para cima; simultaneamente, a força do Ibovespa em dólar reflete uma resiliência relativa do mercado brasileiro frente à queda das bolsas asiáticas e europeias, possivelmente atenuada por expectativas de juros nos EUA que ainda sustentam o câmbio.",
-      "implicacao": "O setor de energia e as empresas exportadoras de commodities tendem a se beneficiar com a valorização do petróleo, já que a receita em dólar aumenta e a margem de lucro se expande com preços mais altos do barril.",
-      "risco": "Uma escalada militar que paralise totalmente o fluxo de petróleo ou uma reação agressiva de bancos centrais para conter a inflação importada poderia inverter a tendência de alta dos ativos de risco.",
-      "proximo_evento": "Divulgação dos dados de inflação ao consumidor (CPI) e ao produtor (PPI) da China nesta noite, que podem alterar a percepção sobre a demanda global por commodities.",
+      "resumo": "A CSN sobe na bolsa impulsionada por expectativas de venda de ativos para reduzir dívida e pela nomeação de um novo CEO com histórico positivo, além de um cenário eleitoral que melhora o humor do mercado.",
+      "mecanismo": "A expectativa de venda de ativos como a CSN Cimentos e unidades na Alemanha deve gerar ganhos de até R$ 12,5 bilhões, acelerando o programa de desalavancagem e reduzindo a dívida líquida, o que aumenta a confiança dos investidores; simultaneamente, a liderança de Fabio Schvartsman e o empate técnico nas pesquisas eleitorais reduzem a aversão ao risco, beneficiando ações com beta mais alto.",
+      "implicacao": "O setor siderúrgico e de commodities tende a se beneficiar com a redução da alavancagem das grandes empresas, pois o fortalecimento do balanço patrimonial diminui o risco de crédito e atrai capital para ativos cíclicos sensíveis ao humor do mercado.",
+      "risco": "O processo de venda de ativos pode enfrentar atrasos, avaliações inferiores ao esperado ou rejeição regulatória, invalidando a tese de desalavancagem acelerada e revertendo o otimismo do mercado.",
+      "proximo_evento": "Divulgação de detalhes concretos sobre a estrutura e cronograma das vendas de ativos anunciadas pelo novo CEO e os resultados oficiais das eleições presidenciais.",
       "key_numbers": [
-        "Brent: US$ 98,72",
-        "Ibovespa: 185.147 pontos",
+        "Alta máxima CSNA3: 5,50%",
+        "Dívida líquida 2T26: R$ 42,1 bilhões",
+        "Alavancagem 2T26: 3,49x",
+        "Ganho esperado com vendas: R$ 12,5 bilhões"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Wall Street opera em queda com tensões no Golfo e alta do petróleo",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/wall-street-8-9-26-lils/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "Os índices de Wall Street recuam nesta terça-feira (8) devido à escalada de tensões no Golfo Pérsico, que impulsionou o preço do petróleo e reacendeu temores inflacionários.",
+      "mecanismo": "Ataques a instalações energéticas na Arábia Saudita restringem a oferta e elevam o Brent para perto de US$ 100, o que pressiona a inflação e aumenta as expectativas de que o Federal Reserve eleve os juros de política monetária, desencadeando uma fuga de capitais para ativos mais seguros e penalizando as bolsas americanas.",
+      "implicacao": "O setor de energia tende a se beneficiar com a alta dos preços das commodities, enquanto setores sensíveis ao custo de capital, como tecnologia e crescimento, sofrem pressão de venda devido à expectativa de juros mais altos e à incerteza geopolítica.",
+      "risco": "Uma resolução diplomática rápida das tensões no Oriente Médio ou dados de inflação mais fracos do que o esperado poderiam derrubar o preço do petróleo e reduzir as apostas de alta de juros, revertendo a queda nos índices.",
+      "proximo_evento": "Reunião do Comitê Federal do Mercado Aberto (Fomc) em 16 de setembro, onde será definida a nova taxa de juros dos EUA.",
+      "key_numbers": [
+        "S&P 500: -0,37%",
+        "Dow Jones: -0,96%",
+        "Petróleo Brent: ~US$ 97",
+        "Probabilidade de alta de juros (Fomc): 58,4%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Ibovespa salta 2% com avanço de Flávio Bolsonaro nas pesquisas eleitorais; 5 coisas para saber antes de investir hoje (8)",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-8-9-26-apsa/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O Ibovespa registrou alta de 1,61% impulsionado por pesquisas que indicam vantagem de Flávio Bolsonaro sobre Lula no segundo turno, enquanto o dólar recuou para R$ 5,09.",
+      "mecanismo": "A percepção de mudança no cenário político eleitoral gera otimismo no mercado acionário brasileiro, que interpreta a liderança de Flávio Bolsonaro como um sinal favorável para a agenda econômica ou redução de incertezas regulatórias, atraindo fluxo de capital para ações e pressionando o câmbio para baixo.",
+      "implicacao": "O setor bancário e empresas de infraestrutura tendem a se beneficiar com a valorização do índice e a desvalorização do dólar, pois a estabilidade política percebida reduz o prêmio de risco da moeda e melhora a avaliação de ativos sensíveis ao risco país.",
+      "risco": "A volatilidade política pode se intensificar com os desdobramentos jurídicos no STF envolvendo a Polícia Federal e o Banco Master, o que poderia inverter rapidamente o sentimento de mercado e pressionar o dólar para cima.",
+      "proximo_evento": "Divulgação de novas pesquisas eleitorais e a sessão extraordinária da Segunda Turma do STF convocada pelo ministro André Mendonça para avaliar o afastamento de diretores da PF.",
+      "key_numbers": [
+        "Ibovespa: 188.126,44 pontos",
+        "Dólar: R$ 5,0902",
+        "Intenção de voto Flávio: 46%",
+        "Intenção de voto Lula: 45%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bitmine buys 28k ETH, completes 97% of treasury accumulation goal",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/news/bitmine-buys-28k-eth-completes-97-treasury-goal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "A Bitmine adquiriu 28 mil ETH, atingindo 97% de sua meta de acumular 5% da oferta total do Ether, consolidando-se como a maior detentora corporativa pública do ativo.",
+      "mecanismo": "A compra agressiva de um grande player institucional reduz a oferta disponível no mercado secundário, criando pressão de demanda estrutural; ao mesmo tempo, a estratégia de staking gera receita passiva anualizada que subsidia os custos de manutenção do tesouro, independentemente da volatilidade de curto prazo do preço.",
+      "implicacao": "Para a classe de ativos de Layer 1, especificamente Ethereum, a entrada de grandes tesouros corporativos tende a aumentar a escassez relativa e a legitimidade institucional, o que pode reduzir a volatilidade de longo prazo e atrair fluxos de capital de fundos tradicionais que buscam exposição a criptoativos com lastro em receita de staking.",
+      "risco": "A queda de 16% no preço do ETH em 2026 e as perdas não realizadas de US$ 5,1 bilhões podem forçar a empresa a revisar sua estratégia ou vender ativos para cobrir dívidas se a valorização não reverter, invalidando a tese de suporte de preço via escassez.",
+      "proximo_evento": "O anúncio oficial de conclusão dos 100% da meta de acumulação de 5% da oferta do ETH pela Bitmine.",
+      "key_numbers": [
+        "ETH adquirido: 28.086",
+        "Meta atingida: 97%",
+        "Perda não realizada: US$ 5,1 bilhões",
+        "Receita anualizada staking: US$ 330 milhões"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Capital B adds 376 Bitcoin in $29M purchase, boosting holdings to 3,521 BTC",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/news/capital-b-adds-376-bitcoin-in-29m-purchase-holdings-reach-3521-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "A Capital B ampliou sua reserva de Bitcoin em 376 unidades por cerca de US$ 29,5 milhões, ultrapassando a H100 Group e consolidando-se como a 25ª maior detentora corporativa pública de BTC.",
+      "mecanismo": "A compra foi financiada por uma captação de capital de US$ 35 milhões, demonstrando que empresas de tesouraria em Bitcoin continuam a utilizar emissão de ações para acumular ativos digitais, o que aumenta a demanda estrutural por BTC e reduz a oferta disponível no mercado à vista.",
+      "implicacao": "O setor de empresas de tesouraria em Bitcoin tende a se beneficiar, pois a entrada contínua de capital institucional via veículos públicos cria um suporte de preço e valida a tese de reserva de valor, atraindo mais investidores institucionais para a classe de ativos cripto.",
+      "risco": "Se o preço do Bitcoin cair significativamente abaixo do custo médio de aquisição das empresas, pode haver pressão para vendas de cobertura ou perda de confiança dos acionistas, revertendo o fluxo de acumulação.",
+      "proximo_evento": "Monitorar os próximos relatórios trimestrais da Capital B e de outras empresas de tesouraria europeias para verificar se o ritmo de acumulação se mantém ou se há novas captações de capital.",
+      "key_numbers": [
+        "Quantidade adquirida: 376 BTC",
+        "Valor da compra: US$ 29,5 milhões",
+        "Total de reservas: 3.521 BTC",
+        "Custo médio por BTC: 67.182 euros"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Intel, AMD among market cap stock movers on Tuesday",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/intel-amd-among-market-cap-stock-movers-on-tuesday-93CH-4891982",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "O texto fornecido contém apenas o título e a indicação da fonte, sem o corpo da notícia, impossibilitando a extração de fatos específicos sobre a movimentação de mercado.",
+      "mecanismo": "Sem o texto completo, não é possível identificar a cadeia causal, os motivos da variação de market cap ou o contexto econômico que levou ao movimento das ações da Intel e AMD.",
+      "implicacao": "Na ausência de dados, não se pode inferir implicações setoriais ou de classe de ativo derivadas deste evento específico.",
+      "risco": "A ausência de informação no texto fonte invalida qualquer análise de risco ou cenário contrário baseada neste input.",
+      "proximo_evento": "Não é possível determinar o próximo gatilho sem o conteúdo da notícia original.",
+      "key_numbers": [],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "UDR: 10% To 13% Annual Total Return Potential",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4943800-udr-10-percent-to-13-percent-annual-total-return-potential?source=feed_all_articles",
+      "categorias": [
+        "imobiliario"
+      ],
+      "resumo": "Analista projeta retorno anual total de 10% a 13% para a UDR, baseado em padrões quantitativos e qualitativos identificados em sua pesquisa independente.",
+      "mecanismo": "A tese de investimento sustenta-se na identificação de padrões únicos de valorização e fundamentos sólidos da empresa, sugerindo que o ativo está subvalorizado em relação ao seu potencial de geração de caixa e crescimento, o que deve se refletir na apreciação do preço das ações e dividendos.",
+      "implicacao": "Para o setor de REITs (Real Estate Investment Trusts), a identificação de oportunidades com margem de segurança e potencial de retorno superior à média do mercado tende a atrair capital de investidores focados em valor, pressionando positivamente os ativos que demonstram resiliência operacional e fluxo de caixa estável.",
+      "risco": "A projeção de retorno é uma estimativa baseada em análise histórica e modelos do autor, não garantindo resultados futuros, e a entrada de posição do analista pode não refletir a visão de consenso do mercado.",
+      "proximo_evento": "Monitorar a possível entrada de posição comprada pelo autor nos próximos 72 horas, conforme divulgado no disclosure, como sinal de convicção na tese.",
+      "key_numbers": [
+        "Retorno potencial anual: 10% a 13%",
+        "Prazo de possível compra pelo autor: 72 horas"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Notícias sobre investimentos e o mercado financeiro | Bora Investir",
+      "source": "Bora Investir",
+      "link": "https://borainvestir.b3.com.br/noticias/",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "O Boletim Focus indica uma redução nas expectativas de inflação para 5% em 2026, enquanto a projeção de crescimento do PIB se mantém estável em torno de 1,93%.",
+      "mecanismo": "A revisão baixa da meta de inflação sugere que a pressão de preços está mais contida do que o mercado antecipava, o que reduz a necessidade de juros reais elevados para ancorar as expectativas, criando um ambiente macroeconômico menos hostil para ativos de renda variável e fixa sensíveis à taxa real.",
+      "implicacao": "Com a inflação projetada em patamar mais baixo, a classe de ativos de renda fixa atrelada ao IPCA tende a ter menor prêmio de risco, enquanto o setor de crédito e imobiliário pode se beneficiar da perspectiva de juros nominais mais amigáveis no médio prazo.",
+      "risco": "Uma aceleração inesperada da inflação ou uma deterioração súbita do cenário externo (como tensões geopolíticas no Oriente Médio) pode forçar uma revisão alta das expectativas, invalidando a tese de juros em queda.",
+      "proximo_evento": "Publicação dos dados oficiais de inflação (IPCA) e indicadores de atividade econômica subsequentes que validarão ou refutarão as novas projeções do Focus.",
+      "key_numbers": [
+        "Inflação projetada: 5%",
+        "PIB projetado: 1,93%",
         "Dólar: R$ 5,13",
-        "Bitcoin: US$ 78.544"
+        "Recuo Ibovespa: 0,02%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Bolsas da Ásia fecham majoritariamente em baixa e Xangai tem leve alta após superávit comercial",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-majoritariamente-em-baixa-e-xangai-tem-leve-alta-apos-superavit-comercial-fets/",
+      "title": "Notícias para o investidor de fundos imobiliários",
+      "source": "clubefiinews.com.br",
+      "link": "https://www.clubefiinews.com.br",
       "categorias": [
-        "exterior"
+        "imobiliario"
       ],
-      "resumo": "As bolsas asiáticas encerraram em queda generalizada, exceto Xangai, que registrou leve alta impulsionada por dados positivos de exportação da China, enquanto o Japão sofreu com a valorização do iene e a alta do petróleo.",
-      "mecanismo": "O superávit comercial chinês em agosto, embora abaixo da expectativa, confirmou a aceleração das exportações, especialmente em infraestrutura de IA, o que sustentou o índice de Xangai; simultaneamente, a apreciação do iene pressionou as ações de exportadores japoneses, como relógios, e a alta do petróleo adicionou custos de produção, gerando aversão a risco na região.",
-      "implicacao": "Setores de tecnologia e infraestrutura de IA na China tendem a se beneficiar do forte desempenho exportador, enquanto empresas exportadoras japonesas e setores sensíveis a custos de energia podem enfrentar pressão de margens devido ao iene forte e ao petróleo alto.",
-      "risco": "O raciocínio pode ser invalidado se as tensões comerciais levarem a retaliações tarifárias imediatas contra a China ou se a alta do petróleo se intensificar, estrangulando a demanda global e a lucratividade corporativa.",
-      "proximo_evento": "Monitorar a reação dos mercados às tensões comerciais decorrentes do aumento dos embarques chineses e os próximos dados de inflação e juros nos EUA, que influenciam o dólar e o petróleo.",
+      "resumo": "O setor de galpões logísticos atinge recorde de valorização com média de R$ 30/m² e receita de locações crescendo 20%, enquanto a saída de estrangeiros e investigações judiciais pressionam a ocupação de escritórios em SP e Campinas.",
+      "mecanismo": "A alta demanda por logística impulsiona os preços de transação e receitas do setor, criando um efeito de refúgio de qualidade; simultaneamente, a desocupação em escritórios decorre de falências corporativas e reestruturações de multinacionais, fragmentando a demanda por espaço corporativo tradicional.",
+      "implicacao": "Fundos imobiliários do segmento logístico tendem a se beneficiar com a valorização dos ativos e crescimento de receita, enquanto FIIs de escritórios podem enfrentar pressão sobre vacância e renovação de contratos devido à redução da demanda corporativa.",
+      "risco": "Uma desaceleração abrupta do comércio exterior ou novas ondas de falências corporativas podem inverter a tendência de alta nos galpões e agravar a vacância em escritórios além do esperado.",
+      "proximo_evento": "Conclusão da aquisição da Navi Real Estate Selection pela Vinci, prevista para o fim de 2026, e novos dados de ocupação nos bairros afetados pelas investigações.",
       "key_numbers": [
-        "Superávit China Ago: US$ 119,1 bi",
-        "Queda Nikkei: 1,7%",
-        "Alta Xangai: 0,2%",
-        "Queda Kospi: 0,58%"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Tempo real: Ibovespa começa a semana de olho no Focus e na inflação no atacado",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/tempo-real-8-9-26-apsa-lils/",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "O mercado brasileiro retoma as negociações com foco na inflação no atacado e no Boletim Focus, enquanto o petróleo se aproxima da marca de US$ 100 e a volatilidade política eleitoral permanece em alta.",
-      "mecanismo": "A agenda macroeconômica local (IGP-DI e Focus) define o tom para a curva de juros e câmbio, enquanto a alta do petróleo pressiona a inflação de serviços e bens, mas beneficia as receitas das petrolíferas; simultaneamente, a incerteza sobre os resultados eleitorais em estados-chave como Minas Gerais e Ceará gera cautela nos fluxos de capital estrangeiro.",
-      "implicacao": "Setores sensíveis a juros, como imobiliário e varejo, tendem a sofrer com a cautela se a inflação no atacado vier acima do esperado, enquanto o setor de energia e commodities pode se beneficiar do preço elevado do petróleo, desde que a demanda global não entre em recessão.",
-      "risco": "Uma surpresa inflacionária alta no IGP-DI combinada com resultados eleitorais que aumentem a percepção de risco político pode inverter a tendência de alta do Ibovespa em dólar e pressionar o real.",
-      "proximo_evento": "Divulgação oficial do Boletim Focus e do índice IGP-DI nesta terça-feira (8).",
-      "key_numbers": [
-        "Petróleo Brent: US$ 98,72",
-        "Bitcoin: US$ 78.544,73",
-        "Ibovespa em dólar (EWZ): US$ 38,30",
-        "Intenção de voto Cleitinho (MG): 31%"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Petróleo sobe com riscos de conflito prolongado no Oriente Médio pressionando oferta",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/petroleo-sobe-com-riscos-de-conflito-prolongado-no-oriente-medio-pressionando-oferta-fets/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "Os preços do petróleo Brent e WTI atingiram máximas de semanas devido ao aumento do risco de um conflito prolongado entre EUA e Irã, que ameaça restringir a oferta global.",
-      "mecanismo": "A escalada militar, incluindo ataques a petroleiros e ameaças ao Estreito de Ormuz, eleva a probabilidade de interrupções logísticas no Golfo Pérsico; essa restrição de oferta, somada ao medo de uma 'guerra econômica', pressiona os preços futuros para cima conforme os agentes de mercado precificam a escassez esperada até 2027.",
-      "implicacao": "Com a expectativa de preços elevados de petróleo, o setor de energia tende a se beneficiar financeiramente, já que receitas maiores compensam custos operacionais, enquanto setores intensivos em combustível, como aviação e transporte, podem sofrer com margens apertadas devido ao aumento dos insumos.",
-      "risco": "Um acordo diplomático rápido ou uma desescalada imediata das hostilidades entre EUA e Irã poderia reverter a percepção de risco de oferta, fazendo os preços do petróleo recuarem abruptamente.",
-      "proximo_evento": "Monitorar novas ações militares ou diplomáticas envolvendo EUA e Irã, bem como dados de tráfego marítimo no Estreito de Ormuz e atualizações de previsões de bancos como Goldman Sachs e ANZ para o final de 2026 e início de 2027.",
-      "key_numbers": [
-        "Brent: US$ 98,75",
-        "WTI: US$ 94,27",
-        "Previsão Brent Dez/26 (Goldman): US$ 85",
-        "Previsão WTI 2027 (Goldman): US$ 75"
+        "Preço médio galpões: R$ 30/m²",
+        "Crescimento receita locações: 20%",
+        "Área desocupada escritórios: 38 mil m²",
+        "Valorização Ifix: +0,65%"
       ],
       "sentiment": "up"
-    },
-    {
-      "title": "Moedas Globais: dólar opera em queda com força do iene em sessão limitada por feriado nos EUA",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/moedas-globais-dolar-opera-em-queda-com-forca-do-iene-em-sessao-limitada-por-feriado-nos-eua/",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O dólar enfraqueceu frente ao iene e outras moedas fortes em uma sessão de baixa liquidez marcada pelo feriado nos EUA, com o iene superando patamares anteriores de intervenção cambial.",
-      "mecanismo": "A queda do dólar é impulsionada pela força do iene, que se beneficia de expectativas de um ciclo de aperto monetário mais acelerado pelo Banco do Japão e ajustes de portfólio, enquanto o euro ganha com a antecipação de alta de juros pelo BCE, tudo isso amplificado pela reduzida liquidez devido ao feriado americano.",
-      "implicacao": "A desvalorização do dólar tende a beneficiar ativos denominados em moedas estrangeiras e commodities precificadas em dólar, como o petróleo, já que a moeda americana mais fraca reduz o custo relativo desses ativos para investidores de outras moedas.",
-      "risco": "Um acordo diplomático ou econômico significativo entre EUA e Japão poderia frear a alta do iene, mantendo a taxa de câmbio na faixa de 155-160 ienes por dólar e invalidando a tese de uma queda imediata abaixo de 150.",
-      "proximo_evento": "Divulgação do índice de preços ao consumidor (CPI) dos EUA na sexta-feira, que servirá como principal indicador antes da decisão do Federal Reserve.",
-      "key_numbers": [
-        "Dólar/Yen: 154,38",
-        "Euro/Dólar: 1,1623",
-        "DXY: 98,926",
-        "Queda DXY: 0,25%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Petróleo encosta nos US$ 100 com novo fator de risco no Oriente Médio; entenda",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/petroleo-encosta-nos-us-100-com-novo-fator-de-risco-no-oriente-medio-entenda/",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O petróleo Brent e WTI se aproximam da marca de US$ 100 por barril impulsionados por ataques a instalações da Saudi Aramco e pela escalada de tensões militares entre EUA e Irã no Oriente Médio.",
-      "mecanismo": "Os ataques diretos à infraestrutura de produção na Arábia Saudita, somados às ameaças iranianas de restringir o trânsito no Estreito de Ormuz, criam um medo concreto de interrupção física no fornecimento global, o que pressiona os preços para cima devido à expectativa de escassez imediata.",
-      "implicacao": "O setor de energia e empresas exploradoras de petróleo tendem a se beneficiar com a valorização das receitas, enquanto setores intensivos em transporte e logística enfrentam pressão sobre os custos operacionais devido à alta do combustível.",
-      "risco": "Uma rápida desescalada diplomática ou a confirmação de que os danos à infraestrutura são menores do que o esperado pode reverter a narrativa de escassez e derrubar os preços rapidamente.",
-      "proximo_evento": "Monitorar a evolução do tráfego marítimo no Estreito de Ormuz e possíveis novas escaladas militares ou declarações oficiais sobre a segurança dos corredores de navegação.",
-      "key_numbers": [
-        "Brent (fechamento): US$ 97,00",
-        "WTI (intradia): US$ 92,68",
-        "Queda tráfego Ormuz: 28%",
-        "Limite Canal Panamá: 27 navios/dia"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "New Bitcoin whales spark sell-side risk as unrealized gains hit $9B",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/new-bitcoin-whales-spark-sell-side-risk-as-unrealized-gains-hit-9b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "Baleias de curto prazo acumularam lucros não realizados recorde de US$ 9 bilhões, elevando o risco de vendas defensivas, enquanto as reservas da Binance atingem máximas de dois anos.",
-      "mecanismo": "A concentração histórica de lucros não realizados em carteiras de curto prazo (custo base próximo a US$ 69.000) cria uma pressão vendedora latente, pois esses investidores especulativos são sensíveis a pequenas quedas de preço e tendem a realizar lucros rapidamente; simultaneamente, o aumento das reservas na Binance indica oferta disponível para venda, exigindo forte demanda de ETFs para superar a resistência em US$ 83.000.",
-      "implicacao": "O setor de criptoativos, especificamente o Bitcoin, tende a enfrentar volatilidade de baixa ou consolidação lateral, pois a pressão vendedora de baleias de curto prazo e a alta oferta nas exchanges dificultam rupturas de alta sustentadas sem um influxo massivo de capital institucional.",
-      "risco": "A tese de pressão vendedora pode ser invalidada se houver uma entrada abrupta e massiva de demanda orgânica ou via ETFs que absorva rapidamente a oferta disponível nas exchanges, neutralizando a intenção de venda das baleias.",
-      "proximo_evento": "Monitorar a capacidade de absorção de demanda spot por ETFs e a reação do preço do Bitcoin a flutuações próximas da faixa de US$ 83.000 para validar se a oferta das exchanges será consumida ou se pressionará o preço para baixo.",
-      "key_numbers": [
-        "Lucros não realizados STH: US$ 9,07 bilhões",
-        "Custo base STH: US$ 69.000",
-        "Reservas Binance: 691.658 BTC",
-        "Resistência chave: US$ 83.000"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Bitcoin chips away at weekend upside as $80K hangs in the balance",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-chips-away-at-weekend-upside-as-80k-hangs-in-the-balance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O Bitcoin recuou 2% para abaixo de US$ 80.000 devido à baixa liquidez do feriado americano, mantendo-se em uma faixa lateral resiliente após o fechamento semanal mais alto desde maio.",
-      "mecanismo": "A queda de liquidez durante o Labor Day ampliou a volatilidade de curto prazo e provocou liquidações equilibradas, enquanto o mercado adota postura de espera por dados macroeconômicos que definirão as expectativas de juros do Fed, impedindo uma direção clara até então.",
-      "implicacao": "Ativos de risco, incluindo criptomoedas, tendem a experimentar uma ruptura de volatilidade significativa, pois a compressão atual indica que o preço está aguardando clareza sobre a política monetária para definir a próxima tendência direcional.",
-      "risco": "Uma leitura de inflação mais alta que o esperado pode reforçar as expectativas de manutenção ou aumento dos juros, pressionando negativamente ativos sensíveis a taxas de juros como o Bitcoin.",
-      "proximo_evento": "Divulgação dos dados de inflação dos EUA, agendados para quinta e sexta-feira desta semana.",
-      "key_numbers": [
-        "Preço BTC: abaixo de US$ 80.000",
-        "Queda diária: 2%",
-        "Liquidações 24h: US$ 178 milhões",
-        "Influxo ETF: US$ 730 milhões"
-      ],
-      "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
-    "renda_fixa": [
-      "Fluxos de fundos em Bitcoin indicam que investidores estão ajustando posições com base no caminho das taxas do Fed, e não saindo do mercado.",
-      "A agenda da semana para Bitcoin inclui a intervenção no iene e a divulgação de dados de inflação dos EUA.",
-      "Títulos de curto prazo indexados à inflação (STIP) ainda mantêm mérito de investimento."
-    ],
+    "renda_fixa": [],
     "acoes": [
-      "A Rico retirou Vale (VALE3) e Itaú (ITUB4) de sua carteira de dividendos e incluiu Iguatemi (IGTI11) e Localiza (RENT3), citando a redução do dividend yield esperado.",
-      "A XP Investimentos adicionou a Direcional (DIRR3) com 5% de peso à sua carteira de small caps para setembro, apoiada por múltiplo atrativo e exposição ao programa Minha Casa Minha Vida.",
-      "O Andbank retirou Cemig (CMIG4) e incluiu Suzano (SUZB3) em sua carteira de ações de setembro, refletindo a volatilidade diante das eleições presidenciais brasileiras e decisões econômicas internacionais.",
-      "O índice Nifty 50 da Índia fechou em baixa de 0,61% ao final do pregão."
+      "A Ágora Investimentos recomenda a compra de Prio (PRIO3) e a venda de Engie (EGIE3) para day trade nesta terça-feira (8), apontando um potencial de ganho de 1,43% para a Prio com stop sugerido em R$ 59,89.",
+      "O BB Investimentos recomenda a compra de Sabesp (SBSP3) na abertura do pregão desta terça-feira (8), baseada em expectativa de movimento de alta rastreado por algoritmo.",
+      "O Santander retirou o Bradesco (BBDC4) de sua Carteira Valor para setembro e incluiu o Itaú Unibanco (ITUB4), mantendo visão construtiva sobre o Bradesco apesar da saída da carteira.",
+      "O Ibovespa futuro iniciou o pregão desta terça-feira (8) com alta de 1,58%, aos 190.500 pontos, impulsionado pela vantagem de Flávio Bolsonaro sobre Lula em pesquisas para eventual segundo turno, enquanto o dólar caiu para R$ 5,1102."
     ],
     "cripto": [
-      "Atores identificados como 'white hats' retiraram 4000 BTC da exchange Liquid, enquanto os ETFs de Bitcoin registraram os maiores fluxos de entrada de 2026.",
-      "Os mesmos atores devolveram 270 milhões de dólares em Bitcoin à medida que a rede Liquid se prepara para reiniciar suas operações.",
-      "A Ethereum Foundation designou duas Propostas de Melhoria do Ethereum (EIPs) como obrigatórias para a atualização Hegotá.",
-      "A empresa Capital B adquiriu 376 Bitcoin por 29 milhões de dólares, elevando suas reservas totais para 3.521 BTC."
+      "O Bitcoin testa a resistência dos US$ 80 mil enquanto o mercado avalia o movimento de fim de semana.",
+      "Há um debate em aberto sobre se a volatilidade do Bitcoin o torna inadequado para investimentos de aposentadoria.",
+      "A Circle adquiriu a Tazapay para expandir suas capacidades de pagamentos transfronteiriços com USDC.",
+      "A Ethereum Foundation identificou dois EIPs como obrigatórios para a atualização Hegotá."
     ],
     "debentures": [],
     "exterior": [
-      "As ações da Índia encerraram a negociação em baixa, com o índice Nifty 50 recuando 0,61%.",
-      "Após uma queda de 18% nas ações de semicondutores durante o verão, o Citi questiona qual será o próximo movimento do setor.",
-      "As tarifas impostas pelo Canadá entraram em vigor, conforme destacado no podcast Wall Street Breakfast.",
-      "A maioria dos grandes bancos europeus superou as previsões de analistas para o lucro do segundo trimestre."
+      "As ações da Freeport-McMoRan subiram com o cobre atingindo um recorde de US$ 14.694 por tonelada.",
+      "Um artigo argumenta que a Nvidia é uma compra atraente e pede para cessar os discursos sobre bolha.",
+      "Os mercados se movem para baixo devido ao aumento nos preços do petróleo.",
+      "A posição comercial global está remodelando a inflação, os rendimentos e a compensação risco-retorno."
     ],
     "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário de renda fixa global é marcado pela tensão entre a força do iene, impulsionada por expectativas de aperto monetário no Japão, e a queda do dólar devido à reduzida liquidez nos EUA. Investidores devem monitorar de perto a divulgação do índice de preços ao consumidor (CPI) dos EUA, que servirá como principal indicador antes da decisão do Federal Reserve, enquanto a volatilidade no petróleo, com preços encostando em US$ 100 devido a riscos geopolíticos no Oriente Médio, adiciona pressão inflacionária ao ambiente macroeconômico.",
-    "acoes": "Enquanto o cenário geopolítico no Oriente Médio pressiona o petróleo para cima e o Ibovespa em dólar demonstra resiliência, investidores devem monitorar os dados de inflação da China e novas ações militares que podem alterar a percepção de risco global. No mercado interno, as mudanças nas carteiras recomendadas por corretoras como Rico, XP e Andbank sinalizam uma rotação de ativos em resposta à volatilidade eleitoral e ajustes nos yields, com destaque para a entrada de nomes como Suzano e Direcional e a saída de Vale, Itaú e Cemig.",
-    "cripto": "O mercado de Bitcoin enfrenta uma dinâmica complexa onde a pressão vendedora de grandes detentores com lucros não realizados e a oferta nas exchanges contrastam com os robustos fluxos de entrada nos ETFs e compras corporativas, como a recente da Capital B. Enquanto a volatilidade de curto prazo é influenciada pela baixa liquidez e pela expectativa pelos dados de inflação dos EUA, eventos específicos como a devolução de fundos na rede Liquid e o foco técnico na atualização Hegotá do Ethereum adicionam camadas de atenção operacional e de desenvolvimento. O equilíbrio entre a resistência em US$ 83.000 e a capacidade de absorção da demanda institucional será crucial para definir a direção do preço antes da divulgação dos dados macroeconômicos.",
+    "renda_fixa": "Com a revisão baixa da meta de inflação indicando pressões de preços mais contidas e um ambiente macroeconômico menos hostil, o foco para a categoria de Renda Fixa permanece na validação dessas novas projeções. O próximo passo crítico será acompanhar a publicação dos dados oficiais de inflação (IPCA) e os indicadores de atividade econômica subsequentes, que definirão se as expectativas de juros reais mais baixos se consolidam ou são refutadas.",
+    "acoes": "O mercado acionário brasileiro reage positivamente às mudanças no cenário eleitoral, com o Ibovespa e o dólar refletindo a percepção de redução de incertezas regulatórias e a liderança de Flávio Bolsonaro nas pesquisas. Paralelamente, movimentos específicos de desalavancagem, como a expectativa de venda de ativos pela CSN, e ajustes nas carteiras de grandes bancos, como a troca do Bradesco pelo Itaú no Santander, indicam uma reavaliação setorial e de risco pelos investidores. O foco permanece na confirmação desses fluxos através de novos dados eleitorais e na divulgação de detalhes concretos sobre as estratégias corporativas anunciadas.",
+    "cripto": "Enquanto empresas como Bitmine e Capital B continuam a reduzir a oferta disponível através de estratégias agressivas de tesouraria em Bitcoin e Ethereum, o mercado de varejo enfrenta dilemas sobre a volatilidade do BTC em níveis próximos a US$ 80 mil e sua adequação para aposentadoria. Paralelamente, o ecossistema de stablecoins se fortalece com a aquisição da Tazapay pela Circle para pagamentos globais, e a rede Ethereum avança tecnicamente com a definição de melhorias essenciais para a atualização Hegotá.",
     "debentures": "",
-    "exterior": "Os mercados globais enfrentam volatilidade com a aversão a risco na Ásia, impulsionada pela apreciação do iene e custos elevados de petróleo, enquanto a Índia registra perdas e o setor de semicondutores busca direção após forte correção. No Ocidente, a implementação das tarifas canadenses adiciona incerteza comercial, contrastando com o desempenho robusto dos bancos europeus que superaram expectativas de lucro. O foco permanece na reação dos mercados às tensões comerciais e aos dados macroeconômicos dos EUA, que influenciam diretamente o dólar e os fluxos de capital.",
-    "imobiliario": ""
+    "exterior": "O mercado internacional enfrenta pressão descendente impulsionada pela alta do petróleo, que atinge patamares elevados devido a tensões no Golfo e restringe a oferta, elevando as expectativas de juros pelo Federal Reserve na reunião de 16 de setembro. Paralelamente, a volatilidade se reflete em setores específicos, com o cobre atingindo recordes históricos e impulsionando mineradoras, enquanto debates sobre valuations de tecnologia e a reconfiguração da inflação global devido ao comércio internacional adicionam complexidade ao cenário de risco.",
+    "imobiliario": "O mercado imobiliário apresenta uma dinâmica bifurcada, com o setor de logística atuando como refúgio de qualidade devido à alta demanda, enquanto escritórios enfrentam desocupação por reestruturações corporativas. Investidores devem monitorar a conclusão da aquisição da Navi Real Estate Selection pela Vinci até o fim de 2026 e os novos dados de ocupação, além de observar a possível entrada de posição comprada na UDR nos próximos 72 horas como sinal de convicção na tese de valorização."
   }
 }
