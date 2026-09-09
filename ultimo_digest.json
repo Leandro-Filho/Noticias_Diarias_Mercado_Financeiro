@@ -1,158 +1,185 @@
 {
-  "gerado_em": "2026-09-08T15:16:10.417499+00:00",
+  "gerado_em": "2026-09-09T11:16:06.362382+00:00",
   "itens": [
     {
-      "title": "O que impulsiona a alta de 5% da CSN (CSNA3) nesta terça-feira (8)",
+      "title": "Bolsas da Europa caem com baixa propensão ao risco após Brent superar US$ 100",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/o-que-impulsiona-a-alta-de-5-da-csn-csna3-nesta-terca-feira-8-apsa/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "A CSN sobe na bolsa impulsionada por expectativas de venda de ativos para reduzir dívida e pela nomeação de um novo CEO com histórico positivo, além de um cenário eleitoral que melhora o humor do mercado.",
-      "mecanismo": "A expectativa de venda de ativos como a CSN Cimentos e unidades na Alemanha deve gerar ganhos de até R$ 12,5 bilhões, acelerando o programa de desalavancagem e reduzindo a dívida líquida, o que aumenta a confiança dos investidores; simultaneamente, a liderança de Fabio Schvartsman e o empate técnico nas pesquisas eleitorais reduzem a aversão ao risco, beneficiando ações com beta mais alto.",
-      "implicacao": "O setor siderúrgico e de commodities tende a se beneficiar com a redução da alavancagem das grandes empresas, pois o fortalecimento do balanço patrimonial diminui o risco de crédito e atrai capital para ativos cíclicos sensíveis ao humor do mercado.",
-      "risco": "O processo de venda de ativos pode enfrentar atrasos, avaliações inferiores ao esperado ou rejeição regulatória, invalidando a tese de desalavancagem acelerada e revertendo o otimismo do mercado.",
-      "proximo_evento": "Divulgação de detalhes concretos sobre a estrutura e cronograma das vendas de ativos anunciadas pelo novo CEO e os resultados oficiais das eleições presidenciais.",
-      "key_numbers": [
-        "Alta máxima CSNA3: 5,50%",
-        "Dívida líquida 2T26: R$ 42,1 bilhões",
-        "Alavancagem 2T26: 3,49x",
-        "Ganho esperado com vendas: R$ 12,5 bilhões"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Wall Street opera em queda com tensões no Golfo e alta do petróleo",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-8-9-26-lils/",
+      "link": "https://www.moneytimes.com.br/bolsas-da-europa-caem-com-baixa-propensao-ao-risco-apos-brent-superar-us-100-rens/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "Os índices de Wall Street recuam nesta terça-feira (8) devido à escalada de tensões no Golfo Pérsico, que impulsionou o preço do petróleo e reacendeu temores inflacionários.",
-      "mecanismo": "Ataques a instalações energéticas na Arábia Saudita restringem a oferta e elevam o Brent para perto de US$ 100, o que pressiona a inflação e aumenta as expectativas de que o Federal Reserve eleve os juros de política monetária, desencadeando uma fuga de capitais para ativos mais seguros e penalizando as bolsas americanas.",
-      "implicacao": "O setor de energia tende a se beneficiar com a alta dos preços das commodities, enquanto setores sensíveis ao custo de capital, como tecnologia e crescimento, sofrem pressão de venda devido à expectativa de juros mais altos e à incerteza geopolítica.",
-      "risco": "Uma resolução diplomática rápida das tensões no Oriente Médio ou dados de inflação mais fracos do que o esperado poderiam derrubar o preço do petróleo e reduzir as apostas de alta de juros, revertendo a queda nos índices.",
-      "proximo_evento": "Reunião do Comitê Federal do Mercado Aberto (Fomc) em 16 de setembro, onde será definida a nova taxa de juros dos EUA.",
+      "resumo": "O avanço do conflito entre EUA e Irã elevou o Brent acima de US$ 100, pressionando as bolsas europeias e intensando as preocupações com a inflação na região.",
+      "mecanismo": "A escalada geopolítica restringe a oferta de petróleo, elevando o preço do Brent e do gás natural, o que aumenta os custos de produção e transporte, alimentando a inflação e reduzindo a propensão ao risco dos investidores em ações europeias.",
+      "implicacao": "Setores intensivos em energia e logística, como varejo e transporte, tendem a sofrer margens apertadas devido ao aumento dos custos operacionais, enquanto ativos defensivos ou ligados à energia podem atrair fluxo em busca de proteção contra a inflação.",
+      "risco": "Uma resolução diplomática rápida ou uma queda na demanda global poderia reverter a alta dos commodities e aliviar a pressão inflacionária, invalidando a tese de manutenção de juros altos ou queda acentuada nos ativos de risco.",
+      "proximo_evento": "Decisão de política monetária do Banco Central Europeu (BCE).",
       "key_numbers": [
-        "S&P 500: -0,37%",
-        "Dow Jones: -0,96%",
-        "Petróleo Brent: ~US$ 97",
-        "Probabilidade de alta de juros (Fomc): 58,4%"
+        "Brent: US$ 100,59",
+        "Stoxx 600: -0,8%",
+        "Gás Natural TTF: +3,8%",
+        "Inditex: -4,2%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Ibovespa salta 2% com avanço de Flávio Bolsonaro nas pesquisas eleitorais; 5 coisas para saber antes de investir hoje (8)",
+      "title": "Guerra volta ao radar, petróleo acima dos US$ 100 e agenda abre espaço para volatilidade; Ibovespa em dólar cai nesta quarta-feira (9)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-8-9-26-apsa/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Ibovespa registrou alta de 1,61% impulsionado por pesquisas que indicam vantagem de Flávio Bolsonaro sobre Lula no segundo turno, enquanto o dólar recuou para R$ 5,09.",
-      "mecanismo": "A percepção de mudança no cenário político eleitoral gera otimismo no mercado acionário brasileiro, que interpreta a liderança de Flávio Bolsonaro como um sinal favorável para a agenda econômica ou redução de incertezas regulatórias, atraindo fluxo de capital para ações e pressionando o câmbio para baixo.",
-      "implicacao": "O setor bancário e empresas de infraestrutura tendem a se beneficiar com a valorização do índice e a desvalorização do dólar, pois a estabilidade política percebida reduz o prêmio de risco da moeda e melhora a avaliação de ativos sensíveis ao risco país.",
-      "risco": "A volatilidade política pode se intensificar com os desdobramentos jurídicos no STF envolvendo a Polícia Federal e o Banco Master, o que poderia inverter rapidamente o sentimento de mercado e pressionar o dólar para cima.",
-      "proximo_evento": "Divulgação de novas pesquisas eleitorais e a sessão extraordinária da Segunda Turma do STF convocada pelo ministro André Mendonça para avaliar o afastamento de diretores da PF.",
-      "key_numbers": [
-        "Ibovespa: 188.126,44 pontos",
-        "Dólar: R$ 5,0902",
-        "Intenção de voto Flávio: 46%",
-        "Intenção de voto Lula: 45%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Bitmine buys 28k ETH, completes 97% of treasury accumulation goal",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/bitmine-buys-28k-eth-completes-97-treasury-goal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "A Bitmine adquiriu 28 mil ETH, atingindo 97% de sua meta de acumular 5% da oferta total do Ether, consolidando-se como a maior detentora corporativa pública do ativo.",
-      "mecanismo": "A compra agressiva de um grande player institucional reduz a oferta disponível no mercado secundário, criando pressão de demanda estrutural; ao mesmo tempo, a estratégia de staking gera receita passiva anualizada que subsidia os custos de manutenção do tesouro, independentemente da volatilidade de curto prazo do preço.",
-      "implicacao": "Para a classe de ativos de Layer 1, especificamente Ethereum, a entrada de grandes tesouros corporativos tende a aumentar a escassez relativa e a legitimidade institucional, o que pode reduzir a volatilidade de longo prazo e atrair fluxos de capital de fundos tradicionais que buscam exposição a criptoativos com lastro em receita de staking.",
-      "risco": "A queda de 16% no preço do ETH em 2026 e as perdas não realizadas de US$ 5,1 bilhões podem forçar a empresa a revisar sua estratégia ou vender ativos para cobrir dívidas se a valorização não reverter, invalidando a tese de suporte de preço via escassez.",
-      "proximo_evento": "O anúncio oficial de conclusão dos 100% da meta de acumulação de 5% da oferta do ETH pela Bitmine.",
-      "key_numbers": [
-        "ETH adquirido: 28.086",
-        "Meta atingida: 97%",
-        "Perda não realizada: US$ 5,1 bilhões",
-        "Receita anualizada staking: US$ 330 milhões"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Capital B adds 376 Bitcoin in $29M purchase, boosting holdings to 3,521 BTC",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/capital-b-adds-376-bitcoin-in-29m-purchase-holdings-reach-3521-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "A Capital B ampliou sua reserva de Bitcoin em 376 unidades por cerca de US$ 29,5 milhões, ultrapassando a H100 Group e consolidando-se como a 25ª maior detentora corporativa pública de BTC.",
-      "mecanismo": "A compra foi financiada por uma captação de capital de US$ 35 milhões, demonstrando que empresas de tesouraria em Bitcoin continuam a utilizar emissão de ações para acumular ativos digitais, o que aumenta a demanda estrutural por BTC e reduz a oferta disponível no mercado à vista.",
-      "implicacao": "O setor de empresas de tesouraria em Bitcoin tende a se beneficiar, pois a entrada contínua de capital institucional via veículos públicos cria um suporte de preço e valida a tese de reserva de valor, atraindo mais investidores institucionais para a classe de ativos cripto.",
-      "risco": "Se o preço do Bitcoin cair significativamente abaixo do custo médio de aquisição das empresas, pode haver pressão para vendas de cobertura ou perda de confiança dos acionistas, revertendo o fluxo de acumulação.",
-      "proximo_evento": "Monitorar os próximos relatórios trimestrais da Capital B e de outras empresas de tesouraria europeias para verificar se o ritmo de acumulação se mantém ou se há novas captações de capital.",
-      "key_numbers": [
-        "Quantidade adquirida: 376 BTC",
-        "Valor da compra: US$ 29,5 milhões",
-        "Total de reservas: 3.521 BTC",
-        "Custo médio por BTC: 67.182 euros"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Intel, AMD among market cap stock movers on Tuesday",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/intel-amd-among-market-cap-stock-movers-on-tuesday-93CH-4891982",
+      "link": "https://www.moneytimes.com.br/guerra-volta-ao-radar-petroleo-acima-dos-us-100-e-agenda-abre-espaco-para-volatilidade-ibovespa-em-dolar-cai-nesta-quarta-feira-9-rens/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "O texto fornecido contém apenas o título e a indicação da fonte, sem o corpo da notícia, impossibilitando a extração de fatos específicos sobre a movimentação de mercado.",
-      "mecanismo": "Sem o texto completo, não é possível identificar a cadeia causal, os motivos da variação de market cap ou o contexto econômico que levou ao movimento das ações da Intel e AMD.",
-      "implicacao": "Na ausência de dados, não se pode inferir implicações setoriais ou de classe de ativo derivadas deste evento específico.",
-      "risco": "A ausência de informação no texto fonte invalida qualquer análise de risco ou cenário contrário baseada neste input.",
-      "proximo_evento": "Não é possível determinar o próximo gatilho sem o conteúdo da notícia original.",
-      "key_numbers": [],
-      "sentiment": "neutral"
+      "resumo": "A escalada militar entre EUA e Irã, com ataques mútuos a navios petroleiros, impulsionou o Brent acima de US$ 100, gerando volatilidade e pressionando o Ibovespa em dólar para baixo nesta quarta-feira.",
+      "mecanismo": "O conflito direto na rota marítima ameaça a oferta global de energia, disparando o preço do petróleo e elevando as expectativas de inflação; isso fortalece o dólar como ativo refúgio e aumenta o custo de importação no Brasil, o que tende a valorizar a moeda americana frente ao real e pressionar a bolsa brasileira em termos cambiais.",
+      "implicacao": "O setor de energia e as empresas exportadoras de commodities tendem a se beneficiar com a alta dos preços do petróleo, enquanto o setor de aviação e transporte pode sofrer com o aumento dos custos operacionais e a incerteza cambial.",
+      "risco": "Uma resolução diplomática rápida ou uma queda na demanda global por energia poderia reverter a alta do petróleo e desvalorizar o dólar, invalidando a tese de pressão inflacionária imediata.",
+      "proximo_evento": "Divulgação do fluxo cambial semanal do Brasil e do IC-Br de agosto às 14h30, além do discurso da presidente do BCE, Christine Lagarde, às 14h.",
+      "key_numbers": [
+        "Brent: US$ 100,68",
+        "Ibovespa: 187.366,84 pontos",
+        "Dólar: R$ 5,0858",
+        "Bitcoin: US$ 79.447,11"
+      ],
+      "sentiment": "down"
     },
     {
-      "title": "UDR: 10% To 13% Annual Total Return Potential",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4943800-udr-10-percent-to-13-percent-annual-total-return-potential?source=feed_all_articles",
+      "title": "Bolsas da Ásia fecham mistas e índice sul-coreano Kospi volta acima de 7.000 pontos com IA",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-mistas-e-indice-sul-coreano-kospi-volta-acima-de-7-000-pontos-com-ia-fets/",
       "categorias": [
-        "imobiliario"
+        "acoes"
       ],
-      "resumo": "Analista projeta retorno anual total de 10% a 13% para a UDR, baseado em padrões quantitativos e qualitativos identificados em sua pesquisa independente.",
-      "mecanismo": "A tese de investimento sustenta-se na identificação de padrões únicos de valorização e fundamentos sólidos da empresa, sugerindo que o ativo está subvalorizado em relação ao seu potencial de geração de caixa e crescimento, o que deve se refletir na apreciação do preço das ações e dividendos.",
-      "implicacao": "Para o setor de REITs (Real Estate Investment Trusts), a identificação de oportunidades com margem de segurança e potencial de retorno superior à média do mercado tende a atrair capital de investidores focados em valor, pressionando positivamente os ativos que demonstram resiliência operacional e fluxo de caixa estável.",
-      "risco": "A projeção de retorno é uma estimativa baseada em análise histórica e modelos do autor, não garantindo resultados futuros, e a entrada de posição do analista pode não refletir a visão de consenso do mercado.",
-      "proximo_evento": "Monitorar a possível entrada de posição comprada pelo autor nos próximos 72 horas, conforme divulgado no disclosure, como sinal de convicção na tese.",
+      "resumo": "O Kospi sul-coreano superou a marca de 7.000 pontos impulsionado por expectativas de crescimento econômico derivadas dos investimentos em inteligência artificial, enquanto o restante das bolsas asiáticas apresentou desempenho misto devido à volatilidade nos preços do petróleo.",
+      "mecanismo": "Os investimentos globais contínuos em IA estão gerando um ciclo de alta no setor de semicondutores da Coreia do Sul, o que estimula a manufatura, a construção e o consumo interno; essa dinâmica de 'efeito cascata' levou o Bank of America a revisar para cima suas projeções de PIB para 2026 e 2027, reforçando a confiança dos investidores no mercado local.",
+      "implicacao": "Com a revisão positiva das projeções de crescimento e o fortalecimento do setor de chips, o setor de tecnologia e semicondutores da Coreia do Sul tende a se beneficiar, já que a demanda robusta por hardware de IA sustenta margens e investimentos em capacidade produtiva.",
+      "risco": "O aumento persistente nos preços do petróleo pode elevar os custos de produção e inibir o consumo, invalidando a tese de crescimento robusto e pressionando negativamente os ativos sensíveis a custos energéticos.",
+      "proximo_evento": "Monitorar a materialização dos dados de crescimento do PIB sul-coreano em 2026 e 2027 conforme as novas projeções do Bank of America, além de acompanhar a evolução dos preços do petróleo que continuam pressionando outros mercados asiáticos.",
       "key_numbers": [
-        "Retorno potencial anual: 10% a 13%",
-        "Prazo de possível compra pelo autor: 72 horas"
+        "Kospi: 7.051,64 pontos",
+        "Alta Kospi: 1,4%",
+        "Projeção PIB Coreia 2026: 3,6%",
+        "Projeção PIB Coreia 2027: 2,5%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Notícias sobre investimentos e o mercado financeiro | Bora Investir",
-      "source": "Bora Investir",
-      "link": "https://borainvestir.b3.com.br/noticias/",
+      "title": "Juros futuros recuam com eleições em foco",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/juros-futuros-8-9-26-apsa/",
       "categorias": [
         "renda_fixa"
       ],
-      "resumo": "O Boletim Focus indica uma redução nas expectativas de inflação para 5% em 2026, enquanto a projeção de crescimento do PIB se mantém estável em torno de 1,93%.",
-      "mecanismo": "A revisão baixa da meta de inflação sugere que a pressão de preços está mais contida do que o mercado antecipava, o que reduz a necessidade de juros reais elevados para ancorar as expectativas, criando um ambiente macroeconômico menos hostil para ativos de renda variável e fixa sensíveis à taxa real.",
-      "implicacao": "Com a inflação projetada em patamar mais baixo, a classe de ativos de renda fixa atrelada ao IPCA tende a ter menor prêmio de risco, enquanto o setor de crédito e imobiliário pode se beneficiar da perspectiva de juros nominais mais amigáveis no médio prazo.",
-      "risco": "Uma aceleração inesperada da inflação ou uma deterioração súbita do cenário externo (como tensões geopolíticas no Oriente Médio) pode forçar uma revisão alta das expectativas, invalidando a tese de juros em queda.",
-      "proximo_evento": "Publicação dos dados oficiais de inflação (IPCA) e indicadores de atividade econômica subsequentes que validarão ou refutarão as novas projeções do Focus.",
+      "resumo": "A curva de juros futuros brasileiros recuou em diversos vencimentos, impulsionada pela melhora na percepção de risco político diante das pesquisas eleitorais e por um fluxo estrangeiro mais otimista, enquanto os títulos americanos subiam devido a tensões geopolíticas.",
+      "mecanismo": "O empate técnico nas pesquisas entre Lula e Flávio Bolsonaro reduziu a incerteza sobre o cenário de reformas estruturais, diminuindo o prêmio de risco-país e atraindo fluxo estrangeiro; essa melhora no humor do investidor, somada à expectativa de afrouxamento monetário pela desaceleração da inflação, pressionou os juros futuros para baixo, mesmo com a alta dos Treasuries americanos causada pelo conflito no Oriente Médio.",
+      "implicacao": "A queda nos juros futuros tende a beneficiar a classe de ativos de renda fixa prefixada e o setor imobiliário, pois a redução da curva de juros diminui o custo de financiamento e aumenta o atrativo de títulos com taxa fixa em relação à inflação.",
+      "risco": "Uma escalada abrupta no conflito no Oriente Médio pode elevar o preço do petróleo e a inflação global, revertendo a queda dos juros americanos e pressionando o câmbio, o que poderia anular os ganhos de confiança política no Brasil.",
+      "proximo_evento": "Divulgação de novas pesquisas eleitorais e os resultados dos próximos leilões de títulos do Tesouro Nacional.",
       "key_numbers": [
-        "Inflação projetada: 5%",
-        "PIB projetado: 1,93%",
-        "Dólar: R$ 5,13",
-        "Recuo Ibovespa: 0,02%"
+        "DI jan/2027: 13,575%",
+        "DI jan/2029: 13,815%",
+        "DI jan/2036: 14,015%",
+        "Treasuries 10 anos: 4,792%"
       ],
       "sentiment": "up"
+    },
+    {
+      "title": "Na contramão de NY, Ibovespa sobe 1% com avanço de Flávio nas pesquisas eleitorais; dólar cai a R$ 5,08",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-8-9-26-apsa/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O Ibovespa avançou 1,2% e o dólar recuou para R$ 5,08, impulsionados pelo empate técnico nas pesquisas eleitorais que beneficia o mercado interno, além da alta do petróleo, contrariando a queda dos índices americanos.",
+      "mecanismo": "A convergência nas intenções de voto entre Lula e Flávio Bolsonaro reduz a percepção de risco político institucional no Brasil, atraindo fluxo estrangeiro e fortalecendo a moeda local; simultaneamente, a escalada do conflito no Oriente Médio eleva o preço do petróleo, o que gera ganhos diretos para as ações de energia que compõem o índice, compensando a aversão ao risco global que pressionou Wall Street para baixo.",
+      "implicacao": "O setor de energia tende a se beneficiar com a valorização do barril de petróleo, enquanto o setor imobiliário e as ações sensíveis a juros podem ganhar fôlego devido à queda da curva de juros futuros associada ao alívio do cenário político e cambial.",
+      "risco": "Uma escalada abrupta da crise institucional envolvendo o Judiciário ou uma reversão nas pesquisas eleitorais pode inverter o fluxo de capitais e desvalorizar o real, anulando os ganhos recentes.",
+      "proximo_evento": "Divulgação de novas pesquisas eleitorais e a definição do segundo turno das eleições presidenciais.",
+      "key_numbers": [
+        "Ibovespa: 187.366,84 pontos",
+        "Dólar: R$ 5,0858",
+        "Variação Ibovespa: +1,20%",
+        "Variação Dólar: -0,88%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bitcoin SOPR metric sees longest profit run of 2026 as new analysis challenges bear market",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-sopr-metric-sees-longest-profit-run-of-2026-as-new-analysis-challenges-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O indicador SOPR do Bitcoin registrou sua maior sequência consecutiva acima do ponto de equilíbrio em 2026, sugerindo uma mudança de comportamento de mercado para características de alta, embora analistas mantenham cautela quanto a novos fundos.",
+      "mecanismo": "A permanência do SOPR acima de 1 indica que os detentores de curto prazo estão realizando lucros consistentemente sem forçar vendas desesperadas, o que historicamente sinaliza transição de mercado de baixa para alta; no entanto, a ausência de máximas e mínimas crescentes em gráficos semanais impede a confirmação definitiva da tendência.",
+      "implicacao": "Para a classe de ativos de criptomoedas, especificamente Bitcoin, a validação desse padrão on-chain tende a reduzir a pressão vendedora e atrair fluxo de capital especulativo, pois confirma que a base de investidores está confortável com os preços atuais.",
+      "risco": "A tese de recuperação pode ser invalidada se o preço do Bitcoin romper para novos mínimos macroeconômicos, o que forçaria os detentores a venderem abaixo do custo de aquisição, revertendo o SOPR para território negativo.",
+      "proximo_evento": "Monitorar se o SOPR permanece acima de 1 por um período estendido e se o Bitcoin consegue formar uma série de máximas e mínimas mais altas nos próximos ciclos de preço.",
+      "key_numbers": [
+        "SOPR atual: 1.002",
+        "Duração da sequência: 3 semanas",
+        "Data início sinal: 19 de agosto",
+        "Faixa de preço local: $80.000"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bitcoin faces key support test at $78.3K as US crude oil hits three-month high",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-faces-key-support-test-at-783k-as-us-crude-oil-hits-three-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O Bitcoin testa suporte crítico de $78,3 mil enquanto tensões no Oriente Médio elevam o petróleo a máximos de três meses, pressionando ativos de risco.",
+      "mecanismo": "Os ataques a infraestruturas de petróleo no Oriente Médio dispararam o preço do WTI para perto de $95, alimentando expectativas de inflação e forçando uma fuga de ativos de risco, o que derrubou as ações dos EUA e arrastou o Bitcoin para baixo, testando a validade do suporte técnico que evitou uma queda mais acentuada em maio.",
+      "implicacao": "A classe de ativos de risco, incluindo criptomoedas e ações de tecnologia, tende a sofrer pressão de venda se o suporte de $78,3 mil for rompido, pois isso confirmaria a continuidade do mercado de baixa de 2026 e validaria a correlação negativa com o aumento da inflação e incerteza geopolítica.",
+      "risco": "Um fechamento semanal do Bitcoin abaixo de $78,3 mil poderia confirmar uma quebra de tendência e levar a novos mínimos macroeconômicos, invalidando a tese de estabilização no nível atual.",
+      "proximo_evento": "Divulgação do Índice de Preços ao Consumidor (CPI) dos EUA nesta sexta-feira.",
+      "key_numbers": [
+        "Suporte BTC: $78.300",
+        "Pico WTI: $95",
+        "Mínimo BTC: $77.600",
+        "Queda S&P 500: 0,5%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Allspring Strategic Municipal Bond Fund Q2 2026 Commentary",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4944238-allspring-strategic-municipal-bond-fund-q2-2026-commentary?source=feed_all_articles",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "O fundo STRIX superou seu índice de referência no segundo trimestre de 2026, impulsionado por alocações estratégicas na curva de juros e seleção de crédito, apesar de uma posição de duration neutra que limitou ganhos.",
+      "mecanismo": "A curva de rendimentos de títulos municipais achatou-se durante o período, o que beneficiou a alocação do fundo em títulos de 15 a 20 anos; simultaneamente, a superponderação em títulos de grau A/BBB e setores de receita, combinada com spreads de crédito apertados, gerou alfa em relação ao benchmark.",
+      "implicacao": "Títulos municipais de curto e médio prazo, especialmente aqueles com qualidade de crédito A/BBB e exposição a setores de receita, tendem a oferecer retornos atrativos via renda, já que a volatilidade de juros pode limitar ganhos de capital, favorecendo a seleção ativa de crédito sobre a aposta direcional em duration.",
+      "risco": "Um aumento inesperado na volatilidade dos juros ou uma deterioração nos spreads de crédito poderia invalidar a tese de que a renda será o principal driver, especialmente se a falta de transparência do Fed levar a movimentos bruscos de mercado.",
+      "proximo_evento": "Monitorar a volatilidade dos juros e a transparência das decisões do Federal Reserve, que os gestores citam como fatores que podem aumentar a incerteza e tornar a renda fixa o principal motor de retorno em 2026.",
+      "key_numbers": [
+        "Período analisado: Q2 2026",
+        "Segmento da curva: 15-20 anos",
+        "Classificação de crédito foco: A/BBB",
+        "Duration: Neutra"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Pump The Brakes On American Healthcare REIT",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4944232-pump-the-brakes-on-american-healthcare-reit?source=feed_all_articles",
+      "categorias": [
+        "imobiliario"
+      ],
+      "resumo": "A American Healthcare REIT apresenta uma valorização acelerada desde seu IPO em 2024, mas a análise sugere cautela devido à qualidade inferior dos ativos em comparação aos pares e à diluição significativa do capital social.",
+      "mecanismo": "A alta recente do preço das ações reflete mais a recuperação de perdas históricas do que um crescimento orgânico sustentável, pois a empresa está emitindo novas ações continuamente a preços elevados para financiar expansões, o que dilui o valor por ação e mascara a fraqueza relativa da cobertura de EBITDAR em seus ativos de habitação para idosos.",
+      "implicacao": "O setor de REITs de saúde, especialmente habitação para idosos, tende a sofrer pressão de valuation quando a expansão é financiada por emissões de capital agressivas em vez de geração de caixa interna, já que investidores exigem prêmios de risco maiores para ativos de menor qualidade operacional.",
+      "risco": "A tese de cautela pode ser invalidada se a empresa conseguir integrar as aquisições com eficiência superior ao esperado, elevando a cobertura de EBITDAR e justificando o múltiplo premium através de crescimento de dividendos real.",
+      "proximo_evento": "Monitorar os próximos relatórios trimestrais de ocupação e RevPOR (receita por cama ocupada) para verificar se a qualidade dos ativos está convergindo para a média do setor ou se a diluição continuará a pressionar os fundamentos por ação.",
+      "key_numbers": [
+        "Multiplicação do preço desde IPO: 4.5x",
+        "RevPOR American Healthcare: $5.600",
+        "Cobertura EBITDAR Senior Housing: 1.10x",
+        "Preço de IPO: $12"
+      ],
+      "sentiment": "down"
     },
     {
       "title": "Notícias para o investidor de fundos imobiliários",
@@ -161,49 +188,52 @@
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "O setor de galpões logísticos atinge recorde de valorização com média de R$ 30/m² e receita de locações crescendo 20%, enquanto a saída de estrangeiros e investigações judiciais pressionam a ocupação de escritórios em SP e Campinas.",
-      "mecanismo": "A alta demanda por logística impulsiona os preços de transação e receitas do setor, criando um efeito de refúgio de qualidade; simultaneamente, a desocupação em escritórios decorre de falências corporativas e reestruturações de multinacionais, fragmentando a demanda por espaço corporativo tradicional.",
-      "implicacao": "Fundos imobiliários do segmento logístico tendem a se beneficiar com a valorização dos ativos e crescimento de receita, enquanto FIIs de escritórios podem enfrentar pressão sobre vacância e renovação de contratos devido à redução da demanda corporativa.",
-      "risco": "Uma desaceleração abrupta do comércio exterior ou novas ondas de falências corporativas podem inverter a tendência de alta nos galpões e agravar a vacância em escritórios além do esperado.",
-      "proximo_evento": "Conclusão da aquisição da Navi Real Estate Selection pela Vinci, prevista para o fim de 2026, e novos dados de ocupação nos bairros afetados pelas investigações.",
+      "resumo": "O setor de galpões logísticos atinge recorde de valorização com média de R$ 30/m² e receita de locações crescendo 20%, enquanto a saída de estrangeiros e vacâncias por investigações criam pontos de atenção na demanda corporativa.",
+      "mecanismo": "A alta demanda por logística impulsiona os preços de transação e receitas, refletindo a robustez do e-commerce e da cadeia de suprimentos; contudo, a desocupação de escritórios devido a investigações e a reorganização de multinacionais sinalizam uma possível desaceleração na demanda por imóveis corporativos, criando divergência entre os segmentos.",
+      "implicacao": "Fundos imobiliários do segmento logístico tendem a se beneficiar com a valorização dos ativos e crescimento de receitas, enquanto fundos de escritórios podem enfrentar pressão sobre a ocupação e renovação de contratos devido à saída de inquilinos corporativos.",
+      "risco": "Uma desaceleração mais ampla da economia ou uma onda maior de fechamentos de fábricas por multinacionais pode reduzir a demanda geral por imóveis, invalidando a tese de alta contínua nos preços dos galpões.",
+      "proximo_evento": "Conclusão da aquisição da Navi Real Estate Selection pela Vinci, prevista para o fim de 2026, e novos dados sobre a ocupação de escritórios em São Paulo e Campinas.",
       "key_numbers": [
         "Preço médio galpões: R$ 30/m²",
         "Crescimento receita locações: 20%",
-        "Área desocupada escritórios: 38 mil m²",
-        "Valorização Ifix: +0,65%"
+        "Área desocupada: 38 mil m²",
+        "Variação Ifix: +0,65%"
       ],
       "sentiment": "up"
     }
   ],
   "outras_noticias_por_categoria": {
-    "renda_fixa": [],
+    "renda_fixa": [
+      "O artigo sugere o uso de ETFs de curta duração como estratégia para colocar o dinheiro em caixa a trabalhar."
+    ],
     "acoes": [
-      "A Ágora Investimentos recomenda a compra de Prio (PRIO3) e a venda de Engie (EGIE3) para day trade nesta terça-feira (8), apontando um potencial de ganho de 1,43% para a Prio com stop sugerido em R$ 59,89.",
-      "O BB Investimentos recomenda a compra de Sabesp (SBSP3) na abertura do pregão desta terça-feira (8), baseada em expectativa de movimento de alta rastreado por algoritmo.",
-      "O Santander retirou o Bradesco (BBDC4) de sua Carteira Valor para setembro e incluiu o Itaú Unibanco (ITUB4), mantendo visão construtiva sobre o Bradesco apesar da saída da carteira.",
-      "O Ibovespa futuro iniciou o pregão desta terça-feira (8) com alta de 1,58%, aos 190.500 pontos, impulsionado pela vantagem de Flávio Bolsonaro sobre Lula em pesquisas para eventual segundo turno, enquanto o dólar caiu para R$ 5,1102."
+      "O Ibovespa subiu 1,20% com o dólar caindo para R$ 5,08, enquanto o mercado financeiro reduziu a previsão de inflação para 5% neste ano.",
+      "Após quedas sucessivas em agosto devido a crises de crédito, Selic alta e riscos geopolíticos, o Ibovespa disparou e analistas selecionaram as melhores ações para compra."
     ],
     "cripto": [
-      "O Bitcoin testa a resistência dos US$ 80 mil enquanto o mercado avalia o movimento de fim de semana.",
-      "Há um debate em aberto sobre se a volatilidade do Bitcoin o torna inadequado para investimentos de aposentadoria.",
-      "A Circle adquiriu a Tazapay para expandir suas capacidades de pagamentos transfronteiriços com USDC.",
-      "A Ethereum Foundation identificou dois EIPs como obrigatórios para a atualização Hegotá."
+      "A Block busca uma carta de banco de confiança dos EUA para operar com Bitcoin e stablecoins.",
+      "A Circle adquirirá a Tazapay para expandir os pagamentos transfronteiriços do USDC.",
+      "A Bitmine comprou 28 mil ETH, completando 97% de sua meta de acumulação de tesouraria.",
+      "Novas baleias de Bitcoin geram risco de venda à medida que os ganhos não realizados atingem US$ 9 bilhões."
     ],
     "debentures": [],
     "exterior": [
-      "As ações da Freeport-McMoRan subiram com o cobre atingindo um recorde de US$ 14.694 por tonelada.",
-      "Um artigo argumenta que a Nvidia é uma compra atraente e pede para cessar os discursos sobre bolha.",
-      "Os mercados se movem para baixo devido ao aumento nos preços do petróleo.",
-      "A posição comercial global está remodelando a inflação, os rendimentos e a compensação risco-retorno."
+      "O Ibovespa acompanha os dados do mercado de trabalho dos EUA, especificamente o relatório semanal da ADP, após um número de payroll superior ao esperado na semana anterior.",
+      "Os contratos futuros do petróleo Brent ultrapassaram a marca de US$ 100 por barril nesta quarta-feira (9), pela primeira vez desde 24 de julho, devido às preocupações com o fluxo de petróleo decorrentes da intensificação do conflito no Oriente Médio.",
+      "Setores de criptomoedas e bancos levaram campanhas de lobby aos estados de origem de senadores dos EUA antes de uma votação crucial.",
+      "Seguradoras estão assumindo o papel deixado pelos bancos europeus que se afastam do mercado de imóveis comerciais."
     ],
-    "imobiliario": []
+    "imobiliario": [
+      "O resumo fornecido para o comentário do segundo trimestre de 2026 do abrdn Global Premier Properties Fund está vazio, não contendo informações factuais para síntese.",
+      "O resumo fornecido sobre o setor imobiliário comercial na Europa, indicando que seguradoras estão substituindo bancos, está vazio de detalhes específicos, limitando-se ao título da notícia."
+    ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "Com a revisão baixa da meta de inflação indicando pressões de preços mais contidas e um ambiente macroeconômico menos hostil, o foco para a categoria de Renda Fixa permanece na validação dessas novas projeções. O próximo passo crítico será acompanhar a publicação dos dados oficiais de inflação (IPCA) e os indicadores de atividade econômica subsequentes, que definirão se as expectativas de juros reais mais baixos se consolidam ou são refutadas.",
-    "acoes": "O mercado acionário brasileiro reage positivamente às mudanças no cenário eleitoral, com o Ibovespa e o dólar refletindo a percepção de redução de incertezas regulatórias e a liderança de Flávio Bolsonaro nas pesquisas. Paralelamente, movimentos específicos de desalavancagem, como a expectativa de venda de ativos pela CSN, e ajustes nas carteiras de grandes bancos, como a troca do Bradesco pelo Itaú no Santander, indicam uma reavaliação setorial e de risco pelos investidores. O foco permanece na confirmação desses fluxos através de novos dados eleitorais e na divulgação de detalhes concretos sobre as estratégias corporativas anunciadas.",
-    "cripto": "Enquanto empresas como Bitmine e Capital B continuam a reduzir a oferta disponível através de estratégias agressivas de tesouraria em Bitcoin e Ethereum, o mercado de varejo enfrenta dilemas sobre a volatilidade do BTC em níveis próximos a US$ 80 mil e sua adequação para aposentadoria. Paralelamente, o ecossistema de stablecoins se fortalece com a aquisição da Tazapay pela Circle para pagamentos globais, e a rede Ethereum avança tecnicamente com a definição de melhorias essenciais para a atualização Hegotá.",
+    "renda_fixa": "Com os juros futuros recuando devido à redução da incerteza eleitoral e à expectativa de afrouxamento monetário no Brasil, enquanto nos EUA a curva de rendimentos municipais se achata e spreads de crédito se apertam, o investidor deve monitorar as novas pesquisas eleitorais e os leilões do Tesouro Nacional, além da volatilidade dos juros e das decisões do Federal Reserve, considerando estratégias como ETFs de curta duração para otimizar a alocação de caixa.",
+    "acoes": "O mercado brasileiro reage positivamente à convergência eleitoral e à redução da percepção de risco institucional, impulsionando o Ibovespa e fortalecendo o real frente ao dólar. Simultaneamente, a revisão para baixo das expectativas de inflação e o ganho de momentum após as quedas de agosto atraem a atenção de analistas para oportunidades de compra em ações. O investidor deve monitorar a materialização dos dados de PIB sul-coreano e a evolução dos preços do petróleo, que continuam influenciando tanto o setor de energia local quanto a confiança global nos mercados asiáticos.",
+    "cripto": "Enquanto o Bitcoin testa suportes técnicos sob pressão inflacionária externa e aguarda a divulgação do CPI, a atividade institucional se intensifica com a Block buscando regulamentação bancária e a Circle expandindo pagamentos via USDC. Paralelamente, a acumulação agressiva de Ethereum por empresas como a Bitmine contrasta com o risco de venda iminente no Bitcoin, onde ganhos não realizados de US$ 9 bilhões entre novas baleias podem pressionar o mercado, mesmo com o SOPR indicando lucros consistentes.",
     "debentures": "",
-    "exterior": "O mercado internacional enfrenta pressão descendente impulsionada pela alta do petróleo, que atinge patamares elevados devido a tensões no Golfo e restringe a oferta, elevando as expectativas de juros pelo Federal Reserve na reunião de 16 de setembro. Paralelamente, a volatilidade se reflete em setores específicos, com o cobre atingindo recordes históricos e impulsionando mineradoras, enquanto debates sobre valuations de tecnologia e a reconfiguração da inflação global devido ao comércio internacional adicionam complexidade ao cenário de risco.",
-    "imobiliario": "O mercado imobiliário apresenta uma dinâmica bifurcada, com o setor de logística atuando como refúgio de qualidade devido à alta demanda, enquanto escritórios enfrentam desocupação por reestruturações corporativas. Investidores devem monitorar a conclusão da aquisição da Navi Real Estate Selection pela Vinci até o fim de 2026 e os novos dados de ocupação, além de observar a possível entrada de posição comprada na UDR nos próximos 72 horas como sinal de convicção na tese de valorização."
+    "exterior": "A volatilidade nos mercados globais é alimentada pela escalada geopolítica no Oriente Médio, que elevou o petróleo Brent acima de US$ 100 e restringiu a propensão ao risco, enquanto o Ibovespa reage aos dados do mercado de trabalho dos EUA e ao fortalecimento do dólar. Investidores devem monitorar de perto a decisão de política monetária do BCE e o discurso de Christine Lagarde, além dos indicadores locais como o fluxo cambial e o IC-Br, que refletem o impacto da inflação energética e da valorização da moeda americana.",
+    "imobiliario": "O mercado imobiliário apresenta uma dinâmica divergente, com a robustez do segmento logístico contrastando com a desaceleração na demanda por escritórios corporativos e riscos de diluição em REITs de saúde que financiam expansões via emissão de ações. Para o investidor, é crucial monitorar a conclusão da aquisição da Navi pela Vinci e os dados de ocupação em São Paulo e Campinas, além de acompanhar a convergência da qualidade dos ativos de saúde para a média do setor. Paralelamente, a entrada de seguradoras no mercado europeu de CRE, substituindo bancos, e os resultados do abrdn Global Premier Properties Fund merecem atenção, embora os detalhes específicos desses movimentos ainda não estejam claros nos resumos disponíveis."
   }
 }
