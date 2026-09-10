@@ -1,272 +1,278 @@
 {
-  "gerado_em": "2026-09-09T15:19:33.162593+00:00",
+  "gerado_em": "2026-09-10T11:17:43.041947+00:00",
   "itens": [
     {
-      "title": "Equatorial (EQTL3) e Energisa (ENGI11): Apenas uma é compra para o Bradesco BBI; veja",
+      "title": "Onde investir além do Ibovespa? Confira 2 recomendações do chefe de investimentos do ASA",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/equatorial-eqtl3-e-energisa-engi11-apenas-uma-e-compra-para-o-bradesco-bbi-veja-lmrs/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Bradesco BBI elevou o preço-alvo da Equatorial para R$ 57 e manteve a recomendação de compra, enquanto manteve a Energisa como neutra com alvo de R$ 66, impulsionado pelo aumento da demanda elétrica devido ao El Niño e ajustes regulatórios.",
-      "mecanismo": "O fenômeno El Niño eleva as temperaturas, o que aumenta o consumo de energia elétrica (volumes de fio B) no segundo semestre, gerando receita adicional para as distribuidoras; simultaneamente, a recalibragem do Fator X da Aneel e a revisão tarifária da CCEE melhoram as perspectivas de fluxo de caixa, embora a rejeição da revisão do WACC para 2027 mantenha uma postura conservadora sobre a remuneração regulatória futura.",
-      "implicacao": "O setor de distribuição de energia elétrica tende a se beneficiar no curto prazo com a expansão dos volumes vendidos devido ao calor, mas a classe de ativos permanece sensível ao ambiente macroeconômico e às taxas de juros, já que as empresas possuem alavancagem elevada e fluxos de caixa de longa duração.",
-      "risco": "A manutenção de um WACC regulatório abaixo das expectativas atuais (queda projetada para 7,8% em 2027) pode pressionar as margens e a valorização das ações, especialmente se o ambiente de juros permanecer elevado, afetando negativamente empresas com maior alavancagem.",
-      "proximo_evento": "Conclusão da consulta pública do novo Fator X (Pd) prevista para 2026 e a implementação efetiva dessa metodologia a partir de 2027.",
-      "key_numbers": [
-        "Preço-alvo EQTL3: R$ 57",
-        "Potencial alta EQTL3: 45,2%",
-        "Preço-alvo ENGI11: R$ 66",
-        "WACC regulatório 2027: 7,8%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Ação da PetroReconcavo (RECV3) zera perdas em 2026 com petróleo e dados operacionais",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/acao-da-petroreconcavo-recv3-zera-perdas-em-2026-com-petroleo-e-dados-operacionais-lils/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "A PetroReconcavo recuperou as perdas acumuladas em 2026, impulsionada pela alta do petróleo Brent e por dados operacionais estáveis em agosto.",
-      "mecanismo": "O preço do Brent subiu para US$ 100,68, elevando a receita potencial por barril, enquanto a produção média de 23,8 mil boe/dia demonstrou resiliência operacional, especialmente na Bahia, compensando a queda no volume de gás no Potiguar.",
-      "implicacao": "O setor de óleo e gás tende a se beneficiar com a valorização do commodity, pois margens de lucro se expandem quando os preços internacionais sobem, desde que a produção não sofra quedas abruptas.",
-      "risco": "A queda na produção de gás e a operação abaixo da estimativa 1P podem limitar a reavaliação positiva da ação, especialmente se o preço do petróleo recuar.",
-      "proximo_evento": "Acompanhar a evolução da produção mensal e o cumprimento das metas anuais de 1P, além da reação do preço do Brent nos próximos pregões.",
-      "key_numbers": [
-        "Preço Brent: US$ 100,68",
-        "Variação RECV3: +2,13%",
-        "Produção média: 23,8 mil boe/dia",
-        "Preço-alvo Itaú: R$ 12"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Wall Street cai com petróleo acima de US$ 100 e tensão no Oriente Médio",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-abertura-9-9-26-apsa/",
-      "categorias": [
-        "acoes",
-        "exterior"
-      ],
-      "resumo": "Os índices de Wall Street recuam nesta quarta-feira (9) impulsionados pela escalada de tensões geopolíticas no Oriente Médio e pela ruptura da barreira dos US$ 100 no preço do petróleo.",
-      "mecanismo": "A intensificação dos conflitos entre EUA e Irã, somada aos ataques houthis na Arábia Saudita, eleva o risco de oferta de petróleo, disparando o Brent acima de US$ 100; esse choque de custos alimenta o receio de inflação persistente, o que reforça a expectativa de que o Federal Reserve mantenha os juros elevados por mais tempo, pressionando negativamente os ativos de risco.",
-      "implicacao": "O setor de energia tende a se beneficiar com a valorização das commodities, enquanto ações de crescimento e tecnologia sofrem pressão devido ao aumento do custo de capital e à aversão ao risco dos investidores.",
-      "risco": "Uma resolução diplomática rápida ou uma escalada militar que paralise completamente o Estreito de Ormuz pode alterar drasticamente a dinâmica de preços e a postura do Fed, invalidando a tese de manutenção gradual dos juros.",
-      "proximo_evento": "Divulgação dos dados de inflação ao produtor (PPI) e ao consumidor (CPI) dos EUA, que definirão se a probabilidade de alta de juros em setembro se concretiza.",
-      "key_numbers": [
-        "Brent: acima de US$ 100",
-        "Dow Jones: -0,71%",
-        "Probabilidade de alta de juros em setembro: 60,2%",
-        "S&P 500: -0,29%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Ibovespa cai com aversão a risco global de olho em petróleo acima de US$ 100; 5 coisas para saber antes de investir hoje (9)",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-9-9-26-lils/",
+      "link": "https://www.moneytimes.com.br/onde-investir-alem-do-ibovespa-confira-2-recomendacoes-do-chefe-de-investimentos-do-asa/",
       "categorias": [
         "renda_fixa",
         "debentures"
       ],
-      "resumo": "O Ibovespa recua impulsionado pela aversão a risco global decorrente da escalada de tensões no Oriente Médio, que elevou o petróleo acima de US$ 100, enquanto o dólar se fortalece frente ao real.",
-      "mecanismo": "Os ataques recíprocos entre EUA e Irã geram receio de interrupção no fornecimento de energia, disparando o preço do Brent; isso aumenta a inflação global e a aversão a risco, fazendo investidores fugirem de ativos emergentes como o Ibovespa e buscarem refúgio no dólar, que sobe contra o real apesar da queda do DXY.",
-      "implicacao": "O setor de energia tende a se beneficiar com a alta dos preços do barril, enquanto setores sensíveis à inflação e ao câmbio, como varejo e construção civil, podem sofrer pressão devido ao aumento dos custos de insumos e à valorização do dólar.",
-      "risco": "Uma desescalada rápida das tensões no Oriente Médio ou um acordo diplomático poderia reverter a alta do petróleo e a aversão a risco, invalidando a tese de queda do Ibovespa e alta do dólar.",
-      "proximo_evento": "Monitorar a evolução das tensões geopolíticas no Oriente Médio e a divulgação de dados de emprego nos Estados Unidos.",
+      "resumo": "Com juros reais curtos negativos nos EUA, analistas recomendam buscar duration e ativos reais como ouro e NTN-B para proteção inflacionária, enquanto no Brasil a expectativa de melhora fiscal deve puxar a queda dos juros nominais.",
+      "mecanismo": "A desvalorização do poder de compra em títulos curtos americanos força a busca por prêmios de risco e duration, elevando a demanda por commodities e ouro; no Brasil, a perspectiva de ajuste fiscal reduz o risco-país, o que pressiona a queda da Selic e valoriza a moeda local, beneficiando a bolsa e fechando taxas de títulos indexados à inflação.",
+      "implicacao": "A classe de ativos reais, especialmente ouro e imóveis, tende a se valorizar como hedge contra a desancoragem monetária global, enquanto a classe de renda fixa indexada à inflação (IPCA+) no Brasil deve se beneficiar da queda dos juros nominais e da valorização do real.",
+      "risco": "A manutenção da repressão financeira ou uma deterioração inesperada da política fiscal brasileira pode impedir a queda dos juros e desvalorizar o real, invalidando a tese de valorização dos ativos domésticos.",
+      "proximo_evento": "Definição do cenário fiscal e resultados eleitorais no Brasil, além da evolução da política monetária americana e dados de inflação.",
       "key_numbers": [
-        "Ibovespa: 186.636,96 pontos",
-        "Dólar: R$ 5,0924",
-        "Petróleo Brent: US$ 100,74",
-        "Crédito para combustíveis: R$ 6,605 bilhões"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Bitcoin SOPR metric sees longest profit run of 2026 as new analysis challenges bear market",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-sopr-metric-sees-longest-profit-run-of-2026-as-new-analysis-challenges-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O indicador SOPR do Bitcoin registrou sua maior sequência consecutiva acima do ponto de equilíbrio em 2026, sugerindo uma mudança de comportamento de mercado para características de alta, embora analistas mantenham cautela quanto a novos fundos.",
-      "mecanismo": "A permanência do SOPR acima de 1 indica que os detentores de curto prazo estão realizando lucros consistentemente sem forçar vendas desesperadas, o que historicamente sinaliza transição de mercado de baixa para alta; no entanto, a ausência de máximas e mínimas crescentes em gráficos semanais impede a confirmação definitiva da tendência.",
-      "implicacao": "Para a classe de ativos de criptomoedas, especificamente Bitcoin, a validação desse padrão on-chain tende a reduzir a pressão vendedora e atrair fluxo de capital especulativo, pois confirma que a base de investidores está confortável com os preços atuais.",
-      "risco": "A tese de recuperação pode ser invalidada se o preço do Bitcoin romper para novos mínimos macroeconômicos, o que forçaria os detentores a venderem abaixo do custo de aquisição, revertendo o SOPR para território negativo.",
-      "proximo_evento": "Monitorar se o SOPR permanece acima de 1 por um período estendido e se o Bitcoin consegue formar uma série de máximas e mínimas mais altas nos próximos ciclos de preço.",
-      "key_numbers": [
-        "SOPR atual: 1.002",
-        "Duração da sequência: 3 semanas",
-        "Data início sinal: 19 de agosto",
-        "Faixa de preço local: $80.000"
+        "Treasuries EUA: acima de 4%",
+        "Inflação EUA: 3,5%",
+        "Selic terminal 2026: 13,25%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Bitcoin faces key support test at $78.3K as US crude oil hits three-month high",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-faces-key-support-test-at-783k-as-us-crude-oil-hits-three-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Bolsas da Europa têm rumos distintos antes do BCE e Londres é pressionada por dona da Primark",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/bolsas-da-europa-tem-rumos-distintos-antes-do-bce-e-londres-e-pressionada-por-dona-da-primark-rens/",
       "categorias": [
-        "cripto"
+        "exterior"
       ],
-      "resumo": "O Bitcoin testa suporte crítico de $78,3 mil enquanto tensões no Oriente Médio elevam o petróleo a máximos de três meses, pressionando ativos de risco.",
-      "mecanismo": "Os ataques a infraestruturas de petróleo no Oriente Médio dispararam o preço do WTI para quase $95, alimentando expectativas de inflação e forçando uma fuga de ativos de risco, o que derrubou as bolsas americanas e arrastou o Bitcoin para baixo, testando a validade do suporte técnico que evitou uma queda mais acentuada em maio.",
-      "implicacao": "A classe de ativos de risco, incluindo criptomoedas e ações de tecnologia, tende a sofrer pressão de venda se o suporte de $78,3 mil for rompido, pois isso confirmaria a continuidade do mercado de baixa de 2026 e validaria a correlação negativa com o aumento da inflação e incerteza geopolítica.",
-      "risco": "Um fechamento semanal do Bitcoin abaixo de $78,3 mil poderia confirmar uma quebra de tendência e levar a novos mínimos macroeconômicos, invalidando a tese de estabilização no nível atual.",
-      "proximo_evento": "Divulgação do Índice de Preços ao Consumidor (CPI) dos EUA nesta sexta-feira.",
+      "resumo": "Os mercados europeios apresentam desempenho divergente com Londres em queda, impulsionados pela alta dos juros de longo prazo e pelo petróleo Brent acima de US$ 100, enquanto o mercado aguarda a decisão de juros do BCE.",
+      "mecanismo": "A elevação dos rendimentos dos títulos de renda fixa (gilts e bunds) pressiona os ativos de risco, especialmente em Londres onde a Associated British Food despencou devido ao anúncio de expansão logística da Primark, enquanto a alta do petróleo reforça as expectativas de que o BCE manterá uma postura restritiva para combater a inflação.",
+      "implicacao": "O setor varejista europeu tende a enfrentar pressão sobre margens e valuation devido ao aumento do custo de capital e insumos, enquanto o setor de defesa pode se beneficiar de contratos de longo prazo e demanda geopolítica, embora a alta dos juros geralmente pese sobre ativos sensíveis a taxas.",
+      "risco": "Uma sinalização de pausa nos juros ou uma queda abrupta no preço do petróleo poderia invalidar a tese de aperto monetário contínuo e reverter a pressão negativa sobre as bolsas.",
+      "proximo_evento": "Decisão de política monetária do Banco Central Europeu (BCE) e coletiva de imprensa de Christine Lagarde.",
       "key_numbers": [
-        "Suporte BTC: $78.300",
-        "Pico WTI: ~$95/barril",
-        "Mínimo BTC: $77.600",
-        "Queda S&P 500: 0,5%"
+        "Brent: US$ 102/bbl",
+        "Gilts UK: 5,295%",
+        "Bunds DE: 3,451%",
+        "Queda ABF: 11%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Why is Alphabet stock sliding today?",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-alphabet-stock-sliding-today-93CH-4894037",
+      "title": "Como o JP Morgan está se posicionando com opções de dólar para ganhar com o ‘trade eleitoral’",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/eleicoes-tambem-entra-no-preco-das-opcoes-de-dolar-lils/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O JP Morgan estruturou uma posição em opções de câmbio apostando na valorização do real até R$ 4,80, aproveitando a percepção de menor risco fiscal e a alta volatilidade esperada para as eleições.",
+      "mecanismo": "A disputa eleitoral acirrada elevou a volatilidade implícita, mas a melhora nas pesquisas de Bolsonaro reduziu o medo de deterioração fiscal, encarecendo as proteções contra alta do dólar (puts) e incentivando estratégias de alavancagem para queda da moeda americana, como o ratio put spread adotado pelo banco.",
+      "implicacao": "Para investidores em ativos sensíveis ao câmbio, como exportadores e títulos indexados ao dólar, a tese sugere uma oportunidade de hedge ou ganho com a apreciação do real, já que o mercado precifica um movimento limitado de alta da divisa norte-americana no curto prazo.",
+      "risco": "Uma deterioração súbita do cenário fiscal ou uma virada nas pesquisas que aumente a incerteza política pode invalidar a aposta na queda do dólar, fazendo o câmbio romper a barreira de R$ 5,00 e gerar perdas na estrutura de opções.",
+      "proximo_evento": "Resultado do primeiro turno das eleições presidenciais, momento em que a estrutura será reavaliada.",
+      "key_numbers": [
+        "Volume de calls EWZ: US$ 20 bilhões",
+        "Volatilidade implícita: 70-75 pontos",
+        "Movimento implícito no dólar: 6%",
+        "Strike da put comprada: R$ 5,00"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bolsas da Ásia fecham mistas e Kospi cai em meio alerta de BC a riscos com trade de IA",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-mistas-e-kospi-cai-em-meio-alerta-de-bc-a-riscos-com-trade-de-ia-fets/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "O texto da fonte fornecido está vazio, impedindo a extração de fatos ou dados para análise.",
-      "mecanismo": "Sem informações no texto fonte, não é possível estabelecer uma cadeia causal ou identificar o evento que motivou o movimento do ativo.",
-      "implicacao": "Não é possível derivar implicações setoriais ou de classe de ativo sem dados de entrada.",
-      "risco": "A ausência de dados na fonte impede qualquer análise de risco fundamentada.",
-      "proximo_evento": "Não há próximo evento identificável devido à ausência de conteúdo na notícia.",
+      "resumo": "O Banco Central da Coreia do Sul alertou sobre riscos de estabilidade financeira decorrentes do uso excessivo de ETFs alavancados no setor de IA, pressionando o Kospi, enquanto o Japão sinaliza continuidade no ciclo de alta de juros.",
+      "mecanismo": "O alerta do BC sul-coreano sobre a volatilidade gerada por apostas alavancadas em tecnologia gera cautela imediata nos investidores, provocando a venda de ativos de risco local; simultaneamente, a confirmação de que o Banco do Japão manterá o ciclo de alta de juros para ancorar a inflação tende a fortalecer o Iene e pressionar ações japonesas sensíveis a custos de capital.",
+      "implicacao": "A regulação ou monitoramento rigoroso de alavancagem em ETFs tende a desestimular o fluxo de capital especulativo para o setor de tecnologia e semicondutores na Coreia do Sul, reduzindo a volatilidade artificial e potencialmente corrigindo avaliações infladas no curto prazo.",
+      "risco": "O apetite por risco global pode permanecer elevado o suficiente para ignorar os alertas regulatórios, mantendo a demanda por ações de IA apesar da volatilidade.",
+      "proximo_evento": "A próxima reunião do Banco do Japão, onde se espera a decisão oficial sobre o aumento da taxa básica de juros.",
+      "key_numbers": [
+        "Kospi: -0,25%",
+        "Nikkei: +0,2%",
+        "Hang Seng: -1,3%",
+        "Investimento HD Hyundai: US$ 800 milhões"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Juros futuros avançam com petróleo acima de US$ 101 e subvenção estendida",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/juros-futuros-9-9-26-apsa/",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "Os juros futuros brasileiros subiram impulsionados pela alta do petróleo e por medidas fiscais expansionistas do governo, como a redução de impostos sobre combustíveis e subsídios ao diesel.",
+      "mecanismo": "A combinação do petróleo acima de US$ 101 e a extensão de subsídios geram pressão inflacionária de longo prazo e deterioram as contas públicas, levando o mercado a precificar juros mais altos para compensar o risco fiscal e a possível perda de controle da inflação em 2027, enquanto a alta dos Treasuries americanos reforça a atração por rendas fixas locais.",
+      "implicacao": "A classe de ativos de renda fixa atrelada à inflação (IPCA+) tende a se valorizar, pois a expectativa de juros reais mais altos e a incerteza inflacionária de longo prazo aumentam a demanda por proteção contra a desvalorização da moeda e o custo de oportunidade mais elevado.",
+      "risco": "Se a inflação de curto prazo cair significativamente devido aos subsídios e o governo apresentar um ajuste fiscal convincente, a tese de juros altos pode ser revisada para baixo, beneficiando títulos prefixados.",
+      "proximo_evento": "Acompanhar a evolução da inflação mensal (IPCA) e os próximos dados fiscais para validar se a medida de subsídio está de fato reprimendo a inflação atual ou apenas adiando o problema para 2027.",
+      "key_numbers": [
+        "DI Jan/2027: 13,580%",
+        "DI Jan/2029: 13,865%",
+        "Petróleo Brent: US$ 101,21",
+        "Treasuries 10 anos: 4,845%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Ibovespa segue exterior e recua quase 1% com disparada do petróleo; dólar sobe a R$ 5,11",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-9-9-26-apsa/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O Ibovespa recuou quase 1% e o dólar subiu para R$ 5,11, impulsionados pela aversão a risco global devido à escalada do conflito no Oriente Médio e à alta do petróleo Brent acima de US$ 101.",
+      "mecanismo": "A intensificação dos ataques no Oriente Médio elevou o preço do petróleo Brent, reacendendo temores inflacionários e de juros mais altos, o que gerou fuga para ativos seguros como o dólar e penalizou ativos de risco, especialmente o setor bancário, enquanto o governo tentou mitigar o impacto inflacionário imediato reduzindo impostos sobre combustíveis, medida vista com cautela pelo mercado devido ao custo fiscal futuro.",
+      "implicacao": "O setor de energia tende a se beneficiar diretamente com a valorização do petróleo, enquanto o setor financeiro e empresas sensíveis a juros sofrem pressão devido ao aumento da aversão a risco e às expectativas de juros elevados por mais tempo.",
+      "risco": "Uma desescalada rápida do conflito no Oriente Médio pode derrubar o preço do petróleo abruptamente, invalidando a tese de inflação persistente e revertendo a valorização do dólar e a queda do Ibovespa.",
+      "proximo_evento": "Monitorar a evolução do conflito no Oriente Médio e os próximos dados de inflação (IPCA) para validar se a redução de impostos compensou a alta do petróleo ou se a pressão fiscal se tornará o foco principal.",
+      "key_numbers": [
+        "Ibovespa: 185.629 pontos",
+        "Dólar: R$ 5,11",
+        "Petróleo Brent: US$ 101",
+        "Queda Ibovespa: 0,93%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Bitcoin ETFs shed $167M after strongest three-week inflow run of 2026",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-etfs-shed-167m-after-strongest-three-week-inflow-run-of-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "Os ETFs de Bitcoin registraram saídas líquidas de US$ 167 milhões em dois dias, revertendo parte do forte fluxo de entrada das três semanas anteriores, enquanto fundos de Ether e Solana voltaram a atrair capital.",
+      "mecanismo": "A saída de capital dos ETFs de Bitcoin, liderada por grandes gestoras como ARK e Grayscale, indica uma tomada de lucros ou ajuste de portfólio após a forte alta recente, exercendo pressão vendedora imediata sobre o preço do ativo; simultaneamente, a rotação de capital para Ether e Solana sugere que investidores estão diversificando para altcoins com menor capitalização de mercado em busca de retornos relativos.",
+      "implicacao": "O setor de criptoativos de maior capitalização (Bitcoin) tende a enfrentar volatilidade de curto prazo devido à pressão de venda institucional, enquanto a classe de ativos de altcoins estabelecidas (como Ether e Solana) pode se beneficiar da rotação de capital e mostrar resiliência relativa.",
+      "risco": "Se as saídas dos ETFs de Bitcoin se intensificarem e se tornarem sustentadas, isso pode sinalizar perda de confiança institucional, potencialmente arrastando todo o mercado cripto para baixo, invalidando a tese de rotação saudável para altcoins.",
+      "proximo_evento": "Monitorar os fluxos diários dos ETFs de Bitcoin nas próximas sessões para confirmar se a saída é um ajuste pontual ou o início de uma tendência de distribuição mais ampla.",
+      "key_numbers": [
+        "Saída líquida BTC ETFs (2 dias): US$ 166,8 milhões",
+        "Entrada líquida Ether ETFs (semana): US$ 10,4 milhões",
+        "Entrada líquida Solana ETFs (2 dias): US$ 10,5 milhões",
+        "Preço Bitcoin: US$ 78.000"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Bitcoin fails to reclaim $80K as Bessent fuels yen strength around 153 per dollar",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-fails-to-reclaim-80k-as-bessent-fuels-yen-strength-around-153-per-dollar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O Bitcoin recuou abaixo de US$ 80 mil devido à escalada geopolítica com o Irã e ao fortalecimento do iene japonês, impulsionado por intervenções sugeridas pelo Tesouro dos EUA.",
+      "mecanismo": "Os ataques aos tanques de petróleo no Irã elevaram o preço do Brent acima de US$ 100, gerando aversão ao risco que pressionou ativos como o Bitcoin; simultaneamente, as declarações do secretário do Tesouro Scott Bessent sobre intervenções cambiais fortaleceram o iene, ameaçando desmontar o carry trade japonês e reduzindo a liquidez global disponível para ativos de risco.",
+      "implicacao": "A classe de ativos de risco, incluindo criptomoedas, tende a sofrer pressão de venda, pois o desmonte do carry trade retira alavancagem do sistema financeiro global e a alta do petróleo aumenta os custos macroeconômicos, reduzindo o apetite por especulação.",
+      "risco": "Se as tensões geopolíticas se acalmarem rapidamente ou se o Banco do Japão sinalizar cautela extrema na aplicação do aumento de juros, o iene pode enfraquecer e o apetite por risco pode retornar, invalidando a tese de queda sustentada.",
+      "proximo_evento": "Reunião do Banco do Japão em 28 de setembro, onde se espera um aumento de juros de 0,25%.",
+      "key_numbers": [
+        "Bitcoin: abaixo de US$ 80.000",
+        "Brent Crude: acima de US$ 101",
+        "USD/JPY: 153",
+        "Posição curta no iene: acima de 5 trilhões de ienes"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Tether, Fasanara launch $400M private credit fund targeting $3B",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/news/tether-fasanara-launch-400m-private-credit-fund-targeting-3b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto",
+        "debentures"
+      ],
+      "resumo": "A Tether e a Fasanara Capital lançaram um fundo de crédito privado de US$ 400 milhões, com meta de captar até US$ 3 bilhões, para financiar empréstimos lastreados em ativos via plataformas fintech em mais de 60 países.",
+      "mecanismo": "O fundo utiliza a infraestrutura do USDT para liquidação, permitindo que a Fasanara distribua capital de forma ágil para pequenas e médias empresas e consumidores através de sua rede de credores fintech, enquanto a Tether fornece a ponte entre o capital institucional e o ecossistema on-chain/off-chain.",
+      "implicacao": "O setor de infraestrutura de stablecoins e plataformas de fintech de crédito tende a se beneficiar, pois a injeção de capital institucional via stablecoins reduz custos de liquidação e expande o acesso a crédito global, validando o uso de ativos digitais em finanças tradicionais.",
+      "risco": "Regulamentações mais rígidas sobre stablecoins ou riscos de contraparte nas plataformas fintech parceiras podem comprometer a distribuição do capital e a rentabilidade esperada do fundo.",
+      "proximo_evento": "Monitorar o ritmo de captação de capital adicional de investidores institucionais para atingir a meta de US$ 3 bilhões e os primeiros relatórios de desempenho do fundo StableFund.",
+      "key_numbers": [
+        "Capital inicial: US$ 400 milhões",
+        "Meta de captação: US$ 3 bilhões",
+        "Países atendidos: mais de 60",
+        "Lucro operacional Tether (2T): US$ 1,5 bilhão"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Nomura Real Estate Securities Fund Q2 2026 Commentary",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4944940-nomura-real-estate-securities-fund-q2-2026-commentary?source=feed_all_articles",
+      "categorias": [
+        "imobiliario"
+      ],
+      "resumo": "O texto da fonte fornecida está vazio, contendo apenas metadados do título e sem o corpo do relatório do Nomura Real Estate Securities Fund.",
+      "mecanismo": "Sem o conteúdo factual do relatório, é impossível estabelecer uma cadeia causal entre variáveis econômicas e desempenho do fundo, pois não há dados sobre alocação, retornos ou visão de mercado para analisar.",
+      "implicacao": "Na ausência de informações, não é possível derivar implicações para o setor imobiliário ou classes de ativos relacionadas, impedindo qualquer análise de investimento baseada neste documento.",
+      "risco": "A análise está comprometida pela falta total de dados de entrada, tornando qualquer projeção especulativa e não fundamentada.",
+      "proximo_evento": "A publicação ou acesso ao texto completo do relatório do 2º trimestre de 2026 do Nomura Real Estate Securities Fund.",
       "key_numbers": [],
       "sentiment": "neutral"
     },
     {
-      "title": "Greece stocks lower at close of trade; Athens General Composite down 0.23%",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/greece-stocks-lower-at-close-of-trade-athens-general-composite-down-023-4894033",
+      "title": "Payroll Boom, Warsh Hawkish, Iran On Fire: The Perfect Storm For FLBL's Leveraged Loans",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4944892-payroll-boom-warsh-hawkish-iran-on-fire-the-perfect-storm-for-flbls-leveraged-loans?source=feed_all_articles",
       "categorias": [
         "renda_fixa",
         "debentures"
       ],
-      "resumo": "O índice geral da bolsa de Atenas encerrou a sessão em baixa, registrando uma queda de 0,23% no fechamento.",
-      "mecanismo": "A desvalorização do índice reflete uma pressão vendedora no mercado local, onde a oferta de ações superou a demanda no final do pregão, resultando no recuo percentual observado no Athens General Composite.",
-      "implicacao": "Para investidores expostos a mercados europeus emergentes, a tendência de baixa sugere cautela, pois a volatilidade negativa no índice principal pode pressionar a avaliação de ativos locais e reduzir o apetite por risco no setor.",
-      "risco": "O movimento pode ser apenas uma correção técnica de curto prazo sem impacto estrutural, revertendo rapidamente se houver fluxo de entrada de capital estrangeiro nos dias seguintes.",
-      "proximo_evento": "Monitorar os próximos dados macroeconômicos da Grécia ou comunicados do Banco Central Europeu que possam influenciar o sentimento de investidores estrangeiros em mercados europeus periféricos.",
-      "key_numbers": [
-        "Variação do Índice: -0,23%"
-      ],
-      "sentiment": "down"
+      "resumo": "A combinação de dados de emprego robustos, postura dura do Fed e tensões geopolíticas no Oriente Médio cria um ambiente favorável para empréstimos alavancados.",
+      "mecanismo": "O crescimento do mercado de trabalho e a retórica hawkista sustentam a economia, reduzindo o risco de recessão e default, enquanto a instabilidade geopolítica pode elevar a demanda por ativos de crédito de alta renda que oferecem proteção inflacionária e spreads atrativos.",
+      "implicacao": "O setor de empréstimos alavancados tende a se beneficiar, pois a resiliência econômica e a política monetária restritiva sustentam os spreads de crédito e a demanda por renda fixa de alto rendimento.",
+      "risco": "Uma escalada significativa das tensões geopolíticas ou uma desaceleração econômica inesperada poderia aumentar o risco de crédito e pressionar negativamente os preços desses ativos.",
+      "proximo_evento": "Próximas divulgações de dados de emprego e declarações da Reserva Federal sobre a política monetária.",
+      "key_numbers": [],
+      "sentiment": "up"
     },
     {
-      "title": "Rates Up, REITs Down! Exploring The 10-Year Treasury's Relationship With Net Lease REITs",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4944373-rates-up-reits-down-exploring-the-ten-year-treasurys-relationship-with-net-lease-reits?source=feed_all_articles",
-      "categorias": [
-        "renda_fixa",
-        "imobiliario"
-      ],
-      "resumo": "A análise destaca que os REITs de locação líquida operam como um negócio de spread, onde seus retornos são fundamentalmente impulsionados pela diferença em relação ao rendimento do Tesouro dos EUA de 10 anos.",
-      "mecanismo": "O aumento dos juros eleva o custo de oportunidade para investidores de renda fixa, pressionando as taxas de cap dos REITs a se ajustarem para manterem a atratividade relativa; a regressão indica que as taxas de cap se movem cerca de 28 pontos-base para cada 1% de variação no Tesouro de 10 anos, explicando metade da volatilidade desses ativos.",
-      "implicacao": "Para o setor de REITs de locação líquida, a sensibilidade aos juros significa que ambientes de taxas em alta tendem a pressionar a avaliação dos ativos, deslocando o foco dos investidores para a qualidade do balanço e o crescimento orgânico do fluxo de caixa disponível para o acionista.",
-      "risco": "Se a correlação histórica entre as taxas de cap e o Tesouro de 10 anos se romper devido a fatores idiossincráticos do setor ou mudanças estruturais na demanda por imóveis comerciais, a tese de que o spread é o driver principal pode se invalidar.",
-      "proximo_evento": "Monitorar as próximas divulgações de crescimento de AFFO e alocação de capital das empresas do setor, já que a análise sugere que esses fatores específicos estão se tornando mais determinantes para o preço das ações do que as flutuações contínuas das taxas de juros.",
-      "key_numbers": [
-        "Sensibilidade Cap Rate: 28 bps por 1%",
-        "Variação explicada: 50%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "S&P 500 Performance After The FOMC Raises Interest Rates By 25 Bps Since 1990",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4944360-sp500-performance-after-fomc-raises-interest-rates-by-25-bps-since-1990?source=feed_all_articles",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O artigo analisa o desempenho histórico do S&P 500 após aumentos de juros de 25 pontos-base pelo FOMC desde 1990, fornecendo contexto estatístico para movimentos recentes.",
-      "mecanismo": "A análise baseia-se em dados históricos para identificar padrões de reação do mercado de ações a ajustes graduais na política monetária, sugerindo que aumentos moderados podem ser assimilados de forma diferente de hikes agressivos, dependendo do contexto macroeconômico subjacente.",
-      "implicacao": "Para investidores em ações americanas, a revisão de dados históricos pode ajustar expectativas de volatilidade, indicando que o mercado tende a reagir de forma menos negativa a aumentos graduais se a economia permanecer resiliente.",
-      "risco": "A correlação histórica não garante resultados futuros, pois o ambiente macroeconômico atual pode diferir significativamente dos períodos analisados desde 1990.",
-      "proximo_evento": "Próxima reunião do FOMC e divulgação de dados de inflação e emprego dos EUA que validem a trajetória atual de juros.",
-      "key_numbers": [
-        "Aumento de juros: 25 bps",
-        "Período analisado: desde 1990"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Investors Worry Over Interest Rate Hike And Rising Crude Prices",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4944410-investors-worry-over-interest-rate-hike-rising-crude-prices?source=feed_all_articles",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "A elevação das expectativas de aumento dos juros nos EUA, combinada com a alta do petróleo devido a tensões geopolíticas, está pressionando os principais índices de ações para baixo.",
-      "mecanismo": "O aumento da probabilidade de hike do Fed eleva o custo de capital e desvaloriza ativos de risco, enquanto a escalada de tensões entre EUA e Irã impulsiona o preço do crude, gerando pressões inflacionárias adicionais que forçam os investidores a migrarem para ativos defensivos.",
-      "implicacao": "O ambiente macroeconômico hostil tende a penalizar setores cíclicos e sensíveis a juros, como tecnologia e crescimento, enquanto favorece ativos defensivos e títulos de curto prazo, devido à busca por segurança e redução da incerteza sobre o custo do dinheiro.",
-      "risco": "Uma resolução diplomática rápida das tensões entre EUA e Irã poderia derrubar o preço do petróleo e reduzir as pressões inflacionárias, invalidando a tese de aperto monetário adicional.",
-      "proximo_evento": "A próxima reunião do FOMC ou a divulgação de dados de inflação que confirmem ou refutem a necessidade de um novo aumento de juros.",
-      "key_numbers": [
-        "Probabilidade de hike (FedWatch): 62%",
-        "Preço do iPhone dobrável esperado: $2.000"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Millrose Properties: New Builder Capital Earns 210 Basis Points More",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4944354-millrose-properties-new-builder-capital-earns-210-basis-points-more?source=feed_all_articles",
+      "title": "Notícias para o investidor de fundos imobiliários",
+      "source": "clubefiinews.com.br",
+      "link": "https://www.clubefiinews.com.br",
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "A Millrose Properties anunciou que seu novo capital de construção oferece um prêmio de 210 pontos-base em relação a uma referência não especificada no texto, indicando uma estratégia de captação de recursos com custo diferenciado.",
-      "mecanismo": "O texto informa apenas a magnitude do prêmio (210 bps) do novo capital, mas não especifica a referência de comparação nem a direção do movimento de mercado subjacente; portanto, não é possível estabelecer uma cadeia causal clara sobre como isso afeta o custo de capital ou a competitividade sem dados adicionais sobre a taxa base ou condições de mercado.",
-      "implicacao": "Para o setor de desenvolvimento imobiliário, a capacidade de levantar capital a prêmios competitivos é crucial para manter margens em um ambiente de juros elevados; se o prêmio for considerado favorável pelo mercado, pode sinalizar resiliência no financiamento de projetos.",
-      "risco": "A ausência de contexto sobre a taxa de referência ou as condições de mercado torna impossível validar se 210 bps representa um custo vantajoso ou oneroso, invalidando qualquer conclusão sobre a saúde financeira da operação.",
-      "proximo_evento": "Acompanhar a divulgação completa dos termos da emissão de capital ou o próximo relatório financeiro da Millrose Properties para entender o impacto no custo médio de dívida e na alavancagem.",
+      "resumo": "O setor de galpões logísticos atinge recorde de valorização com média de R$ 30/m² e receita de locações crescendo 20%, enquanto a saída de estrangeiros e investigações judiciais pressionam a ocupação de escritórios em SP e Campinas.",
+      "mecanismo": "A alta demanda por logística impulsiona os preços de transação e receitas no segmento, criando um efeito de refúgio de qualidade; simultaneamente, a desocupação em escritórios decorre de falências corporativas e reestruturações de multinacionais, fragmentando a demanda por espaço corporativo tradicional.",
+      "implicacao": "Fundos imobiliários do segmento logístico tendem a se beneficiar com a valorização dos ativos e crescimento de receita, enquanto FIIs de escritórios podem enfrentar pressão sobre a ocupação e renovação de contratos devido à redução da demanda corporativa.",
+      "risco": "Uma desaceleração abrupta do comércio eletrônico ou uma crise econômica mais ampla que force mais fechamentos de fábricas poderia reverter a alta dos galpões e agravar a vacância em escritórios.",
+      "proximo_evento": "Conclusão da aquisição da Navi Real Estate Selection pela Vinci, prevista para o fim de 2026, e novos dados de vacância em escritórios de São Paulo e Campinas.",
       "key_numbers": [
-        "Prêmio do novo capital: 210 bps"
+        "Preço médio galpões: R$ 30/m²",
+        "Crescimento receita locações: 20%",
+        "Área desocupada escritórios: 38 mil m²",
+        "Variação Ifix: +0,65%"
       ],
-      "sentiment": "neutral"
+      "sentiment": "up"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [
-      "A inflação persistente mantém Wall Street em dúvida antes da divulgação dos dados de CPI na sexta-feira."
+      "O salto do petróleo acima de US$ 100 traz implicações para a inflação e os riscos de mercado.",
+      "A análise de ZROZ prefere olhar para o futuro em vez de se ancorar na recência dos dados.",
+      "O Diamond Hill Core Plus Bond Fund divulgou seu comentário para o segundo trimestre de 2026."
     ],
     "acoes": [
-      "A Ágora Investimentos recomenda a compra de Orizon (ORVR3) e a venda de Itaú Unibanco (ITUB4) para day trade nesta quarta-feira (9), apontando um potencial de ganho de 1,48% para a Orizon, que fechou a R$ 17,50.",
-      "Investidores estrangeiros registraram a maior retirada líquida de recursos do mercado brasileiro desde março de 2020 em agosto, movimento associado ao desempenho fraco da Bolsa frente ao interesse global por inteligência artificial.",
-      "O mini índice do Ibovespa (WINV26) avançou 1,31% e encerrou aos 190.060 pontos, mantendo tendência de alta no curto prazo com formação de topos e fundos mais altos acima das médias móveis, segundo análise técnica do BTG Pactual."
+      "O Ibovespa acompanha nesta quinta-feira (10) a decisão de juros do BCE, além de monitorar a PMS no Brasil, o PPI e os pedidos de seguro-desemprego nos EUA.",
+      "A Squadra Investimentos reduziu sua participação acionária no Inter (INBR32) para 4,93%, passando a deter 16 milhões de valores mobiliários."
     ],
     "cripto": [
-      "A Block busca uma autorização de banco de confiança dos EUA para operar com Bitcoin e stablecoins.",
-      "A Bitmine comprou 28 mil ETH, completando 97% de sua meta de acumulação de tesouraria.",
-      "A Circle adquirirá a Tazapay para expandir os pagamentos transfronteiriços do USDC.",
-      "O Ministério das Finanças da Alemanha propõe um imposto de 25% sobre criptomoedas a partir de 2028."
+      "Hunter Biden negou ter lucrado com uma memecoin após o preço do token LAPTOP despencar.",
+      "A Block, empresa de Jack Dorsey, busca uma autorização de banco de confiança nos EUA para operar com Bitcoin e stablecoins.",
+      "A Unicoin processou a Uniswap Labs buscando cancelar o registro do token UNI."
     ],
     "debentures": [
-      "O MercadoLibre recuou nas bolsas após recorrer aos mercados de dívida para captar recursos.",
-      "O Uzbequistão iniciou um piloto de pagamentos com stablecoin lastreada em títulos do governo, operado pela Humo Digital.",
-      "A Amazon deve captar 4 bilhões de libras (US$ 5,43 bilhões) em sua primeira emissão de títulos em libras esterlinas, operação que atraiu forte demanda.",
-      "A Strategy optou por não comprar Bitcoin e, em vez disso, recomprou US$ 176 milhões de ações preferenciais STRC."
+      "O artigo sobre a Main Street Capital alerta que ir contra o prêmio sobre o valor patrimonial líquido (NAV) é fatal.",
+      "O artigo sobre a Sunbelt Rentals Holdings recomenda manter a posição na empresa de aluguel de equipamentos enquanto ela reduz sua dívida.",
+      "O artigo apresenta os resultados do segundo trimestre de 2026 da Oakley Capital Investments Limited."
     ],
     "exterior": [
-      "O resumo fornecido para a notícia sobre a queda das ações da MercadoLibre está vazio, não permitindo a extração de fatos específicos.",
-      "O resumo fornecido para a notícia sobre AMD e Dell como movimentadores de market cap na quarta-feira está vazio, não permitindo a extração de fatos específicos.",
-      "O resumo indica que a Amazon enfrenta riscos com a inflação da bolha de IA, mas ainda é cedo para uma rebaixamento de classificação.",
-      "O resumo aponta que a próxima fase de crescimento da Palantir vem com uma ressalva, resultando em um rebaixamento de classificação."
+      "O petróleo Brent avança 1,43% para US$ 102, enquanto o WTI também registra alta, com investidores internacionais focados na escalada dos preços acima de US$ 100.",
+      "O preço do petróleo ultrapassa a marca de US$ 100, levantando questões sobre o impacto na inflação e nos riscos de mercado.",
+      "O S&P 500 apresenta o menor nível de dividendos já registrado, gerando debate sobre a relevância desse indicador.",
+      "O podcast Wall Street Breakfast aborda o plano de bônus eleitoral de Trump."
     ],
     "imobiliario": [
-      "O resumo apresenta variações percentuais isoladas (+0,65%, -0,65%, +4,34%, +6,35%, -5,53%) sem especificar os ativos ou índices correspondentes.",
-      "Marcas como Itaú, Nubank, Claro, Brahma e Vivo lideram o ranking da Kantar BrandZ e possuem centenas de milhares de metros quadrados no mercado imobiliário."
+      "O resumo fornecido para a Glenveagh Properties PLC Q2 2026 Earnings Call Transcript é vazio, não permitindo a extração de fatos específicos.",
+      "O resumo fornecido para o ClearBridge Dividend Strategy ESG Portfolios Q2 2026 Commentary é vazio, não permitindo a extração de fatos específicos.",
+      "O resumo fornecido para o Janus Henderson Global Sustainable Equity (ADR) Managed Account Q2 2026 Commentary é vazio, não permitindo a extração de fatos específicos.",
+      "O resumo fornecido para o Janus Henderson Global Sustainable Equity (ADR) Managed Account Q2 2026 Portfolio Update é vazio, não permitindo a extração de fatos específicos."
     ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário de renda fixa é marcado pela incerteza em torno da trajetória dos juros, com a inflação persistente nos EUA mantendo o mercado em expectativa pela divulgação do CPI, enquanto tensões geopolíticas no Oriente Médio elevam o preço do petróleo e reforçam a aversão a risco global. Investidores devem monitorar de perto os dados de inflação e emprego dos EUA, bem como a evolução das tensões no Oriente Médio, para validar se a política monetária permanecerá restritiva ou se ajustes graduais serão assimilados pelo mercado sem maiores disrupções.",
-    "acoes": "O cenário da Renda Variável é marcado pela volatilidade externa, com o petróleo acima de US$ 100 pressionando os juros globais e afastando investidores estrangeiros, que registraram a maior saída de recursos desde 2020. Internamente, o Ibovespa mantém tendência de alta técnica, enquanto setores específicos como energia elétrica e óleo & gás reagem a fatores operacionais e regulatórios, como o El Niño e a recalibragem do Fator X, exigindo atenção aos dados de inflação dos EUA e às consultas públicas da Aneel.",
-    "cripto": "Enquanto o Bitcoin testa suportes técnicos sob pressão inflacionária e aguarda a divulgação do CPI, indicadores on-chain como o SOPR sugerem uma possível transição de mercado, embora a confirmação técnica ainda pendente. Paralelamente, o setor avança na institucionalização com a Block buscando charter bancário e a Circle expandindo pagamentos via aquisição, enquanto a Bitmine consolida sua posição em ETH e a Alemanha propõe novas regras fiscais para 2028.",
-    "debentures": "Enquanto a aversão a risco global impulsionada por tensões geopolíticas no Oriente Médio pressiona ativos emergentes como o Ibovespa, grandes corporações como Amazon e MercadoLibre continuam acessando os mercados de crédito privado para captar recursos significativos. Paralelamente, observa-se uma diversificação nos instrumentos de dívida e pagamento, com o Uzbequistão testando stablecoins lastreadas em títulos governamentais e empresas como a Strategy priorizando recompras de ações em detrimento de ativos digitais.",
-    "exterior": "O mercado internacional enfrenta pressão de ativos de risco devido ao choque de custos com o petróleo acima de US$ 100 e tensões geopolíticas, o que reforça a expectativa de juros elevados pelos dados de inflação dos EUA. Paralelamente, ações de tecnologia como Amazon e Palantir apresentam sinais de cautela, com riscos associados à bolha de IA e ressalvas em suas fases de crescimento, respectivamente.",
-    "imobiliario": "O mercado imobiliário deve monitorar o impacto das taxas de juros nos custos de oportunidade e na volatilidade dos REITs, conforme sugerido pela relação com o Tesouro de 10 anos, além de acompanhar a divulgação de AFFO e alocação de capital. Paralelamente, a presença de grandes marcas no ranking da Kantar BrandZ indica uma demanda significativa por espaço físico, enquanto a emissão de novo capital com prêmios elevados, como o caso da Millrose Properties, exige atenção aos termos específicos para avaliar o impacto na alavancagem e competitividade."
+    "renda_fixa": "A pressão inflacionária gerada pelo petróleo acima de US$ 101 e subsídios estendidos continua a elevar as expectativas de juros futuros, enquanto a busca por proteção contra a desvalorização do poder de compra direciona a demanda para ativos com prêmio de risco e duration. Investidores devem monitorar a evolução mensal do IPCA e os dados fiscais para validar se as medidas atuais estão contendo a inflação ou apenas adiando o problema, além de acompanhar a política monetária americana e os resultados eleitorais no Brasil que impactam o risco-país e a Selic.",
+    "acoes": "O mercado brasileiro navega entre a volatilidade externa, impulsionada pelo conflito no Oriente Médio e pela decisão de juros do BCE, e fatores domésticos como a PMS e o posicionamento estratégico de grandes investidores como o JP Morgan em torno do trade eleitoral. Enquanto a fuga para ativos seguros pressiona o Ibovespa e o dólar, movimentos corporativos como a redução da posição da Squadra no Inter reflejem ajustes táticos em meio à incerteza fiscal e inflacionária. O foco permanece na evolução do cenário geopolítico, nos dados de inflação e no resultado do primeiro turno das eleições para definir a próxima direção dos ativos de risco.",
+    "cripto": "O mercado cripto enfrenta pressão imediata com saídas de capital dos ETFs de Bitcoin e aversão ao risco impulsionada pela geopolítica e fortalecimento do iene, enquanto a rotação para altcoins como Ether e Solana continua. Paralelamente, o setor avança na institucionalização e regulação, evidenciado pela busca da Block por charter bancário e por disputas judiciais como a da Unicoin contra a Uniswap, além de novos veículos de crédito privado liderados pela Tether.",
+    "debentures": "O mercado de crédito privado e debêntures deve ser monitorado em função da captação de capital para fundos como o da Tether e Fasanara, além da evolução dos spreads de crédito impulsionada por dados de emprego e política monetária. No Brasil, a atenção deve recair sobre o ajuste fiscal e a queda da Selic, que impactam o risco-país e a valorização de ativos, enquanto no exterior é crucial observar a gestão de dívida de empresas como a Sunbelt Rentals e a performance de veículos como a Main Street Capital e Oakley Capital.",
+    "exterior": "A escalada do petróleo acima de US$ 100 reforça as expectativas de postura restritiva do BCE e pressiona os ativos de risco, enquanto a volatilidade em tecnologia na Ásia e a cautela com alavancagem amplificam a incerteza global. Investidores devem monitorar a decisão de política monetária do BCE e a coletiva de Christine Lagarde, além da próxima reunião do Banco do Japão, que definirá o rumo dos juros e do Iene. Simultaneamente, o impacto da alta energética na inflação e os níveis historicamente baixos de dividendos do S&P 500 exigem atenção aos riscos de mercado e à dinâmica de valuation.",
+    "imobiliario": "O mercado imobiliário apresenta uma dinâmica divergente, com alta demanda e preços em logística contrastando com a desocupação em escritórios devido a reestruturações corporativas. Investidores devem monitorar a conclusão da aquisição da Navi Real Estate Selection pela Vinci e os novos dados de vacância em São Paulo e Campinas, além de aguardar o acesso ao relatório completo do Nomura Real Estate Securities Fund para validar a alocação e visão de mercado do segundo trimestre de 2026."
   }
 }
