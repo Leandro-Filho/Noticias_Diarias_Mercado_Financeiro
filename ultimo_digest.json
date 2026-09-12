@@ -1,83 +1,105 @@
 {
-  "gerado_em": "2026-09-11T15:10:46.480525+00:00",
+  "gerado_em": "2026-09-12T11:17:57.698602+00:00",
   "itens": [
     {
-      "title": "Wall Street salta 1% com Treasuries longos e petróleo, mas aposta de alta pelo Fed ganha força",
+      "title": "Juros futuros avançam de olho no quadro eleitoral",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-abertura-11-9-26-apsa/",
+      "link": "https://www.moneytimes.com.br/juros-futuros-recuam-com-eleicoes-em-foco-apsa/",
       "categorias": [
-        "exterior"
+        "renda_fixa",
+        "debentures"
       ],
-      "resumo": "Wall Street reage positivamente à queda do petróleo e alívio nos juros longos, mas dados de inflação persistentes elevam as chances de novo aumento de juros pelo Fed em setembro.",
-      "mecanismo": "A queda do petróleo Brent alivia pressões inflacionárias imediatas, sustentando a alta dos índices, contudo, o CPI de agosto acima do esperado no núcleo reforça a tese de juros altos por mais tempo, aumentando a probabilidade de alta de juros pelo Fed e pressionando títulos de curto prazo.",
-      "implicacao": "O setor de tecnologia tende a enfrentar volatilidade, pois a expectativa de juros mais altos aumenta o custo de capital e desconta fluxos futuros, enquanto empresas de energia podem ver margens pressionadas pela queda recente do preço do barril.",
-      "risco": "Uma nova escalada nos preços do petróleo ou dados de inflação ainda mais quentes poderiam invalidar o otimismo atual e forçar uma postura mais agressiva de alta de juros pelo Fed.",
-      "proximo_evento": "Reunião do Federal Reserve em setembro para definição da taxa de juros básica.",
+      "resumo": "A curva de juros futuros brasileiros recuou inicialmente com a deflação do IPCA de agosto, mas inverteu o sinal e avançou no final da sessão devido à cautela com desdobramentos políticos envolvendo o STF e a oposição.",
+      "mecanismo": "A publicação de um IPCA de agosto com deflação (-0,32%) e moderação em núcleos reforçou a expectativa de corte da Selic, pressionando os juros para baixo; contudo, a imposição de um prazo pelo STF para a revelação de sigilos no caso Master gerou incerteza política sobre a candidatura da oposição, provocando uma fuga de risco que elevou as taxas de DI em todos os vencimentos.",
+      "implicacao": "A volatilidade política tende a pressionar os juros futuros para cima e fortalecer o Real frente ao Dólar no curto prazo, já que investidores reduzem exposição a ativos de risco doméstico em meio à incerteza eleitoral; títulos prefixados podem sofrer com a alta da curva, enquanto ativos atrelados à inflação (IPCA+) podem ser vistos como refúgio temporário.",
+      "risco": "Se as revelações do STF não impactarem negativamente a candidatura da oposição ou se o mercado interpretar o movimento como apenas uma correção técnica após dias de otimismo excessivo, a tendência de queda dos juros impulsionada pela inflação baixa pode se restabelecer rapidamente.",
+      "proximo_evento": "Sessão extraordinária do STF na próxima terça-feira (15 de setembro) para tratar do procedimento envolvendo o ministro Alexandre de Moraes e a investigação sobre financiamento eleitoral.",
       "key_numbers": [
-        "CPI agosto: +0,4%",
-        "Probabilidade alta juros Fed: 85,6%",
-        "Brent: US$ 104,34",
-        "Treasuries 10 anos: 4,926%"
+        "IPCA agosto: -0,32%",
+        "DI jan/2027: 13,586%",
+        "DI jan/2036: 14,160%",
+        "Probabilidade oposição Polymarket: 52%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Ibovespa recua com dados de inflação e eleições; 5 coisas para saber antes de investir hoje (11)",
+      "title": "Açúcar bruto recua após máxima 16 meses, enquanto café se aproxima da menor cotação em 10 semanas",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-11-9-26-lils/",
+      "link": "https://www.moneytimes.com.br/acucar-bruto-recua-apos-maxima-16-meses-enquanto-cafe-se-aproxima-da-menor-cotacao-em-10-semanas/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa recua ante a cautela com dados de inflação e tensões geopolíticas, enquanto o IPCA de agosto desacelera e o petróleo corre após alta consecutiva.",
-      "mecanismo": "A desaceleração do IPCA mensal para 0,32% reforça a expectativa de que o Banco Central pode manter ou ajustar a política monetária, reduzindo a pressão inflacionária imediata; simultaneamente, a escalada de tensões entre EUA e Irã sustenta o preço do petróleo em patamares elevados, o que, embora proteja receitas de energia, pressiona custos logísticos e gera volatilidade cambial que pesa sobre o índice.",
-      "implicacao": "Setores de energia e commodities tendem a se beneficiar com o petróleo acima de US$ 100, devido à valorização das receitas operacionais, enquanto empresas de varejo e construção civil podem enfrentar margens pressionadas se a inflação de serviços ou custos de insumos não recuarem no mesmo ritmo do IPCA geral.",
-      "risco": "Uma escalada abrupta do conflito no Oriente Médio pode disparar o petróleo a níveis insustentáveis, gerando choque de oferta e inflação global, invalidando a tese de acomodação da inflação doméstica.",
-      "proximo_evento": "Decisões de política monetária do Banco Central na próxima semana e divulgação de novo Datafolha sobre as eleições.",
+      "resumo": "O açúcar bruto recuou de sua máxima de 16 meses e o café arábica se aproximou de mínimos de 10 semanas, refletindo uma correção nos preços das commodities agrícolas.",
+      "mecanismo": "A queda no açúcar é impulsionada pela consolidação após altas anteriores causadas por escassez na Ásia e Europa, enquanto o café enfraquece devido à expectativa de aumento nos estoques da bolsa ICE com entregas significativas do Brasil, que registrou exportações recordes em agosto.",
+      "implicacao": "Para o setor de commodities agrícolas, a pressão vendedora no café sugere cautela em posições longas no curto prazo, enquanto o açúcar pode encontrar suporte se a oferta continuar restrita na Tailândia e Índia, beneficiando produtores que mantiverem margens apesar da volatilidade.",
+      "risco": "Uma reversão brusca nas condições climáticas no Brasil ou na África Ocidental poderia invalidar a tese de oferta abundante, provocando uma alta repentina nos preços do café e cacau.",
+      "proximo_evento": "Monitorar as entregas de café nos armazéns da ICE e o desenvolvimento das chuvas para a safra de 2027 no Brasil, além da evolução dos estoques globais de açúcar.",
       "key_numbers": [
-        "IPCA agosto: -0,32%",
-        "IPCA 12 meses: 4,22%",
-        "Dólar: R$ 5,0799",
-        "Brent: US$ 104,61"
+        "Açúcar bruto: 18,15 centavos/libra",
+        "Café arábica: US$ 2,857/libra",
+        "Exportação café Brasil (ago): 3,82 milhões de sacas",
+        "Produção açúcar Tailândia 26/27: 10,5 milhões de toneladas"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Swing trade: BB Investimentos recomenda a compra de Eneva (ENEV3) nesta sexta (11)",
+      "title": "Wall Street avança no dia com alívio do petróleo, mas Dow Jones cai 1,5% na semana",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/swing-trade-bb-investimentos-recomenda-a-compra-de-eneva-enev3-nesta-sexta-11-ceci/",
+      "link": "https://www.moneytimes.com.br/wall-street-11-9-26-apsa/",
       "categorias": [
-        "acoes"
+        "exterior"
       ],
-      "resumo": "O BB Investimentos emitiu recomendação de compra para ações da Eneva (ENEV3) nesta sexta-feira, 11 de setembro de 2026, baseada em sinal técnico de alta.",
-      "mecanismo": "A recomendação decorre de um algoritmo de análise técnica que identificou uma configuração de preço favorável, sugerindo que o ativo está posicionado para capturar um movimento de valorização de curto prazo (swing trade).",
-      "implicacao": "Para o setor de saneamento, a atenção a sinais técnicos de curto prazo pode indicar oportunidades de arbitragem ou momentum, já que investidores de swing trade buscam lucrar com volatilidade e tendências imediatas independentemente do fundamentalismo de longo prazo.",
-      "risco": "O sinal técnico pode falhar se o mercado apresentar reversão abrupta ou baixa liquidez na abertura, invalidando a projeção de alta rastreada pelo algoritmo.",
-      "proximo_evento": "A execução da ordem de compra na abertura do pregão desta sexta-feira, com limite de preço definido em até 1% acima da abertura.",
+      "resumo": "Os índices de Wall Street recuperaram perdas no dia com a queda do petróleo, mas fecharam a semana em negativo devido à pressão inflacionária persistente e à expectativa de alta de juros.",
+      "mecanismo": "A inflação nos EUA (CPI) manteve-se elevada em 3,4% anual, impulsionada pela energia, o que reforça a expectativa de que o Fed eleve os juros na próxima reunião; embora a queda pontual do petróleo tenha aliviado os índices no dia, a alta dos rendimentos dos Treasuries de longo prazo pressionou os mercados ao longo da semana.",
+      "implicacao": "A probabilidade elevada de alta de juros tende a pressionar negativamente ativos sensíveis a taxas, como ações de crescimento e títulos de longo prazo, enquanto pode beneficiar ativos de renda fixa de curto prazo e o dólar frente a moedas emergentes.",
+      "risco": "Uma resolução rápida da tensão geopolítica no Mar Vermelho ou dados futuros de inflação abaixo do esperado poderiam invalidar a tese de juros altos por mais tempo, revertendo a pressão sobre os ativos de risco.",
+      "proximo_evento": "Reunião do Federal Reserve na próxima semana para definição da taxa de juros.",
       "key_numbers": [
-        "Data da recomendação: 11/09/2026",
-        "Limite de preço: 1% acima da abertura",
-        "Ticker: ENEV3"
+        "CPI acumulado 12 meses: 3,4%",
+        "Probabilidade alta juros Fed: 86,5%",
+        "Queda semanal Dow Jones: 1,5%",
+        "Petróleo Brent: US$ 104,61"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Dólar avança a R$ 5,12 com risco político; divisa acumula leve desvalorização na semana",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/dolar-11-9-26-lils/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "O dólar comercial subiu para R$ 5,12 impulsionado pelo aumento do risco político doméstico e pela expectativa de alta de juros nos EUA, apesar da deflação local em agosto.",
+      "mecanismo": "A tensão política envolvendo o STF e investigações de alto escalão gerou aversão ao risco, levando investidores a comprar dólar como proteção antes do fim de semana; simultaneamente, a inflação núcleo acima do esperado nos EUA elevou as apostas de que o Federal Reserve elevará os juros, fortalecendo a moeda americana globalmente.",
+      "implicacao": "A classe de ativos de renda fixa atrelada ao câmbio (como CDI em dólar ou ativos em moeda forte) tende a se beneficiar com a valorização da divisa, enquanto títulos públicos indexados à inflação (IPCA+) podem sofrer pressão inicial devido à deflação local, embora a alta de juros americanos dificulte a entrada de capital estrangeiro no Brasil.",
+      "risco": "A pesquisa de intenção de voto pode revelar uma mudança no cenário político que reduza a incerteza, ou os dados de inflação podem ser reinterpretados de forma a alterar as expectativas de juros, revertendo a demanda por proteção em dólar.",
+      "proximo_evento": "Decisões de política monetária do Banco Central brasileiro (Selic) e do Federal Reserve americano, ambas agendadas para a próxima quarta-feira (16), além da divulgação da pesquisa Datafolha.",
+      "key_numbers": [
+        "Dólar à vista: R$ 5,1254",
+        "IPCA agosto: -0,32%",
+        "Inflação acumulada 12 meses: 4,22%",
+        "Probabilidade de alta Fed: 86,5%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Liquidação de títulos globais mantém rendimento e 10 anos dos EUA perto de 5% por temores sobre petróleo e juros",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/liquidacao-de-titulos-globais-mantem-rendimento-e-10-anos-dos-eua-perto-de-5-por-temores-sobre-petroleo-e-juros-jcav/",
+      "title": "Bitcoin spikes toward $80K as US CPI data delivers new 22-year high in bond yields",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-spikes-toward-80k-as-us-cpi-data-delivers-new-22-year-high-in-bond-yields?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "renda_fixa",
-        "exterior"
+        "cripto"
       ],
-      "resumo": "A liquidação de títulos globais e os temores inflacionários impulsionados pelo petróleo acima de US$ 100 elevaram o rendimento do Treasury de 10 anos dos EUA para perto de 5%, refletindo expectativas de aperto monetário.",
-      "mecanismo": "A guerra no Oriente Médio sustenta o petróleo em patamares elevados, gerando pressões inflacionárias que forçam os investidores a vender títulos soberanos e exigirem prêmios de risco maiores; simultaneamente, a postura hawkish dos bancos centrais, como o BCE e as expectativas para o Fed, consolida a alta dos juros de curto e longo prazo.",
-      "implicacao": "A classe de ativos de renda variável, especialmente ações de crescimento e setores sensíveis a juros como imobiliário e tecnologia, tende a sofrer pressão de valuation, pois a competitividade dos títulos de renda fixa com rendimentos próximos a 5% atrai capital e encarece o custo de financiamento corporativo.",
-      "risco": "Uma desaceleração abrupta nos preços do petróleo ou dados de inflação abaixo do esperado poderiam invalidar a tese de juros persistentemente altos, revertendo a alta dos rendimentos e beneficiando os ativos de risco.",
-      "proximo_evento": "Divulgação dos dados do índice de preços ao consumidor (CPI) dos EUA nesta sexta-feira e a reunião do Federal Reserve na próxima semana.",
+      "resumo": "O Bitcoin recuperou terreno e chegou a US$ 79.000 após os dados de inflação dos EUA (CPI) terem se alinhado às expectativas, apesar de o índice subjacente ter superado a previsão, o que elevou as apostas em um aumento de juros pelo Fed.",
+      "mecanismo": "A inflação subjacente (core CPI) subiu 0,3% no mês, acima dos 0,2% esperados, impulsionada principalmente pela alta de 3,9% nos preços da gasolina devido à guerra EUA-Irã; isso aumentou as probabilidades de um hike de 0,25% pelo Fed para 85%, fazendo os rendimentos dos títulos de 30 anos dos EUA atingirem máximos em 22 anos, o que teoricamente pressiona ativos de risco como o Bitcoin por oferecer uma alternativa livre de risco mais atrativa.",
+      "implicacao": "Para criptoativos e ações de tecnologia, o cenário tende a ser de pressão de venda ou volatilidade, pois a combinação de juros reais mais altos e rendimentos de títulos atrativos (acima de 5%) reduz o apelo de ativos especulativos que dependem de liquidez barata e expectativas de crescimento nominal.",
+      "risco": "O raciocínio de queda pode ser invalidado se o mercado interpretar a inflação como puramente transitória (impulsionada apenas por energia) e o Fed decidir manter os juros inalterados para não sufocar o crescimento, ou se a demanda por Bitcoin superar a aversão ao risco gerada pelos juros.",
+      "proximo_evento": "Reunião do FOMC do Federal Reserve em 16 de setembro, onde será decidido se os juros serão elevados em 0,25 ponto percentual.",
       "key_numbers": [
-        "Rendimento Treasury 10 anos: ~5%",
-        "Preço do petróleo: >US$ 100/barril",
-        "Aumento rendimentos G7 10 anos: ~19 pb",
-        "Aumento rendimentos 2 anos: ~22 pb"
+        "Bitcoin: US$ 79.000",
+        "Core CPI mensal: 0,3%",
+        "Probabilidade de hike Fed: 85%",
+        "Rendimento título 30 anos: 5,309%"
       ],
       "sentiment": "down"
     },
@@ -89,15 +111,15 @@
         "cripto"
       ],
       "resumo": "Os ETFs de Bitcoin à vista registraram saídas líquidas aceleradas, totalizando US$ 449 milhões em três dias, com o maior fluxo negativo diário em quase dois meses.",
-      "mecanismo": "A venda concentrada em grandes emissoras como ARK 21Shares e Grayscale indica uma tomada de lucros ou ajuste de portfólio após a forte alta recente, exercendo pressão imediata de venda sobre o preço do Bitcoin à medida que os gestores liquidam posições para honrar os resgates.",
-      "implicacao": "O setor de criptoativos tende a enfrentar volatilidade e pressão de baixa no curto prazo, já que a saída de capital institucional via ETFs reduz a demanda imediata e pode desencadear vendas alavancadas na cadeia.",
-      "risco": "O raciocínio de pressão vendedora pode ser invalidado se os fluxos de saída forem interpretados como um evento isolado de rebalanceamento e não como uma mudança estrutural de sentimento, permitindo uma rápida retomada dos ingressos.",
-      "proximo_evento": "Monitorar os fluxos diários dos ETFs de Bitcoin e Ethereum nas próximas sessões para verificar se a tendência de saída se consolida ou se reverte rapidamente.",
+      "mecanismo": "A saída massiva de capital, liderada pelo ARK 21Shares, indica uma redução temporária da demanda institucional ou realização de lucros após um período forte de entradas, o que aumenta a pressão de venda imediata sobre o preço do ativo subjacente ao reduzir a liquidez de apoio nos fundos.",
+      "implicacao": "O setor de criptoativos tende a enfrentar volatilidade de curto prazo e possível correção de preço, já que a redução nos fluxos de entrada remove um suporte de demanda estrutural que vinha sustentando a valorização recente.",
+      "risco": "O raciocínio de pressão vendedora pode ser invalidado se as saídas forem interpretadas como ajuste técnico pontual e não como mudança de sentimento, especialmente se novos compradores institucionais entrarem rapidamente nos dias seguintes.",
+      "proximo_evento": "Monitorar os fluxos diários dos ETFs de Bitcoin nas próximas sessões para verificar se a tendência de saída se sustenta ou se reverte rapidamente.",
       "key_numbers": [
-        "Saídas 3 dias: US$ 449 milhões",
-        "Saída diária (quinta): US$ 282,6 milhões",
-        "Maior emissor (ARKB): US$ 164 milhões",
-        "Ativos totais ETFs BTC: US$ 97,5 bilhões"
+        "Saídas líquidas em 3 dias: US$ 449 milhões",
+        "Saída líquida diária (quinta): US$ 282,6 milhões",
+        "Maior contribuidor de saída (ARKB): US$ 164 milhões",
+        "Ativos totais sob gestão: US$ 97,5 bilhões"
       ],
       "sentiment": "down"
     },
@@ -109,55 +131,70 @@
         "debentures"
       ],
       "resumo": "A Índia iniciou um piloto de títulos corporativos tokenizados com emissão de US$ 107 milhões, integrando a infraestrutura de custódia digital ao CBDC atacadista do banco central para permitir liquidação instantânea.",
-      "mecanismo": "A SEBI e o RBI conectaram os depósitos estatutários ao CBDC atacadista via Interface de Mercado Unificada, permitindo que os títulos sejam emitidos como tokens em ledger distribuído; isso elimina o atraso de liquidação (T+2/3) através de assentamento atômico e contratos inteligentes, reduzindo o risco de contraparte e acelerando o fluxo de caixa para os emissores.",
-      "implicacao": "O setor de infraestrutura de mercado financeiro e fintechs de ativos digitais tende a se beneficiar, pois a validação regulatória de tokenização em grande escala na Índia cria um precedente global que pode aumentar a demanda por soluções de liquidação instantânea e custódia digital em outros mercados emergentes.",
-      "risco": "A expansão para investidores varejistas pode ser retardada ou limitada se a fase piloto revelar falhas técnicas na integração com carteiras CBDC ou se a adoção por emissores corporativos for menor que o esperado.",
-      "proximo_evento": "A introdução do mercado secundário para negociação desses títulos e a abertura do acesso a investidores varejistas nas fases subsequentes do projeto Demat 2.0.",
+      "mecanismo": "A tokenização dos títulos na infraestrutura Demat 2.0 conecta-se ao CBDC atacadista do RBI, permitindo liquidação atômica que elimina o risco de contraparte e reduz o ciclo de compensação de dias para o mesmo dia, aumentando a eficiência operacional e a atratividade do mercado de dívida corporativa indiano.",
+      "implicacao": "O setor de infraestrutura de mercado financeiro e fintechs focadas em ativos reais tokenizados (RWA) tendem a se beneficiar, pois a validação regulatória de um piloto de grande escala na Índia serve como caso de uso prático que pode acelerar a adoção global de tokenização de dívida e reduzir custos de intermediação.",
+      "risco": "A expansão para investidores varejistas ou o sucesso do mercado secundário pode ser retardada se a infraestrutura tecnológica apresentar falhas de escalabilidade ou se a regulamentação enfrentar resistências políticas ou operacionais não previstas no piloto inicial.",
+      "proximo_evento": "A introdução do mercado secundário para negociação desses títulos tokenizados e a eventual abertura para investidores varejistas nas fases subsequentes do projeto Demat 2.0.",
       "key_numbers": [
         "Valor emitido: US$ 107 milhões",
-        "Emissores participantes: 3",
         "Investidores na primeira emissão: 18",
-        "Valor da emissão REC: 5 bilhões de rupias"
+        "Valor da emissão da REC: 5 bilhões de rupias",
+        "Valor da emissão da L&T: 5 bilhões de rupias"
       ],
       "sentiment": "up"
     },
     {
-      "title": "EU finance groups push to remove tokenized securities cap",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/european-finance-groups-urge-eu-to-scrap-tokenized-securities-cap-propose-15t-fallback?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "IYRI: Reinvest The 10% Dividend Yield Until Real Estate Turns",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4945737-iyri-reinvest-the-10-percent-dividend-yield-until-real-estate-turns?source=feed_all_articles",
+      "categorias": [
+        "imobiliario"
+      ],
+      "resumo": "O analista mantém a recomendação de compra do ETF IYRI, destacando seu potencial como alternativa eficiente para impostos em comparação com a locação direta de imóveis.",
+      "mecanismo": "O fundo oferece uma estrutura que permite reinvestir dividendos de alto rendimento (10%) de forma mais eficiente fiscalmente do que a posse direta de aluguéis, atraindo investidores que buscam renda passiva sem os encargos operacionais e tributários da gestão imobiliária tradicional.",
+      "implicacao": "A classe de ativos de ETFs de renda imobiliária tende a se beneficiar quando investidores buscam alternativas líquidas e fiscalmente eficientes para a renda passiva, deslocando demanda de ativos imobiliários físicos para instrumentos financeiros negociáveis.",
+      "risco": "A tese depende da manutenção do alto rendimento e da eficiência fiscal; uma reversão no mercado imobiliário ou mudanças na legislação tributária poderiam reduzir a atratividade relativa do fundo em comparação com a locação direta.",
+      "proximo_evento": "Monitorar a evolução dos preços dos imóveis e a sustentabilidade do yield de 10% do fundo nos próximos relatórios trimestrais.",
+      "key_numbers": [
+        "Dividend Yield: 10%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Experian plc (EXPGY) Presents at Barclays 11th Annual Global Credit Data & Analytics Forum Transcript",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4945697-experian-plc-expgy-presents-at-barclays-11th-annual-global-credit-data-and-analytics-forum?source=feed_all_articles",
       "categorias": [
         "debentures"
       ],
-      "resumo": "Uma coalizão de grandes players financeiros e de tokenização na Europa pressionou os legisladores para eliminar ou ampliar significativamente o teto de ativos admitidos no regime piloto de DLT, argumentando que o limite proposto de 100 bilhões de euros é insuficiente para a escala atual do mercado.",
-      "mecanismo": "A pressão do setor visa remover barreiras regulatórias que limitam a liquidez e a escala dos mercados on-chain na Europa; ao comparar com a ausência de limites nos EUA, o argumento é que a manutenção de tetos baixos força a migração de liquidez e inovação para jurisdições mais permissivas, prejudicando a competitividade europeia em ativos tokenizados.",
-      "implicacao": "O setor de infraestrutura de tokenização e ativos reais (RWA) tende a se beneficiar, pois a remoção ou aumento do teto permitiria a entrada de grandes emissores e maior volume de negociação, aumentando a relevância da Europa como hub para securities tokenizados.",
-      "risco": "Os legisladores podem manter o teto baixo ou rejeitar a expansão por preocupações com a estabilidade financeira e a supervisão, o que manteria a liquidez concentrada nos mercados americanos e limitaria o crescimento do ecossistema europeu.",
-      "proximo_evento": "A decisão final do Conselho da UE e do Comitê de Assuntos Econômicos e Monetários do Parlamento Europeu sobre a revisão do Regime Piloto de DLT e o pacote de integração de mercados.",
+      "resumo": "A Experian reforçou sua estratégia de integrar inteligência artificial como acelerador de crescimento em seus mercados finais, destacando avanços em produtos e soluções de software durante o fórum da Barclays.",
+      "mecanismo": "A empresa posiciona a IA não apenas como ferramenta operacional, mas como motor de expansão de receita, ao aplicar modelos avançados de dados para melhorar a eficiência e a oferta de produtos em serviços financeiros, o que deve aumentar a margem e a relevância da plataforma.",
+      "implicacao": "O setor de dados de crédito e análise financeira tende a se beneficiar, pois a adoção de IA eleva a barreira de entrada e a eficiência operacional, consolidando players que conseguem transformar dados em insights acionáveis com maior velocidade e precisão.",
+      "risco": "A implementação da IA pode enfrentar atrasos técnicos ou falhas na adoção pelo cliente, além de regulamentações mais rígidas sobre o uso de algoritmos em decisões de crédito que poderiam limitar a expansão.",
+      "proximo_evento": "Acompanhar os próximos relatórios trimestrais de resultados para verificar a materialização financeira das iniciativas de IA e o impacto no crescimento de receita.",
       "key_numbers": [
-        "Teto proposto: 100 bilhões de euros",
-        "Limite atual: 6 bilhões de euros",
-        "Solicitação mínima: 500 bilhões de euros",
-        "Valor total RWA: 39,15 bilhões de dólares"
+        "Data do evento: 09 de setembro de 2026",
+        "Edição do fórum: 11ª"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Bitcoin falls on US PPI overshoot as 30-year bond yield hits new 19-year high",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-falls-on-us-ppi-overshoot-as-30-year-bond-yield-hits-new-19-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "There's More Behind The Rise In Treasury Yields",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4945733-there-more-behind-rise-in-treasury-yields?source=feed_all_articles",
       "categorias": [
-        "cripto"
+        "renda_fixa",
+        "debentures"
       ],
-      "resumo": "O Bitcoin recuou abaixo de US$ 77.000 impulsionado por dados de inflação nos EUA acima do esperado e pela escalada geopolítica no Oriente Médio, que elevou o petróleo e os juros de longo prazo.",
-      "mecanismo": "O PPI dos EUA superou as expectativas em 5,4%, reforçando a inflação persistente, enquanto a tensão no Oriente Médio disparou o petróleo bruto WTI acima de US$ 100; essa combinação pressionou os rendimentos dos títulos de 30 anos dos EUA a máximos de 19 anos, aumentando o custo de oportunidade para ativos de risco como criptomoedas e elevando as probabilidades de um novo aumento de juros pelo Fed.",
-      "implicacao": "Ativos de risco, incluindo criptomoedas e ações de tecnologia, tendem a sofrer pressão de venda, pois a combinação de juros mais altos e incerteza geopolítica reduz a apetite por risco e encarece o financiamento, favorecendo ativos defensivos ou de renda fixa de curto prazo.",
-      "risco": "Se o CPI divulgado na sexta-feira vier abaixo das expectativas, pode atenuar rapidamente as pressões inflacionárias e reduzir as chances de aperto monetário adicional, revertendo a queda nos ativos de risco.",
-      "proximo_evento": "Divulgação do Índice de Preços ao Consumidor (CPI) dos EUA na sexta-feira, que será o último dado inflacionário chave antes da decisão de juros do Fed em 16 de setembro.",
+      "resumo": "Os rendimentos dos títulos do Tesouro americano estão em alta devido à combinação de dados de emprego resilientes, preços elevados do petróleo e incerteza inflacionária, pressionando os mercados de ações.",
+      "mecanismo": "A força do mercado de trabalho e o petróleo acima de US$ 100 barril sustentam a inflação, elevando a probabilidade de um aumento de juros para quase 90%; isso força os investidores a exigirem maior compensação por risco, empurrando os rendimentos dos títulos para cima e penalizando ativos sensíveis à duração.",
+      "implicacao": "A classe de ativos de ações de longa duração tende a sofrer pressão, pois o aumento dos rendimentos reais reduz o valor presente dos fluxos de caixa futuros e encarece o custo de capital, tornando esses ativos menos atraentes em comparação com títulos de renda fixa.",
+      "risco": "Se a inflação subjacente moderar mais rapidamente do que o esperado ou se os preços do petróleo caírem significativamente, a pressão sobre os rendimentos dos títulos pode diminuir, revertendo a tese de juros persistentemente altos.",
+      "proximo_evento": "Monitorar os próximos relatórios de inflação (CPI) e decisões de política monetária dos bancos centrais globais, que definirão se a trajetória de juros mais altos se consolida.",
       "key_numbers": [
-        "PPI EUA (ago): 5,4%",
-        "Óleo WTI: >US$ 100/barril",
-        "Juro título 30a EUA: 5,353%",
-        "Probabilidade hike Fed set: 69,8%"
+        "Probabilidade de aumento de juros: 90%",
+        "Aumento do IPCA central (agosto): 0,3%",
+        "Preço do petróleo bruto: acima de US$ 100/barril"
       ],
       "sentiment": "down"
     },
@@ -166,18 +203,18 @@
       "source": "Bora Investir",
       "link": "https://borainvestir.b3.com.br/noticias/",
       "categorias": [
-        "renda_fixa"
+        "acoes"
       ],
-      "resumo": "A inflação oficial de agosto recuou 0,32%, a menor taxa em quatro anos, impulsionada pela queda nos preços de energia, alimentos e transporte, enquanto o mercado ajusta a previsão anual para 5%.",
-      "mecanismo": "A desinflação acelerada, evidenciada pelo IPCA negativo em agosto e pela revisão da meta anual no Boletim Focus para 5%, reduz a pressão sobre o Banco Central para manter juros elevados, criando um ambiente favorável para a queda da taxa Selic e valorização de ativos sensíveis a juros.",
-      "implicacao": "Com a inflação caindo e a meta anual sendo reduzida, a classe de renda fixa atrelada à inflação (IPCA+) tende a ter menor prêmio de risco, enquanto a renda variável, especialmente setores cíclicos e imobiliários, pode se beneficiar da expectativa de juros reais mais baixos.",
-      "risco": "Uma reversão súbita na inflação de serviços ou choques externos, como a escalada no Oriente Médio, podem invalidar a tese de desinflação e forçar o BC a manter juros altos por mais tempo.",
-      "proximo_evento": "Próxima reunião do Copom e divulgação do Boletim Focus subsequente para confirmar a trajetória de queda da inflação e expectativas de juros.",
+      "resumo": "A inflação oficial de agosto recuou 0,32%, a menor taxa em quatro anos, enquanto o mercado reduz a previsão anual para 5% no Focus, impulsionando o Ibovespa.",
+      "mecanismo": "A desaceleração da inflação para o menor nível em quatro anos reforça a convergência para a meta, validando a redução da projeção de inflação para 5% no Boletim Focus; essa melhora no cenário macroeconômico reduz a pressão sobre a taxa de juros real, aumentando a atratividade de ativos de risco em detrimento de ativos defensivos.",
+      "implicacao": "Com a inflação caindo e as expectativas de juros se acomodando, o setor de consumo discricionário e imobiliário tende a se beneficiar, pois o poder de compra real das famílias se preserva e o custo de financiamento tende a ser mais favorável.",
+      "risco": "A escalada do conflito no Oriente Médio pode elevar o preço do petróleo e reintroduzir pressões inflacionárias, invalidando a tese de queda sustentada da inflação e forçando uma revisão das expectativas de juros.",
+      "proximo_evento": "Publicação do Boletim Focus oficial e decisão de juros do BCE, que podem alterar a dinâmica de fluxo de capitais e expectativas inflacionárias.",
       "key_numbers": [
-        "IPCA Agosto: -0,32%",
-        "Previsão Inflação Anual: 5%",
+        "Inflação Agosto: -0,32%",
+        "Previsão Inflação Ano: 5%",
         "Ibovespa: 188 mil pontos",
-        "Dólar: R$ 5,10"
+        "Dólar: R$ 5,12"
       ],
       "sentiment": "up"
     },
@@ -189,76 +226,60 @@
         "imobiliario"
       ],
       "resumo": "O setor de galpões logísticos atinge recorde de valorização com média de R$ 30/m² e receita de locações crescendo 20%, enquanto a saída de estrangeiros e investigações judiciais pressionam a ocupação de escritórios em SP e Campinas.",
-      "mecanismo": "A alta demanda por logística impulsiona os preços de transação e receitas do setor, criando um efeito de refúgio de qualidade; simultaneamente, a desocupação em escritórios decorre de falências corporativas e reestruturações de multinacionais, fragmentando a demanda por espaço corporativo tradicional.",
-      "implicacao": "Fundos imobiliários do segmento logístico tendem a se beneficiar com a valorização dos ativos e crescimento de receita, enquanto FIIs de escritórios podem enfrentar pressão sobre dividendos devido à maior vacância e necessidade de capex para reter inquilinos.",
-      "risco": "Uma desaceleração abrupta do comércio exterior ou uma crise de liquidez mais ampla pode reduzir a demanda por logística e agravar a inadimplência no setor de escritórios, invalidando a tese de resiliência dos logísticos.",
+      "mecanismo": "A alta demanda por logística impulsiona os preços de transação e receitas no segmento, criando um efeito de refúgio de qualidade; simultaneamente, a desocupação em escritórios decorre de falências corporativas e reestruturações de multinacionais, fragmentando a demanda por espaço corporativo tradicional.",
+      "implicacao": "Fundos imobiliários do segmento logístico tendem a se beneficiar com a valorização dos ativos e crescimento de receita, enquanto FIIs de escritórios podem enfrentar pressão sobre a ocupação e renovação de contratos devido à redução da demanda corporativa.",
+      "risco": "Uma desaceleração abrupta do comércio eletrônico ou uma crise cambial mais severa que force mais fechamentos de fábricas poderia inverter a tendência de alta nos logísticos e agravar a vacância em escritórios.",
       "proximo_evento": "Conclusão da aquisição da Navi Real Estate Selection pela Vinci, prevista para o fim de 2026, e novos dados de vacância em escritórios de São Paulo e Campinas.",
       "key_numbers": [
         "Preço médio galpões: R$ 30/m²",
-        "Crescimento receita locação: 20%",
+        "Crescimento receita locações: 20%",
         "Área desocupada escritórios: 38 mil m²",
         "Variação Ifix: +0,65%"
       ],
       "sentiment": "up"
-    },
-    {
-      "title": "Notícias para o investidor de fundos imobiliários",
-      "source": "clubefiinews.com.br",
-      "link": "https://www.clubefiinews.com.br/hibrido",
-      "categorias": [
-        "imobiliario"
-      ],
-      "resumo": "O texto fornecido consiste exclusivamente em um aviso legal padrão do Clube FII, sem apresentar dados de mercado, notícias econômicas ou eventos específicos.",
-      "mecanismo": "Não há evento econômico ou corporativo descrito no texto para estabelecer uma cadeia causal de impacto nos mercados.",
-      "implicacao": "Sem informação de mercado, não é possível derivar implicações para setores ou classes de ativos.",
-      "risco": "A ausência de conteúdo informativo impede qualquer análise de risco ou oportunidade.",
-      "proximo_evento": "Não aplicável, pois não há notícia factual para gerar um gatilho futuro.",
-      "key_numbers": [],
-      "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [
-      "Artigos do Seeking Alpha discutem considerações para investidores antes da decisão de juros do Fed e argumentam que a inflação persistente nos EUA justifica um aumento de taxas.",
-      "O Gabelli U.S. Treasury Money Market Fund publicou seu comentário sobre o segundo trimestre de 2026.",
-      "O Federal Reserve de Nova York atualizou sua metodologia de cálculo para o risco de crédito subprime, incorporando 33 milhões de mutuários adicionais ao conjunto de dados Consumer Credit Panel em 10 de agosto de 2026."
+      "O comentário semanal destaca que os títulos estão assumindo o controle do mercado e apresenta os dados do relatório Z.1 do segundo trimestre de 2026.",
+      "A análise sobre as ações preferenciais da Athene Holding Series A sugere uma estratégia de taxa flutuante adequada para um ambiente de juros cauteloso.",
+      "Os indicadores de inflação, incluindo CPI, Core CPI e Core Services CPI, demonstram uma retomada, indicando que a inflação não está sendo contida."
     ],
     "acoes": [
-      "A Ágora Investimentos recomenda a compra de Itaú Unibanco (ITUB4) em day trade com potencial de ganho de 1,46% e stop em R$ 42,11, além de indicar a venda de Direcional (DIRR3).",
-      "O Ibovespa futuro recuou 0,19% para 189.800 pontos enquanto o dólar à vista subiu 0,11% para R$ 5,1084, influenciado pelo IPCA e pelo cenário eleitoral.",
-      "O BTG Pactual aponta tendência de alta para o mini índice (WINV26), que avançou 0,95% e opera acima das médias móveis com suporte em 189.302, enquanto o mini dólar enfrenta pressão vendedora."
+      "A Nvidia está em conversações para investir no mega IPO da Anthropic, segundo fontes.",
+      "O Freeport-McMoRan enfrenta riscos significativos apesar do ciclo supercíclico de cobre e IA.",
+      "A Marvell apresenta a configuração mais potente para a década das fábricas de IA.",
+      "A Oracle ainda possui potencial de alta de 40%, indicando que o investidor não perdeu a oportunidade."
     ],
     "cripto": [
-      "Os ETFs de Bitcoin registraram uma saída de US$ 167 milhões após a sequência de entradas mais forte de três semanas de 2026.",
-      "A Nasdaq investiu US$ 100 milhões na empresa-mãe da Kraken, avaliando-a em US$ 21 bilhões.",
-      "A versão revisada do Projeto de Lei CLARITY visa operadores de DeFi 'não descentralizados'.",
-      "O Secretário do Tesouro Bessent insta a aprovação do Projeto de Lei CLARITY após o retorno do Senado."
+      "A versão revisada do projeto de lei CLARITY Act direciona sua regulamentação especificamente para operadores de DeFi classificados como 'não descentralizados'.",
+      "A Bitcoin Suisse planeja transferir até metade de seus empregos na Suíça para o exterior.",
+      "Ran Neuner afirma que o maior risco para a Hyperliquid é a regulação.",
+      "A Bitwise pretende submeter um ETF de Dogecoin menos de um ano após o lançamento do produto."
     ],
     "debentures": [
-      "O Federal Reserve de Nova York atualizou sua metodologia de cálculo para o painel de crédito ao consumidor, incorporando 33 milhões de mutuários adicionais ao conjunto de dados.",
-      "A ESMA alertou que os vínculos crescentes com criptoativos podem amplificar os riscos para o sistema financeiro tradicional.",
-      "O UniCredit busca um parceiro de infraestrutura para oferecer serviços de negociação e custódia de criptoativos.",
-      "A Coinbase e a Moov fornecerão infraestrutura de stablecoins para bancos comunitários dos Estados Unidos."
+      "O artigo discute o crescente apetite por dívida impulsionado pela inteligência artificial, sugerindo que o cenário atual pode ser diferente de ciclos anteriores.",
+      "O texto analisa as ações preferenciais Série A de taxa flutuante da Athene Holding como uma opção para um ambiente de juros cauteloso."
     ],
     "exterior": [
-      "O Dow Jones se recuperou para 52.657, mas um teto de baixa mantém a pressão sobre o índice.",
-      "O S&P 500 está preso entre sua média móvel de 200 períodos e a nuvem Ichimoku.",
-      "O Nasdaq 100 permanece confinado em uma faixa de 900 pontos, aguardando uma ruptura.",
-      "Os mercados voltaram a subir enquanto os investidores ignoram os dados de inflação."
+      "As bolsas europeias fecharam em alta nesta sexta-feira (11) impulsionadas pela queda do petróleo e pela melhora do apetite por risco, apesar das apostas de alta de juros pelo Federal Reserve reforçadas pela inflação dos EUA.",
+      "Fundos globais estão reduzindo a exposição às ações indianas, com alguns cortando a participação para zero.",
+      "O S&P Composite estava 227% acima da tendência em agosto, indicando uma possível regressão à média.",
+      "A inflação, incluindo CPI, Core CPI e Core Services CPI, mostrou sinais de retorno, sugerindo que a pressão inflacionária não está sendo contida."
     ],
     "imobiliario": [
-      "O Clube FII informa que não faz recomendações de investimento e não se responsabiliza por perdas ou danos.",
-      "O Clube FII informa que não faz recomendações de investimento e não se responsabiliza por perdas ou danos.",
-      "O Clube FII informa que não faz recomendações de investimento e não se responsabiliza por perdas ou danos.",
-      "O Clube FII informa que não faz recomendações de investimento e não se responsabiliza por perdas ou danos."
+      "O Clube FII afirma que preza pela qualidade do conteúdo e verifica as informações publicadas, ressaltando que não faz recomendação de investimento e não se responsabiliza por perdas ou danos.",
+      "O Clube FII afirma que preza pela qualidade do conteúdo e verifica as informações publicadas, ressaltando que não faz recomendação de investimento e não se responsabiliza por perdas ou danos.",
+      "O Clube FII afirma que preza pela qualidade do conteúdo e verifica as informações publicadas, ressaltando que não faz recomendação de investimento e não se responsabiliza por perdas ou danos.",
+      "O Clube FII afirma que preza pela qualidade do conteúdo e verifica as informações publicadas, ressaltando que não faz recomendação de investimento e não se responsabiliza por perdas ou danos."
     ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "Enquanto a desinflação no Brasil e a revisão da meta de IPCA criam expectativas de queda da Selic, o cenário global permanece tenso com a inflação persistente nos EUA justificando possíveis aumentos de juros pelo Fed, contrastando com a pressão inflacionária externa gerada pela guerra no Oriente Médio. Investidores devem monitorar a próxima reunião do Copom e do Boletim Focus para confirmar a trajetória de juros domésticos, ao mesmo tempo que observam a decisão do Federal Reserve e os dados do CPI dos EUA, além de acompanhar as novas métricas de risco de crédito subprime divulgadas pelo Fed de Nova York.",
-    "acoes": "O mercado de renda variável brasileiro opera sob a tensão entre a desaceleração da inflação, que pode favorecer ajustes na política monetária do Banco Central, e a volatilidade externa gerada por tensões geopolíticas que sustentam o petróleo e pressionam o câmbio. Investidores devem monitorar de perto as decisões do Copom na próxima semana e novos dados de intenção de voto, além de acompanhar as recomendações táticas de curto prazo para ativos como ITUB4, ENEV3 e WINV26, que refletem movimentos técnicos específicos em meio à incerteza macroeconômica.",
-    "cripto": "O mercado de criptomoedas enfrenta uma dinâmica complexa onde a pressão de venda dos ETFs de Bitcoin e os dados inflacionários elevados dos EUA, que impulsionaram os rendimentos dos títulos a máximos de 19 anos, contrastam com sinais de legitimidade institucional, como o investimento da Nasdaq na Kraken e o apoio do Tesouro ao Projeto de Lei CLARITY. O foco imediato deve permanecer na divulgação do Índice de Preços ao Consumidor (CPI) dos EUA na sexta-feira, dado crucial que precede a decisão de juros do Fed em 16 de setembro e que pode definir se a volatilidade atual se consolida ou reverte.",
-    "debentures": "Enquanto a Índia avança na tokenização de títulos com liquidação atômica e a Europa debate a remoção de limites regulatórios para ativos on-chain, o setor tradicional enfrenta pressões duplas: a ESMA alerta sobre riscos sistêmicos decorrentes da integração com criptoativos, e instituições como o UniCredit e bancos comunitários dos EUA buscam parcerias de infraestrutura para custódia e stablecoins. Paralelamente, a atualização metodológica do Federal Reserve de Nova York, que amplia a base de dados de risco de crédito subprime, oferece uma visão mais granular da saúde do crédito privado, essencial para precificar spreads em um ambiente onde a fronteira entre finanças tradicionais e tokenizadas se torna cada vez mais porosa.",
-    "exterior": "Apesar da recuperação pontual nos índices americanos e da tendência de os investidores desconsiderarem os dados recentes de inflação, a volatilidade técnica persiste com o S&P 500 e o Nasdaq 100 presos em faixas de consolidação. O cenário macroeconômico continua tenso, com a queda do petróleo Brent aliviando pressões imediatas, mas o CPI de agosto acima do esperado reforçando a tese de juros altos por mais tempo e aumentando a probabilidade de uma postura hawkish do Fed. A atenção do mercado deve permanecer focada na reunião do Federal Reserve em setembro e na divulgação do CPI dos EUA, eventos cruciais que definirão a trajetória dos juros e a direção dos ativos de risco.",
-    "imobiliario": "O mercado imobiliário apresenta uma dinâmica divergente, com alta demanda e preços em logística contrastando com a desocupação em escritórios devido a reestruturações corporativas. Investidores devem monitorar a conclusão da aquisição da Navi Real Estate Selection pela Vinci no fim de 2026 e os novos dados de vacância em São Paulo e Campinas, mantendo em mente que as fontes de informação não oferecem recomendações diretas de investimento."
+    "renda_fixa": "O mercado de renda fixa enfrenta uma dinâmica complexa onde a incerteza política doméstica e a sessão extraordinária do STF em 15 de setembro competem com pressões inflacionárias globais sustentadas por petróleo acima de US$ 100 e dados de CPI elevados. Enquanto a deflação recente no IPCA brasileiro sugeria cortes na Selic, a fuga de risco e a alta dos juros futuros refletem a cautela diante do cenário eleitoral e da decisão do Fed em 16 de setembro. Investidores devem monitorar de perto a convergência entre a volatilidade política local e a rigidez inflacionária internacional, que continua a elevar as exigências de compensação por risco nos títulos.",
+    "acoes": "Enquanto o cenário macroeconômico brasileiro favorece ativos de risco devido à desaceleração da inflação e validação da meta de 5%, é crucial monitorar as decisões de juros do BCE e a publicação do Boletim Focus para entender a dinâmica de fluxos de capitais. Paralelamente, no setor global de tecnologia, a atenção deve recair sobre o desenvolvimento do ecossistema de IA, especificamente as negociações de investimento da Nvidia na Anthropic e as perspectivas de crescimento de empresas como Marvell e Oracle, que definem o tom para a próxima década de infraestrutura digital.",
+    "cripto": "O mercado de criptomoedas enfrenta uma convergência de pressões macroeconômicas e regulatórias, com o Bitcoin sob tensão devido à alta dos rendimentos dos títulos dos EUA e saídas aceleradas de ETFs, aguardando-se a decisão de juros do Fed em 16 de setembro. Paralelamente, o cenário regulatório se intensifica com o foco do CLARITY Act em DeFi não descentralizado e alertas sobre riscos normativos para exchanges descentralizadas, enquanto movimentos corporativos como a realocação de empregos da Bitcoin Suisse e a nova proposta de ETF de Dogecoin da Bitwise sinalizam ajustes estruturais e de oferta no setor.",
+    "debentures": "O mercado de crédito privado e debêntures enfrenta uma dinâmica complexa onde a inovação tecnológica, como a tokenização na Índia e o uso de IA por empresas de dados, busca aumentar a eficiência e a atratividade dos ativos, enquanto investidores ajustam suas estratégias para um ambiente de juros incerto, buscando proteção em instrumentos de taxa flutuante e monitorando de perto os impactos políticos e inflacionários globais nas taxas de juros e no spread de crédito.",
+    "exterior": "O cenário internacional é marcado pela tensão entre o alívio pontual nos mercados europeias devido à queda do petróleo e a persistente pressão inflacionária nos EUA, que reforça as expectativas de alta de juros pelo Federal Reserve na reunião da próxima semana. Enquanto isso, a aversão ao risco se manifesta na fuga de capitais de mercados emergentes como a Índia e na valorização do dólar, que já ultrapassou a marca de R$ 5,12 no Brasil devido a incertezas políticas locais e ao fortalecimento da moeda americana. Investidores devem monitorar de perto a decisão do Fed e do Banco Central brasileiro, ambas agendadas para 16 de setembro, além da evolução dos indicadores de inflação que continuam acima das metas.",
+    "imobiliario": "O mercado imobiliário apresenta uma dinâmica divergente, com alta demanda e preços elevados no segmento de logística contrastando com a desocupação em escritórios devido a reestruturações corporativas. Investidores devem monitorar a conclusão da aquisição da Navi Real Estate Selection pela Vinci e os novos dados de vacância em São Paulo e Campinas, além de acompanhar a sustentabilidade do yield de 10% do fundo IYRI nos próximos relatórios trimestrais."
   }
 }
