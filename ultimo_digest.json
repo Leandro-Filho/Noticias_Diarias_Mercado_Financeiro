@@ -1,149 +1,199 @@
 {
-  "gerado_em": "2026-09-13T11:15:11.962069+00:00",
+  "gerado_em": "2026-09-14T11:17:45.589062+00:00",
   "itens": [
     {
-      "title": "WEG (WEGE3), Suzano (SUZB3) e mais ações para investir na semana, segundo a Terra Investimentos",
+      "title": "Ações de tecnologia pesam nos mercados e investidores digerem nova pesquisa BTG Pactual/Nexus; Ibovespa em dólar cai nesta segunda-feira (14)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/weg-wege3-suzano-suzb3-e-mais-acoes-para-investir-na-semana-segundo-a-terra-investimentos-lmrs/",
+      "link": "https://www.moneytimes.com.br/acoes-de-tecnologia-pesam-nos-mercados-e-investidores-digerem-nova-pesquisa-btg-pactual-nexus-ibovespa-em-dolar-cai-nesta-segunda-feira-14-rens/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "A Terra Investimentos manteve inalterada sua carteira semanal recomendada, composta por cinco ativos com pesos iguais, para o período de 11 a 18 de setembro.",
-      "mecanismo": "A manutenção da carteira indica confiança da gestora na tese de valor das empresas selecionadas, que juntas superaram o Ibovespa em 12 meses, sugerindo que a estratégia de diversificação setorial (indústria, papel, varejo e shopping) continua válida apesar da subperformance recente em relação ao índice na última semana.",
-      "implicacao": "A persistência de recomendações em setores cíclicos e de consumo sugere que analistas veem resiliência na demanda doméstica e na competitividade das exportações brasileiras, o que tende a beneficiar ações de valor com fluxo de caixa robusto em um ambiente de juros ainda elevados.",
-      "risco": "A subperformance recente da carteira em relação ao Ibovespa pode indicar que o mercado está rotacionando para outros setores ou que os fundamentos dessas empresas estão perdendo força relativa, invalidando a tese de superperformance histórica.",
-      "proximo_evento": "O fechamento da semana de negociação de 11 a 18 de setembro, quando será avaliada a performance da carteira e possível ajuste para o próximo ciclo.",
+      "resumo": "O setor de tecnologia global recua devido a sinais de desaceleração nos investimentos em infraestrutura de IA, enquanto o Ibovespa em dólar sofre pressão com o petróleo acima de US$ 100 e incertezas políticas locais.",
+      "mecanismo": "Executivos alertam que a expansão da infraestrutura de IA está desacelerando mais rápido que o esperado, o que ameaça as projeções de receita e lucro das empresas do setor, gerando venda de ações de tecnologia; simultaneamente, o petróleo caro pressiona a inflação futura, limitando o espaço para cortes de juros pelos bancos centrais e fortalecendo o dólar frente a moedas emergentes.",
+      "implicacao": "Ações de tecnologia e ativos sensíveis a juros tendem a enfrentar volatilidade ou queda, pois a desaceleração da demanda por IA reduz o crescimento esperado de lucros, enquanto o petróleo elevado sustenta pressões inflacionárias que podem manter as taxas de juros elevadas por mais tempo.",
+      "risco": "A tese de desaceleração da IA pode ser superada se novos dados mostrarem resiliência na demanda corporativa, ou se o petróleo recuar abruptamente, aliviando a pressão inflacionária e permitindo uma postura mais acomodativa dos bancos centrais.",
+      "proximo_evento": "Decisões sobre juros dos bancos centrais dos Estados Unidos e do Brasil, agendadas para a próxima quarta-feira (16).",
       "key_numbers": [
-        "Rentabilidade 12 meses carteira: 53,69%",
-        "Rentabilidade 12 meses Ibovespa: 32,26%",
-        "Performance semana anterior carteira: 0,05%",
-        "Performance semana anterior Ibovespa: 1,66%"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Assaí (ASAI3) ganha força com alívio na curva de juros e Direcional (DIRR3) é a pior ação da semana; confira os destaques do Ibovespa",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-destaques-da-semana-37-lils/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Ibovespa registrou alta semanal impulsionada pela desaceleração da inflação brasileira e expectativas de corte de juros, enquanto a inflação nos EUA reforçou a manutenção de juros elevados pelo Fed.",
-      "mecanismo": "A deflação de 0,32% no IPCA de agosto, superior à expectativa, consolidou a aposta em um corte de 0,25 p.p. na Selic, reduzindo a curva de juros futuros e beneficiando ativos sensíveis a taxas, como varejo e imobiliário; simultaneamente, a inflação americana mais quente aumentou as chances de alta de juros pelo Fed, pressionando o dólar.",
-      "implicacao": "Setores sensíveis a juros, como varejo e construção civil, tendem a se valorizar com a queda da Selic, pois o custo de financiamento diminui e o consumo tende a se recuperar, enquanto o cenário externo de juros altos nos EUA pode limitar a alta do Ibovespa via pressão cambial.",
-      "risco": "Novos desdobramentos políticos, como a revelação de documentos no Caso Master, ou dados de inflação acima do esperado podem alterar rapidamente as expectativas de juros e o humor do mercado.",
-      "proximo_evento": "Reunião do Copom e do Fomc, ambas marcadas para a próxima quarta-feira (16 de setembro).",
-      "key_numbers": [
-        "IPCA agosto: -0,32%",
-        "IPCA 12 meses: 4,22%",
-        "Selic atual: 14%",
-        "Dólar: R$ 5,1254"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Revolut says customer data exposed through fake government email",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/revolut-says-customer-data-exposed-through-fake-government-email?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "A Revolut confirmou a exposição de dados sensíveis de clientes após um ataque sofisticado de engenharia social que utilizou um domínio governamental legítimo para burlar seus filtros de autenticação.",
-      "mecanismo": "O incidente ocorreu porque os sistemas da fintech validaram automaticamente solicitações vindas de um domínio oficial de agência governamental, permitindo que terceiros não autorizados acessassem passaportes e históricos financeiros; a detecção posterior levou ao bloqueio do endereço e notificação regulatória, mas a falha de verificação de identidade do solicitante expôs a vulnerabilidade operacional.",
-      "implicacao": "O setor de fintechs e bancos digitais tende a enfrentar maior escrutínio e custos de compliance, pois incidentes de segurança de dados reforçam a necessidade de investimentos robustos em cibersegurança e verificação de identidade, impactando a margem operacional e a confiança do usuário.",
-      "risco": "Se o vazamento for confirmado como limitado a um número muito pequeno de usuários de alto patrimônio, sem impacto sistêmico ou regulatório severo, o efeito negativo no setor pode ser contido e rapidamente superado pelo mercado.",
-      "proximo_evento": "Monitorar comunicados oficiais da Revolut sobre o escopo final do vazamento e possíveis ações regulatórias ou multas impostas pelas autoridades financeiras nos próximos dias.",
-      "key_numbers": [
-        "Impacto: limitado",
-        "Fundo: não afetado"
+        "Ibovespa: 187.206,89 pontos",
+        "Dólar: R$ 5,1254",
+        "Petróleo Brent: US$ 107,73",
+        "Bitcoin: US$ 77.872,79"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Here’s what happened in crypto today",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "Ibovespa mais ‘investível’ para o gringo? Entenda como as mudanças da B3 podem ajudar o índice",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-mais-investivel-para-o-gringo-entenda-como-as-mudancas-da-b3-podem-ajudar-o-indice-apsa/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "A B3 inicia a divulgação diária do Ibovespa em dólares para facilitar a análise comparativa por investidores estrangeiros, com previsão de inclusão de BDRs de empresas brasileiras na carteira teórica do índice em 2027.",
+      "mecanismo": "Ao padronizar a cotação em dólar, a bolsa reduz a fricção cognitiva e operacional para o investidor global, permitindo uma avaliação imediata da performance real dos ativos brasileiros frente a alternativas internacionais sem ajustes cambiais manuais; essa transparência visa atrair fluxos estrangeiros e corrigir distorções de valuation, especialmente com a futura entrada de BDRs que aumentam a representatividade de setores como tecnologia e financeiro.",
+      "implicacao": "O setor de tecnologia e o segmento financeiro tendem a se beneficiar com a possível entrada de seus BDRs no índice, pois a inclusão aumenta a liquidez e a visibilidade desses ativos para fundos indexados estrangeiros, potencialmente elevando seus múltiplos de valuation.",
+      "risco": "O limite de 10% para a composição de BDRs no índice pode restringir o impacto positivo nos fluxos, e a eficácia da medida depende da continuidade do apetite global por mercados emergentes, que pode ser afetado por volatilidade cambial ou mudanças no cenário macroeconômico externo.",
+      "proximo_evento": "Inclusão dos primeiros BDRs de empresas brasileiras na carteira teórica do Ibovespa no primeiro semestre de 2027.",
+      "key_numbers": [
+        "Data de início da cotação em dólar: 14 de setembro de 2026",
+        "Prazo para inclusão de BDRs: 1º semestre de 2027",
+        "Limite de BDRs no Ibovespa: 10%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bolsas da Ásia fecham majoritariamente em queda com tecnologia após alertas sobre IA e OpenAI",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-majoritariamente-em-queda-com-tecnologia-apos-alertas-sobre-ia-e-openai-fets/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "As bolsas asiáticas recuaram impulsionadas pela desilusão com a ausência de IPO da OpenAI em 2026 e alertas de líderes do setor sobre os riscos da expansão acelerada da IA, somados à expectativa de aperto monetário no Japão.",
+      "mecanismo": "O anúncio de Sam Altman de que a OpenAI não fará sua abertura de capital em 2026, aliado aos alertas de cautela de Altman, Musk e Amodei sobre os riscos da IA, gerou uma reavaliação imediata do risco nos ativos de tecnologia, especialmente nos principais investidores como a SoftBank, enquanto a expectativa de alta de juros pelo Banco do Japão pressiona ainda mais os ativos de risco na região.",
+      "implicacao": "O setor de tecnologia e infraestrutura de IA tende a sofrer pressão de venda no curto prazo, pois a incerteza regulatória e a postergação de eventos de liquidez (como IPOs) reduzem o apetite por ativos de crescimento de alto múltiplo, favorecendo uma rotação para setores defensivos ou de valor.",
+      "risco": "A tese de queda pode ser invalidada se os alertas sobre IA forem interpretados pelo mercado como um sinal de maturidade e sustentabilidade do setor, atraindo investidores institucionais que buscam estabilidade em vez de especulação de curto prazo.",
+      "proximo_evento": "Decisão de política monetária do Banco do Japão e do Federal Reserve.",
+      "key_numbers": [
+        "Queda SoftBank: 11%",
+        "Queda Nikkei: 0,8%",
+        "Queda Kospi: 3,3%",
+        "Probabilidade alta BoJ: 98%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Bitcoin tenta reagir, mas tomba na semana; veja cotações das criptomoedas neste domingo (13)",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/bitcoin-tenta-reagir-mas-tomba-na-semana-veja-cotacoes-das-criptomoedas-neste-domingo-13-rnda/",
       "categorias": [
         "cripto"
       ],
-      "resumo": "Negociações avançam para um aporte de US$ 10 bilhões da Nvidia na Anthropic, visando um IPO que pode valer a empresa de IA US$ 2 trilhões, enquanto a Bitcoin Suisse reestrutura custos e a Blockstream recusa resgate de hackers.",
-      "mecanismo": "A entrada de capital massivo da Nvidia na Anthropic valida a demanda por infraestrutura de computação de alto desempenho para IA, fortalecendo a tese de investimento em semicondutores e hardware especializado, ao passo que a saída de talentos da Suíça para hubs de menor custo reflete a pressão por eficiência operacional no setor de serviços cripto.",
-      "implicacao": "O setor de semicondutores e infraestrutura de IA tende a se beneficiar com a validação de valuations elevados e demanda recorrente por chips, enquanto o setor de serviços financeiros cripto pode enfrentar volatilidade regulatória e de reputação devido a falhas de segurança e reestruturações agressivas.",
-      "risco": "As negociações do IPO podem ser suspensas ou reavaliadas devido à volatilidade regulatória sobre IA ou à falta de consenso sobre a valuação, invalidando a expectativa de fluxo de capital imediato.",
-      "proximo_evento": "Confirmação oficial do acordo de investimento e do cronograma do IPO da Anthropic, além do desfecho da investigação sobre o hackeamento da Liquid Network.",
+      "resumo": "O Bitcoin e o mercado de criptomoedas enfrentam pressão de venda na semana devido à aversão ao risco, impulsionada pela expectativa de endurecimento da política monetária dos EUA.",
+      "mecanismo": "A divulgação de dados inflacionários (CPI e PPI) reforçou a expectativa de que o Federal Reserve elevará os juros, o que aumenta os rendimentos dos títulos do Tesouro americano e reduz a atratividade de ativos de risco, como criptomoedas, em favor de investimentos com retorno garantido e menor volatilidade.",
+      "implicacao": "A classe de ativos de risco, incluindo criptomoedas e ações de tecnologia, tende a sofrer pressão de venda ou estagnação, pois a elevação dos juros americanos encarece o custo de oportunidade de manter posições especulativas e fortalece o dólar.",
+      "risco": "O raciocínio pode ser invalidado se o Fed adotar um tom menos restritivo ('dovish') ou se os dados econômicos subsequentes indicarem uma desaceleração mais acentuada da economia, reduzindo a pressão por novos aumentos de juros.",
+      "proximo_evento": "Reunião do Comitê Federal de Mercado Aberto (Fomc) marcada para quarta-feira (16), onde será decidida a nova taxa de juros.",
       "key_numbers": [
-        "Investimento potencial: US$ 10 bilhões",
-        "Valuation alvo: US$ 2 trilhões",
-        "Vagas a serem transferidas: até 60",
-        "BTC retidos por hackers: 598"
+        "Probabilidade de aumento de juros: 85%",
+        "Faixa atual de juros Fed: 3,50% a 3,75%",
+        "Queda semanal Bitcoin: -3,19%",
+        "Preço Bitcoin: US$ 77.080,98"
       ],
-      "sentiment": "up"
+      "sentiment": "down"
     },
     {
-      "title": "Nvidia considers $10B investment in potential record Anthropic IPO: Reuters",
+      "title": "CLARITY Act vote meets Fed rate hike: Five things to know in Bitcoin this week",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/nvidia-considers-10b-investment-in-anthropic-record-ipo-reuters?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/markets/clarity-act-vote-meets-fed-rate-hike-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O mercado de criptoativos enfrenta volatilidade iminente devido à combinação de uma provável alta de juros pelo Fed e a votação crucial do projeto de lei CLARITY no Senado dos EUA.",
+      "mecanismo": "A inflação persistente e a crise no fornecimento de petróleo, impulsionada por tensões no Oriente Médio, levam o Fed a elevar os juros em 0,25%, o que geralmente pressiona ativos de risco como Bitcoin; simultaneamente, a votação do CLARITY Act busca estabelecer clareza regulatória, um fator que pode contrabalançar a pressão macroeconômica se aprovado, alterando o sentimento institucional.",
+      "implicacao": "Ativos de risco, especialmente Bitcoin e criptomoedas, tendem a sofrer pressão de venda no curto prazo devido ao endurecimento da política monetária, mas podem encontrar suporte se a aprovação do CLARITY Act sinalizar um ambiente regulatório mais favorável a longo prazo.",
+      "risco": "Uma resolução rápida da crise no fornecimento de petróleo ou dados de inflação mais brandos do que o esperado poderiam levar o Fed a manter os juros, invalidando a tese de aperto monetário imediato.",
+      "proximo_evento": "Votação procedural do CLARITY Act no Senado dos EUA na terça-feira e anúncio da decisão de juros do Fed na quarta-feira.",
+      "key_numbers": [
+        "Alvo de juros do Fed: 3,75%-4%",
+        "Aumento esperado: 0,25%",
+        "Probabilidade de pausa nos juros: 13,3%",
+        "Preço do petróleo WTI: acima de US$ 100"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "FTSE 100 today: Stocks gain as Mideast supply fears lift oil",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-gain-as-mideast-supply-fears-lift-oil-4898877",
       "categorias": [
         "exterior"
       ],
-      "resumo": "A Nvidia negocia um aporte de US$ 10 bilhões na possível oferta pública inicial da Anthropic, que busca levantar até US$ 100 bilhões e pode atingir uma valuation de US$ 2 trilhões.",
-      "mecanismo": "O investimento estratégico da Nvidia visa consolidar sua posição como fornecedora exclusiva de hardware para a Anthropic, garantindo demanda recorrente por seus chips de IA enquanto fortalece o ecossistema de software após a aquisição do Hugging Face, o que valida a tese de crescimento do setor de infraestrutura de inteligência artificial.",
-      "implicacao": "O setor de semicondutores e infraestrutura de IA tende a se beneficiar, pois a entrada de capital massivo em grandes modelos de linguagem acelera a demanda por capacidade computacional e consolida a liderança das empresas que controlam a pilha tecnológica completa.",
-      "risco": "As negociações podem ser interrompidas ou o valuation de US$ 2 trilhões pode ser considerado irrealista pelo mercado, gerando volatilidade nas ações de empresas de tecnologia dependentes da narrativa de crescimento exponencial da IA.",
-      "proximo_evento": "Confirmação oficial do acordo de investimento e definição da data e valuation final do IPO da Anthropic.",
+      "resumo": "O índice FTSE 100 registrou ganhos impulsionados pelo aumento dos preços do petróleo, decorrente de temores sobre interrupções no abastecimento no Oriente Médio.",
+      "mecanismo": "A apreensão geopolítica no Oriente Médio gera expectativas de restrição na oferta global de petróleo, elevando o preço do barril; como o FTSE 100 possui peso significativo em empresas do setor de energia, a valorização do commodity se traduz diretamente em maior receita esperada e valorização das ações desses conglomerados, puxando o índice para cima.",
+      "implicacao": "O setor de energia tende a se beneficiar com a alta dos preços do petróleo, pois as empresas exploradoras e produtoras veem suas margens de lucro ampliadas quando o preço do commodity sobe, enquanto setores intensivos em transporte e logística podem sofrer com o aumento dos custos operacionais.",
+      "risco": "Uma resolução rápida da tensão geopolítica ou uma queda na demanda global por energia poderia reverter a alta do petróleo, invalidando a tese de ganhos sustentados para o setor de energia e o índice.",
+      "proximo_evento": "Monitorar desenvolvimentos geopolíticos no Oriente Médio e relatórios de estoques de petróleo (como os da EIA ou IEA) que confirmem ou refutem a magnitude da interrupção do suprimento.",
+      "key_numbers": [],
+      "sentiment": "up"
+    },
+    {
+      "title": "Rithm Capital: The Upcoming Rate Resets Of A 10% Yielder",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4945929-rithm-capital-upcoming-rate-resets-of-10-percent-yielder?source=feed_all_articles",
+      "categorias": [
+        "renda_fixa",
+        "debentures"
+      ],
+      "resumo": "A Rithm Capital é destacada como uma oportunidade de renda atrativa devido aos seus altos dividendos, apesar dos riscos inerentes aos resets de taxas de juros em seu portfólio.",
+      "mecanismo": "O título indica que a empresa enfrenta resets de taxas de juros em seus ativos, o que pode impactar a margem de juros e a sustentabilidade do dividendo de 10%, já que a renovação dos empréstimos pode ocorrer em um ambiente de taxas diferente do original.",
+      "implicacao": "Para o setor de sociedades de crédito imobiliário (REITs de dívida), a volatilidade nas margens de juros durante períodos de transição de taxas pode aumentar a dispersão de desempenho entre as empresas, favorecendo aquelas com melhor gestão de risco de taxa.",
+      "risco": "Se os resets de taxas ocorrerem em um ambiente de juros mais altos ou se houver aumento inadimplência, a margem de juros pode se contrair, comprometendo a sustentabilidade do alto dividendo.",
+      "proximo_evento": "Monitorar os relatórios trimestrais da Rithm Capital para verificar o impacto real dos resets de taxas na margem de juros e no pagamento de dividendos.",
       "key_numbers": [
-        "Investimento Nvidia: US$ 10 bilhões",
-        "Arrecadação alvo Anthropic: US$ 100 bilhões",
-        "Valuation potencial: US$ 2 trilhões",
-        "Aquisição Hugging Face: US$ 12,9 bilhões"
+        "Dividend Yield: 10%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "The 5 market worries investors can’t ignore, according to Citi",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/the-5-market-worries-investors-cant-ignore-according-to-citi-4898719",
+      "title": "Optimized Access To Private Credit: An Index-Based Approach",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4945937-optimized-access-to-private-credit-index-based-approach?source=feed_all_articles",
       "categorias": [
-        "exterior"
+        "renda_fixa",
+        "debentures"
       ],
-      "resumo": "O texto fornecido está vazio, impedindo a extração de fatos ou dados para análise.",
-      "mecanismo": "Sem conteúdo na fonte, não é possível estabelecer uma cadeia causal ou identificar variáveis de mercado.",
-      "implicacao": "Não há implicação setorial identificável devido à ausência de informações.",
-      "risco": "A análise é inviável sem dados de entrada.",
-      "proximo_evento": "Aguardar fornecimento do texto completo da notícia para análise.",
-      "key_numbers": [],
+      "resumo": "A FTSE Russell lançou um índice composto para capturar o universo investível de BDCs, combinando veículos listados e não listados para oferecer acesso otimizado ao crédito privado.",
+      "mecanismo": "O índice serve como benchmark padronizado para uma classe de ativos que cresceu exponencialmente desde 2008, permitindo que investidores acompanhem a performance agregada do setor de crédito privado, que enfrenta pressões de resgate e estresse em portfólios, especialmente no setor de tecnologia, embora estruturas sênior garantidas mitiguem riscos sistêmicos.",
+      "implicacao": "A classe de ativos de crédito privado tende a atrair fluxos institucionais em busca de renda e diversificação, pois o novo índice facilita a alocação e comparação de performance, reduzindo a barreira de entrada para estratégias que antes eram restritas a investidores qualificados.",
+      "risco": "A deterioração contínua da qualidade dos empréstimos, especialmente em setores sensíveis como SaaS, pode levar a perdas não previstas nas avaliações periódicas dos BDCs não listados, invalidando a percepção de estabilidade.",
+      "proximo_evento": "Monitorar os próximos relatórios trimestrais de NAV das BDCs e a evolução dos spreads de crédito para verificar se a estabilidade dos veículos não listados se mantém frente à volatilidade dos listados.",
+      "key_numbers": [
+        "Declínio OBDC: 4,8%",
+        "Declínio BCRED: 2,9%",
+        "Ano de referência: 2008",
+        "Lei regulatória: 1940"
+      ],
       "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
-    "renda_fixa": [],
+    "renda_fixa": [
+      "O artigo destaca a importância do Coverage Ratio como o primeiro indicador a ser verificado por investidores em MLPs.",
+      "O fundo IDOG apresenta um yield de 4,2% fora dos EUA, risco moderado e histórico sólido, resultando em uma atualização positiva de rating.",
+      "O texto sugere a criação de uma renda de dividendos de $5.000 sem a necessidade de aprovação do Congresso.",
+      "A notícia indica que um aumento nas taxas de juros está se aproximando."
+    ],
     "acoes": [
-      "O Ethereum (ETH) sobe 3% na semana e é negociado a US$ 2.531,43, enquanto investidores ajustam posições antes da decisão de juros do Federal Reserve.",
-      "A Coreia do Sul estende as horas de negociação da bolsa em um esforço para atrair investidores globais.",
-      "A ponderação da SpaceX no índice Nasdaq 100 deve mais que dobrar.",
-      "A Dell é descrita como uma ação de destaque no setor de inteligência artificial."
+      "Os preços do petróleo subiram mais de 3% nesta segunda-feira (14) devido a novos ataques à Arábia Saudita e ao Estreito de Ormuz, agravando as preocupações com o abastecimento.",
+      "A Hapvida (HAPV3) atingiu sua pior cotação histórica a R$ 6,73, com queda de 92% desde 2018 e 50% neste ano, enquanto o BB Investimentos revisa o preço-alvo e projeta uma alta de 60%.",
+      "Marcopolo (POMO4) recebeu recomendação de compra do Bradesco BBI, Safra e XP Investimentos após apresentar uma visão construtiva para o médio prazo no Investor Day, apesar dos desafios de curto prazo.",
+      "O Bank of America projeta apenas 2% de valorização para o S&P 500 nos próximos 12 meses."
     ],
     "cripto": [
-      "O partido Reform UK, liderado por Farage, recebeu uma doação de 97 milhões de dólares de dois bilionários do setor de criptomoedas, incluindo o co-fundador Ben Delo.",
-      "Não há informações suficientes no resumo fornecido para formular uma frase factual sobre o artigo da Seeking Alpha sobre a DMG Blockchain.",
-      "Não há informações suficientes no resumo fornecido para formular uma frase factual sobre o artigo da Seeking Alpha referente à parceria entre Nebius e Palantir.",
-      "O resumo fornecido para a fonte Livecoins contém apenas elementos de navegação e menu do site, sem conteúdo noticioso específico."
+      "Os ETFs de Bitcoin registraram uma saída líquida de US$ 463 milhões na semana, enquanto os ETFs de Ether captaram US$ 197 milhões.",
+      "Os republicanos enviaram uma proposta 'final' do CLARITY Act, com 635 páginas, aos democratas.",
+      "O artigo argumenta que a demanda institucional por um ETF de XRP é real, mas o sinal de preço não reflete isso.",
+      "O CEO da Robinhood afirmou que os emissores não devem ter poder de veto sobre ações tokenizadas."
     ],
-    "debentures": [],
+    "debentures": [
+      "O artigo destaca a importância do índice de cobertura para investidores em MLPs.",
+      "O fundo IDOG apresenta um rendimento de 4,2% fora dos EUA, risco moderado e histórico sólido, resultando em upgrade de rating.",
+      "O artigo sugere uma estratégia para criar uma renda de dividendos de $5.000 sem necessidade de aprovação legislativa.",
+      "O artigo indica que um aumento de juros está se aproximando."
+    ],
     "exterior": [
-      "JPMorgan eleva a classificação da Meta e indica a KLA como a principal ação de equipamentos para chips em uma análise sobre movimentos de IA.",
-      "Sam Altman descarta um IPO da OpenAI para 2026, priorizando a segurança da inteligência artificial, segundo reportagem.",
-      "Análise sugere que o Banco do Japão e o Federal Reserve podem enfrentar consequências significativas caso decepcionem as expectativas do mercado na semana seguinte.",
-      "Artigo aborda a interseção entre política e mercados financeiros com data de 13 de setembro de 2026."
+      "Ações europeias recuam devido à pausa na segurança da IA e às apostas em cortes de juros do Federal Reserve que pesam sobre o sentimento do mercado.",
+      "Ações de semicondutores caem no pré-mercado em meio a chamados de desaceleração da IA, apresentando oportunidades de compra na queda.",
+      "O Bank of America projeta apenas 2% de alta para o S&P 500 nos próximos 12 meses.",
+      "Os commodities, especificamente o petróleo, se fortalecem com o fechamento de um oleoduto na Arábia Saudita."
     ],
     "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "",
-    "acoes": "O mercado brasileiro de renda variável enfrenta um cenário de divergência, onde a expectativa de corte da Selic impulsiona setores sensíveis a juros como varejo e imobiliário, enquanto a possível alta de juros pelo Fed pressiona o dólar e ativos globais. Investidores devem monitorar de perto as decisões do Copom e do Fomc em 16 de setembro, que definirão o rumo da curva de juros e o fluxo de capitais, além de acompanhar movimentos específicos como a reponderação da SpaceX no Nasdaq e a valorização do Ethereum.",
-    "cripto": "O cenário cripto atual é marcado pela interseção entre regulação, segurança operacional e investimento institucional em infraestrutura de IA. Enquanto incidentes de segurança como o da Revolut exigem monitoramento de ações regulatórias e o setor de serviços enfrenta pressões de eficiência, a entrada de capital massivo em empresas de tecnologia e a influência política de bilionários do setor, como visto na doação ao Reform UK, destacam a crescente integração entre ativos digitais, inovação tecnológica e arenas políticas.",
-    "debentures": "",
-    "exterior": "O mercado internacional observa a consolidação da infraestrutura de IA, evidenciada pelo potencial investimento da Nvidia na Anthropic, enquanto a OpenAI prioriza a segurança em detrimento de uma saída pública imediata. Paralelamente, analistas ajustam posições em grandes nomes do setor, como Meta e KLA, sob a pressão de que bancos centrais como o Fed e o BOJ não decepcionem as expectativas de mercado. O cenário é ainda influenciado pela dinâmica política atual e pela cautela dos investidores diante das incertezas macroeconômicas globais.",
+    "renda_fixa": "O cenário de renda fixa e crédito privado deve ser monitorado à luz dos resets de taxas de juros que impactam margens e dividendos, conforme observado na Rithm Capital, e da evolução dos spreads de crédito no setor de crédito privado. Simultaneamente, investidores devem acompanhar indicadores de cobertura em MLPs, a performance de fundos de dividendos internacionais como o IDOG e os sinais de que aumentos nas taxas de juros estão se aproximando, o que pode alterar a atratividade relativa de ativos de renda fixa e crédito.",
+    "acoes": "O mercado brasileiro enfrenta pressão dupla com a desaceleração do setor de tecnologia e a escalada geopolítica que eleva o petróleo, limitando o espaço para cortes de juros e fortalecendo o dólar, cenário que será testado nas decisões de juros dos bancos centrais dos EUA e do Brasil na próxima quarta-feira (16). Enquanto isso, a padronização da cotação em dólar pela B3 busca atrair investidores estrangeiros para corrigir distorções de valuation, com a futura inclusão de BDRs no Ibovespa prevista para o primeiro semestre de 2027, mesmo com projeções conservadoras para índices globais como o S&P 500.",
+    "cripto": "O mercado de criptomoedas enfrenta pressão macroeconômica devido à expectativa de aumento dos juros pelo Federal Reserve na reunião do Fomc em 16 de setembro, o que tem reduzido a atratividade de ativos de risco como o Bitcoin, evidenciado pelas saídas líquidas em seus ETFs. Paralelamente, o cenário regulatório nos EUA ganha destaque com a proposta final do CLARITY Act enviada pelos republicanos e debates sobre a tokenização de ativos, fatores que podem influenciar o sentimento institucional e contrabalançar parcialmente a volatilidade gerada pelas decisões monetárias.",
+    "debentures": "O cenário de crédito privado exige monitoramento atento aos relatórios trimestrais de NAV das BDCs e à evolução dos spreads, especialmente considerando a pressão de resgates e o estresse em setores como tecnologia. Paralelamente, a proximidade de aumentos de juros e os resets de taxas em ativos de alto rendimento, como os da Rithm Capital, demandam verificação do impacto nas margens e sustentabilidade de dividendos. Investidores devem também avaliar métricas fundamentais, como índices de cobertura em MLPs e a estabilidade de fundos com histórico sólido, para navegar entre a volatilidade dos veículos listados e a relativa estabilidade dos não listados.",
+    "exterior": "O mercado internacional enfrenta pressão descendente nos ativos de tecnologia devido a alertas sobre riscos de IA e desaceleração do setor, contrastando com a valorização do petróleo impulsionada por tensões geopolíticas no Oriente Médio e interrupções de suprimento. Enquanto o Federal Reserve e o Banco do Japão tomam decisões de política monetária que influenciam o sentimento global, a cautela de analistas como o Bank of America sobre o potencial de alta do S&P 500 reforça a volatilidade, exigindo monitoramento atento tanto dos desenvolvimentos geopolíticos quanto dos relatórios de estoques de energia.",
     "imobiliario": ""
   }
 }
