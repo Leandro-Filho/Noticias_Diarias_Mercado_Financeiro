@@ -1,193 +1,219 @@
 {
-  "gerado_em": "2026-09-03T15:08:14.949869+00:00",
+  "gerado_em": "2026-09-14T17:07:39.070851+00:00",
   "itens": [
     {
-      "title": "Até onde o rali eleitoral deve impulsionar o Ibovespa?",
+      "title": "Compre CSN (CSNA3), São Martinho (SMTO3) e outras 13 ações para ganhar mais de 5% nesta semana, segundo Itaú BBA",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ate-onde-o-rali-eleitoral-deve-impulsionar-o-ibovespa-lils/",
+      "link": "https://www.moneytimes.com.br/day-trade-itau-bba-14-9-26-apsa/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa registra sua 12ª alta consecutiva, atingindo 188 mil pontos, impulsionado pela expectativa de uma disputa eleitoral acirrada que aumenta as chances de uma troca de governo em 2027 e pela retomada do fluxo de capital estrangeiro.",
-      "mecanismo": "O acirramento da corrida presidencial, com pesquisas indicando empate técnico ou leve vantagem para Flávio Bolsonaro, eleva a probabilidade de uma mudança de administração, o que o mercado interpreta como um sinal de maior ortodoxia fiscal e controle da inflação; essa expectativa, somada à entrada de investidores estrangeiros, gera pressão compradora sobre o índice, rompendo resistências técnicas e estabelecendo uma tendência de alta clara.",
-      "implicacao": "O setor financeiro e as ações de valor tendem a se beneficiar, pois a expectativa de políticas econômicas mais conservadoras sob um eventual novo governo reduz a percepção de risco fiscal e atrai capital externo em busca de ativos com melhor perfil de risco-retorno.",
-      "risco": "Uma consolidação da liderança de Lula nas pesquisas ou a materialização de riscos jurídicos e institucionais, como os envolvendo o STF, podem inverter a narrativa de ortodoxia fiscal, reduzindo o apetite por risco e pressionando o índice para baixo.",
-      "proximo_evento": "As eleições presidenciais brasileiras, ocorrendo em aproximadamente um mês, que definirão o cenário político e econômico para 2027.",
+      "resumo": "O Itaú BBA recomenda a compra de 14 ações, incluindo CSN e São Martinho, com potencial de ganho superior a 5% na semana, baseando-se em sinais técnicos de tendência de alta.",
+      "mecanismo": "A estratégia utiliza análise gráfica de Position Trade, onde o rompimento de resistências e a posição das ações acima das médias móveis de 21 e 200 dias indicam força de compra, sugerindo que a tendência de curto prazo deve se manter ascendente até os objetivos definidos.",
+      "implicacao": "O setor cíclico e de commodities tende a atrair fluxo de capital especulativo de curto prazo, pois a confirmação técnica de tendência de alta reduz a percepção de risco imediato para traders que buscam ganhos rápidos em ativos com volatilidade controlada.",
+      "risco": "A estratégia é invalidada se as ações não conseguirem manter o fechamento acima dos gatilhos ou se romperem os níveis de stop loss, indicando falha na continuidade da tendência técnica esperada.",
+      "proximo_evento": "Monitorar o fechamento diário das ações acima dos preços-gatilho listados para a data de 14 de setembro, que confirmam a entrada nas operações.",
       "key_numbers": [
-        "Ibovespa: 188 mil pontos",
-        "Alta semanal do IBOV: 6,3%",
-        "Intenção de voto Lula (1º turno): 37%",
-        "Intenção de voto Flávio Bolsonaro (1º turno): 29%"
+        "Potencial CSNA3: 17,05%",
+        "Gatilho CSNA3: R$ 7,39",
+        "Stop CSNA3: R$ 6,13",
+        "Ações recomendadas: 14"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Wall Street avança com alívio dos Treasuries",
+      "title": "Petz Cobasi (AUAU3) pode pagar mais dividendos? Itaú BBA vê espaço para aumento e recomenda compra da ação",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-abertura-3-9-26-apsa/",
+      "link": "https://www.moneytimes.com.br/petz-cobasi-auau3-pode-pagar-mais-dividendos-itau-bba-ve-espaco-para-aumento-e-recomenda-compra-da-acao-ceci/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O Itaú BBA recomenda a compra das ações da Petz Cobasi, projetando aumento de 25% nos dividendos mínimos e um preço-alvo de R$ 4,70 para 2027, impulsionado pela forte geração de caixa e integração tranquila do grupo.",
+      "mecanismo": "A expectativa de geração de caixa de R$ 350 milhões em 2027 permite que a empresa amplie a remuneração aos acionistas, aproveitando benefícios fiscais para distribuir o valor máximo permitido, o que, somado à expansão disciplinada e digital, sustenta a reavaliação positiva do ativo.",
+      "implicacao": "Para o setor de varejo de produtos e serviços para animais, a capacidade de gerar caixa livre robusto e aumentar o payout tende a atrair investidores de renda, valorizando empresas com governança sólida e estratégia digital clara em detrimento de concorrentes menos eficientes.",
+      "risco": "A intensificação da concorrência digital, especialmente por parte de gigantes como Mercado Livre e Amazon, pode comprometer a meta de crescimento da participação digital e pressionar as margens.",
+      "proximo_evento": "Definição da estrutura de alocação de capital prevista para o segundo semestre de 2026.",
+      "key_numbers": [
+        "Geração de caixa 2027: R$ 350 milhões",
+        "Aumento esperado de proventos: 25%",
+        "Preço-alvo 2027: R$ 4,70",
+        "Potencial de alta: 16,3%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Wall Street recua com pressão de AI e petróleo próximo a US$ 110",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/wall-street-abertura-14-9-26-lils/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "Wall Street reage positivamente à queda nos rendimentos dos Treasuries e ao sinal de pausa nos juros do Fed, enquanto a Nvidia anuncia a compra da Hugging Face.",
-      "mecanismo": "A redução nos rendimentos dos títulos do Tesouro americano alivia a pressão sobre ativos de crescimento, especialmente tecnologia, ao diminuir o custo de desconto dos fluxos de caixa futuros; simultaneamente, o comentário de Christopher Waller reduz as apostas de novo aumento de juros, reforçando a confiança de que o ciclo de aperto monetário pode estar estabilizado.",
-      "implicacao": "O setor de tecnologia e inteligência artificial tende a se beneficiar, pois a combinação de juros menos agressivos e consolidação de mercado (via aquisição da Hugging Face) fortalece a narrativa de crescimento sustentável para empresas de hardware e software de IA.",
-      "risco": "Uma inflação de agosto mais alta que o esperado pode forçar o Fed a reconsiderar a manutenção dos juros, revertendo a queda nos rendimentos dos Treasuries e pressionando as ações de tecnologia.",
-      "proximo_evento": "Divulgação dos dados de inflação de agosto, que serão decisivos para a postura do Fed na próxima reunião de política monetária.",
+      "resumo": "Os índices de Wall Street recuam nesta segunda-feira devido à combinação de cautela sobre os riscos de segurança da IA, a alta do petróleo e as fortes apostas em um novo aumento dos juros americanos.",
+      "mecanismo": "A queda nos índices é impulsionada por três fatores simultâneos: o alerta do CEO da Anthropic sobre a necessidade de desacelerar o desenvolvimento de IA gera incerteza regulatória e de ritmo de inovação no setor de tecnologia; o petróleo próximo a US$ 110, impulsionado por tensões geopolíticas no Oriente Médio, eleva as expectativas de inflação; e a alta probabilidade de o Fed subir os juros em 0,25 p.p. aumenta o custo de capital, pressionando a avaliação de ativos de risco.",
+      "implicacao": "Com a expectativa de juros mais altos e incertezas geopolíticas elevando o petróleo, o setor de tecnologia tende a sofrer pressão por maior desconto nos fluxos de caixa futuros e receios de desaceleração, enquanto setores sensíveis a custos de energia, como transporte e plásticos, enfrentam margens apertadas.",
+      "risco": "Se as tensões no Oriente Médio se desescalam rapidamente ou se o Fed surpreender com uma postura mais dovish (menos agressiva) do que o mercado precificou, a pressão vendedora sobre os índices e o petróleo pode se reverter.",
+      "proximo_evento": "A decisão do Comitê Federal de Mercado Aberto (Fomc) sobre a taxa de juros, prevista para divulgação na próxima quarta-feira (16).",
       "key_numbers": [
-        "Dow Jones: +0,56%",
-        "S&P 500: +0,48%",
-        "Nasdaq: +0,86%",
-        "Aposta de aumento de juros (FedWatch): 50,4%"
+        "S&P 500: -0,52%",
+        "Petróleo: US$ 110",
+        "Probabilidade de alta de juros: 88,5%",
+        "Juros atuais: 3,50%-3,75%"
       ],
-      "sentiment": "up"
+      "sentiment": "down"
     },
     {
-      "title": "FII da XP encerra negociação na B3 e inicia processo de liquidação; veja os prazos",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/fii-da-xp-encerra-negociacao-na-b3-e-inicia-processo-de-liquidacao-veja-os-prazos-jcav/",
+      "title": "CLARITY Act vote meets Fed rate hike: Five things to know in Bitcoin this week",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/clarity-act-vote-meets-fed-rate-hike-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
-        "acoes"
+        "cripto"
       ],
-      "resumo": "O fundo XPEX11 cessa negociações na B3 e inicia a liquidação após aprovação dos cotistas, com previsão de encerramento em setembro de 2026.",
-      "mecanismo": "A amortização integral das cotas foi aprovada, obrigando o fundo a vender seus ativos logísticos e devolver o capital aos investidores, o que remove o título do mercado secundário e encerra sua existência jurídica.",
-      "implicacao": "Para o setor de FIIs, a saída de um fundo reduz a oferta de papéis negociáveis e sinaliza o fim de ciclos de investimento em ativos logísticos específicos, direcionando o foco dos investidores para fundos em operação ou novas emissões.",
-      "risco": "Atrasos operacionais na venda dos ativos ou na distribuição dos recursos podem estender o prazo de liquidação além da segunda quinzena de setembro, impactando o fluxo de caixa dos cotistas.",
-      "proximo_evento": "Prazo final de 14 de setembro para que cotistas fora da XP informem o custo médio de aquisição para fins de Imposto de Renda.",
+      "resumo": "O mercado de criptoativos enfrenta volatilidade iminente devido à combinação de uma provável alta de juros pelo Fed e a votação crucial do projeto de lei CLARITY no Senado dos EUA.",
+      "mecanismo": "A inflação persistente e a crise no fornecimento de petróleo, impulsionada por tensões no Oriente Médio, levam o Fed a elevar os juros em 0,25%, o que geralmente pressiona ativos de risco como Bitcoin; simultaneamente, a votação do CLARITY Act busca estabelecer clareza regulatória, um fator que pode contrabalançar a pressão macroeconômica se aprovado, alterando o sentimento institucional.",
+      "implicacao": "Ativos de risco, especialmente Bitcoin e criptomoedas, tendem a sofrer pressão de venda no curto prazo devido ao endurecimento da política monetária, mas podem encontrar suporte se a aprovação do CLARITY Act sinalizar um ambiente regulatório mais favorável a longo prazo.",
+      "risco": "Uma resolução rápida da crise no fornecimento de petróleo ou dados de inflação mais brandos do que o esperado poderiam levar o Fed a manter os juros, invalidando a tese de aperto monetário imediato.",
+      "proximo_evento": "Votação procedural do CLARITY Act no Senado dos EUA na terça-feira e anúncio da decisão de juros do Fed na quarta-feira.",
       "key_numbers": [
-        "Último pregão: 4 de setembro",
-        "Prazo custo médio: 14 de setembro",
-        "Distribuição 18/ago: R$ 101,67",
-        "Distribuição 25/ago: R$ 140,61"
+        "Alvo de juros do Fed: 3,75%-4%",
+        "Aumento esperado: 0,25%",
+        "Probabilidade de pausa nos juros: 13,3%",
+        "Preço do petróleo WTI: acima de US$ 100"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Bitcoin ETFs shed $463M in weekly reversal as Ether ETFs gain $197M",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-etfs-shed-463m-ether-etfs-gain-197m?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "Os ETFs de Bitcoin nos EUA registraram saídas líquidas de US$ 463 milhões na semana, revertendo uma sequência de entradas, enquanto os ETFs de Ether atraíram US$ 197 milhões, impulsionados principalmente por fluxos positivos no final da semana.",
+      "mecanismo": "A reversão nos fluxos de Bitcoin reflete lucros após três semanas consecutivas de entradas, com vendas concentradas em fundos como ARKB e GBTC, enquanto o Ether se beneficia de uma entrada robusta de US$ 148,8 milhões no ETHA da BlackRock na sexta-feira, indicando uma rotação de capital ou preferência momentânea por Ethereum entre os investidores institucionais.",
+      "implicacao": "A divergência nos fluxos sugere que o setor de infraestrutura de Layer 1, representado por Ethereum, pode ter suporte de demanda institucional no curto prazo, enquanto o Bitcoin enfrenta resistência de venda após alta recente, o que pode pressionar a correlação entre os dois ativos.",
+      "risco": "Se as saídas de Bitcoin se intensificarem nas próximas sessões, isso pode sinalizar uma perda de confiança institucional mais ampla no mercado de criptoativos, arrastando o Ether para baixo apesar dos fluxos positivos recentes.",
+      "proximo_evento": "Monitorar os fluxos diários dos ETFs de criptoativos nos EUA para confirmar se a saída de Bitcoin é uma correção técnica pontual ou o início de uma tendência de distribuição mais ampla.",
+      "key_numbers": [
+        "Saída líquida Bitcoin ETFs: US$ 462,7 milhões",
+        "Entrada líquida Ether ETFs: US$ 196,9 milhões",
+        "Maior saída diária Bitcoin: US$ 282,7 milhões",
+        "Entrada ETHA na sexta: US$ 148,8 milhões"
       ],
       "sentiment": "neutral"
     },
     {
-      "title": "Swing trade: BB Investimentos recomenda a compra de BTG Pactual (BPAC11), Gerdau (GGBR4) e Ambev (ABEV3) nesta quinta (3)",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/swing-trade-bb-investimentos-recomenda-a-compra-de-btg-pactual-bpac11-gerdau-ggbr4-e-ambev-abev3-nesta-quinta-3-ceci/",
-      "categorias": [
-        "acoes",
-        "imobiliario"
-      ],
-      "resumo": "O BB Investimentos emitiu recomendação de compra para BTG Pactual, Gerdau e Ambev com foco em swing trade, sugerindo entrada na abertura com limite de preço.",
-      "mecanismo": "A recomendação baseia-se em um algoritmo de análise técnica que identificou padrões de alta iminente, indicando que a captura de movimentos de curto prazo é estatisticamente favorável no momento da abertura do pregão.",
-      "implicacao": "Para o setor financeiro e de commodities, a validação de sinais técnicos de alta tende a atrair fluxo de capital especulativo de curto prazo, aumentando a liquidez e a volatilidade positiva nesses ativos específicos.",
-      "risco": "O sinal técnico pode falhar se houver uma reversão abrupta de tendência ou notícias macroeconômicas negativas que invalidem o padrão identificado pelo algoritmo.",
-      "proximo_evento": "A execução das ordens de compra na abertura do mercado nesta quinta-feira (3) e a confirmação do movimento de alta rastreado pelo algoritmo.",
-      "key_numbers": [
-        "Data da recomendação: 03/09/2026",
-        "Limite de preço: 1% acima da abertura",
-        "Ativos recomendados: 3"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Fundo imobiliário quer captar R$ 440 milhões no mercado; Ifix no positivo",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/fundo-imobiliario-quer-captar-r-440-milhoes-no-mercado-ifix-no-positivo-jcav/",
-      "categorias": [
-        "imobiliario"
-      ],
-      "resumo": "O fundo Kinea Unique HY CDI (KNUQ11) aprovou uma nova emissão de cotas com potencial de captar até R$ 440 milhões, enquanto o índice IFIX registrou alta de 0,32% no pregão.",
-      "mecanismo": "A emissão de novas cotas por um fundo de recebíveis imobiliários injeta capital fresco para expansão da carteira de ativos, sinalizando confiança da gestora no fluxo de caixa e na capacidade de gerar retorno acima do CDI; simultaneamente, a alta do IFIX reflete apetite por renda variável no setor imobiliário, possivelmente impulsionado pela demanda por ativos que oferecem proteção inflacionária e dividendos.",
-      "implicacao": "Para o setor de FIIs de papel e recebíveis, a captação robusta indica liquidez e oportunidades de alavancagem positiva, tendendo a fortalecer a classe de ativos que busca rentabilidade atrelada ao CDI com menor volatilidade que os fundos de tijolo.",
-      "risco": "A operação está sob regime de melhores esforços, o que significa que a oferta pode ser cancelada se não atingir o volume mínimo de subscrição, invalidando a tese de expansão imediata da carteira.",
-      "proximo_evento": "O início da oferta pública das novas cotas do KNUQ11 e o exercício do direito de preferência pelos cotistas atuais, cujas datas específicas ainda serão divulgadas.",
-      "key_numbers": [
-        "Volume inicial da oferta: R$ 351,9 milhões",
-        "Potencial máximo da oferta: R$ 439,9 milhões",
-        "Valor da cota: R$ 100,55",
-        "Variação do IFIX: +0,32%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Standard Chartered launches spot Bitcoin and Ether trading in UAE",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/standard-chartered-bitcoin-ether-trading-uae?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O Standard Chartered se tornou o primeiro banco global sistemicamente importante a oferecer negociação de Bitcoin e Ether à vista para clientes institucionais nos Emirados Árabes Unidos, operando sob a regulação do DIFC.",
-      "mecanismo": "A entrada de um G-SIB no mercado de ativos digitais institucionais valida a infraestrutura regulatória do UAE e reduz a barreira de confiança para grandes capitais, facilitando o fluxo de fundos tradicionais para criptoativos através de canais bancários integrados e seguros.",
-      "implicacao": "O setor de infraestrutura cripto e exchanges reguladas tende a se beneficiar, pois a adoção bancária institucional aumenta a liquidez e a legitimidade do mercado, atraindo mais participantes corporativos que exigem conformidade rigorosa.",
-      "risco": "Uma mudança abrupta no tom regulatório global ou local que restrinja o acesso de bancos tradicionais a criptoativos poderia invalidar a tese de adoção institucional acelerada.",
-      "proximo_evento": "Acompanhar a aprovação final da licença da Revolut pela VARA de Dubai e o progresso da Capital.com na CMA, além de monitorar o volume inicial de negociações institucionais no Standard Chartered.",
-      "key_numbers": [
-        "Banco: Standard Chartered",
-        "Região: UAE",
-        "Ativos: BTC e ETH",
-        "Tipo: G-SIB"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Bitcoin ETFs notch best month of 2026 as BTC gains 25% in August",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-best-month-2026-btc-up-25-august?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "Os ETFs de Bitcoin nos EUA registraram seu melhor mês de 2026 com ingressos líquidos de US$ 3,52 bilhões em agosto, impulsionados pela alta de 25% da criptomoeda, enquanto os ETFs de Ether e XRP também reverteram para solidez positiva no acumulado do ano.",
-      "mecanismo": "A forte demanda institucional e de varejo nos ETFs de Bitcoin reduziu drasticamente os saques acumulados no ano, validando a adoção mainstream e fornecendo suporte de preço que permitiu a alta de agosto; contudo, o início de setembro já mostra uma reversão de fluxo com saques líquidos, indicando lucros rápidos após a correção abaixo de US$ 77.000.",
-      "implicacao": "O setor de infraestrutura de criptoativos e exchanges tende a se beneficiar do aumento do volume de negociação e da base de ativos sob gestão, pois a liquidez institucional atrai mais participantes e reduz a volatilidade estrutural a longo prazo, embora a correção imediata possa pressionar alavancagem de curto prazo.",
-      "risco": "A continuidade dos saques líquidos em setembro pode indicar que a alta de agosto foi movida apenas por especulação de curto prazo, invalidando a tese de sustentabilidade da tendência de alta se o preço romper suportes técnicos sem novo suporte de fluxo.",
-      "proximo_evento": "Monitorar a persistência dos fluxos de saída nos ETFs de Bitcoin durante setembro e a reação do preço do BTC ao suporte de US$ 77.000 para confirmar se a correção é apenas técnica ou o início de uma tendência de baixa mais ampla.",
-      "key_numbers": [
-        "Ingressos líquidos ETF BTC (ago): US$ 3,52 bilhões",
-        "Alta mensal BTC (ago): 25%",
-        "Saques líquidos ETF BTC (set inicial): US$ 236,46 milhões",
-        "Ativos sob gestão ETF BTC (fim ago): US$ 99,61 bilhões"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Palantir, Robinhood among market cap stock movers on Thursday",
+      "title": "BTIG warns oil refining stocks face potential correction after record gains",
       "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/palantir-robinhood-among-market-cap-stock-movers-on-thursday-93CH-4888213",
+      "link": "https://www.investing.com/news/stock-market-news/btig-warns-oil-refining-stocks-face-potential-correction-after-record-gains-93CH-4900098",
       "categorias": [
         "exterior"
       ],
-      "resumo": "Palantir e Robinhood se destacaram como as maiores movimentadoras de valor de mercado na sessão de quinta-feira, indicando forte interesse dos investidores em ações de tecnologia e fintech.",
-      "mecanismo": "O destaque no ranking de variação de market cap reflete uma rotação de capital para ativos de crescimento e sensíveis ao risco, onde a expectativa de lucros robustos ou adoção de IA (no caso da Palantir) e o volume de negociação (Robinhood) atraem fluxo especulativo de curto prazo.",
-      "implicacao": "A liderança de valor de mercado por parte de empresas de tecnologia e fintech tende a beneficiar o setor de tecnologia e serviços financeiros digitais, já que o fluxo de capital para esses nomes sinaliza apetite por risco e otimismo com a adoção de novas tecnologias.",
-      "risco": "O movimento pode ser revertido rapidamente se houver uma correção geral no mercado de ações ou se os fundamentos das empresas não justificarem as altas valuations, caracterizando uma possível bolha especulativa de curto prazo.",
-      "proximo_evento": "Acompanhar os próximos relatórios trimestrais de resultados dessas empresas para validar se o momentum de preço é sustentado por fundamentos ou apenas euforia de mercado.",
+      "resumo": "A BTIG alerta para uma possível correção nos papéis de refino de petróleo após os ativos registrarem ganhos recordes recentes.",
+      "mecanismo": "O aviso surge porque a valorização extrema e rápida desses ativos pode ter antecipado excessivamente as expectativas de lucro, criando uma vulnerabilidade a ajustes de preço quando o ritmo de compra desacelerar ou surgirem sinais de saturação de demanda.",
+      "implicacao": "O setor de refino de petróleo tende a enfrentar pressão de venda ou consolidação lateral, já que investidores de curto prazo podem realizar lucros após a corrida de preços, reduzindo a liquidez e a disposição para pagar prêmios elevados.",
+      "risco": "A correção pode não ocorrer se houver um choque de oferta global ou uma aceleração inesperada na demanda por combustíveis que force novas altas nos preços do barril e nas margens operacionais.",
+      "proximo_evento": "Monitorar os próximos relatórios trimestrais de resultados das refinarias e dados de margens de refino para validar se a fundamentação sustenta as altas avaliações atuais.",
+      "key_numbers": [],
+      "sentiment": "down"
+    },
+    {
+      "title": "Is It Time To Extend Duration Beyond The Belly Of The Curve?",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4946063-is-it-time-to-extend-duration-beyond-belly-of-curve?source=feed_all_articles",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "O analista sugere que o momento é propício para estender a duração da carteira de títulos do Tesouro americano além dos vencimentos intermediários, aproveitando a dinâmica atual da curva de juros.",
+      "mecanismo": "A tese baseia-se na expectativa de que os rendimentos nos prazos mais longos ofereçam melhor compensação de risco ou potencial de ganho de capital em comparação com o 'ventre' da curva, incentivando uma realocação de ativos para títulos de maior duração conforme o ciclo de juros evolui.",
+      "implicacao": "Títulos do Tesouro americano de longo prazo tendem a se tornar mais atraentes para investidores de renda fixa, pois a extensão da duração pode aumentar a sensibilidade a quedas futuras nos juros, potencializando ganhos de preço em relação a títulos de médio prazo.",
+      "risco": "Se a inflação se mostrar mais persistente do que o esperado ou se o Federal Reserve mantiver juros elevados por mais tempo, os rendimentos de longo prazo podem subir, causando perdas de capital nos títulos de maior duração.",
+      "proximo_evento": "Próximas divulgações de dados macroeconômicos dos EUA e comunicados do Federal Reserve que possam alterar a expectativa de trajetória dos juros de longo prazo.",
       "key_numbers": [],
       "sentiment": "up"
+    },
+    {
+      "title": "Measuring money with M2",
+      "source": "FRED Blog",
+      "link": "https://fredblog.stlouisfed.org/2026/09/measuring-money-with-m2/",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "O Federal Reserve ajustou a metodologia de cálculo do M2 a partir de 28 de julho de 2026, alterando como os saldos de contas de aposentadoria (IRA e Keogh) são subtraídos dos componentes líquidos.",
+      "mecanismo": "A mudança técnica redefine a subtração dos saldos de aposentadoria do total do M2, em vez de removê-los individualmente dos depósitos a prazo e fundos do mercado de dinheiro, o que resulta em uma recalibração estatística que eleva os valores reportados desses dois componentes específicos sem alterar significativamente o agregado total de M2.",
+      "implicacao": "Para investidores que utilizam M2 como indicador de liquidez e atividade econômica, a mudança exige cautela na análise de séries temporais históricas, pois a comparação direta com dados anteriores a julho de 2026 pode distorcer a percepção de crescimento nos depósitos a prazo e fundos do mercado de dinheiro, impactando a leitura de setores sensíveis à liquidez bancária.",
+      "risco": "A interpretação equivocada do aumento nos componentes recalculados como um influxo real de novos fundos, quando na verdade trata-se apenas de um ajuste contábil, pode levar a decisões de investimento baseadas em dados de liquidez superestimados.",
+      "proximo_evento": "A próxima divulgação semanal do relatório H.6 do Federal Reserve, que atualiza as medidas de estoque monetário com os novos dados ajustados.",
+      "key_numbers": [
+        "M2 (jun/2026): US$ 23 trilhões",
+        "Data da mudança: 28 de julho de 2026"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Notícias para o investidor de fundos imobiliários",
+      "source": "clubefiinews.com.br",
+      "link": "https://www.clubefiinews.com.br",
+      "categorias": [
+        "imobiliario"
+      ],
+      "resumo": "O setor de galpões logísticos atinge recorde de valorização com média de R$ 30/m² e receita de locações crescendo 20%, enquanto a saída de estrangeiros e investigações judiciais pressionam a ocupação de escritórios em SP e Campinas.",
+      "mecanismo": "A alta demanda por logística impulsiona os preços de transação e receitas do setor, criando um efeito de refúgio de qualidade; simultaneamente, a desocupação em escritórios decorre de falências corporativas e reestruturações de multinacionais, fragmentando o mercado imobiliário entre setores resilientes (logística/luxo) e vulneráveis (escritórios corporativos).",
+      "implicacao": "Fundos imobiliários focados em logística e varejo de luxo tendem a se beneficiar com a valorização dos ativos e crescimento de receita, enquanto fundos de escritórios corporativos podem enfrentar pressão sobre dividendos devido à desocupação e renegociação de contratos.",
+      "risco": "Uma desaceleração mais acentuada da economia global pode ampliar a saída de multinacionais e reduzir a demanda por logística, invalidando a tese de crescimento setorial.",
+      "proximo_evento": "Conclusão da aquisição da Navi Real Estate Selection pela Vinci, prevista para o fim de 2026, e novos dados de ocupação nos imóveis afetados pelos casos do Banco Master.",
+      "key_numbers": [
+        "Preço médio galpões: R$ 30/m²",
+        "Crescimento receita locação: 20%",
+        "Área desocupada escritórios: 38 mil m²",
+        "Variação Ifix: +0,65%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Notícias para o investidor de fundos imobiliários",
+      "source": "clubefiinews.com.br",
+      "link": "https://www.clubefiinews.com.br/hibrido",
+      "categorias": [
+        "imobiliario"
+      ],
+      "resumo": "O texto fornecido consiste exclusivamente em um aviso legal padrão do Clube FII, sem apresentar dados de mercado, notícias econômicas ou eventos específicos.",
+      "mecanismo": "Não há evento econômico ou corporativo descrito no texto para estabelecer uma cadeia causal de impacto nos mercados.",
+      "implicacao": "Sem informação de mercado, não é possível derivar implicações para setores ou classes de ativos.",
+      "risco": "A ausência de conteúdo informativo impede qualquer análise de risco ou oportunidade.",
+      "proximo_evento": "Não aplicável, pois não há notícia factual para gerar um gatilho futuro.",
+      "key_numbers": [],
+      "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [],
     "acoes": [
-      "A Ágora Investimentos recomenda a compra de PetroReconcavo (RECV3) e a venda de MRV&Co (MRVE3) para day trade nesta quinta-feira (3), com potencial de ganho de 1,47% para a primeira e stop sugerido em R$ 11,48.",
-      "As ações da CSN (CSNA3) dispararam quase 20% nesta quinta-feira (3) após o anúncio da saída de Benjamin Steinbruch como CEO e sua substituição por Fabio Schvartsman.",
-      "O mini índice do Ibovespa (WINV26) avançou 3,04% e renovou máximas recentes aos 187.940 pontos, embora o BTG Pactual aponte que o IFR está em região de sobrecompra."
+      "A Ágora Investimentos recomenda compra de Totvs (TOTS3) e venda de Assaí (ASAI3) em day trade para esta segunda-feira (14), com potencial de ganho de 1,45% para a Totvs.",
+      "A A5X captou R$ 360 milhões em rodada Série D a um valuation de R$ 2,7 bilhões, com liderança de Morgan Stanley, Goldman Sachs e Kaszek.",
+      "O Itaú BBA elevou o preço-alvo da Hypera (HYPE3) para R$ 33 no fim de 2027, mantendo recomendação de compra e citando oportunidade não precificada.",
+      "O dólar à vista avançou nesta segunda-feira (14) para patamares próximos de R$ 5,20, impulsionado por fatores domésticos e externos."
     ],
     "cripto": [
-      "A demanda aparente do Bitcoin tornou-se negativa enquanto o preço enfrenta dificuldades na marca de US$ 77.000.",
-      "A VARA e a Securitize assinaram uma carta de intenções para inovação em tokenização em Dubai.",
-      "A Coinbase lançou derivativos de criptomoedas regulados no Canadá.",
-      "Arthur Hayes prevê que o BTC atingirá US$ 1 milhão até 2030, mas afirma estar comprando ETH."
+      "A Bitmine projeta uma receita anual de $334 milhões com staking derivada de seu tesouro cripto de $15,8 bilhões.",
+      "O chefe da OMC afirma que regulamentações fragmentadas limitam a adoção de stablecoins nas finanças internacionais.",
+      "Alice Liu alerta que o preço do HYPE pode sofrer com a captação de receita pela Binance, apesar dos recompras de tokens.",
+      "O CEO da Robinhood afirma que os emissores não devem ter veto sobre ações tokenizadas."
     ],
     "debentures": [],
     "exterior": [
-      "A General Motors lidera os fabricantes de automóveis dos EUA com base em uma configuração técnica de curto prazo.",
-      "A economia da zona do euro permanece resiliente.",
-      "A ING apresenta suas últimas visões sobre os principais bancos centrais.",
-      "Os mercados globais de títulos estão em um ponto de virada."
+      "A ação do Pinterest subiu após anunciar uma infraestrutura de IA em parceria com a Nvidia.",
+      "Um artigo sugere que a geração atual de investidores pode enfrentar em breve um momento comparável ao choque da OPEP de 1973.",
+      "As ações do Reino Unido fecharam em alta, com o índice FTSE 100 subindo 1,05%.",
+      "A DeepSeek contratou um especialista em fusões e aquisições como CFO em preparação para uma possível IPO."
     ],
-    "imobiliario": [
-      "O índice IFIX registrou alta de 0,65% no pregão.",
-      "As marcas mais valiosas do Brasil, incluindo Itaú, Nubank, Claro, Brahma e Vivo, lideram o ranking da Kantar BrandZ e possuem centenas de milhares de metros quadrados no mercado imobiliário."
-    ]
+    "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "",
-    "acoes": "O mercado de renda variável brasileiro opera sob forte pressão compradora impulsionada pelo rali eleitoral e pela expectativa de ortodoxia fiscal, refletida na renovação de máximas do mini índice do Ibovespa e em recomendações de swing trade para grandes bancos e siderúrgicas. Paralelamente, movimentos pontuais de day trade e reações corporativas, como a alta da CSN devido à troca de CEO, coexistem com ajustes estruturais no mercado de fundos, exemplificados pela liquidação de um FII da XP. Investidores devem monitorar a sustentabilidade da tendência de alta do índice frente a sinais de sobrecompra técnica e os desdobramentos das eleições presidenciais em aproximadamente um mês.",
-    "cripto": "Enquanto a entrada de instituições tradicionais como o Standard Chartered no UAE e a expansão regulatória da Coinbase no Canadá validam a infraestrutura institucional, o mercado de varejo e institucional mostra sinais de cautela imediata com a reversão de fluxos nos ETFs de Bitcoin e a queda da demanda aparente abaixo de US$ 77.000. O foco deve permanecer na persistência desses saques líquidos durante setembro e na reação do preço ao suporte crítico, além de monitorar o progresso das aprovações regulatórias em Dubai e o volume inicial de negociações institucionais.",
+    "renda_fixa": "O cenário de Renda Fixa deve ser monitorado à luz da tese de extensão de duração além do ventre da curva, que busca melhor compensação de risco em prazos mais longos, dependendo das próximas divulgações de dados macroeconômicos dos EUA e comunicados do Federal Reserve. Paralelamente, a recalibração estatística do M2, que eleva os valores reportados de depósitos a prazo e fundos do mercado de dinheiro, exige atenção às atualizações semanais do relatório H.6 do Federal Reserve para compreender o impacto real no estoque monetário.",
+    "acoes": "Investidores devem monitorar o fechamento diário de ações como CSN e São Martinho acima dos preços-gatilho para confirmar entradas em position trades, além da definição da alocação de capital da Petz Cobasi no segundo semestre de 2026. Simultaneamente, é crucial acompanhar a volatilidade do dólar, que avança para R$ 5,20, e as recomendações de curto prazo para Totvs e Assaí, bem como a reavaliação de valor da Hypera e a consolidação da A5X no mercado de capitais.",
+    "cripto": "O mercado enfrenta uma dinâmica complexa onde a pressão macroeconômica do aumento dos juros do Fed e a busca por clareza regulatória via CLARITY Act contrastam com o crescimento de tesouros corporativos em Ethereum e debates sobre tokenização de ativos tradicionais. Enquanto investidores institucionais rotacionam capital entre Bitcoin e Ethereum, a fragmentação regulatória global continua sendo um obstáculo para a adoção de stablecoins, conforme destacado pela OMC, exigindo atenção aos fluxos de ETFs e aos desenvolvimentos legislativos nos EUA.",
     "debentures": "",
-    "exterior": "O mercado internacional opera em um ambiente onde a redução nos rendimentos dos Treasuries e a estabilização das expectativas de juros do Fed favorecem ativos de crescimento, enquanto a resiliência da economia da zona do euro e a liderança técnica da General Motors indicam força setorial específica. Simultaneamente, a percepção de que os mercados de títulos globais atingiram um ponto de virada, reforçada pelas visões da ING sobre os bancos centrais, sugere uma sensibilidade elevada a novos dados macroeconômicos. O foco permanece na validação dos fundamentos por trás do momentum de ações de tecnologia e na reação dos mercados aos próximos indicadores de inflação e política monetária.",
-    "imobiliario": "O mercado imobiliário apresenta sinais de apetite por renda variável, refletidos na alta do IFIX e na recomendação de swing trade para ações do setor, enquanto a emissão de novas cotas por fundos imobiliários indica confiança na expansão da carteira de ativos. A presença de grandes marcas nacionais no ranking de valorização reforça a solidez dos inquilinos e a demanda por espaços corporativos, fatores que, somados à execução de ordens de compra na abertura do pregão, sustentam a dinâmica atual do setor."
+    "exterior": "O mercado internacional enfrenta pressão simultânea de juros elevados nos EUA, com decisão do Fed prevista para 16 de setembro, e preços do petróleo próximos a US$ 110, que alimentam temores de inflação e correções em setores como refino. Enquanto isso, movimentos setoriais específicos, como a alta do Pinterest impulsionada por IA e a preparação da DeepSeek para uma possível IPO, contrastam com a cautela geral e os alertas sobre potenciais choques externos semelhantes ao de 1973.",
+    "imobiliario": "O mercado imobiliário permanece fragmentado, com a logística atuando como refúgio de qualidade devido à alta demanda, enquanto o setor de escritórios enfrenta desocupação decorrente de falências e reestruturações corporativas. Investidores devem monitorar a conclusão da aquisição da Navi Real Estate Selection pela Vinci, prevista para o fim de 2026, e acompanhar os novos dados de ocupação nos imóveis impactados pelos casos do Banco Master."
   }
 }
