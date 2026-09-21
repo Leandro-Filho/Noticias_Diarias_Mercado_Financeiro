@@ -45,7 +45,16 @@ if not TELEGRAM_BOT_TOKEN:
     raise SystemExit("TELEGRAM_BOT_TOKEN está vazio ou não configurado.")
 
 groq_client = OpenAI(api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai/v1")
-GROQ_MODEL = "qwen/qwen3.6-27b"  # mesmo modelo do market_digest.py — ver comentários lá
+# Mesma lista de candidatos do market_digest.py — ver comentários lá pro
+# histórico completo de descontinuações. Se um modelo for descontinuado
+# pela Groq, call_groq_text() pula pro próximo sozinho, sem parar de
+# responder o chat.
+GROQ_MODELS = [
+    "qwen/qwen3.8-27b",
+    "llama-3.3-70b-versatile",
+    "openai/gpt-oss-120b",
+]
+GROQ_REASONING_MODELS = {"qwen/qwen3.8-27b", "qwen/qwen3.6-27b", "openai/gpt-oss-120b", "openai/gpt-oss-20b"}
 DIGEST_PATH = "ultimo_digest.json"
 
 # Só responde em chats reconhecidos — evita gastar chamada de API se alguém
@@ -245,6 +254,38 @@ def data_hoje_pt() -> str:
     return f"{agora.day} de {MESES_PT[agora.month - 1]} de {agora.year}"
 
 
+def _modelo_indisponivel(exc: Exception) -> bool:
+    texto = str(exc).lower()
+    return "model_not_found" in texto or "does not exist" in texto
+
+
+def call_groq_text(prompt: str, max_tokens: int = 1000, temperature: float = 0.3, tentativas_por_modelo: int = 2) -> str:
+    """Mesma lógica de fallback entre modelos do call_groq_json em
+    market_digest.py, mas devolvendo texto corrido em vez de JSON (é o que
+    responde() precisa pra falar com a pessoa)."""
+    ultimo_erro = None
+    for modelo in GROQ_MODELS:
+        extra_body = {"reasoning_effort": "none"} if modelo in GROQ_REASONING_MODELS else {}
+        for tentativa in range(1, tentativas_por_modelo + 1):
+            try:
+                response = groq_client.chat.completions.create(
+                    model=modelo,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=temperature,
+                    max_tokens=max_tokens,
+                    extra_body=extra_body,
+                )
+                return response.choices[0].message.content.strip()
+            except Exception as exc:
+                ultimo_erro = exc
+                if _modelo_indisponivel(exc):
+                    print(f"Modelo {modelo} indisponível ({exc}) — pulando pro próximo da lista.")
+                    break
+                print(f"Tentativa {tentativa}/{tentativas_por_modelo} com {modelo} falhou ({exc}); tentando de novo...")
+                time.sleep(2)
+    raise ultimo_erro
+
+
 def responde(pergunta: str, digest: dict, indicadores: str = "", dados_carteira: str = "") -> str:
     contexto_digest = monta_contexto_digest(digest)
     hoje = data_hoje_pt()
@@ -316,14 +357,7 @@ Regras importantes:
 - Seja conciso: 2 a 4 parágrafos curtos costuma bastar, a não ser que a
   pergunta peça claramente mais profundidade."""
 
-    response = groq_client.chat.completions.create(
-        model=GROQ_MODEL,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.3,
-        max_tokens=1000,
-        extra_body={"reasoning_effort": "none"},
-    )
-    return response.choices[0].message.content.strip()
+    return call_groq_text(prompt, max_tokens=1000, temperature=0.3)
 
 
 def envia_telegram(chat_id: str, texto: str) -> None:
