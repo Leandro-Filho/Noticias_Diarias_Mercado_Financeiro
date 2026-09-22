@@ -1,62 +1,103 @@
 {
-  "gerado_em": "2026-09-21T17:11:43.476848+00:00",
+  "gerado_em": "2026-09-22T11:18:35.937825+00:00",
   "itens": [
     {
-      "title": "Wall Street opera em alta com alívio no petróleo e expectativa de avanço nas negociações entre EUA-Irã",
+      "title": "Mercado acompanha discurso de Lula na ONU, disputa eleitoral e Ata do Copom hoje; Ibovespa em dólar cai nesta terça-feira (22)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-abertura-21-9-26-lils/",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "Os índices americanos avançam impulsionados pela queda nos preços do petróleo e na rentabilidade dos Treasuries, refletindo o otimismo com possíveis avanços nas negociações entre EUA e Irã.",
-      "mecanismo": "A expectativa de um acordo de paz entre EUA e Irã reduz a prêmio de risco geopolítico, o que pressiona os preços do petróleo para baixo e faz os rendimentos dos Treasuries recuarem; essa combinação diminui o custo de capital e a aversão ao risco, favorecendo a alocação em ações, especialmente nas tecnológicas (Nasdaq).",
-      "implicacao": "Com a queda nos preços do petróleo e nos juros de referência, o setor de energia tende a enfrentar pressão negativa, enquanto setores sensíveis a juros e de consumo discricionário podem se beneficiar, já que a redução do custo de financiamento e a melhora no sentimento de risco estimulam a demanda e a avaliação de múltiplos.",
-      "risco": "A tese de alívio geopolítico pode ser invalidada caso as negociações entre EUA e Irã fracassem ou ocorram novos incidentes militares, o que faria os preços do petróleo e os rendimentos dos Treasuries voltarem a subir, revertendo o movimento de alta nas bolsas.",
-      "proximo_evento": "Assembleia Geral da ONU nesta semana, onde há expectativa de encontro entre Trump e o presidente iraniano, além do encontro entre Trump e Xi Jinping na reta final da semana.",
-      "key_numbers": [
-        "S&P 500: +0,71%",
-        "Nasdaq: +1,22%",
-        "Petróleo: ameaça perder US$ 100/barril"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Mini índice pode buscar 190 mil pontos? BTG aponta nível decisivo",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/mini-indice-pode-buscar-190-mil-pontos-btg-aponta-nivel-decisivo-ceci/",
+      "link": "https://www.moneytimes.com.br/mercado-acompanha-discurso-de-lula-na-onu-disputa-eleitoral-e-ata-do-copom-hoje-ibovespa-em-dolar-cai-nesta-segunda-feira-21-rens/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O mini índice sofreu uma correção técnica, fechando abaixo da média móvel de 21 períodos, enquanto o mini dólar opera em zona de indefinição próximo às suas médias de curto prazo.",
-      "mecanismo": "A queda do índice abaixo da MME21 e a resistência da MM50 em 187.472 pontos indicam pressão vendedora no curtíssimo prazo, exigindo a recuperação desse nível para reativar o fluxo comprador em direção aos 190 mil pontos; simultaneamente, o dólar está preso entre as médias de 21 e 50 períodos, o que impede a definição de uma tendência direcional clara até que uma dessas barreiras seja rompida com volume.",
-      "implicacao": "Com a tendência de médio e longo prazo do índice mantida em alta, a correção atual tende a ser vista como oportunidade de compra por investidores de médio prazo, enquanto a estagnação do dólar sugere que ativos sensíveis a câmbio (como exportadoras) não terão um catalisador imediato de valorização cambial no curto prazo.",
-      "risco": "A manutenção da pressão vendedora no índice abaixo da MM50 pode estender a correção para níveis mais baixos, invalidando a tese de retomada rápida, enquanto uma quebra de suporte no dólar poderia acelerar a tendência de baixa cambial.",
-      "proximo_evento": "O rompimento consistente da resistência de 187.472 pontos no mini índice ou a superação de 5.166,50 pontos no mini dólar nos próximos pregões.",
+      "resumo": "O mercado brasileiro opera em queda nesta terça-feira, com o Ibovespa em dólar recuando, enquanto investidores aguardam o discurso de Lula na ONU e a divulgação da ata do Copom, num cenário de empate técnico nas pesquisas eleitorais.",
+      "mecanismo": "A combinação de incerteza política, evidenciada pelo empate técnico entre Lula e Flávio Bolsonaro nas pesquisas, e a expectativa por sinais sobre a trajetória da Selic na ata do Copom (após corte para 13,75%) gera cautela, o que pressiona o apetite por risco e contribui para a queda do Ibovespa em dólar, refletindo a aversão a ativos locais em moeda forte.",
+      "implicacao": "Com a Selic em trajetória de queda e a incerteza eleitoral mantendo o prêmio de risco elevado, ativos de defesa como títulos públicos indexados à inflação (IPCA+) e o dólar tendem a ser preferidos por investidores de curto prazo, enquanto ações de setores sensíveis a juros e consumo doméstico podem enfrentar pressão de valuation até que haja clareza política e monetária.",
+      "risco": "Um discurso de Lula na ONU que acalme os mercados ou uma ata do Copom que sinalize cortes mais agressivos do que o esperado poderia reverter a cautela e provocar uma alta repentina no Ibovespa, invalidando a tese de pressão vendedora.",
+      "proximo_evento": "Divulgação do Boletim Macrofiscal de setembro pelo Ministério da Fazenda às 14h30 e os discursos de membros do Fed (John Williams e Philip Jefferson) no início da tarde.",
       "key_numbers": [
-        "Mini Índice (WINV26): 187.035 pontos",
-        "Resistência MM50 Índice: 187.472 pontos",
-        "Mini Dólar (WDOV26): 5.157,50 pontos",
-        "Resistência MM50 Dólar: 5.166,50 pontos"
+        "Selic: 13,75%",
+        "Ibovespa: 186.595,60 pontos",
+        "Dólar à vista: R$ 5,1084",
+        "Intenção de voto Lula (1º turno): 37%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Tempo real: Ibovespa opera de olho na ata do Copom",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/tempo-real-22-9-26-apsa-lils/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O mercado brasileiro opera em expectativa pela divulgação da ata do Copom e do Relatório de Política Monetária, enquanto no exterior a atenção se volta para indicadores de confiança na Zona do Euro e discursos de autoridades do Fed.",
+      "mecanismo": "A publicação da ata do Copom e do Relatório de Política Monetária servirá para confirmar ou ajustar as expectativas do mercado sobre a trajetória futura da taxa Selic, impactando diretamente o custo de capital e a precificação de ativos sensíveis a juros no Brasil, enquanto os dados externos influenciam o fluxo de capitais e o câmbio.",
+      "implicacao": "Como a incerteza sobre a política monetária é o principal driver atual, ativos de renda variável e crédito privado tendem a apresentar volatilidade até a confirmação do tom do Banco Central, já que a clareza sobre a trajetória de juros é essencial para a formação de prêmios de risco.",
+      "risco": "A ata do Copom pode conter sinalizações mais restritivas do que o mercado precifica, o que elevaria a Selic e pressionaria negativamente os múltiplos das ações e o valor dos títulos de dívida.",
+      "proximo_evento": "Divulgação da ata da última reunião do Copom e do Relatório de Política Monetária do Banco Central.",
+      "key_numbers": [
+        "Bitcoin: US$ 86.032,63",
+        "Petróleo Brent: US$ 99,46",
+        "Intenção de voto Lula: 37%",
+        "Intenção de voto Flávio Bolsonaro: 33%"
       ],
       "sentiment": "neutral"
     },
     {
-      "title": "Ibovespa avança com cenário eleitoral e conversas entre Trump e Xi Jinping; 5 coisas para saber antes de investir hoje (21)",
+      "title": "Preços do petróleo sobem antes de possíveis conversas entre EUA e Irã",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-21-9-26-apsa/",
+      "link": "https://www.moneytimes.com.br/precos-do-petroleo-sobem-antes-de-possiveis-conversas-entre-eua-e-ira-fets/",
       "categorias": [
-        "acoes"
+        "exterior"
       ],
-      "resumo": "O Ibovespa opera em alta impulsionado pela expectativa de cortes de juros e pela queda do petróleo, enquanto o cenário eleitoral permanece acirrado com empate técnico entre os principais candidatos.",
-      "mecanismo": "A redução da projeção da Selic para 13,50% no Focus, combinada com a queda do petróleo para perto de US$ 100, melhora as expectativas de crescimento e reduz pressões inflacionárias de commodities, o que tende a atrair capital para o mercado acionário brasileiro, embora a incerteza eleitoral mantenha a volatilidade elevada.",
-      "implicacao": "Com a perspectiva de juros mais baixos e petróleo em recuo, setores sensíveis ao custo de capital, como varejo e construção civil, tendem a se beneficiar, enquanto empresas de energia elétrica podem enfrentar pressão de margens devido à devolução do bônus de Itaipu.",
-      "risco": "A ata do Copom pode sinalizar um ritmo de corte mais lento do que o esperado pelo mercado, ou uma nova escalada na crise política envolvendo o STF pode reverter o otimismo e pressionar o índice para baixo.",
-      "proximo_evento": "Divulgação da ata do Copom nesta terça-feira (22) e do IPCA-15 na sexta-feira (25).",
+      "resumo": "O petróleo Brent e WTI recuperam perdas recentes, impulsionados pela expectativa de negociações diplomáticas entre EUA e Irã na ONU e pela persistência de gargalos logísticos no Oriente Médio e na Líbia.",
+      "mecanismo": "A recuperação dos preços ocorre porque, apesar da possibilidade de um acordo diplomático, a oferta física permanece restrita: a Arábia Saudita redirecionou exportações para o Estreito de Ormuz após ataques ao oleoduto Leste-Oeste, e a Líbia cortou cerca de 200 mil barris/dia na produção do campo de Sharara, mantendo o mercado apertado e limitando o espaço para novas quedas de preço.",
+      "implicacao": "Com a oferta global de petróleo e derivados refinados (como diesel) escassa e os estoques estratégicos sendo esgotados, o setor de energia e as commodities tendem a manter valuations elevados, já que a incerteza geopolítica e a restrição física de oferta sustentam prêmios de risco nos preços.",
+      "risco": "Um acordo diplomático rápido e efetivo entre EUA e Irã, combinado com a normalização total do fluxo no Estreito de Ormuz e a recuperação da produção líbia, poderia remover o prêmio de risco e provocar uma queda acentuada nos preços do petróleo.",
+      "proximo_evento": "As conversas diretas entre os presidentes dos EUA e do Irã durante a Assembleia Geral da ONU nesta semana, que podem definir o tom das relações bilaterais e o fluxo de petróleo pelo Estreito de Ormuz.",
       "key_numbers": [
-        "Ibovespa: 186.357,61 pontos",
-        "Selic (projeção Focus): 13,50%",
-        "Petróleo Brent: US$ 100,88",
-        "Dólar: R$ 5,1080"
+        "Brent: US$ 101,40",
+        "WTI: US$ 92,78",
+        "Queda na Líbia: 200 mil barris/dia",
+        "Exportação saudita: 14 milhões de barris"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Juros futuros fecham abaixo de 14% de olho em eleições e petróleo",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/juros-futuros-21-9-26-apsa/",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "A curva de juros futuros brasileiros recuou, com o DI 2027 fechando abaixo de 14%, impulsionada pela queda global do petróleo, sinais de reaproximação entre EUA e China e otimismo eleitoral sobre a oposição.",
+      "mecanismo": "A combinação da desvalorização do petróleo (reduzindo pressões inflacionárias globais) e o 'risk on' gerado pela expectativa de vitória da oposição nas eleições brasileiras (que sugere um ajuste fiscal mais rigoroso em 2027) levou o mercado a precificar uma trajetória de cortes mais agressivos na Selic, refletido na queda da mediana do Focus para 13,50% no terminal do ano.",
+      "implicacao": "Com a perspectiva de uma Selic terminal mais baixa e um ambiente de 'risk on', a classe de ativos de renda variável tende a se beneficiar, já que a redução do custo de capital e a melhora no humor do investidor favorecem a alocação em ativos de maior risco em detrimento de títulos de renda fixa de curto prazo.",
+      "risco": "A tese de queda de juros pode ser invalidada se a incerteza eleitoral se intensificar ou se a crise envolvendo o STF gerar instabilidade institucional, o que poderia reverter o otimismo e pressionar os juros futuros para cima.",
+      "proximo_evento": "Cúpula entre Donald Trump e Xi Jinping, prevista para quinta-feira, que servirá como teste para a estabilidade geopolítica e o apetite por risco global.",
+      "key_numbers": [
+        "DI Jan/2027: 13,550%",
+        "Selic Terminal (Focus): 13,50%",
+        "Chance vitória oposição (Polymarket): 63%",
+        "T-Note 10 anos EUA: 4,954%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Wall Street fecha em alta com otimismo com IA e alívio no petróleo; Nasdaq salta 2% e renova recorde",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/wall-street-21-9-26-lils/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "As bolsas americanas encerraram o pregão em forte alta, impulsionadas pela queda nos preços do petróleo e pelo otimismo em torno de avanços nas negociações geopolíticas e no setor de inteligência artificial.",
+      "mecanismo": "A expectativa de retomada do diálogo entre EUA e Irã reduziu a tensão geopolítica, o que pressionou os preços do petróleo para baixo e fez os rendimentos dos Treasuries de longo prazo recuarem; essa combinação diminui a pressão sobre os múltiplos das ações e atrai capital para setores de crescimento, como o de tecnologia e IA, que também foi beneficiado por sinais positivos de demanda por chips.",
+      "implicacao": "Com a queda nos rendimentos dos títulos de longo prazo e a redução do prêmio de risco geopolítico, o setor de tecnologia e as ações de crescimento tendem a se valorizar, já que o custo de capital futuro diminui e a apetite por risco aumenta, beneficiando empresas com forte exposição a inovação e infraestrutura de IA.",
+      "risco": "A tese pode ser invalidada se as negociações de paz entre EUA e Irã ou o diálogo comercial com a China não resultarem em acordos concretos, o que poderia reverter a queda do petróleo e elevar novamente os rendimentos dos Treasuries, pressionando os ativos de risco.",
+      "proximo_evento": "O encontro entre o presidente dos EUA, Donald Trump, e o presidente da China, Xi Jinping, na Assembleia Geral da ONU, onde devem discutir tarifas, IA e minerais críticos.",
+      "key_numbers": [
+        "S&P 500: +1,49%",
+        "Nasdaq: +2,26%",
+        "Intel: +12,17%",
+        "AMD: +9,95%"
       ],
       "sentiment": "up"
     },
@@ -67,16 +108,16 @@
       "categorias": [
         "cripto"
       ],
-      "resumo": "O Bitcoin rompeu a resistência de $86.000, marcando a maior cotação em 33 semanas, impulsionado por uma forte liquidação de posições vendidas e pelo otimismo gerado pela queda nos preços do petróleo e sinais de desescalada geopolítica no Oriente Médio.",
-      "mecanismo": "A redução no preço do petróleo (WTI abaixo de $92) e as expectativas de retomada de negociações diplomáticas entre EUA e Irã aliviaram as tensões inflacionárias e de risco global, o que elevou os índices de ações nos EUA e atraiu capital para ativos de risco como criptomoedas, forçando a liquidação de shorts e validando a quebra de uma estrutura de topos decrescentes que persistia desde outubro de 2025.",
-      "implicacao": "Com a redução do prêmio de risco geopolítico e a confirmação de fluxo de capital para ETFs de Bitcoin à vista, a classe de ativos cripto tende a sustentar a tendência de alta, pois a entrada de capital institucional e a liquidação de shorts criam um ambiente de demanda agressiva que supera a oferta disponível no curto prazo.",
-      "risco": "Um fechamento diário abaixo de $77.100 invalidaria a estrutura de alta atual, expondo o ativo a uma correção em direção à média de mercado real em $76.677, caso o fluxo de compradores não se mantenha consistente.",
+      "resumo": "O Bitcoin rompeu a resistência de US$ 86.000, marcando a maior cotação em 33 semanas, impulsionado por uma queda nos preços do petróleo e sinais de desescalada diplomática no Oriente Médio que beneficiaram o mercado acionário americano.",
+      "mecanismo": "A perspectiva de retomada das negociações entre EUA e Irã reduziu a tensão geopolítica, o que derrubou o preço do petróleo bruto (WTI) abaixo de US$ 92; essa redução de incerteza macroeconômica elevou o apetite por risco, fazendo com que investidores migrassem para ativos de alta volatilidade como o Bitcoin, que também sofreu liquidação de posições vendidas (shorts) em larga escala.",
+      "implicacao": "Com a redução do prêmio de risco geopolítico e o fluxo de capital para ETFs de Bitcoin à vista, a classe de ativos criptoativos tende a manter momentum de alta, já que a validação técnica da quebra de tendência de baixa atrai novos compradores institucionais e varejo.",
+      "risco": "Um fechamento diário do Bitcoin abaixo de US$ 77.100 invalidaria a estrutura de alta atual, expondo o ativo a uma correção em direção à média de mercado real em US$ 76.677, especialmente se as negociações diplomáticas no Oriente Médio falharem.",
       "proximo_evento": "Visita do presidente chinês Xi Jinping aos EUA entre 23 e 25 de setembro, que pode resultar na extensão do acordo comercial bilateral por seis meses.",
       "key_numbers": [
-        "Bitcoin: $86.332",
-        "Liquidações de shorts: $800 milhões",
-        "Petróleo WTI: $91.59",
-        "Nível de invalidação: $77.100"
+        "Bitcoin: US$ 86.332",
+        "Petróleo WTI: US$ 91,59/barril",
+        "Liquidações de shorts: US$ 800 milhões",
+        "Suporte técnico: US$ 77.100"
       ],
       "sentiment": "up"
     },
@@ -87,7 +128,7 @@
       "categorias": [
         "cripto"
       ],
-      "resumo": "O Bitcoin rompeu a resistência de 33 semanas, atingindo US$ 85.248, impulsionado por uma onda de liquidações de posições vendidas e pelo alívio geopolítico que derrubou o preço do petróleo.",
+      "resumo": "O Bitcoin rompeu a resistência de 33 semanas e atingiu US$ 85.248, impulsionado por uma onda de liquidações de posições vendidas e pelo alívio geopolítico que derrubou o preço do petróleo.",
       "mecanismo": "A combinação de preços do petróleo abaixo de US$ 94 e a perspectiva de diplomacia entre EUA e Irã reduziram a aversão ao risco global, o que, somado à liquidação forçada de shorts (mais de US$ 600 milhões), criou pressão compradora que empurrou o ativo para cima, aproximando-o do ponto de equilíbrio dos investidores em ETFs.",
       "implicacao": "Com o Bitcoin superando a média móvel exponencial de 50 semanas e os ETFs registrando fortes entradas líquidas, a classe de ativos cripto tende a ganhar tração, pois a redução do custo de oportunidade via petróleo mais barato e a liquidez institucional renovada sustentam a tese de alta de curto prazo.",
       "risco": "O RSI diário está próximo da zona de sobrecompra (70) e há uma divergência bearish técnica, o que indica que o momentum pode estar esgotado e aumenta o risco de uma reversão súbita se o preço não conseguir segurar acima de US$ 85.000.",
@@ -120,63 +161,41 @@
       "sentiment": "up"
     },
     {
-      "title": "Europe’s STOXX 600 rallies on tech, banks strength as oil prices retreat",
+      "title": "Corporate bond buyers get picky with flood of AI debt",
       "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/europes-stoxx-600-gains-as-tech-rallies-oil-retreat-eases-nerves-4908362",
+      "link": "https://www.investing.com/news/stock-market-news/corporate-bond-buyers-get-picky-with-flood-of-ai-debt-4910258",
       "categorias": [
-        "exterior"
+        "renda_fixa",
+        "debentures"
       ],
-      "resumo": "O índice europeu STOXX 600 registrou alta impulsionada pelo desempenho robusto dos setores de tecnologia e bancos, em um contexto de recuo nos preços do petróleo.",
-      "mecanismo": "A queda no preço do petróleo tende a reduzir a pressão inflacionária e os custos operacionais, o que, somado à força específica dos setores de tecnologia e bancário, atrai capital para o índice europeu, elevando sua cotação.",
-      "implicacao": "Com a retração do petróleo e a liderança de tech e bancos, o mercado europeu tende a manter viés positivo, beneficiando ações de setores sensíveis a custos de energia e de crescimento, enquanto setores puramente defensivos podem perder espaço relativo.",
-      "risco": "Uma reversão abrupta na alta dos preços do petróleo ou uma surpresa negativa nos balanços das grandes empresas de tecnologia e bancos pode invalidar o rali e provocar correção no índice.",
-      "proximo_evento": "Próximas divulgações de balanços corporativos na Europa e dados de inflação (CPI/HICP) que podem confirmar ou reverter a tendência de alívio nos preços de commodities.",
-      "key_numbers": [
-        "Índice: STOXX 600",
-        "Setores líderes: Tecnologia e Bancos",
-        "Commodity: Petróleo em recuo"
-      ],
-      "sentiment": "up"
+      "resumo": "Investidores corporativos estão se tornando mais seletivos na compra de títulos de dívida emitidos por empresas que buscam financiamento para infraestrutura de inteligência artificial, devido ao volume elevado de novas emissões no mercado.",
+      "mecanismo": "O excesso de oferta de dívida corporativa ligada a projetos de IA está forçando os compradores a exigir prêmios de risco maiores ou a filtrar apenas emissores com balanços mais sólidos, o que aumenta o custo de capital para empresas menos creditícias e pode desacelerar o ritmo de expansão de infraestrutura de IA de menor qualidade.",
+      "implicacao": "Com a seletividade dos compradores, o setor de infraestrutura de IA tende a ver uma divergência de desempenho, onde empresas com forte geração de caixa e rating de crédito elevado mantêm acesso a capital barato, enquanto as mais alavancadas enfrentam custos de financiamento mais altos, pressionando suas margens e valuations.",
+      "risco": "O cenário de seletividade pode ser revertido se o mercado de ações de tecnologia continuar em forte alta, atraindo capital especulativo que ignore os fundamentos de crédito e aceite spreads mais apertados para capturar o crescimento do setor de IA.",
+      "proximo_evento": "Próximas grandes emissões de dívida corporativa (bond issuance) de empresas de tecnologia e data centers, onde o spread de juros cobrado pelo mercado servirá como termômetro da apetite por risco.",
+      "key_numbers": [],
+      "sentiment": "neutral"
     },
     {
       "title": "FOMC Summary of Economic Projections, September 2026",
       "source": "FRED Blog",
       "link": "https://fredblog.stlouisfed.org/2026/09/fomc-summary-of-economic-projections-september-2026/",
       "categorias": [
-        "renda_fixa"
+        "renda_fixa",
+        "exterior"
       ],
-      "resumo": "O FOMC revisou para cima suas projeções de juros futuros e manteve a expectativa de inflação acima da meta em 2026, indicando uma postura mais restritiva do que a prevista em junho.",
-      "mecanismo": "A elevação da mediana da taxa federal funds para 4,1% no fim de 2026 e 3,9% em 2028, combinada com a projeção de inflação core PCE de 3,4% neste ano, sinaliza que o Fed espera manter o custo de crédito elevado por mais tempo para ancorar expectativas, o que tende a pressionar o valuation de ativos sensíveis a taxas de desconto e fortalecer o dólar frente a moedas de mercados emergentes.",
-      "implicacao": "Com a perspectiva de juros reais mais altos e crescimento do PIB revisado para 2,3% em 2026, o setor de serviços financeiros e bancos tende a se beneficiar pela melhora na margem de juros, enquanto classes de ativos de crescimento (growth) e tecnologia podem enfrentar pressão de reprecificação devido ao aumento do custo de capital.",
-      "risco": "A dispersão nas projeções individuais (variando de 2,9% a 3,9% para 2029) indica incerteza interna no comitê, e uma desaceleração econômica mais abrupta do que o previsto poderia forçar cortes de juros mais agressivos do que a mediana sugere.",
-      "proximo_evento": "Próxima reunião do FOMC em dezembro de 2026, quando será divulgada a nova atualização das Projeções Econômicas (SEP) e a decisão sobre a taxa de juros.",
+      "resumo": "O FOMC revisou para cima suas projeções de juros futuros e manteve a inflação core acima da meta até 2029, indicando uma postura mais restritiva do que o esperado em junho.",
+      "mecanismo": "A elevação da mediana da taxa federal funds para 4,1% em 2026 e 2027, combinada com a projeção de inflação core de 3,4% neste ano, sinaliza que o Fed espera manter o custo de crédito elevado por mais tempo para ancorar expectativas, o que tende a pressionar o valuation de ativos de crescimento e fortalecer o dólar frente a moedas de mercados emergentes.",
+      "implicacao": "Com a perspectiva de juros altos por mais tempo nos EUA, o setor de tecnologia e ativos sensíveis a taxas de desconto tendem a enfrentar pressão de valuation, enquanto o dólar e títulos do Tesouro americano de curto prazo podem se beneficiar do fluxo de capitais em busca de segurança e rendimento real.",
+      "risco": "A dispersão nas projeções individuais (variando de 2,9% a 3,9% para 2029) indica incerteza interna no comitê, e uma desaceleração econômica mais rápida do que o previsto (GDP projetado em 2,3%) poderia forçar cortes de juros mais agressivos do que a mediana sugere.",
+      "proximo_evento": "Próxima reunião do FOMC em dezembro de 2026, quando será decidido se a taxa será mantida em 4,1% conforme a mediana projetada.",
       "key_numbers": [
-        "Juros Fed (fim 2026): 4,1%",
+        "Taxa Federal Funds (fim 2026): 4,1%",
         "Inflação Core PCE (2026): 3,4%",
-        "PIB Real (2026): 2,3%",
-        "Desemprego (Q4 2026): 4,1%"
+        "Crescimento Real do PIB (2026): 2,3%",
+        "Taxa de Desemprego (Q4 2026): 4,1%"
       ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Notícias sobre investimentos e o mercado financeiro | Bora Investir",
-      "source": "Bora Investir",
-      "link": "https://borainvestir.b3.com.br/noticias/",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O mercado brasileiro ajustou suas expectativas para baixo, projetando a Selic em 13,50% ao final do ano, enquanto a previsão de inflação para 2026 subiu para 4,92%.",
-      "mecanismo": "A redução da projeção da Selic indica que o mercado acredita que o ciclo de aperto monetário está chegando ao fim ou que os cortes serão mais agressivos do que o esperado, o que tende a reduzir o custo do capital e aumentar o apetite por risco, beneficiando ativos sensíveis a juros, mesmo com a inflação projetada em alta.",
-      "implicacao": "Com a perspectiva de queda na Selic, o setor de crédito e empresas alavancadas tendem a se beneficiar, já que a redução da taxa básica de juros diminui o custo de financiamento e melhora as margens de lucro de empresas com dívidas atreladas à taxa.",
-      "risco": "A alta na projeção de inflação para 4,92% pode forçar o Banco Central a manter a Selic mais alta por mais tempo do que o mercado espera, invalidando a tese de cortes agressivos e pressionando os ativos de risco.",
-      "proximo_evento": "Próxima reunião do Copom para definição da taxa Selic e divulgação dos dados oficiais de inflação (IPCA) do mês.",
-      "key_numbers": [
-        "Selic projetada: 13,50%",
-        "Inflação 2026: 4,92%",
-        "Dólar: R$ 5,14",
-        "IBCB-Br julho: -0,2%"
-      ],
-      "sentiment": "up"
+      "sentiment": "down"
     },
     {
       "title": "Notícias para o investidor de fundos imobiliários",
@@ -185,49 +204,70 @@
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "A queda na taxa Selic tende a melhorar a viabilidade econômica de novos empreendimentos imobiliários, enquanto a saída de investidores estrangeiros e casos de desocupação corporativa pressionam a demanda atual.",
-      "mecanismo": "A redução do custo de capital torna novos projetos mais atrativos para desenvolvedores, o que deve aumentar o estoque futuro de imóveis; simultaneamente, a reorganização de multinacionais e a desocupação de escritórios por investigações reduzem a demanda corporativa imediata, criando um cenário de oferta crescente versus demanda corporativa enfraquecida no curto prazo.",
-      "implicacao": "Com a Selic em queda, o setor de FIIs de logística e lajes tende a se beneficiar no médio prazo pelo aumento da oferta e redução do custo de capital, mas no curto prazo enfrenta pressão de preços e vacância devido à saída de inquilinos corporativos e estrangeiros.",
-      "risco": "A queda da Selic pode não ser suficiente para reverter a desocupação corporativa se a reorganização global das multinacionais acelerar, mantendo a vacância elevada e pressionando os dividendos dos FIIs.",
+      "resumo": "A queda na taxa Selic tende a melhorar a viabilidade econômica de novos empreendimentos imobiliários, enquanto a saída de investidores estrangeiros e casos de desocupação corporativa pressionam a demanda atual por espaços.",
+      "mecanismo": "A redução do custo de capital torna novos projetos mais atrativos para desenvolvedores, o que deve aumentar o estoque futuro de imóveis; simultaneamente, a reorganização de multinacionais e o fechamento de fábricas reduzem a demanda corporativa imediata, criando um cenário de oferta crescente versus demanda corporativa enfraquecida no curto prazo.",
+      "implicacao": "Com a Selic em queda, o setor de FIIs de logística e lajes tende a se beneficiar no médio prazo pelo aumento da oferta de ativos de qualidade, mas no curto prazo enfrenta pressão de preços e vacância devido à redução da demanda corporativa e ao impacto de investigações judiciais em grandes locatários.",
+      "risco": "A desaceleração econômica pode ser mais profunda do que o esperado, fazendo com que a queda dos juros não seja suficiente para reverter a queda na demanda corporativa e aumentar a vacância estrutural.",
       "proximo_evento": "Próxima reunião do Copom para definição da nova taxa Selic e divulgação dos dados de ocupação corporativa e fechamento de fábricas no próximo trimestre.",
       "key_numbers": [
         "Ifix: +0,65%",
         "Escritórios desocupados: 38 mil m²"
       ],
       "sentiment": "neutral"
+    },
+    {
+      "title": "Notícias para o investidor de fundos imobiliários",
+      "source": "clubefiinews.com.br",
+      "link": "https://www.clubefiinews.com.br/entrevistas",
+      "categorias": [
+        "imobiliario"
+      ],
+      "resumo": "O texto fornecido consiste apenas em um aviso legal do Clube FII, informando que o conteúdo é verificado, mas que a publicação não oferece recomendações de investimento nem assume responsabilidade por perdas financeiras.",
+      "mecanismo": "Não há mecanismo causal de mercado descrito, pois o texto é um disclaimer institucional padrão que estabelece as fronteiras de responsabilidade jurídica da fonte, sem apresentar dados econômicos, notícias setoriais ou eventos que gerem impacto nos ativos.",
+      "implicacao": "Não há implicação setorial ou de classe de ativo derivada deste texto, uma vez que ele não traz variáveis macroeconômicas, mudanças regulatórias ou notícias corporativas que influenciem a precificação de fundos imobiliários ou outros ativos.",
+      "risco": "O risco principal é a confusão do investidor ao interpretar a ausência de recomendação como uma omissão de análise, quando na verdade o texto apenas delimita a responsabilidade legal da fonte, não oferecendo nenhum insight de mercado.",
+      "proximo_evento": "Não há próximo evento de mercado identificável no texto, pois ele não contém informações sobre datas de reuniões, divulgações de dados ou prazos regulatórios.",
+      "key_numbers": [],
+      "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [
-      "A Pfizer oferece um rendimento superior a 6% em um cenário onde a taxa de juros de 10 anos está em 5%."
+      "O artigo sobre o JSI sugere uma atualização para 'Buy' argumentando que os rendimentos atingiram o pico e a assimetria do risco de taxas se tornou positiva.",
+      "O texto sobre a estagnação de setembro destaca que o período foi marcado por rendimentos historicamente baixos, alto risco de duration e valuações elevadas.",
+      "O artigo sobre o LQD descreve o ETF como o maior de dívida corporativa de grau de investimento do mercado, mas aponta uma tese de investimento fraca."
     ],
     "acoes": [
-      "O Itaú BBA recomenda a compra de ações como Gerdau (GGBR4) e Suzano (SUZB3) para day trade nesta semana, com a GGBR4 fechando a sexta-feira (18) a R$ 25,34 e apresentando potencial de ganho de 10,47% até o objetivo um.",
-      "O Bank of America selecionou o Itaú (ITUB4) e o Bradesco (BBDC4) como os melhores bancos para ter na América Latina, embora os analistas tenham destacado que o Brasil enfrenta riscos.",
-      "Segundo relatório do Bank of America, houve entrada líquida de R$ 1 bilhão na B3 na última semana, com investidores estrangeiros dando suporte ao mercado brasileiro enquanto fundos locais de ações retiravam recursos.",
-      "O Banco Safra rebaixou a recomendação da Ânima Educação (ANIM3) de compra para neutra devido ao espaço limitado para redução da alavancagem, mantendo a Cogna (COGN3) como a top pick do setor educacional."
+      "O Ibovespa iniciou a semana em alta, alinhado ao bom humor externo causado pela queda nos preços do petróleo e moderação dos títulos soberanos, enquanto o dólar caiu para R$ 5,10.",
+      "O mercado da B3 subiu 0,74% seguindo o exterior com alívio no petróleo, e o dólar recuou para R$ 5,10 na segunda-feira (21).",
+      "O UBS BB iniciou a cobertura de ações do setor de saúde, apontando Rede D’or (RDOR3) e Bradsaúde (SAUD3) como favoritas, com recomendação de compra para Dasa (DASA3) e menção a Fleury (FLRY3) e Hapvida.",
+      "O UBS adotou postura pessimista em relação à Buzzi, citando a pressão que as importações de cimento dos EUA exercem sobre a precificação."
     ],
     "cripto": [
-      "Bitcoin recuperou a média móvel de 50 semanas, levando analistas a observarem o possível fim do mercado de baixa.",
-      "A Strategy comprou 950 Bitcoin por US$ 76 milhões e recomprados US$ 174 milhões em STRC.",
-      "O revés do CLARITY Act colocou a Coinbase em destaque.",
-      "NEAR subiu quase 80% em uma semana, com o volume de Intents se aproximando de US$ 30 bilhões."
+      "A capitalização de mercado das criptomoedas recuperou a marca de US$ 3 trilhões, impulsionada pela alta do Bitcoin e das altcoins.",
+      "Os ETFs de Bitcoin registraram entradas que atingiram o nível mais alto de 2026, aproximando-se da marca de US$ 1 bilhão.",
+      "A Strategy comprou 950 Bitcoins por US$ 76 milhões e recomprados US$ 174 milhões em STRC.",
+      "O Bitcoin recuperou a média móvel de 50 semanas, levando analistas a observarem o possível fim do mercado de baixa."
     ],
     "debentures": [],
     "exterior": [
-      "AMD entrou para o clube de mercado de US$ 1 trilhão em capitalização de mercado com apostas em computação de IA.",
-      "Houve uma alta em criptomoedas e ações de cripto.",
-      "O ouro mantém a tese de alta mesmo diante de aumentos de juros.",
-      "Trump disse que os EUA formarão uma 'AI Force' e nomearão um czar da IA, segundo relatórios."
+      "Bolsas da Ásia fecharam perto da estabilidade nesta terça-feira (22), com o Kospi subindo 0,15% e o Hang Seng avançando 0,18%, em meio à recuperação dos preços do petróleo e apesar do rali de ontem em Wall Street.",
+      "Ações europeias subiram levemente enquanto sinais de diplomacia na ONU puxaram os preços do petróleo para baixo.",
+      "Futuros de Wall Street permaneceram estáveis após o rali impulsionado pela IA, com o mercado aguardando o cime entre EUA e China."
     ],
-    "imobiliario": []
+    "imobiliario": [
+      "O Clube FII afirma que preza pela qualidade do conteúdo e verifica as informações publicadas, ressaltando que não faz qualquer tipo de recomendação de investimento e não se responsabiliza por perdas, danos, custos e lucros cessantes.",
+      "O Clube FII afirma que preza pela qualidade do conteúdo e verifica as informações publicadas, ressaltando que não faz qualquer tipo de recomendação de investimento e não se responsabiliza por perdas, danos, custos e lucros cessantes.",
+      "O Clube FII afirma que preza pela qualidade do conteúdo e verifica as informações publicadas, ressaltando que não faz qualquer tipo de recomendação de investimento e não se responsabiliza por perdas, danos, custos e lucros cessantes.",
+      "O Clube FII afirma que preza pela qualidade do conteúdo e verifica as informações publicadas, ressaltando que não faz qualquer tipo de recomendação de investimento e não se responsabiliza por perdas, danos, custos e lucros cessantes."
+    ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário atual é marcado pela tensão entre a expectativa de fim do ciclo de aperto monetário no Brasil, que reduz a Selic, e a postura do Fed em manter juros elevados para combater a inflação, o que pressiona o dólar e afeta o valuation de ativos. Investidores devem monitorar a próxima reunião do Copom e a divulgação dos dados oficiais de inflação (IPCA) para avaliar o impacto no custo do capital e no apetite por risco, além de observar a próxima reunião do FOMC em dezembro de 2026 para a atualização das projeções econômicas e a decisão sobre a taxa de juros.",
-    "acoes": "O fluxo de capital estrangeiro, que entrou com R$ 1 bilhão na B3 na última semana, continua sendo o principal motor da bolsa, ajudando a reduzir o desconto de valuation mesmo com a saída de recursos de fundos locais. Essa dinâmica de fluxo deve ser monitorada em conjunto com a volatilidade eleitoral e a expectativa de queda da Selic para 13,50%, que, somada à ata do Copom e ao IPCA-15, podem definir a direção do índice rumo aos 190 mil pontos.",
-    "cripto": "Com o Bitcoin recuperando a média móvel de 50 semanas e se aproximando de máximas de oito meses, o foco recai sobre a confirmação técnica do fim do bear market e a superação do nível de breakeven dos ETFs. Paralelamente, é crucial monitorar o impacto do revés do CLARITY Act na regulação e como isso afeta a posição da Coinbase, além de observar a continuidade da acumulação corporativa, exemplificada pelas compras da Strategy, e o forte desempenho de altcoins como NEAR.",
-    "debentures": "O mercado de crédito privado e debêntures segue em evolução com a adoção de tecnologias de ledger distribuído, como a infraestrutura da Euroclear, que permite a liquidação no mesmo dia e reduz riscos operacionais. O ponto de atenção principal é monitorar se a Euroclear anunciará novas parcerias ou expansões de sua plataforma de títulos digitais para outros bancos asiáticos ou mercados emergentes, além de possíveis novos emissores utilizando essa mesma infraestrutura.",
-    "exterior": "O mercado global segue impulsionado pela força do setor de tecnologia e IA, evidenciada pela entrada da AMD no clube do trilhão e pelo anúncio de uma força nacional de IA pelos EUA, enquanto a queda no petróleo e a expectativa de acordos geopolíticos entre EUA e Irã reduzem o prêmio de risco. A atenção deve se manter na sustentação dessa narrativa de alívio inflacionário e na resiliência dos ativos de risco, como ações de tecnologia e cripto, frente a possíveis mudanças na política monetária.",
-    "imobiliario": "O cenário atual aponta para um aumento na oferta futura de imóveis, impulsionado pela redução do custo de capital que torna novos projetos mais atrativos para desenvolvedores. Em contrapartida, a demanda corporativa imediata encontra-se enfraquecida devido à reorganização de multinacionais e à desocupação de escritórios por investigações. O próximo ponto de atenção é a reunião do Copom para definição da nova taxa Selic, bem como a divulgação dos dados de ocupação corporativa e fechamento de fábricas no próximo trimestre."
+    "renda_fixa": "Com o mercado brasileiro precificando cortes mais agressivos na Selic e o Fed mantendo a taxa federal funds elevada em 4,1% para ancorar expectativas, a atenção deve se voltar para a pressão sobre o valuation de ativos de crescimento e o fortalecimento do dólar frente a moedas emergentes. Simultaneamente, o excesso de oferta de dívida corporativa ligada a IA está forçando compradores a exigirem prêmios de risco maiores, o que pode desacelerar a expansão de infraestrutura de menor qualidade e impactar a liquidez em ativos de renda fixa corporativa.",
+    "acoes": "A categoria deve ser monitorada pela interação entre a cautela gerada pela incerteza eleitoral e a expectativa sobre a trajetória da Selic, conforme sinalizado pela ata do Copom e pelo Boletim Focus que reduziu a projeção para 13,50%. Enquanto o fluxo de capitais é influenciado por dados externos e discursos do Fed, o desempenho setorial, como no caso da saúde e materiais de construção, reflete tanto o apetite por risco quanto pressões específicas de mercado, como a concorrência de importações.",
+    "cripto": "O mercado de criptomoedas demonstra força com a recuperação da capitalização de US$ 3 trilhões e a superação da média móvel de 50 semanas pelo Bitcoin, sinais que reforçam a tese de fim do bear market. Essa tendência é sustentada por fluxos recordes para os ETFs de Bitcoin em 2026 e pela acumulação contínua de ativos por empresas como a Strategy. O próximo passo crítico será a consolidação do preço acima da resistência de US$ 82.950 e a superação do nível de breakeven dos ETFs em US$ 85.638, além do fechamento semanal que confirmará a quebra da divergência bearish no RSI.",
+    "debentures": "O mercado de crédito privado está sendo pressionado pelo excesso de oferta de dívida corporativa ligada a projetos de IA, o que força os compradores a exigir prêmios de risco maiores e filtrar emissores com balanços mais sólidos. Paralelamente, a adoção de infraestrutura blockchain pela Euroclear para emissões de títulos demonstra uma tendência de eficiência operacional, reduzindo o tempo de liquidação e os custos associados. O próximo termômetro do apetite por risco será observado nas próximas grandes emissões de dívida de empresas de tecnologia e data centers, bem como em possíveis expansões da plataforma de títulos digitais para outros mercados.",
+    "exterior": "O mercado global está em um ponto de equilíbrio delicado, onde a recuperação dos preços do petróleo e a manutenção da taxa federal funds em 4,1% pelo Fed pressionam os múltiplos, enquanto a expectativa de alívio geopolítico via diplomacia na ONU e o avanço da IA sustentam o otimismo em setores de crescimento. A atenção deve se concentrar no encontro entre Trump e Xi Jinping na Assembleia Geral da ONU, que pode definir o tom para tarifas e minerais críticos, e na próxima reunião do FOMC em dezembro, que confirmará a manutenção dos juros elevados.",
+    "imobiliario": "O cenário atual combina a expectativa de aumento no estoque futuro de imóveis devido à redução do custo de capital com a pressão de uma demanda corporativa enfraquecida por reorganizações e fechamento de fábricas. O próximo ponto de atenção é a reunião do Copom para definição da nova taxa Selic e a divulgação dos dados de ocupação corporativa e fechamento de fábricas no próximo trimestre. As notícias adicionais consistem apenas em disclaimers institucionais padrão, sem apresentar novos dados econômicos ou eventos de mercado."
   }
 }
