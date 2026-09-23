@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-23T11:17:22.424648+00:00",
+  "gerado_em": "2026-09-23T15:37:10.293217+00:00",
   "itens": [
     {
       "title": "Trade eleitoral pegou? JP Morgan vê Brasil com melhor desempenho entre emergentes — e há espaço para mais",
@@ -9,14 +9,14 @@
         "acoes"
       ],
       "resumo": "O JP Morgan aponta que o Brasil lidera o desempenho entre mercados emergentes impulsionado pela percepção de uma possível vitória da oposição nas eleições de outubro, um cenário que historicamente tende a gerar movimentos de mercado mais intensos do que o beta global.",
-      "mecanismo": "O estreitamento das pesquisas em favor da oposição (Flávio Bolsonaro) está sendo precificado pelo mercado como um catalisador local que supera os fatores globais, pois a mudança de governo para um perfil mais conservador e a expectativa de maior disciplina fiscal reduzem a incerteza política e atraem capital estrangeiro, replicando o padrão de 2014 mas com potencial de alta antecipada.",
-      "implicacao": "Com a redução da prêmio de risco político e a perspectiva de disciplina fiscal, ativos de risco brasileiros, especialmente ações de setores sensíveis a juros e crédito, tendem a se valorizar, já que a estabilidade macroeconômica percebida favorece a entrada de fluxo estrangeiro e a expansão do crédito.",
-      "risco": "A tese pode ser invalidada se a vitória da oposição vier acompanhada de uma ruptura abrupta com a política econômica atual, gerando volatilidade negativa, ou se os fatores globais (como juros dos EUA) se tornarem dominantes e ofuscarem o trade local eleitoral.",
+      "mecanismo": "O estreitamento das pesquisas em favor da oposição reduz a incerteza política e antecipa a precificação de um eventual giro na política econômica, especialmente se houver maior disciplina fiscal, o que atrai capital estrangeiro e eleva o prêmio de risco do país acima da média dos emergentes.",
+      "implicacao": "Com a redução do prêmio de risco soberano e a perspectiva de estabilidade institucional, ativos de risco brasileiros, como ações de setores sensíveis a juros e crédito, tendem a se valorizar, já que a incerteza política é um dos principais inibidores do fluxo de capital para o mercado local.",
+      "risco": "A tese se invalida se a política econômica permanecer inalterada ou se a vitória da oposição não vier acompanhada de medidas concretas de disciplina fiscal, o que poderia limitar a magnitude da alta do mercado.",
       "proximo_evento": "Próxima rodada de pesquisas eleitorais e o primeiro turno das eleições presidenciais em outubro de 2026.",
       "key_numbers": [
         "Desempenho diário médio do MSCI Brasil: 0,25%",
         "Data de referência do ponto baixo: 1º de julho",
-        "Ano de comparação histórica: 2014"
+        "Mês da eleição: outubro"
       ],
       "sentiment": "up"
     },
@@ -27,11 +27,11 @@
       "categorias": [
         "exterior"
       ],
-      "resumo": "Os índices de tecnologia e o S&P 500 atingiram novos máximos históricos impulsionados pelo lançamento de um novo agente de IA pela Meta, enquanto o alívio nos juros dos Treasuries e a queda do petróleo sustentam o otimismo no mercado.",
-      "mecanismo": "O anúncio do agente de IA 'Muse' pela Meta reforçou a tese de demanda contínua por infraestrutura de computação, elevando as ações de semicondutores e tecnologia; simultaneamente, a redução nos rendimentos dos Treasuries e a queda do petróleo abaixo de US$ 100 diminuíram a pressão inflacionária e o custo de capital, favorecendo a valorização de ativos de crescimento.",
-      "implicacao": "Com a queda nos juros de referência e a confirmação da demanda por IA, o setor de tecnologia e semicondutores tende a manter a liderança de ganhos, enquanto a redução no preço do petróleo pode beneficiar setores sensíveis a insumos energéticos, como transporte e manufatura.",
-      "risco": "A escalada geopolítica no Oriente Médio, caso as negociações com o Irã falhem e o Estreito de Ormuz não seja reaberto, poderia reverter a queda do petróleo e elevar a aversão ao risco global.",
-      "proximo_evento": "Discurso de Donald Trump na Assembleia Geral da ONU e possíveis discussões bilaterais com o Irã e a China (encontro com Xi Jinping) na reta final da semana.",
+      "resumo": "Os índices de tecnologia e o S&P 500 atingiram novos máximos históricos impulsionados pelo lançamento de um novo agente de IA pela Meta, enquanto o alívio nos preços do petróleo e nos juros dos Treasuries sustentou o otimismo no mercado.",
+      "mecanismo": "O anúncio do agente de IA 'Muse' pela Meta reforçou a tese de demanda contínua por infraestrutura de computação, elevando as ações de semicondutores e tecnologia; simultaneamente, a queda do petróleo para abaixo de US$ 100 e a redução dos rendimentos dos Treasuries diminuíram as preocupações com inflação e custo de capital, favorecendo ativos de crescimento.",
+      "implicacao": "Com a validação da demanda por IA e a queda nos juros de referência, o setor de tecnologia e semicondutores tende a manter momentum de alta, já que a redução no custo de financiamento e a expectativa de crescimento de receita suportam múltiplos mais elevados para essas empresas.",
+      "risco": "A escalada geopolítica no Oriente Médio, caso o Estreito de Ormuz não seja reaberto ou as tensões com o Irã aumentem, poderia reverter a queda do petróleo e elevar os juros, pressionando os índices de tecnologia.",
+      "proximo_evento": "Discurso de Donald Trump na Assembleia Geral da ONU e possíveis negociações à margem do evento, além do encontro entre Trump e Xi Jinping na reta final da semana.",
       "key_numbers": [
         "Nasdaq: 27.270,898",
         "S&P 500: 7.782,19",
@@ -48,8 +48,8 @@
         "acoes"
       ],
       "resumo": "O Ibovespa opera em queda pressionado pela Petrobras após a divulgação da ata do Copom, que manteve o tom cauteloso apesar do corte recente na Selic, enquanto a disputa eleitoral acirrada e a possível reabertura do Estreito de Ormuz adicionam volatilidade ao cenário.",
-      "mecanismo": "A ata do Copom indica que a inflação ainda pressionada e as expectativas desancoradas impedem uma flexibilização mais rápida dos juros, o que limita o espaço para novos cortes imediatos e sustenta o custo de crédito elevado; simultaneamente, a notícia de que o Irã pode reabrir o Estreito de Ormuz reduz o prêmio de risco geopolítico no petróleo, o que pesa diretamente sobre as petroleiras que lideram o índice.",
-      "implicacao": "Com a sinalização de que o ciclo de cortes de juros pode estar pausado e a queda no preço do petróleo, o setor de energia tende a sofrer pressão de valorização, enquanto ativos sensíveis a juros, como o setor imobiliário e de varejo, enfrentam um cenário de estagnação no curto prazo devido à manutenção do custo de capital elevado.",
+      "mecanismo": "A ata do Copom indica que a inflação ainda pressionada e as expectativas desancoradas impedem uma flexibilização mais rápida dos juros, o que limita o espaço para novos cortes imediatos e sustenta o custo de crédito elevado; simultaneamente, a notícia de que o Irã pode reabrir o Estreito de Ormuz reduz o prêmio de risco geopolítico no petróleo, o que tende a pressionar os preços da commodity e, consequentemente, os papéis das petroleiras que compõem o índice.",
+      "implicacao": "Com a sinalização de que o ciclo de cortes de juros pode estar pausado e a queda no petróleo, o setor de energia tende a enfrentar pressão de preços, enquanto ativos sensíveis a juros, como o setor imobiliário e de consumo, podem perder o impulso de alta de valuation, já que a taxa básica permanece em patamar restritivo.",
       "risco": "Uma escalada súbita na tensão geopolítica no Oriente Médio que impeça a reabertura do Estreito de Ormuz, ou uma surpresa negativa nas próximas pesquisas eleitorais que aumente a aversão ao risco no mercado local.",
       "proximo_evento": "Novas pesquisas de intenção de voto para a Presidência da República e possíveis anúncios oficiais sobre a normalização do tráfego no Estreito de Ormuz.",
       "key_numbers": [
@@ -59,26 +59,6 @@
         "Lula (Quaest): 37%"
       ],
       "sentiment": "down"
-    },
-    {
-      "title": "Bitcoin bull market ‘confirmed’ but $90K presents profit-taking risk: Analysis",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-bull-market-confirmed-but-90k-presents-profit-taking-risk-analysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "Sinais on-chain e a recuperação da média móvel de 365 dias confirmaram o início de um novo ciclo de alta para o Bitcoin, mas a resistência em US$ 90 mil deve provocar uma pausa natural devido à realização de lucros.",
-      "mecanismo": "O preço do Bitcoin superou a média móvel de 365 dias e o MVRV cruzou para cima, indicando que a base de investidores está em lucro agregado; contudo, como o preço de realização médio dos traders está em US$ 64,3 mil, a aproximação da faixa superior de lucro (US$ 90,3 mil) tende a intensificar as vendas para travar ganhos, criando uma resistência técnica que pausa a alta sem necessariamente reverter a tendência.",
-      "implicacao": "Com a confirmação do bull market e o aumento da participação institucional, a classe de ativos cripto tende a apresentar ciclos com extremos mais suaves, pois a maior liquidez e a base de investidores institucionais amortecem tanto as altas bruscas quanto as quedas acentuadas em comparação com ciclos anteriores dominados por varejo.",
-      "risco": "A tese de um bull market contínuo pode ser invalidada se a pressão de venda na resistência de US$ 90 mil for forte o suficiente para quebrar a estrutura de suporte e reverter a tendência, ou se os fluxos para ETFs spot nos EUA diminuírem abruptamente.",
-      "proximo_evento": "A reação do preço ao atingir a zona de resistência entre US$ 88 mil e US$ 90 mil, onde a oferta on-chain e a realização de lucros devem testar a força da demanda institucional.",
-      "key_numbers": [
-        "Preço atual do BTC: US$ 86.000",
-        "Resistência de lucro: US$ 90.300",
-        "Preço de realização médio: US$ 64.300",
-        "Influxo em ETFs (2 dias): US$ 1,7 bilhão"
-      ],
-      "sentiment": "up"
     },
     {
       "title": "Bitcoin ETFs take in $1.7B in 2 days as BTC tops holder cost basis",
@@ -101,52 +81,62 @@
       "sentiment": "up"
     },
     {
-      "title": "U.S. stock futures muted amid AI buzz, Mideast diplomacy hopes; Trump, Xi to meet",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-flat-as-markets-parse-iran-talks-ai-optimism-4911928",
+      "title": "Crypto market cap reclaims $3 trillion as Bitcoin, altcoins rally",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/crypto-market-cap-3-trillion-bitcoin-altcoins-rally?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
+        "cripto"
+      ],
+      "resumo": "O mercado de criptomoedas recuperou a marca de US$ 3 trilhões em capitalização, impulsionado por um forte rali no Bitcoin e em altcoins, enquanto o aumento do alavancagem em derivativos sinaliza uma retomada da atividade especulativa.",
+      "mecanismo": "A entrada de quase US$ 1 bilhão nos ETFs de Bitcoin à vista nos EUA, somada à liquidação de US$ 920 milhões em posições vendedoras (shorts) durante a alta de preços, criou um fluxo de demanda que empurrou o mercado para cima; esse movimento forçado de cobertura de shorts tende a acelerar a alta inicial, mas também aumenta a volatilidade futura, pois o alto nível de open interest (US$ 160 bilhões) significa que qualquer reversão de tendência pode desencadear novas liquidações em cascata.",
+      "implicacao": "Com a capitalização total superando US$ 3 trilhões e o aumento da alavancagem, a classe de ativos cripto tende a exibir maior volatilidade e correlação com ativos de risco, já que o capital especulativo em derivativos amplifica tanto as altas quanto as quedas, tornando o setor mais sensível a mudanças no apetite por risco global.",
+      "risco": "O alto nível de alavancagem (open interest de US$ 160 bilhões) cria um risco assimétrico de queda acentuada caso o preço do Bitcoin perca o suporte psicológico de US$ 86.000, pois isso poderia disparar liquidações em massa de posições compradas (longs), revertendo o rali rapidamente.",
+      "proximo_evento": "Monitorar a sustentabilidade do open interest em futuros perpétuos e os próximos fluxos diários dos ETFs de Bitcoin à vista nos EUA para confirmar se a demanda institucional está acompanhando o movimento especulativo.",
+      "key_numbers": [
+        "Capitalização total: US$ 3 trilhões",
+        "Preço do Bitcoin: US$ 86.000",
+        "Open Interest em perpétuos: US$ 160 bilhões",
+        "Influxo em ETFs de BTC: US$ 1 bilhão"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "US stocks fall as 10-year Treasury yield hits highest since 2007",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/asia-stocks-ride-tech-wave-higher-oil-stays-subdued-4912006",
+      "categorias": [
+        "renda_fixa",
         "exterior"
       ],
-      "resumo": "Os futuros das ações americanas operam com pouca variação, refletindo um mercado cauteloso que equilibra o otimismo com o avanço da inteligência artificial e as expectativas de um encontro diplomático entre os líderes dos EUA e da China.",
-      "mecanismo": "A combinação de um ambiente geopolítico potencialmente mais estável (com a reunião Trump-Xi) e a continuidade do ciclo de investimentos em IA cria um cenário de 'risk-on' moderado, onde a redução da aversão ao risco tende a sustentar os preços de ativos de risco, embora a falta de novos catalisadores imediatos mantenha a volatilidade baixa.",
-      "implicacao": "Com a perspectiva de alívio nas tensões comerciais e a manutenção do hype em IA, o setor de tecnologia e semicondutores tende a manter suporte, já que a estabilidade geopolítica reduz o prêmio de risco exigido por investidores em ativos de crescimento de longo prazo.",
-      "risco": "A reunião entre os líderes pode não resultar em acordos concretos ou pode gerar novas retaliações, o que reverteria o sentimento positivo e pressionaria os mercados de volta a um regime de alta aversão ao risco.",
-      "proximo_evento": "A realização efetiva da cúpula entre Donald Trump e Xi Jinping e a divulgação dos próximos relatórios de resultados trimestrais das grandes empresas de tecnologia.",
-      "key_numbers": [],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "What's Really Driving The Rise In Treasury Yields?",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4948946-whats-really-driving-rise-in-treasury-yields?source=feed_all_articles",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "A alta recente nos rendimentos dos Treasuries é impulsionada principalmente por expectativas de taxas reais de curto prazo mais elevadas e prêmio de termo, e não por uma deterioração súbita na demanda por leilões de dívida.",
-      "mecanismo": "O aumento nas taxas reais de curto prazo e no prêmio de termo reflete uma reprecificação do risco fiscal e a possibilidade de que o crescimento econômico impulsionado por IA eleve a taxa real de equilíbrio, mantendo os juros estruturalmente mais altos por mais tempo, independentemente do volume imediato de emissões.",
-      "implicacao": "Com a perspectiva de juros reais mais altos por um período prolongado, ativos sensíveis a taxas de desconto, como títulos de longo prazo e setores de tecnologia e crescimento, tendem a enfrentar pressão de valoração, enquanto classes de ativo com proteção contra inflação ou taxas flutuantes podem se beneficiar.",
-      "risco": "Uma desaceleração econômica mais rápida do que o esperado ou uma queda na inflação poderia reduzir a necessidade de taxas reais altas, invalidando a tese de juros estruturalmente elevados e provocando uma queda nos rendimentos.",
-      "proximo_evento": "Próximos leilões de Treasuries e divulgação de dados de inflação e crescimento econômico nos EUA para validar se a demanda por dívida permanece sólida ou se o prêmio de termo continua a se expandir.",
+      "resumo": "As ações nos Estados Unidos registraram queda impulsionada pelo avanço do rendimento dos títulos do Tesouro de 10 anos, que atingiu o nível mais elevado desde 2007.",
+      "mecanismo": "O aumento do rendimento dos Treasuries de 10 anos eleva a taxa de desconto utilizada para precificar fluxos de caixa futuros, o que reduz o valor presente das ações, especialmente de empresas de crescimento, e torna a renda fixa mais competitiva, forçando uma rotação de capital para fora do mercado acionário.",
+      "implicacao": "Com o custo de capital subindo, o setor de tecnologia e empresas de crescimento tendem a sofrer pressão de valuation, enquanto setores defensivos e de valor podem se beneficiar da busca por proteção e dividendos.",
+      "risco": "O cenário pode ser invalidado se novos dados econômicos mostrarem uma desaceleração brusca da atividade, levando o Fed a sinalizar cortes de juros e revertendo a alta dos yields.",
+      "proximo_evento": "Próxima divulgação de dados de inflação (CPI/PCE) ou reunião do Federal Reserve, que podem confirmar ou reverter a trajetória de alta dos juros longos.",
       "key_numbers": [
-        "Participação da alta em taxas reais e prêmio de termo: >70%",
-        "AUM da Russell Investments: US$ 331 bilhões"
+        "Yield 10 anos: Máximo desde 2007"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Commercial Real Estate Under Higher Inflation And Interest Rates",
+      "title": "Northern Ultra-Short Fixed Income Fund Q2 2026 Commentary",
       "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4948929-commercial-real-estate-under-higher-inflation-interest-rates?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4949036-northern-ultra-short-fixed-income-fund-q2-2026-commentary?source=feed_all_articles",
       "categorias": [
         "renda_fixa"
       ],
-      "resumo": "O mercado imobiliário comercial enfrenta um ambiente macroeconômico desafiador, marcado pela persistência de níveis elevados de inflação e taxas de juros.",
-      "mecanismo": "A combinação de inflação alta e juros elevados aumenta o custo de capital e a despesa operacional dos proprietários, o que pressiona as margens de lucro e reduz a atratividade de novos investimentos no setor, pois o custo de financiamento supera o retorno esperado dos aluguéis.",
-      "implicacao": "Devido ao aumento no custo de capital e à compressão de margens, o setor de imóveis comerciais tende a sofrer com a desvalorização de ativos e a queda na demanda por novos financiamentos, impactando negativamente REITs e fundos de investimento imobiliário comercial.",
-      "risco": "A tese de pressão sobre o setor pode ser invalidada se a inflação desacelerar rapidamente, permitindo cortes agressivos de juros que reduzam o custo de capital e estimulem a demanda por imóveis comerciais.",
-      "proximo_evento": "Próximas divulgações de dados de inflação (CPI/PCE) e decisões de política monetária do Federal Reserve, que definirão a trajetória futura das taxas de juros.",
-      "key_numbers": [],
-      "sentiment": "down"
+      "resumo": "O fundo de renda fixa de curtíssimo prazo da Northern Trust superou seu benchmark em 33 pontos-base no segundo trimestre de 2026, impulsionado por uma alocação estratégica em títulos corporativos de grau de investimento, especialmente do setor bancário, e por ativos securitizados.",
+      "mecanismo": "A contração dos spreads de crédito de grau de investimento (para 0,69%) e de alto rendimento (para 2,70%) indica uma melhora na percepção de risco e maior apetite por crédito, o que, somado à alocação tática em setores específicos como o bancário, gerou retornos ativos superiores à média do mercado de títulos do Tesouro dos EUA.",
+      "implicacao": "Com a compressão dos spreads de crédito e a resiliência do setor bancário, a classe de ativos de renda fixa corporativa de curtíssimo prazo tende a oferecer melhor relação risco-retorno que os títulos soberanos, já que a demanda por crédito de qualidade está sustentando os preços dos papéis mesmo em um ambiente de incerteza geopolítica.",
+      "risco": "Uma escalada súbita no conflito geopolítico no Oriente Médio ou uma deterioração inesperada na qualidade de crédito do setor bancário poderia reverter a tendência de contração dos spreads, erodindo os retornos do fundo e aumentando a volatilidade.",
+      "proximo_evento": "Publicação dos comentários do terceiro trimestre (Q3 2026) do fundo, prevista para o final de setembro ou início de outubro de 2026, que revelará como a gestão ajustou a carteira após o conflito EUA-Irã e a reabertura do Estreito de Ormuz.",
+      "key_numbers": [
+        "Retorno do Fundo: 0,94%",
+        "Retorno do Benchmark: 0,61%",
+        "Spread Grau de Investimento: 0,69%",
+        "Spread Alto Rendimento: 2,70%"
+      ],
+      "sentiment": "up"
     },
     {
       "title": "Notícias para o investidor de fundos imobiliários",
@@ -169,7 +159,7 @@
     {
       "title": "Notícias para o investidor de fundos imobiliários",
       "source": "clubefiinews.com.br",
-      "link": "https://www.clubefiinews.com.br/entrevistas",
+      "link": "https://www.clubefiinews.com.br/lajes-corporativas",
       "categorias": [
         "imobiliario"
       ],
@@ -183,28 +173,25 @@
     }
   ],
   "outras_noticias_por_categoria": {
-    "renda_fixa": [
-      "O artigo classifica os ETFs FLXR e BINC como diversificados, de maior qualidade e recomendações de compra.",
-      "O ETF JBBB, focado em CLOs com classificação BBB, apresenta rendimento de 6,3%, bom histórico e forte momentum."
-    ],
+    "renda_fixa": [],
     "acoes": [
       "O mini índice (WINV26) fechou em alta de 0,41%, aos 187.895 pontos, mantendo-se próximo das máximas recentes e operando em uma região de compressão no gráfico de 60 minutos, segundo análise do BTG Pactual.",
-      "O Itaú BBA elevou o preço-alvo das ações da Petrobras (PETR4) de R$ 63 para R$ 64 no final de 2027, implicando um potencial de valorização de 33% sobre o fechamento da segunda-feira (21).",
+      "O Itaú BBA elevou o preço-alvo das ações da Petrobras (PETR4) de R$ 63 para R$ 64 no final de 2027, implicando um potencial de valorização de 33% sobre o fechamento da última segunda-feira (21).",
       "O Itaú BBA manteve a recomendação outperform para Afya (AFYA) e Yduqs (YDUQ3) ao avaliar uma possível fusão que criaria a maior plataforma de educação médica listada na bolsa brasileira, com mais de 6.500 vagas de medicina.",
       "O Itaú BBA reduziu o preço-alvo da Camil (CAML3) para R$ 7 por ação ao fim de 2026, ante R$ 8 anteriormente, mantendo a recomendação de outperform apesar do cenário de juros elevados."
     ],
     "cripto": [
-      "A capitalização de mercado das criptomoedas recuperou a marca de US$ 3 trilhões impulsionada pela alta do Bitcoin e das altcoins.",
-      "Os ETFs de Bitcoin registraram entradas que se aproximaram de US$ 1 bilhão, atingindo o nível mais alto de fluxos para 2026.",
-      "A presidente da CFTC promove a tokenização enquanto a SEC abre caminho para ações onchain.",
-      "A Binance adquiriu uma participação de US$ 100 milhões na Circle como parte de um acordo expandido para o USDC."
+      "O preço do Bitcoin caiu abaixo de US$ 84.000, resultando em liquidações de posições compradas (longs) no valor de US$ 280 milhões.",
+      "Análise indica que o mercado de alta (bull market) do Bitcoin está confirmado, mas o nível de US$ 90.000 apresenta risco de realização de lucros.",
+      "O preço do Bitcoin busca US$ 86.000 como novo suporte após o petróleo cair abaixo de US$ 90.",
+      "Uma métrica cripto sinaliza o início da altseason, com a participação de mercado do Bitcoin estagnada abaixo de 60%."
     ],
     "debentures": [],
     "exterior": [
-      "BTIG's Krinsky alerta que sinais semelhantes aos do ano 2000 estão se acumulando no mercado.",
-      "Ações da Índia encerraram o pregão em alta, com o índice Nifty 50 subindo 0,50%.",
-      "Hagerty ignora o mercado secundário e atinge novas máximas.",
-      "Intel: a festa está apenas começando."
+      "O S&P 500 está seguindo o roteiro típico das eleições de meio de mandato.",
+      "As ações da Noruega encerraram o pregão em queda, com o índice Oslo OBX recuando 0,10%.",
+      "As ações de Israel fecharam o dia em baixa, com o índice TA 35 caindo 0,26%.",
+      "As ações da Grécia terminaram o pregão em queda, com o índice Athens General Composite recuando 0,76%."
     ],
     "imobiliario": [
       "O Clube FII afirma que verifica as informações publicadas e ressalta que não faz recomendação de investimento, isentando-se de responsabilidade por perdas, danos, custos e lucros cessantes.",
@@ -214,11 +201,11 @@
     ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "A atenção deve se concentrar na validação da demanda por dívida e na trajetória das taxas de juros, monitorando os próximos leilões de Treasuries e as divulgações de dados de inflação (CPI/PCE) e crescimento econômico nos EUA. Esses eventos são cruciais para determinar se o prêmio de termo continua a se expandir e como a combinação de inflação alta e juros elevados impactará o custo de capital e as margens de lucro em setores como o de imóveis comerciais.",
-    "acoes": "O mercado monitora a aproximação do Ibovespa de níveis-chave técnicos que podem abrir caminho para novas máximas, enquanto o cenário eleitoral continua a ser um catalisador relevante para o desempenho do Brasil entre os emergentes. No âmbito setorial, a atenção recai sobre o potencial de valorização da Petrobras impulsionada pelo capex e pela revisão de preços-alvo, além dos riscos e oportunidades associados à possível fusão entre Afya e Yduqs no setor de educação médica.",
-    "cripto": "Com o mercado recuperando a marca de US$ 3 trilhões e os ETFs de Bitcoin atingindo recordes de inflows em 2026, a atenção deve se voltar para a sustentação da demanda institucional frente à resistência técnica de US$ 90 mil, onde a realização de lucros pode intensificar. Paralelamente, a convergência regulatória entre CFTC e SEC, somada à integração de stablecoins como o USDC em grandes exchanges, sinaliza uma maturação estrutural do setor que pode reduzir a volatilidade regulatória e atrair capital tradicional.",
+    "renda_fixa": "A atenção deve se concentrar na próxima divulgação de dados de inflação (CPI/PCE) ou reunião do Federal Reserve, que podem confirmar ou reverter a trajetória de alta dos juros longos e impactar a competitividade da renda fixa em relação às ações. Paralelamente, a publicação dos comentários do terceiro trimestre (Q3 2026) do Northern Ultra-Short Fixed Income Fund, prevista para o final de setembro ou início de outubro, revelará como a gestão ajustou a carteira após o conflito EUA-Irã e a reabertura do Estreito de Ormuz.",
+    "acoes": "O mercado brasileiro opera em um cenário de tensão entre a precificação de um eventual giro político favorável à disciplina fiscal, que atrai capital estrangeiro, e a persistência de juros elevados que limitam a flexibilização monetária e pressionam setores sensíveis a crédito, como o agro. Enquanto o Ibovespa se aproxima de níveis-chave técnicos que podem abrir caminho para novas máximas, a dinâmica setorial diverge, com petroleiras enfrentando pressão por fatores geopolíticos e de commodities, enquanto empresas de educação e alimentos ajustam suas perspectivas de valorização conforme o custo de capital e a consolidação de mercado.",
+    "cripto": "É fundamental monitorar a sustentabilidade dos fluxos diários nos ETFs de Bitcoin à vista e a reação do preço à resistência psicológica de US$ 87.000, considerando que a recente queda abaixo de US$ 84.000 já gerou US$ 280 milhões em liquidações de longs. Além disso, deve-se observar se a participação de mercado do Bitcoin permanecerá abaixo de 60% para confirmar a rotação de capital para altcoins (altseason) e avaliar o risco de realização de lucros na barreira de US$ 90.000.",
     "debentures": "",
-    "exterior": "O mercado global opera em um ambiente de 'risk-on' moderado, sustentado pela continuidade dos investimentos em infraestrutura de IA e pela expectativa de estabilidade geopolítica com a reunião entre Trump e Xi Jinping. Enquanto os índices americanos batem recordes impulsionados por semicondutores e tecnologia, surgem alertas de analistas sobre sinais de sobrevalorização semelhantes aos do ano 2000, o que exige atenção à sustentabilidade do atual ciclo de alta. A próxima semana será decisiva, com o discurso de Trump na ONU e a divulgação dos relatórios trimestrais das grandes empresas de tecnologia definindo o tom para os próximos movimentos.",
+    "exterior": "O mercado global enfrenta uma dinâmica de divergência, onde os índices americanos (S&P 500 e Nasdaq) buscam novos recordes impulsionados pela demanda por infraestrutura de IA e pela queda do petróleo, enquanto mercados regionais como Noruega, Israel e Grécia registram leves recuos. A atenção deve se manter na tensão entre o otimismo com a tecnologia e o risco de alta nos rendimentos dos Treasuries, que pode pressionar ativos de crescimento, além do impacto dos discursos de Donald Trump na ONU e do encontro com Xi Jinping.",
     "imobiliario": "O cenário atual destaca a redução do custo de capital como fator para destravar novos projetos imobiliários, com atenção à próxima reunião do Copom e aos dados de licenciamento e início de obras. As notícias adicionais consistem exclusivamente em disclaimers institucionais do Clube FII, que não apresentam novos dados econômicos ou eventos de mercado, servindo apenas para delimitar a responsabilidade jurídica da fonte."
   }
 }
