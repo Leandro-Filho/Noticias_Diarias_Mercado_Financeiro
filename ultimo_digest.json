@@ -1,98 +1,117 @@
 {
-  "gerado_em": "2026-09-24T11:17:13.547163+00:00",
+  "gerado_em": "2026-09-24T16:00:34.638773+00:00",
   "itens": [
     {
-      "title": "Wall Street recua em meio a cautela com juros, petróleo e tensões geopolíticas",
+      "title": "Petróleo amplia ganhos diante de poucos sinais de progresso entre EUA e Irã",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-abertura-23-9-26-lils/",
+      "link": "https://www.moneytimes.com.br/petroleo-amplia-ganhos-diante-de-poucos-sinais-de-progresso-entre-eua-e-ira-fets/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "Os índices de Nova York operam em queda nesta quarta-feira, pressionados pelo receio de novos aumentos de juros nos EUA e pela escalada retórica no conflito entre Estados Unidos e Irã.",
-      "mecanismo": "O mercado precifica 65% de probabilidade de alta de juros em outubro após o Fomc elevar as taxas para 3,75%-4,00% na semana passada, o que empurra os rendimentos dos Treasuries para máximas históricas (10 anos a 4,047% e 30 anos a 5,355%), tornando a renda fixa mais atrativa e drenando capital de ações de crescimento, especialmente tecnologia, enquanto a tensão geopolítica no Oriente Médio aumenta a aversão ao risco global.",
-      "implicacao": "Com a elevação dos juros de referência e dos rendimentos de referência, o setor de tecnologia tende a sofrer desvalorização, já que o aumento no custo do capital futuro reduz o valor presente dos fluxos de caixa projetados dessas empresas de alto crescimento.",
-      "risco": "Um acordo diplomático súbito entre EUA e Irã ou uma sinalização de pausa no ciclo de alta de juros pelo Fed poderia reverter a aversão ao risco e provocar um rally de alta nos índices de tecnologia.",
-      "proximo_evento": "Decisão de política monetária do Federal Reserve em outubro e novos desdobramentos diplomáticos ou militares no conflito entre EUA e Irã.",
+      "resumo": "Os preços do petróleo seguem em alta nesta quinta-feira, sustentados pela estagnação nas negociações diplomáticas entre EUA e Irã e pela manutenção de tensões no Estreito de Ormuz.",
+      "mecanismo": "A falta de avanço concreto nas conversas de paz e a recusa iraniana em reabrir o Estreito de Ormuz mantêm o prêmio de risco geopolítico elevado, o que sustenta a demanda por proteção contra interrupções no fornecimento global, beneficiando especialmente o Brent pela sua maior exposição às rotas marítimas do Oriente Médio em comparação ao WTI.",
+      "implicacao": "Com a persistência do prêmio geopolítico e a incerteza sobre a oferta global, o setor de energia e as commodities de petróleo tendem a manter suporte de preço, já que o risco de interrupção logística no Oriente Médio continua elevado e a oferta física não se normalizou.",
+      "risco": "Um acordo diplomático súbito entre EUA e Irã que reabra o Estreito de Ormuz ou a confirmação de uma proibição de exportação de diesel nos EUA, o que poderia alterar a dinâmica de oferta e demandar reprecificação rápida dos ativos.",
+      "proximo_evento": "A resposta oficial de Washington às propostas de paz iranianas e possíveis anúncios sobre restrições às exportações de diesel pelos EUA.",
       "key_numbers": [
-        "S&P 500: -0,50%",
-        "Nasdaq: -1,02%",
-        "Probabilidade de alta de juros em outubro: 65%",
-        "Rendimento Treasury 10 anos: 4,047%"
+        "Brent: US$ 103,30",
+        "WTI: US$ 92,15",
+        "Estoques de petróleo bruto EUA: 426,4 milhões de barris",
+        "Estoques de destilados EUA: 107,4 milhões de barris"
       ],
-      "sentiment": "down"
+      "sentiment": "up"
     },
     {
-      "title": "Ibovespa recua com cenário eleitoral e exterior; 5 coisas para saber antes de investir hoje (23)",
+      "title": "Nem PETR4 nem BBAS3: É a Taurus (TASA4) que dobra de preço com ‘trade eleitoral’ de Flávio Bolsonaro; entenda o movimento — e os riscos",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-23-9-26-apsa/",
+      "link": "https://www.moneytimes.com.br/nem-petr4-nem-bbas3-e-a-taurus-tasa4-que-dobra-de-preco-com-trade-eleitoral-de-flavio-bolsonaro-entenda-o-movimento-e-os-riscos-rnda/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa opera em queda leve nesta quarta-feira, pressionado pela incerteza eleitoral no Brasil e pelo avanço do petróleo e dos Treasuries no exterior, enquanto o dólar se fortalece frente ao real.",
-      "mecanismo": "A volta do Brent acima de US$ 100, impulsionada por tensões geopolíticas com o Irã, pressiona os rendimentos dos Treasuries para perto de 4,9%, o que eleva o custo de capital global e atrai fluxos para o dólar (DXY em alta), resultando em pressão sobre o câmbio local e desvalorização do Ibovespa, que já opera em queda de 0,45%.",
-      "implicacao": "Com o petróleo em alta e o dólar forte, o setor de energia tende a se beneficiar pela valorização das receitas em dólar, enquanto setores sensíveis a juros e importadores enfrentam pressão, já que o custo de financiamento global sobe e a moeda local se desvaloriza.",
-      "risco": "Um acordo rápido entre EUA e Irã que derrube o petróleo abaixo de US$ 100, ou uma sinalização mais agressiva de corte de juros pelo BC, poderia reverter a pressão vendedora e fortalecer o Ibovespa.",
-      "proximo_evento": "Desdobramentos da visita de Xi Jinping a Washington e possíveis anúncios comerciais ou de tecnologia entre EUA e China, além de novos sinais do Banco Central sobre a trajetória da Selic.",
+      "resumo": "A ação da Taurus (TASA4) registrou alta superior a 100% desde junho, impulsionada pela expectativa de que a eventual vitória de Flávio Bolsonaro nas eleições de 2026 possa reverter as restrições tarifárias dos EUA e flexibilizar a legislação de armas no Brasil.",
+      "mecanismo": "A tese de investimento baseia-se na remoção de dois entraves: a redução ou eliminação das tarifas americanas sobre exportações brasileiras, o que aumentaria a competitividade de preço e o Ebitda, e a possível revogação do Estatuto do Desarmamento, o que expandiria a base de clientes no mercado interno, historicamente mais rentável para o setor de armamentos.",
+      "implicacao": "Em um cenário de flexibilização regulatória e comercial, o setor de defesa e armamentos tende a se beneficiar, pois a redução de barreiras tarifárias e a ampliação do mercado consumidor doméstico aumentam a margem de lucro e a geração de caixa das empresas exportadoras.",
+      "risco": "O movimento é altamente especulativo e depende de mudanças legislativas e diplomáticas que podem não ocorrer, além do risco de judicialização de eventuais novas leis de desarmamento, como já aconteceu em 2018, o que pode levar a uma forte realização de lucros se as expectativas não forem atendidas.",
+      "proximo_evento": "O primeiro turno das eleições presidenciais de 2026, que definirá se o candidato associado à flexibilização regulatória e comercial será eleito ou avançará para o segundo turno.",
       "key_numbers": [
-        "Ibovespa: 186.572,97 pontos",
-        "Dólar: R$ 5,1370",
-        "Brent: US$ 100,54",
-        "Treasury 10 anos: ~4,9%"
+        "Alta acumulada (jun-set): 121%",
+        "Tarifa atual EUA: 37,5%",
+        "Ebitda 2T26: R$ 124 milhões",
+        "Potencial ganho Ebitda: R$ 100-200 milhões"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Juros futuros registram forte avanço com Treasuries e petróleo",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/juros-futuros-23-9-26-apsa/",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "A curva de juros futuros brasileiros subiu nesta quarta-feira, impulsionada pela forte alta dos Treasuries americanos e pelo avanço do petróleo, refletindo expectativas de mais aperto monetário nos EUA e tensões geopolíticas no Golfo Pérsico.",
+      "mecanismo": "Dados de atividade econômica (PMIs) acima do esperado nos EUA reforçaram a tese de que o Fed manterá juros altos por mais tempo, o que elevou os rendimentos dos Treasuries e fortaleceu o dólar; simultaneamente, a estagnação nas negociações entre EUA e Irã pressionou o preço do petróleo, aumentando a pressão inflacionária global e, por consequência, os juros futuros brasileiros (DIs) acompanharam esse movimento externo.",
+      "implicacao": "Com a elevação dos juros futuros e a perspectiva de um Fed mais restritivo, ativos de renda fixa de longo prazo tendem a sofrer com a marcação a mercado (queda de preço), enquanto o setor de energia pode se beneficiar no curto prazo devido à alta do petróleo, embora o custo de capital mais elevado possa pressionar margens no médio prazo.",
+      "risco": "Um acordo súbito entre EUA e Irã que desbloqueie o Estreito de Ormuz poderia derrubar o preço do petróleo e reverter a pressão inflacionária, invalidando a tese de juros mais altos por mais tempo.",
+      "proximo_evento": "Próximas divulgações de dados de inflação e atividade econômica nos EUA e possíveis novos anúncios sobre as negociações entre Washington e Teerã.",
+      "key_numbers": [
+        "DI Jan/2027: 13,555%",
+        "DI Jan/2031: 13,985%",
+        "T-Note 10 anos: 5,115%",
+        "Brent Dez: US$ 98,12"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Ibovespa futuro cai com cenário eleitoral e negociações EUA-Irã; dólar sobe",
+      "title": "Ibovespa segue queda de Wall Street e ignora avanço de Petrobras (PETR4); dólar sobe a R$ 5,16",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-futuro-23-9-26-lils/",
+      "link": "https://www.moneytimes.com.br/ibovespa-23-9-26-apsa/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa futuro opera em queda e o dólar se valoriza diante da alta dos juros dos Treasuries e da tensão geopolítica entre EUA e Irã, que levou o petróleo a ultrapassar a marca de US$ 100.",
-      "mecanismo": "A combinação de rendimentos elevados nos Treasuries e a escalada do conflito no Oriente Médio gera um ambiente de aversão a risco global, o que pressiona o real e limita o apetite por ativos de risco locais, enquanto o petróleo sobe para níveis de US$ 100 devido à ameaça de interrupção do fornecimento iraniano.",
-      "implicacao": "Com o petróleo acima de US$ 100 e o dólar em alta, o setor de energia tende a se beneficiar com a valorização das commodities, enquanto setores sensíveis ao custo de importação e ao câmbio, como varejo e tecnologia, podem enfrentar margens comprimidas devido à pressão sobre o real.",
-      "risco": "Um acordo de paz repentino entre EUA e Irã ou uma sinalização de corte de juros mais agressivo pelo Fed poderia reverter a alta do petróleo e do dólar, invalidando a tese de pressão sobre o câmbio e o petróleo.",
-      "proximo_evento": "Palestra de Nilton David, diretor de Política Monetária do Banco Central, e novas pesquisas de intenção de voto no segundo turno.",
+      "resumo": "O Ibovespa recuou 0,86% e o dólar subiu a R$ 5,16, refletindo a aversão a risco global causada pela alta dos juros nos EUA e do petróleo, enquanto a Petrobras avançou isoladamente.",
+      "mecanismo": "O aumento dos rendimentos dos Treasuries de 10 anos acima de 5% e a precificação de novas altas de juros pelo Fed elevam o custo de capital global, o que desvia fluxos de mercados emergentes para ativos de renda fixa americana, pressionando a bolsa brasileira e fortalecendo o dólar, mesmo com o petróleo acima de US$ 100 beneficiando a Petrobras.",
+      "implicacao": "Com a curva de juros futuros brasileira e americana em alta, o setor de construção civil e bens de consumo duráveis tende a ser penalizado, já que o aumento do custo do crédito reduz a capacidade de financiamento e a demanda por imóveis e produtos de maior ticket.",
+      "risco": "Uma reversão abrupta na trajetória dos juros americanos ou uma queda no preço do petróleo abaixo de US$ 100 poderia inverter o fluxo de capitais, aliviando a pressão sobre o Ibovespa e o dólar.",
+      "proximo_evento": "Próxima reunião do Federal Reserve (Fed) e divulgação de novos dados de inflação e emprego nos EUA, que podem confirmar ou reverter a expectativa de alta de 50 pontos-base nos juros.",
       "key_numbers": [
-        "INDFUT: -0,88%",
-        "Dólar: R$ 5,1299",
-        "Brent: US$ 100,28",
-        "WTI: US$ 90,67"
+        "Ibovespa: 185.814,09 pontos",
+        "Dólar: R$ 5,1682",
+        "Óleo Brent: US$ 100",
+        "Treasuries 10 anos: 5%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Bolsas da Ásia fecham mistas após falas de Trump sobre possível acordo com Irã",
+      "title": "Wall Street fecha em queda com disparada dos Treasuries e Nasdaq abandona recordes",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-mistas-apos-falas-de-trump-sobre-possivel-acordo-com-ira-fets/",
+      "link": "https://www.moneytimes.com.br/wall-street-23-9-26-lils/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "Os mercados asiáticos encerraram o pregão de forma divergente enquanto investidores processavam as declarações de Trump sobre a possibilidade de um acordo de paz com o Irã, o que poderia normalizar o fluxo de energia na região.",
-      "mecanismo": "A expectativa de um acordo diplomático entre EUA e Irã reduz a prêmio de risco geopolítico embutido nos preços das commodities, o que tende a pressionar os preços do petróleo para baixo e aliviar a pressão inflacionária global, beneficiando indiretamente ativos de risco que sofrem com custos de energia elevados.",
-      "implicacao": "Com a perspectiva de queda nos preços do petróleo, o setor de aviação e transporte aéreo tende a se beneficiar, já que a redução no custo do combustível melhora diretamente as margens operacionais dessas empresas, enquanto o setor de energia pode enfrentar pressão vendedora.",
-      "risco": "O cenário de acordo pode ser invalidado se as negociações entrarem em impasse ou se Trump optar pela via militar, o que dispararia uma nova alta nos preços do petróleo e um movimento de fuga para ativos de segurança.",
-      "proximo_evento": "A reabertura do mercado japonês (Nikkei) na quinta-feira (24) e a confirmação oficial das negociações entre Washington e Teerã após a reunião de três horas mencionada por Trump.",
+      "resumo": "Os principais índices de Wall Street encerraram o pregão em queda, pressionados pelo avanço dos rendimentos dos Treasuries e pela volta do petróleo Brent acima da marca de US$ 100 por barril.",
+      "mecanismo": "A combinação de um PMI norte-americano em nível de expansão forte (58,4) e a escalada geopolítica no Oriente Médio, que empurrou o petróleo para máximas, reforçou a expectativa de inflação persistente; isso levou o mercado a precificar uma alta de 50 pontos-base nos juros do Fed até dezembro, elevando os rendimentos dos títulos de referência e penalizando os múltiplos de ações, especialmente as de tecnologia.",
+      "implicacao": "Com a curva de juros dos EUA subindo e o custo de capital global aumentando, o setor de tecnologia e ativos de crescimento (growth) tende a sofrer pressão de desvalorização, já que a precificação de fluxos de caixa futuros é mais sensível a taxas de desconto elevadas.",
+      "risco": "Um acordo de cessar-fogo repentino entre EUA e Irã ou uma desaceleração brusca nos dados de atividade econômica americana poderia reverter a tese de alta de juros, derrubando os Treasuries e devolvendo o apetite por risco aos mercados acionários.",
+      "proximo_evento": "Próxima reunião do Federal Reserve (Fed) para definição da taxa de juros e divulgação de novos dados de atividade econômica e inflação nos EUA.",
       "key_numbers": [
-        "Kospi: 7.080,92",
-        "Hang Seng: 24.834,12",
-        "Xangai Composto: 3.936,52",
-        "S&P/ASX 200: 8.765,30"
+        "PMI EUA: 58,4",
+        "Rendimento Treasury 10 anos: 5,135%",
+        "Petróleo Brent (máxima intradia): US$ 103,79",
+        "Juros Fed (faixa atual): 3,75% a 4,00%"
       ],
-      "sentiment": "neutral"
+      "sentiment": "down"
     },
     {
       "title": "Bitcoin falls below $84K as 10-year Treasury yield hits 19-year high",
       "source": "Cointelegraph.com News",
       "link": "https://cointelegraph.com/markets/bitcoin-fall-84k-treasury-yield-hits-19-year-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
-        "renda_fixa",
         "cripto"
       ],
-      "resumo": "O Bitcoin recuou para a faixa de US$ 83.200 após o rendimento dos Treasuries de 10 anos atingir o nível mais alto desde 2007, impulsionado por dados econômicos fortes nos EUA e expectativas de aperto monetário.",
-      "mecanismo": "A alta nos rendimentos dos títulos do Tesouro americano, combinada com a probabilidade de 75% de um aumento de juros pelo Fed em outubro, eleva o custo de oportunidade para ativos de risco e encarece o financiamento alavancado em dólar, o que exerce pressão vendedora sobre o Bitcoin.",
-      "implicacao": "Com a perspectiva de juros mais altos nos EUA sustentando o dólar e os rendimentos de títulos, a classe de ativos de criptomoedas tende a enfrentar pressão de venda, já que o custo de capital mais elevado reduz a atratividade de ativos sem rendimento e aumenta a aversão ao risco.",
-      "risco": "Dados econômicos mais fracos que venham a ser divulgados podem reduzir as apostas de alta de juros, fazendo com que os rendimentos dos Treasuries e o dólar recuem, o que limitaria a queda do Bitcoin e poderia reverter o movimento.",
+      "resumo": "O Bitcoin recuou para a faixa de US$ 83.200 após o rendimento dos Treasuries de 10 anos atingir o maior nível desde 2007, impulsionado por dados econômicos fortes nos EUA e expectativas de aperto monetário.",
+      "mecanismo": "A combinação de dados de atividade empresarial robustos e preços de energia elevados aumentou as apostas de um aumento de juros pelo Fed em outubro, o que elevou os rendimentos dos títulos do Tesouro e o dólar, tornando ativos de risco como o Bitcoin menos atrativos em comparação com a renda fixa de alta qualidade.",
+      "implicacao": "Com a probabilidade de alta de juros em outubro acima de 70%, a classe de ativos de criptomoedas tende a enfrentar pressão de venda, pois o aumento no custo do capital e a força do dólar reduzem a liquidez disponível para posições alavancadas e investimentos especulativos.",
+      "risco": "Dados de emprego mais fracos ou sinais de desaquecimento econômico poderiam reverter as expectativas de alta de juros, fazendo com que os rendimentos dos Treasuries e o dólar recuem, o que limitaria a queda do Bitcoin e poderia até reverter o movimento.",
       "proximo_evento": "Reunião do Federal Reserve em 28 de outubro de 2026, onde a decisão sobre a taxa de juros será anunciada.",
       "key_numbers": [
         "BTC: US$ 83.200",
@@ -111,31 +130,36 @@
       ],
       "resumo": "Os ETFs de Bitcoin nos EUA registraram entradas líquidas de US$ 347 milhões na quarta-feira, mantendo uma sequência positiva de cinco dias, mesmo com o preço da criptomoeda recuando abaixo da marca de US$ 84 mil após atingir US$ 87 mil.",
       "mecanismo": "A desaceleração dos fluxos diários (de US$ 998,95 milhões na segunda para US$ 347 milhões na quarta) ocorre simultaneamente a uma correção de preço e à liquidação de US$ 280 milhões em posições longas, indicando que a demanda institucional está absorvendo a pressão vendedora de curto prazo, o que sustenta o suporte técnico e evita um colapso mais acentuado do ativo.",
-      "implicacao": "Com a resiliência dos fluxos institucionais mantendo o suporte de US$ 84.000, a classe de ativos de criptomoças de grande capitalização tende a manter sua estrutura de alta de médio prazo, já que a entrada contínua de capital via ETFs cria uma base de demanda que mitiga a volatilidade causada por liquidações de alavancagem.",
-      "risco": "O raciocínio pode ser invalidado se os fluxos diários continuarem a cair drasticamente nos próximos dias, o que, combinado com a liquidação de posições longas, poderia transformar a correção atual em uma tendência de baixa mais profunda, rompendo o suporte de US$ 84.000.",
+      "implicacao": "Com a resiliência dos fluxos institucionais mantendo o suporte de US$ 84 mil, a classe de ativos cripto tende a manter sua relevância como reserva de valor digital, já que a entrada contínua de capital via ETFs mitiga a volatilidade extrema típica do varejo e sinaliza confiança estrutural no mercado.",
+      "risco": "O raciocínio pode ser invalidado se a desaceleração dos fluxos diários se transformar em saídas líquidas (outflows) nas próximas sessões, o que, combinado com a liquidação de alavancagem, poderia desencadear uma queda mais profunda abaixo dos US$ 80 mil.",
       "proximo_evento": "Monitorar os próximos relatórios diários de fluxos dos ETFs spot para verificar se a tendência de desaceleração das entradas se mantém ou se reverte, além de observar a reação do preço à resistência de US$ 87.000.",
       "key_numbers": [
-        "Entradas líquidas diárias (BTC): US$ 347 milhões",
-        "Entradas acumuladas (5 dias): US$ 2,65 bilhões",
-        "Preço atual do Bitcoin: US$ 83.743",
-        "Liquidações de posições longas: US$ 280 milhões"
+        "Entradas diárias BTC ETFs: US$ 347 milhões",
+        "Entradas 5 dias BTC ETFs: US$ 2,65 bilhões",
+        "Preço atual BTC: US$ 83.743",
+        "Liquidações longas: US$ 280 milhões"
       ],
       "sentiment": "neutral"
     },
     {
-      "title": "European stocks outlook: Can the market withstand higher yields?",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/european-stocks-outlook-can-the-market-withstand-higher-yields-93CH-4914938",
+      "title": "Bond Vigilantes Crash The Party: This Could Get Uglier",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4949451-bond-vigilantes-crash-the-party-this-could-get-uglier?source=feed_all_articles",
       "categorias": [
         "renda_fixa"
       ],
-      "resumo": "O mercado europeu enfrenta a incerteza de se os índices de ações conseguem sustentar seus níveis diante da pressão exercida pelo aumento dos rendimentos das obrigações soberanas.",
-      "mecanismo": "O aumento dos yields eleva o custo de capital e a taxa de desconto aplicada aos fluxos de caixa futuros das empresas, o que tende a comprimir as múltiplas de valuation, especialmente em setores de crescimento, e pode desviar capital para renda fixa, criando uma dinâmica de 'tug-of-war' entre as classes de ativos.",
-      "implicacao": "Setores sensíveis a juros, como tecnologia e bens de consumo discricionário, tendem a sofrer maior pressão de valuation, enquanto setores defensivos e de infraestrutura podem se beneficiar da rotação para ativos com fluxos de caixa mais imediatos e previsíveis.",
-      "risco": "A tese de que yields mais altos são negativos para ações pode ser invalidada se o aumento dos rendimentos for impulsionado por expectativas de forte crescimento econômico (ciclo de negócios robusto) em vez de apenas por inflação ou incerteza, o que poderia sustentar os lucros corporativos.",
-      "proximo_evento": "Próximas divulgações de dados macroeconômicos da zona do euro (como inflação e atividade industrial) e reuniões de política monetária do BCE que possam sinalizar a trajetória futura dos juros.",
-      "key_numbers": [],
-      "sentiment": "neutral"
+      "resumo": "Os rendimentos dos Treasuries americanos sofreram uma alta acentuada em 23 de setembro de 2026, com o título de 10 anos subindo 15 pontos-base e o de 30 anos avançando 9 pontos-base.",
+      "mecanismo": "O movimento de alta nos yields indica que os investidores estão exigindo prêmios maiores para assumir o risco de crédito do governo dos EUA, o que eleva o custo de capital global e tende a pressionar os múltiplos de valuation de ativos de risco, especialmente aqueles com fluxos de caixa futuros descontados a taxas mais altas.",
+      "implicacao": "Com o custo de financiamento global subindo, setores intensivos em capital e sensíveis a taxas de juros, como tecnologia de crescimento e imobiliário, tendem a enfrentar pressão vendedora, já que o aumento dos juros reduz o valor presente dos lucros futuros e encarece o endividamento corporativo.",
+      "risco": "O cenário de alta nos juros pode ser revertido rapidamente se novos dados econômicos mostrarem uma desaceleração mais forte do que o esperado, levando o Fed a adotar uma postura mais dovish e reduzindo a pressão sobre os ativos de risco.",
+      "proximo_evento": "Próximas divulgações de dados macroeconômicos dos EUA (como inflação ou mercado de trabalho) e reuniões do Federal Reserve que possam confirmar ou reverter a trajetória de alta dos juros.",
+      "key_numbers": [
+        "Yield 10 anos: 5,13%",
+        "Yield 30 anos: 5,41%",
+        "Variação 10 anos: +15 bps",
+        "Variação 30 anos: +9 bps"
+      ],
+      "sentiment": "down"
     },
     {
       "title": "Notícias para o investidor de fundos imobiliários",
@@ -159,7 +183,7 @@
     {
       "title": "Notícias para o investidor de fundos imobiliários",
       "source": "clubefiinews.com.br",
-      "link": "https://www.clubefiinews.com.br/mercado-imobiliario",
+      "link": "https://www.clubefiinews.com.br/hibrido",
       "categorias": [
         "imobiliario"
       ],
@@ -174,29 +198,27 @@
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [
-      "O artigo discute rendimentos de 13-18% que o autor, anteriormente pessimista, agora considera compras.",
-      "O comentário do segundo trimestre de 2026 do fundo Franklin Long Maturity Municipal SMA foi publicado.",
-      "O ETF CARY teve um bom ano e é descrito como um dos principais ETFs de renda de alta qualidade.",
-      "A First Industrial apresenta ventos favoráveis de oferta que compensam o sobrepeso de taxas de juros."
+      "Um artigo no Seeking Alpha sugere a possibilidade de um novo aumento de juros em outubro.",
+      "Um novo dataset do FRED indica que a probabilidade mensal de a economia dos EUA estar em recessão era de 0,08% em agosto de 2026."
     ],
     "acoes": [
-      "O mercado local acompanha a divulgação da pesquisa AtlasIntel, que deve conformar a disputa cada vez mais acirrada entre o presidente Luiz Inácio Lula da Silva (PT) e o senador Flávio Bolsonaro (PL).",
-      "O head de investimentos do ASA, Rogério Freitas, avalia que o Ibovespa pode chegar aos 300 mil pontos caso haja continuidade da atual política fiscal, que implica déficit primário.",
-      "O Ibovespa tenta firmar alta com Petrobras (PETR4) enquanto o dólar sobe, em um cenário onde o mercado local segue concentrado no cenário eleitoral e a pesquisa AtlasIntel/Bloomberg apontou o presidente Luiz Inácio Lula.",
-      "A B3 fechou em queda de 0,86% com maior aversão a risco no mercado global, enquanto o dólar subiu mais de 1% na comparação com o real."
+      "O BTG Pactual avalia que a valorização de quase 50% das ações do Fleury (FLRY3) em 2026, superando o avanço de 16% do Ibovespa no mesmo período, não pode ser explicada apenas pela evolução dos fundamentos operacionais da companhia.",
+      "Os mercados acionários dos Estados Unidos registraram queda impulsionada pelo aumento dos preços do petróleo e dos rendimentos dos Treasuries, que pressionaram o sentimento dos investidores.",
+      "O dispositivo Charm da Meta carrega as grandes ambições de inteligência artificial do CEO Mark Zuckerberg.",
+      "A análise da Tesla destaca que a perspectiva futura ('para-brisa') é mais significativa do que a visão retrospectiva ('espelho retrovisor')."
     ],
     "cripto": [
-      "ETFs de Bitcoin captaram US$ 1,7 bilhão em dois dias enquanto o preço do BTC superava o custo médio dos detentores.",
-      "O preço do Bitcoin caiu abaixo de US$ 84 mil, resultando em liquidações de posições longas no valor de US$ 280 milhões.",
-      "Uma análise afirma que o mercado altista do Bitcoin está confirmado, mas o nível de US$ 90 mil apresenta risco de realização de lucros.",
-      "O órgão regulador bancário da UE solicitou a criação de regras para empréstimos em criptomoedas sob o regulamento MiCA."
+      "O preço do Bitcoin caiu abaixo de US$ 84.000, resultando em liquidações de posições longas no valor de US$ 280 milhões.",
+      "Uma análise afirma que o mercado de alta do Bitcoin está confirmado, mas o nível de US$ 90.000 apresenta risco de realização de lucros.",
+      "Os fluxos transfronteiriços de stablecoins aumentaram 78%, desafiando o mercado de baixa cripto.",
+      "A NYSE e a Blockchain.com firmaram uma parceria para levar ações americanas tokenizadas aos usuários de criptomoedas."
     ],
     "debentures": [],
     "exterior": [
-      "Os preços do petróleo ampliam as quedas nesta quarta-feira (23) devido à melhora na oferta no Golfo após a retomada das operações em um oleoduto crítico pela Arábia Saudita e às esperanças de uma solução diplomática para a guerra entre EUA e Irã.",
-      "Os índices europeus recuaram em meio à constatação de que as negociações entre os EUA e o Irã mostraram pouco progresso.",
-      "Um relatório da BCA destaca que a história do S&P 500 demonstra fortes ganhos ao longo de ciclos de alta de juros do Federal Reserve.",
-      "Os mercados de ações da Índia encerraram o pregão em queda, com o índice Nifty 50 recuando 1,64%."
+      "Petróleo fechou em forte alta nesta quarta-feira (23), interrompendo uma sequência de cinco quedas consecutivas, devido à redução do otimismo sobre as negociações entre Estados Unidos e Irã após novas declarações de Teerã na Assembleia Geral da ONU.",
+      "Ações dos EUA registraram queda impulsionada pela alta dos preços do petróleo e pelo aumento dos rendimentos dos títulos do Tesouro, o que impactou negativamente o sentimento do mercado.",
+      "Ouro e prata enfrentaram declínios significativos em meio à alta das taxas de juros e do dólar.",
+      "Um novo conjunto de dados do FRED indica que a probabilidade mensal de a economia dos EUA estar em recessão foi de 0,08% em agosto de 2026."
     ],
     "imobiliario": [
       "O Clube FII afirma que verifica as informações publicadas e ressalta que não faz recomendação de investimento, isentando-se de responsabilidade por perdas, danos, custos e lucros cessantes.",
@@ -206,11 +228,11 @@
     ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "A categoria de renda fixa está sendo impactada pela alta dos rendimentos dos títulos do Tesouro americano e pela probabilidade de aumento de juros pelo Fed em outubro, o que eleva o custo de oportunidade e pressiona ativos de risco. Enquanto isso, o mercado observa a compressão de múltiplos de valuation na Europa devido ao aumento dos yields e a possível rotação de capital para renda fixa, além de sinais de que alguns ativos de alta renda, como o ETF CARY, estão se tornando atrativos apesar do cenário de juros elevados.",
-    "acoes": "O mercado brasileiro opera sob forte pressão da aversão a risco global, impulsionada pela volta do Brent acima de US$ 100 e pelo aumento dos rendimentos dos Treasuries, o que eleva o custo de capital e pressiona o câmbio. Internamente, a atenção está voltada para a pesquisa AtlasIntel e a disputa eleitoral entre Lula e Flávio Bolsonaro, além da expectativa de continuidade da política fiscal que pode levar o Ibovespa a novos patamares. Os próximos desdobramentos incluem a visita de Xi Jinping a Washington e novos sinais do Banco Central sobre a trajetória da Selic.",
-    "cripto": "A categoria deve monitorar a sustentabilidade dos fluxos institucionais nos ETFs, que recentemente variaram entre US$ 347 milhões e US$ 1,7 bilhão, em contraste com as liquidações de US$ 280 milhões em posições longas durante a queda abaixo de US$ 84 mil. É crucial observar a reação do preço à resistência de US$ 90 mil, identificada como ponto de risco para realização de lucros, e o impacto da nova chamada da UE por regras de empréstimo cripto sob o MiCA no cenário regulatório global.",
+    "renda_fixa": "O cenário de renda fixa permanece pressionado pela expectativa de juros altos por mais tempo nos EUA, impulsionada por dados de atividade econômica fortes e pela estagnação nas negociações entre EUA e Irã que elevam o petróleo. Embora a probabilidade de recessão nos EUA esteja atualmente muito baixa (0,08% em agosto), a perspectiva de um novo aumento de taxas em outubro reforça a tese de aperto monetário, o que tende a manter os juros futuros brasileiros e os prêmios de risco elevados.",
+    "acoes": "O cenário de renda variável brasileiro permanece pressionado pelo aumento dos rendimentos dos Treasuries de 10 anos acima de 5% e pela precificação de novas altas de juros pelo Fed, o que desvia fluxos para a renda fixa americana e fortalece o dólar, mesmo com o petróleo acima de US$ 100 beneficiando a Petrobras. Enquanto isso, o mercado local apresenta movimentos setoriais específicos, como a valorização atípica do Fleury (FLRY3) e o 'trade eleitoral' da Taurus (TASA4), que dependem de eventos políticos e regulatórios, como as eleições presidenciais de 2026 e a possível revogação do Estatuto do Desarmamento.",
+    "cripto": "A categoria deve monitorar a sustentação do suporte técnico em US$ 84.000 após as liquidações de US$ 280 milhões e a desaceleração dos fluxos dos ETFs, enquanto observa se a resistência de US$ 90.000 será rompida ou se causará realização de lucros. Além disso, é crucial acompanhar o impacto da parceria entre NYSE e Blockchain.com na adoção institucional e o crescimento dos fluxos de stablecoins como indicador de atividade real no setor, tudo isso no contexto da expectativa de aumento de juros pelo Fed em outubro.",
     "debentures": "",
-    "exterior": "O mercado global segue dividido entre a cautela com a política monetária restritiva do Federal Reserve, que elevou as taxas para 3,75%-4,00% e empurrou os rendimentos dos Treasuries para máximas históricas, e a volatilidade geopolítica no Oriente Médio. Embora a retomada das operações sauditas no oleoduto e as falas sobre possíveis acordos tenham aliviado a pressão sobre o petróleo, o pouco progresso nas negociações entre EUA e Irã mantém o prêmio de risco elevado, impactando negativamente as bolsas europeias e asiáticas, como a Índia, enquanto o histórico de desempenho do S&P 500 em ciclos de alta de juros oferece um contraponto de resiliência para o mercado americano.",
+    "exterior": "O mercado segue pressionado pela combinação de tensões geopolíticas no Oriente Médio, que sustentam o prêmio de risco no petróleo, e pela expectativa de juros mais altos nos EUA, refletida na alta dos rendimentos dos Treasuries e no fortalecimento do dólar. Embora a probabilidade de recessão nos EUA permaneça baixa (0,08% em agosto), a persistência da inflação e a falta de avanço nas negociações entre EUA e Irã mantêm a volatilidade elevada, especialmente para ativos sensíveis a taxas de juros como tecnologia e metais preciosos.",
     "imobiliario": "O cenário para o mercado imobiliário é sustentado pela expansão das operações de grandes varejistas online, que demanda mais espaço físico e sustenta a ocupação de galpões logísticos, enquanto a expectativa de redução da Selic diminui o custo de capital e aumenta a viabilidade de novos empreendimentos. O próximo evento relevante a ser monitorado é a reunião do Copom para definição da nova taxa Selic e a divulgação dos dados de inflação (IPCA) que fundamentam essa decisão."
   }
 }
