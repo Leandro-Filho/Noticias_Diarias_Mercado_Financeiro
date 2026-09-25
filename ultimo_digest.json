@@ -1,6 +1,26 @@
 {
-  "gerado_em": "2026-09-25T11:17:29.962380+00:00",
+  "gerado_em": "2026-09-25T15:59:30.527968+00:00",
   "itens": [
+    {
+      "title": "Petróleo recua à medida que esperanças de trégua entre EUA e Irã superam ataques dos houthis à Arábia Saudita",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/petroleo-recua-a-medida-que-esperancas-de-tregua-entre-eua-e-ira-superam-ataques-dos-houthis-a-arabia-saudita-fets/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "Os preços do petróleo caíram nesta sexta-feira, impulsionados por avanços nas negociações de trégua entre EUA e Irã, que superaram o impacto dos recentes ataques houthis à Arábia Saudita.",
+      "mecanismo": "A perspectiva de um acordo diplomático que reabra o Estreito de Ormuz e suspenda o bloqueio econômico ao Irã reduz o prêmio de risco geopolítico embutido no Brent, fazendo com que o mercado absorva os riscos de oferta localizados (ataques houthis) e pressione os preços para baixo, enquanto o WTI permanece com desconto devido a estoques elevados nos EUA.",
+      "implicacao": "Com a redução do prêmio de risco geopolítico no petróleo, o setor de energia tende a ver uma compressão de margens para produtores internacionais, enquanto a estabilidade nos preços de insumos pode beneficiar setores industriais e de transporte que são sensíveis ao custo do combustível.",
+      "risco": "A falha nas negociações de trégua ou uma escalada militar significativa que impeça a reabertura do Estreito de Ormuz poderia reverter a queda e provocar um novo salto nos preços do petróleo.",
+      "proximo_evento": "Novos comunicados oficiais ou avanços concretos nas negociações entre EUA e Irã em Nova York sobre a reabertura do Estreito de Ormuz e a suspensão do bloqueio.",
+      "key_numbers": [
+        "Brent: US$ 106,20",
+        "WTI: US$ 93,50",
+        "Diferencial Brent-WTI: US$ 12,50",
+        "Redução de embarques mundiais: 20%"
+      ],
+      "sentiment": "down"
+    },
     {
       "title": "Juros futuros têm nova alta com avanço dos Treasuries e cenário eleitoral",
       "source": "Mercados – Últimas notícias",
@@ -22,35 +42,17 @@
       "sentiment": "down"
     },
     {
-      "title": "De olho em Wall Street: S&P 500 é compra para a XP por três motivos",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/investir-nos-eua-o-sp-500-e-a-nova-aposta-da-xp-investimentos-veja-por-que-apsa/",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "A XP Investimentos iniciou a cobertura do S&P 500 com recomendação de compra, projetando um preço-alvo de 8.900 pontos para o fim de 2027, o que representa um potencial de alta de 15,5% sobre os níveis atuais.",
-      "mecanismo": "A tese de compra se sustenta na combinação de crescimento contínuo dos lucros corporativos, múltiplos de valuation que já incorporam riscos macroeconômicos (como juros reais mais altos e incerteza) e a manutenção de retornos elevados sobre o capital investido, impulsionados pela monetização de investimentos em inteligência artificial que geram ganhos de produtividade e receitas.",
-      "implicacao": "Com a expectativa de crescimento de lucros e sustentação de múltiplos, a classe de ativos de ações de tecnologia e empresas de capital intensivo em IA tende a se beneficiar, já que a monetização desses investimentos deve sustentar a geração de valor e a resiliência das margens mesmo em um ambiente macro desafiador.",
-      "risco": "A adoção corporativa da inteligência artificial pode ficar abaixo do esperado, ou o elevado endividamento das companhias norte-americanas pode se tornar insustentável, invalidando a tese de crescimento dos lucros e compressão de múltiplos.",
-      "proximo_evento": "Próximos relatórios trimestrais das empresas do índice para validação da conversão dos investimentos em IA em novas receitas e margens, além de dados macroeconômicos dos EUA que impactem os múltiplos de valuation.",
-      "key_numbers": [
-        "Preço-alvo S&P 500 (2027): 8.900 pontos",
-        "Potencial de valorização: 15,5%"
-      ],
-      "sentiment": "up"
-    },
-    {
       "title": "O que o Mercado Livre (MELI34) fez para derrubar as ações das farmacêuticas?",
       "source": "Mercados – Últimas notícias",
       "link": "https://www.moneytimes.com.br/o-que-o-mercado-livre-meli34-fez-para-derrubar-as-acoes-das-farmaceuticas-lils/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Mercado Livre anunciou a venda de medicamentos sob prescrição com retenção de receita e o lançamento de entregas em até 60 minutos, iniciando em São Paulo. A novidade intensificou a concorrência direta com as grandes redes de farmácia do varejo.",
-      "mecanismo": "A entrada do MELI no segmento de medicamentos com retenção de receita e logística própria de ultra-rápida entrega (60 min) ataca diretamente o modelo de negócio das farmacêuticas, que dependem da conveniência e do fluxo de clientes para margens. Isso pressiona a base de clientes e o poder de barganha das redes tradicionais, forçando uma reação imediata de queda nos papéis do setor por receio de erosão de market share e margens.",
-      "implicacao": "Com a entrada de um player de e-commerce de grande escala e logística superior no varejo farmacêutico, o setor de farmácias tradicionais tende a enfrentar pressão sobre margens e valuation, já que a conveniência de entrega ultrarrápida e a integração com o ecossistema digital do MELI reduzem a fidelidade do consumidor às lojas físicas.",
-      "risco": "A operação de entrega em 60 minutos está em fase inicial e limitada a poucos bairros de São Paulo, o que pode significar que o impacto real no faturamento das concorrentes seja menor do que o pânico inicial do mercado sugere, especialmente se a logística não escalar com eficiência.",
-      "proximo_evento": "A expansão gradual da operação de 'Envios Agora' para novos bairros de São Paulo e a confirmação da entrada em outras regiões do país, além do monitoramento da reação das concorrentes (como RD Saúde e Pague Menos) em seus próximos balanços ou comunicados.",
+      "resumo": "O Mercado Livre anunciou a venda de medicamentos sob prescrição com retenção de receita e o lançamento de entregas em até 60 minutos, o que provocou uma forte queda nas cotações das principais redes de farmácia listadas na bolsa.",
+      "mecanismo": "A entrada do MELI34 no varejo farmacêutico com retenção de receita e logística própria de entrega rápida intensifica a concorrência direta, pressionando as margens e a base de clientes das redes tradicionais, o que leva o mercado a precificar um risco maior de perda de participação de mercado para esses players.",
+      "implicacao": "Com a entrada de um player de e-commerce de grande escala no segmento de saúde, o setor de varejo farmacêutico tende a enfrentar maior pressão competitiva, já que a conveniência da entrega ultrarrápida e a integração com o ecossistema digital podem reduzir a relevância da densidade de lojas físicas como vantagem exclusiva.",
+      "risco": "As redes tradicionais podem mitigar o impacto ao fortalecerem suas operações omnicanais e fidelização, ou se a expansão do Mercado Livre for mais lenta do que o esperado devido a barreiras regulatórias ou logísticas.",
+      "proximo_evento": "A expansão gradual do serviço de entrega rápida 'Envios Agora' para novos bairros de São Paulo e a eventual chegada da operação em outras regiões do país.",
       "key_numbers": [
         "Queda RADL3: 5,38%",
         "Queda PGMN3: 8%",
@@ -67,14 +69,14 @@
         "acoes"
       ],
       "resumo": "O Ibovespa recuou quase 1% e o dólar avançou para R$ 5,19, pressionados pela piora nas projeções fiscais do governo, expectativas de juros mais altos nos EUA e incertezas eleitorais.",
-      "mecanismo": "A revisão do resultado primário de 2026 para um déficit de R$ 13,6 bilhões, somada à projeção do BC de inflação em 5,2% no fim do ano, eleva o prêmio de risco soberano; isso, combinado com a alta dos Treasuries de 30 anos para 5,446% nos EUA, encarece o custo de capital global e doméstico, forçando a saída de capital de ativos de risco brasileiros e pressionando o câmbio.",
-      "implicacao": "Com a deterioração do cenário fiscal e a pressão sobre o câmbio, o setor de bancos e grandes blue chips tendem a sofrer com a aversão a risco, já que a incerteza política e o aumento do custo de financiamento reduzem a apetite por ativos de maior volatilidade e dependência de crédito barato.",
-      "risco": "Um acordo comercial positivo entre EUA e China ou uma surpresa negativa nos dados de inflação brasileira que antecipe cortes de juros poderia reverter a aversão a risco e fortalecer o mercado acionário.",
-      "proximo_evento": "Próximos turnos das eleições presidenciais e a divulgação de novos dados de inflação (IPCA) que possam alterar a trajetória projetada pelo Banco Central.",
+      "mecanismo": "A revisão do resultado primário de 2026 para déficit de R$ 13,6 bilhões, somada à projeção de inflação acelerando para 5,2% no fim do ano, elevou o prêmio de risco soberano brasileiro; simultaneamente, a alta dos rendimentos dos Treasuries de 30 anos nos EUA (5,446%) aumentou o custo de oportunidade para ativos de risco, forçando a saída de capital para o dólar e pressionando o câmbio e a bolsa local.",
+      "implicacao": "Com a deterioração do cenário fiscal e a pressão cambial, o setor de bancos e grandes blue chips (que compõem 50% do índice) tende a sofrer com a aversão a risco, enquanto empresas com forte exposição a custos em dólar ou sensíveis ao custo de crédito podem ver sua margem comprimida, favorecendo temporariamente ativos defensivos ou exportadores que se beneficiem do câmbio mais alto.",
+      "risco": "Uma surpresa positiva nas vendas no varejo ou um acordo comercial entre EUA e China que reduza a aversão global a risco poderia reverter a tendência de alta do dólar e sustentar a recuperação do Ibovespa, invalidando a tese de continuidade da queda.",
+      "proximo_evento": "Próxima reunião do Federal Reserve (Fed) para definição de juros nos EUA e divulgação de novos dados de inflação americanos, além do desenrolar das eleições presidenciais no Brasil.",
       "key_numbers": [
         "Ibovespa: 183.965,91 pontos",
         "Dólar: R$ 5,1937",
-        "Resultado Primário 2026: Déficit de R$ 13,6 bilhões",
+        "Resultado primário 2026: Déficit de R$ 13,6 bilhões",
         "Treasury 30 anos: 5,446%"
       ],
       "sentiment": "down"
@@ -84,38 +86,19 @@
       "source": "Mercados – Últimas notícias",
       "link": "https://www.moneytimes.com.br/wall-street-fechamento-24-9-26-apsa/",
       "categorias": [
+        "acoes",
         "exterior"
       ],
       "resumo": "Os rendimentos dos Treasuries de longo prazo atingiram máximas históricas, pressionando os índices de Wall Street e mantendo o petróleo Brent em patamares elevados devido à tensão geopolítica no Oriente Médio.",
       "mecanismo": "A disparada dos juros dos Treasuries de 10 e 30 anos, impulsionada pela persistência do petróleo Brent acima de US$ 106 e pela falta de avanço no acordo entre EUA e Irã, aumenta o custo de capital global e desloca capital para renda fixa, o que penaliza especialmente os setores cíclicos e sensíveis a taxas de juros, como o representado pelo Dow Jones.",
-      "implicacao": "Com a elevação dos juros de referência nos EUA, a classe de ativos de renda variável, particularmente os setores cíclicos e industriais, tende a enfrentar pressão de valuation, já que o aumento no custo do dinheiro reduz a atratividade de ativos de risco em relação à renda fixa.",
-      "risco": "Um acordo súbito entre EUA e Irã para reabrir o Estreito de Ormuz poderia derrubar o preço do petróleo, revertendo a pressão inflacionária e forçando uma queda rápida nos rendimentos dos Treasuries, o que invalidaria a tese de pressão contínua sobre as bolsas.",
-      "proximo_evento": "Novas sinalizações sobre a reabertura do Estreito de Ormuz ou avanços concretos nas negociações comerciais entre EUA e China, que poderiam alterar a dinâmica de preços do petróleo e a trajetória dos juros soberanos.",
+      "implicacao": "Com a elevação dos juros de referência nos EUA, o setor de tecnologia e crescimento (Nasdaq) tende a ter desempenho mais resiliente que o industrial (Dow Jones), já que empresas de tecnologia possuem maior margem e dependem menos de crédito barato para expansão imediata, enquanto setores cíclicos sofrem com a contração do crédito.",
+      "risco": "Um acordo súbito entre EUA e Irã para reabrir o Estreito de Ormuz poderia derrubar o preço do petróleo, reduzindo a pressão inflacionária e forçando uma queda rápida nos rendimentos dos Treasuries, o que inverteria a pressão negativa sobre as ações.",
+      "proximo_evento": "Novas negociações ou anúncios sobre a reabertura do Estreito de Ormuz e possíveis acordos comerciais adicionais entre EUA e China.",
       "key_numbers": [
-        "Yield Treasury 30 anos: 5,446%",
-        "Yield Treasury 10 anos: 5,15%",
+        "Treasury 30 anos: 5,446%",
+        "Treasury 10 anos: 5,15%",
         "Petróleo Brent: US$ 106,60",
         "Dow Jones: -0,31%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Dólar avança a R$ 5,19 com disparada dos Treasuries e precificação de juros mais altos nos EUA",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/dolar-24-9-26-lils/",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O dólar subiu para R$ 5,19 impulsionado pela alta dos rendimentos dos Treasuries e pela expectativa de juros mais elevados nos EUA, enquanto o petróleo Brent acima de US$ 100 reforça preocupações inflacionárias globais.",
-      "mecanismo": "A queda nos pedidos de auxílio-desemprego nos EUA sinalizou um mercado de trabalho resiliente, o que levou o mercado a precificar com alta probabilidade novas altas de juros pelo Fed; essa reprecificação elevou os rendimentos dos Treasuries, tornando a moeda americana mais atrativa e causando uma fuga de capitais para ativos de menor risco, o que pressionou o câmbio no Brasil.",
-      "implicacao": "Com o dólar forte e a percepção de juros globais mais altos, ativos de risco e moedas emergentes tendem a sofrer pressão vendedora, enquanto títulos públicos de longo prazo podem ver seus preços recuarem (rendimentos subirem) devido ao repasse da curva de juros americana e ao aumento do custo de oportunidade para investidores internacionais.",
-      "risco": "Uma reversão abrupta na trajetória dos preços do petróleo ou dados econômicos americanos mais fracos do que o esperado poderiam reduzir a pressão inflacionária e levar o Fed a adotar uma postura mais dovish, invalidando a tese de juros mais altos por mais tempo.",
-      "proximo_evento": "A próxima decisão de juros do Federal Reserve (Fed), prevista para outubro, onde o mercado já precifica alta probabilidade de elevação de 25 pontos-base.",
-      "key_numbers": [
-        "Dólar à vista: R$ 5,1937",
-        "Rendimento Treasury 30 anos: 5,446%",
-        "Probabilidade alta Fed em outubro: 70,9%",
-        "Brent: acima de US$ 100"
       ],
       "sentiment": "down"
     },
@@ -146,15 +129,33 @@
         "cripto"
       ],
       "resumo": "A exchange Bitget confirmou um vazamento de segurança que resultou na transferência não autorizada de cerca de US$ 352 milhões, levando à suspensão temporária das saídas de fundos. A empresa afirma que as carteiras frias estão seguras e que o fundo de proteção do usuário cobre o montante afetado.",
-      "mecanismo": "O ataque comprometeu apenas as carteiras quentes e mornas, mantendo a maior parte dos ativos em segurança nas carteiras frias; a suspensão das saídas é uma medida preventiva para conter a fuga de capital e permitir a investigação, enquanto a garantia do fundo de proteção (US$ 464 milhões) busca mitigar o pânico e evitar uma corrida bancária digital entre os usuários.",
-      "implicacao": "Incidentes de segurança em exchanges centraisizadas tendem a aumentar a aversão ao risco no setor de infraestrutura cripto e podem impulsionar a rotação de capital para protocolos descentralizados (DeFi) e carteiras self-custody, já que a confiança na custódia centralizada é o principal ponto de falha percebido pelos investidores.",
-      "risco": "Se a investigação revelar que a falha foi sistêmica ou se houver suspeita de que mais ativos foram movidos do que o inicialmente reportado, a confiança no fundo de proteção pode ser abalada, levando a uma deslistagem de ativos ou falha de liquidez na plataforma.",
+      "mecanismo": "O ataque comprometeu apenas as carteiras quentes e mornas, mantendo a maior parte dos ativos em segurança nas carteiras frias; a suspensão das saídas é uma medida preventiva para conter a fuga de capital e permitir a investigação, enquanto a garantia do fundo de proteção busca estabilizar a confiança dos usuários e evitar um pânico generalizado que poderia levar a uma corrida bancária digital.",
+      "implicacao": "Incidentes de segurança em exchanges de médio porte tendem a aumentar a aversão ao risco no setor de infraestrutura cripto, pressionando os preços de tokens de plataformas concorrentes e reforçando a narrativa de migração para soluções de custódia descentralizada ou carteiras frias, já que a confiança na segurança centralizada é o principal ativo intangível dessas empresas.",
+      "risco": "A tese de estabilidade pode ser invalidada se a investigação revelar que a falha de segurança foi sistêmica ou se o fundo de proteção não for suficiente para cobrir perdas adicionais não divulgadas, o que poderia desencadear uma crise de liquidez mais ampla no setor.",
       "proximo_evento": "Publicação do relatório completo de incidente com análise de causa raiz e reabertura das saídas, prevista para ocorrer em poucas horas ou dias.",
       "key_numbers": [
         "Valor do vazamento: US$ 351,6 milhões",
         "Fundo de proteção: US$ 464 milhões",
-        "Tempo de detecção: 18:31 UTC",
-        "Prazo do relatório: 24 horas"
+        "Rede principal afetada: Ethereum"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Notícias sobre investimentos e o mercado financeiro | Bora Investir",
+      "source": "Bora Investir",
+      "link": "https://borainvestir.b3.com.br/noticias/",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "A prévia da inflação oficial de setembro (IPCA-15) registrou alta de 0,70%, superando as expectativas do mercado, impulsionada principalmente pelo aumento nos preços de energia devido à devolução do bônus de Itaipu.",
+      "mecanismo": "O resultado acima do esperado reforça a percepção de que a inflação segue pressionada, o que limita o espaço para cortes agressivos de juros pelo Banco Central e sustenta a aversão a risco global, levando a uma valorização do dólar e a quedas nos índices acionários brasileiros.",
+      "implicacao": "Com a inflação mais alta que o previsto, ativos sensíveis a juros, como títulos públicos longos (IPCA+) e ações de setores com margens apertadas, tendem a sofrer pressão de venda, enquanto o dólar se fortalece como refúgio contra a incerteza macroeconômica.",
+      "risco": "O risco principal é que o impacto do bônus de Itaipu seja pontual e que os próximos dados de inflação (IPCA-12 e PPI) mostrem desaceleração, o que poderia reverter a aversão a risco e fortalecer a tese de corte de juros.",
+      "proximo_evento": "Divulgação do IPCA-12 (índice oficial de setembro) e a próxima reunião do Copom para definição da taxa Selic.",
+      "key_numbers": [
+        "IPCA-15 (set/26): 0,70%",
+        "Dólar: R$ 5,19",
+        "Queda Ibovespa (24/09): -0,86%"
       ],
       "sentiment": "down"
     },
@@ -165,15 +166,15 @@
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "O mercado de fundos imobiliários registrou alta no Ifix, impulsionado por notícias sobre a forte demanda logística do e-commerce e a perspectiva de queda na taxa Selic, que deve melhorar a viabilidade de novos empreendimentos.",
-      "mecanismo": "A redução do custo de capital, associada à queda da Selic, tende a destravar o estoque de obras paradas e aumentar a oferta de ativos, enquanto a alta demanda por aluguéis logísticos de grandes players do e-commerce garante a ocupação e a sustentação dos fluxos de caixa dos FIIs logísticos.",
-      "implicacao": "Com a Selic em trajetória de queda, o setor de FIIs logísticos e de tijolo tende a se beneficiar, pois o crédito mais barato reduz o custo de captação para novos projetos e aumenta a atratividade dos dividendos frente a outras classes de ativos.",
-      "risco": "Riscos regulatórios e ambientais, como os embargos citados em obras de grandes desenvolvedoras, podem paralisar a entrega de novos ativos e comprometer a expansão da oferta prevista.",
-      "proximo_evento": "Próxima reunião do Copom para definição da magnitude do corte na taxa Selic e divulgação dos dados de inflação (IPCA) que fundamentam essa decisão.",
+      "resumo": "O mercado de fundos imobiliários registrou alta de 0,65% no Ifix, impulsionado por notícias sobre a forte demanda logística do e-commerce e a perspectiva de queda na taxa Selic.",
+      "mecanismo": "A redução esperada na taxa Selic diminui o custo de capital, o que tende a destravar novos empreendimentos e melhorar a viabilidade de projetos imobiliários, enquanto a alta demanda por aluguéis logísticos de grandes players do e-commerce garante ocupação e sustentação de receitas para os FIIs do setor.",
+      "implicacao": "Com a Selic em trajetória de queda e alta demanda por ativos logísticos, o setor de FIIs logísticos tende a se beneficiar, já que o crédito mais barato estimula a oferta de novos espaços e a solidez dos inquilinos corporativos sustenta os fluxos de caixa.",
+      "risco": "Riscos de embargos e entraves ambientais ou documentais podem paralisar obras e atrasar a entrega de novos ativos, impactando negativamente a expansão da oferta e os prazos de retorno dos investimentos.",
+      "proximo_evento": "Próxima reunião do Copom para definição da nova taxa Selic e divulgação de novos dados de ocupação e vacância do setor logístico.",
       "key_numbers": [
         "Ifix: +0,65%",
         "Gastos logísticos e-commerce: R$ 2 bi",
-        "Redução aluguel Itaú: 43,9%",
+        "Redução de aluguel Itaú: 43,9%",
         "Área contratada Itaú: 91,4 mil m²"
       ],
       "sentiment": "up"
@@ -181,7 +182,7 @@
     {
       "title": "Notícias para o investidor de fundos imobiliários",
       "source": "clubefiinews.com.br",
-      "link": "https://www.clubefiinews.com.br/entrevistas",
+      "link": "https://www.clubefiinews.com.br/lajes-corporativas",
       "categorias": [
         "imobiliario"
       ],
@@ -196,29 +197,28 @@
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [
-      "O artigo do Seeking Alpha apresenta o ETF STIP como uma opção para investidores avessos a risco e preocupados com a inflação.",
-      "O comentário do segundo trimestre de 2026 da Franklin High Yield Municipal SMA foi publicado no Seeking Alpha.",
-      "Um artigo do Seeking Alpha discute o rendimento de 17% da Dynex Capital, destacando que a cobertura do dividendo merece atenção.",
-      "Um artigo do Seeking Alpha aborda o crescimento sustentado dos empréstimos na Zona do Euro."
+      "O dólar à vista encerrou a quinta-feira (24) a R$ 5,1937, com alta de 0,49%, impulsionado pela expectativa de juros mais altos nos EUA e pelo barril do petróleo Brent acima de US$ 100.",
+      "A notícia menciona que o preço do Bitcoin se estabilizou e o token ONDO subiu enquanto os rendimentos dos Treasuries atingiram os níveis mais altos desde 2007.",
+      "A notícia relata que o Bitcoin caiu abaixo de US$ 84 mil quando o rendimento do Treasury de 10 anos atingiu o nível mais alto em 19 anos.",
+      "A notícia afirma que um forte relatório do mercado de trabalho em setembro deve impactar negativamente as ações e os títulos."
     ],
     "acoes": [
-      "O Ibovespa B3 recuou quase 1% e o dólar subiu para R$ 5,19 nesta quinta-feira (24) devido a preocupações globais com inflação.",
-      "A análise da First Solar questiona se é o momento de comprar a queda das ações da empresa.",
-      "A ação da Twilio está em queda hoje, segundo a análise de mercado.",
-      "A avaliação da Microsoft indica que o risco e a recompensa estão enviesados para o lado negativo."
+      "A XP Investimentos iniciou a cobertura do S&P 500 com recomendação de compra, projetando um preço-alvo de 8.900 pontos para o fim de 2027, o que representa um potencial de valorização de 15,5%.",
+      "O resumo fornecido não contém informações factuais sobre o motivo da queda das ações da MGM Resorts.",
+      "O resumo fornecido não contém informações factuais sobre o motivo do rebaixamento de rating da Apple."
     ],
     "cripto": [
-      "O Bitcoin caiu abaixo de US$ 84.000 enquanto o rendimento dos títulos do Tesouro dos EUA de 10 anos atingiu um máximo de 19 anos.",
-      "Os ETFs de Bitcoin adicionaram US$ 347 milhões em fluxos de entrada enquanto o BTC caía abaixo de US$ 84.000 após ter ultrapassado US$ 87.000.",
-      "Os fluxos de entrada nos ETFs de Bitcoin desaceleraram para US$ 191 milhões, com a sequência de seis dias somando US$ 2,8 bilhões.",
-      "O Federal Reserve propôs novas regras de capital e resgate para emissores de stablecoins."
+      "O Bitcoin caiu abaixo de US$ 84 mil enquanto o rendimento dos títulos do Tesouro dos EUA de 10 anos atingiu um máximo de 19 anos.",
+      "Os ETFs de Bitcoin adicionaram US$ 347 milhões enquanto o BTC caía abaixo de US$ 84 mil após ter ultrapassado US$ 87 mil.",
+      "Os fluxos de entrada nos ETFs de Bitcoin desaceleraram para US$ 191 milhões, com a sequência de seis dias alcançando US$ 2,8 bilhões.",
+      "O Fed propôs novas regras de capital e resgate para emissores de stablecoins."
     ],
     "debentures": [],
     "exterior": [
-      "Ações europeias subiram levemente, com o alívio nos preços do petróleo ofuscando o aumento dos rendimentos.",
-      "O mercado de ações da Índia fechou em alta, com o índice Nifty 50 subindo 0,34%.",
-      "O texto questiona por que as ações se mantiveram firmes apesar do aumento dos rendimentos e do petróleo a US$ 100, sugerindo que duas palavras explicam o fenômeno.",
-      "Um novo conjunto de dados no FRED indica que a probabilidade mensal de a economia dos EUA estar em recessão era de 0,08% em agosto de 2026."
+      "Petróleo fechou em alta na quinta-feira (24), apesar de notícias de que EUA e Irã negociam um acordo em etapas para reabrir o Estreito de Ormuz.",
+      "A XP Investimentos iniciou a cobertura do S&P 500 com recomendação de compra, projetando um preço-alvo de 8.900 pontos para o fim de 2027, o que representa um potencial de valorização de 15,5%.",
+      "O JPMorgan afirma que o preço final do petróleo é difícil de prever e apresenta seu playbook para o cenário.",
+      "Um novo dataset no FRED indica que a probabilidade mensal de a economia dos EUA estar em recessão era de 0,08% em agosto de 2026."
     ],
     "imobiliario": [
       "O Clube FII afirma que não faz recomendação de investimento e não se responsabiliza por perdas, danos, custos e lucros cessantes.",
@@ -228,11 +228,11 @@
     ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário de renda fixa segue pressionado pela reprecificação de juros mais altos nos EUA, impulsionada por dados econômicos resilientes e declarações do Fed, o que eleva os Treasuries e fortalece o dólar frente ao real. Enquanto o mercado brasileiro aguarda o primeiro turno das eleições e novos dados de inflação e atividade econômica americana, a atenção se volta para a persistência da inflação e a probabilidade de novas altas de juros pelo Fed em outubro.",
-    "acoes": "O cenário local permanece pressionado pela revisão do resultado primário para déficit e pela projeção de inflação em 5,2%, fatores que elevam o prêmio de risco soberano e pressionam o câmbio, enquanto o setor de varejo farmacêutico enfrenta a ameaça competitiva direta do Mercado Livre. A atenção deve se manter nos próximos turnos das eleições presidenciais e na divulgação de novos dados de inflação (IPCA), que podem alterar a trajetória projetada pelo Banco Central, além do monitoramento da expansão da operação de entregas rápidas do MELI e da reação das concorrentes em seus próximos balanços.",
-    "cripto": "A categoria apresenta uma dinâmica de tensão entre a pressão macroeconômica, evidenciada pela queda do Bitcoin abaixo de US$ 84.000 impulsionada pelo recorde de 19 anos no rendimento dos Treasuries de 10 anos, e a resiliência institucional, com ETFs mantendo fluxos positivos apesar da volatilidade. Paralelamente, o setor enfrenta riscos operacionais e regulatórios simultâneos, marcados pela investigação sobre o hack de US$ 352 milhões na Bitget, atribuído a atores norte-coreanos, e pela proposta do Fed para novas regras de capital e resgate para emissores de stablecoins.",
+    "renda_fixa": "O cenário de juros futuros elevados nos EUA, com Treasuries atingindo máximas históricas, está pressionando o dólar para cima e limitando o espaço para cortes agressivos de juros pelo Banco Central, o que sustenta a aversão a risco global. Essa dinâmica, somada à percepção de menor probabilidade de consolidação fiscal no Brasil devido ao cenário eleitoral, mantém a pressão sobre as taxas dos DIs locais e a inflação. O foco permanece na divulgação do IPCA-12 de setembro e na próxima reunião do Copom para definição da taxa Selic, além do primeiro turno das eleições presidenciais.",
+    "acoes": "O cenário global de juros elevados, evidenciado pela alta dos Treasuries e pela pressão sobre o Dow Jones, contrasta com a visão de alta do S&P 500 pela XP, sugerindo divergências na precificação de risco entre mercados. No Brasil, a atenção permanece voltada para a próxima reunião do Federal Reserve e o desenrolar das eleições presidenciais, que, somados à revisão do resultado primário para déficit, continuam a pressionar o câmbio e o Ibovespa. Paralelamente, a expansão do Mercado Livre no varejo farmacêutico via 'Envios Agora' em São Paulo representa um risco competitivo concreto para as margens das redes tradicionais.",
+    "cripto": "A categoria apresenta uma dinâmica de tensão entre a pressão macroeconômica, evidenciada pela queda do Bitcoin abaixo de US$ 84 mil impulsionada pelo recorde de 19 anos no rendimento dos Treasuries de 10 anos, e a resiliência institucional, com ETFs acumulando US$ 2,8 bilhões em seis dias apesar da volatilidade. Enquanto o mercado digere o impacto do ataque de US$ 352 milhões à Bitget e a suspeita de envolvimento norte-coreano, a regulação avança com a proposta do Fed para novas regras de capital e resgate para emissores de stablecoins, indicando um cenário onde riscos de segurança operacional e enquadramento regulatório coexistem com a entrada contínua de capital institucional.",
     "debentures": "",
-    "exterior": "A dinâmica de mercado global permanece tensionada pela persistência do petróleo Brent acima de US$ 106 e pela alta dos juros dos Treasuries, que penalizam setores cíclicos e deslocam capital para renda fixa, embora a resiliência das ações e a baixa probabilidade de recessão nos EUA (0,08% em agosto) sustentem a tese de compra do S&P 500. O foco deve permanecer nas próximas sinalizações sobre a reabertura do Estreito de Ormuz ou avanços nas negociações comerciais entre EUA e China, que poderiam alterar a trajetória dos juros soberanos, além da validação da conversão dos investimentos em IA em receitas concretas nos relatórios trimestrais.",
-    "imobiliario": "O cenário para fundos imobiliários continua sendo moldado pela expectativa de redução do custo de capital e queda da Selic, que tende a destravar obras paradas e aumentar a oferta de ativos, enquanto a demanda por aluguéis logísticos sustenta os fluxos de caixa. O próximo evento relevante a ser monitorado é a reunião do Copom para definição da magnitude do corte na taxa Selic e a divulgação dos dados de inflação (IPCA). As notícias adicionais analisadas consistem apenas em disclaimers institucionais padrão, sem apresentar novos dados econômicos ou eventos de mercado."
+    "exterior": "O mercado observa a tensão entre a perspectiva de um acordo diplomático entre EUA e Irã para reabrir o Estreito de Ormuz, que reduz o prêmio de risco no petróleo, e a persistência de juros elevados nos Treasuries que penalizam setores cíclicos. Enquanto a XP vê espaço para alta no S&P 500 com alvo de 8.900 pontos até 2027, o baixo risco de recessão nos EUA (0,08% em agosto) contrasta com a incerteza sobre o preço final do petróleo apontada pelo JPMorgan.",
+    "imobiliario": "O cenário para o setor imobiliário continua focado na definição da nova taxa Selic pelo Copom e na divulgação de dados de ocupação e vacância do setor logístico, fatores que impactam diretamente a viabilidade de novos empreendimentos e a sustentação de receitas dos FIIs. As informações adicionais fornecidas consistem exclusivamente em disclaimers institucionais do Clube FII, que reiteram a ausência de recomendação de investimento e a limitação de responsabilidade jurídica, sem apresentar novos dados econômicos ou eventos de mercado."
   }
 }
