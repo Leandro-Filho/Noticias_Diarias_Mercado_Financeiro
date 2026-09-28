@@ -1,25 +1,104 @@
 {
-  "gerado_em": "2026-09-28T11:12:36.826306+00:00",
+  "gerado_em": "2026-09-28T18:46:30.483696+00:00",
   "itens": [
     {
-      "title": "Bitcoin mira US$ 100 mil após romper resistências; veja os próximos alvos, segundo o BTG Pactual",
+      "title": "Ouro recua mais de 3% com expectativas para o Fed, caindo ao menor nível em sete semanas",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bitcoin-mira-us-100-mil-apos-romper-resistencias-veja-os-proximos-alvos-ceci/",
+      "link": "https://www.moneytimes.com.br/ouro-28-9-26-lils/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "O ouro caiu mais de 3% nesta segunda-feira, atingindo o menor nível em sete semanas, impulsionado por expectativas de alta de juros nos EUA e realização de lucros por investidores chineses antes do feriado da Golden Week.",
+      "mecanismo": "A perspectiva de uma política monetária mais apertada pelo Fed elevou os rendimentos dos Treasuries, tornando-os mais atrativos que o ouro (que não paga juros) e fortalecendo o dólar, o que pressionou o preço do metal para baixo, somado a uma onda de vendas na Ásia.",
+      "implicacao": "Com a pressão sobre o ouro e a força do dólar, a classe de ativos de metais preciosos tende a permanecer desvalorizada no curto prazo, enquanto ativos de renda fixa em dólar ganham atratividade relativa devido ao aumento dos rendimentos reais.",
+      "risco": "Uma surpresa negativa nos dados de inflação ou emprego nos EUA poderia reverter as expectativas de alta de juros, fazendo o ouro recuperar o patamar anterior rapidamente.",
+      "proximo_evento": "Divulgação do índice de gastos com consumo (PCE) e do relatório de empregos (payroll) nos Estados Unidos nesta semana.",
+      "key_numbers": [
+        "Ouro (dez): US$ 4.168,40/oz",
+        "Queda do ouro: 3,54%",
+        "Prata (dez): US$ 61,71/oz",
+        "Queda da prata: 4,76%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Bolsas da Europa fecham majoritariamente em queda com petróleo e IA no radar",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/europa-28-9-26-lils/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "Os mercados europeus encerraram o dia com desempenho misto e próximo da estabilidade, impulsionados por ganhos no setor de energia e construtoras britânicas, enquanto a tensão geopolítica no Oriente Médio e a política monetária dividiram a atenção dos investidores.",
+      "mecanismo": "A deterioração das perspectivas de uma trégua entre EUA e Irã elevou os preços do petróleo, o que pressionou as expectativas de cortes de juros por parte dos bancos centrais, já que energia cara alimenta a inflação; simultaneamente, o anúncio de um programa habitacional no Reino Unido injetou otimismo específico no setor de construção civil local, criando um movimento setorial divergente dentro de um índice geral estável.",
+      "implicacao": "Com a incerteza sobre cortes de juros aumentando devido à inflação energética, o setor de energia tende a se beneficiar no curto prazo pela valorização das commodities, enquanto setores sensíveis a juros, como tecnologia e consumo discricionário, podem enfrentar pressão de valuation, já que o custo de capital permanece elevado por mais tempo.",
+      "risco": "Uma resolução rápida da crise no Oriente Médio derrubaria os preços do petróleo, invalidando a tese de inflação persistente e forçando os bancos centrais a retomar o ciclo de cortes de juros mais agressivamente do que o esperado.",
+      "proximo_evento": "Novas declarações de membros do BCE e do Banco da Inglaterra sobre a trajetória de juros em resposta ao choque energético, além de atualizações sobre as negociações diplomáticas entre EUA e Irã.",
+      "key_numbers": [
+        "Stoxx 600: 638,68 pontos",
+        "FTSE 100: -0,10%",
+        "DAX: -0,13%",
+        "Setor Energético (Stoxx 600): +1,1%"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Prio (PRIO3), Petrobras (PETR4) e outras petroleiras têm forte alta na B3",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/prio-prio3-petrobras-petr4-e-outras-petroleiras-tem-forte-alta-na-b3-lils/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "As ações de petroleiras brasileiras, lideradas pela Prio, registram forte alta na B3 impulsionadas pela escalada do conflito entre EUA e Irã e pela disparada dos preços do petróleo Brent acima de US$ 100.",
+      "mecanismo": "A rejeição dos EUA à proposta iraniana e a incerteza sobre a reabertura do Estreito de Ormuz elevam o prêmio de risco geopolítico, o que dispara o preço do Brent (que tocou US$ 108,83) e beneficia diretamente as empresas com maior exposição a óleo e menor hedge, como a Prio, enquanto a Petrobras também se valoriza devido às margens de refino fortes e expectativas de produção acima do esperado.",
+      "implicacao": "Com o petróleo operando em patamares elevados acima de US$ 100, o setor de energia e exploração de petróleo tende a se beneficiar, já que a receita das operadoras de upstream aumenta significativamente, enquanto a aversão a risco global pode pressionar outros setores mais sensíveis a juros e crescimento econômico.",
+      "risco": "Um acordo rápido entre EUA e Irã para reabrir o Estreito de Ormuz causaria uma queda abrupta no preço do petróleo, invalidando a tese de alta das petroleiras e revertendo os ganhos recentes.",
+      "proximo_evento": "Negociações separadas entre mediadores do Catar, o Irã e os EUA previstas para ocorrer até amanhã (29/09), que podem definir a duração do conflito e a normalização do fluxo no Estreito de Ormuz.",
+      "key_numbers": [
+        "Brent (máxima intradia): US$ 108,83",
+        "Brent (atual): US$ 105",
+        "PRIO3 (variação): +3,91%",
+        "PETR4 (giro financeiro): R$ 1,569 bilhão"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Ibovespa hoje: Lula, bets e pesquisas eleitorais movimentam o mercado",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-hoje-lula-bets-e-pesquisas-eleitorais-movimentam-o-mercado-ceci/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O presidente Lula sancionou uma medida provisória que proíbe a operação de casas de apostas no Brasil, com efeito a partir de 6 de outubro, enquanto novas pesquisas indicam vantagem do petista sobre Flávio Bolsonaro nas eleições de 2026.",
+      "mecanismo": "A proibição legal das bets elimina a receita de um setor em expansão e gera incerteza regulatória, o que tende a pressionar negativamente os ativos ligados a esse segmento e aumentar a volatilidade no índice, especialmente em uma semana pré-eleitoral onde o mercado já reage a oscilações nas intenções de voto e às revisões do Boletim Focus que elevam a inflação e reduzem o PIB.",
+      "implicacao": "Com a proibição iminente das apostas online, o setor de tecnologia e entretenimento digital tende a sofrer com a perda de receita e de múltiplos, já que a base de usuários e o faturamento dessas plataformas serão drasticamente reduzidos ou eliminados no curto prazo.",
+      "risco": "A medida provisória pode ser contestada judicialmente ou sofrer alterações no Congresso, o que poderia reverter a proibição e restaurar a viabilidade econômica do setor de apostas antes do prazo previsto.",
+      "proximo_evento": "6 de outubro, data em que os sites e aplicativos de apostas devem ser retirados do ar conforme a nova medida provisória.",
+      "key_numbers": [
+        "Lula (1º turno): 42%",
+        "Flávio Bolsonaro (1º turno): 37%",
+        "Data de vigência da MP: 6 de outubro"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Bitcoin drops under $83K as liquidity hunting keeps bulls from targeting yearly open",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-drops-under-83k-as-liquidity-hunting-keeps-bulls-from-targeting-yearly-open?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "O Bitcoin rompeu resistências técnicas e recuperou a média móvel de 50 semanas, o que levou o BTG Pactual a elevar suas projeções de curto e médio prazo para a marca de US$ 100 mil. Altcoins como Solana e Ethereum também apresentaram movimentos de alta, renovando máximas recentes.",
-      "mecanismo": "A recuperação da média móvel de 50 semanas e a quebra da faixa de consolidação entre US$ 81 mil e US$ 83 mil no gráfico diário validaram a estrutura de alta, atraindo fluxo comprador que agora testa a resistência de US$ 87 mil a US$ 88,5 mil; a superação dessa barreira é o gatilho técnico necessário para que o momentum se estenda até os US$ 100 mil, enquanto a manutenção acima de US$ 80,6 mil preserva a tendência de alta.",
-      "implicacao": "Com a confirmação de tendência de alta no ativo líder do setor, a classe de criptomoedas tende a se beneficiar de um aumento no apetite por risco, já que a força do Bitcoin costuma puxar a liquidez para as altcoins de maior capitalização, como Ethereum e Solana, que também romperam resistências locais.",
-      "risco": "A tese de alta é invalidada caso o Bitcoin perca o suporte crítico de US$ 80,6 mil, o que indicaria uma correção mais profunda rumo às médias de 50 e 200 dias (US$ 75,3 mil e US$ 70,9 mil), revertendo a estrutura técnica construtiva.",
-      "proximo_evento": "O teste do Bitcoin na faixa de resistência entre US$ 87 mil e US$ 88,5 mil, que, se rompida, confirmaria a continuidade do movimento de alta.",
+      "resumo": "O Bitcoin recuou abaixo de US$ 83.000 após a recusa de Donald Trump em descartar novos ataques militares ao Irã, somada à manipulação de liquidez que impediu a continuação da alta.",
+      "mecanismo": "A incerteza geopolítica gerada pela postura dos EUA sobre o Irã provocou aversão a risco global, derrubando futuros de ações e elevando o petróleo, enquanto a concentração de ordens de venda (ask liquidity) em US$ 85.700 atuou como barreira técnica que forçou a liquidação de posições longas, acelerando o movimento de baixa.",
+      "implicacao": "Com o aumento da aversão a risco global e a pressão vendedora em criptoativos, a classe de ativos digitais tende a sofrer desvalorização no curto prazo, já que o capital busca refúgio em ativos tradicionais ou em caixa, reduzindo a demanda por ativos de alto beta como o Bitcoin.",
+      "risco": "Um acordo diplomático súbito entre EUA e Irã ou a remoção da barreira de liquidez em US$ 85.700 poderia reverter o movimento e levar o preço de volta ao nível de abertura do ano em US$ 88.700.",
+      "proximo_evento": "Novas declarações oficiais dos EUA sobre a situação no Irã ou a próxima sessão de fechamento semanal para confirmar se o preço se estabiliza acima de US$ 80.000.",
       "key_numbers": [
-        "Suporte imediato BTC: US$ 80,6 mil",
-        "Resistência chave BTC: US$ 87 mil - US$ 88,5 mil",
-        "Alvo de alta BTC: US$ 100 mil",
-        "Suporte imediato SOL: US$ 108,40"
+        "Preço atual BTC: US$ 82.700",
+        "Liquidez de venda: US$ 30 milhões",
+        "Liquidações longas: US$ 70 milhões",
+        "Alvo de abertura anual: US$ 88.700"
       ],
-      "sentiment": "up"
+      "sentiment": "down"
     },
     {
       "title": "Bitcoin ETFs draw $2.4B in biggest inflow week since October 2025",
@@ -36,75 +115,78 @@
       "key_numbers": [
         "Fluxo semanal BTC ETFs: US$ 2,39 bilhões",
         "Preço atual Bitcoin: US$ 83.116",
-        "Fluxo YTD BTC ETFs: US$ 926 milhões",
-        "Índice Medo e Ganância: 74"
+        "Fluxo anual BTC ETFs: US$ 926 milhões",
+        "Fluxo semanal ETH ETFs: US$ 690 milhões"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Oppenheimer sees AI software winners as focus shifts to ROI",
+      "title": "UBS warns food price risks could push bond yields higher",
       "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/oppenheimer-sees-ai-software-winners-as-focus-shifts-to-roi-93CH-4919779",
+      "link": "https://www.investing.com/news/stock-market-news/ubs-warns-food-price-risks-could-push-bond-yields-higher-93CH-4920989",
       "categorias": [
-        "acoes",
-        "exterior"
+        "renda_fixa"
       ],
-      "resumo": "A Oppenheimer aponta que o foco do mercado de software de IA está migrando para a demonstração de retorno sobre investimento (ROI), identificando as empresas que conseguem provar valor tangível como as principais beneficiárias dessa nova fase.",
-      "mecanismo": "O mercado está passando de uma fase de euforia baseada em potencial tecnológico para uma fase de validação financeira, onde a capacidade de gerar receita recorrente e eficiência operacional se torna o critério principal de valuation, o que tende a concentrar capital nas empresas com modelos de negócio mais maduros e comprovados.",
-      "implicacao": "Com a ênfase em ROI, o setor de software corporativo tende a ver uma divergência de desempenho, beneficiando empresas com forte geração de caixa e contratos recorrentes, enquanto nomes puramente especulativos ou em fase de queima de caixa podem enfrentar pressão de vendas.",
-      "risco": "O risco principal é que a exigência por ROI imediatos subestime o valor de longo prazo de tecnologias em desenvolvimento, levando a uma correção excessiva em empresas inovadoras que ainda não atingiram a maturidade financeira esperada pelo mercado.",
-      "proximo_evento": "Próximos relatórios trimestrais das grandes empresas de software de IA, onde a métrica de ROI e a retenção de clientes serão os pontos centrais de análise.",
+      "resumo": "O UBS alerta que a pressão sobre os preços de alimentos pode elevar as expectativas de inflação, forçando um aumento nos rendimentos dos títulos de dívida.",
+      "mecanismo": "O aumento nos custos de alimentos alimenta a inflação ao consumidor, o que leva os investidores a exigirem prêmios maiores de risco em títulos de renda fixa para compensar a perda de poder de compra, resultando em uma alta nos yields e uma queda nos preços dos bonds.",
+      "implicacao": "Com a perspectiva de juros reais mais altos e custos de financiamento elevados, o setor de consumo básico e bens de consumo discricionário tende a enfrentar margens comprimidas, enquanto ativos sensíveis a taxas de juros, como imóveis e tecnologia, podem sofrer pressão de reprecificação.",
+      "risco": "A tese se invalida se a alta nos preços de alimentos for pontual e não se refletir na inflação subjacente, permitindo que o Fed mantenha ou reduza as taxas de juros sem pressão adicional.",
+      "proximo_evento": "Divulgação dos próximos índices de inflação (CPI/PCE) e reuniões de política monetária do Fed, onde a persistência da inflação de alimentos será o foco principal.",
       "key_numbers": [],
-      "sentiment": "neutral"
+      "sentiment": "down"
     },
     {
-      "title": "S&P 500 breadth hits lowest level since dot-com bubble, Goldman says",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/sp-500-breadth-hits-lowest-level-since-dotcom-bubble-goldman-says-4919770",
+      "title": "Notícias sobre investimentos e o mercado financeiro | Bora Investir",
+      "source": "Bora Investir",
+      "link": "https://borainvestir.b3.com.br/noticias/",
       "categorias": [
-        "acoes",
-        "exterior"
+        "renda_fixa"
       ],
-      "resumo": "O Goldman Sachs alertou que a amplitude de mercado do S&P 500 atingiu seu nível mais baixo desde o estouro da bolha dot-com, indicando uma concentração extrema de ganhos em poucas empresas.",
-      "mecanismo": "A queda na amplitude de mercado significa que a alta do índice é sustentada por um número muito restrito de ações (geralmente as grandes tecnológicas), enquanto a maioria das outras empresas do índice está estagnada ou em queda; essa dinâmica cria uma fragilidade estrutural, pois qualquer correção nas líderes de mercado não tem suporte de outras fatias do índice para amortecer o impacto, aumentando a probabilidade de uma reversão mais acentuada.",
-      "implicacao": "Com a concentração extrema no S&P 500, o setor de megacap tech tende a continuar liderando no curto prazo, mas a classe de ativos de small caps e setores defensivos (como utilidades e saúde) pode se beneficiar de uma eventual rotação de capital em busca de valor, já que a diversificação do portfólio do índice está historicamente comprometida.",
-      "risco": "O cenário de concentração extrema pode se sustentar por mais tempo se os lucros das grandes tecnológicas continuarem superando as expectativas do mercado, invalidando a tese de uma correção iminente e mantendo o viés de alta no índice geral.",
-      "proximo_evento": "Próxima divulgação de resultados trimestrais das grandes empresas de tecnologia (Big Tech) e dados de inflação (CPI/PCE) dos EUA, que podem forçar uma rotação de capital ou confirmar a concentração.",
+      "resumo": "O mercado brasileiro revisou para cima a expectativa de inflação para 4,99% e para baixo a projeção de crescimento do PIB, enquanto o petróleo opera na faixa de US$ 100 e a disputa eleitoral aumenta a cautela dos investidores.",
+      "mecanismo": "A combinação de uma prévia de inflação (IPCA-15) acima do esperado e o petróleo a US$ 100 reforçam a pressão sobre os preços, o que leva o mercado a elevar a projeção do IPCA para 4,99% e a reduzir a estimativa de PIB, indicando que o Banco Central pode precisar manter juros altos por mais tempo para ancorar expectativas, o que aumenta a aversão a risco e pressiona ativos locais.",
+      "implicacao": "Com a inflação projetada acima do teto da meta e juros reais elevados, a classe de ativos de renda fixa indexada ao IPCA tende a se valorizar em termos reais, enquanto setores sensíveis ao custo de crédito, como varejo e construção civil, enfrentam pressão sobre margens e demanda.",
+      "risco": "Uma desaceleração brusca da economia global ou uma queda no preço do petróleo poderia reverter a pressão inflacionária, forçando o mercado a revisar as expectativas de juros para baixo e alterando a dinâmica de preços dos ativos.",
+      "proximo_evento": "Divulgação do IPCA de setembro e a próxima reunião do Copom para definição da taxa Selic.",
       "key_numbers": [
-        "Amplitude do S&P 500: Nível mais baixo desde 2000"
+        "Projeção IPCA: 4,99%",
+        "Petróleo: US$ 100",
+        "Dólar: R$ 5,18",
+        "IPCA-15: 0,70%"
       ],
       "sentiment": "down"
     }
   ],
   "outras_noticias_por_categoria": {
-    "renda_fixa": [],
+    "renda_fixa": [
+      "Ações não foram afetadas pelo aumento na volatilidade das taxas de juros."
+    ],
     "acoes": [
-      "O Oracle recebeu um rebaixamento de recomendação com a análise de como o trade de IA pode evoluir negativamente.",
-      "A Nvidia é descrita como um ativo real que deve ser negociado com base em conhecimento e não apenas em entusiasmo.",
-      "A ação da Micron enfrenta a perspectiva de uma nova queda após a divulgação de resultados.",
-      "A Northern Star rejeitou a oferta de 27 bilhões de dólares da Gold Fields para a criação do segundo maior minerador de ouro do mundo."
+      "O Nubank (NU) pode gastar até 20% do seu valor de mercado na aquisição da fintech inglesa Monzo, o que gerou reação negativa dos investidores na bolsa de Nova York.",
+      "O diretor da Bioagência, Tarcilo Rodrigues, criticou os preços da gasolina da Petrobras (PETR4;PETR3) por prejudicarem a competitividade do etanol e desestimularem a criação de novas empresas no setor.",
+      "O UBS BB iniciou a cobertura da Bradsaúde (SAUD3) com recomendação de compra e a considerou a preferida do setor ao lado da Rede D'Or (RDOR3), estabelecendo um preço-alvo de R$ 19 para os próximos 12 meses.",
+      "O BTG Pactual (BPAC11) alcançou sua melhor colocação de 2026 no ranking mensal das ações mais negociadas na B3 em agosto, enquanto a Embraer (EMBJ3) entrou pela primeira vez no ano no top 10, na nona posição."
     ],
     "cripto": [
-      "O Bitcoin caiu abaixo de US$ 83 mil devido à caça de liquidez, o que impede os compradores de mirar a abertura anual.",
-      "Os reguladores de Hong Kong expandiram a supervisão de relatórios financeiros para empresas de criptomoedas licenciadas.",
-      "A Coreia do Sul está avaliando a implementação de market makers de criptomoedas após o token JPYC ser negociado a 4 vezes seu valor de referência.",
-      "A Coinbase discute a relevância contínua do ciclo cripto em sua análise."
+      "O preço do Bitcoin está em busca do melhor terceiro trimestre em nove anos, segundo a Cointelegraph.",
+      "A Strategy comprou 1.665 Bitcoins por US$ 143 milhões, elevando seu estoque total para 847.666 BTC.",
+      "O CEO da Bitget afirmou que o hack de US$ 388 milhões explorou uma vulnerabilidade de segurança de terceiros.",
+      "A Bitget retomou as saques de Bitcoin enquanto o hacker troca ETH via THORChain."
     ],
     "debentures": [],
     "exterior": [
-      "O Oracle recebeu um rebaixamento de recomendação com uma análise sobre o potencial de queda da tese de investimento em IA.",
-      "A Nvidia é descrita como um ativo real que deve ser negociado com base em conhecimento e não apenas em entusiasmo.",
-      "A ação da Micron enfrenta a perspectiva de uma nova queda após a divulgação de resultados.",
-      "A Northern Star rejeitou a oferta de 27 bilhões de dólares da Gold Fields para a criação do segundo maior minerador de ouro do mundo."
+      "A Nvidia anunciou seu maior plano de recompra de ações da história, em um contexto em que a competição por chips de IA pesa sobre o desempenho das ações.",
+      "A ação da Tesla caiu 3,5% hoje.",
+      "Os dados de vagas de emprego JOLTs e de confiança do consumidor estão programados para serem divulgados na terça-feira.",
+      "A Intel e a Palo Alto Networks figuraram entre as ações com maiores variações em capitalização de mercado na segunda-feira."
     ],
     "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "",
-    "acoes": "O mercado de ações enfrenta uma fragilidade estrutural devido à baixa amplitude do S&P 500, onde a alta é sustentada por poucas grandes tecnológicas, enquanto a transição para a validação de ROI na IA concentra capital em empresas com modelos de negócio comprovados. Nesse cenário, a rejeição da oferta da Gold Fields pela Northern Star destaca a resistência a consolidações agressivas no setor de commodities, contrastando com a pressão por eficiência e retorno financeiro que rege o setor de tecnologia.",
-    "cripto": "O mercado está em um ponto de tensão técnica, onde o Bitcoin precisa superar a resistência de US$ 87 mil a US$ 88,5 mil para confirmar a tendência de alta rumo a US$ 100 mil, enquanto a forte demanda institucional via ETFs sustenta o preço mesmo com recuos de curto prazo. Paralelamente, o ambiente regulatório global se intensifica, com Hong Kong expandindo a supervisão financeira e a Coreia do Sul avaliando mecanismos de mercado para estabilizar ativos como o JPYC.",
+    "renda_fixa": "O mercado de renda fixa enfrenta pressão de yields mais altos devido a riscos de inflação em alimentos e petróleo, o que pode levar o Banco Central a manter juros elevados por mais tempo. Enquanto isso, o mercado acionário demonstra resiliência, não sendo impactado pela volatilidade recente nas taxas. A atenção deve se concentrar na divulgação do IPCA de setembro e na próxima reunião do Copom, bem como nos próximos índices de inflação e reuniões do Fed, para avaliar a persistência desses pressões inflacionárias.",
+    "acoes": "O mercado brasileiro enfrenta uma combinação de riscos regulatórios e geopolíticos, com a proibição das bets pressionando o Ibovespa e a tensão no Estreito de Ormuz elevando o prêmio de risco para o petróleo, beneficiando a Prio e a Petrobras. Enquanto isso, o setor financeiro e de saúde mostra sinais de rotação de capital, com o Nubank sob escrutínio por possíveis aquisições internacionais e a Bradsaúde ganhando destaque por dividendos, além de um aumento na liquidez de bancos e industriais como BTG e Embraer.",
+    "cripto": "O mercado de criptomoedas enfrenta uma dinâmica de alta tensão, onde a forte demanda institucional via ETFs e as compras agressivas da Strategy sustentam o preço do Bitcoin rumo ao melhor Q3 em nove anos, apesar da pressão vendedora técnica e da aversão a risco global. Simultaneamente, a segurança da infraestrutura de exchanges é testada pelo hack de US$ 388 milhões na Bitget, que, embora tenha permitido a retomada das saques de Bitcoin, levanta questões sobre a resiliência dos sistemas de terceiros e o impacto da movimentação de ativos via THORChain na liquidez do mercado.",
     "debentures": "",
-    "exterior": "O mercado enfrenta uma tensão entre a concentração extrema de capital nas grandes tecnológicas, que limita a amplitude do S&P 500, e a crescente exigência por validação financeira e ROI nos setores de IA e semicondutores. Enquanto a fragilidade estrutural do índice aumenta o risco de reversão acentuada, a rejeição da fusão entre Northern Star e Gold Fields sinaliza que a consolidação setorial pode enfrentar resistências específicas, independentemente da pressão por eficiência operacional.",
+    "exterior": "O mercado segue sensível à trajetória de juros do Fed, com a divulgação dos dados de JOLTs e confiança do consumidor na terça-feira servindo como próximo catalisador para as expectativas de política monetária. Enquanto isso, o setor de tecnologia apresenta movimentos divergentes, com a Nvidia implementando um grande plano de recompra para mitigar a pressão competitiva em chips de IA, enquanto a Tesla e a Intel registram quedas ou variações significativas em suas capitalizações.",
     "imobiliario": ""
   }
 }
