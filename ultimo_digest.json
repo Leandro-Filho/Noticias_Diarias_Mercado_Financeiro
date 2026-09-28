@@ -1,189 +1,110 @@
 {
-  "gerado_em": "2026-09-27T11:14:01.501255+00:00",
+  "gerado_em": "2026-09-28T11:12:36.826306+00:00",
   "itens": [
     {
-      "title": "UBS vê dificuldades já precificadas para Hapvida (HAPV3) — mas recuperação operacional segue incerta",
+      "title": "Bitcoin mira US$ 100 mil após romper resistências; veja os próximos alvos, segundo o BTG Pactual",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ubs-ve-dificuldades-ja-precificadas-para-hapvida-hapv3-mas-recuperacao-operacional-segue-incerta-apsa/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O UBS iniciou a cobertura da Hapvida com recomendação neutra, argumentando que o preço atual já reflete a maior parte dos riscos operacionais, mas a recuperação real do negócio ainda carece de evidências concretas.",
-      "mecanismo": "A tese de valorização depende da capacidade da empresa de gerar lucros tributáveis suficientes para absorver o goodwill de R$ 30,8 bilhões, o que exige uma reorganização societária e uma reversão na sinistralidade (MLR) que, segundo os dados de 2026, segue em deterioração, albeit em ritmo mais lento.",
-      "implicacao": "Para o setor de saúde suplementar, a cautela com operadoras que possuem passivos operacionais elevados e ativos fiscais não monetizados sugere que o mercado pode continuar descontando prêmios de risco até que haja comprovação de eficiência operacional, limitando o upside de curto prazo para papéis com perfil similar.",
-      "risco": "A deterioração da sinistralidade pode acelerar além das projeções conservadoras do banco, invalidando a tese de que o preço já precifica todo o cenário adverso e pressionando ainda mais a ação.",
-      "proximo_evento": "Divulgação dos resultados do terceiro trimestre de 2026, onde se espera uma piora de aproximadamente 50 pontos-base no Cash MLR.",
-      "key_numbers": [
-        "Preço-alvo: R$ 7,80",
-        "Goodwill: R$ 30,8 bilhões",
-        "Cash MLR 2026: 74,7%",
-        "Crescimento de receita: 4% a.a."
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Carteira recomendada: 5 ações para bater o desempenho do Ibovespa (IBOV) no curto prazo, segundo Terra",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/carteira-recomendada-5-acoes-para-bater-o-desempenho-do-ibovespa-ibov-no-curto-prazo-segundo-terra-lmrs/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "A Terra Investimentos substituiu Hypera por Localiza em sua carteira semanal, mantendo uma alocação igualitária de 20% em cinco ativos, após a empresa de saúde atingir a meta de valorização de 10%.",
-      "mecanismo": "A troca reflete uma estratégia de rotação de lucros e diversificação setorial: a saída de Hypera ocorre porque o ativo atingiu a zona de objetivos, enquanto a entrada de Localiza busca capturar oportunidades no setor de locação de veículos, que tende a se beneficiar de um ambiente de juros em queda e maior consumo, complementando a exposição já existente em saúde (Rede D’or, MBRF), papel (Suzano) e varejo (Iguatemi).",
-      "implicacao": "Com a rotação para setores cíclicos e de consumo como locação de veículos, o portfólio tende a se beneficiar de um cenário de melhora no crédito e atividade econômica, já que a redução do custo de capital estimula a demanda por bens duráveis e serviços, enquanto a manutenção de defensivos como saúde e varejo oferece proteção contra volatilidade.",
-      "risco": "O principal risco é a sensibilidade do setor de locação de veículos a choques macroeconômicos ou aumentos abruptos na inflação, que poderiam reverter a tendência de queda de juros e encarecer o financiamento, impactando negativamente a demanda por aluguel de carros.",
-      "proximo_evento": "O fechamento do período de recomendação em 2 de outubro, quando será avaliada a performance da nova carteira e possíveis ajustes para a semana seguinte.",
-      "key_numbers": [
-        "Rentabilidade acumulada da carteira (12m): 51,82%",
-        "Desempenho do Ibovespa (12m): 26,44%",
-        "Desempenho da carteira na última semana: 1,64%",
-        "Meta de ganho atingida por Hypera: 10%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Magazine Luiza (MGLU3) ganha força com alívio na curva de juros e Natura (NATU3) é a pior ação da semana; confira os destaques do Ibovespa",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-destaques-da-semana-39-lils/",
-      "categorias": [
-        "renda_fixa",
-        "acoes"
-      ],
-      "resumo": "O Ibovespa registrou a segunda semana consecutiva de perdas, pressionado pela incerteza eleitoral e pelo fortalecimento do dólar, enquanto a Magazine Luiza se destaca positivamente devido ao alívio na curva de juros local.",
-      "mecanismo": "A ata do Copom confirmou que a Selic foi reduzida para 13,75% ao ano, sinalizando que a política monetária restritiva está desacelerando a economia, o que reduz o custo de capital e melhora a atratividade de ações sensíveis a juros, como varejo, mesmo com o cenário macroeconômico global pressionado pela alta dos Treasuries nos EUA.",
-      "implicacao": "Com a Selic em trajetória de queda e a curva de juros local apresentando alívio, o setor de varejo tende a se beneficiar, pois a redução do custo de crédito estimula o consumo de bens duráveis e melhora a margem de lucro das empresas que possuem dívida atrelada à taxa básica.",
-      "risco": "A incerteza eleitoral no Brasil e a possibilidade de novas altas de juros pelo Federal Reserve nos EUA podem reverter o fluxo de capitais para fora do país, pressionando o câmbio e limitando a queda da Selic.",
-      "proximo_evento": "Próxima reunião do Copom para definição da nova taxa Selic e divulgação dos próximos dados de inflação (IPCA) que podem alterar a trajetória de cortes.",
-      "key_numbers": [
-        "Ibovespa: 183.476,86 pontos",
-        "Selic: 13,75% a.a.",
-        "Dólar: R$ 5,1817",
-        "PIB 2026: 1,8%"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Riot Platforms repays $200M credit facility, releases collateral",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/riot-platforms-repays-200m-credit-facility-releases-collateral?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://www.moneytimes.com.br/bitcoin-mira-us-100-mil-apos-romper-resistencias-veja-os-proximos-alvos-ceci/",
       "categorias": [
         "cripto"
       ],
-      "resumo": "A Riot Platforms quitou integralmente uma linha de crédito de US$ 200 milhões com a Coinbase, liberando os ativos colaterais (Bitcoin, USDC e caixa) que estavam retidos. A empresa segue expandindo sua operação de data centers, tendo fechado um contrato de 20 anos com a Anthropic para fornecimento de capacidade de IA.",
-      "mecanismo": "O pagamento antecipado da dívida elimina o custo de juros e libera o colateral cripto, melhorando a liquidez imediata e a estrutura de capital da mineradora. Simultaneamente, a transição para um modelo de receita recorrente via contratos de data centers (como o de US$ 9 bilhões com a Anthropic) reduz a exposição cíclica à volatilidade do preço do Bitcoin, tornando o fluxo de caixa mais previsível e menos dependente da mineração pura.",
-      "implicacao": "Com a redução da alavancagem e a entrada em um segmento de infraestrutura de IA com contratos de longo prazo, o setor de mineradoras que estão diversificando para data centers tende a ser reavaliado positivamente pelo mercado, já que o perfil de risco muda de 'aposta em cripto' para 'infraestrutura de tecnologia', atraindo investidores que buscam estabilidade de receita.",
-      "risco": "O risco principal é a execução operacional: se a Riot não conseguir entregar a capacidade de 191 MW conforme o cronograma ou se a demanda por IA esfriar, a receita projetada pode não se concretizar, invalidando a tese de diversificação e deixando a empresa exposta novamente à volatilidade do Bitcoin.",
-      "proximo_evento": "Divulgação dos resultados financeiros do segundo trimestre de 2026, para verificar a materialização da receita do novo negócio de data centers e o impacto no balanço pós-liquidação da dívida.",
+      "resumo": "O Bitcoin rompeu resistências técnicas e recuperou a média móvel de 50 semanas, o que levou o BTG Pactual a elevar suas projeções de curto e médio prazo para a marca de US$ 100 mil. Altcoins como Solana e Ethereum também apresentaram movimentos de alta, renovando máximas recentes.",
+      "mecanismo": "A recuperação da média móvel de 50 semanas e a quebra da faixa de consolidação entre US$ 81 mil e US$ 83 mil no gráfico diário validaram a estrutura de alta, atraindo fluxo comprador que agora testa a resistência de US$ 87 mil a US$ 88,5 mil; a superação dessa barreira é o gatilho técnico necessário para que o momentum se estenda até os US$ 100 mil, enquanto a manutenção acima de US$ 80,6 mil preserva a tendência de alta.",
+      "implicacao": "Com a confirmação de tendência de alta no ativo líder do setor, a classe de criptomoedas tende a se beneficiar de um aumento no apetite por risco, já que a força do Bitcoin costuma puxar a liquidez para as altcoins de maior capitalização, como Ethereum e Solana, que também romperam resistências locais.",
+      "risco": "A tese de alta é invalidada caso o Bitcoin perca o suporte crítico de US$ 80,6 mil, o que indicaria uma correção mais profunda rumo às médias de 50 e 200 dias (US$ 75,3 mil e US$ 70,9 mil), revertendo a estrutura técnica construtiva.",
+      "proximo_evento": "O teste do Bitcoin na faixa de resistência entre US$ 87 mil e US$ 88,5 mil, que, se rompida, confirmaria a continuidade do movimento de alta.",
       "key_numbers": [
-        "Crédito quitado: US$ 200 milhões",
-        "Contrato Anthropic: US$ 9 bilhões",
-        "Capacidade contratada: 191 MW",
-        "Receita Q1 2026: US$ 167,2 milhões"
+        "Suporte imediato BTC: US$ 80,6 mil",
+        "Resistência chave BTC: US$ 87 mil - US$ 88,5 mil",
+        "Alvo de alta BTC: US$ 100 mil",
+        "Suporte imediato SOL: US$ 108,40"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Saylor outlines ‘bill of digital rights’ to help build prosperity in future economy",
+      "title": "Bitcoin ETFs draw $2.4B in biggest inflow week since October 2025",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/saylor-outlines-bill-of-digital-rights-to-help-build-prosperity-in-future-economy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-billion-biggest-inflow-week-october-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "Michael Saylor defendeu a criação de uma 'declaração de direitos digitais' para facilitar a emissão e o uso de ativos digitais, argumentando que isso é essencial para financiar a próxima geração de empresas na era da IA. A Strategy retomou as compras de Bitcoin, adicionando 950 moedas ao seu portfólio.",
-      "mecanismo": "A tese de Saylor sugere que a remoção de barreiras regulatórias para a criação e transferência de ativos digitais reduzirá o custo de capital para novas empresas, o que, combinado com a retomada das compras corporativas de Bitcoin, tende a sustentar a demanda institucional e a liquidez no mercado de criptoativos, independentemente da direção imediata do preço.",
-      "implicacao": "Com a defesa de um ambiente regulatório mais permissivo para ativos digitais e a continuidade da acumulação corporativa, o setor de infraestrutura de criptoativos e tokens de utilidade tende a se beneficiar, já que a redução de fricções legais aumenta a viabilidade econômica de novos projetos e a adoção institucional.",
-      "risco": "O risco principal é a resistência regulatória persistente, onde governos podem impor restrições mais rígidas em vez de adotar os 'direitos digitais' propostos, o que limitaria a capacidade de empresas de financiar-se via ativos digitais e pressionaria os preços de Bitcoin.",
-      "proximo_evento": "Acompanhar as próximas compras de Bitcoin pela Strategy e possíveis reações regulatórias de agências financeiras aos argumentos de Saylor sobre a concorrência de 'dólares digitais'.",
+      "resumo": "Os ETFs de Bitcoin nos EUA registraram a maior entrada líquida de capital em uma semana desde outubro de 2025, totalizando US$ 2,39 bilhões, enquanto o preço do ativo recuou de US$ 87.100 para cerca de US$ 83.116.",
+      "mecanismo": "A forte demanda institucional via ETFs criou um fluxo de capital robusto que sustentou o preço do Bitcoin mesmo durante o recuo técnico de curto prazo, indicando que a absorção de oferta por parte dos fundos está superando a pressão vendedora imediata e mantendo o sentimento de mercado em território de 'Greed'.",
+      "implicacao": "Com a reversão do déficit anual de fluxos para um saldo positivo de US$ 926 milhões, a classe de ativos criptoativos tende a ganhar tração, pois a entrada consistente de capital institucional via veículos regulados reduz a volatilidade estrutural e atrai mais participantes de médio prazo.",
+      "risco": "O risco principal é que a desaceleração dos fluxos diários após a forte entrada de segunda-feira indique exaustão de compra, o que poderia levar a um reteste de suportes inferiores se o preço não recuperar os níveis de US$ 87.000 rapidamente.",
+      "proximo_evento": "Monitorar se os fluxos diários dos ETFs conseguem manter o ritmo positivo após a desaceleração observada na sexta-feira e se o Bitcoin consegue recuperar a resistência de US$ 87.100 nos próximos dias.",
       "key_numbers": [
-        "Bitcoin acumulado pela Strategy: 846.000 BTC",
-        "Custo médio de aquisição: $75.416",
-        "Compra recente: 950 BTC",
-        "Preço de referência do BTC: $84.523"
+        "Fluxo semanal BTC ETFs: US$ 2,39 bilhões",
+        "Preço atual Bitcoin: US$ 83.116",
+        "Fluxo YTD BTC ETFs: US$ 926 milhões",
+        "Índice Medo e Ganância: 74"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Fed Hike: Selling These 2 Winners, And Replacing With These 2 High Yield Stocks",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4950031-fed-hike-selling-these-2-winners-and-replacing-with-these-2-high-yield-stocks?source=feed_all_articles",
+      "title": "Oppenheimer sees AI software winners as focus shifts to ROI",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/oppenheimer-sees-ai-software-winners-as-focus-shifts-to-roi-93CH-4919779",
       "categorias": [
+        "acoes",
         "exterior"
       ],
-      "resumo": "Um analista de dividendos sugere a rotação de posições em ações vencedoras para papéis de alto rendimento, citando a perspectiva de alta de juros pelo Fed como gatilho para a mudança de estratégia.",
-      "mecanismo": "A expectativa de um ciclo de alta de juros pelo Fed tende a elevar o custo de capital e a compressão de múltiplos, o que pode penalizar ações de crescimento ou já valorizadas, enquanto papéis de alto rendimento (high yield) podem oferecer proteção via fluxo de caixa imediato e desconto de preço, atraindo investidores que buscam renda em um ambiente de taxas mais elevadas.",
-      "implicacao": "Com a perspectiva de juros mais altos nos EUA, o fluxo de capital tende a migrar para ativos de renda fixa ou ações de alto dividendo que pagam juros competitivos, beneficiando o setor de utilities e energia, enquanto setores de tecnologia e crescimento podem enfrentar pressão de desalavancagem e reprecificação de múltiplos.",
-      "risco": "O cenário de alta de juros pode não se materializar se os dados macroeconômicos dos EUA mostrarem desaceleração econômica mais acentuada do que o esperado, invalidando a tese de rotação para defensivos de alto rendimento.",
-      "proximo_evento": "Próxima reunião do FOMC (Federal Open Market Committee) para definição da taxa de juros dos EUA e divulgação do relatório de emprego (Payroll) dos EUA.",
-      "key_numbers": [
-        "Data de referência: 27/09/2026"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Jefferies Sets 9,000 Market Target: Everything Must Go Right",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4950010-jefferies-sets-9000-market-target-everything-must-go-right?source=feed_all_articles",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "O Jefferies projetou um alvo de 9.000 pontos para o S&P 500, mas essa meta depende de um crescimento de lucros de 20,8% em 2027 e de uma expansão de múltiplos, num cenário onde o Fed elevou os juros para 3,75%-4,00%.",
-      "mecanismo": "A tese de alta do índice pressupõe que o mercado absorva o aumento de 25 bps nos juros federais sem perder fôlego, exigindo que as empresas entreguem crescimento de lucros acima do consenso atual ou que os investidores aceitem pagar múltiplos mais caros (20x) para sustentar a valorização, o que é viável apenas se a economia evitar uma desaceleração brusca.",
-      "implicacao": "Como a alta do índice é concentrada no setor de tecnologia e a amplitude de mercado é frágil (7 de 11 setores em queda), ativos de tecnologia tendem a continuar liderando, mas a falta de diversificação setorial aumenta a sensibilidade do mercado a qualquer sinal de fraqueza específica nesse setor.",
-      "risco": "A dependência de revisões de lucros para cima e de expansão de múltiplos deixa pouco espaço para erro, de modo que uma decepção nos resultados corporativos ou uma nova alta de juros poderia reverter a tendência rapidamente.",
-      "proximo_evento": "Divulgação dos dados de inflação (PCE) e do PIB dos EUA, onde o consenso espera alta de 0,2% e crescimento de 2,1%, respectivamente.",
-      "key_numbers": [
-        "S&P 500: 7.744,64",
-        "Alvo Jefferies: 9.000",
-        "Juros Fed: 3,75%-4,00%",
-        "Crescimento lucro necessário: 20,8%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Simon Property Group: Redemption Risk For SPG.PR.J",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4950005-simon-property-group-redemption-risk-for-spgprj?source=feed_all_articles",
-      "categorias": [
-        "imobiliario"
-      ],
-      "resumo": "A Simon Property Group enfrenta riscos de resgate associados à sua série de preferred stock SPG.PR.J, o que pode impactar a estrutura de capital e a distribuição de dividendos da companhia.",
-      "mecanismo": "O risco de resgate surge quando a empresa decide ou é obrigada a recomprar as ações preferenciais, o que pode ocorrer para reduzir o custo de capital ou ajustar a alavancagem; isso tende a pressionar a liquidez imediata ou exigir refinanciamento, afetando diretamente a sustentabilidade dos proventos pagos a esses investidores específicos.",
-      "implicacao": "Para o setor de REITs e investidores em preferred stocks, a gestão de resgates indica uma possível reestruturação de capital, o que pode levar a uma reavaliação do risco de crédito e da atratividade de dividendos fixos em relação a ações comuns do setor.",
-      "risco": "A empresa pode ter liquidez suficiente para realizar o resgate sem impacto negativo no rating de crédito ou nos dividendos das ações comuns, invalidando a tese de estresse financeiro.",
-      "proximo_evento": "Próxima divulgação de resultados trimestrais da Simon Property Group ou anúncio oficial sobre a gestão da dívida e capitalização.",
+      "resumo": "A Oppenheimer aponta que o foco do mercado de software de IA está migrando para a demonstração de retorno sobre investimento (ROI), identificando as empresas que conseguem provar valor tangível como as principais beneficiárias dessa nova fase.",
+      "mecanismo": "O mercado está passando de uma fase de euforia baseada em potencial tecnológico para uma fase de validação financeira, onde a capacidade de gerar receita recorrente e eficiência operacional se torna o critério principal de valuation, o que tende a concentrar capital nas empresas com modelos de negócio mais maduros e comprovados.",
+      "implicacao": "Com a ênfase em ROI, o setor de software corporativo tende a ver uma divergência de desempenho, beneficiando empresas com forte geração de caixa e contratos recorrentes, enquanto nomes puramente especulativos ou em fase de queima de caixa podem enfrentar pressão de vendas.",
+      "risco": "O risco principal é que a exigência por ROI imediatos subestime o valor de longo prazo de tecnologias em desenvolvimento, levando a uma correção excessiva em empresas inovadoras que ainda não atingiram a maturidade financeira esperada pelo mercado.",
+      "proximo_evento": "Próximos relatórios trimestrais das grandes empresas de software de IA, onde a métrica de ROI e a retenção de clientes serão os pontos centrais de análise.",
       "key_numbers": [],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "S&P 500 breadth hits lowest level since dot-com bubble, Goldman says",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/sp-500-breadth-hits-lowest-level-since-dotcom-bubble-goldman-says-4919770",
+      "categorias": [
+        "acoes",
+        "exterior"
+      ],
+      "resumo": "O Goldman Sachs alertou que a amplitude de mercado do S&P 500 atingiu seu nível mais baixo desde o estouro da bolha dot-com, indicando uma concentração extrema de ganhos em poucas empresas.",
+      "mecanismo": "A queda na amplitude de mercado significa que a alta do índice é sustentada por um número muito restrito de ações (geralmente as grandes tecnológicas), enquanto a maioria das outras empresas do índice está estagnada ou em queda; essa dinâmica cria uma fragilidade estrutural, pois qualquer correção nas líderes de mercado não tem suporte de outras fatias do índice para amortecer o impacto, aumentando a probabilidade de uma reversão mais acentuada.",
+      "implicacao": "Com a concentração extrema no S&P 500, o setor de megacap tech tende a continuar liderando no curto prazo, mas a classe de ativos de small caps e setores defensivos (como utilidades e saúde) pode se beneficiar de uma eventual rotação de capital em busca de valor, já que a diversificação do portfólio do índice está historicamente comprometida.",
+      "risco": "O cenário de concentração extrema pode se sustentar por mais tempo se os lucros das grandes tecnológicas continuarem superando as expectativas do mercado, invalidando a tese de uma correção iminente e mantendo o viés de alta no índice geral.",
+      "proximo_evento": "Próxima divulgação de resultados trimestrais das grandes empresas de tecnologia (Big Tech) e dados de inflação (CPI/PCE) dos EUA, que podem forçar uma rotação de capital ou confirmar a concentração.",
+      "key_numbers": [
+        "Amplitude do S&P 500: Nível mais baixo desde 2000"
+      ],
       "sentiment": "down"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [],
     "acoes": [
-      "A XP Investimentos manteve a recomendação de compra para a Embraer (EMBJ3) e atualizou o preço-alvo para US$ 90 por ADR, equivalente a R$ 116 por ação ao final de 2027.",
-      "O Citi avalia que a oferta pública de aquisição (OPA) da Braskem (BRKM5), ligada à mudança de controle, não é atrativa para acionistas minoritários, o que deve limitar a adesão à oferta.",
-      "Ações de consumo da China estão próximas de mínimas de uma década enquanto os investidores direcionam capital para o setor de inteligência artificial."
+      "O Oracle recebeu um rebaixamento de recomendação com a análise de como o trade de IA pode evoluir negativamente.",
+      "A Nvidia é descrita como um ativo real que deve ser negociado com base em conhecimento e não apenas em entusiasmo.",
+      "A ação da Micron enfrenta a perspectiva de uma nova queda após a divulgação de resultados.",
+      "A Northern Star rejeitou a oferta de 27 bilhões de dólares da Gold Fields para a criação do segundo maior minerador de ouro do mundo."
     ],
     "cripto": [
-      "A Comissária da SEC Hester Peirce, conhecida como 'Cryp', deixará seu cargo em 2 de outubro.",
-      "A CFTC processou a Cash FX, alegando um esquema de forex vinculado a criptomoedas no valor de US$ 950 milhões.",
-      "O resumo da notícia sobre os eventos do dia em cripto é vago e não fornece detalhes específicos além do título.",
-      "A Kalshi perdeu seu apelo na 6ª Corte de Circuito dos EUA, o que pode levar a um caso na Suprema Corte."
+      "O Bitcoin caiu abaixo de US$ 83 mil devido à caça de liquidez, o que impede os compradores de mirar a abertura anual.",
+      "Os reguladores de Hong Kong expandiram a supervisão de relatórios financeiros para empresas de criptomoedas licenciadas.",
+      "A Coreia do Sul está avaliando a implementação de market makers de criptomoedas após o token JPYC ser negociado a 4 vezes seu valor de referência.",
+      "A Coinbase discute a relevância contínua do ciclo cripto em sua análise."
     ],
     "debentures": [],
     "exterior": [
-      "O artigo da Seeking Alpha indica que os investidores otimistas sobre o dólar podem enfrentar desafios na semana.",
-      "Os Estados Unidos estão prestes a finalizar padrões de economia de combustível para veículos significativamente mais baixos.",
-      "A Boeing sinalizou uma falha de software no 737 MAX que afeta a função de navegação de pouso, segundo o WSJ.",
-      "As ações russas encerraram o pregão em queda, enquanto o Índice MOEX da Rússia permaneceu inalterado.",
-      "O mercado global observa a finalização de novos padrões de eficiência de combustível nos EUA e a identificação de uma falha de software na Boeing, enquanto o dólar enfrenta possíveis desafios e o mercado russo mostra desempenho misto."
+      "O Oracle recebeu um rebaixamento de recomendação com uma análise sobre o potencial de queda da tese de investimento em IA.",
+      "A Nvidia é descrita como um ativo real que deve ser negociado com base em conhecimento e não apenas em entusiasmo.",
+      "A ação da Micron enfrenta a perspectiva de uma nova queda após a divulgação de resultados.",
+      "A Northern Star rejeitou a oferta de 27 bilhões de dólares da Gold Fields para a criação do segundo maior minerador de ouro do mundo."
     ],
     "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "Com a Selic reduzida para 13,75% ao ano, o foco permanece na desaceleração da política monetária restritiva e seus impactos no custo de capital. O próximo evento relevante é a reunião do Copom para definição da nova taxa, que ocorrerá em conjunto com a divulgação dos próximos dados de inflação (IPCA), os quais podem alterar a trajetória de cortes.",
-    "acoes": "O cenário para a renda variável brasileira é marcado pela rotação setorial e pela sensibilidade à trajetória de queda da Selic, que beneficia setores como varejo e locação de veículos, enquanto a saúde enfrenta desafios operacionais com a deterioração da sinistralidade. No âmbito corporativo, a atenção se volta para a recepção do mercado à OPA da Braskem, vista como pouco atrativa pelo Citi, e para o potencial de alta da Embraer, que segue com recomendação de compra apesar da valorização recente. A próxima janela de resultados do terceiro trimestre de 2026 será crucial para validar as teses de recuperação operacional em empresas como a Hapvida e ajustar as carteiras recomendadas.",
-    "cripto": "A saída de Hester Peirce da SEC em 2 de outubro ocorre em um momento de intensificação da fiscalização, evidenciada pela ação da CFTC contra a Cash FX, o que pode alterar o tom regulatório para o setor. Enquanto isso, a decisão judicial contra a Kalshi abre a possibilidade de um precedente na Suprema Corte, adicionando incerteza jurídica ao mercado de previsões e criptoativos. Esses eventos devem ser monitorados em conjunto com os próximos resultados financeiros da Riot Platforms e as movimentações da Strategy, para avaliar o impacto combinado da regulação e da liquidez institucional.",
+    "renda_fixa": "",
+    "acoes": "O mercado de ações enfrenta uma fragilidade estrutural devido à baixa amplitude do S&P 500, onde a alta é sustentada por poucas grandes tecnológicas, enquanto a transição para a validação de ROI na IA concentra capital em empresas com modelos de negócio comprovados. Nesse cenário, a rejeição da oferta da Gold Fields pela Northern Star destaca a resistência a consolidações agressivas no setor de commodities, contrastando com a pressão por eficiência e retorno financeiro que rege o setor de tecnologia.",
+    "cripto": "O mercado está em um ponto de tensão técnica, onde o Bitcoin precisa superar a resistência de US$ 87 mil a US$ 88,5 mil para confirmar a tendência de alta rumo a US$ 100 mil, enquanto a forte demanda institucional via ETFs sustenta o preço mesmo com recuos de curto prazo. Paralelamente, o ambiente regulatório global se intensifica, com Hong Kong expandindo a supervisão financeira e a Coreia do Sul avaliando mecanismos de mercado para estabilizar ativos como o JPYC.",
     "debentures": "",
-    "exterior": "Com o Fed em foco para a próxima reunião do FOMC e a divulgação do Payroll, o mercado precisa equilibrar a expectativa de alta de juros com a resiliência dos lucros corporativos para sustentar a tese de alta do S&P 500. A finalização de padrões de economia de combustível mais baixos nos EUA e a falha de software na Boeing adicionam variáveis setoriais específicas que podem influenciar o sentimento de risco, enquanto a estabilidade do dólar e o desempenho do mercado russo oferecem um contraponto global à dinâmica interna americana.",
-    "imobiliario": "O foco permanece no risco de resgate das ações preferenciais da Simon Property Group, que pode pressionar a liquidez e exigir refinanciamento para sustentar os proventos. O próximo evento relevante a ser monitorado é a divulgação dos resultados trimestrais da empresa ou um anúncio oficial sobre a gestão da dívida e capitalização."
+    "exterior": "O mercado enfrenta uma tensão entre a concentração extrema de capital nas grandes tecnológicas, que limita a amplitude do S&P 500, e a crescente exigência por validação financeira e ROI nos setores de IA e semicondutores. Enquanto a fragilidade estrutural do índice aumenta o risco de reversão acentuada, a rejeição da fusão entre Northern Star e Gold Fields sinaliza que a consolidação setorial pode enfrentar resistências específicas, independentemente da pressão por eficiência operacional.",
+    "imobiliario": ""
   }
 }
