@@ -1,122 +1,63 @@
 {
-  "gerado_em": "2026-09-30T11:17:56.885893+00:00",
+  "gerado_em": "2026-09-30T16:58:49.589503+00:00",
   "itens": [
     {
-      "title": "Tempo real: Ibovespa acompanha inflação e PIB dos EUA, além de indicadores do Brasil",
+      "title": "Wall Street avança com inflação mais fraca e alívio nos Treasuries",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/tempo-real-30-9-26-apsa/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "A agenda econômica de hoje concentra a atenção do mercado na divulgação do resultado primário brasileiro e dos indicadores de inflação (PCE) e atividade (PIB) dos Estados Unidos. Paralelamente, o setor imobiliário e aéreo registram movimentos corporativos relevantes, incluindo novas emissões de cotas e captações de crédito.",
-      "mecanismo": "A combinação da leitura final do PIB americano com o índice PCE e o resultado primário brasileiro define o tom para a curva de juros global e local, pois dados de atividade e inflação acima do esperado tendem a sustentar expectativas de taxas mais altas por mais tempo, impactando diretamente o custo de capital e a valuation de ativos de risco.",
-      "implicacao": "Com a incerteza elevada sobre a trajetória da inflação e o crescimento econômico, o setor de infraestrutura e bens de capital tende a enfrentar volatilidade, já que a decisão de investimento corporativo depende da clareza sobre o custo de financiamento e a demanda futura.",
-      "risco": "Uma surpresa negativa nos dados de inflação americana ou no resultado primário brasileiro pode inverter a expectativa de alívio monetário, pressionando os mercados de ações e elevando o prêmio de risco soberano.",
-      "proximo_evento": "Divulgação do resultado primário consolidado de agosto no Brasil e dos dados de PCE e PIB dos EUA ao longo do dia de hoje (30/09).",
-      "key_numbers": [
-        "VGV Eztec: R$ 212 milhões",
-        "Captação CPUR11: R$ 300 milhões",
-        "Crédito Azul: R$ 1,3 bilhão"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Juros futuros fecham em firme queda com moderação dos Treasuries",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/juros-futuros-29-9-26-apsa/",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "A curva de juros futuros brasileiros recuou nesta terça-feira, impulsionada pela moderação dos rendimentos dos Treasuries após declarações menos agressivas de um dirigente do Fed, ignorando os dados fortes do mercado de trabalho local.",
-      "mecanismo": "As falas de John Williams, presidente do Fed de Nova York, sugerindo que não há urgência para novos aumentos de juros nos EUA, reduziram a pressão sobre os títulos americanos de longo prazo; essa desaceleração externa serviu de âncora para os DIs brasileiros, que caíram apesar do Caged ter superado as expectativas, pois o mercado priorizou o cenário global e a ausência de urgência monetária americana sobre o aquecimento do mercado de trabalho doméstico.",
-      "implicacao": "Com a perspectiva de que o Banco Central não cortará a Selic em 2026 devido à inflação desancorada e mercado de trabalho resiliente, a classe de ativos de renda fixa de curto prazo tende a se valorizar menos que o esperado, enquanto títulos indexados à inflação (IPCA+) podem sofrer pressão de preço se as expectativas inflacionárias continuarem elevadas, já que o custo de oportunidade de manter liquidez ou ativos atrelados ao IPCA permanece alto.",
-      "risco": "O raciocínio pode ser invalidado se novos dados econômicos dos EUA mostrarem fraqueza significativa, forçando o Fed a adotar um tom mais dovish do que o esperado, o que poderia reverter a queda dos juros futuros brasileiros e abrir espaço para cortes antecipados da Selic.",
-      "proximo_evento": "Próxima reunião do Copom e divulgação de novos dados de inflação e atividade econômica nos EUA ao longo de setembro.",
-      "key_numbers": [
-        "DI Jan/2027: 13,550%",
-        "DI Jan/2029: 13,755%",
-        "Desemprego (Pnad): 5,3%",
-        "Vagas Caged: 165,8 mil"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Juros nos EUA voltam a assustar: Treasury de 30 anos bate maior nível desde 2002",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/juros-nos-eua-voltam-a-assustar-treasury-de-30-anos-bate-maior-nivel-desde-2002/",
+      "link": "https://www.moneytimes.com.br/wall-street-abertura-30-9-26-lils/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "Os rendimentos dos Treasuries de 30 anos atingiram 5,612%, o maior nível desde 2002, impulsionados pela expectativa de que o Fed mantenha juros elevados por mais tempo, apesar do petróleo operar abaixo de US$ 100.",
-      "mecanismo": "A combinação de dados de atividade econômica e declarações de dirigentes do Fed reforça a aposta de pelo menos mais um aumento de juros até dezembro, o que pressiona para cima os rendimentos de longo prazo, encarecendo o custo de capital e reduzindo o apetite por ativos de risco.",
-      "implicacao": "Com a perspectiva de juros altos por mais tempo nos EUA, a classe de ativos de renda variável global tende a sofrer pressão de venda, já que o custo de desconto futuro dos lucros corporativos aumenta e o fluxo de capital migra para títulos de renda fixa de maior segurança.",
-      "risco": "O cenário de aperto monetário pode ser invalidado se os próximos dados de inflação (PCE) e emprego (payroll) mostrarem uma desaceleração econômica mais acentuada do que o esperado, forçando o Fed a adotar uma postura mais dovish.",
-      "proximo_evento": "Divulgação do Índice de Despesas de Consumo Pessoal (PCE) dos EUA, prevista para amanhã (30/09), que é a principal referência de inflação para o Fed.",
+      "resumo": "Os índices de Nova York operam em alta após a divulgação de dados de inflação nos EUA mais fracos que o esperado, o que reduziu as expectativas de aperto monetário e derrubou os rendimentos dos títulos do Tesouro.",
+      "mecanismo": "A desaceleração do PCE para 3,4% anual, abaixo da projeção de 3,7%, sinaliza que a pressão inflacionária está perdendo força, o que leva o mercado a precificar uma maior probabilidade de manutenção dos juros pelo Fed em outubro, reduzindo o prêmio de risco e o custo do dinheiro, o que favorece a valorização de ativos de risco como ações.",
+      "implicacao": "Com a perspectiva de juros estáveis e menor pressão inflacionária, o setor de tecnologia tende a se beneficiar, já que a redução no custo de capital e a manutenção do apetite por risco sustentam a avaliação de empresas de alto crescimento, especialmente aquelas expostas ao ciclo de inteligência artificial.",
+      "risco": "A inflação anual de 3,4% ainda está acima da meta de 2% do Fed, o que pode levar o banco central a adotar uma postura mais restritiva do que o mercado espera se os próximos dados mostrarem resiliência nos preços.",
+      "proximo_evento": "Divulgação dos resultados trimestrais da Micron nesta quarta-feira e a próxima decisão de política monetária do Federal Reserve em outubro.",
       "key_numbers": [
-        "Yield Treasury 30 anos: 5,612%",
-        "Faixa de juros Fed: 3,75% a 4,00%",
-        "Confiança do consumidor: 81,9",
-        "Vagas em aberto (Jolts): 7,079 milhões"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Ibovespa avança com ajuda de Petrobras (PETR4) e bancos; dólar cai a R$ 5,21",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-29-9-26-apsa/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Ibovespa encerrou o pregão em alta de 0,46%, impulsionado pela recuperação de Petrobras e bancos, enquanto o dólar recuou para R$ 5,21. O mercado reage a um cenário eleitoral acirrado entre Lula e Flávio Bolsonaro, que mantém a volatilidade elevada nos ativos domésticos.",
-      "mecanismo": "O empate técnico nas pesquisas eleitorais (47,6% vs 47,7%) gera incerteza política que o mercado interpreta como um risco de cauda, levando a uma rotação para ativos de maior risco (beta) e para setores defensivos como utilities e bancos, que se beneficiam da queda na curva de juros futuros, enquanto commodities como minério de ferro sofrem pressão por notícias operacionais negativas específicas (redução de produção da CSN).",
-      "implicacao": "Com a incerteza eleitoral mantendo a volatilidade e a queda da curva de juros futuros, o setor de utilities e instituições financeiras tende a se valorizar, já que a redução do custo de capital favorece a rentabilidade desses ativos e a demanda por crédito, enquanto o setor de mineração enfrenta pressão de preços devido a ajustes operacionais e de frete.",
-      "risco": "Uma definição clara do cenário eleitoral ou uma escalada de escândalos envolvendo os principais candidatos pode inverter a rotação de ativos, provocando uma fuga para o caixa e uma alta abrupta do dólar, invalidando a tese de alta nos ativos de risco.",
-      "proximo_evento": "Novos levantamentos de intenção de voto para as eleições presidenciais de 2026 e a divulgação de dados macroeconômicos subsequentes ao Caged de agosto.",
-      "key_numbers": [
-        "Ibovespa: 183.832,61 pontos",
-        "Dólar: R$ 5,2170",
-        "Desemprego: 5,3%",
-        "Caged: +165 mil"
+        "PCE anual: 3,4%",
+        "Chance de manutenção de juros: 62,9%",
+        "S&P 500: +0,51%",
+        "Nasdaq: +0,92%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Wall Street fecha no vermelho com juros longos no maior nível em 24 anos",
+      "title": "Mini índice sobe, mas ainda preocupa; veja o que esperar, na visão do BTG Pactual",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-29-9-26-lils/",
+      "link": "https://www.moneytimes.com.br/mini-indice-sobe-mas-ainda-preocupa-veja-o-que-esperar-na-visao-do-btg-pactual-ceci/",
       "categorias": [
-        "exterior"
+        "acoes"
       ],
-      "resumo": "Os principais índices de Wall Street encerraram o dia em queda, pressionados pelo recorde histórico dos rendimentos dos Treasuries de longo prazo e por declarações de dirigentes do Fed que reforçam a expectativa de manutenção de juros elevados.",
-      "mecanismo": "A combinação de inflação persistente (impulsionada por energia e investimentos em IA) e dados de confiança do consumidor em mínimos de 12 anos leva o Fed a sinalizar novas altas de juros, o que eleva o custo do dinheiro e desvaloriza ativos de risco, especialmente aqueles com fluxos de caixa futuros descontados a taxas mais altas.",
-      "implicacao": "Com a perspectiva de juros altos por mais tempo, o setor de tecnologia e empresas de crescimento (growth) tende a sofrer pressão de valuation, já que o aumento na taxa de desconto reduz o valor presente de seus lucros futuros, enquanto setores defensivos ou sensíveis a taxas de juros reais podem ganhar relativo.",
-      "risco": "Um dado de inflação (PCE) ou de emprego (payroll) significativamente mais fraco do que o esperado poderia inverter a narrativa, reduzindo as apostas em novas altas de juros e provocando um rally técnico nos mercados de ações.",
-      "proximo_evento": "Divulgação do Índice de Despesas de Consumo Pessoal (PCE) amanhã (30/09) e do relatório de empregos não-agrícolas (payroll) na sexta-feira (02/10).",
+      "resumo": "O mini índice fechou em alta, mas permanece tecnicamente fragilizado por estar abaixo das principais médias móveis de curto prazo, enquanto o mini dólar recuou levemente mantendo estrutura de alta no curto prazo.",
+      "mecanismo": "A recuperação do Ibovespa é vista como frágil porque o preço ainda não rompeu a resistência dinâmica da média móvel de 50 períodos (185.165 pontos); sem esse rompimento, a tendência de baixa no curto prazo se mantém, limitando o espaço para uma alta sustentada até a região dos 187 mil pontos.",
+      "implicacao": "Com a estrutura técnica do índice deteriorada no curto prazo, ativos de alta beta e setores cíclicos tendem a enfrentar pressão vendedora ou lateralização, já que a falta de rompimento das médias móveis inibe a entrada de fluxo especulativo agressivo.",
+      "risco": "Uma surpresa macroeconômica positiva ou fluxo estrangeiro forte poderia forçar o rompimento imediato da resistência, invalidando a leitura de fragilidade técnica e acelerando a alta.",
+      "proximo_evento": "A confirmação técnica de rompimento da resistência em 185.165 pontos no mini índice ou a perda do suporte em 184.281 pontos.",
       "key_numbers": [
-        "S&P 500: -0,16%",
-        "Yield Treasury 30 anos: 5,613%",
-        "Confiança do consumidor: 81,9",
-        "Chance de alta Fed em outubro: 51,5%"
+        "Mini Índice (WINV26): 185.115 pontos",
+        "Resistência MM50: 185.165 pontos",
+        "Mini Dólar (WDOX26): 5.203 pontos",
+        "Suporte MM21 Dólar: 5.214,50 pontos"
       ],
-      "sentiment": "down"
+      "sentiment": "neutral"
     },
     {
-      "title": "Dólar recua a R$ 5,21 de olho no cenário doméstico, apesar de avanço dos Treasuries",
+      "title": "Ibovespa salta mais de 1% com inflação mais fraca nos EUA e eleições em foco; 5 coisas para saber antes de investir hoje (30)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/dolar-29-9-26-apsa/",
+      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-30-9-26-lils/",
       "categorias": [
-        "renda_fixa"
+        "acoes"
       ],
-      "resumo": "O dólar caiu para R$ 5,2170 no Brasil, movido por otimismo local com o cenário eleitoral e a proibição das bets, enquanto o dólar global subia impulsionado pela alta dos juros dos Treasuries.",
-      "mecanismo": "A queda local do câmbio ocorre porque o mercado brasileiro está focado em fatores domésticos, especificamente a expectativa de que a Medida Provisória proibindo as bets e a estabilidade nas pesquisas eleitorais (Lula e Flávio Bolsonaro empatados) reduzam a aversão ao risco local, o que atrai capital para o mercado interno e pressiona o dólar para baixo, mesmo com o DXY subindo globalmente.",
-      "implicacao": "Com a estabilidade cambial e a redução da aversão ao risco político, ativos de renda variável brasileira e títulos públicos locais tendem a se beneficiar, já que a entrada de capital estrangeiro e a confiança no cenário doméstico suportam os preços dos ativos de risco.",
-      "risco": "A escalada dos juros dos Treasuries nos EUA (30 anos a 5,60%) pode forçar o Fed a ser mais agressivo, o que poderia reverter o fluxo de capitais para fora do Brasil e pressionar o dólar para cima, invalidando a tese de queda local.",
-      "proximo_evento": "Novas pesquisas eleitorais presidenciais e a tramitação da Medida Provisória sobre a proibição das apostas de apostas (bets) no Congresso.",
+      "resumo": "O Ibovespa avança impulsionado por dados de inflação mais fracos nos EUA e petróleo acima de US$ 100, enquanto o mercado monitora o empate técnico entre Lula e Flávio Bolsonaro a quatro dias do primeiro turno.",
+      "mecanismo": "A desaceleração da inflação americana (PCE) elevou para 62,9% a probabilidade de o Fed manter os juros em 3,75%-4,00% em outubro, o que pressiona o dólar para baixo (DXY em queda) e atrai capital para mercados emergentes como o Brasil; simultaneamente, a recusa de Trump em aliviar sanções ao Irã sustenta o petróleo acima de US$ 100, beneficiando exportadoras de commodities.",
+      "implicacao": "Com o dólar em queda e o petróleo em alta, o setor de energia e exportadoras de commodities tendem a se beneficiar, já que a moeda forte reduz custos de insumos importados e a alta do barril melhora a margem bruta das empresas do setor.",
+      "risco": "Uma surpresa negativa nas pesquisas eleitorais ou um acordo de paz súbito entre EUA e Irã que derrube o petróleo abaixo de US$ 100 pode reverter o fluxo de capital para fora do Brasil e pressionar o Ibovespa.",
+      "proximo_evento": "Primeiro turno das eleições presidenciais no Brasil, ocorrendo em 4 dias (4 de outubro de 2026).",
       "key_numbers": [
-        "Dólar à vista: R$ 5,2170",
-        "T-bond 30 anos EUA: 5,60%",
-        "Desemprego Brasil: 5,3%",
-        "Petróleo Brent: US$ 102,59"
+        "Ibovespa: 186.615,13 pontos",
+        "Dólar: R$ 5,1803",
+        "Petróleo Brent: US$ 103,19",
+        "Probabilidade Fed manter juros: 62,9%"
       ],
       "sentiment": "up"
     },
@@ -159,39 +100,93 @@
         "Juro T-Bond 30 anos: 5,60%"
       ],
       "sentiment": "down"
+    },
+    {
+      "title": "S&P rises, Nasdaq gains 1% as traders pare Fed rate hike bets on U.S. data deluge",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-drift-higher-as-yields-pause-oil-prices-slide-4923936",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "Os índices S&P 500 e Nasdaq registraram alta, com o Nasdaq subindo 1%, impulsionados pela redução das apostas do mercado em novos aumentos de juros pelo Federal Reserve diante de uma série de dados econômicos dos EUA.",
+      "mecanismo": "A divulgação de um volume significativo de dados econômicos nos EUA levou os traders a reprecificar a probabilidade de novos aumentos de juros pelo Fed; essa redução na expectativa de aperto monetário alivia a pressão sobre os múltiplos de avaliação, beneficiando especialmente o setor de tecnologia (Nasdaq), que é mais sensível a taxas de desconto futuras.",
+      "implicacao": "Com a perspectiva de juros mais estáveis ou menos agressivos, o setor de tecnologia e ativos de crescimento tendem a se valorizar, já que a redução do custo de capital futuro aumenta o valor presente dos fluxos de caixa esperados dessas empresas.",
+      "risco": "O cenário pode ser invalidado se os próximos dados econômicos dos EUA mostrarem inflação persistentemente alta ou mercado de trabalho excessivamente aquecido, forçando o Fed a retomar o ciclo de alta de juros.",
+      "proximo_evento": "Próxima reunião do Federal Reserve (FOMC) ou a próxima janela de divulgação de dados macroeconômicos dos EUA (como inflação ou mercado de trabalho) que possa confirmar ou reverter essa mudança de expectativa.",
+      "key_numbers": [
+        "Nasdaq: +1%",
+        "S&P 500: Alta (sem % especificado)"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "PCE Inflation: Don't Be Misled By Today's Numbers",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4951086-pce-inflation-dont-be-misled-by-todays-numbers?source=feed_all_articles",
+      "categorias": [
+        "renda_fixa",
+        "exterior"
+      ],
+      "resumo": "O índice de preços PCE, principal medidor de inflação nos EUA, registrou alta anual de 3,40%, abaixo da expectativa de mercado de 3,70%.",
+      "mecanismo": "A desaceleração da inflação em relação ao consenso reduz a pressão sobre o Federal Reserve para manter ou elevar os juros, aumentando a probabilidade de um ciclo de afrouxamento monetário, o que tende a reduzir o custo de capital e apoiar a valorização de ativos de risco.",
+      "implicacao": "Com a inflação mais controlada, o setor de tecnologia e empresas de crescimento tendem a se beneficiar, já que a perspectiva de queda nos juros futuros aumenta o valor presente dos fluxos de caixa esperados no longo prazo.",
+      "risco": "O risco reside na possibilidade de a inflação de serviços ou salários continuarem elevados, invalidando a tese de desaceleração e forçando o Fed a manter uma postura mais restritiva do que o mercado antecipa.",
+      "proximo_evento": "Próxima divulgação dos dados de PCE e a próxima reunião do Federal Reserve para definição da taxa de juros.",
+      "key_numbers": [
+        "PCE YoY: 3.40%",
+        "Expectativa PCE: 3.70%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "PCE: Don't Confuse A Revision With Disinflation",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4951060-pce-dont-confuse-a-revision-with-disinflation?source=feed_all_articles",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "O relatório de PCE de agosto apresenta uma aparência superficialmente favorável ao Fed, mas o artigo argumenta que isso é uma ilusão causada por revisões estatísticas, não por uma desaceleração real da inflação.",
+      "mecanismo": "A leitura inicial do PCE sugere desinflação, o que poderia levar o Fed a adotar uma postura mais dovish; no entanto, a correção de dados anteriores mascara a persistência da pressão inflacionária, impedindo que o mercado precifique cortes de juros iminentes e mantendo a incerteza sobre a trajetória da política monetária.",
+      "implicacao": "Como a inflação pode estar mais persistente do que os números revisados sugerem, ativos sensíveis a taxas de juros, como títulos de longo prazo e ações de crescimento, tendem a enfrentar pressão de venda, já que a expectativa de cortes de juros pode ser adiada.",
+      "risco": "Se os próximos dados confirmarem uma desaceleração genuína da inflação e não apenas uma revisão estatística, a tese de persistência inflacionária se invalida e o mercado pode reagir positivamente à perspectiva de alívio monetário.",
+      "proximo_evento": "Próxima divulgação dos dados de PCE e a reunião do FOMC para avaliação da política de juros.",
+      "key_numbers": [
+        "PCE (Agosto): Não especificado no texto",
+        "Revisão PCE: Fator de distorção"
+      ],
+      "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [
-      "O artigo da Seeking Alpha afirma que o CSHI oferece um prêmio sobre os rendimentos dos T-Bills em troca de um risco oculto, porém gerenciável."
+      "O mercado moveu-se majoritariamente para cima após a divulgação do relatório de PCE."
     ],
     "acoes": [
-      "O UBS BB reduziu o preço-alvo das ações da Vale (VALE3) devido ao aumento do frete, um fator que também impactou negativamente a CSN (CSNA3), que caiu 9,85% na terça-feira.",
-      "O Ibovespa fechou em alta de 0,46% na terça-feira (29/09) com o dólar a R$ 5,21, enquanto a taxa de desemprego caiu para 5,3%, a menor para o trimestre até agosto.",
-      "As bolsas asiáticas fecharam mistas na quarta-feira (30), com o Nikkei subindo 1,94% impulsionado por ações de IA, enquanto a guerra no Oriente Médio permaneceu no radar dos investidores.",
-      "Os futuros das ações dos EUA estão estáveis antes da divulgação de dados-chave de inflação e dos resultados da Micron."
+      "O JPMorgan projetou três cenários para as eleições presidenciais e separou ações em três carteiras, diante da disputa acirrada entre Lula e Flávio Bolsonaro sem um vencedor claro nas pesquisas.",
+      "A Ágora Investimentos recomendou a compra de Itaú Unibanco (ITUB4) e a venda de Minerva Foods (BEEF3) para day trade, com potencial de ganho de até 1,53% e stop sugerido de R$ 42,09 para a ITUB4.",
+      "O Ibovespa futuro iniciou o pregão em leve queda de 0,13% aos 184.750 pontos, enquanto o dólar à vista abriu a R$ 5,2149 e passou a operar em sintonia com a pressão externa.",
+      "O Ibovespa caminha para encerrar setembro com alta de mais de 4%, impulsionado por dados de inflação nos Estados Unidos e nova rodada de pesquisas de intenção de votos."
     ],
     "cripto": [
-      "O Bitcoin subiu para US$ 84 mil após o rendimento dos títulos de 30 anos dos EUA atingir um recorde de 24 anos.",
       "Os fluxos de entrada nos ETFs de criptomoedas dos EUA esfriaram após uma semana de US$ 3,3 bilhões, mas as sequências de entradas se mantêm.",
-      "A Coinbase obteve aprovação da CFTC para operar uma câmara de compensação de derivativos nos EUA, juntando-se à Kraken.",
-      "A Bitwise lançou o primeiro ETF spot de NEAR nos EUA após o recente aumento do token."
+      "O Bitcoin subiu para US$ 84 mil após o rendimento dos títulos de 30 anos dos EUA atingir a máxima de 24 anos.",
+      "O CEO da Bitget declarou não estar 'muito otimista' sobre a recuperação dos fundos do vazamento de US$ 388 milhões.",
+      "A Bitget está 'gradualmente de volta ao normal' enquanto o fundo de proteção atinge US$ 309 milhões."
     ],
     "debentures": [],
     "exterior": [
-      "Os preços do petróleo caem nesta quarta-feira (30) após o presidente dos EUA, Donald Trump, negar disposição em aliviar sanções contra o Irã, enquanto o Catar pressionava por negociações de paz.",
-      "O petróleo fechou em queda na terça-feira (29) com a retomada das exportações pelo oleoduto da Arábia Saudita e a expectativa de avanço nas negociações entre Estados Unidos e Irã.",
-      "O Goldman Sachs projeta que fundos de pensão dos EUA venderão US$ 33 bilhões em ações no curto prazo.",
-      "A inflação na França registrou um aumento, somando-se às pressões crescentes sobre a economia do país."
+      "Bolsas da Ásia fecharam mistas nesta quarta-feira (30), com o Nikkei subindo 1,94% para 66.753,72 pontos, impulsionado por ações de IA e preocupações com a guerra no Oriente Médio.",
+      "Ações europeias caíram enquanto os mercados ponderavam a inflação elevada na UE contra dados econômicos fracos dos Estados Unidos.",
+      "Os mercados se moveram majoritariamente para cima após a divulgação do relatório de PCE."
     ],
     "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O mercado de renda fixa segue ancorado na moderação dos juros futuros impulsionada pelas falas do Fed de Nova York e pela redução da aversão ao risco local, que levou o dólar a recuar para R$ 5,21. A atenção deve se manter na próxima reunião do Copom e na divulgação de novos dados de inflação e atividade econômica nos EUA, além do impacto da Medida Provisória sobre as apostas e das novas pesquisas eleitorais no cenário doméstico.",
-    "acoes": "O mercado brasileiro segue sensível à combinação de dados macroeconômicos locais, como a queda do desemprego para 5,3%, e à volatilidade externa, onde a guerra no Oriente Médio e os dados de inflação dos EUA pressionam a curva de juros. Enquanto isso, o setor de commodities enfrenta pressão específica com a alta do frete, que levou o UBS BB a cortar o preço-alvo da Vale e contribuiu para a forte queda da CSN, contrastando com a rotação para bancos e defensivos vista anteriormente.",
-    "cripto": "A atenção deve se concentrar na tensão entre a alta dos rendimentos dos títulos de longo prazo, que pressiona os preços do Bitcoin, e a resiliência dos fluxos institucionais via ETFs, que continuam a sustentar a demanda apesar do esfriamento recente. Além disso, a expansão da infraestrutura regulatória, evidenciada pela aprovação da câmara de compensação da Coinbase e pelo lançamento de novos ETFs como o de NEAR, sinaliza uma consolidação contínua do mercado cripto nos EUA.",
+    "renda_fixa": "A atenção deve se concentrar na capacidade do mercado de precificar corretamente a trajetória da política monetária, evitando confundir revisões de dados com desinflação real. É fundamental monitorar como as próximas divulgações de PCE e as reuniões do Federal Reserve e do FOMC impactarão a probabilidade de cortes de juros e o custo de capital para ativos de risco.",
+    "acoes": "Com o primeiro turno das eleições presidenciais a quatro dias, o mercado enfrenta a incerteza política mapeada pelo JPMorgan em três cenários, o que contrasta com a fragilidade técnica do Ibovespa, que ainda não rompeu a resistência de 185.165 pontos. A dinâmica atual é marcada pela sensibilidade a dados macroeconômicos externos, como a inflação americana que pressiona o dólar para baixo, e pela volatilidade intradiária observada no início do pregão, onde o índice futuro recuou apesar do otimismo com o fechamento de setembro.",
+    "cripto": "A dinâmica de mercado continua sendo ditada pela tensão entre a atratividade dos títulos de longo prazo dos EUA, que atingiram máximas de 24 anos, e a demanda institucional persistente pelos ETFs de Bitcoin, que mantém sequências de entradas mesmo com o resfriamento recente dos fluxos. Enquanto o preço do Bitcoin encontra resistência na faixa de US$ 84k-85k devido à oferta de detentores de longo prazo, o setor enfrenta riscos operacionais significativos, evidenciados pela dificuldade de recuperação de fundos após o grande vazamento da Bitget e a mobilização de seu fundo de proteção.",
     "debentures": "",
-    "exterior": "O mercado global enfrenta uma dinâmica de alta tensão entre a pressão dos juros longos nos EUA, que atingiram níveis recordes e pressionam ativos de risco, e a volatilidade no setor de energia, onde a retomada da oferta saudita e as negociações geopolíticas no Oriente Médio derrubaram o petróleo abaixo de US$ 100. Enquanto o Fed prepara o terreno para possíveis novas altas de juros antes da divulgação do PCE e do payroll, o fluxo de vendas de US$ 33 bilhões por fundos de pensão americanos e o aumento da inflação na França indicam um ambiente de desalavancagem e cautela global.",
+    "exterior": "O mercado global está em um momento de divergência, onde a desaceleração da inflação nos EUA (PCE) e a redução das apostas em novos aumentos de juros pelo Fed sustentam a alta de ativos de risco, especialmente tecnologia, enquanto a Europa enfrenta a pressão de uma inflação local mais resistente. A atenção deve se manter na capacidade dos dados econômicos americanos de confirmar o alívio monetário e no impacto geopolítico do Oriente Médio sobre os mercados asiáticos e globais.",
     "imobiliario": ""
   }
 }
