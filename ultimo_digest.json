@@ -1,65 +1,144 @@
 {
-  "gerado_em": "2026-09-29T17:03:07.270885+00:00",
+  "gerado_em": "2026-09-30T11:17:56.885893+00:00",
   "itens": [
     {
-      "title": "Wall Street tem tom misto com Treasuries, petróleo e IA",
+      "title": "Tempo real: Ibovespa acompanha inflação e PIB dos EUA, além de indicadores do Brasil",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-abertura-29-9-26-lils/",
+      "link": "https://www.moneytimes.com.br/tempo-real-30-9-26-apsa/",
       "categorias": [
-        "exterior"
+        "acoes"
       ],
-      "resumo": "Os índices de Wall Street operam sem direção clara, refletindo um alívio temporário na pressão dos juros e do petróleo, enquanto o mercado digere o impacto do programa de recompra de ações da Nvidia e monitora as negociações geopolíticas no Oriente Médio.",
-      "mecanismo": "A queda nos preços do petróleo e a volatilidade nos rendimentos dos Treasuries, ainda que em máximas históricas, aliviam a pressão sobre os custos de capital e a inflação, o que estabiliza os índices; simultaneamente, o programa de recompra de US$ 150 bilhões da Nvidia reduz a oferta de ações no mercado, criando suporte técnico para o setor de tecnologia e IA.",
-      "implicacao": "Com o alívio nos juros e o suporte de recompras corporativas, o setor de tecnologia e inteligência artificial tende a manter resiliência, já que a redução da oferta de papéis e a estabilização macroeconômica favorecem ativos de crescimento que dependem de fluxos de caixa futuros descontados.",
-      "risco": "A manutenção dos yields dos Treasuries em máximas históricas pode reverter o alívio atual, pressionando novamente os múltiplos de avaliação das ações de tecnologia e reavivando a aversão ao risco se os dados de trabalho vierem mais fortes que o esperado.",
-      "proximo_evento": "Divulgação dos novos dados de confiança do consumidor e do mercado de trabalho nos EUA ao longo do dia.",
+      "resumo": "A agenda econômica de hoje concentra a atenção do mercado na divulgação do resultado primário brasileiro e dos indicadores de inflação (PCE) e atividade (PIB) dos Estados Unidos. Paralelamente, o setor imobiliário e aéreo registram movimentos corporativos relevantes, incluindo novas emissões de cotas e captações de crédito.",
+      "mecanismo": "A combinação da leitura final do PIB americano com o índice PCE e o resultado primário brasileiro define o tom para a curva de juros global e local, pois dados de atividade e inflação acima do esperado tendem a sustentar expectativas de taxas mais altas por mais tempo, impactando diretamente o custo de capital e a valuation de ativos de risco.",
+      "implicacao": "Com a incerteza elevada sobre a trajetória da inflação e o crescimento econômico, o setor de infraestrutura e bens de capital tende a enfrentar volatilidade, já que a decisão de investimento corporativo depende da clareza sobre o custo de financiamento e a demanda futura.",
+      "risco": "Uma surpresa negativa nos dados de inflação americana ou no resultado primário brasileiro pode inverter a expectativa de alívio monetário, pressionando os mercados de ações e elevando o prêmio de risco soberano.",
+      "proximo_evento": "Divulgação do resultado primário consolidado de agosto no Brasil e dos dados de PCE e PIB dos EUA ao longo do dia de hoje (30/09).",
       "key_numbers": [
-        "S&P 500: 7.684,59 pontos",
-        "Recompra Nvidia: US$ 150 bilhões",
-        "Brent: retorno ao nível de US$ 100",
-        "Dow Jones: 51.381,13 pontos"
+        "VGV Eztec: R$ 212 milhões",
+        "Captação CPUR11: R$ 300 milhões",
+        "Crédito Azul: R$ 1,3 bilhão"
       ],
       "sentiment": "neutral"
     },
     {
-      "title": "‘Termômetro do medo’ da B3 renova máxima histórica e atinge 31 pontos pela primeira vez a poucos dias das eleições",
+      "title": "Juros futuros fecham em firme queda com moderação dos Treasuries",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/termometro-do-medo-da-b3-renova-maxima-historica-e-atinge-31-pontos-pela-primeira-vez-a-poucos-dias-das-eleicoes-lils/",
+      "link": "https://www.moneytimes.com.br/juros-futuros-29-9-26-apsa/",
       "categorias": [
-        "acoes"
+        "renda_fixa"
       ],
-      "resumo": "O VIX Brasil atingiu 31,84 pontos, recorde histórico desde sua criação, refletindo a máxima incerteza do mercado a poucos dias do primeiro turno das eleições de 2026.",
-      "mecanismo": "A acirrada disputa eleitoral, com Lula e Flávio Bolsonaro separados por margens mínimas nas pesquisas, levou o mercado a precificar uma probabilidade de 50/50 para o resultado, o que elevou drasticamente a volatilidade implícita nas opções do Ibovespa e disparou o índice de medo para níveis nunca vistos antes.",
-      "implicacao": "Com o prêmio de risco em patamar histórico, a classe de ativos de proteção (como opções put e hedge cambial) tende a se valorizar, enquanto ações sensíveis a risco político podem sofrer pressão vendedora até a definição do cenário eleitoral.",
-      "risco": "Uma definição clara e antecipada do vencedor nas pesquisas ou um acordo de estabilidade política poderia reduzir abruptamente a volatilidade, invalidando a tese de manutenção de prêmios de risco elevados.",
-      "proximo_evento": "O primeiro turno das eleições presidenciais, que ocorrerá em menos de uma semana a partir da data da notícia.",
+      "resumo": "A curva de juros futuros brasileiros recuou nesta terça-feira, impulsionada pela moderação dos rendimentos dos Treasuries após declarações menos agressivas de um dirigente do Fed, ignorando os dados fortes do mercado de trabalho local.",
+      "mecanismo": "As falas de John Williams, presidente do Fed de Nova York, sugerindo que não há urgência para novos aumentos de juros nos EUA, reduziram a pressão sobre os títulos americanos de longo prazo; essa desaceleração externa serviu de âncora para os DIs brasileiros, que caíram apesar do Caged ter superado as expectativas, pois o mercado priorizou o cenário global e a ausência de urgência monetária americana sobre o aquecimento do mercado de trabalho doméstico.",
+      "implicacao": "Com a perspectiva de que o Banco Central não cortará a Selic em 2026 devido à inflação desancorada e mercado de trabalho resiliente, a classe de ativos de renda fixa de curto prazo tende a se valorizar menos que o esperado, enquanto títulos indexados à inflação (IPCA+) podem sofrer pressão de preço se as expectativas inflacionárias continuarem elevadas, já que o custo de oportunidade de manter liquidez ou ativos atrelados ao IPCA permanece alto.",
+      "risco": "O raciocínio pode ser invalidado se novos dados econômicos dos EUA mostrarem fraqueza significativa, forçando o Fed a adotar um tom mais dovish do que o esperado, o que poderia reverter a queda dos juros futuros brasileiros e abrir espaço para cortes antecipados da Selic.",
+      "proximo_evento": "Próxima reunião do Copom e divulgação de novos dados de inflação e atividade econômica nos EUA ao longo de setembro.",
       "key_numbers": [
-        "VIX Brasil: 31,84 pontos",
-        "Probabilidade de mercado: 50/50",
-        "Lula (1º turno): 42%",
-        "Flávio Bolsonaro (1º turno): 37%"
+        "DI Jan/2027: 13,550%",
+        "DI Jan/2029: 13,755%",
+        "Desemprego (Pnad): 5,3%",
+        "Vagas Caged: 165,8 mil"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Ibovespa cai com pressão de Petrobras (PETR3;PETR4); 5 coisas para saber antes de investir hoje (29)",
+      "title": "Juros nos EUA voltam a assustar: Treasury de 30 anos bate maior nível desde 2002",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-29-9-26-apsa/",
+      "link": "https://www.moneytimes.com.br/juros-nos-eua-voltam-a-assustar-treasury-de-30-anos-bate-maior-nivel-desde-2002/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "Os rendimentos dos Treasuries de 30 anos atingiram 5,612%, o maior nível desde 2002, impulsionados pela expectativa de que o Fed mantenha juros elevados por mais tempo, apesar do petróleo operar abaixo de US$ 100.",
+      "mecanismo": "A combinação de dados de atividade econômica e declarações de dirigentes do Fed reforça a aposta de pelo menos mais um aumento de juros até dezembro, o que pressiona para cima os rendimentos de longo prazo, encarecendo o custo de capital e reduzindo o apetite por ativos de risco.",
+      "implicacao": "Com a perspectiva de juros altos por mais tempo nos EUA, a classe de ativos de renda variável global tende a sofrer pressão de venda, já que o custo de desconto futuro dos lucros corporativos aumenta e o fluxo de capital migra para títulos de renda fixa de maior segurança.",
+      "risco": "O cenário de aperto monetário pode ser invalidado se os próximos dados de inflação (PCE) e emprego (payroll) mostrarem uma desaceleração econômica mais acentuada do que o esperado, forçando o Fed a adotar uma postura mais dovish.",
+      "proximo_evento": "Divulgação do Índice de Despesas de Consumo Pessoal (PCE) dos EUA, prevista para amanhã (30/09), que é a principal referência de inflação para o Fed.",
+      "key_numbers": [
+        "Yield Treasury 30 anos: 5,612%",
+        "Faixa de juros Fed: 3,75% a 4,00%",
+        "Confiança do consumidor: 81,9",
+        "Vagas em aberto (Jolts): 7,079 milhões"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Ibovespa avança com ajuda de Petrobras (PETR4) e bancos; dólar cai a R$ 5,21",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-29-9-26-apsa/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa opera em queda nesta terça-feira, impulsionado pela retração nos preços do petróleo que penaliza as ações da Petrobras, enquanto o mercado digere uma pesquisa eleitoral que aponta empate técnico entre os principais candidatos à presidência.",
-      "mecanismo": "A queda de quase 2% no Brent e de 2,3% no WTI, motivada por relatos de negociações de cessar-fogo entre EUA e Irã, reduz a margem de lucro esperada das petrolíferas, que possuem peso elevado no índice, puxando o Ibovespa para baixo mesmo com o dólar em queda frente ao real.",
-      "implicacao": "Com a volatilidade eleitoral mantendo o prêmio de risco elevado e o petróleo em tendência de baixa, o setor de energia tende a sofrer pressão de valuation, enquanto a estabilidade do desemprego em patamar histórico baixo pode sustentar a confiança em ativos de consumo doméstico, desde que o cenário político não se agrave.",
-      "risco": "A escalada das tensões entre Arábia Saudita e houthis pode reverter a queda do petróleo, elevando a inflação global e forçando o Fed a manter juros altos por mais tempo, o que pressionaria os mercados emergentes.",
-      "proximo_evento": "Divulgação do Payroll (dados de emprego) dos Estados Unidos na sexta-feira (2), que é crucial para definir as expectativas de juros do Fed.",
+      "resumo": "O Ibovespa encerrou o pregão em alta de 0,46%, impulsionado pela recuperação de Petrobras e bancos, enquanto o dólar recuou para R$ 5,21. O mercado reage a um cenário eleitoral acirrado entre Lula e Flávio Bolsonaro, que mantém a volatilidade elevada nos ativos domésticos.",
+      "mecanismo": "O empate técnico nas pesquisas eleitorais (47,6% vs 47,7%) gera incerteza política que o mercado interpreta como um risco de cauda, levando a uma rotação para ativos de maior risco (beta) e para setores defensivos como utilities e bancos, que se beneficiam da queda na curva de juros futuros, enquanto commodities como minério de ferro sofrem pressão por notícias operacionais negativas específicas (redução de produção da CSN).",
+      "implicacao": "Com a incerteza eleitoral mantendo a volatilidade e a queda da curva de juros futuros, o setor de utilities e instituições financeiras tende a se valorizar, já que a redução do custo de capital favorece a rentabilidade desses ativos e a demanda por crédito, enquanto o setor de mineração enfrenta pressão de preços devido a ajustes operacionais e de frete.",
+      "risco": "Uma definição clara do cenário eleitoral ou uma escalada de escândalos envolvendo os principais candidatos pode inverter a rotação de ativos, provocando uma fuga para o caixa e uma alta abrupta do dólar, invalidando a tese de alta nos ativos de risco.",
+      "proximo_evento": "Novos levantamentos de intenção de voto para as eleições presidenciais de 2026 e a divulgação de dados macroeconômicos subsequentes ao Caged de agosto.",
       "key_numbers": [
-        "Ibovespa: 182.300,06 pontos",
-        "Dólar: R$ 5,2116",
-        "Brent: US$ 103,26",
-        "Desemprego: 5,3%"
+        "Ibovespa: 183.832,61 pontos",
+        "Dólar: R$ 5,2170",
+        "Desemprego: 5,3%",
+        "Caged: +165 mil"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Wall Street fecha no vermelho com juros longos no maior nível em 24 anos",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/wall-street-29-9-26-lils/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "Os principais índices de Wall Street encerraram o dia em queda, pressionados pelo recorde histórico dos rendimentos dos Treasuries de longo prazo e por declarações de dirigentes do Fed que reforçam a expectativa de manutenção de juros elevados.",
+      "mecanismo": "A combinação de inflação persistente (impulsionada por energia e investimentos em IA) e dados de confiança do consumidor em mínimos de 12 anos leva o Fed a sinalizar novas altas de juros, o que eleva o custo do dinheiro e desvaloriza ativos de risco, especialmente aqueles com fluxos de caixa futuros descontados a taxas mais altas.",
+      "implicacao": "Com a perspectiva de juros altos por mais tempo, o setor de tecnologia e empresas de crescimento (growth) tende a sofrer pressão de valuation, já que o aumento na taxa de desconto reduz o valor presente de seus lucros futuros, enquanto setores defensivos ou sensíveis a taxas de juros reais podem ganhar relativo.",
+      "risco": "Um dado de inflação (PCE) ou de emprego (payroll) significativamente mais fraco do que o esperado poderia inverter a narrativa, reduzindo as apostas em novas altas de juros e provocando um rally técnico nos mercados de ações.",
+      "proximo_evento": "Divulgação do Índice de Despesas de Consumo Pessoal (PCE) amanhã (30/09) e do relatório de empregos não-agrícolas (payroll) na sexta-feira (02/10).",
+      "key_numbers": [
+        "S&P 500: -0,16%",
+        "Yield Treasury 30 anos: 5,613%",
+        "Confiança do consumidor: 81,9",
+        "Chance de alta Fed em outubro: 51,5%"
       ],
       "sentiment": "down"
+    },
+    {
+      "title": "Dólar recua a R$ 5,21 de olho no cenário doméstico, apesar de avanço dos Treasuries",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/dolar-29-9-26-apsa/",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "O dólar caiu para R$ 5,2170 no Brasil, movido por otimismo local com o cenário eleitoral e a proibição das bets, enquanto o dólar global subia impulsionado pela alta dos juros dos Treasuries.",
+      "mecanismo": "A queda local do câmbio ocorre porque o mercado brasileiro está focado em fatores domésticos, especificamente a expectativa de que a Medida Provisória proibindo as bets e a estabilidade nas pesquisas eleitorais (Lula e Flávio Bolsonaro empatados) reduzam a aversão ao risco local, o que atrai capital para o mercado interno e pressiona o dólar para baixo, mesmo com o DXY subindo globalmente.",
+      "implicacao": "Com a estabilidade cambial e a redução da aversão ao risco político, ativos de renda variável brasileira e títulos públicos locais tendem a se beneficiar, já que a entrada de capital estrangeiro e a confiança no cenário doméstico suportam os preços dos ativos de risco.",
+      "risco": "A escalada dos juros dos Treasuries nos EUA (30 anos a 5,60%) pode forçar o Fed a ser mais agressivo, o que poderia reverter o fluxo de capitais para fora do Brasil e pressionar o dólar para cima, invalidando a tese de queda local.",
+      "proximo_evento": "Novas pesquisas eleitorais presidenciais e a tramitação da Medida Provisória sobre a proibição das apostas de apostas (bets) no Congresso.",
+      "key_numbers": [
+        "Dólar à vista: R$ 5,2170",
+        "T-bond 30 anos EUA: 5,60%",
+        "Desemprego Brasil: 5,3%",
+        "Petróleo Brent: US$ 102,59"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bitcoin ETFs stretch $3.1B inflow streak as Ether funds turn red",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-streak-9-day-ether-zcash-flip-red?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "Os ETFs de Bitcoin nos EUA estenderam para nove dias a sequência de entradas líquidas, somando cerca de US$ 3,1 bilhões no período, enquanto os fundos de Ether e Zcash registraram saídas após semanas de alta.",
+      "mecanismo": "A alta nos preços do petróleo está limitando o apetite por ativos que não geram rendimento, como o Bitcoin, o que causou uma pausa no rali e uma rotação de capital para fora de altcoins como Ether, apesar da demanda institucional contínua pelo Bitcoin via ETFs.",
+      "implicacao": "Com a pressão de preços de energia limitando ativos sem rendimento, a classe de criptoativos tende a apresentar divergência, com o Bitcoin mantendo suporte institucional via ETFs enquanto altcoins como Ether sofrem com a saída de capital especulativo.",
+      "risco": "Se a alta nos preços do petróleo persistir ou se intensificar, o Bitcoin pode perder seu momentum técnico construtivo e enfrentar uma correção mais ampla, invalidando a tese de resiliência do ativo.",
+      "proximo_evento": "Novos dados diários de fluxo de capital dos ETFs spot de Bitcoin e Ether para verificar se a pausa no rali se consolida ou se a sequência de entradas no Bitcoin se mantém.",
+      "key_numbers": [
+        "Entradas líquidas Bitcoin ETFs (9 dias): US$ 3,1 bilhões",
+        "Entradas líquidas Bitcoin ETFs (dia): US$ 66,2 milhões",
+        "Preço Bitcoin: US$ 83.567",
+        "Índice Medo e Ganância: 71"
+      ],
+      "sentiment": "neutral"
     },
     {
       "title": "Bitcoin gives back gains as long-term holder supply keeps $85K out of reach",
@@ -68,120 +147,51 @@
       "categorias": [
         "cripto"
       ],
-      "resumo": "O Bitcoin recuou abaixo de US$ 83.000 após falhar em romper a resistência de US$ 85.000, pressionado pela alta dos rendimentos dos títulos do Tesouro dos EUA e pela oferta de moedas de detentores de longo prazo.",
-      "mecanismo": "O aumento dos rendimentos dos títulos de 10 e 30 anos para máximas de décadas torna os ativos de risco menos atrativos em comparação com a renda fixa, enquanto a concentração de moedas de detentores de longo prazo (LTHs) na faixa de US$ 84k-85k cria uma barreira de liquidez que força vendas de lucro e impede a continuação da alta.",
-      "implicacao": "Com o custo de oportunidade dos ativos de risco subindo devido aos juros altos nos EUA, a classe de ativos criptoativos tende a enfrentar pressão de venda e volatilidade, já que o fluxo de capital busca segurança em títulos soberanos e a liquidez disponível para alavancagem em cripto diminui.",
-      "risco": "Uma resolução rápida da tensão geopolítica entre EUA e Irã ou uma surpresa negativa nos dados de inflação que force o Fed a adiar o aumento de juros poderia reverter a pressão vendedora e permitir que o Bitcoin rompa a resistência de US$ 85.000.",
+      "resumo": "O Bitcoin recuou abaixo de US$ 83.000 após falhar em romper a resistência de US$ 85.000, pressionado pelo aumento das taxas de juros dos títulos do Tesouro dos EUA e pela oferta de moedas de detentores de longo prazo.",
+      "mecanismo": "O aumento das taxas de juros dos títulos de 10 e 30 anos dos EUA para máximas de décadas torna os ativos de renda fixa mais atrativos, drenando liquidez de ativos de risco como criptomoedas e metais preciosos; simultaneamente, a concentração de oferta de Bitcoin em mãos de detentores de longo prazo na faixa de US$ 84k-85k cria uma barreira de liquidez que força vendas de realização de lucros sempre que o preço tenta superar esse nível.",
+      "implicacao": "Com o custo de capital subindo e a liquidez global se contraindo, a classe de ativos de risco (cripto e ações) tende a enfrentar pressão vendedora ou lateralização, já que o apelo de retornos livres de risco via títulos públicos aumenta e reduz a apetite por volatilidade.",
+      "risco": "Uma desaceleração abrupta na alta dos juros ou uma resolução rápida da tensão geopolítica EUA-Irã poderia reverter o fluxo de capital para ativos de risco, invalidando a tese de pressão vendedora.",
       "proximo_evento": "Reunião do Federal Reserve em outubro, onde o mercado espera um aumento de juros de 0,25%.",
       "key_numbers": [
+        "Bitcoin: US$ 83.000",
         "Resistência BTC: US$ 85.000",
-        "Yield 10 anos EUA: 5.26%",
-        "Yield 30 anos EUA: 5.60%",
-        "Ouro: US$ 4.166/oz"
+        "Juro T-Bond 10 anos: 5,26%",
+        "Juro T-Bond 30 anos: 5,60%"
       ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Bitcoin ETFs draw $2.4B in biggest inflow week since October 2025",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-etf-billion-biggest-inflow-week-october-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "Os ETFs de Bitcoin nos EUA registraram a maior entrada líquida de capital em uma semana desde outubro de 2025, totalizando US$ 2,39 bilhões, enquanto o preço do ativo recuou de US$ 87.100 para cerca de US$ 83.116.",
-      "mecanismo": "A forte demanda institucional via ETFs criou um fluxo de capital robusto que sustentou o preço mesmo durante a correção técnica, indicando que a absorção de oferta por investidores institucionais está superando a pressão vendedora de curto prazo, o que reforça a tese de acumulação em níveis de preço mais baixos.",
-      "implicacao": "Com o fluxo institucional positivo e o índice de Medo e Ganância em 'Ganância' (74), a classe de ativos criptoativos tende a manter suporte estrutural, já que a entrada de capital via veículos regulados reduz a volatilidade extrema e atrai mais participantes institucionais para o mercado.",
-      "risco": "O risco principal é que a desaceleração dos fluxos diários após a alta inicial indique exaustão de compradores, o que, combinado com a queda do preço de US$ 87.100, pode sinalizar uma reversão de tendência se os ETFs passarem a registrar saídas líquidas nas próximas semanas.",
-      "proximo_evento": "Próximos relatórios diários de fluxo de capital dos ETFs spot para verificar se a desaceleração das entradas diárias (que caiu de ~US$ 1 bi para níveis menores) se mantém ou se reverte, além da reação do preço à resistência psicológica de US$ 85.000-87.000.",
-      "key_numbers": [
-        "Fluxo semanal BTC ETFs: US$ 2,39 bi",
-        "Preço atual BTC: US$ 83.116",
-        "Fluxo semanal ETH ETFs: US$ 690 mi",
-        "Índice Medo e Ganância: 74"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "European equities give up gains despite oil decline and Anthropic’s outlook",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/european-equities-edge-up-as-yield-spike-and-rising-crude-saps-sentiment-4921619",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "As bolsas europeias encerraram o pregão sem ganhos líquidos, revertendo alta anterior, mesmo com a queda nos preços do petróleo e o otimismo gerado pela perspectiva da Anthropic.",
-      "mecanismo": "A queda no petróleo reduziria custos operacionais e inflação, mas esse efeito positivo foi neutralizado por fatores de cautela no mercado acionário europeu, possivelmente relacionados a incertezas macroeconômicas ou ajustes de portfólio, impedindo a consolidação dos ganhos iniciais.",
-      "implicacao": "Com a volatilidade mantendo os índices laterais, setores defensivos e de consumo básico tendem a ter desempenho relativo melhor que cíclicos, já que investidores buscam proteção contra a incerteza de curto prazo.",
-      "risco": "Uma reversão abrupta na trajetória dos preços do petróleo ou um choque geopolítico inesperado pode alterar rapidamente a dinâmica de custos e inflação, invalidando a tese de estabilidade.",
-      "proximo_evento": "Próximos relatórios de resultados trimestrais de grandes empresas europeias e dados de inflação (CPI/HICP) da zona do euro.",
-      "key_numbers": [],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "5.5% Treasury Rates Bring Me Back To Ray Dalio's All-Weather Portfolio",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4950713-5-5-percent-treasury-rates-bring-me-back-to-ray-dalios-all-weather-portfolio?source=feed_all_articles",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O retorno dos rendimentos dos Treasuries de 10 anos para a casa de 5,5% está motivando investidores a revisitar a estratégia de alocação All-Weather, que busca equilíbrio entre crescimento e proteção em cenários de juros elevados.",
-      "mecanismo": "A elevação dos juros nominais nos EUA aumenta o custo de oportunidade do dinheiro e pressiona a avaliação de ativos de crescimento, o que torna a diversificação em ativos reais (como ouro) e defensivos (como títulos de curto prazo) mais atrativa para mitigar a volatilidade e proteger o poder de compra, conforme a lógica da carteira All-Weather.",
-      "implicacao": "Com a persistência de juros reais positivos e elevados, a classe de ativos de commodities (especialmente ouro) e títulos de curto prazo tende a ganhar relevância em carteiras balanceadas, enquanto ações de crescimento sensíveis a taxas de desconto podem enfrentar pressão de valuation.",
-      "risco": "O cenário se invalida se o Federal Reserve iniciar cortes agressivos de juros ou se a economia entrar em recessão profunda, o que poderia reverter a tendência de alta dos Treasuries e beneficiar novamente ativos de risco e crescimento.",
-      "proximo_evento": "Próximas divulgações de dados de inflação (CPI/PCE) e decisões de política monetária do Federal Reserve, que determinarão se a trajetória de alta dos juros se sustenta ou se inicia um ciclo de cortes.",
-      "key_numbers": [
-        "Rendimento Treasury 10 anos: 5,5%"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Nobody Wants To Catch The Falling Knife As The Bond Market Tanks",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4950709-nobody-wants-to-catch-falling-knife-as-bond-market-tanks?source=feed_all_articles",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O mercado de títulos do Tesouro dos EUA está sofrendo uma forte queda nos preços, o que eleva os rendimentos e gera aversão ao risco entre investidores que temem uma continuação da desvalorização.",
-      "mecanismo": "A queda nos preços dos títulos (tanks) indica que os investidores estão vendendo em massa, possivelmente por preocupações com inflação persistente ou incerteza sobre a política monetária do Fed, o que faz com que os yields subam e aumente o custo de capital global, criando um ambiente de cautela onde ninguém quer 'pegar a faca cainda' em ativos de risco.",
-      "implicacao": "Com o aumento dos yields dos Treasuries, a classe de ativos de ações de crescimento (growth) e setores sensíveis a juros, como tecnologia e imobiliário, tende a sofrer pressão de valuation, já que o desconto de fluxos de caixa futuros aumenta e o custo de financiamento sobe.",
-      "risco": "O cenário de queda nos títulos pode ser interrompido se novos dados econômicos mostrarem uma desaceleração mais acentuada da atividade, forçando o Fed a sinalizar cortes de juros mais agressivos do que o esperado.",
-      "proximo_evento": "Próxima reunião do Federal Reserve (FOMC) ou divulgação de dados de inflação (CPI/PCE) que possam confirmar ou refutar a necessidade de manutenção de juros altos.",
-      "key_numbers": [],
       "sentiment": "down"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [
-      "A análise da CHW sugere que o ativo oferece uma proteção contra a inflação superior à da renda fixa, embora não esteja isento de riscos.",
-      "O blog do FRED explica que o Treasury general account funciona como a conta corrente do governo dos EUA e que os comentários sobre a situação financeira federal são frequentemente baseados no fluxo de dinheiro entrando e saindo dessa conta."
+      "O artigo da Seeking Alpha afirma que o CSHI oferece um prêmio sobre os rendimentos dos T-Bills em troca de um risco oculto, porém gerenciável."
     ],
     "acoes": [
-      "CSN (CSNA3) e CSN Mineração (CMIN3) lideram as quedas do Ibovespa após o anúncio de redução temporária da produção de minério de baixa qualidade na unidade de Pires, em Ouro Preto (MG), e revisão de menor volume de compras.",
-      "Tupy (TUPY3) figura entre as maiores altas do mercado, subindo mais de 3%, após o anúncio na véspera de mudanças no alto escalão da empresa, incluindo a presidência do conselho de administração.",
-      "O BB Investimentos recomenda a venda de Vale (VALE3) e Prio (PRIO3) com base em análise técnica que indica que os ativos não confirmaram tendência, sugerindo saída no preço de abertura.",
-      "A Ágora Investimentos recomenda a compra de Tupy (TUPY3) e a venda de WEG (WEGE3) para day trade, com potencial de ganho de 1,50% e stop sugerido de R$ 15,90 para a Tupy."
+      "O UBS BB reduziu o preço-alvo das ações da Vale (VALE3) devido ao aumento do frete, um fator que também impactou negativamente a CSN (CSNA3), que caiu 9,85% na terça-feira.",
+      "O Ibovespa fechou em alta de 0,46% na terça-feira (29/09) com o dólar a R$ 5,21, enquanto a taxa de desemprego caiu para 5,3%, a menor para o trimestre até agosto.",
+      "As bolsas asiáticas fecharam mistas na quarta-feira (30), com o Nikkei subindo 1,94% impulsionado por ações de IA, enquanto a guerra no Oriente Médio permaneceu no radar dos investidores.",
+      "Os futuros das ações dos EUA estão estáveis antes da divulgação de dados-chave de inflação e dos resultados da Micron."
     ],
     "cripto": [
-      "Bitcoin caiu abaixo de US$ 83 mil devido à caça de liquidez, o que impediu os compradores de mirar na abertura anual.",
-      "Bitcoin recuperou-se para US$ 84 mil após o rendimento dos títulos de 30 anos dos EUA atingir um recorde de 24 anos.",
-      "A Strategy comprou 1.665 bitcoins por US$ 143 milhões, elevando seu estoque total para 847.666 BTC.",
-      "Os fluxos de entrada nos ETFs de criptomoedas dos EUA esfriaram após uma semana de US$ 3,3 bilhões, mas as sequências de entradas se mantêm."
+      "O Bitcoin subiu para US$ 84 mil após o rendimento dos títulos de 30 anos dos EUA atingir um recorde de 24 anos.",
+      "Os fluxos de entrada nos ETFs de criptomoedas dos EUA esfriaram após uma semana de US$ 3,3 bilhões, mas as sequências de entradas se mantêm.",
+      "A Coinbase obteve aprovação da CFTC para operar uma câmara de compensação de derivativos nos EUA, juntando-se à Kraken.",
+      "A Bitwise lançou o primeiro ETF spot de NEAR nos EUA após o recente aumento do token."
     ],
     "debentures": [],
     "exterior": [
-      "O FTSE 100 caiu com o desaceleração dos preços nas lojas e a compra de participação da AstraZeneca na Summit.",
-      "As ações do Reino Unido encerraram o pregão em queda, com o índice Investing.com United Kingdom 100 recuando 0,53%.",
-      "Trump afirmou que trabalhar com Xi em IA prejudicaria as empresas dos EUA.",
-      "A GM e a LG vão produzir células de bateria para veículos elétricos de menor custo no Tennessee.",
-      "O FTSE 100 caiu com o desaceleração dos preços nas lojas e a compra de participação da AstraZeneca na Summit."
+      "Os preços do petróleo caem nesta quarta-feira (30) após o presidente dos EUA, Donald Trump, negar disposição em aliviar sanções contra o Irã, enquanto o Catar pressionava por negociações de paz.",
+      "O petróleo fechou em queda na terça-feira (29) com a retomada das exportações pelo oleoduto da Arábia Saudita e a expectativa de avanço nas negociações entre Estados Unidos e Irã.",
+      "O Goldman Sachs projeta que fundos de pensão dos EUA venderão US$ 33 bilhões em ações no curto prazo.",
+      "A inflação na França registrou um aumento, somando-se às pressões crescentes sobre a economia do país."
     ],
     "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário atual combina a cautela do mercado de títulos, onde investidores evitam comprar em meio à queda de preços e alta de yields, com a busca por alternativas que ofereçam melhor proteção inflacionária do que a renda fixa tradicional. É fundamental monitorar como a dinâmica do fluxo de caixa do governo (via Treasury general account) e as decisões de política monetária do Fed impactam a atratividade relativa entre títulos de curto prazo, ativos reais e outras classes defensivas.",
-    "acoes": "O mercado opera sob forte pressão de volatilidade, com o índice de medo da B3 em máxima histórica de 31 pontos devido à incerteza eleitoral, enquanto o Ibovespa sofre com a queda das petrolíferas ligada à expectativa de cessar-fogo entre EUA e Irã. Nesse cenário de aversão ao risco, setores como siderurgia (CSN) e commodities (Vale, Prio) enfrentam recomendações de venda e quedas acentuadas, enquanto movimentos pontuais como o da Tupy ganham destaque. A atenção deve se manter na divulgação do Payroll dos EUA na sexta-feira, evento crucial para definir as expectativas de juros do Fed.",
-    "cripto": "O mercado está em uma fase de consolidação onde a pressão vendedora de detentores de longo prazo na faixa de US$ 84k-85k e o aumento dos rendimentos dos títulos de 30 anos para máximas de 24 anos criam uma barreira técnica e macroeconômica significativa. Embora os fluxos institucionais via ETFs tenham esfriado após a semana recorde de US$ 3,3 bilhões, a continuidade das entradas e as compras agressivas da Strategy sugerem que a absorção de oferta ainda sustenta o preço, exigindo atenção à reação do ativo à resistência psicológica de US$ 85.000 e ao impacto da reunião do Federal Reserve em outubro, onde se espera um aumento de juros de 0,25%.",
+    "renda_fixa": "O mercado de renda fixa segue ancorado na moderação dos juros futuros impulsionada pelas falas do Fed de Nova York e pela redução da aversão ao risco local, que levou o dólar a recuar para R$ 5,21. A atenção deve se manter na próxima reunião do Copom e na divulgação de novos dados de inflação e atividade econômica nos EUA, além do impacto da Medida Provisória sobre as apostas e das novas pesquisas eleitorais no cenário doméstico.",
+    "acoes": "O mercado brasileiro segue sensível à combinação de dados macroeconômicos locais, como a queda do desemprego para 5,3%, e à volatilidade externa, onde a guerra no Oriente Médio e os dados de inflação dos EUA pressionam a curva de juros. Enquanto isso, o setor de commodities enfrenta pressão específica com a alta do frete, que levou o UBS BB a cortar o preço-alvo da Vale e contribuiu para a forte queda da CSN, contrastando com a rotação para bancos e defensivos vista anteriormente.",
+    "cripto": "A atenção deve se concentrar na tensão entre a alta dos rendimentos dos títulos de longo prazo, que pressiona os preços do Bitcoin, e a resiliência dos fluxos institucionais via ETFs, que continuam a sustentar a demanda apesar do esfriamento recente. Além disso, a expansão da infraestrutura regulatória, evidenciada pela aprovação da câmara de compensação da Coinbase e pelo lançamento de novos ETFs como o de NEAR, sinaliza uma consolidação contínua do mercado cripto nos EUA.",
     "debentures": "",
-    "exterior": "O mercado global enfrenta uma dinâmica mista, onde a queda no petróleo e a recompra de ações da Nvidia sustentam o setor de tecnologia, mas a cautela persiste na Europa e no Reino Unido, refletida no recuo do FTSE 100 e do índice UK 100. A tensão geopolítica em torno da inteligência artificial, destacada pelas declarações de Trump sobre a China, adiciona um novo vetor de risco para o setor, enquanto a parceria entre GM e LG sinaliza movimentos estratégicos para reduzir custos na cadeia de suprimentos de veículos elétricos.",
+    "exterior": "O mercado global enfrenta uma dinâmica de alta tensão entre a pressão dos juros longos nos EUA, que atingiram níveis recordes e pressionam ativos de risco, e a volatilidade no setor de energia, onde a retomada da oferta saudita e as negociações geopolíticas no Oriente Médio derrubaram o petróleo abaixo de US$ 100. Enquanto o Fed prepara o terreno para possíveis novas altas de juros antes da divulgação do PCE e do payroll, o fluxo de vendas de US$ 33 bilhões por fundos de pensão americanos e o aumento da inflação na França indicam um ambiente de desalavancagem e cautela global.",
     "imobiliario": ""
   }
 }
