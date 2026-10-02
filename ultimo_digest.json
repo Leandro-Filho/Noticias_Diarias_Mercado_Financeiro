@@ -1,154 +1,158 @@
 {
-  "gerado_em": "2026-10-01T17:33:54.992419+00:00",
+  "gerado_em": "2026-10-02T16:47:22.764382+00:00",
   "itens": [
     {
-      "title": "Eleições 2026: Ibovespa vai subir ou cair após o primeiro turno? Goldman Sachs aponta o que pode acontecer",
+      "title": "Eleição pode virar o jogo do dólar: o que esperar de câmbio e juros após o 1º turno",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/eleicao-pode-ser-o-proximo-grande-gatilho-para-a-bolsa-brasileira-diz-goldman-sachs-apsa/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Goldman Sachs avalia que o resultado das eleições presidenciais de 2026 pode desencadear uma reprecificação significativa no mercado acionário brasileiro, com foco especial em papéis sensíveis a juros que ainda não acompanharam a alta recente do Ibovespa.",
-      "mecanismo": "A definição do cenário político pós-eleição impacta diretamente as expectativas de política fiscal e trajetória dos juros; como as ações domésticas possuem um 'beta de juros' de 2 a 3 vezes superior ao índice geral, uma sinalização de queda nas taxas tende a gerar uma reprecificação mais intensa nesses ativos do que no Ibovespa como um todo.",
-      "implicacao": "Se o resultado eleitoral indicar um ambiente mais favorável para a queda dos juros, os setores de bancos, utilities, consumo e construção tendem a se beneficiar desproporcionalmente, já que a redução do custo de crédito aumenta a demanda por crédito e a atividade econômica doméstica.",
-      "risco": "O histórico mostra que a reação do mercado pode ser negativa (como a correção de 15% em 2022) caso o resultado eleitoral traga incertezas fiscais ou políticas que pressionem os juros para cima, invalidando a tese de reprecificação positiva.",
-      "proximo_evento": "Realização do primeiro turno das eleições presidenciais e a subsequente janela de volatilidade entre o primeiro e o segundo turno.",
-      "key_numbers": [
-        "Ibovespa YTD: 13%",
-        "Cesta sensível a juros YTD: -5%",
-        "Beta de juros: 2 a 3x",
-        "Alta histórica entre turnos: 4% a 7%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "‘Tempestade’ nos títulos globais: Treasuries vão a máximas de 24 anos com petróleo acima de US$ 100",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/tempestade-nos-titulos-globais-treasuries-vao-a-maximas-lils/",
+      "link": "https://www.moneytimes.com.br/eleicao-pode-virar-o-jogo-do-dolar-o-que-esperar-de-cambio-e-juros-apos-o-1o-turno/",
       "categorias": [
         "renda_fixa",
         "exterior"
       ],
-      "resumo": "Os rendimentos dos títulos soberanos globais atingiram máximas históricas, com os Treasuries de 10 anos dos EUA superando 5,3%, impulsionados pela persistência do petróleo acima de US$ 100 e pelo temor de expansão fiscal descontrolada.",
-      "mecanismo": "A combinação de preços de energia elevados (petróleo Brent acima de US$ 100) e gastos públicos insensíveis a juros nos EUA (foco em IA) gera pressão inflacionária e incerteza sobre a sustentabilidade da dívida, forçando o mercado a exigir prêmios de risco maiores e elevando as taxas de juros de referência, o que encarece o financiamento global.",
-      "implicacao": "Com o custo de capital global em alta e a aversão a risco fiscal crescente, a classe de ativos de renda fixa de longo prazo tende a sofrer desvalorização, enquanto setores sensíveis a juros, como imobiliário e tecnologia (devido ao custo de capital), enfrentam pressão de baixa, já que o financiamento se torna mais caro e a demanda por crédito pode encolher.",
-      "risco": "Uma resolução rápida do impasse geopolítico no Oriente Médio que reabra o Estreito de Ormuz e derrube o preço do petróleo abaixo de US$ 100, o que aliviaria a pressão inflacionária e poderia reverter a venda massiva de títulos.",
-      "proximo_evento": "Próxima reunião do Federal Reserve (Fed) para definição de novas altas de juros, dado que o mercado já precifica pelo menos três aumentos até meados de 2027.",
+      "resumo": "O mercado financeiro projeta uma forte valorização do real e queda nos juros caso Flávio Bolsonaro vença o primeiro turno, enquanto uma vitória de Lula manteria o dólar em patamares mais altos.",
+      "mecanismo": "A percepção de que Flávio Bolsonaro representa uma mudança no status quo fiscal e político tende a reduzir o prêmio de risco soberano, o que atrai capital estrangeiro, pressiona o câmbio para baixo e elimina o residual de incerteza na curva de juros, especialmente na ponta curta.",
+      "implicacao": "Em um cenário de vitória do candidato de direita, a classe de ativos de renda fixa indexada ao IPCA tende a se beneficiar com a queda das taxas nominais e o achatamento da curva, enquanto o setor exportador pode enfrentar pressão competitiva devido à apreciação do real.",
+      "risco": "O principal risco é a vitória de Lula ou um empate técnico que mantenha a incerteza fiscal, o que poderia levar a uma venda abrupta de títulos públicos e uma alta das taxas de juros, similar à reação observada em dezembro de 2025.",
+      "proximo_evento": "Resultado do primeiro turno das eleições presidenciais no dia 4 de outubro de 2026.",
       "key_numbers": [
-        "Treasury 10 anos EUA: 5,344%",
-        "Treasury 30 anos EUA: 5,593%",
-        "Petróleo Brent: US$ 101",
-        "Título 10 anos França: 4,96%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Wall Street recua com dois temores conhecidos do mercado no radar",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-abertura-1-10-26-apsa/",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "Os principais índices de Wall Street operam em queda nesta quinta-feira, pressionados pela combinação de petróleo Brent acima de US$ 101 e rendimentos dos Treasuries em máximas históricas, apesar do suporte pontual do setor de tecnologia.",
-      "mecanismo": "A elevação simultânea do petróleo e dos juros dos títulos do Tesouro dos EUA sinaliza um ambiente macroeconômico mais restritivo, o que reforça a percepção de um Federal Reserve mais 'hawkish' e pressiona os múltiplos de valuation das ações, especialmente as de crescimento, mesmo com a expectativa de alta de juros adiada para dezembro.",
-      "implicacao": "Com a persistência de juros reais elevados e custos de energia altos, o setor de tecnologia tende a enfrentar pressão de valuation, já que o aumento no custo do capital reduz o valor presente dos fluxos de caixa futuros projetados para essas empresas.",
-      "risco": "A tese de pressão sobre os ativos de risco pode ser invalidada se os próximos dados de inflação ou emprego mostrarem uma desaceleração econômica mais acentuada do que o esperado, forçando o Fed a antecipar cortes de juros.",
-      "proximo_evento": "Divulgação do relatório de empregos (payroll) dos Estados Unidos.",
-      "key_numbers": [
-        "Brent: US$ 101",
-        "Treasury 10 anos: 5,342%",
-        "S&P 500: -0,30%",
-        "Micron margem: 87%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Mini-índice dispara 1,48% e mira os 190 mil pontos; veja o que esperar segundo o BTG Pactual",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/mini-indice-dispara-148-e-mira-os-190-mil-pontos-veja-o-que-esperar-segundo-o-btg-pactual-ceci/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O mini-índice fechou em alta de 1,48%, rompendo médias móveis importantes e consolidando um viés comprador no curto prazo, enquanto o mini-dólar recuou levemente mas mantém estrutura de alta.",
-      "mecanismo": "O rompimento das médias móveis de 21 e 50 períodos no gráfico de 60 minutos pelo mini-índice valida a força da demanda, transformando esses níveis em suportes e abrindo caminho para a resistência dos 190 mil pontos; simultaneamente, o recuo do mini-dólar representa apenas uma acomodação técnica dentro de uma estrutura de topos e fundos ascendentes, sem sinalizar reversão de tendência.",
-      "implicacao": "Com a confirmação de tendência de alta no índice acionário e a manutenção do viés comprador no câmbio no curto prazo, ativos de risco domésticos e posições longas em dólar tendem a se beneficiar, já que o fluxo de capital segue favorável à bolsa e a moeda americana mantém suporte técnico relevante.",
-      "risco": "A perda dos suportes imediatos (187.335 pontos no índice e 5.209,50 no dólar) invalidaria a tese de continuidade, podendo desencadear correções mais profundas ou reversão de tendência.",
-      "proximo_evento": "A sustentação do fechamento do mini-índice acima dos 187.335 pontos e a capacidade do mini-dólar de manter-se acima dos 5.209,50 pontos nos próximos pregões.",
-      "key_numbers": [
-        "Mini-índice: 187.690 pontos",
-        "Suporte Mini-índice: 187.335 pontos",
-        "Mini-dólar: 5.215,50 pontos",
-        "Suporte Mini-dólar: 5.209,50 pontos"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Bitcoin fights for local uptrend as US bond yields drop from new 24-year highs",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-fights-local-uptrend-us-bond-yields-drop-from-new-24-year-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O Bitcoin testou a resistência de US$ 84.000 enquanto os rendimentos dos títulos do Tesouro dos EUA recuavam de máximas de 24 anos, impulsionados por alívio temporário no mercado de obrigações.",
-      "mecanismo": "A queda nos yields dos títulos de 10 anos (de 5,342% para 5,251%) reduz a atratividade de ativos de renda fixa de baixo risco, o que tende a direcionar capital para ativos de risco como criptomoedas, permitindo que o BTC mantenha um padrão de fundos ascendentes apesar da pressão macroeconômica.",
-      "implicacao": "Com a redução da pressão dos juros longos nos EUA, a classe de ativos de risco (cripto) tende a ganhar fôlego, pois o custo de oportunidade de manter posições em títulos de governo diminui, favorecendo a rotação de capital para ativos com maior potencial de retorno.",
-      "risco": "O cenário se inverte se a inflação persistir acima das expectativas, forçando o Fed a manter juros altos por mais tempo, o que manteria os yields elevados e pressionaria os preços do Bitcoin para baixo.",
-      "proximo_evento": "O reteste do nível de suporte em US$ 82.500, que, segundo analistas, é crucial para confirmar a continuidade da tendência de alta ou evitar uma correção mais acentuada.",
-      "key_numbers": [
-        "BTC: US$ 84.000",
-        "Yield 10 anos (pico): 5,342%",
-        "Yield 10 anos (atual): 5,251%",
-        "Suporte chave: US$ 82.500"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Bitcoin trapped below $86K as PCE changes cloud inflation reading",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-rally-lower-us-inflation-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O Bitcoin perdeu os ganhos iniciais após a divulgação do PCE, pois analistas apontam que mudanças metodológicas na coleta de dados distorcem a leitura de inflação mais baixa do que o esperado.",
-      "mecanismo": "Embora o PCE tenha vindo abaixo do consenso, a inclusão de novas metodologias para serviços de software e gestão de portfólio pode estar subestimando a inflação real em até 20 pontos-base, o que leva o mercado a descontar o impacto do dado e mantém a probabilidade de alta de juros em outubro em torno de 37%, limitando o impulso de alta do ativo.",
-      "implicacao": "Com a incerteza sobre a real trajetória da inflação americana mantendo os juros elevados, a classe de ativos digitais de alto beta tende a permanecer em range, já que a falta de clareza sobre cortes futuros de juros reduz o apetite por risco e a liquidez marginal para novas entradas.",
-      "risco": "A queda de 20% no open interest em BTC sugere que a alavancagem está baixa, o que pode tornar o rally menos vulnerável a liquidações forçadas e permitir uma quebra da resistência em $85.600 mesmo sem novos estímulos macro.",
-      "proximo_evento": "Reunião do FOMC em outubro para definição da taxa de juros dos EUA.",
-      "key_numbers": [
-        "PCE anual: 3.4%",
-        "Probabilidade de alta de juros em outubro: 37%",
-        "Suporte crítico: $82,500",
-        "Resistência recente: $85,600"
+        "Dólar atual: R$ 5,20",
+        "Dólar cenário Flávio: R$ 4,50 - R$ 4,80",
+        "Dólar cenário Lula: R$ 5,80",
+        "Residual de incerteza na curva DI: 80 bps"
       ],
       "sentiment": "neutral"
     },
     {
-      "title": "Europe stock sell-off continues as French budget unveil and inflation weigh",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/european-stocks-slip-as-q4-begins-on-soaring-energy-and-inflation-pain-4926358",
+      "title": "Wall Street avança com apetite a risco após payroll fraco",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/wall-street-abertura-2-10-26-apsa/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "Os mercados europeus seguem em queda devido à combinação da apresentação do orçamento francês e pressões inflacionárias persistentes.",
-      "mecanismo": "A divulgação do orçamento francês eleva a percepção de risco fiscal na zona do euro, enquanto a inflação persistente limita o espaço para cortes agressivos de juros pelo BCE, o que pressiona os múltiplos das ações e aumenta o custo de capital para empresas.",
-      "implicacao": "Com o aumento do prêmio de risco soberano e a incerteza macroeconômica, o setor de defensivos e ativos de renda fixa de alta qualidade tendem a se beneficiar em relação a setores cíclicos e sensíveis a juros, já que o capital busca proteção contra a volatilidade política e monetária.",
-      "risco": "O cenário pode ser invalidado se o BCE sinalizar uma postura mais dovish do que o esperado ou se o governo francês apresentar medidas de austeridade que acalmem os investidores sobre a sustentabilidade da dívida.",
-      "proximo_evento": "Próximas divulgações de dados de inflação (CPI/HICP) da zona do euro e reações do mercado à implementação efetiva das medidas orçamentárias francesas.",
-      "key_numbers": [],
-      "sentiment": "down"
+      "resumo": "O relatório de emprego dos EUA de setembro veio muito abaixo das expectativas, com criação de apenas 29 mil vagas e alta do desemprego para 4,2%, o que reduziu as apostas de novos aumentos de juros pelo Fed e impulsionou os índices de Wall Street.",
+      "mecanismo": "A fraqueza nos dados de payroll (29 mil vagas vs. mediana de 85 mil) e a revisão negativa dos meses anteriores sinalizam um arrefecimento do mercado de trabalho, o que diminui a pressão inflacionária e reduz a probabilidade de o Fed endurecer a política monetária em dezembro (caiu de 86% para 79,6%), levando a uma queda nos rendimentos dos Treasuries e no dólar, o que favorece ativos de risco como ações.",
+      "implicacao": "Com a perspectiva de uma política monetária menos restritiva e a queda nos juros de referência, o setor de tecnologia tende a se beneficiar, já que empresas de crescimento são mais sensíveis ao custo de capital e ao apetite por risco, refletido nas máximas históricas das principais big techs.",
+      "risco": "A tese de alívio monetário pode ser invalidada se os próximos dados de inflação ou atividade econômica mostrarem resiliência, forçando o Fed a manter ou aumentar a taxa de juros apesar do enfraquecimento pontual do emprego.",
+      "proximo_evento": "Reunião do Federal Reserve em dezembro, onde será definido o próximo movimento da taxa de juros americana.",
+      "key_numbers": [
+        "Vagas criadas em setembro: 29 mil",
+        "Taxa de desemprego: 4,2%",
+        "Probabilidade de alta de juros em dez: 79,6%",
+        "S&P 500: 7.736,24 pontos"
+      ],
+      "sentiment": "up"
     },
     {
-      "title": "Bond selloff could mean outsized portfolio changes at quarter’s end",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/bond-selloff-could-mean-outsized-portfolio-changes-at-quarters-end-4926628",
+      "title": "Mini índice mira os 188 mil pontos, enquanto mini dólar dispara; veja próximos alvos",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/mini-indice-mira-os-188-mil-pontos-enquanto-mini-dolar-dispara-veja-proximos-alvos-ceci/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O mini índice recuperou o terreno perdido e voltou a operar acima das principais médias móveis, sinalizando retomada de força compradora, enquanto o mini dólar renovou máximas e consolidou tendência de alta no curto prazo.",
+      "mecanismo": "A recuperação do WINV26 acima das médias de 21 e 200 períodos valida a tese de alta estrutural, transformando esses níveis em suportes que sustentam a pressão compradora rumo à resistência dos 188 mil pontos; simultaneamente, o WDOX26 mantém-se acima das médias de 21 e 50 períodos com IFR em 65, indicando que a força de alta cambial persiste, embora com risco de exaustão técnica imediata.",
+      "implicacao": "Com o dólar em tendência de alta e o Ibovespa em recuperação, ativos sensíveis a câmbio e exportadores tendem a se beneficiar, enquanto a manutenção do índice acima das médias móveis sugere que o apetite por risco em ações brasileiras está retornando, favorecendo o setor de commodities e bancos.",
+      "risco": "O IFR do mini dólar próximo de 65 indica possível perda de força no curtíssimo prazo, e a resistência técnica dos 188 mil pontos no mini índice pode limitar a valorização, gerando correções se o fluxo comprador não for suficiente para romper esses patamares.",
+      "proximo_evento": "A capacidade do mini índice de romper consistentemente a resistência dos 188.000 pontos e a sustentação do mini dólar acima da marca de 5.261 pontos para confirmar a continuação da tendência de alta.",
+      "key_numbers": [
+        "Mini Índice (WINV26): 187.800 pontos",
+        "Mini Dólar (WDOX26): 5.261 pontos",
+        "Resistência Mini Índice: 188.000 pontos",
+        "Suporte Mini Dólar: 5.234,50 pontos"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Ibovespa avança 1% com exterior após emprego mais fraco nos EUA; 5 coisas para saber antes de investir hoje (2)",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-2-10-26-lils/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O Ibovespa subiu 1,19% impulsionado por dados fracos de emprego nos EUA, que reforçaram a expectativa de manutenção dos juros pelo Fed, enquanto a produção industrial brasileira registrou queda em agosto.",
+      "mecanismo": "A abertura de apenas 29 mil vagas nos EUA, muito abaixo do esperado, aumentou para 86,2% a probabilidade de o Fed manter os juros em 3,75%-4,00% em outubro, o que pressiona o dólar para baixo (DXY em queda) e atrai capital para mercados emergentes como o Brasil, elevando o Ibovespa e depreciando o real.",
+      "implicacao": "Com a perspectiva de juros estáveis nos EUA e dólar em queda, ativos de risco no Brasil, especialmente ações de empresas sensíveis ao câmbio e ao custo de capital, tendem a se valorizar, enquanto a fraqueza industrial doméstica pode pesar sobre o desempenho de empresas de commodities e bens duráveis no curto prazo.",
+      "risco": "A incerteza política elevada devido à proximidade das eleições e a suspensão dos serviços consulares dos EUA no Brasil podem gerar volatilidade abrupta e reversão dos fluxos de capital, invalidando a tendência de alta do índice.",
+      "proximo_evento": "Primeiro turno das eleições presidenciais no Brasil, ocorrendo em dois dias (4 de outubro de 2026).",
+      "key_numbers": [
+        "Ibovespa: 189.398,10 pontos",
+        "Dólar: R$ 5,2136",
+        "Probabilidade Fed manter juros: 86,2%",
+        "Produção industrial Brasil (ago): -0,6%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bitcoin briefly hits $87K as weak US jobs data sends bond yields lower",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-briefly-taps-87k-as-bond-yields-drop-on-low-us-nonfarm-payrolls-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O Bitcoin tocou os US$ 87.200 após a divulgação de dados de emprego nos EUA muito abaixo do esperado, o que pressionou os rendimentos dos títulos do Tesouro para baixo, embora a moeda tenha recuado para abaixo de US$ 86.000 devido a resistência técnica.",
+      "mecanismo": "A criação de empregos em setembro ficou em apenas 29 mil contra 84 mil esperados, o que reduziu drasticamente as apostas de que o Federal Reserve aumentaria os juros na reunião de outubro (caiu de 64% para 18% de probabilidade). Essa mudança de expectativa enfraqueceu o dólar e fez os yields dos Treasuries caírem, removendo uma pressão negativa sobre ativos de risco como o Bitcoin, que se beneficia de um ambiente de taxas de juros reais menos restritivas.",
+      "implicacao": "Com a queda nos rendimentos dos títulos do Tesouro e a redução das expectativas de aperto monetário, a classe de ativos de criptomoedas tende a encontrar suporte, pois o custo de oportunidade de segurar ativos sem rendimento diminui e o fluxo de capital pode migrar para ativos de maior risco.",
+      "risco": "A resistência técnica em US$ 87.300 impediu a quebra de máximas, e se os próximos dados econômicos mostrarem resiliência inesperada, a probabilidade de alta de juros pode voltar a subir, revertendo o movimento de queda dos yields e pressionando o preço do Bitcoin novamente.",
+      "proximo_evento": "Reunião do Federal Reserve em outubro, onde a decisão sobre a manutenção ou ajuste da taxa de juros será o próximo catalisador macroeconômico relevante.",
+      "key_numbers": [
+        "Payrolls Setembro: 29.000",
+        "Probabilidade de alta Fed: 18%",
+        "Yield 10 anos: 5.2%",
+        "Resistência BTC: US$ 87.300"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bitcoin reaches for $87K as short liquidations top $120M",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-87k-order-book-liquidity-wall-shifts-higher?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O Bitcoin rompeu a resistência de US$ 85.000 e tocou US$ 87.800, impulsionado pela liquidação de posições vendidas que superou US$ 120 milhões em 24 horas.",
+      "mecanismo": "A quebra da barreira de liquidez de venda em US$ 85.000 forçou a liquidação de shorts, criando um fluxo comprador automático que empurrou o preço para cima; no entanto, a desaceleração dos fluxos de entrada nos ETFs spot americanos, que caíram de um pico de US$ 999 milhões para cerca de US$ 100 milhões, indica que a demanda institucional está menos agressiva do que no início do mês, limitando a sustentabilidade do movimento sem novos influxos.",
+      "implicacao": "Com a liquidação de shorts e a quebra de resistência técnica, a classe de ativos criptoativos tende a experimentar volatilidade direcional para cima no curto prazo, já que a redução da oferta de vendas na ordem de negócios permite que o preço suba mais rapidamente até encontrar novas resistências.",
+      "risco": "O movimento pode ser revertido se os fluxos dos ETFs continuarem fracos, pois a ausência de demanda institucional robusta pode deixar o preço vulnerável a correções na zona de resistência de US$ 87.000.",
+      "proximo_evento": "Monitorar os fluxos diários dos ETFs spot de Bitcoin nos EUA para verificar se há retorno ao ritmo de compra de US$ 1 bilhão diário, o que confirmaria a tendência de alta.",
+      "key_numbers": [
+        "Preço máximo BTC: US$ 87.800",
+        "Liquidações de shorts (24h): US$ 122 milhões",
+        "Fluxo ETFs (1 out): US$ 102,7 milhões",
+        "Resistência anterior: US$ 85.000"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Market Gains Momentum After Soft Jobs Report",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4951636-market-gains-momentum-after-soft-jobs-report?source=feed_all_articles",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "O relatório de emprego dos EUA mostrou adição de apenas 29 mil vagas e crescimento salarial fraco, o que elevou para 81,7% a probabilidade de o Fed manter os juros estáveis na próxima reunião.",
+      "mecanismo": "A fraqueza no mercado de trabalho reduz a pressão inflacionária via salários, o que diminui a necessidade de o Fed continuar elevando as taxas de juros; essa expectativa de pausa nos aumentos alivia a pressão sobre os rendimentos dos Treasuries e impulsiona os preços das ações, que se beneficiam de um ambiente de custo de capital menos restritivo.",
+      "implicacao": "Com a probabilidade de pausa nos juros em alta, ativos sensíveis a taxas, como ações de crescimento e tecnologia (incluindo o setor de chips impulsionado por investimentos em IA), tendem a se valorizar, já que a redução do prêmio de risco de juros aumenta o fluxo de capital para esses papéis.",
+      "risco": "O cenário se inverte se os próximos dados de inflação ou consumo mostrarem resiliência, forçando o Fed a retomar o ciclo de alta de juros apesar da fraqueza pontual no emprego.",
+      "proximo_evento": "Próxima reunião do FOMC (Federal Open Market Committee) para a decisão oficial sobre a taxa de juros.",
+      "key_numbers": [
+        "Vagas criadas: 29.000",
+        "Probabilidade de juros estáveis: 81,7%",
+        "Financiamento em IA: US$ 60 bilhões"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Investors Should Heed The Return Of The Bond Vigilantes",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4951623-investors-should-heed-the-return-of-bond-vigilantes?source=feed_all_articles",
       "categorias": [
         "renda_fixa"
       ],
-      "resumo": "A venda de títulos de dívida está forçando gestores de fundos a realizarem ajustes significativos em suas carteiras para se adequarem às novas avaliações de mercado no encerramento do trimestre.",
-      "mecanismo": "A queda nos preços dos bonds eleva os rendimentos, o que obriga os gestores a rebalancearem suas posições para manter a exposição desejada ou realizar lucros/perdas, gerando volatilidade adicional no mercado de renda fixa e potencialmente afetando a liquidez dos ativos mais negociados.",
-      "implicacao": "Com a pressão de venda em títulos de dívida, a classe de ativos de renda fixa tende a sofrer com a desvalorização do preço dos papéis, enquanto a rotação de capital pode beneficiar setores defensivos ou ativos de proteção cambial, já que investidores buscam segurança em meio à incerteza dos juros.",
-      "risco": "O cenário pode ser invalidado se a venda for apenas técnica e temporária, sem refletir uma mudança estrutural na política monetária, o que levaria a uma rápida recuperação dos preços dos bonds.",
-      "proximo_evento": "Encerramento do trimestre fiscal e divulgação dos relatórios de desempenho dos fundos de investimento.",
+      "resumo": "O retorno dos vigilantes da dívida indica que o mercado de títulos está penalizando a expansão fiscal e a falta de credibilidade nas contas públicas, exigindo prêmios de risco maiores para financiar o governo.",
+      "mecanismo": "Investidores estão desconfiados da trajetória da dívida pública e da capacidade do governo de honrar seus compromissos sem inflação, o que leva a uma exigência de juros nominais mais altos para compensar o risco soberano, pressionando os preços dos títulos e elevando o custo do financiamento para o setor privado.",
+      "implicacao": "Com a elevação dos juros de longo prazo, o setor de infraestrutura e empresas alavancadas tendem a sofrer, pois o custo de capital aumenta e a demanda por projetos de longo prazo diminui, enquanto ativos de proteção contra inflação e moedas fortes podem se beneficiar da fuga de risco local.",
+      "risco": "O cenário pode ser invalidado se o governo apresentar um plano fiscal crível e imediatamente executável, ou se a economia global entrar em recessão profunda, forçando os bancos centrais a cortar juros de emergência e ignorando o prêmio de risco fiscal.",
+      "proximo_evento": "Próximos leilões de títulos do Tesouro e a divulgação de dados de inflação e déficit primário que possam confirmar ou refutar a deterioração da credibilidade fiscal.",
       "key_numbers": [],
       "sentiment": "down"
     },
@@ -159,74 +163,71 @@
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "O mercado de Fundos Imobiliários demonstra resiliência com emissões bilionárias mesmo em cenário de juros elevados, enquanto o setor logístico enfrenta pressões de custos com grandes players do e-commerce e riscos de vacância por mudanças no perfil de inquilinos corporativos.",
-      "mecanismo": "A forte demanda por ativos logísticos de qualidade, impulsionada pelo crescimento do e-commerce que gasta bilhões em aluguéis, sustenta a liquidez e a valorização dos FIIs do setor, mas a saída de empresas de apostas (bets) de escritórios e o aumento de 22% nas recuperações judiciais criam um risco de vacância e inadimplência que pode pressionar os dividendos de fundos de escritórios e ativos de menor qualidade.",
-      "implicacao": "Com a concentração de aluguéis em grandes players do e-commerce e a saída de inquilinos de alto risco como as bets, os FIIs logísticos de primeira linha tendem a manter estabilidade de caixa, enquanto fundos de escritórios podem sofrer com a renegociação de contratos e queda de vacância, já que a crise nas empresas pressiona a capacidade de pagamento dos inquilinos.",
-      "risco": "O cenário de juros altos pode continuar inibindo a entrada de novos investidores no varejo de FIIs, e a expansão da recuperação judicial pode levar a inadimplências maiores do que o esperado, comprometendo a distribuição de proventos mesmo em ativos logísticos.",
-      "proximo_evento": "Divulgação dos relatórios gerenciais dos FIIs para o terceiro trimestre de 2026, onde serão evidenciados os impactos reais na taxa de ocupação e nos rendimentos dos fundos expostos a escritórios e logística.",
+      "resumo": "O mercado de Fundos Imobiliários demonstra resiliência com emissões bilionárias mesmo em cenário de juros elevados, enquanto o setor logístico registra forte demanda por parte de grandes players do e-commerce.",
+      "mecanismo": "A alta liquidez e a busca por diversificação mantêm o apetite por FIIs apesar da concorrência da renda fixa, enquanto a expansão do comércio digital força a ocupação de galpões em polos estratégicos, sustentando a demanda por ativos logísticos de qualidade.",
+      "implicacao": "Com a demanda estrutural por logística impulsionada pelo e-commerce e a emissão de novos fundos aquecida, a classe de ativos de FIIs logísticos tende a manter valorização e liquidez, já que a oferta de espaços de qualidade em polos de acesso eficiente segue escassa.",
+      "risco": "O aumento de 22% nas recuperações judiciais pode elevar a inadimplência e a vacância em setores mais sensíveis, como escritórios, pressionando os dividendos dos fundos expostos a esses ativos.",
+      "proximo_evento": "Divulgação dos resultados trimestrais dos principais FIIs logísticos e de escritórios para verificar a materialização da receita de aluguel e o impacto da vacância.",
       "key_numbers": [
         "Emissões de FIIs: R$ 56,3 bi",
         "Aluguéis logísticos e-commerce: R$ 2 bi",
         "Recuperação judicial: +22%",
-        "Área bets em escritórios: 16 mil m²"
+        "Escritórios bets: 16 mil m²"
       ],
-      "sentiment": "neutral"
+      "sentiment": "up"
     },
     {
-      "title": "Notícias de Mercado Imobiliário - Clube FII News",
+      "title": "Notícias de Certificados de Recebíveis Imobiliários | Clube FII News",
       "source": "Clube FII News",
-      "link": "https://www.clubefiinews.com.br/mercado-imobiliario",
+      "link": "https://www.clubefiinews.com.br/recebiveis-imobiliarios",
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "O texto fornecido consiste exclusivamente em um aviso legal e de isenção de responsabilidade do Clube FII, sem conter qualquer notícia de mercado, dado econômico ou evento corporativo específico.",
-      "mecanismo": "Não há mecanismo causal identificável, pois o conteúdo não apresenta fatos, variáveis econômicas ou eventos que gerem uma cadeia de consequências para o mercado.",
-      "implicacao": "Sem informações factuais, não é possível estabelecer uma implicação setorial ou de classe de ativo, pois falta o gatilho inicial para o raciocínio de investimento.",
-      "risco": "O principal risco é a análise de vacuo, onde a ausência de dados pode levar a decisões baseadas em ruído ou em notícias não verificadas de outras fontes.",
-      "proximo_evento": "Não há próximo evento específico derivado deste texto; recomenda-se monitorar os comunicados oficiais da CVM ou as próximas divulgações de resultados das FIIs listadas na B3.",
+      "resumo": "A publicação apresenta um aviso legal padrão do Clube FII News, esclarecendo que o conteúdo informativo não constitui recomendação de investimento e que a editora não assume responsabilidade por perdas financeiras.",
+      "mecanismo": "O texto não descreve um evento econômico ou corporativo específico, mas sim uma cláusula de isenção de responsabilidade (disclaimer) que serve para proteger a fonte juridicamente, sem gerar impacto direto nos fundamentos dos ativos ou na dinâmica de mercado.",
+      "implicacao": "Por se tratar de um comunicado institucional e não de uma variável macroeconômica ou setorial, não há implicação direta para a classe de ativos de Certificados de Recebíveis Imobiliários, servindo apenas como contexto regulatório para a leitura das demais notícias.",
+      "risco": "O risco principal é a interpretação equivocada de que este aviso legal carrega alguma informação fundamental ou direcional sobre o mercado, o que poderia levar a decisões de investimento baseadas em ruído informativo.",
+      "proximo_evento": "Não há gatilho de mercado específico derivado deste aviso legal; o próximo evento relevante seria a divulgação de notícias concretas sobre emissões, ratings ou resultados de CRIs pela mesma fonte.",
       "key_numbers": [],
       "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [
-      "Wall Street reduziu as perdas com a alta dos títulos, enquanto os preços do petróleo em alta mantiveram o sentimento de mercado contido.",
-      "O FTSE 100 caiu com os rendimentos dos gilts ultrapassando 6%, arrastado pelo impasse entre EUA e Irã.",
-      "Um artigo de insights macro discute um rendimento de 5%, a sanidade nos gastos com IA e a tese contrária otimista.",
-      "O Pix por aproximação deixa de ter teto de R$ 500 a partir de quinta-feira, permitindo que o cliente defina o novo limite junto ao banco.",
-      "O mercado financeiro segue focado na tensão no Oriente Médio e nos preços do petróleo, impactando o Ibovespa e a B3."
+      "O crescimento mais lento do mercado de trabalho dos EUA apoia uma pausa do Federal Reserve em outubro.",
+      "O relatório de empregos de setembro mostrou resfriamento nos empregos e aumento no desemprego, indicando que o Fed pode esperar."
     ],
     "acoes": [
-      "A três dias do primeiro turno das eleições presidenciais, o Ibovespa inicia o pregão desta quinta-feira (30) com leve alta de 0,04%, aos 186.418 pontos, tentando estender os ganhos de 5% registrados em setembro.",
-      "A Ágora Investimentos recomenda a compra de Itaú Unibanco (ITUB4) e a venda de Copasa (CSMG3) para day trade nesta quinta-feira (1º), com potencial de ganho de 1,42% para ITUB4 e stop sugerido de R$ 44,04.",
-      "A Ágora Investimentos manteve a carteira recomendada de dividendos para outubro composta por Allos (ALOS3), Copasa (CSMG3), Caixa Seguridade (CXSE3), ISA Energia (ISAE4) e Itaú (ITUB4), com expectativa de retorno médio via dividendos de 8,4%.",
-      "Segundo a Kinea, o vencedor do segundo turno da eleição presidencial, marcado para 25 de outubro, herdará o desafio de equilibrar as contas públicas sem provocar novos choques na atividade ou nos juros."
+      "A Planner reformulou sua carteira de dividendos para outubro, substituindo Banco do Brasil, Banrisul, Copasa, Porto e Telefônica Brasil por Allied Tecnologia, Banco Pine e BrasilAgro.",
+      "O BTG Pactual trocou OceanPact e Inter por Dexco e Banco Pine em sua carteira de small caps para outubro, atribuindo peso de 10% a cada nova integrante.",
+      "A Ágora Investimentos recomenda a compra de Gerdau (GGBR4) e a venda de Prio (PRIO3) para day trade nesta sexta-feira (2), com potencial de ganho de 1,47% para a Gerdau.",
+      "A XP Investimentos reiterou a recomendação de compra para o XP Crédito Agrícola Fiagro (XPCA11), destacando um desconto de 24% sobre o valor patrimonial e projeção de 16,4% de retorno em dividendos."
     ],
     "cripto": [
-      "ETFs de Bitcoin captaram US$ 6,3 bilhões no terceiro trimestre enquanto o preço do BTC subiu quase 43%.",
-      "ETFs de Bitcoin estenderam uma sequência de entradas de US$ 3,1 bilhões enquanto os fundos de Ether registraram saídas líquidas.",
+      "Os ETFs de Bitcoin iniciaram o mês de outubro com um fluxo de entrada de US$ 103 milhões.",
       "O hack de US$ 388 milhões na Bitget elevou as perdas de segurança cripto no terceiro trimestre para mais de US$ 1 bilhão.",
-      "Os hacks cripto ultrapassaram US$ 768 milhões em setembro, tornando-se o pior mês de 2026, impulsionados pela violação de US$ 388 milhões na Bitget."
+      "A SEC está se movendo para remover a barreira de custódia para conselheiros que oferecem criptomoedas.",
+      "A Circle instou a União Europeia a revisar as regras de reservas de stablecoins durante a revisão do MiCA."
     ],
     "debentures": [],
     "exterior": [
-      "Wall Street reduziu as perdas com a alta dos títulos, enquanto os preços do petróleo em elevação mantiveram o sentimento do mercado contido.",
-      "O FTSE 100 caiu com os rendimentos dos gilts ultrapassando 6% e o impasse entre os EUA e o Irã pesando sobre as ações.",
-      "As matrículas da Tesla na Europa aumentaram em setembro, estendendo a recuperação da empresa."
+      "O relatório de empregos é descrito como 'más notícias são boas notícias' para a Wall Street.",
+      "O índice FTSE 100 subiu enquanto os dados fracos de payroll dos EUA ofuscam as apostas de alta de juros pelo Fed.",
+      "As ações europeias subiram após uma queda semanal, apesar do peso dos rendimentos da UE em alta."
     ],
     "imobiliario": [
-      "O resumo da notícia sobre Certificados de Recebíveis Imobiliários contém apenas o aviso legal do Clube FII, informando que o portal não faz recomendação de investimento e não se responsabiliza por perdas ou danos.",
-      "O resumo da notícia sobre Lajes Corporativas de Fundos Imobiliários limita-se ao disclaimer padrão do Clube FII, destacando a verificação de informações e a ausência de recomendação de investimento.",
-      "O resumo da notícia sobre Galpões Logísticos e Industriais de Fundos Imobiliários apresenta exclusivamente o aviso de isenção de responsabilidade do Clube FII, sem detalhar fatos específicos do setor.",
-      "O resumo da notícia sobre o segmento Híbrido restringe-se ao comunicado institucional do Clube FII, que ressalta a qualidade do conteúdo e a não responsabilização por custos ou lucros cessantes."
+      "O Clube FII News afirma que verifica as informações publicadas sobre shopping centers, mas ressalta que não faz recomendação de investimento e não se responsabiliza por perdas ou danos.",
+      "O Clube FII News declara que não realiza recomendações de investimento nem assume responsabilidade por perdas relacionadas às notícias de lajes corporativas, apesar de verificar a qualidade do conteúdo.",
+      "O Clube FII News informa que não se responsabiliza por custos ou lucros cessantes derivados das notícias sobre galpões logísticos e industriais, mantendo-se neutro quanto a recomendações.",
+      "O Clube FII News reitera que não faz recomendações de investimento e não se responsabiliza por danos diretos ou indiretos nas notícias da categoria híbrido, apesar de prezar pela verificação das informações."
     ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário de renda fixa permanece pressionado pela combinação de petróleo acima de US$ 100 e gastos públicos insensíveis a juros, que elevam os prêmios de risco e forçam rebalanceamentos de portfólio no encerramento do trimestre. A atenção deve se manter na próxima reunião do Federal Reserve, onde o mercado já precifica altas de juros, e na volatilidade adicional gerada pela queda nos preços dos bonds e pela tensão geopolítica entre EUA e Irã.",
-    "acoes": "O mercado está posicionado para a volatilidade política das eleições de 2026, onde a definição do cenário pós-eleição impacta diretamente as expectativas de política fiscal e a trajetória dos juros, dado o alto 'beta de juros' das ações domésticas. Enquanto o Ibovespa busca sustentar os ganhos de setembro e testar resistências técnicas como os 190 mil pontos, a atenção se volta para a capacidade do próximo governo em equilibrar as contas públicas sem gerar choques na atividade econômica, um fator que pode reprecificar intensamente os ativos locais.",
-    "cripto": "A forte entrada de capital institucional via ETFs de Bitcoin, que somou US$ 6,3 bilhões no trimestre, contrasta com a saída de fundos de Ether e a escalada de perdas por segurança, que ultrapassaram US$ 1 bilhão no Q3. Esse cenário de fluxo de capital seletivo e risco operacional elevado ocorre em meio à pressão macroeconômica, onde a queda nos yields dos títulos dos EUA e a incerteza sobre a inflação real continuam a moldar a atratividade dos ativos de risco.",
+    "renda_fixa": "A atenção deve se concentrar na interação entre a possível pausa do Federal Reserve, impulsionada pelo resfriamento do mercado de trabalho americano, e a desconfiança dos investidores na trajetória da dívida pública brasileira, que exige juros nominais mais altos. Esse cenário global de juros em transição, somado à incerteza política local, impacta diretamente a curva de juros e o custo de financiamento no mercado de renda fixa.",
+    "acoes": "Com o primeiro turno das eleições presidenciais brasileiras ocorrendo em dois dias (4 de outubro de 2026), o mercado deve monitorar a capacidade do mini índice de romper a resistência dos 188.000 pontos e a sustentação do mini dólar acima de 5.261 pontos, contextos que influenciam a rotação de carteiras para setores como small caps e dividendos. A entrada de ativos como Banco Pine e Dexco nas carteiras recomendadas de outubro, somada à pressão compradora validada pela recuperação do WINV26 acima das médias de 21 e 200 períodos, indica uma busca por oportunidades específicas enquanto o cenário externo, marcado pela alta probabilidade de manutenção dos juros pelo Fed, favorece a entrada de capital em emergentes.",
+    "cripto": "Com o Bitcoin testando a resistência de US$ 87 mil após a liquidação de shorts e a queda nos yields dos Treasuries, a sustentabilidade do movimento depende do retorno dos fluxos institucionais, que recentemente desaceleraram para cerca de US$ 100 milhões diários, embora o início de outubro tenha mostrado um influxo de US$ 103 milhões. Enquanto o mercado monitora a decisão do Federal Reserve em outubro, o cenário regulatório ganha tração com a SEC facilitando a custódia para conselheiros e a Circle pressionando por mudanças nas regras de reservas de stablecoins na UE, fatores que podem influenciar a adoção institucional a médio prazo.",
     "debentures": "",
-    "exterior": "O mercado global enfrenta pressão simultânea de juros elevados, com os títulos do Tesouro dos EUA em máximas de 24 anos e os gilts britânicos acima de 6%, enquanto o petróleo acima de US$ 100 reforça a percepção de inflação persistente e um Federal Reserve mais restritivo. A atenção deve se manter na divulgação do relatório de empregos (payroll) dos Estados Unidos e nas próximas divulgações de inflação da zona do euro, que podem definir o ritmo das políticas monetárias e o impacto sobre os múltiplos de valuation das ações de crescimento.",
-    "imobiliario": "O mercado imobiliário segue dividido entre a sustentação dos ativos logísticos, impulsionados pelo e-commerce, e os riscos de vacância e inadimplência em escritórios, agravados pela saída de empresas de apostas e pelo aumento nas recuperações judiciais. As notícias adicionais não fornecem novos dados factuais, limitando-se a avisos legais, o que reforça a necessidade de aguardar a divulgação dos relatórios gerenciais dos FIIs do terceiro trimestre de 2026 para medir os impactos reais na ocupação e nos rendimentos."
+    "exterior": "O mercado global reage positivamente à fraqueza nos dados de emprego dos EUA, que reduzem a probabilidade de o Fed endurecer a política monetária na reunião de dezembro, beneficiando ativos de risco. Enquanto isso, a dinâmica cambial e de juros no Brasil segue atrelada ao resultado do primeiro turno das eleições presidenciais de 4 de outubro, que pode alterar o prêmio de risco soberano e atrair capital estrangeiro.",
+    "imobiliario": "As notícias adicionais consistem exclusivamente em cláusulas de isenção de responsabilidade do Clube FII News, sem apresentar novos fatos econômicos ou corporativos que alterem a dinâmica de mercado. O foco permanece na materialização da receita de aluguel e no impacto da vacância, cuja verificação ocorrerá com a divulgação dos resultados trimestrais dos principais FIIs logísticos e de escritórios."
   }
 }
