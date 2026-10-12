@@ -1,219 +1,213 @@
 {
-  "gerado_em": "2026-10-09T17:37:38.029455+00:00",
+  "gerado_em": "2026-10-12T20:26:17.858669+00:00",
   "itens": [
     {
-      "title": "‘Efeito Flávio’ continua a fazer preço e Ibovespa renova recorde aos 209 mil pontos",
+      "title": "Petróleo fecha em alta com ataques houthis contra sauditas e falha de cessar-fogo na Ucrânia",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/efeito-flavio-continua-a-fazer-preco-e-ibovespa-renova-recorde-aos-209-mil-pontos-llils/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Ibovespa atingiu um novo recorde histórico de 209 mil pontos impulsionado pela liderança de Flávio Bolsonaro nas pesquisas para o segundo turno, o que reforça as apostas do mercado em um ajuste fiscal mais agressivo.",
-      "mecanismo": "A percepção de maior probabilidade de alternância de poder e a expectativa de um pacote de contenção de despesas de até R$ 250 bilhões reduzem a prêmio de risco soberano e atraem capital estrangeiro, elevando os múltiplos das ações e pressionando a curva de juros futuros para baixo, apesar da inflação acima do teto da meta.",
-      "implicacao": "Com a perspectiva de melhora fiscal e redução do custo de capital, setores sensíveis a juros e alavancagem, como varejo e construção civil, tendem a se beneficiar, já que a queda nos juros futuros e a entrada de fluxo estrangeiro melhoram as condições de crédito e a demanda agregada.",
-      "risco": "A viabilidade política do corte de R$ 250 bilhões ainda não está confirmada e pode ser inviabilizada pela necessidade de manter compromissos com aposentadorias, benefícios sociais e emendas parlamentares, o que poderia reverter a tese de ajuste fiscal.",
-      "proximo_evento": "Segundo turno das eleições presidenciais, marcado para 25 de outubro de 2026.",
-      "key_numbers": [
-        "Ibovespa: 209.713,45 pontos",
-        "IPCA 12 meses: 4,58%",
-        "Fluxo estrangeiro no mês: R$ 13 bilhões",
-        "Pacote fiscal estimado: R$ 250 bilhões"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Wall Street sobe com recuperação tech e petróleo",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-abertura-9-10-26-apsa/",
+      "link": "https://www.moneytimes.com.br/petroleo-fecha-em-alta-com-ataques-houthis-contra-sauditas-e-falha-de-cessar-fogo-na-ucrania/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "Os índices de Wall Street avançam impulsionados pela recuperação das ações de tecnologia e pela queda nos preços do petróleo, enquanto os rendimentos dos Treasuries de médio e longo prazo sobem.",
-      "mecanismo": "A declaração de Donald Trump de que não haverá ataque ao Irã antes das eleições de meio de mandato alivia as tensões geopolíticas no Oriente Médio, o que reduz o prêmio de risco no petróleo e devolve o apetite a risco para o setor de tecnologia, que se recuperava de temores sobre uma bolha de IA após um relatório fraco da OpenAI.",
-      "implicacao": "Com a redução da tensão geopolítica e a queda do petróleo, o setor de energia tende a perder força, enquanto o setor de tecnologia e bens de consumo discricionário podem se beneficiar do retorno do apetite a risco e da melhora no sentimento de mercado.",
-      "risco": "A recuperação do setor de tecnologia pode ser frágil se novos dados ou relatórios reavivarem os temores sobre a sustentabilidade dos investimentos em inteligência artificial, além do risco de novos choques geopolíticos no Oriente Médio.",
-      "proximo_evento": "Eleições de meio de mandato nos Estados Unidos, marcadas para o próximo mês, que podem alterar a dinâmica política e as expectativas de política externa e fiscal.",
+      "resumo": "Os preços do petróleo subiram nesta segunda-feira devido à escalada dos ataques houthis na Arábia Saudita e à continuidade das ofensivas russas contra a infraestrutura energética ucraniana, desafiando o anúncio de um cessar-fogo.",
+      "mecanismo": "A falha das defesas sauditas em interceptar mísseis e drones, somada à persistência dos ataques russos apesar do acordo verbal de Trump, gera uma percepção imediata de risco geopolítico elevado e ameaça à continuidade do fluxo de suprimentos, o que pressiona os preços para cima via prêmio de risco e especulação de escassez.",
+      "implicacao": "Com a tensão geopolítica elevando o prêmio de risco no mercado de commodities, o setor de energia e as ações de grandes petrolíferas tendem a se valorizar, já que a incerteza sobre a oferta global sustenta margens mais altas e atrai capital para ativos refúgio de inflação.",
+      "risco": "A tese de alta de preços pode ser invalidada se a OPEP+ anunciar aumentos de produção para compensar as perdas sauditas ou se o cessar-fogo na Ucrânia for efetivamente cumprido, eliminando o prêmio de risco geopolítico rapidamente.",
+      "proximo_evento": "O desfecho da investigação saudita sobre a falha das defesas aéreas e a confirmação ou violação efetiva do 'cessar-fogo energético' entre Rússia e Ucrânia nas próximas 24-48 horas.",
       "key_numbers": [
-        "S&P 500: +0,25%",
-        "Nasdaq: +0,27%",
-        "Petróleo Brent: US$ 103,52",
-        "Treasury 10 anos: 5,259%"
+        "Brent: US$ 106,65",
+        "WTI: US$ 93,74",
+        "Vítimas em Riad: 13",
+        "Pagamento UE à Rússia: US$ 250 bilhões"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Ibovespa ignora IPCA acima do esperado e sobe com ‘trade Flávio’; 5 coisas para saber antes de investir hoje (9)",
+      "title": "Wall Street opera mista com alta dos preços do petróleo, de olho em balanços e dados",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-9-10-26-lils/",
+      "link": "https://www.moneytimes.com.br/wall-street-opera-mista-com-alta-dos-precos-do-petroleo-de-olho-em-balancos-e-dados/",
       "categorias": [
-        "renda_fixa",
-        "acoes"
+        "acoes",
+        "exterior"
       ],
-      "resumo": "O Ibovespa avança impulsionado pelo otimismo com a liderança de Flávio Bolsonaro nas pesquisas eleitorais, ignorando o dado de inflação acima do esperado. O dólar cai frente ao real enquanto o petróleo recua devido a sinais de desescalada no conflito com o Irã.",
-      "mecanismo": "A percepção de maior estabilidade política e possível mudança de governo reduz o prêmio de risco soberano, o que atrai capital estrangeiro para a bolsa brasileira e pressiona o câmbio para baixo, mesmo com a inflação de 4,58% em 12 meses acima do teto da meta, pois o mercado prioriza o fator político sobre o macroeconômico no curto prazo.",
-      "implicacao": "Com a redução do prêmio de risco e a queda do dólar, o setor de exportadoras e empresas com dívida em moeda estrangeira tende a se beneficiar, já que a desvalorização cambial melhora a competitividade externa e reduz o custo de refinanciamento da dívida em dólar.",
-      "risco": "A tese de otimismo político pode ser invalidada se novas pesquisas mostrarem empate técnico ou liderança de Lula, ou se a inflação persistente forçar o Banco Central a adotar um tom mais duro na próxima reunião, elevando os juros reais.",
-      "proximo_evento": "Próximas divulgações de pesquisas de intenção de voto para o segundo turno presidencial e a reunião do Copom para definição da taxa Selic.",
+      "resumo": "Os mercados americanos operam de forma mista, com alta no setor de energia impulsionada por picos nos preços do petróleo após ataques na Arábia Saudita, enquanto ações de tecnologia recuam diante da cautela com a inflação e a alta dos juros de longo prazo.",
+      "mecanismo": "Os ataques ao aeroporto de Riad criaram uma percepção imediata de risco geopolítico que ofuscou as expectativas de aumento da oferta global, pressionando o petróleo para cima; essa alta nos custos de energia alimenta as preocupações com a inflação, o que sustenta os rendimentos dos títulos do Tesouro em máximas de 24 anos e desestimula a alocação em ativos de crescimento, como as ações de tecnologia, que são mais sensíveis ao custo do capital.",
+      "implicacao": "Com a pressão inflacionária persistindo via energia e os juros reais elevados, o setor de energia tende a se beneficiar como hedge contra a inflação, enquanto o setor de tecnologia e consumo discricionário enfrentam headwinds, já que a elevação dos custos de financiamento e a incerteza macroeconômica reduzem a disposição dos investidores para pagar múltiplos elevados por crescimento futuro.",
+      "risco": "A materialização de um cessar-fogo entre Rússia e Ucrânia ou a confirmação de um aumento significativo na oferta de diesel russo poderia reverter a alta do petróleo, eliminando o prêmio de risco geopolítico e potencialmente aliviando a pressão inflacionária de forma mais rápida do que o esperado.",
+      "proximo_evento": "Divulgação dos balanços do terceiro trimestre dos grandes bancos norte-americanos (Goldman Sachs, Citigroup e JPMorgan Chase) na manhã de terça-feira, seguida pela publicação dos dados de inflação (CPI e PPI) e vendas no varejo dos EUA no final da semana.",
       "key_numbers": [
-        "Ibovespa: 207.093,20 pontos",
-        "Dólar: R$ 5,0022",
-        "IPCA 12 meses: 4,58%",
-        "Brent: US$ 103,49"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Bitcoin consolidates near $82.5K as crypto weathers Ledger theft reports",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-consolidates-crypto-weathers-ledger-theft-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O Bitcoin recuperou o patamar de US$ 83.000 após uma queda intradiária, demonstrando resiliência do mercado cripto frente a relatos de exploração de segurança em carteiras Ledger.",
-      "mecanismo": "A liquidação de mais de US$ 1 bilhão em posições alavancadas limpou a oferta de venda, permitindo que a demanda spot absorvesse a pressão e empurrasse o preço de volta para a zona de suporte de US$ 82.500, enquanto o mercado ignora o risco de segurança específico por ser atribuído a um revendedor e não ao fabricante principal.",
-      "implicacao": "Com o mercado em consolidação lateral aguardando o CPI, a classe de ativos cripto tende a manter volatilidade contida até a data, já que a ausência de catalisadores macroeconômicos claros inibe movimentos direcionais fortes e favorece a manutenção da faixa de negociação atual.",
-      "risco": "Uma reação de pânico generalizada se os relatos de roubo na Ledger se confirmarem como uma falha sistêmica do hardware, o que poderia quebrar o suporte de US$ 82.500 e reativar a pressão vendedora.",
-      "proximo_evento": "Divulgação dos dados de inflação (CPI) dos EUA em 14 de outubro.",
-      "key_numbers": [
-        "Suporte-chave: US$ 82.500",
-        "Liquidações 24h: US$ 1 bilhão",
-        "Data CPI EUA: 14/10",
-        "Faixa de consolidação: US$ 81.300 - US$ 86.500"
+        "Brent: US$ 106/barril",
+        "Lucros S&P 500 (Q3): +30,6%",
+        "Philadelphia Semiconductor: -2,6%",
+        "Meta: +4%"
       ],
       "sentiment": "neutral"
     },
     {
-      "title": "Bitcoin, Ether ETFs’ October outflows swell toward $1B",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-ether-etfs-october-outflows-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "title": "EWZ sobe em Nova York em dia de feriado no Brasil; veja as projeções para o Ibovespa e o potencial de alta até 2027",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ewz-sobe-em-nova-york-em-dia-de-feriado-no-brasil-veja-ate-onde-o-ibovespa-pode-chegar-segundo-analistas-igdl/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O ETF de ações brasileiras (EWZ) opera em alta nos EUA durante o feriado nacional, enquanto o Ibovespa atinge recorde histórico impulsionado por pesquisas eleitorais favoráveis a Flávio Bolsonaro.",
+      "mecanismo": "A percepção de menor risco político e a expectativa de continuidade de políticas econômicas favoráveis ao mercado, baseadas nas pesquisas do segundo turno, estão reduzindo o prêmio de risco exigido pelos investidores, o que, somado a múltiplos de valuation ainda baixos (abaixo de 10x P/L), atrai capital para a bolsa brasileira e sustenta a valorização do índice.",
+      "implicacao": "Com a redução do prêmio de risco político e múltiplos descontados, a classe de ativos de ações brasileiras tende a continuar performando acima da média, já que a entrada de capital estrangeiro via ETFs e fundos locais busca capturar a desvalorização histórica do índice em relação à sua média de longo prazo.",
+      "risco": "Uma reversão nas pesquisas eleitorais ou a vitória de um candidato com agenda econômica percebida como mais intervencionista poderia elevar o prêmio de risco e reverter a tendência de alta do Ibovespa.",
+      "proximo_evento": "Retomada das negociações na B3 na terça-feira (13) e a votação do segundo turno presidencial no dia 25 de outubro.",
+      "key_numbers": [
+        "Ibovespa: 209.066,90 pontos",
+        "EWZ: US$ 43,64",
+        "Projeção Ibovespa 2027: 235.000 pontos",
+        "Dólar: R$ 4,9851"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bolsas internacionais: Exterior tenta firmar tom positivo com balanços, mas custos de energia preocupam",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/bolsas-internacionais-exterior-tenta-firmar-tom-positivo-com-balancos-mas-custos-de-energia-preocupam-rens/",
+      "categorias": [
+        "acoes",
+        "exterior"
+      ],
+      "resumo": "Os mercados globais operam com cautela mista, impulsionados pelo início da temporada de balanços corporativos, enquanto a geopolítica energética e o acordo de compra de diesel russo mantêm a volatilidade nos preços do petróleo.",
+      "mecanismo": "A divulgação dos resultados de grandes bancos nos EUA e da LVMH na Europa serve como termômetro para a saúde do crédito e do consumo de luxo, sustentando a alta setorial bancária; simultaneamente, o anúncio do acordo de compra de diesel russo e a trégua em ataques a infraestrutura energética criam uma dinâmica de oferta que, apesar de buscar conter preços, mantém o petróleo em alta por incertezas sobre a execução real do acordo.",
+      "implicacao": "Com o setor bancário europeu liderando as altas e o petróleo em tendência de alta, ativos ligados a energia e instituições financeiras tendem a se valorizar, já que a incerteza geopolítica sustenta o preço do combustível e a temporada de balanços valida a resiliência do crédito.",
+      "risco": "A confirmação de que o acordo de compra de diesel russo não reduz efetivamente a oferta global ou que a trégua energética entre Rússia e Ucrânia é frágil pode levar a uma nova escalada de preços do petróleo, pressionando custos e reduzindo a margem de lucro das empresas.",
+      "proximo_evento": "Divulgação dos balanços trimestrais da LVMH após o fechamento em Paris e os resultados de JPMorgan e Citigroup nos próximos dias.",
+      "key_numbers": [
+        "Stoxx 600: +0,48%",
+        "Setor Bancário Europeu: +1,4%",
+        "Kospi (Coreia do Sul): -3,65%",
+        "Petróleo Brent: +1%"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Bitcoin (BTC) se aproxima de US$ 83 mil; veja os preços das criptomoedas neste domingo (11)",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/bitcoin-btc-se-aproxima-de-us-83-mil-veja-os-precos-das-criptomoedas-neste-domingo-11-pads/",
       "categorias": [
         "cripto"
       ],
-      "resumo": "Os ETFs spot de Bitcoin e Ether nos EUA registraram saídas líquidas somadas de quase US$ 1 bilhão em outubro, com o Bitcoin recuando para a região de US$ 80 mil.",
-      "mecanismo": "A saída massiva de capital dos veículos de investimento institucional (ETFs) remove a demanda estrutural que sustentou a alta recente, o que, combinado com a queda do preço do ativo, indica que o fluxo de compra não está acompanhando a volatilidade, pressionando ainda mais os preços à medida que investidores realizam lucros ou saem da posição.",
-      "implicacao": "Com a perda de tração institucional via ETFs, a classe de ativos criptoativos tende a enfrentar maior volatilidade e pressão vendedora, já que a ausência de fluxo comprador institucional deixa o mercado mais dependente de volume spot para sustentar os preços.",
-      "risco": "O raciocínio de pressão vendedora pode ser invalidado se houver um repique súbito no volume de negociação spot ou uma nova onda de compras institucionais que reverta a tendência de saídas dos ETFs.",
-      "proximo_evento": "Monitorar os dados diários de fluxo dos ETFs (Farside Investors) para verificar se a sequência de saídas de 8 dias no Ether e a forte saída do Bitcoin em 25 de setembro se revertem ou se intensificam.",
+      "resumo": "O Bitcoin opera em leve recuperação neste domingo, testando a resistência de US$ 83 mil após uma semana de forte pressão vendedora no mercado cripto. Enquanto a maior criptomoeda do mundo tenta estabilizar, a maioria dos principais ativos digitais, incluindo Ethereum e Solana, ainda acumula perdas significativas no período de sete dias.",
+      "mecanismo": "A recuperação técnica do Bitcoin ocorre após a exaustão de uma onda de liquidações de posições alavancadas e saídas de capital dos ETFs de criptomoedas; a limpeza dessas posições alavancadas tende a reduzir a pressão vendedora imediata, permitindo que o preço encontre um suporte temporário, embora o fluxo de capital institucional ainda esteja em saída.",
+      "implicacao": "Com o mercado em fase de consolidação pós-queda e fluxo de capital ainda negativo nos ETFs, a classe de ativos criptomoedas tende a manter volatilidade elevada e cautela, já que a recuperação depende da reversão do fluxo institucional e da estabilização das posições alavancadas antes de um novo impulso de alta.",
+      "risco": "A recuperação pode ser abortada se novas saídas dos ETFs ou uma nova onda de liquidações de posições longas forçar o Bitcoin a perder o suporte atual, aprofundando a queda semanal.",
+      "proximo_evento": "O fluxo diário de entradas e saídas dos ETFs de Bitcoin negociados em bolsa (spot) e a reação do preço à resistência psicológica de US$ 83.000 nas próximas 24 a 48 horas.",
       "key_numbers": [
-        "Saídas líquidas combinadas em outubro: US$ 986,3 milhões",
-        "Saídas líquidas Bitcoin ETFs em outubro: US$ 407,4 milhões",
-        "Saídas líquidas Ether ETFs em outubro: US$ 578,9 milhões",
-        "Preço do Bitcoin (mínimo de quinta): US$ 80.427"
+        "Bitcoin (BTC): US$ 82.983,20",
+        "Variação semanal BTC: -2,73%",
+        "Ethereum (ETH): US$ 2.499,58",
+        "Variação semanal Solana (SOL): -9,95%"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O Bitcoin recuou 2,2% após falhar em sustentar a marca de US$ 84.000, pressionado pelo aumento dos preços do petróleo devido a tensões geopolíticas na Ucrânia e no Irã.",
+      "mecanismo": "Ataques a infraestrutura energética na Ucrânia e a um petroleiro no Estreito de Ormuz elevaram o Brent para US$ 107,25, o que aumenta a expectativa de inflação nos EUA; esse cenário de preços de commodities em alta tende a limitar o apetite por risco em ativos digitais, fazendo o BTC perder força de compra e recuar para níveis de suporte.",
+      "implicacao": "Com o petróleo em alta e a inflação americana sob pressão, a classe de ativos de risco, incluindo criptomoções, tende a enfrentar volatilidade e cautela, já que o mercado precifica a possibilidade de uma política monetária mais restritiva ou manutenção de juros altos por mais tempo.",
+      "risco": "A tese de pressão sobre o Bitcoin pode ser invalidada se os dados de inflação vierem abaixo do esperado, reduzindo o prêmio de risco no petróleo e permitindo que o BTC recupere a força para testar a resistência de US$ 87.000.",
+      "proximo_evento": "Divulgação dos dados de IPC (CPI) e PPI dos Estados Unidos, agendados para quarta e quinta-feira, respectivamente.",
+      "key_numbers": [
+        "BTC: US$ 84.250",
+        "Brent: US$ 107,25",
+        "WTI: US$ 94",
+        "Suporte BTC: US$ 82.000"
       ],
       "sentiment": "down"
     },
     {
-      "title": "S&P 500: Everything Is Fine Until Earnings Disappoint",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4953126-s-and-p-500-everything-is-fine-until-earnings-disappoint?source=feed_all_articles",
+      "title": "Oil rallies, sending dollar higher on expectations of higher US rates",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/shares-cautious-in-asia-as-earnings-loom-oil-slips-4942949",
       "categorias": [
+        "renda_fixa",
         "exterior"
       ],
-      "resumo": "O S&P 500 opera com uma sensibilidade atípica e baixa às variações dos juros dos Treasuries, mantendo-se resiliente apesar do aumento recente nos rendimentos, o que indica que o mercado está precificando expectativas de crescimento de lucros acima do normal.",
-      "mecanismo": "A elevação de 58 bps nos yields dos Treasuries desde agosto deveria, historicamente, pressionar os preços das ações, mas o índice subiu 1,1% porque o mercado está focado na perspectiva de superação das expectativas de lucro por ação (EPS), reduzindo a sensibilidade a 14% e mantendo o gap de rendimento entre ações e títulos próximo de zero.",
-      "implicacao": "Como o mercado está em uma fase de 'perfeição precificada' e dependente de batidas de lucro, ativos de crescimento (growth) e setores cíclicos tendem a se manter firmes enquanto os EPS superarem as expectativas, mas a classe de ativos como um todo fica exposta a uma correção rápida se houver qualquer sinal de desaceleração no lucro corporativo.",
-      "risco": "O principal risco é uma decepção nos resultados de lucro (earnings disappointment) ou um novo salto significativo nos yields dos Treasuries, o que poderia reverter a sensibilidade atual e desencadear um movimento de baixa de 6% a 8,5% no índice.",
-      "proximo_evento": "A divulgação dos resultados trimestrais das empresas que compõem o índice, que é o principal catalisador para validar ou invalidar a tese de crescimento de lucros que sustenta a atual resistência do mercado.",
-      "key_numbers": [
-        "Variação dos Treasuries: +58 bps",
-        "Variação do S&P 500: +1,1%",
-        "Sensibilidade a juros: 14%",
-        "Potencial de queda: 6%-8,5%"
-      ],
-      "sentiment": "neutral"
+      "resumo": "O avanço dos preços do petróleo está impulsionando a força do dólar, refletindo expectativas de manutenção de juros mais altos nos Estados Unidos.",
+      "mecanismo": "A alta do petróleo atua como um insumo inflacionário que reforça a tese de juros elevados por mais tempo nos EUA, o que aumenta o diferencial de juros em relação a outras moedas e atrai capital para o dólar, elevando seu valor.",
+      "implicacao": "Com a perspectiva de juros altos nos EUA e dólar forte, ativos de risco e moedas emergentes tendem a sofrer pressão, enquanto o setor de energia pode se beneficiar da valorização do petróleo.",
+      "risco": "Uma desaceleração brusca da demanda global por petróleo ou uma surpresa de inflação baixa nos EUA poderia reverter a expectativa de juros altos e enfraquecer o dólar.",
+      "proximo_evento": "Próxima divulgação de dados de inflação (CPI/PCE) ou reunião do Federal Reserve para confirmar a trajetória de juros.",
+      "key_numbers": [],
+      "sentiment": "up"
     },
     {
-      "title": "Notícias sobre investimentos e o mercado financeiro | Bora Investir",
-      "source": "Bora Investir",
-      "link": "https://borainvestir.b3.com.br/noticias/",
+      "title": "SPLB: IG Bond ETF With Less Bank Risk, But More Rate Risk",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4953578-splb-ig-bond-etf-with-less-bank-risk-but-more-rate-risk?source=feed_all_articles",
       "categorias": [
         "renda_fixa"
       ],
-      "resumo": "A inflação oficial de setembro superou as expectativas ao registrar alta de 0,82%, impulsionada principalmente pelo fim do desconto no Bônus de Itaipu, elevando a taxa acumulada em 12 meses para 4,58%.",
-      "mecanismo": "O encerramento do desconto no Bônus de Itaipu atuou como um choque de oferta pontual que pressionou os preços de energia, fazendo com que o IPCA de setembro ficasse acima do consenso do mercado; essa surpresa inflacionária, somada ao IGP-DI em alta, reforça a percepção de que a desinflação pode estar perdendo fôlego, o que tende a limitar o espaço para cortes agressivos de juros pelo Banco Central no curto prazo.",
-      "implicacao": "Com a inflação mais persistente do que o previsto, a curva de juros tende a se manter mais elevada, o que pode pressionar negativamente ativos sensíveis a taxas de desconto, como ações de setores cíclicos e imóveis, enquanto favorece a rotação para ativos atrelados à inflação (IPCA+) ou renda fixa de curto prazo que capturam a taxa real.",
-      "risco": "O efeito do Bônus de Itaipu é pontual e pode ser interpretado pelo mercado como um ruído estatístico que não altera a trajetória de desinflação de base, o que poderia levar o Copom a manter o viés de corte de juros apesar do dado mensal elevado.",
-      "proximo_evento": "Divulgação da ata da última reunião do Copom e a próxima atualização do Boletim Focus, onde os analistas revisarão suas projeções para a Selic e o IPCA em resposta ao dado acima do esperado.",
+      "resumo": "O ETF SPLB oferece exposição a títulos corporativos de longo prazo com menor concentração em bancos, mas carrega uma sensibilidade a juros significativamente maior que o benchmark LQD.",
+      "mecanismo": "A duração efetiva de 11,9 anos do SPLB, quase o dobro da do LQD (7,5 anos), significa que o valor de mercado do fundo é altamente elástico a mudanças na curva de juros; assim, qualquer movimento de alta nas taxas de juros dos EUA resultará em uma queda proporcionalmente maior no preço das cotas do SPLB em comparação com fundos de duration mais curta.",
+      "implicacao": "Para investidores de curto/médio prazo, a classe de ativos de renda fixa de longo prazo (long duration) tende a sofrer drawdowns mais acentuados em cenários de juros altos ou em alta, enquanto a rotação para fundos com duration mais curta ou hedgeados (como IGBH) pode ser preferível para mitigar o risco de mercado sem abrir mão do yield corporativo.",
+      "risco": "O raciocínio de que a menor exposição a bancos é um benefício pode ser invalidado se o setor financeiro sofrer um estresse sistêmico que não se transmita aos demais setores corporativos, ou se a curva de juros inverter para um cenário de queda acentuada, onde a alta duration do SPLB se tornaria a principal fonte de retorno capitalista.",
+      "proximo_evento": "Próxima reunião do FOMC (Federal Open Market Committee) para definição da taxa de juros básica dos EUA e a divulgação dos dados de inflação (CPI/PCE) que influenciarão a trajetória da curva de juros.",
       "key_numbers": [
-        "IPCA setembro: 0,82%",
-        "IPCA 12 meses: 4,58%",
-        "IGP-DI setembro: 1,50%",
-        "Dólar: R$ 5,02"
+        "Duração efetiva: 11,9 anos",
+        "Yield to maturity: 6,57%",
+        "Exposição a financeiros: 16%",
+        "AUM: US$ 1,18 bilhão"
       ],
-      "sentiment": "down"
+      "sentiment": "neutral"
     },
     {
-      "title": "Clube FII News - Notícias para o Investidor de Fundos Imobiliários",
-      "source": "Clube FII News",
-      "link": "https://www.clubefiinews.com.br",
+      "title": "SCYB: Rising Credit Spreads Provide An Opportunity As Yield Approaches 8%",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4953563-scyb-rising-credit-spreads-provide-an-opportunity-as-yield-approaches-8-percent?source=feed_all_articles",
       "categorias": [
-        "imobiliario"
+        "renda_fixa",
+        "debentures"
       ],
-      "resumo": "O mercado de Fundos Imobiliários está registrando forte apetite por novas emissões, somando R$ 56,3 bilhões em captações recentes, mesmo com a Selic em patamares elevados que tornam a renda fixa uma alternativa atrativa. Paralelamente, a incerteza eleitoral e a expectativa de reprecificação do setor imobiliário estão condicionando os movimentos de curto prazo.",
-      "mecanismo": "A combinação de juros altos e incerteza política cria um ambiente onde o custo de capital é elevado, mas a liquidez abundante e a busca por diversificação mantêm a demanda por FIIs. A expectativa de que a política fiscal futura possa impactar a reprecificação dos ativos imobiliários faz com que o mercado ajuste os preços antecipadamente, enquanto a concorrência com a renda fixa exige que os fundos ofereçam prêmios de risco adequados para captar recursos.",
-      "implicacao": "Com a forte emissão de FIIs e a expectativa de reprecificação do real estate, a classe de ativos tende a ganhar liquidez e relevância no portfólio, já que a entrada de capital novo pode sustentar os preços mesmo em cenário de juros altos, desde que a política fiscal não traga choques negativos para a economia real.",
-      "risco": "A manutenção de juros altos por mais tempo do que o esperado pode aumentar o custo de capital dos fundos e reduzir a atratividade relativa frente à renda fixa, além de a política fiscal pós-eleição poder ser mais restritiva do que o mercado precifica, impactando a demanda por imóveis.",
-      "proximo_evento": "Resultado das eleições e definição da política fiscal do próximo governo, além da divulgação dos próximos relatórios gerenciais dos FIIs para verificar a sustentabilidade das captações.",
+      "resumo": "O ETF de crédito de alto rendimento SCYB enfrenta pressão de preços devido ao alargamento dos spreads de crédito, mas o analista argumenta que a aproximação do rendimento de 8% cria uma janela de oportunidade atrativa.",
+      "mecanismo": "O aumento dos rendimentos dos Treasuries provocou um contágio que alargou os spreads de crédito, pressionando os preços dos títulos; no entanto, a tese sugere que se a fragilidade do crédito se aprofundar, isso forçará uma reversão nos rendimentos dos Treasuries, o que, combinado com o yield atual próximo de 8%, oferece uma relação risco-retorno favorável para entrada.",
+      "implicacao": "Para a classe de ativos de crédito de alto rendimento (high yield), a tese indica que a volatilidade recente pode ser um ponto de entrada, pois o yield elevado compensa o risco de crédito, desde que não ocorra uma espiral inflacionária que pressione os juros de longo prazo.",
+      "risco": "O principal risco é um pico de inflação causado pelo petróleo, o que poderia fazer com que os rendimentos dos Treasuries e os spreads de crédito subam ao mesmo tempo, invalidando a tese de que a fraqueza no crédito levaria a uma queda nos juros.",
+      "proximo_evento": "Monitorar a evolução dos spreads de crédito e os dados de inflação nos EUA para verificar se há sinais de um choque inflacionário impulsionado pelo petróleo que possa elevar simultaneamente os juros e os spreads.",
       "key_numbers": [
-        "Emissões de FIIs: R$ 56,3 bi",
-        "Ofertas recentes: R$ 14,1 bi",
-        "Escritórios de bets: 16 mil m²",
-        "Valor locativo bets: R$ 22,6 mi/ano"
+        "Yield to Maturity: ~8%",
+        "Expense Ratio: 0.03%"
       ],
       "sentiment": "up"
-    },
-    {
-      "title": "Notícias de Mercado Imobiliário - Clube FII News",
-      "source": "Clube FII News",
-      "link": "https://www.clubefiinews.com.br/mercado-imobiliario",
-      "categorias": [
-        "imobiliario"
-      ],
-      "resumo": "O texto fornecido consiste exclusivamente em um aviso legal e de isenção de responsabilidade do Clube FII, sem conter qualquer notícia de mercado, dado econômico ou evento corporativo específico.",
-      "mecanismo": "Não há mecanismo causal identificável, pois o conteúdo não apresenta fatos, variáveis econômicas ou eventos que gerem uma cadeia de consequências para o mercado.",
-      "implicacao": "Sem dados de entrada, não é possível estabelecer uma implicação setorial ou de classe de ativo, pois a ausência de informação não gera sinal de compra, venda ou neutralidade técnica.",
-      "risco": "O principal risco é a interpretação equivocada de um texto institucional como conteúdo de análise de mercado, o que pode levar a decisões baseadas em vacuo informativo.",
-      "proximo_evento": "Não há próximo evento gatilho derivado deste texto, uma vez que ele não contém informações factuais sobre o mercado imobiliário ou financeiro.",
-      "key_numbers": [],
-      "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [
-      "O bom desempenho do senador Flávio Bolsonaro (PL-RJ) no primeiro turno e de candidatos alinhados a ele nas disputas para o Congresso foi recebido com entusiasmo pelo mercado, mas o fator fiscal deve definir os próximos passos dos ativos brasileiros."
+      "O artigo compara os ETFs NIHI e IDVO no contexto de renda internacional, questionando se o investidor deve buscar renda agora ou adiar essa estratégia.",
+      "O ETF YMAG é descrito como um fundo com rendimento de 40% construído sobre sete fundos de renda de opções."
     ],
     "acoes": [
-      "O Ibovespa futuro opera em alta de 0,30%, aos 207.805 pontos, enquanto o dólar à vista abre a R$ 5,0041 (-0,40%), com o mercado dividindo atenções entre o cenário eleitoral e os dados de inflação.",
-      "O bom desempenho de Flávio Bolsonaro e de candidatos alinhados a ele no primeiro turno foi recebido com entusiasmo pelo mercado, mas o fator fiscal deve definir os próximos passos da bolsa e do dólar.",
-      "A Verde Asset avalia que a disparada dos ativos brasileiros após o primeiro turno não esgotou as oportunidades de ganho, vendo na mudança da política fiscal um cenário favorável, mas alerta que a alta das taxas pode ameaçar esse otimismo.",
-      "O Morgan Stanley rebaixou a recomendação para as ações da Vibra Energia (VBBR3) e da Ultrapar (UGPA3), embora tenha elevado os preços-alvo dos papéis após revisar para cima suas estimativas."
+      "As bolsas da Europa fecharam em alta nesta segunda-feira (12), estendendo o avanço registrado na última sessão, com expectativas para a nova rodada de balanços e influência dos conflitos geopolíticos no Oriente Médio sobre os preços do petróleo.",
+      "Um artigo do Seeking Alpha argumenta que o setor de tecnologia liderará o crescimento de lucros do S&P novamente.",
+      "Um artigo do Seeking Alpha sustenta que a história de crescimento da Microsoft em IA justifica uma recomendação de compra forte."
     ],
     "cripto": [
-      "O Bitcoin se aproxima de uma mínima de três semanas enquanto o petróleo sobe devido a problemas relacionados a ataques ao Irã.",
-      "Os fluxos mensais de 'dinheiro novo' no Bitcoin se aproximam de US$ 5 bilhões enquanto a alta do preço do BTC estagna.",
-      "Especuladores movem 55 mil BTC para exchanges em meio a liquidações de US$ 1,1 bilhão.",
-      "O governo dos EUA move US$ 1 bilhão em Bitcoin apreendido após transferências de US$ 770 milhões."
+      "Strategy adicionou 250 Bitcoin a seus ativos, elevando o total de holdings para 848.250 BTC.",
+      "A Ledger confirmou a implantação de hardware não autorizado e informou que as perdas podem exceder US$ 86 milhões.",
+      "O suporte de preço do BTC se mantém firme antes da divulgação dos dados de IPC dos EUA, sendo um dos três pontos que os traders de Bitcoin precisam conhecer nesta semana.",
+      "O órgão de monitoramento global sinalizou riscos de stablecoins e ameaças de IA antes da reunião do G20."
     ],
     "debentures": [],
     "exterior": [
-      "Os mercados reagem positivamente com a queda nos preços do petróleo e o alívio das tensões geopolíticas.",
-      "Há uma expectativa de um pico inflacionário na prévia do relatório de CPI de setembro.",
-      "O crescimento econômico dos EUA é esperado para se fortalecer no relatório de PIB do terceiro trimestre.",
-      "A perspectiva para as ações da Apple é pressionada por um relatório que indica corte nas encomendas do iPhone 18 Pro."
+      "As bolsas da Europa fecharam em alta nesta segunda-feira (12), estendendo o avanço registrado na sessão anterior, com expectativas para a nova rodada de balanços e influência dos conflitos geopolíticos no Oriente Médio sobre os preços do petróleo.",
+      "O contrato futuro do ouro fechou em queda nesta segunda-feira (12), em correção aos ganhos recentes, em um dia de liquidez reduzida por conta do feriado do 'Dia de Colombo' nos EUA, com investidores atentos à publicação do CPI na quarta-feira."
     ],
-    "imobiliario": [
-      "O Clube FII News afirma que verifica as informações publicadas sobre lajes corporativas e ressalta que não faz recomendação de investimento nem se responsabiliza por perdas ou danos.",
-      "O Clube FII News destaca que não realiza recomendações de investimento nem assume responsabilidade por perdas ou danos em relação às notícias de shopping centers.",
-      "O Clube FII News informa que não faz recomendação de investimento e não se responsabiliza por perdas ou danos ao publicar notícias sobre galpões logísticos e industriais.",
-      "O Clube FII News ressalta que não faz recomendação de investimento e não se responsabiliza por perdas ou danos em suas publicações da categoria 'Outros'."
-    ]
+    "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O mercado está priorizando a percepção de estabilidade política e a redução do prêmio de risco soberano, impulsionada pelo desempenho eleitoral de Flávio Bolsonaro, mesmo com o IPCA acima do teto da meta e sinais de perda de fôlego na desinflação. Enquanto o rali pós-eleição pode perder força, a atenção se volta para a questão fiscal como determinante para a bolsa e o dólar, em um cenário onde a surpresa inflacionária de setembro limita o espaço para cortes agressivos de juros pelo Banco Central.",
-    "acoes": "O mercado segue priorizando o 'trade Flávio' e a expectativa de contenção de despesas, que reduzem o prêmio de risco soberano e atraem capital estrangeiro, mesmo com o IPCA acima do teto da meta. A atenção agora se volta para o papel do fator fiscal na definição dos próximos passos dos ativos, além das próximas divulgações de pesquisas de intenção de voto e da reunião do Copom para definição da taxa Selic.",
-    "cripto": "O mercado enfrenta pressão vendedora com o Bitcoin perto de mínimas de três semanas e especuladores movendo 55 mil BTC para exchanges, o que, somado às saídas de US$ 1 bilhão dos ETFs, indica forte realização de lucros. A atenção deve se manter nos dados de inflação (CPI) dos EUA de 14 de outubro e nos fluxos diários dos ETFs para verificar se a demanda spot consegue absorver a oferta de venda gerada por essas movimentações.",
-    "debentures": "",
-    "exterior": "O mercado está equilibrando o alívio geopolítico e a queda do petróleo, que favorecem o apetite a risco, contra a necessidade de validação dos lucros corporativos para sustentar a resistência do S&P 500 frente à elevação dos yields. A atenção deve se concentrar na confirmação do crescimento econômico no PIB do Q3 e no comportamento da inflação no CPI de setembro, que podem influenciar as expectativas de política monetária antes das eleições de meio de mandato.",
-    "imobiliario": "O ambiente de mercado continua marcado pela combinação de juros altos e incerteza política, que eleva o custo de capital e exige prêmios de risco adequados para atrair liquidez para os FIIs. A atenção deve se manter na definição da política fiscal do próximo governo após as eleições e na divulgação dos relatórios gerenciais, que são essenciais para verificar a sustentabilidade das captações e o ajuste antecipado de preços dos ativos."
+    "renda_fixa": "A categoria está focada na sensibilidade à curva de juros dos EUA, onde a duração elevada de fundos como o SPLB e os spreads de crédito em expansão no SCYB indicam alta volatilidade de preço em resposta a mudanças nas taxas. Enquanto o petróleo sustenta a tese de juros elevados por mais tempo, pressionando o dólar, a atenção deve se manter nos próximos dados de inflação (CPI/PCE) e reuniões do FOMC para confirmar a trajetória da curva, além de monitorar se a fragilidade do crédito forçará uma reversão nos rendimentos dos Treasuries.",
+    "acoes": "O mercado brasileiro opera com foco na retomada das negociações na B3 na terça-feira (13) e na votação do segundo turno presidencial no dia 25 de outubro, enquanto o prêmio de risco diminui devido à percepção de menor risco político e múltiplos de valuation baixos. No exterior, a atenção se volta para a divulgação dos balanços trimestrais de grandes bancos norte-americanos e europeus, como JPMorgan, Citigroup e LVMH, que servirão de termômetro para a saúde do crédito e do consumo, além do impacto dos conflitos geopolíticos no Oriente Médio sobre os preços do petróleo e a inflação.",
+    "cripto": "O mercado de criptomoedas enfrenta uma dinâmica de tensão entre a resistência psicológica de US$ 83.000 do Bitcoin e a pressão vendedora derivada da inflação impulsionada pela alta do petróleo, com os dados de IPC e PPI dos EUA sendo o próximo catalisador crítico. Enquanto isso, o fluxo de capital institucional segue em saída dos ETFs spot, e o cenário de risco é agravado por incidentes de segurança como o da Ledger e pelas alertas regulatórios globais sobre stablecoins e IA antecipando o G20.",
+    "debentures": "É fundamental monitorar a evolução dos spreads de crédito e os dados de inflação nos EUA para verificar se há sinais de um choque inflacionário impulsionado pelo petróleo que possa elevar simultaneamente os juros e os spreads. Essa dinâmica é crucial para avaliar se a fragilidade do crédito se aprofundará, o que forçaria uma reversão nos rendimentos dos Treasuries e consolidaria a relação risco-retorno favorável para entrada em ativos com yield próximo de 8%.",
+    "exterior": "O mercado global opera sob a tensão entre a alta dos preços do petróleo, impulsionada por riscos geopolíticos no Oriente Médio e na Ucrânia, e a expectativa de juros elevados por mais tempo nos EUA, o que sustenta o dólar e pressiona ativos de crescimento. A atenção está voltada para a divulgação do CPI dos EUA na quarta-feira e para os balanços trimestrais de grandes bancos norte-americanos e da LVMH, que servirão como termômetro para a saúde do crédito e do consumo.",
+    "imobiliario": ""
   }
 }
