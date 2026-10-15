@@ -1,199 +1,162 @@
 {
-  "gerado_em": "2026-10-14T16:00:24.471836+00:00",
+  "gerado_em": "2026-10-15T15:46:11.755178+00:00",
   "itens": [
     {
-      "title": "Wall Street opera em queda após CPI acima do esperado",
+      "title": "Wall Street tem tom misto com pressão de IA e inflação acima do esperado",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-abertura-14-10-26-apsa/",
+      "link": "https://www.moneytimes.com.br/wall-street-abertura-15-10-26-lils/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "A inflação nos EUA superou as expectativas em setembro, com o núcleo do CPI acima do consenso, o que elevou as apostas de que o Federal Reserve manterá sua postura restritiva e pode elevar os juros novamente.",
-      "mecanismo": "O dado de inflação acima do esperado (0,6% no mês e 3,7% no ano) invalida a narrativa de desinflação rápida, pressionando os rendimentos dos Treasuries para cima e reduzindo a probabilidade de corte de juros, o que encarece o custo de capital global e penaliza ativos de crescimento.",
-      "implicacao": "Com a perspectiva de juros altos por mais tempo nos EUA, o setor de tecnologia e empresas de crescimento tendem a sofrer pressão de valuation, enquanto o setor de energia pode se beneficiar indiretamente pela manutenção de preços elevados do petróleo, que sustenta a inflação.",
-      "risco": "O PPI divulgado no dia seguinte pode mostrar desaceleração forte, indicando que o choque de preços foi pontual e não estrutural, o que poderia reverter a expectativa de aperto monetário adicional.",
-      "proximo_evento": "Divulgação do PPI (Índice de Preços ao Produtor) dos EUA no dia seguinte e a reunião do FOMC em outubro.",
+      "resumo": "Os mercados americanos operam em queda, liderados pelo setor de tecnologia, devido a temores sobre a sustentabilidade do endividamento para infraestrutura de IA e a uma inflação doméstica que superou as expectativas.",
+      "mecanismo": "A combinação de dados de inflação (CPI e PPI) acima do projetado e a percepção de que o crescimento de receita de empresas de IA pode não justificar o alto endividamento para expansão de infraestrutura está recalibrando as apostas de mercado, sugerindo que o Fed pode manter juros altos por mais tempo, o que pressiona os múltiplos de avaliação das ações de tecnologia.",
+      "implicacao": "Com a perspectiva de juros mais altos por mais tempo e a revisão das expectativas de crescimento do setor de IA, a classe de ativos de tecnologia tende a sofrer pressão de venda, enquanto setores defensivos e sensíveis a taxas de juros reais podem ganhar relativo, já que o custo de capital elevado desestimula investimentos de alto risco e longo prazo.",
+      "risco": "O cenário pode ser invalidado se os próximos dados de inflação mostrarem desaceleração rápida ou se as empresas de IA apresentarem resultados que comprovem a alta rentabilidade dos investimentos em infraestrutura, revertendo a narrativa de bolha.",
+      "proximo_evento": "Próxima reunião do Federal Reserve (FOMC) para definição da política monetária e divulgação de novos dados de inflação (CPI/PPI) que confirmem ou refutem a tendência de alta.",
       "key_numbers": [
-        "CPI mensal EUA: 0,6%",
-        "CPI anual EUA: 3,7%",
-        "CPI núcleo mensal EUA: 0,3%",
-        "Probabilidade de manutenção de juros (Fed Watch): 50,7%"
+        "CPI EUA (12m): 3,7%",
+        "PPI EUA (m/m): 1,3%",
+        "Nasdaq: -1,38%",
+        "S&P 500: -0,61%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "DXY a 102 pontos: Por que o dólar voltou a ganhar força e o que esperar daqui para frente",
+      "title": "Ibovespa estende perdas e cai 1% de olho no cenário eleitoral e fim da escala 6×1; 5 coisas para saber antes de investir hoje (15)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/dxy-a-102-pontos-por-que-o-dolar-voltou-a-ganhar-forca-e-o-que-esperar-daqui-para-frente-lils/",
+      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-15-10-26-apsa/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O Ibovespa recuou 1,37% nesta quinta-feira, pressionado pela aprovação da PEC que reduz a jornada de trabalho e pela incerteza eleitoral, enquanto o dólar subiu ante o real apesar da fraqueza global da moeda americana.",
+      "mecanismo": "A aprovação da PEC do fim da escala 6x1 e a redução da jornada para 40 horas aumentam o custo operacional das empresas e geram incerteza regulatória, o que, somado ao empate técnico nas pesquisas eleitorais, eleva o prêmio de risco exigido pelos investidores, resultando em venda de ativos de risco (ações) e busca por proteção (dólar), mesmo com o DXY em queda.",
+      "implicacao": "Setores intensivos em mão de obra, como varejo, construção civil e serviços, tendem a enfrentar pressão sobre margens e valuation, já que a redução da jornada sem corte de salários implica em aumento do custo por hora trabalhada, enquanto setores de consumo defensivo podem ser menos impactados no curto prazo.",
+      "risco": "A implementação prática da nova jornada pode ser mais gradual ou acompanhada de medidas de produtividade que mitiguem o impacto nos custos, ou uma definição clara do cenário eleitoral pode reduzir o prêmio de risco e reverter a aversão a ativos brasileiros.",
+      "proximo_evento": "Promulgação oficial da PEC pelo Congresso Nacional e divulgação de novas pesquisas eleitorais que possam quebrar o empate técnico entre os candidatos.",
+      "key_numbers": [
+        "Ibovespa: -1,37%",
+        "Dólar: R$ 5,0611",
+        "PPI EUA (m/m): 1,3%",
+        "Varejo Brasil (m/m): 0,1%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Bolsas da Ásia despencam com liquidação de ações de tecnologia após CPI dos EUA",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/bolsas-da-asia-despencam-com-liquidacao-de-acoes-de-tecnologia-apos-cpi-dos-eua-fets/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "A inflação nos EUA superou as expectativas em setembro, elevando as apostas de mercado para uma nova alta de juros pelo Fed em outubro e fortalecendo o dólar frente a outras moedas.",
-      "mecanismo": "O avanço do CPI para 0,6% no mês e 3,7% em 12 meses sinaliza resiliência inflacionária, o que aumenta a probabilidade de o Fed elevar os juros para 4,00%-4,25% na reunião de 28 de outubro; essa perspectiva de juros mais altos por mais tempo torna os Treasuries mais atrativos, puxando capital para o dólar e pressionando moedas emergentes como o real.",
-      "implicacao": "Com a perspectiva de juros americanos mais altos e dólar forte, ativos de risco e moedas emergentes tendem a sofrer pressão, enquanto títulos do Tesouro americano (Treasuries) se beneficiam do aumento na demanda por segurança e rendimento real.",
-      "risco": "O cenário de alta de juros pode ser invalidado se os próximos dados de inflação ou atividade econômica nos EUA mostrarem desaceleração mais rápida do que o esperado, levando o Fed a manter a taxa atual ou adiar novos aumentos.",
-      "proximo_evento": "Reunião do Fomc (Comitê Federal do Mercado Aberto) em 28 de outubro de 2026, onde será decidida a taxa de juros dos EUA.",
+      "resumo": "Os mercados asiáticos sofreram fortes perdas nesta quinta-feira, liderados por quedas expressivas na Coreia do Sul e no Japão, devido à aversão a risco global após a divulgação de dados de inflação dos EUA acima do esperado.",
+      "mecanismo": "O CPI dos EUA de setembro veio em 3,7% (acima dos 3,4% de agosto e das expectativas), o que reforça a tese de que os juros americanos permanecerão elevados por mais tempo; esse cenário de 'higher for longer' aumenta o custo de capital e a aversão a risco, provocando uma liquidação agressiva em ativos de crescimento e tecnologia, que são os mais sensíveis a mudanças na curva de juros.",
+      "implicacao": "Com a perspectiva de juros altos nos EUA mantendo o dólar forte e o custo de capital elevado, o setor de tecnologia e semicondutores tende a continuar sob pressão, já que a valorização dessas empresas depende fortemente de fluxos de caixa futuros descontados a taxas mais baixas, enquanto setores defensivos ou de valor podem ganhar relativo em busca de proteção.",
+      "risco": "A intervenção regulatória agressiva das autoridades sul-coreanas (tolerância zero para manipulação) ou uma reversão súbita no sentimento de mercado caso novos dados econômicos indiquem desaceleração mais rápida da inflação, o que poderia reverter a liquidação e gerar um 'short squeeze' em ações de tecnologia.",
+      "proximo_evento": "Divulgação do balanço trimestral da TSMC, que ocorrerá após o fechamento do pregão de hoje, e possíveis novas reuniões de emergência das autoridades financeiras sul-coreanas para discutir medidas de estabilização do mercado.",
       "key_numbers": [
-        "DXY: 102.875",
-        "CPI EUA (m/m): 0,6%",
-        "CPI EUA (a/a): 3,7%",
-        "Chance de alta Fed (FedWatch): 53,7%"
+        "CPI EUA (set/26): 3,7%",
+        "Kospi (Coreia do Sul): -7,57%",
+        "Nikkei (Japão): -4,90%",
+        "Taiex (Taiwan): -3,41%"
       ],
-      "sentiment": "up"
+      "sentiment": "down"
     },
     {
-      "title": "Ibovespa cai 1% com inflação nos EUA acima do esperado; 5 coisas para saber antes de investir hoje (14)",
+      "title": "Tempo real: Ibovespa cai com Flávio e Lula em empate técnico nas pesquisas; dólar sobe",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-14-10-26-lils/",
+      "link": "https://www.moneytimes.com.br/tempo-real-15-10-26-apsa-lils/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa recuou 1,31% nesta manhã, pressionado pela cautela global após a inflação dos EUA vir acima do esperado e pela decepção com os dados do setor de serviços brasileiro.",
-      "mecanismo": "A inflação americana mais forte (CPI de 0,6% no mês) reduz a probabilidade de cortes agressivos de juros pelo Fed, o que sustenta o dólar forte (DXY em alta) e pressiona o câmbio no Brasil; simultaneamente, a queda do setor de serviços local (0,1% m/m) sinaliza desaceleração econômica, o que, somado à incerteza eleitoral, gera aversão a risco e venda de ativos locais.",
-      "implicacao": "Com a atividade econômica desacelerando e o dólar em alta, o setor de commodities (especialmente petróleo, que subiu) tende a se destacar como refúgio, enquanto setores sensíveis ao consumo doméstico e ao custo de capital enfrentam pressão, já que a incerteza fiscal e eleitoral inibe o investimento e o consumo.",
-      "risco": "Uma virada positiva nas pesquisas eleitorais ou um enfraquecimento do dólar global poderia reverter a aversão a risco e limitar as perdas no índice, invalidando a tese de continuidade da queda.",
-      "proximo_evento": "Divulgação da pesquisa presidencial Quaest prevista para as 18h de hoje e o debate presidencial na Band no próximo domingo (18).",
+      "resumo": "O Ibovespa recua pelo terceiro dia seguido e o dólar se valoriza, refletindo a incerteza gerada pelo empate técnico entre Flávio Bolsonaro e Lula nas pesquisas eleitorais.",
+      "mecanismo": "A redução da vantagem do candidato de centro-direita nas pesquisas aumenta a percepção de risco político e a incerteza sobre a continuidade das políticas econômicas, o que leva investidores a buscarem proteção em moeda forte (dólar) e a reduzirem a exposição a ativos de risco locais (ações), pressionando o índice para baixo.",
+      "implicacao": "Com o aumento da aversão ao risco político, o setor de exportadoras e empresas com forte exposição a moeda estrangeira tende a se beneficiar da valorização do dólar, enquanto setores sensíveis a juros e consumo doméstico podem enfrentar pressão de valuation devido à exigência de prêmio de risco maior.",
+      "risco": "Uma virada rápida nas pesquisas ou um evento externo positivo (como corte de juros nos EUA) pode reverter a aversão ao risco, fazendo o Ibovespa recuperar patamares anteriores e o dólar cair, invalidando a tese de proteção cambial.",
+      "proximo_evento": "Próximas divulgações de pesquisas de intenção de voto para o segundo turno e a definição do calendário oficial de debates e propaganda eleitoral.",
       "key_numbers": [
-        "Ibovespa: -1,31%",
-        "Dólar: R$ 5,0441",
-        "CPI EUA (m/m): 0,6%",
-        "Petróleo Brent: US$ 105,71"
+        "Ibovespa: 203.841,80 pontos",
+        "Queda do Ibovespa: 1,29%",
+        "Preço-alvo B3 (UBS): R$ 26,50",
+        "Preço-alvo Localiza (Citi): R$ 56"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Tempo real: Ibovespa cai com inflação acima do esperado nos EUA; DXY vai à máxima de 18 meses",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/tempo-real-14-10-26-apsa-lils/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "A inflação nos EUA superou as expectativas em setembro, elevando as apostas de que o Fed aumente os juros na próxima reunião e pressionando o Ibovespa e o dólar.",
-      "mecanismo": "O avanço do CPI americano para 3,7% reforçou a perspectiva de uma política monetária mais restritiva, o que elevou os rendimentos dos Treasuries e o DXY, aumentando o custo de capital global e desestimulando o fluxo para mercados emergentes como o Brasil.",
-      "implicacao": "Com a perspectiva de juros mais altos nos EUA e dólar forte, o setor de commodities e empresas com dívida em moeda estrangeira tendem a enfrentar pressão, já que o custo de financiamento sobe e a competitividade de exportações pode ser afetada pela força da divisa americana.",
-      "risco": "O cenário de alta de juros pode ser invalidado se novos dados econômicos americanos mostrarem desaceleração do mercado de trabalho ou se o Fed sinalizar que a inflação está sob controle, revertendo a pressão sobre o dólar.",
-      "proximo_evento": "Reunião do Federal Reserve (Fed) no fim de outubro para definição da taxa de juros americana.",
-      "key_numbers": [
-        "CPI EUA (anual): 3,7%",
-        "DXY: 102.875 pontos",
-        "Probabilidade de alta Fed (CME): >21,6%",
-        "MGLU3: -7,92%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Bitcoin price dips below $82K as high oil prices spike US CPI inflation",
+      "title": "Bitcoin slips under $80K after US PPI gains most in four years",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-price-dips-yields-surge-as-high-oil-prices-spike-us-cpi-inflation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-breaks-under-80k-after-us-ppi-gains-most-in-over-4-years?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "O Bitcoin recuou para abaixo de US$ 82.000 após a divulgação do CPI dos EUA de setembro, que superou as expectativas devido ao forte aumento nos preços dos combustíveis.",
-      "mecanismo": "A inflação ao consumidor veio acima do consenso (3,7% vs 3,6%) impulsionada por uma alta de 9,1% nos preços da gasolina, o que elevou as expectativas de que o Fed aumente os juros em outubro e dezembro, pressionando os rendimentos dos títulos do Tesouro e reduzindo o apelo de ativos de risco como criptomoedas.",
-      "implicacao": "Com a probabilidade de alta de juros do Fed subindo para 53,7% na reunião de outubro, a classe de ativos de risco, incluindo criptomoedas, tende a enfrentar pressão vendedora, já que o aumento do custo do dinheiro global reduz a liquidez disponível para investimentos especulativos.",
-      "risco": "O mercado pode ignorar o dado inflacionário se o relatório de emprego fraco de setembro for interpretado como sinal de desaceleração econômica severa, levando o Fed a manter os juros estáveis em vez de elevá-los.",
-      "proximo_evento": "Divulgação do Índice de Preços ao Produtor (PPI) dos EUA de setembro, prevista para sexta-feira.",
+      "resumo": "O Bitcoin recuou abaixo da marca de US$ 80.000 após a divulgação de dados de inflação de preços ao produtor (PPI) dos EUA que superaram as expectativas em 100 pontos-base, registrando o maior salto mensal desde março de 2022.",
+      "mecanismo": "A surpresa inflacionária no PPI, somada ao CPI elevado do dia anterior, reforçou a percepção de pressão de preços persistentes, o que, em conjunto com a venda de ativos de risco (como o KOSPI), gerou aversão ao risco e pressionou o preço do Bitcoin para baixo, apesar de os rendimentos dos títulos de 10 anos dos EUA não terem subido em resposta imediata.",
+      "implicacao": "Com a inflação de preços ao produtor mais alta que o esperado, a classe de ativos de risco, incluindo criptomoças, tende a enfrentar pressão de venda no curto prazo, já que a persistência inflacionária pode limitar o espaço para cortes agressivos de juros pelo Fed, mantendo o custo de capital elevado.",
+      "risco": "O raciocínio de pressão sobre ativos de risco pode ser invalidado se o mercado interpretar que a desaceleração dos rendimentos dos títulos de 10 anos indica que o Fed priorizará o crescimento econômico sobre o controle da inflação, ou se houver uma reversão rápida da venda de ativos de risco em outras regiões.",
+      "proximo_evento": "O próximo gatilho relevante é a próxima reunião do Federal Reserve (FOMC) para definição da política de juros, bem como a divulgação dos próximos dados de inflação (CPI e PPI) que confirmarão ou refutarão a tendência de desaceleração ou aceleração dos preços.",
       "key_numbers": [
-        "Bitcoin: US$ 81.926",
-        "CPI EUA (YoY): 3,7%",
-        "Juros T-Bond 10 anos: 5,329%",
-        "Probabilidade alta Fed (Out): 53,7%"
+        "PPI (variação mensal): 6.3%",
+        "PPI esperado: 5.3%",
+        "Suporte técnico BTC: US$ 78.000",
+        "Queda intradiária BTC: 1.8%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Bitcoin keeps up pressure on $84K as US stocks skirt Korea tech sell-off",
+      "title": "Bitcoin dips to $80.1K as KOSPI closes at its lowest since April",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-keeps-up-pressure-on-84k-as-us-stocks-sidestep-korea-tech-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/markets/bitcoin-dips-korea-kospi-lowest-close-since-april?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "O Bitcoin mantém pressão sobre a resistência de US$ 84.000, preservando ganhos noturnos enquanto o mercado acionário dos EUA se recupera rapidamente após a forte queda do índice KOSPI na Coreia do Sul.",
-      "mecanismo": "A queda de 5,4% no KOSPI, impulsionada por temores sobre gastos com IA e concorrência chinesa, gerou volatilidade inicial nos futuros americanos, mas a rápida recuperação do S&P 500 e Nasdaq indica que o mercado está absorvendo o choque sem contágio generalizado; simultaneamente, a força do dólar (DXY em 18 meses) e o aumento dos rendimentos dos títulos do Tesouro estão drenando liquidez e reduzindo o apetite por risco, o que limita o upside do Bitcoin apesar da resiliência dos índices de tecnologia.",
-      "implicacao": "Com a liquidez sendo absorvida por mercados mais maduros como o S&P 500 e o Nasdaq, e com o dólar forte restringindo a capacidade de risco institucional, a classe de ativos criptoativos tende a enfrentar resistência no curto prazo, pois o Bitcoin é percebido como um ativo de alto risco que sofre com a falta de apetite por volatilidade.",
-      "risco": "A correlação inversa tradicional entre DXY e Bitcoin tem se enfraquecido ao longo do ano, o que significa que a força do dólar pode não ser um fator limitante suficiente para impedir uma quebra da resistência de US$ 84.000 se houver um fluxo institucional repentino para cripto.",
-      "proximo_evento": "Divulgação dos dados de CPI (Índice de Preços ao Consumidor) dos EUA, que pode influenciar as expectativas de juros e a força do dólar.",
+      "resumo": "O Bitcoin recuou para US$ 80,1 mil, atingindo seu menor nível em três semanas, impulsionado por uma forte queda de 7,5% no índice KOSPI da Coreia do Sul e por dados de inflação dos EUA acima do esperado.",
+      "mecanismo": "A venda massiva de ações de tecnologia na Coreia do Sul, motivada por preocupações com dívidas de IA e saída de capital estrangeiro, gerou contágio negativo para criptoativos; simultaneamente, o CPI americano de 3,7% reforçou expectativas de juros mais altos por mais tempo, reduzindo a liquidez disponível para ativos de risco como o Bitcoin.",
+      "implicacao": "Com o aumento da aversão ao risco global e a pressão de juros altos nos EUA, a classe de ativos de criptomoedas tende a enfrentar pressão vendedora, já que a correlação com mercados acionários de tecnologia e a sensibilidade a condições de liquidez macroeconômica se intensificam em cenários de estresse.",
+      "risco": "A tese de queda pode ser invalidada se a OPEP+ ou a IEA liberarem estoques estratégicos de petróleo que reduzam a inflação de energia, ou se o Fed sinalizar claramente que não haverá novos aumentos de juros apesar do CPI elevado.",
+      "proximo_evento": "Divulgação dos resultados trimestrais da SK Hynix e Samsung Electronics, agendados para 28 e 29 de outubro, que podem intensificar a volatilidade no setor de tecnologia.",
       "key_numbers": [
-        "Bitcoin: US$ 83.800",
-        "KOSPI: -5,4%",
-        "DXY: 102,57",
-        "Resistência BTC: US$ 84.000"
+        "Bitcoin: US$ 80.154",
+        "KOSPI: -7,5%",
+        "CPI EUA: 3,7%",
+        "Brent: US$ 103,7"
       ],
-      "sentiment": "neutral"
+      "sentiment": "down"
     },
     {
-      "title": "Metaplanet to issue $329M convertible bonds to pay debt, fund share buybacks",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/metaplanet-329m-convertible-bonds-pay-debt-share-buybacks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "debentures"
-      ],
-      "resumo": "A Metaplanet anunciou a emissão de bônus conversíveis sem juros no valor de 52 bilhões de ienes para refinanciar dívidas colateralizadas por Bitcoin e financiar recompra de ações, evitando a venda de seus ativos cripto.",
-      "mecanismo": "A empresa substitui empréstimos colateralizados por Bitcoin (que exigem margens e têm risco de liquidação) por dívida corporativa de longo prazo sem cupom, o que melhora a estrutura de capital e reduz a pressão de venda sobre o BTC; simultaneamente, a recompra de ações reduz a oferta de papéis no mercado, o que tende a sustentar o preço da ação e o valor por ação (EPS) para os acionistas remanescentes.",
-      "implicacao": "Para o setor de empresas tesoureiras de Bitcoin (BTC treasuries), a adoção de dívida corporativa tradicional em vez de crédito cripto sinaliza maturidade financeira e menor risco de liquidação forçada, o que tende a aumentar a confiança dos investidores institucionais na classe de ativos, desde que a diluição futura via conversão dos bônus seja gerenciada.",
-      "risco": "O principal risco é a diluição acionária significativa quando os bônus conversíveis forem exercidos em 2031, além da pressão de mercado se o preço do Bitcoin cair abaixo dos níveis que sustentam a colateralização residual ou se os custos de oportunidade da dívida sem juros forem vistos como ineficientes.",
-      "proximo_evento": "Execução efetiva do programa de recompra de até 60 bilhões de ienes e a próxima divulgação de balanço ou atualização sobre a alocação de capital estratégico (até 15% dos ativos).",
-      "key_numbers": [
-        "Valor da emissão: $329 milhões",
-        "Recompra de ações: $179 milhões",
-        "Reserva de Bitcoin: 44.000 BTC",
-        "Queda em 12 meses: 52,6%"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Atlanticus Holdings: Strong Growth Comes With High Credit Risk",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4954143-atlanticus-holdings-strong-growth-comes-with-high-credit-risk?source=feed_all_articles",
-      "categorias": [
-        "debentures"
-      ],
-      "resumo": "A Atlanticus Holdings apresenta um perfil de crescimento robusto, porém acompanhado por uma exposição significativa a riscos de crédito, o que exige cautela na avaliação de sua sustentabilidade financeira.",
-      "mecanismo": "O crescimento da empresa está atrelado a uma base de ativos com maior probabilidade de inadimplência, o que significa que a expansão dos lucros depende da capacidade de gestão de perdas e da manutenção da qualidade do portfólio; se o ambiente macroeconômico piorar, o custo de provisão para perdas pode eroder a margem gerada pelo volume de negócios.",
-      "implicacao": "Para o setor de crédito estruturado e microcap, a tese de valorização depende da resiliência do balanço a choques de crédito, já que investidores tendem a desvalorizar ativos com alta alavancagem e risco de crédito elevado em cenários de incerteza macroeconômica.",
-      "risco": "Um aumento súbito na inadimplência dos clientes ou uma deterioração do cenário econômico pode levar a perdas de capital que superem os ganhos operacionais, invalidando a tese de crescimento.",
-      "proximo_evento": "Divulgação do próximo relatório trimestral, onde serão detalhados os índices de inadimplência (NPL) e a evolução das provisões para perdas de crédito.",
-      "key_numbers": [],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Wall Street Lunch: Yields Surge On Hot Core CPI",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4954134-wall-street-lunch-yields-surge-on-hot-core-cpi?source=feed_all_articles",
+      "title": "U.S. stocks mixed as tech softness and hot PPI offset by slide in Treasury yields",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-hot-inflation-revives-fed-hike-concerns-4950317",
       "categorias": [
         "renda_fixa",
         "exterior"
       ],
-      "resumo": "A inflação subjacente dos EUA superou as expectativas em setembro, impulsionando os rendimentos dos Treasuries e elevando as apostas de que o Fed aumentará os juros na próxima reunião.",
-      "mecanismo": "O núcleo do CPI subiu 0,3% m/m, acima do consenso de 0,2%, indicando que a pressão inflacionária persiste além de alimentos e energia; isso força o mercado a precificar uma probabilidade de 50% para um aumento de 0,25 p.p. na taxa de juros, o que eleva o custo de capital e pressiona os rendimentos de títulos de longo prazo.",
-      "implicacao": "Com a perspectiva de juros mais altos por mais tempo, ativos sensíveis a taxas de desconto, como tecnologia de crescimento e imóveis, tendem a enfrentar pressão de valuation, enquanto o setor bancário pode ver margens de juros pressionadas se a curva de juros se inverter ou se a demanda por crédito cair.",
-      "risco": "O cenário de aperto monetário pode ser invalidado se os próximos dados de inflação ou atividade econômica mostrarem uma desaceleração mais rápida do que o esperado, levando o Fed a manter a taxa estável.",
-      "proximo_evento": "Reunião do FOMC (Federal Open Market Committee) agendada para duas semanas, onde será decidido se haverá aperto monetário adicional.",
+      "resumo": "O mercado acionário dos EUA operou de forma mista nesta terça-feira, com a fraqueza do setor de tecnologia e a divulgação de um índice de preços ao produtor (PPI) acima do esperado sendo parcialmente compensadas pela queda nos rendimentos dos títulos do Tesouro.",
+      "mecanismo": "A combinação de um PPI 'quente' (inflação persistente) e a queda nos yields dos Treasuries cria um ambiente de incerteza: a inflação alta pressiona as margens e os múltiplos das empresas de tecnologia, enquanto a redução nos juros de referência tende a reduzir o custo de capital e atrair capital para ações, resultando em um desempenho divergente entre setores.",
+      "implicacao": "Com a queda nos yields dos Treasuries, a classe de ativos de ações de crescimento (growth) tende a se beneficiar em relação a valores (value), pois a redução na taxa descontada aumenta o valor presente dos fluxos de caixa futuros, embora a pressão inflacionária do PPI possa limitar a magnitude dessa alta.",
+      "risco": "Se o próximo dado de inflação (CPI) vier ainda mais forte que o esperado, o Fed pode ser forçado a manter uma postura mais restritiva por mais tempo, o que reverteria a queda nos yields e pressionaria negativamente os múltiplos das ações de tecnologia.",
+      "proximo_evento": "Divulgação do Índice de Preços ao Consumidor (CPI) dos EUA, que é o próximo grande indicador de inflação a ser publicado e servirá para confirmar ou refutar a tendência de preços vista no PPI.",
       "key_numbers": [
-        "CPI núcleo (m/m): 0,3%",
-        "CPI núcleo (a/a): 2,6%",
-        "Probabilidade de hike do Fed: 50%",
-        "Crescimento esperado de EPS S&P 500: 27%"
+        "PPI: acima do esperado",
+        "Yields Treasuries: em queda",
+        "Setor Tech: fraqueza"
       ],
-      "sentiment": "down"
+      "sentiment": "neutral"
     },
     {
-      "title": "September CPI: Inflation Momentum Turns In The Wrong Direction",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4954161-september-cpi-inflation-momentum-turns-in-the-wrong-direction?source=feed_all_articles",
+      "title": "Notícias sobre investimentos e o mercado financeiro | Bora Investir",
+      "source": "Bora Investir",
+      "link": "https://borainvestir.b3.com.br/noticias/",
       "categorias": [
-        "renda_fixa",
-        "exterior"
+        "renda_fixa"
       ],
-      "resumo": "O relatório de inflação dos EUA de setembro mostrou uma reaceleração inesperada nos preços, impulsionada por choques energéticos ligados ao conflito no Oriente Médio, revertendo a tendência anterior de desaceleração.",
-      "mecanismo": "A escassez de energia elevou os preços de base e núcleo, forçando o mercado a precificar uma probabilidade quase equivalente de alta de juros em novembro, o que aumenta o custo de capital e pressiona os rendimentos dos Treasuries para cima, penalizando ativos de risco.",
-      "implicacao": "Com a perspectiva de juros mais altos por mais tempo, setores sensíveis a taxas de juros, como tecnologia e crescimento, tendem a sofrer com a desvalorização de fluxos futuros, enquanto defesas e setores ligados a energia podem se beneficiar da proteção contra inflação.",
-      "risco": "O conflito no Oriente Médio pode se resolver rapidamente, eliminando o choque de oferta de energia e permitindo que a inflação retorne à trajetória de queda, invalidando a tese de aperto monetário adicional.",
-      "proximo_evento": "Reunião do FOMC em novembro, onde o Fed decidirá se implementará a alta de juros ou manterá a pausa, dependendo de novos dados de inflação.",
+      "resumo": "A inflação ao produtor nos Estados Unidos registrou alta anual de 6,3% em setembro, marcando o maior nível desde o final de 2022 e superando as expectativas do mercado.",
+      "mecanismo": "O avanço acima do esperado no PPI indica que as pressões de custos na cadeia produtiva americana permanecem elevadas, o que reduz a margem de manobra do Federal Reserve para cortar juros no curto prazo e sustenta a tese de uma política monetária mais restritiva por mais tempo, pressionando o custo de capital global.",
+      "implicacao": "Com a perspectiva de juros altos por mais tempo nos EUA, ativos de risco sensíveis a taxas de desconto, como ações de crescimento e tecnologia, tendem a enfrentar pressão de valuation, enquanto o dólar pode manter força frente a moedas emergentes, impactando negativamente o fluxo de capitais para mercados como o brasileiro.",
+      "risco": "O risco de invalidação ocorre se os próximos dados de inflação ao consumidor (CPI) mostrarem desaceleração significativa, indicando que o choque no PPI foi pontual e não se transmitirá para o consumidor, o que poderia reabrir espaço para cortes de juros.",
+      "proximo_evento": "Próximas divulgações de dados de inflação ao consumidor (CPI) e ao produtor (PPI) dos EUA, além de novas reuniões do Federal Reserve para definição da taxa de juros.",
       "key_numbers": [
-        "CPI Núcleo MoM: 0,3%",
-        "CPI Núcleo YoY: 2,6%",
-        "Probabilidade de alta em Nov: ~50%"
+        "PPI anual EUA: 6,3%",
+        "Dólar: R$ 5,02",
+        "Ibovespa variação: -0,18%"
       ],
       "sentiment": "down"
     },
@@ -205,10 +168,10 @@
         "imobiliario"
       ],
       "resumo": "O mercado de Fundos Imobiliários segue ativo mesmo com juros elevados, somando R$ 56,3 bilhões em emissões no período, enquanto a expectativa de reprecificação do setor imobiliário ganha força condicionada à política fiscal.",
-      "mecanismo": "A combinação de uma possível queda nos juros (reduzindo o custo de capital) e a forte demanda por alocação em FIIs, que segue robusta apesar da concorrência da renda fixa, cria um ambiente favorável para a reprecificação dos ativos imobiliários, desde que a disciplina fiscal não comprometa a trajetória de queda das taxas.",
-      "implicacao": "Com a perspectiva de redução no custo de capital e alta liquidez no mercado de FIIs, a classe de ativos imobiliários tende a atrair mais capital e ver sua valuation ajustada para cima, já que o menor custo de financiamento estimula a demanda e a capacidade de pagamento dos inquilinos.",
-      "risco": "A tese de reprecificação pode ser invalidada se a política fiscal se deteriorar, impedindo a queda esperada dos juros e mantendo a renda fixa como alternativa de retorno superior e mais segura para os investidores.",
-      "proximo_evento": "Próximos anúncios de novas ofertas públicas de FIIs e a divulgação de dados macroeconômicos que impactem a trajetória da Selic e a percepção de risco fiscal.",
+      "mecanismo": "A combinação de uma possível queda nos juros (reduzindo o custo de capital) e a forte liquidez das emissões de FIIs (R$ 56,3 bi) cria um ambiente favorável à reprecificação dos ativos imobiliários, desde que a incerteza fiscal não anule o benefício da queda de juros.",
+      "implicacao": "Com a perspectiva de menor custo de capital e alta liquidez no mercado de FIIs, a classe de ativos imobiliários tende a atrair mais capital e sofrer reprecificação, já que a redução da Selic aumenta o apelo relativo dos dividendos dos fundos frente à renda fixa.",
+      "risco": "A tese de reprecificação pode ser invalidada se a política fiscal se mostrar insustentável, o que manteria os juros altos por mais tempo e pressionaria os múltiplos de valuation dos ativos imobiliários.",
+      "proximo_evento": "Definição da política fiscal pós-eleições e a divulgação dos resultados trimestrais das companhias abertas do setor imobiliário.",
       "key_numbers": [
         "Emissões de FIIs: R$ 56,3 bi",
         "Ofertas recentes: R$ 14,1 bi",
@@ -224,58 +187,54 @@
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "O fundo TVRI11 concluiu a aquisição total do FII Bluerock e a venda de uma agência bancária por R$ 18,1 milhões, enquanto o Banrisul sinalizou interesse em renovar o contrato de locação com o BNFS11.",
-      "mecanismo": "A consolidação de ativos e a renovação de contratos de locação com grandes bancos (como Banrisul e BB) reduzem a vacância e garantem a previsibilidade dos fluxos de caixa, o que tende a sustentar a valorização das cotas e a atrair investidores que buscam segurança em ativos de renda fixa imobiliária.",
-      "implicacao": "Com a redução da vacância e a garantia de inquilinos de alta qualidade (bancos), o setor de FIIs de agências bancárias tende a se valorizar, já que a estabilidade dos aluguéis e a liquidez dos ativos tornam a classe mais atrativa em cenários de incerteza macroeconômica.",
-      "risco": "A principal incerteza reside na efetivação da renovação pelo Banrisul, pois a não renovação ou a renegociação de termos menos favoráveis poderia impactar negativamente a receita do BNFS11 e, por extensão, a percepção de risco do setor.",
-      "proximo_evento": "Formalização do contrato de renovação de locação entre o Banrisul e o BNFS11 e a divulgação dos próximos relatórios gerenciais detalhando o impacto financeiro da aquisição do Bluerock.",
+      "resumo": "O fundo TVRI11 concluiu a aquisição integral do FII Bluerock e a venda de uma agência bancária por R$ 18,1 milhões, enquanto o Banrisul sinalizou interesse em renovar o contrato de locação com o BNFS11.",
+      "mecanismo": "A consolidação de ativos e a renovação de contratos de locação com grandes bancos (como Banrisul e BB) reduzem a vacância e garantem a previsibilidade dos fluxos de caixa, o que tende a sustentar a distribuição de proventos e a valorização das cotas de FIIs de agências bancárias, especialmente em um cenário de juros elevados que mantém a atratividade do yield.",
+      "implicacao": "Com a redução da vacância e a garantia de inquilinos de alta qualidade (bancos), o setor de FIIs de agências bancárias tende a apresentar maior resiliência e demanda, já que a previsibilidade de receita atrai investidores de curto e médio prazo em busca de renda fixa alternativa.",
+      "risco": "A principal incerteza reside na possibilidade de o Banrisul não concretizar a renovação ou de a aquisição do Bluerock trazer passivos ocultos que impactem a liquidez do TVRI11 no curto prazo.",
+      "proximo_evento": "Publicação dos relatórios gerenciais de outubro de 2026 para confirmação da assinatura definitiva do contrato de renovação com o Banrisul e do fechamento da aquisição do Bluerock.",
       "key_numbers": [
         "Venda Agência Paraíso: R$ 18,1 milhões",
         "Participação adquirida no Bluerock: 100%",
-        "Variação do Ifix: +0,65%"
+        "Variação IFIX: +0,65%"
       ],
       "sentiment": "up"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [
-      "O artigo discute a necessidade de investidores otimistas da Realty Income de compreenderem as lições relacionadas a dividendos e taxas de juros.",
-      "O texto questiona se as altas de taxas de juros têm inclinado a balança em favor das ações de valor.",
-      "O artigo analisa o XFLT, destacando um rendimento de 14% e um desconto profundo sobre o valor patrimonial líquido, enquanto questiona a sustentabilidade da distribuição.",
-      "O texto apresenta o OMAH como uma fonte de renda de alto rendimento derivada de um ETF de ações de núcleo semelhante ao estilo de Buffett."
+      "O artigo de perspectiva para o quarto trimestre de 2026 destaca que a alta das taxas de juros está alterando o equilíbrio de riscos no mercado de ações.",
+      "O artigo de insights macroeconômicos busca esclarecer a volatilidade associada às eleições de meio de mandato, a crise de crédito em IA e a elevação dos rendimentos."
     ],
     "acoes": [
-      "A Ágora Investimentos recomenda a compra de Klabin (KLBN11) e a venda de Azzas 2154 (AZZA3) para day trade nesta quarta-feira (14), com potencial de ganho de 1,43% para a Klabin, que fechou a terça-feira a R$ 18,17.",
-      "O Ibovespa futuro inicia o pregão em alta de 0,05% aos 206.325 pontos, impulsionado pela melhora do humor externo e avanço do petróleo, enquanto o dólar à vista abre a R$ 5,0265 (+0,12%) seguindo o movimento do DXY.",
-      "O mercado local aguarda a divulgação da pesquisa presidencial Quaest às 18h e a publicação da pesquisa mensal de serviços do IBGE, que deve registrar crescimento de 0,5% em agosto, enquanto o Ibovespa em dólar cai nesta quarta-feira (14).",
-      "A Netflix cortou cerca de 6% de seus empregos, o que representa o maior layoff da empresa desde 2022."
+      "O Ibovespa futuro (INDFUT) iniciou o pregão de quinta-feira (15) em queda de 0,32%, aos 208.245 pontos, enquanto o dólar à vista abriu a R$ 5,0630 (+0,68%), na contramão do movimento do DXY.",
+      "O Citi elevou o preço-alvo das ações da Rede D’Or (RDOR3) para R$ 52, ante R$ 48, mantendo a recomendação de compra e apontando um potencial de valorização de 19% em relação ao fechamento anterior.",
+      "O UBS BB elevou o preço-alvo da B3 (B3SA3) de R$ 18,50 para R$ 26,50, mantendo a recomendação de compra, ao considerar a operadora entre as principais beneficiárias de um possível cenário de ajuste fiscal e juros menores no Brasil.",
+      "A Base Exchange, futura concorrente da B3 sediada no Rio de Janeiro e controlada por um fundo soberano, pretende entrar em operação até o fim de 2027 com a proposta de ampliar a concorrência e reduzir custos no mercado brasileiro de capitais."
     ],
     "cripto": [
-      "O Bitcoin atingiu a resistência de $84K enquanto a queda no setor de tecnologia da Coreia aprofundava as perdas do índice KOSPI.",
-      "Três gráficos da CryptoQuant mantêm válida a tese de que outubro será um mês de alta para o Bitcoin.",
-      "Matt Hougan, da Bitwise, afirmou que os gráficos do terceiro trimestre apontam para uma 'primavera cripto'.",
-      "Um artigo do Seeking Alpha argumenta que o fim do Bitcoin está chegando e que a Strategy não está preparada para isso."
+      "ETFs de Bitcoin registraram uma saída de US$ 261 milhões, enquanto os fundos de XRP contrariaram a tendência de saídas semanais.",
+      "Ações de mineradoras de Bitcoin, incluindo TeraWulf e Core, caíram até 13% durante a pior venda em Wall Street desde julho.",
+      "O preço do Bitcoin caiu abaixo de US$ 82 mil após os altos preços do petróleo dispararem a inflação do CPI dos EUA.",
+      "O resumo da notícia sobre o que aconteceu no cripto hoje não contém informações factuais específicas além do título genérico."
     ],
-    "debentures": [
-      "A National Rural Utilities Cooperative Finance Corporation divulgou a apresentação de resultados da chamada de lucros do primeiro trimestre para a debênture de 5,5% com vencimento em 2027."
-    ],
+    "debentures": [],
     "exterior": [
-      "As bolsas asiáticas fecharam majoritariamente em baixa nesta quarta-feira (14), com investidores à espera dos dados de inflação ao consumidor (CPI) dos EUA, que podem influenciar as expectativas para a trajetória dos juros básicos americanos.",
-      "Os Houthis do Iêmen prometeram mais ataques a aeroportos sauditas e instalações de petróleo após o ataque à sede da Aramco."
+      "O artigo do Seeking Alpha destaca a perda de 80 bilhões de dólares em valor de mercado do setor de IA em um único dia e alerta que a tendência pode continuar.",
+      "Um texto do Seeking Alpha discute a próxima fase do boom de IA, focando em financiamento, avaliações e riscos.",
+      "Outra análise do Seeking Alpha aborda a volatilidade das eleições intermediárias, a crise de crédito na IA e a alta dos rendimentos.",
+      "O terceiro artigo do Seeking Alpha examina a volatilidade associada às eleições intermediárias, a crise de crédito no setor de IA e a elevação dos rendimentos."
     ],
     "imobiliario": [
-      "O resumo da notícia sobre lajes corporativas contém apenas o aviso legal do Clube FII News, informando que o portal não faz recomendação de investimento e não se responsabiliza por perdas ou danos.",
-      "O resumo da notícia sobre mercado imobiliário contém apenas o aviso legal do Clube FII News, informando que o portal não faz recomendação de investimento e não se responsabiliza por perdas ou danos.",
-      "O resumo da notícia sobre mercado contém apenas o aviso legal do Clube FII News, informando que o portal não faz recomendação de investimento e não se responsabiliza por perdas ou danos.",
-      "O resumo da notícia sobre agronegócio contém apenas o aviso legal do Clube FII News, informando que o portal não faz recomendação de investimento e não se responsabiliza por perdas ou danos."
+      "O resumo da notícia sobre lajes corporativas de fundos imobiliários contém apenas o aviso legal do Clube FII News, informando que o portal verifica as informações publicadas, não faz recomendação de investimento e não se responsabiliza por perdas, danos, custos ou lucros cessantes.",
+      "O resumo da notícia sobre o mercado imobiliário contém apenas o aviso legal do Clube FII News, informando que o portal verifica as informações publicadas, não faz recomendação de investimento e não se responsabiliza por perdas, danos, custos ou lucros cessantes."
     ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário atual é marcado pela persistência da pressão inflacionária no núcleo, que força o mercado a precificar uma probabilidade de 50% para um aumento de 0,25 p.p. na taxa de juros, elevando o custo de capital e pressionando os rendimentos de títulos de longo prazo. Nesse contexto, a decisão sobre o aperto monetário adicional será tomada na reunião do FOMC agendada para duas semanas, enquanto o mercado avalia se as altas de juros estão favorecendo ativos de valor e a sustentabilidade de rendimentos elevados em veículos como ETFs e REITs.",
-    "acoes": "A atenção do mercado permanece dividida entre a pressão externa causada pela inflação americana acima do esperado, que sustenta o dólar forte e o DXY em máxima de 18 meses, e os fatores domésticos, como a desaceleração do setor de serviços e a incerteza eleitoral. O principal catalisador local para o restante do dia é a divulgação da pesquisa presidencial Quaest às 18h, que pode alterar o humor dos investidores antes do debate na Band no próximo domingo (18), enquanto o mercado global aguarda a reunião do Federal Reserve no fim de outubro.",
-    "cripto": "O mercado de criptomoedas enfrenta uma dinâmica de tensão entre a resistência técnica do Bitcoin em $84K e a volatilidade externa gerada pela queda do KOSPI e pela inflação elevada nos EUA, que pressiona as expectativas de juros do Fed. Enquanto analistas como Matt Hougan e dados da CryptoQuant sustentam a tese de alta para o mês (Uptober), a força do dólar e os rendimentos dos títulos do Tesouro continuam limitando o apetite por risco. A atenção deve se manter na capacidade do Bitcoin de superar a resistência atual sem ser arrastado por novos choques macroeconômicos ou contágios de mercados asiáticos.",
-    "debentures": "O cenário de crédito privado exige atenção à sustentabilidade do crescimento em ativos de maior risco, como visto na Atlanticus, onde a qualidade do portfólio e as provisões para perdas são determinantes para a margem. Paralelamente, a estruturação de dívida corporativa para substituir passivos colateralizados, como na Metaplanet, e a divulgação de resultados de emissões específicas, como a da National Rural Utilities, indicam uma busca por eficiência na estrutura de capital e transparência nos fluxos de caixa.",
-    "exterior": "O mercado global permanece em modo de cautela, com as bolsas asiáticas recuando à espera da divulgação do CPI dos EUA, dado que é crucial para definir a trajetória dos juros básicos americanos. Esse cenário de incerteza inflacionária ocorre em paralelo a riscos geopolíticos no Oriente Médio, onde ameaças de novos ataques a instalações de petróleo na Arábia Saudita adicionam volatilidade ao mercado de energia e aos ativos de risco.",
-    "imobiliario": "O cenário atual é marcado pela combinação de uma possível queda nos juros e forte demanda por FIIs, que favorece a reprecificação dos ativos, desde que a disciplina fiscal seja mantida. Nesse contexto, é fundamental monitorar os próximos anúncios de novas ofertas públicas e a divulgação de dados macroeconômicos que impactem a trajetória da Selic e a percepção de risco fiscal. Além disso, a formalização de contratos de renovação de locação com grandes bancos e a divulgação de relatórios gerenciais detalhando o impacto financeiro de aquisições recentes são eventos-chave para sustentar a valorização das cotas."
+    "renda_fixa": "O cenário atual é marcado pela persistência de pressões inflacionárias nos EUA, evidenciadas pelo PPI elevado, que limita a margem de manobra do Federal Reserve para cortes de juros e sustenta uma política monetária restritiva por mais tempo. Essa dinâmica de juros altos e incerteza macroeconômica, agravada por fatores como a volatilidade eleitoral e a crise de crédito em IA, está deslocando o equilíbrio de riscos no mercado de ações e pressionando o custo de capital global.",
+    "acoes": "O mercado segue pressionado pela incerteza eleitoral e pelo impacto regulatório do fim da escala 6x1, que eleva o prêmio de risco e favorece a busca por proteção no dólar. Enquanto isso, o fluxo de recomendações de analistas, como as elevações de preço-alvo para B3 e Rede D’Or, sugere que investidores estão atentos a oportunidades setoriais específicas, mesmo com o cenário macroeconômico desafiador no curto prazo.",
+    "cripto": "A categoria enfrenta pressão vendedora significativa, com o Bitcoin perdendo patamares de US$ 82 mil e US$ 80 mil devido à combinação de dados inflacionários elevados (CPI e PPI) e aversão ao risco global, evidenciada pela queda do KOSPI e das mineradoras. O fluxo de capital institucional também mostra sinais de fraqueza, com saídas líquidas dos ETFs de Bitcoin, embora fundos de XRP tenham apresentado comportamento divergente. O foco permanece na persistência da inflação e seus impactos na política monetária e na liquidez dos ativos de risco.",
+    "debentures": "",
+    "exterior": "O mercado está sob pressão devido à combinação de inflação persistente (CPI e PPI acima do esperado) e uma forte liquidação em ações de tecnologia, com relatos de perdas bilionárias em um único dia. A atenção deve se concentrar na sustentabilidade do financiamento e das avaliações do setor de IA, além da volatilidade política gerada pelas eleições intermediárias e da trajetória dos rendimentos dos Treasuries, que impactam diretamente o custo de capital e a aversão a risco.",
+    "imobiliario": "Com os resumos das notícias adicionais limitados a avisos legais sem conteúdo factual, a atenção permanece focada nos mecanismos já identificados, como a combinação de possível queda de juros com a forte liquidez das emissões de FIIs e a consolidação de ativos em agências bancárias. O próximo passo é aguardar a definição da política fiscal pós-eleições, a divulgação dos resultados trimestrais do setor e a publicação dos relatórios gerenciais de outubro de 2026 para confirmar contratos de renovação e aquisições."
   }
 }
