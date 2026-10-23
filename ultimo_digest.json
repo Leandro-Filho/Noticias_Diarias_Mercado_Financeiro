@@ -1,143 +1,145 @@
 {
-  "gerado_em": "2026-10-22T16:03:55.990276+00:00",
+  "gerado_em": "2026-10-23T15:57:31.820078+00:00",
   "itens": [
     {
-      "title": "No vermelho: Ibovespa perde 3 mil pontos com disputa acirrada entre Flávio e Lula",
+      "title": "Wall Street cai com petróleo na máxima de cinco meses",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/no-vermelho-ibovespa-perde-3-mil-pontos-com-disputa-acirrada-entre-flavio-e-lula-lils/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Ibovespa recuou mais de 3 mil pontos nesta quinta-feira, refletindo a cautela dos investidores diante da apertada disputa eleitoral entre Flávio Bolsonaro e Lula, somada a sinais de saída de capital estrangeiro.",
-      "mecanismo": "A incerteza sobre o resultado do segundo turno, evidenciada por pesquisas que mostram empate técnico e precificações divergentes no mercado preditivo, levou os investidores a reduzirem o prêmio de risco e o otimismo anterior, pois a vitória do candidato alinhado ao mercado (Flávio) não é garantida, o que desencadeou uma venda generalizada de ativos brasileiros e uma queda no ETF de referência internacional (EWZ).",
-      "implicacao": "Com a elevação da aversão ao risco político, a classe de ativos de renda variável brasileira tende a sofrer pressão de vendas e volatilidade, enquanto o câmbio pode se valorizar em relação ao real, já que o capital estrangeiro está saindo do país em busca de segurança até a definição do pleito.",
-      "risco": "O cenário de queda pode ser invalidado se o mercado preditivo (Polymarket) estiver incorreto e Lula vença com uma margem que permita a continuidade das políticas fiscais e monetárias atuais, ou se houver uma reversão súbita do humor externo que atravesse a fronteira e reequilibre o fluxo de capitais.",
-      "proximo_evento": "Realização do segundo turno das eleições presidenciais no próximo domingo (25 de outubro).",
-      "key_numbers": [
-        "Ibovespa mínima intradia: 203.106,59 pontos",
-        "Queda percentual do Ibovespa: 1,64%",
-        "Chance de vitória de Flávio (Polymarket): 77,8%",
-        "Queda do ETF EWZ: 1,9%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Wall Street cai com petróleo e nova liquidação no setor de IA após balanços de Meta e Tesla",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-abertura-22-10-26-lils/",
+      "link": "https://www.moneytimes.com.br/wall-street-abertura-23-10-26-lils/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "Os índices de Wall Street recuam nesta quinta-feira, liderados pela queda do Nasdaq, após os balanços de Meta e Tesla gerarem incerteza sobre a rentabilidade da IA e o petróleo subir, aumentando a pressão inflacionária.",
-      "mecanismo": "Apesar de a Meta ter superado expectativas de receita, o lucro por ação ficou abaixo do consenso e a Tesla viu sua receita automotiva cair, o que dissipou a confiança no setor de IA e tecnologia; simultaneamente, a alta do petróleo e os pedidos de desemprego em níveis historicamente baixos reforçam a tese de que o Fed manterá os juros altos por mais tempo, penalizando ativos de crescimento sensíveis a taxas.",
-      "implicacao": "Com a persistência de juros altos nos EUA e a desaceleração da narrativa de crescimento na IA, o setor de tecnologia e ações de crescimento tendem a enfrentar pressão de valuation, enquanto setores defensivos ou sensíveis a commodities podem ganhar relativo destaque.",
-      "risco": "A tese de queda nos ativos de tecnologia pode ser invalidada se os próximos balanços do setor mostrarem que a eficiência operacional está compensando os altos custos de capital, ou se o Fed sinalizar cortes mais agressivos do que o mercado precifica para dezembro.",
-      "proximo_evento": "Reunião do Federal Reserve (FOMC) na próxima quarta-feira (28 de outubro), onde se espera a manutenção dos juros na faixa de 3,75% a 4,00%.",
+      "resumo": "Os principais índices de Nova York recuam nesta sexta-feira, impulsionados pela escalada das tensões geopolíticas no Oriente Médio e pelo petróleo Brent superando a marca de US$ 115, o que reacende temores de inflação.",
+      "mecanismo": "A escalada do conflito no Estreito de Ormuz, com ataques a navios e ameaças de guerra assimétrica, eleva o prêmio de risco no petróleo para máximas de cinco meses; esse choque de oferta de energia tende a pressionar os custos globais e a inflação, o que força o mercado a precificar a possibilidade de uma política monetária mais restritiva por mais tempo, penalizando os ativos de risco.",
+      "implicacao": "Com o petróleo em alta e a inflação pressionada, o setor de energia tende a se beneficiar diretamente, enquanto classes de ativos sensíveis a juros, como tecnologia de crescimento e títulos de longo prazo, enfrentam pressão vendedora, já que a perspectiva de taxas de juros elevadas por mais tempo reduz o valor presente dos fluxos de caixa futuros.",
+      "risco": "Uma resolução diplomática rápida do conflito no Golfo Pérsico ou uma queda súbita na demanda global poderia derrubar o preço do petróleo, invalidando a tese de inflação persistente e revertendo a cautela no mercado.",
+      "proximo_evento": "Novos desenvolvimentos militares ou diplomáticos no Estreito de Ormuz e a divulgação dos dados de inflação (CPI/PCE) dos EUA nas próximas semanas, que confirmarão se o choque de energia está se transmitindo para os preços ao consumidor.",
       "key_numbers": [
-        "Nasdaq: -1,53%",
-        "Pedidos de desemprego: 194.000",
-        "Chance de manutenção de juros (Fed): 89,5%",
-        "Receita Meta: US$ 64,60 bilhões"
+        "Brent: US$ 115,17",
+        "Dow Jones: -1,02%",
+        "S&P 500: -0,42%",
+        "Nasdaq: -0,19%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Ibovespa à cede pressão externa e cai com eleições em foco; 5 coisas para saber antes de investir hoje (22)",
+      "title": "IPCA-15 fraco impulsiona Ibovespa no último pregão antes do segundo turno; 5 coisas para saber antes de investir hoje (23)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-22-10-26-lils/",
+      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-23-10-26-lils/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa opera em queda de 0,35% pressionado pela cautela global com a escalada no Oriente Médio e a incerteza eleitoral brasileira, enquanto o dólar se valoriza a R$ 5,04.",
-      "mecanismo": "A tensão geopolítica eleva o petróleo para US$ 112, o que aumenta o risco global e atrai capital para ativos de segurança, pressionando o dólar e o mercado acionário brasileiro; simultaneamente, o empate técnico nas pesquisas para a presidência mantém o prêmio de risco doméstico elevado, inibindo a entrada de capital estrangeiro e sustentando a aversão ao risco no Ibovespa.",
-      "implicacao": "Com o petróleo em patamares elevados e a incerteza eleitoral mantendo o prêmio de risco, o setor de energia tende a se beneficiar pela valorização das commodities, enquanto setores sensíveis a juros e consumo doméstico podem enfrentar pressão, já que a volatilidade política desestimula o crédito e o investimento de longo prazo.",
-      "risco": "Uma resolução rápida da crise no Oriente Médio ou um desfecho eleitoral claro e estável poderia reverter a aversão ao risco, provocando uma queda no petróleo e uma valorização abrupta do Ibovespa, invalidando a tese de cautela.",
-      "proximo_evento": "Segundo turno das eleições presidenciais no Brasil, ocorrendo em 3 dias.",
+      "resumo": "O Ibovespa opera em leve alta nesta sexta-feira, impulsionado pela desaceleração mensal do IPCA-15, enquanto o mercado aguarda o último debate eleitoral antes do segundo turno e reage à escalada das tensões no Oriente Médio.",
+      "mecanismo": "A prévia de inflação mais fraca do que o esperado reduz a pressão por juros altos, o que tende a beneficiar o mercado acionário; contudo, esse efeito é parcialmente neutralizado pela alta do petróleo acima de US$ 110, que gera incerteza macroeconômica e limita o ritmo de ganhos do índice.",
+      "implicacao": "Com a inflação desacelerando, o setor de consumo e bens duráveis tende a se beneficiar, já que a perspectiva de juros mais baixos no futuro aumenta o poder de compra e a disposição para crédito dos consumidores.",
+      "risco": "Uma escalada militar significativa no Oriente Médio ou um resultado eleitoral inesperado podem inverter o sentimento de risco, pressionando o Ibovespa para baixo e fortalecendo o dólar.",
+      "proximo_evento": "Segundo turno das eleições presidenciais no domingo (25) e a divulgação do IPCA oficial de outubro.",
       "key_numbers": [
-        "Ibovespa: 205.770,86 pontos",
-        "Dólar: R$ 5,0434",
-        "Petróleo Brent: US$ 112,05",
-        "Juro França 10 anos: 5%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Bolsas da Ásia fecham em baixa com alta do petróleo e temor sobre IA",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-em-baixa-com-alta-do-petroleo-e-temor-sobre-ia-fets/",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "Os mercados asiáticos registraram quedas generalizadas impulsionadas pela escalada das tensões no Oriente Médio e por uma nova onda de vendas em ações de tecnologia, especialmente aquelas ligadas à inteligência artificial.",
-      "mecanismo": "Os ataques no Estreito de Ormuz elevaram o preço do petróleo para acima de US$ 112, o que aumenta o custo de produção e a pressão inflacionária global, enquanto a revisão para baixo das metas de investimento da Tesla reacendeu temores sobre a sustentabilidade do retorno dos gastos agressivos em IA, levando a uma desvalorização das empresas de chips e semicondutores que compõem a base desses índices.",
-      "implicacao": "Com a alta do petróleo e a correção no setor de tecnologia, a classe de ativos de energia tende a se beneficiar no curto prazo, enquanto o setor de semicondutores e hardware de IA enfrenta pressão vendedora, já que o mercado está reprecificando o risco de retorno sobre investimento e o impacto inflacionário dos insumos energéticos.",
-      "risco": "Uma resolução rápida da crise no Oriente Médio ou a divulgação de dados de demanda por IA que superem as expectativas poderiam reverter a queda nos preços do petróleo e restaurar a confiança no setor de tecnologia, invalidando a tese de continuidade da correção.",
-      "proximo_evento": "Novos desenvolvimentos geopolíticos no Estreito de Ormuz e a divulgação de balanços de outras grandes empresas de tecnologia que possam confirmar ou refutar a redução de capex em IA.",
-      "key_numbers": [
-        "Petróleo Brent: US$ 112",
-        "Kospi: -3,52%",
-        "Nikkei: -2,65%",
-        "Juro Coreia do Sul: 3%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Bitcoin corrects below $82K after Tesla Q3 results, KOSPI falls",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-corrects-below-82k-after-tesla-q3-results-kospi-falls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O Bitcoin recuou para a faixa de US$ 81.500 após a Tesla reportar gastos de capital (capex) abaixo do esperado no terceiro trimestre, o que reforçou temores sobre o ritmo de investimento em inteligência artificial e pressionou o mercado de ações asiático.",
-      "mecanismo": "A queda no capex da Tesla, muito inferior à projeção de US$ 7,96 bilhões, foi interpretada pelo mercado como um sinal de cautela na corrida pela IA, o que, somado à alta do open interest em criptoativos, aumentou a vulnerabilidade a liquidações em cascata e forçou a reversão do preço do Bitcoin após a rejeição na resistência de US$ 84.840.",
-      "implicacao": "Com a percepção de que o investimento em infraestrutura de IA pode estar desacelerando, a classe de ativos de tecnologia e criptomoedas correlacionadas tende a enfrentar pressão de venda, já que a narrativa de crescimento acelerado e 'all-in' em IA perde força, reduzindo o apetite por risco em ativos de alta volatilidade.",
-      "risco": "O raciocínio de queda pode ser invalidado se a Tesla ou outras grandes empresas confirmarem que o baixo capex é temporário e que os investimentos bilionários prometidos para 2028 estão garantidos, o que poderia restaurar a confiança no setor de IA e reverter a tendência de baixa.",
-      "proximo_evento": "Acompanhar a próxima divulgação de resultados trimestrais de grandes empresas de tecnologia e a evolução do índice KOSPI para verificar se a fraqueza no setor de IA é isolada ou sistêmica.",
-      "key_numbers": [
-        "Bitcoin: US$ 81.500",
-        "Capex Tesla Q3: US$ 4,73 bilhões",
-        "Queda KOSPI: 3,52%",
-        "Open Interest BTC: US$ 55,95 bilhões"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Bitcoin price tags $84.6K as US stocks head higher on SpaceX Q3 earnings beat",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-price-tags-846k-as-us-stocks-head-higher-on-spacex-q3-earnings-beat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O Bitcoin subiu para US$ 84,6 mil impulsionado por resultados trimestrais da SpaceX que superaram as expectativas, o que ajudou a acalmar o mercado acionário americano após recentes preocupações com gastos em inteligência artificial.",
-      "mecanismo": "O forte desempenho financeiro da SpaceX, com receita 15% acima do previsto, serviu como um ponto de dados positivo que mitigou os temores do mercado sobre a viabilidade econômica dos investimentos em infraestrutura de IA, reduzindo a aversão ao risco e favorecendo ativos de crescimento como o Bitcoin.",
-      "implicacao": "Com a melhora no sentimento de risco global e a validação da tese de crescimento em tecnologia, a classe de ativos criptográficos tende a manter suporte, já que a liquidez e a confiança institucional se deslocam para ativos correlacionados com o apetite por risco.",
-      "risco": "O movimento pode ser revertido se o Bitcoin não conseguir fechar o dia acima da resistência técnica de US$ 83,4 mil, o que indicaria rejeição e poderia levar o preço de volta para abaixo de US$ 82,5 mil.",
-      "proximo_evento": "Divulgação dos balanços da Tesla e da Meta, agendados para após o fechamento do mercado na quarta-feira.",
-      "key_numbers": [
-        "Preço do Bitcoin: US$ 84.600",
-        "Receita SpaceX Q3: US$ 14,6 bilhões",
-        "Resistência técnica BTC: US$ 83.400",
-        "Liquidações de shorts: US$ 110 milhões"
+        "Ibovespa: 204.304,67 pontos",
+        "IPCA-15 (12 meses): 4,62%",
+        "Petróleo Brent: US$ 114,97",
+        "Dólar à vista: R$ 5,0403"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Credit Markets Are Signaling Trouble Ahead In 2027",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4956428-credit-markets-are-signaling-trouble-ahead-in-2027?source=feed_all_articles",
+      "title": "Ibovespa futuro avança com IPCA-15 fraco no último pregão antes do 2º turno; dólar sobe",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-futuro-23-10-26-lils/",
       "categorias": [
-        "debentures"
+        "acoes"
       ],
-      "resumo": "O mercado de crédito está precificando um risco de inadimplência elevado para empresas de inteligência artificial, como a CoreWeave, enquanto os índices de ações permanecem próximos de máximas históricas, evidenciando uma divergência significativa entre os dois mercados.",
-      "mecanismo": "A expansão agressiva de dívidas corporativas para financiar infraestrutura de IA está gerando fluxos de caixa negativos mesmo com o crescimento de receitas, o que leva o mercado de crédito a elevar os spreads de risco e os prêmios de default (CDS) para compensar a incerteza sobre a capacidade de pagamento dessas empresas, criando uma tensão estrutural com a euforia do mercado acionário.",
-      "implicacao": "Com o aumento do custo de capital e a percepção de risco de crédito em alta, o setor de tecnologia e infraestrutura de IA tende a enfrentar maior volatilidade e pressão de valuation, já que a sustentabilidade dos modelos de negócio dependentes de alavancagem está sendo questionada pelos investidores mais conservadores.",
-      "risco": "A tese de divergência pode ser invalidada se as empresas de IA demonstrarem uma aceleração rápida de geração de caixa operacional que cubra os custos de dívida, ou se o mercado acionário corrigir antes que o estresse no crédito se materialize, eliminando a assimetria entre os dois mercados.",
-      "proximo_evento": "Próximos relatórios trimestrais de empresas de infraestrutura de IA para verificar a evolução do fluxo de caixa livre e o nível de endividamento, além de novos dados de spreads de crédito corporativo (high yield).",
+      "resumo": "O Ibovespa futuro opera em alta impulsionado pela desaceleração mensal do IPCA-15, enquanto o dólar se fortalece diante da escalada geopolítica no Oriente Médio e da incerteza eleitoral brasileira.",
+      "mecanismo": "A prévia de inflação mais fraca (0,32% no mês) reduz a pressão por juros altos no curto prazo, o que favorece a valorização de ações no Ibovespa; simultaneamente, a tensão no Estreito de Ormuz eleva o petróleo para acima de US$ 110, o que, somado ao cenário externo defensivo, pressiona o dólar para cima e limita o apetite por risco no real.",
+      "implicacao": "Com a inflação dentro do teto da meta e a perspectiva de juros futuros sensíveis ao resultado eleitoral, o setor de energia tende a se beneficiar da alta do petróleo, enquanto classes de ativos sensíveis a juros, como o mercado imobiliário, podem encontrar suporte caso a incerteza política se resolva de forma favorável à estabilidade macroeconômica.",
+      "risco": "Uma vitória eleitoral que implique em maior incerteza fiscal ou política, combinada com uma escalada militar no Oriente Médio que dispare o petróleo para níveis ainda mais altos, poderia inverter o movimento e pressionar tanto o Ibovespa quanto o real.",
+      "proximo_evento": "Segundo turno das eleições presidenciais no domingo (25/10) e a divulgação do IPCA oficial de outubro pelo IBGE.",
       "key_numbers": [
-        "Yield dos bonds CRWV: 15%",
-        "Probabilidade de default (CDS 5 anos): >50%"
+        "IPCA-15 (12 meses): 4,62%",
+        "Petróleo Brent: US$ 114,44",
+        "Dólar à vista: R$ 5,0557",
+        "Ibovespa futuro: 207.750 pontos"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bolsas da Ásia sobem na maioria, mas petróleo e temores com IA limitam ganhos",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/bolsas-da-asia-sobem-na-maioria-mas-petroleo-e-temores-com-ia-limitam-ganhos-fets/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "Os mercados asiáticos encerraram a sessão com ganhos moderados, recuperando-se de quedas intradiárias, mas o avanço foi contido pela alta do petróleo e pela volatilidade no setor de tecnologia.",
+      "mecanismo": "A recuperação dos índices regionais foi limitada porque o aumento do custo de financiamento está pressionando os investimentos em infraestrutura de IA, enquanto a escalada das tensões no Oriente Médio sustenta o preço do petróleo em níveis elevados, o que reduz o apetite por risco global e limita a capacidade de alta das bolsas.",
+      "implicacao": "Com a incerteza sobre a rentabilidade dos investimentos em IA e o petróleo caro pressionando a inflação, o setor de tecnologia tende a permanecer volátil, enquanto ativos de defesa e energia podem se beneficiar do prêmio de risco, já que o capital busca proteção contra choques externos.",
+      "risco": "Uma resolução rápida das tensões no Oriente Médio ou uma queda brusca no custo de financiamento poderia reverter a cautela, provocando uma alta desordenada nos índices de tecnologia e uma queda no petróleo, invalidando a tese de cautela.",
+      "proximo_evento": "Novos balanços corporativos de grandes empresas de tecnologia nos EUA e atualizações sobre a situação geopolítica no Oriente Médio.",
+      "key_numbers": [
+        "Kospi: 5.550,30",
+        "WTI: US$ 100",
+        "Nasdaq: -2,6%",
+        "Shenzhen Composto: 2.212,99"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-consolidates-after-3-loss-as-ai-fears-stoke-fresh-stock-market-weakness?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O Bitcoin consolidou abaixo de US$ 82.000 após uma queda de 3,2% na quinta-feira, refletindo o contágio de preocupações com a sustentabilidade financeira do setor de infraestrutura de IA para o mercado de ações e criptoativos.",
+      "mecanismo": "O estresse de crédito no setor de neoclouds, evidenciado pela queda acentuada de CoreWeave e comentários sobre escassez de capital, está levando investidores institucionais a reavaliar os compromissos de capital de empresas de tecnologia dependentes de IA; essa aversão ao risco global está drenando liquidez dos ETFs de Bitcoin e forçando a liquidação de posições alavancadas longas, pressionando o preço para a parte inferior da sua faixa de negociação.",
+      "implicacao": "Com a percepção de risco elevado no setor de tecnologia e IA, a classe de ativos criptomoativos tende a sofrer pressão de venda, já que a correlação com o apetite por risco de Wall Street aumenta durante episódios de estresse de crédito, reduzindo a demanda por ativos de alta volatilidade.",
+      "risco": "A tese de contágio pode ser invalidada se o mercado interpretar a correção como uma oportunidade de compra em ativos de crescimento ou se novos anúncios de capex robusto por grandes players da IA restabelecerem a confiança na rentabilidade do setor.",
+      "proximo_evento": "Novos dados de fluxo líquido dos ETFs de Bitcoin à vista nos EUA e possíveis atualizações de alvos de preço ou balanços de outras grandes empresas de infraestrutura de IA.",
+      "key_numbers": [
+        "Preço do Bitcoin: US$ 82.000",
+        "Queda do Bitcoin (24h): 3,2%",
+        "Saída líquida de ETFs de BTC: US$ 635 milhões",
+        "Liquidações de posições longas: US$ 280 milhões"
       ],
       "sentiment": "down"
+    },
+    {
+      "title": "Bitcoin ETFs bleed $635M as October slides back into the red",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-etfs-erase-october-gains-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "Os ETFs de Bitcoin à vista nos EUA registraram saídas líquidas de US$ 635 milhões na quinta-feira, revertendo o fluxo positivo dos dias anteriores e colocando o mês de outubro em saldo negativo.",
+      "mecanismo": "A saída massiva de capital dos ETFs indica que investidores institucionais estão realizando lucros ou reduzindo exposição, o que remove suporte de demanda estrutural no curto prazo; essa pressão vendedora coincide com a queda do preço do Bitcoin para a faixa de US$ 81.000, sugerindo que o fluxo de caixa está liderando a correção de preço em vez de ser consequência dela.",
+      "implicacao": "Com a saída de capital dos veículos regulados de Bitcoin, a classe de ativos cripto tende a enfrentar pressão de baixa ou lateralização, já que a redução da demanda institucional aumenta a volatilidade e a sensibilidade a notícias macroeconômicas negativas.",
+      "risco": "O fluxo semanal ainda permanece positivo (US$ 443 milhões), o que sugere que a saída de quinta-feira pode ser apenas ruído de curto prazo ou ajuste de portfólio, e não o início de uma tendência de desinvestimento estrutural.",
+      "proximo_evento": "Monitorar os fluxos diários dos ETFs nos próximos dias para verificar se a tendência de saída se mantém ou se reverte, além de observar a reação do preço à barreira psicológica e de custo médio dos ETFs em torno de US$ 81.500.",
+      "key_numbers": [
+        "Saída líquida diária: US$ 635 milhões",
+        "Saldo líquido de outubro: -US$ 175 milhões",
+        "Preço do Bitcoin: US$ 81.783",
+        "Fluxo líquido semanal: US$ 443 milhões"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Federal Reserve Preview: A Pause Before A December Hike",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4956980-federal-reserve-preview-pause-before-december-hike?source=feed_all_articles",
+      "categorias": [
+        "renda_fixa",
+        "exterior"
+      ],
+      "resumo": "Apesar da inflação núcleo acima do esperado em setembro, o mercado e a ING projetam que o Fed manterá os juros inalterados na reunião de 28 de outubro, com alta de 25 bps prevista apenas para dezembro.",
+      "mecanismo": "O Fed opta por uma pausa em outubro para avaliar a volatilidade do mercado e manter uma postura orientada por dados, evitando reagir precipitadamente a um único dado de inflação quente; essa postura de 'esperar e ver' sustenta a tese de que a credibilidade da política monetária é prioridade, o que mantém os rendimentos de curto prazo dos EUA firmes e o dólar forte, já que o mercado precifica a alta de dezembro como o próximo passo necessário para domar a inflação.",
+      "implicacao": "Com a perspectiva de juros mais altos por mais tempo nos EUA e um dólar forte, ativos de risco globalmente sensíveis a taxas de desconto tendem a enfrentar pressão, enquanto títulos de curto prazo dos EUA e o próprio dólar devem se beneficiar, já que o custo de oportunidade de manter moedas emergentes ou ações de crescimento elevado aumenta.",
+      "risco": "Um evento de 'risk-off' liderado pelo setor de tecnologia ou uma deterioração súbita dos dados econômicos dos EUA poderia forçar o Fed a adotar uma postura mais dovista do que o esperado, invalidando a tese de alta em dezembro e enfraquecendo o dólar.",
+      "proximo_evento": "Reunião do FOMC em 28 de outubro de 2026, onde a manutenção dos juros é o consenso, seguida pela expectativa de alta em dezembro.",
+      "key_numbers": [
+        "Alta esperada em dezembro: 25 bps",
+        "Data da reunião FOMC: 28 de outubro",
+        "Variação núcleo CPI setembro: 0,3% m/m"
+      ],
+      "sentiment": "neutral"
     },
     {
       "title": "Notícias sobre investimentos e o mercado financeiro | Bora Investir",
@@ -146,17 +148,18 @@
       "categorias": [
         "renda_fixa"
       ],
-      "resumo": "O pacote Prospera MEI foi aprovado com medidas para aliviar dívidas e facilitar a participação de pequenos negócios em licitações públicas, enquanto o mercado monitora a arrecadação federal e o resultado do Bradesco.",
-      "mecanismo": "A redução da carga tributária e o acesso a compras públicas aumentam a liquidez e a receita dos microempreendedores, o que tende a fortalecer o consumo de base e a atividade econômica real, embora o impacto no Ibovespa seja indireto e diluído pela cautela eleitoral e pela expectativa de aperto fiscal apontado pela Fitch.",
-      "implicacao": "Com o aumento da capacidade de compra e da formalização de pequenos negócios, o varejo e o setor de serviços tendem a se beneficiar no médio prazo, já que a base de consumidores com maior poder de compra e acesso a crédito se expande.",
-      "risco": "O cenário de aperto fiscal independente do resultado eleitoral pode limitar a eficácia das medidas de estímulo, caso o governo precise cortar gastos ou aumentar tributos para cumprir metas fiscais.",
-      "proximo_evento": "Divulgação dos dados de arrecadação federal e do balanço trimestral do Bradesco, além da definição do resultado das eleições.",
+      "resumo": "A prévia da inflação oficial (IPCA-15) de outubro registrou desaceleração, fechando o mês em 0,32%, impulsionada pela queda nos preços de energia elétrica e passagens aéreas, embora a alimentação tenha exercido pressão inflacionária.",
+      "mecanismo": "A desaceleração do IPCA-15 reduz a pressão sobre o Banco Central para manter a taxa de juros elevada, o que tende a aliviar o custo de capital e melhorar as condições para ativos sensíveis a juros, como ações de setores cíclicos e títulos de renda fixa indexados à inflação.",
+      "implicacao": "Com a inflação desacelerando, o setor de consumo e bens duráveis tende a se beneficiar, já que a expectativa de juros mais baixos no futuro aumenta o poder de compra e a disposição para crédito dos consumidores.",
+      "risco": "A alta persistente nos preços de alimentos pode reverter a tendência de desaceleração, forçando o Banco Central a adotar uma postura mais restritiva do que o mercado espera.",
+      "proximo_evento": "Divulgação do IPCA-12 (prévia de novembro) e do IPCA oficial de outubro, além da próxima reunião do Copom para definição da taxa Selic.",
       "key_numbers": [
-        "Dólar: R$ 5,02",
-        "Crescimento PIB (ago): 0,5%",
-        "Variação Ibovespa (21/10): -0,86%"
+        "IPCA-15 (out/26): 0,32%",
+        "Dólar: R$ 5,03",
+        "Ibovespa (variação 22/10): -1,15%",
+        "Arrecadação federal (set/26): R$ 239,4 bilhões"
       ],
-      "sentiment": "neutral"
+      "sentiment": "up"
     },
     {
       "title": "Clube FII News - Notícias para o Investidor de Fundos Imobiliários",
@@ -165,15 +168,16 @@
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "O mercado imobiliário logístico e de escritórios no ABC Paulista e Grande São Paulo apresenta vacância mínima, enquanto o setor de e-commerce acelera a entrega urbana. Paralelamente, a expectativa de reprecificação do real estate ganha força com a perspectiva de queda nos juros, condicionada à política fiscal.",
-      "mecanismo": "A combinação de vacância inferior a 1% nas regiões estratégicas e a expansão de centros de distribuição para e-commerce criam um ambiente de oferta restrita e demanda robusta. Simultaneamente, a expectativa de cortes na Selic reduz o custo de capital e o WACC das incorporadoras, o que tende a elevar os múltiplos de valuation dos ativos imobiliários e aumentar a atratividade dos FIIs em relação a outras classes de ativos.",
-      "implicacao": "Com a perspectiva de juros menores e vacância estruturalmente baixa, o setor de Fundos Imobiliários (FIIs) tende a se beneficiar de uma reprecificação positiva, já que o custo de financiamento mais barato aumenta a capacidade de alavancagem das gestoras e a atratividade dos dividendos frente ao risco.",
-      "risco": "A tese de reprecificação pode ser invalidada se a política fiscal não apresentar sinais claros de responsabilidade, o que manteria a Selic elevada por mais tempo e pressionaria os múltiplos dos ativos imobiliários.",
-      "proximo_evento": "Próxima reunião do Copom para definição da taxa Selic e divulgação dos dados de inflação (IPCA) que fundamentam a tese de reprecificação do setor.",
+      "resumo": "O mercado imobiliário logístico e de escritórios no ABC Paulista e Grande São Paulo apresenta vacância mínima, impulsionando a expansão de novos projetos e a reprecificação de ativos em meio às expectativas de queda de juros pós-eleições.",
+      "mecanismo": "A forte absorção de espaços em regiões estratégicas como o Grande ABC e Jundiaí, combinada com a expectativa de redução do custo de capital após o ciclo eleitoral, cria um ambiente favorável para a valorização de ativos imobiliários, pois a escassez de oferta (vacância <1%) sustenta os aluguéis enquanto o barateamento do crédito aumenta a capacidade de investimento e refinanciamento dos fundos.",
+      "implicacao": "Com a vacância em níveis historicamente baixos e a perspectiva de juros menores, o setor de FIIs logísticos e de escritórios tende a ver uma compressão de múltiplos e aumento na demanda por dividendos, já que a combinação de oferta restrita e custo de capital reduzido melhora a rentabilidade líquida dos ativos.",
+      "risco": "A tese de reprecificação positiva pode ser invalidada se a política fiscal não se mostrar sustentável, mantendo a Selic elevada por mais tempo, ou se eventos climáticos extremos aumentarem os prêmios de seguro e os custos operacionais dos galpões logísticos.",
+      "proximo_evento": "Divulgação dos dados de vacância e absorção líquida do 3º trimestre de 2026 e as primeiras sinalizações concretas de novos projetos a serem lançados a partir de 2027.",
       "key_numbers": [
         "Vacância Grande ABC/Barueri/Jundiaí: <1%",
         "IFIX: +0,65%",
-        "Entrega E-commerce: 15-240 min"
+        "Entrega E-commerce: 15 a 240 minutos",
+        "Nova ampliação Infinity: 2028"
       ],
       "sentiment": "up"
     },
@@ -187,46 +191,46 @@
       "resumo": "O texto fornecido consiste exclusivamente em um aviso legal e de isenção de responsabilidade do Clube FII, sem conter qualquer notícia de mercado, dado econômico ou evento corporativo específico.",
       "mecanismo": "Não há mecanismo causal identificável, pois o conteúdo não apresenta fatos, variáveis econômicas ou eventos que gerem uma cadeia de consequências para o mercado.",
       "implicacao": "Sem dados factuais, não é possível estabelecer uma implicação setorial ou de classe de ativo, pois a ausência de informação impede a construção de uma tese de investimento baseada em evidências.",
-      "risco": "O principal risco é a análise de vacuo, onde a falta de conteúdo informativo pode levar a decisões baseadas em suposições ou ruído de mercado, em vez de fundamentos concretos.",
+      "risco": "O principal risco é a análise de vacuo, onde a falta de conteúdo factual pode levar a decisões baseadas em suposições ou ruído de mercado, invalidando qualquer raciocínio lógico.",
       "proximo_evento": "Não há próximo evento específico derivado deste texto; recomenda-se monitorar os comunicados oficiais do Clube FII ou fontes primárias de dados macroeconômicos para obter informações acionáveis.",
       "key_numbers": [],
       "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
-    "renda_fixa": [],
+    "renda_fixa": [
+      "O ETF AGGH é descrito como um fundo de obrigações de grau de investimento e opções com forte rendimento de distribuição e histórico de desempenho.",
+      "O papel AGNC está cotizado abaixo de sua mínima de 2020, mas ainda não é considerado barato."
+    ],
     "acoes": [
-      "O BTG Pactual avalia que o Ibovespa, que renovou máximas históricas em 2026, ainda possui condições para continuar avançando, recomendando ETFs para capturar a alta com base em valuations abaixo das médias históricas.",
-      "O Ibovespa em dólar caiu nesta quinta-feira (22) enquanto o mercado local aguarda a divulgação da pesquisa Datafolha, que ocorrerá após as 19h, em meio às dúvidas geradas pelo levantamento da Quaest sobre a eleição do senador Flávio.",
-      "O Ibovespa futuro iniciou o pregão desta quinta-feira (22) no território negativo, com queda de 0,65%, à espera da pesquisa Datafolha e diante da escalada de tensões no Oriente Médio que elevou o dólar.",
-      "A Bradsaúde (BRDS3) foi vista positivamente pelo mercado por ter compensado a alta de 0,5 ponto percentual na sinistralidade no terceiro trimestre com outras variáveis, enquanto a Atlântica se tornou destaque."
+      "Ibovespa opera instável às vésperas do segundo turno das eleições presidenciais, monitorando a prévia da inflação de outubro que subiu 0,32% no mês e fechou 12 meses com alta acumulada de 4,62%.",
+      "Caio Megale, economista-chefe da XP Investimentos, afirmou que 'tudo pode acontecer' no segundo turno e que certamente 'alguém sairá eleito presidente das urnas' no próximo domingo (25).",
+      "A Ágora Investimentos recomenda comprar Marcopolo (POMO4) e vender Gerdau (GGBR4) para day trade nesta sexta-feira (23), com potencial de ganho de 1,47% para a primeira ação, que fechou a quinta-feira a R$ 4,75.",
+      "O último pregão antes das eleições é marcado pela digestão da pesquisa Datafolha, que apontou a redução da diferença entre os candidatos, incluindo o senador Flávio, e o Ibovespa em dólar cai nesta sexta-feira (23)."
     ],
     "cripto": [
-      "ETFs de Bitcoin à vista nos EUA registraram um fluxo de entrada de US$ 528 milhões, elevando o total acumulado em três dias para mais de US$ 1 bilhão.",
-      "A OCC finalizou as regras da GENIUS Act para emissores de stablecoins e custódia.",
-      "Grupos de blockchain, incluindo Chainlink e Cardano, pressionam a SEC por regras mais claras para criptomoedas.",
-      "O CEO da CryptoQuant classificou o aumento do hashrate do Bitcoin como um 'sinal indireto de otimismo' por parte das instituições."
+      "O Bitcoin está circulando na faixa de US$ 81,5 mil, nível correspondente ao custo médio dos ETFs, enquanto comentários de Trump sobre o Irã levam as ações para baixo.",
+      "O Bitcoin corrigiu para abaixo de US$ 82 mil após os resultados do terceiro trimestre da Tesla e a queda do índice KOSPI.",
+      "A taxa de hash do Bitcoin atingiu o nível mais alto em sete meses, pois a mudança para a IA não conseguiu aliviar a competição na mineração.",
+      "O resumo da notícia sobre o que aconteceu no cripto hoje é vago e não fornece detalhes específicos além do título."
     ],
     "debentures": [],
     "exterior": [
-      "A bolsa da Turquia fechou em queda, com o índice BIST 100 recuando 3,08%.",
-      "A bolsa da Polônia encerrou o pregão em baixa, com o índice WIG30 caindo 1,49%.",
-      "A bolsa da Dinamarca fechou em alta, com o índice OMX Copenhagen 20 subindo 0,34%.",
-      "O artigo da Seeking Alpha destaca a questão de US$ 220 bilhões que os investidores não podem ignorar em relação ao terceiro trimestre da Amazon."
+      "Os preços do petróleo subiram nesta sexta-feira (23) após ataques dos houthis na Arábia Saudita intensificarem as preocupações com novas interrupções no fornecimento de energia do Oriente Médio, com o Brent avançando 71 centavos, ou 0,63%, para US$ 113,90 por barril.",
+      "A Kering, dona da Gucci, caiu 16% enquanto o setor de luxo se prepara para um inverno difícil.",
+      "Ameaças cibernéticas impulsionadas por IA estão impulsionando as ações de cibersegurança."
     ],
     "imobiliario": [
-      "O Clube FII afirma que preza pela qualidade do conteúdo e verifica as informações publicadas, ressaltando que não faz qualquer tipo de recomendação de investimento e não se responsabiliza por perdas, danos, custos e lucros cessantes.",
-      "O Clube FII afirma que preza pela qualidade do conteúdo e verifica as informações publicadas, ressaltando que não faz qualquer tipo de recomendação de investimento e não se responsabiliza por perdas, danos, custos e lucros cessantes.",
-      "O Clube FII afirma que preza pela qualidade do conteúdo e verifica as informações publicadas, ressaltando que não faz qualquer tipo de recomendação de investimento e não se responsabiliza por perdas, danos, custos e lucros cessantes.",
-      "O Clube FII afirma que preza pela qualidade do conteúdo e verifica as informações publicadas, ressaltando que não faz qualquer tipo de recomendação de investimento e não se responsabiliza por perdas, danos, custos e lucros cessantes."
+      "O resumo da notícia sobre Certificados de Recebíveis Imobiliários contém apenas o aviso legal do Clube FII, informando que o portal verifica as informações publicadas, não faz recomendação de investimento e não se responsabiliza por perdas ou danos.",
+      "O resumo da notícia sobre Galpões Logísticos e Industriais de Fundos Imobiliários contém apenas o aviso legal do Clube FII, informando que o portal verifica as informações publicadas, não faz recomendação de investimento e não se responsabiliza por perdas ou danos."
     ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário de renda fixa deve ser monitorado à luz da expectativa de aperto fiscal apontada pela Fitch e da cautela eleitoral, fatores que podem influenciar a trajetória da Selic e dos juros. Além disso, a divulgação dos dados de arrecadação federal e o balanço trimestral do Bradesco são eventos-chave que podem impactar a liquidez e as expectativas de mercado no curto prazo.",
-    "acoes": "O mercado brasileiro opera sob forte aversão ao risco, pressionado pela incerteza do segundo turno presidencial de 25 de outubro e pela escalada de tensões no Oriente Médio que elevou o petróleo para US$ 112. A atenção está voltada para a pesquisa Datafolha divulgada nesta quinta-feira (22), que pode alterar as precificações divergentes do mercado preditivo, enquanto o BTG Pactual sugere que a bolsa ainda tem espaço para alta devido a valuations atrativos.",
-    "cripto": "O mercado de criptomoedas está sendo moldado por uma combinação de forte demanda institucional, evidenciada pelos fluxos bilionários em ETFs e pelo aumento do hashrate, e por um ambiente regulatório em consolidação, marcado pela finalização das regras da GENIUS Act pela OCC e pelas pressões do setor à SEC por maior clareza. Enquanto isso, a volatilidade do Bitcoin continua sensível a sinais macroeconômicos e de tecnologia, como os resultados da Tesla e da SpaceX, que influenciam a aversão ao risco e a liquidez dos ativos de crescimento.",
-    "debentures": "O mercado de crédito está sinalizando tensões estruturais para 2027, impulsionadas pela expansão agressiva de dívidas corporativas para financiar infraestrutura de IA, o que resulta em fluxos de caixa negativos e elevação dos spreads de risco e prêmios de default. É fundamental monitorar os próximos relatórios trimestrais dessas empresas para verificar a evolução do fluxo de caixa livre e o nível de endividamento, além de acompanhar novos dados de spreads de crédito corporativo high yield.",
-    "exterior": "O mercado global enfrenta pressão dupla com a alta do petróleo acima de US$ 112 devido a tensões no Estreito de Ormuz e a revisão de expectativas sobre investimentos em IA, o que já impactou negativamente as bolsas da Ásia e Wall Street. Enquanto isso, a divergência nos mercados europeus, com quedas na Turquia e Polônia contrastando com a alta na Dinamarca, sugere uma rotação de capital seletiva antes da reunião do FOMC de 28 de outubro, onde a manutenção dos juros em 3,75% a 4,00% é o consenso.",
-    "imobiliario": "O foco principal deve permanecer na próxima reunião do Copom para definição da taxa Selic e na divulgação dos dados de inflação (IPCA), eventos que fundamentam a tese de reprecificação do setor e a redução do custo de capital. As notícias adicionais não apresentam fatos novos ou variáveis econômicas, limitando-se a avisos legais sobre a ausência de recomendação de investimento e a isenção de responsabilidade do Clube FII."
+    "renda_fixa": "A desaceleração do IPCA-15 reduz a pressão sobre o Banco Central para manter a Selic elevada, o que tende a aliviar o custo de capital e beneficiar títulos de renda fixa indexados à inflação. Esse cenário doméstico ocorre em paralelo à postura de espera do Federal Reserve, que mantém os rendimentos de curto prazo dos EUA firmes e o dólar forte, aguardando a reunião do FOMC em 28 de outubro de 2026. Investidores devem monitorar a divulgação do IPCA-12 e do IPCA oficial de outubro, além da próxima reunião do Copom, para avaliar o impacto combinado das políticas monetárias locais e internacionais nos ativos sensíveis a juros.",
+    "acoes": "O mercado acionário brasileiro opera em um ambiente de cautela às vésperas do segundo turno das eleições presidenciais de domingo (25), com o Ibovespa em dólar recuando e o dólar subindo. A atenção dos investidores está dividida entre a digestão da pesquisa Datafolha, que indica redução da diferença entre os candidatos, e os impactos macroeconômicos da prévia de inflação (IPCA-15) de 0,32%, que, apesar de fraca, convive com a alta do petróleo acima de US$ 110.",
+    "cripto": "A atenção deve se concentrar na resistência do Bitcoin na barreira psicológica e de custo médio dos ETFs em torno de US$ 81,5 mil, dado que os fluxos de saída recentes indicam pressão vendedora institucional. Simultaneamente, é crucial monitorar como a aversão ao risco global, impulsionada por fatores externos como tensões geopolíticas e resultados corporativos, interage com a liquidez dos ETFs e a liquidação de posições alavancadas. A sustentação da taxa de hash em máximas de sete meses sugere que a infraestrutura de mineração permanece robusta, mas o foco imediato permanece na capacidade do preço de manter o suporte diante da drenagem de capital.",
+    "debentures": "",
+    "exterior": "A escalada das tensões no Oriente Médio, com ataques diretos à Arábia Saudita, mantém o petróleo em níveis elevados, reforçando a pressão inflacionária que sustenta a expectativa de alta de juros pelo Fed em dezembro. Enquanto o mercado de luxo enfrenta uma queda acentuada e o setor de cibersegurança se beneficia de novas ameaças tecnológicas, a atenção permanece voltada para a reunião do FOMC em 28 de outubro e para os próximos dados de inflação dos EUA, que confirmarão a transmissão do choque de energia para os preços ao consumidor.",
+    "imobiliario": "O cenário atual é marcado pela forte absorção de espaços em regiões estratégicas e pela expectativa de redução do custo de capital, fatores que sustentam a valorização de ativos imobiliários. Como as notícias adicionais recentes não apresentaram fatos novos, o foco permanece na divulgação dos dados de vacância e absorção líquida do 3º trimestre de 2026 e nas sinalizações de novos projetos a partir de 2027."
   }
 }
