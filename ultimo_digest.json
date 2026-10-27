@@ -1,106 +1,103 @@
 {
-  "gerado_em": "2026-10-26T17:26:34.596160+00:00",
+  "gerado_em": "2026-10-27T16:35:14.573150+00:00",
   "itens": [
     {
-      "title": "Wall Street sobe com pedido de IPO da Anthropic e alívio nos preços do petróleo",
+      "title": "Wall Street tem tom misto com alívio nos preços do petróleo e à espera de Fed",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-sobe-com-pedido-de-ipo-da-anthropic-davs/",
+      "link": "https://www.moneytimes.com.br/wall-street-abertura-27-10-26-lils/",
       "categorias": [
-        "acoes",
         "exterior"
       ],
-      "resumo": "Os principais índices de Nova York avançam nesta segunda-feira, impulsionados pelo entusiasmo gerado pelo pedido de abertura de capital da Anthropic e pela queda nos preços do petróleo.",
-      "mecanismo": "O anúncio do IPO da Anthropic, com crescimento de receita de 1.304% no semestre, reativa o apetite por ativos de tecnologia e IA, enquanto a queda de mais de 2% no WTI e 1,6% no Brent alivia a pressão inflacionária, criando um ambiente mais favorável para a recuperação dos mercados acionários após as perdas da semana anterior.",
-      "implicacao": "Com a reativação do ciclo de IPOs no setor de inteligência artificial e a desaceleração dos custos de energia, o segmento de tecnologia e semicondutores tende a ganhar tração, já que a liquidez volta a fluir para ativos de crescimento e a margem das empresas de hardware é beneficiada pela redução no custo de insumos energéticos.",
-      "risco": "O otimismo pode ser invalidado se o mercado interpretar o crescimento explosivo da Anthropic como insustentável ou se a queda no petróleo for vista como sinal de desaceleração econômica global, o que poderia reverter a alta dos índices de tecnologia.",
-      "proximo_evento": "A definição do calendário oficial de negociação das ações da Anthropic na Nasdaq e a divulgação dos próximos relatórios trimestrais das grandes empresas de tecnologia (Big Tech) para validar a sustentabilidade do crescimento no setor de IA.",
+      "resumo": "Os índices de Nova York operam em patamar lateral, impulsionados pela recuperação do setor de semicondutores e pela queda nos preços do petróleo, enquanto o mercado aguarda a decisão de juros do Federal Reserve.",
+      "mecanismo": "A expectativa de manutenção dos juros na faixa de 3,75% a 4,00% elimina a incerteza de um aperto monetário adicional, o que, somado à redução do prêmio de risco geopolítico no petróleo, permite que o capital flua para setores de crescimento como semicondutores, sustentando o S&P 500 e o Nasdaq mesmo com o Dow Jones em leve recuo.",
+      "implicacao": "Com a manutenção dos juros e a estabilização do petróleo, o setor de tecnologia e semicondutores tende a manter o desempenho superior, já que a ausência de choque inflacionário externo preserva a margem para o crescimento das empresas de alta beta.",
+      "risco": "A probabilidade residual de 9,4% de elevação de juros pelo Fed ou uma nova escalada diplomática no Oriente Médio que reverta a queda do petróleo podem inverter o fluxo de capital para defensivos.",
+      "proximo_evento": "Decisão de política monetária do Federal Reserve (Fomc) e a coletiva de imprensa do presidente do banco central.",
       "key_numbers": [
-        "S&P 500: +0,60%",
-        "WTI: US$ 100,55",
-        "Receita Anthropic (6m): US$ 16,3 bilhões",
-        "Crescimento Receita Anthropic: 1.304%"
+        "S&P 500: 7.679,30",
+        "Nasdaq: 26.228,388",
+        "Juros Fed: 3,75% a 4,00%",
+        "Chance de manutenção Fed: 90,6%"
       ],
-      "sentiment": "up"
+      "sentiment": "neutral"
     },
     {
-      "title": "8 ações caem mais de 40% no Ibovespa em dia sangrento após virada de Lula no segundo turno",
+      "title": "Ibovespa tenta recuperar perdas após tombo com reeleição de Lula; 5 coisas para saber antes de investir hoje (27)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/8-acoes-caem-mais-de-40-no-ibovespa-em-dia-sangrento-apos-vitoria-de-lula-bdap/",
+      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-27-10-26-lils/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "A reeleição de Lula provocou uma reversão abrupta no mercado, com o Ibovespa sofrendo quedas expressivas em ações sensíveis a juros e consumo, enquanto papéis atrelados ao dólar forte registraram ganhos.",
-      "mecanismo": "O mercado interpretou a vitória de Lula como um sinal de política fiscal mais expansionista, o que elevou as expectativas de juros altos por mais tempo; isso pressionou os contratos de juros futuros (DI 2031 subiu para 15,68%) e penalizou empresas com alta alavancagem ou dependentes de crédito barato, enquanto beneficiou exportadoras e setores com receita em dólar.",
-      "implicacao": "Com a perspectiva de juros elevados por mais tempo, o setor de consumo doméstico e empresas de alta alavancagem tendem a enfrentar pressão de valuation, já que o custo do capital aumenta e a demanda por crédito pode ser inibida, enquanto o setor exportador tende a se beneficiar da valorização do dólar.",
-      "risco": "O cenário pode ser invalidado se o governo apresentar medidas fiscais concretas de contenção de gastos que reforcem a confiança na estabilidade macroeconômica, revertendo a percepção de risco e normalizando as curvas de juros.",
-      "proximo_evento": "Próxima reunião do Copom para definição da taxa Selic e divulgação dos próximos dados de inflação (IPCA) que confirmarão a trajetória de juros.",
+      "resumo": "O Ibovespa inicia a sessão em leve alta após a queda histórica de quase 14% provocada pela reeleição de Lula, enquanto o Tesouro Nacional cancela leilões de títulos para estabilizar o mercado de juros.",
+      "mecanismo": "A reeleição de Lula, contrariando a aposta do mercado em Flávio Bolsonaro, gerou um choque de reprecificação que disparou os juros futuros e o dólar; em resposta, o Tesouro cancelou a oferta de LFTs e anunciou recompras de NTN-Bs para conter a volatilidade e evitar um colapso na liquidez da curva de juros, enquanto o mercado aguarda a definição do novo comando da Fazenda para reavaliar a sustentabilidade fiscal.",
+      "implicacao": "Com a incerteza política elevada e o Tesouro intervindo para conter a alta dos juros, a classe de ativos de renda fixa de curto prazo tende a ser preferida como refúgio de liquidez, enquanto ações sensíveis a juros e risco país podem permanecer voláteis até que haja clareza sobre a equipe econômica e a política fiscal.",
+      "risco": "A tese de recuperação pode ser invalidada se o novo ministro da Fazenda sinalizar uma postura fiscal mais expansionista ou se a intervenção do Tesouro for insuficiente para deter a escalada dos juros futuros, aprofundando a desvalorização do real e do índice.",
+      "proximo_evento": "Anúncio oficial da escolha do novo ministro da Fazenda e a divulgação das condições para o leilão de recompra de NTN-Bs pelo Tesouro Nacional.",
       "key_numbers": [
-        "DI Jan/2031: 15,680%",
-        "Dólar: R$ 5,50",
-        "Queda máxima (VAMO3): -59,44%",
-        "Alta máxima (SUZB3): +8,10%"
+        "Ibovespa: 177.230,25 pontos",
+        "Queda véspera: 13,88%",
+        "Dólar: R$ 5,3583",
+        "Subvenção diesel: R$ 2,12/litro"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Bolsas da Europa caem na maioria com balanço fraco do HSBC e cautela na França",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/bolsas-da-europa-caem-na-maioria-com-balanco-fraco-do-hsbc-e-cautela-na-franca/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "Os mercados europeus recuam nesta terça-feira, pressionados pelo lucro trimestral abaixo do esperado do HSBC e pela incerteza política na França, onde novos protestos estudantis são temidos apesar das concessões do governo.",
+      "mecanismo": "O resultado fraco do HSBC gera aversão ao risco no setor bancário europeu, derrubando o subíndice do setor, enquanto a instabilidade social na França aumenta a cautela dos investidores em relação a ativos locais, mesmo com o mercado parisiense tentando se recuperar levemente.",
+      "implicacao": "Com a queda do lucro do maior banco da Europa e o aumento da aversão ao risco, o setor bancário europeu tende a continuar sob pressão, já que a confiança dos investidores na rentabilidade e na estabilidade regulatória do setor foi abalada, o que pode levar a uma rotação de capital para setores defensivos ou para o caixa.",
+      "risco": "A recuperação do mercado parisiense e a ausência de expectativa de mudanças nas taxas de juros nos próximos dias podem limitar a extensão da queda, caso os protestos na França não escalem para uma crise política maior e os bancos apresentem fundamentos sólidos em outras regiões.",
+      "proximo_evento": "Decisões de juros do Federal Reserve (EUA) e do Banco Central Europeu (BCE) previstas para os próximos dias, além da evolução dos protestos estudantis na França.",
+      "key_numbers": [
+        "Stoxx 600: -0,13%",
+        "HSBC: -7%",
+        "Subíndice de bancos: -1%",
+        "Bolsa de Londres: -0,81%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Efeito Lula: Ibovespa derrete quase 17% e perde mais de 34 mil pontos após circuit breaker",
+      "title": "Tempo real: Ibovespa perde fôlego e cai aos 175 mil pontos com Vale (VALE3); dólar recua mais de 1%",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-abertura-26-10-26-lils/",
+      "link": "https://www.moneytimes.com.br/tempo-real-27-10-26-lils/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa sofreu uma queda histórica de quase 17% após a reeleição de Lula, acionando o mecanismo de circuit breaker na B3. A reação foi impulsionada pela surpresa negativa do resultado eleitoral e pelo forte fluxo de saída de capital estrangeiro.",
-      "mecanismo": "A vitória de Lula, que contrariou as pesquisas e a vantagem do adversário no primeiro turno, forçou uma reavaliação imediata do prêmio de risco dos ativos brasileiros. Isso provocou um ajuste expressivo nas carteiras de investidores que estavam posicionados para o cenário oposto, gerando uma venda massiva que levou o índice a atingir o limite de 10% e, em seguida, a se aproximar do limite de 15%, enquanto o dólar subia acima de 10% refletindo a desvalorização cambial e a fuga de capitais.",
-      "implicacao": "Com a forte desvalorização do real e a queda acentuada do índice, ativos sensíveis a risco e setores dependentes de fluxo estrangeiro tendem a sofrer pressão adicional, enquanto ativos de proteção cambial ou commodities dolarizadas podem se beneficiar temporariamente da alta do dólar, já que a moeda americana se valoriza frente ao real em momentos de estresse político.",
-      "risco": "O risco principal é a volatilidade extrema e a possibilidade de o mercado não encontrar um piso de preço rapidamente, levando a uma suspensão prolongada das negociações e a uma reprecificação mais severa do risco soberano brasileiro do que o inicialmente projetado.",
-      "proximo_evento": "A possível suspensão total das negociações por uma hora caso o Ibovespa atinja a queda de 15%, e a estabilização do dólar à vista, que operava acima de R$ 5,50.",
+      "resumo": "O Ibovespa recuou para a marca de 175 mil pontos, pressionado pela queda das ações da Vale, enquanto o dólar caiu mais de 1% em meio à incerteza sobre a composição do novo governo e ao cancelamento de leilões de títulos públicos pelo Tesouro.",
+      "mecanismo": "A turbulência pós-eleição levou o Tesouro a suspender leilões de LFTs e prefixados para evitar pressão adicional sobre a curva de juros, enquanto o mercado precifica a possibilidade de um novo ministro da Fazenda (como Rafael Fonteles) e a falta de consenso fiscal apontada pela Moody's, o que mantém a Selic elevada por mais tempo e desestimula o apetite por risco em ações de commodities como a Vale.",
+      "implicacao": "Com a incerteza fiscal e a expectativa de juros altos por mais tempo, o setor de commodities e empresas alavancadas tende a sofrer pressão de valuation, enquanto ativos com forte exposição cambial, como o setor de papel e celulose, podem se beneficiar da desvalorização do real e da queda do dólar.",
+      "risco": "A confirmação de um ministro da Fazenda com perfil mais ortodoxo ou a aprovação de medidas fiscais mais duras pelo Congresso poderia reverter a percepção de risco, elevando o Ibovespa e fortalecendo o real, invalidando a tese de desvalorização cambial e pressão sobre commodities.",
+      "proximo_evento": "Anúncio oficial dos nomes para a equipe econômica, especialmente a confirmação do novo ministro da Fazenda, e a possível realização de uma nova operação de recompra de títulos públicos pelo governo nesta terça-feira.",
       "key_numbers": [
-        "Ibovespa: -16,88%",
-        "Queda em pontos: -34.200",
-        "Dólar à vista: R$ 5,5079",
-        "Votos válidos Lula: 51,79%"
+        "Ibovespa: 175 mil pontos",
+        "Variação do Dólar: -1%",
+        "Preço-alvo Suzano (Citi): R$ 52"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Taxas de DIs disparam mais de 200 pontos-base e mercado zera probabilidade de cortes na Selic",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/taxas-dis-disparam-mais-200-pontos-base-mercado-zera-probabilidade-cortes-selic-lils/",
+      "title": "Binance files for Brazil crypto license ahead of Friday deadline",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/news/binance-brazil-crypto-license-oct-30-deadline?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
-        "renda_fixa"
+        "cripto"
       ],
-      "resumo": "A reeleição de Lula provocou uma forte alta nas taxas de juros futuros, com a curva de DIs subindo mais de 200 pontos-base e eliminando as apostas do mercado em cortes da Selic no curto prazo.",
-      "mecanismo": "O mercado interpreta a vitória de Lula como um sinal de menor probabilidade de implementação de reformas fiscais agressivas, o que aumenta a percepção de risco sobre a sustentabilidade das contas públicas; essa incerteza eleva o prêmio de risco exigido pelos investidores, pressionando as taxas de juros para cima e anulando a precificação de afrouxamento monetário pelo Banco Central.",
-      "implicacao": "Com a Selic mantida em patamares elevados por mais tempo, o setor de crédito e empresas alavancadas tendem a enfrentar custos de capital mais altos, o que pode pressionar margens e desestimular investimentos, enquanto ativos de renda fixa prefixados podem se tornar mais atrativos para capturar a taxa atual.",
-      "risco": "O cenário pode ser invalidado se o governo apresentar um plano fiscal concreto e crível que recupere a confiança do mercado, ou se o Banco Central sinalize uma mudança de tom na política monetária independentemente do resultado eleitoral.",
-      "proximo_evento": "Reunião do Copom para definição da taxa Selic e divulgação dos próximos relatórios de inflação (IPCA) e dados fiscais do governo federal.",
+      "resumo": "A Binance protocolou no Banco Central do Brasil o pedido de licença para operar como prestadora de serviços de criptoativos, cumprindo o prazo de 30 de outubro para manter suas operações no país. Como parte da adequação regulatória, a exchange removeu 22 ativos da listagem para usuários brasileiros e restringiu serviços de empréstimo e margem.",
+      "mecanismo": "O Brasil impôs um prazo final para que exchanges ativas buscassem autorização formal, criando um ambiente de incerteza regulatória que forçou a Binance a suspender serviços de maior risco (como lending e margem) e delistar ativos para garantir a continuidade das operações básicas. A submissão do pedido permite que a empresa opere sob regime transitório enquanto o Banco Central analisa a documentação, evitando o bloqueio imediato das contas dos usuários brasileiros.",
+      "implicacao": "Com a consolidação do marco regulatório no Brasil, o setor de exchanges locais e plataformas de custódia tende a ganhar tração, pois a clareza jurídica reduz o risco de compliance e atrai capital institucional que antes evitava o mercado por falta de segurança regulatória.",
+      "risco": "O risco principal é a rejeição do pedido de licença pelo Banco Central ou a imposição de condições regulatórias excessivamente restritivas que inviabilizem a rentabilidade da operação, o que poderia levar a uma saída definitiva da empresa do mercado brasileiro.",
+      "proximo_evento": "A decisão do Banco Central do Brasil sobre a aprovação ou rejeição do pedido de licença da Binance, bem como o desfecho das negociações em andamento para a possível restauração dos serviços suspensos.",
       "key_numbers": [
-        "DI Jan/2029: 15,030%",
-        "DI Jan/2035: 15,375%",
-        "DI Jan/2027: 13,898%",
-        "Votos válidos Lula: 51,79%"
+        "Prazo para licenciamento: 30 de outubro",
+        "Ativos delistados: 22",
+        "Data de submissão: 23 de outubro"
       ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Dólar dispara 12% e supera R$ 5,60 com reeleição de Lula",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/dolar-abertura-26-10-26-lils/",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O dólar brasileiro registrou uma alta de mais de 12% na abertura do pregão desta segunda-feira, ultrapassando a marca de R$ 5,60, em reação imediata à reeleição de Lula.",
-      "mecanismo": "A vitória de Lula, que contrariou as pesquisas e trouxe incertezas sobre a continuidade da consolidação fiscal, ativou a aversão ao risco no mercado local; com o cenário fiscal visto como vulnerável (déficit de 7-8% do PIB e dívida de 70% do PIB), os investidores venderam ativos brasileiros e compraram dólar, pressionando o câmbio para cima e forçando a B3 a ampliar os limites de negociação dos futuros.",
-      "implicacao": "Com a forte desvalorização do real e o aumento do prêmio de risco soberano, ativos sensíveis a juros e câmbio, como títulos públicos indexados ao IPCA e ações de empresas exportadoras, tendem a sofrer pressão negativa no curto prazo, enquanto o setor de commodities pode ter suporte parcial pela alta do dólar, embora o risco sistêmico domine o sentimento.",
-      "risco": "A intervenção do Banco Central no mercado de câmbio ou a apresentação de um plano fiscal mais rigoroso do que o esperado poderia reverter a aversão ao risco e limitar a alta do dólar.",
-      "proximo_evento": "A definição da equipe econômica e as primeiras sinalizações concretas sobre a política fiscal do novo mandato, que determinarão a duração e a magnitude do movimento de aversão ao risco.",
-      "key_numbers": [
-        "Dólar máxima: R$ 5,6047",
-        "Alta do dólar: 12,25%",
-        "Votos válidos Lula: 51,79%",
-        "DXY: 101.918 pontos"
-      ],
-      "sentiment": "down"
+      "sentiment": "neutral"
     },
     {
       "title": "BTC price risks $80K loss into FOMC, earnings: Three things to know in Bitcoin this week",
@@ -123,111 +120,74 @@
       "sentiment": "down"
     },
     {
-      "title": "Bitcoin ETFs break 2-week outflow streak with $301M comeback",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-etfs-rebound-weekly-inflow-301-million?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "Os ETFs de Bitcoin à vista nos EUA registraram entradas líquidas de US$ 301 milhões na última semana, interrompendo uma sequência de duas semanas de saídas, apesar de fortes resgates no final do período.",
-      "mecanismo": "A entrada de capital inicial na semana acompanhou a alta do Bitcoin até US$ 84.777, mas foi parcialmente revertida por saídas de US$ 774 milhões quando o preço recuou para a faixa de US$ 80.000, evidenciando que investidores em ETFs tendem a realizar lucros ou cortar perdas em quedas, em vez de comprar oportunidades de baixa, o que limita o suporte estrutural do ativo em momentos de volatilidade.",
-      "implicacao": "Com a confirmação de que investidores institucionais via ETFs não atuam como compradores de pânico, a classe de ativos cripto tende a apresentar maior volatilidade e dependência de fluxo marginal, já que a ausência de suporte comprador consistente em quedas acelera correções e exige maior gestão de risco por parte dos participantes de curto prazo.",
-      "risco": "O raciocínio de recuperação pode ser invalidado se o Bitcoin perder o suporte de US$ 80.000, desencadeando novas ondas de saídas líquidas dos ETFs que reverteriam o fluxo positivo da semana e pressionariam o preço para baixo.",
-      "proximo_evento": "Próximos fluxos diários dos ETFs de Bitcoin e Ethereum à vista, além da reação do preço do Bitcoin em relação ao suporte técnico de US$ 81.000.",
-      "key_numbers": [
-        "Entradas líquidas semanais BTC ETFs: US$ 301 milhões",
-        "Saídas líquidas semanais ETH ETFs: US$ 221 milhões",
-        "Preço atual do Bitcoin: US$ 80.025",
-        "Índice Medo e Ganância: 50 (Neutro)"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Goldman Sachs sees AI buildout adding to inflation pressures",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/goldman-sachs-sees-ai-buildout-adding-to-inflation-pressures-93CH-4973311",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "O Goldman Sachs alerta que a expansão acelerada da infraestrutura de inteligência artificial está gerando pressões adicionais sobre a inflação global.",
-      "mecanismo": "O investimento massivo em data centers e hardware para IA aumenta a demanda por energia e componentes eletrônicos, o que eleva os custos de produção e pressiona os preços ao consumidor, dificultando o controle da inflação e potencialmente mantendo as taxas de juros mais altas por mais tempo do que o esperado.",
-      "implicacao": "Com a inflação pressionada por custos estruturais de tecnologia, ativos sensíveis a juros, como títulos de longo prazo e ações de crescimento, tendem a enfrentar valuations mais compressivos, enquanto setores de energia e infraestrutura podem se beneficiar da demanda crescente por capacidade computacional.",
-      "risco": "A tese pode ser invalidada se a produtividade gerada pela IA reduzir custos de produção de forma mais rápida do que os aumentos de demanda por insumos, neutralizando o impacto inflacionário.",
-      "proximo_evento": "Próximas divulgações de índices de preços ao consumidor (CPI/PCE) nos EUA e relatórios de inflação no Brasil para verificar se a pressão de custos já está se materializando nos dados oficiais.",
-      "key_numbers": [],
-      "sentiment": "down"
-    },
-    {
       "title": "Clube FII News - Notícias para o Investidor de Fundos Imobiliários",
       "source": "Clube FII News",
       "link": "https://www.clubefiinews.com.br",
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "A reeleição de Lula mantém o mercado focado na trajetória de queda dos juros e na sustentabilidade das contas públicas, fatores que impactam diretamente o custo de capital para o setor imobiliário. Paralelamente, a baixa vacância em regiões estratégicas como o Grande ABC e a expansão de parques logísticos em Extrema sinalizam forte demanda por ativos de logística e escritórios.",
-      "mecanismo": "A manutenção da política fiscal e a expectativa de cortes na Selic reduzem o custo de financiamento para incorporadoras e investidores, o que tende a aumentar a liquidez e a valorização de ativos sensíveis a juros, como FIIs de tijolo. Simultaneamente, a vacância inferior a 1% em polos industriais e a expansão de parques logísticos (como o Infinity Business Park) indicam que a oferta não está acompanhando a demanda, o que sustenta a pressão por aluguéis e a valorização patrimonial desses ativos.",
-      "implicacao": "Com a perspectiva de juros mais baixos e alta demanda por espaços logísticos e de escritórios em regiões com vacância mínima, os FIIs de logística e escritórios tendem a se beneficiar de maior atratividade para investidores e potencial de crescimento de dividendos, já que o custo de capital cai e a ocupação dos ativos permanece elevada.",
-      "risco": "O risco principal é a deterioração das contas públicas ou uma inflação mais persistente do que o esperado, o que poderia forçar o Banco Central a manter os juros altos por mais tempo, comprimindo a múltipla de valuation dos FIIs e encarecendo o refinanciamento de dívidas do setor.",
-      "proximo_evento": "Próxima reunião do Copom para definição da taxa Selic e divulgação dos dados de inflação (IPCA) que fundamentam a política monetária, além do anúncio oficial sobre o empreendimento da Iguatemi no Itaim.",
+      "resumo": "A reeleição de Lula mantém o mercado focado na sustentabilidade das contas públicas e na trajetória de queda dos juros, fatores que impactam diretamente o custo de capital para investimentos.",
+      "mecanismo": "A manutenção do governo atual preserva a incerteza sobre a disciplina fiscal, o que exige que o mercado precifique um prêmio de risco maior nos juros de longo prazo; simultaneamente, a expectativa de queda na Selic reduz o custo de financiamento, criando uma dinâmica onde o custo dos investimentos é determinado pelo equilíbrio entre a confiança fiscal e a política monetária.",
+      "implicacao": "Com a atenção voltada para a queda dos juros e a estabilidade fiscal, a classe de ativos de Fundos Imobiliários tende a se beneficiar, já que a redução do custo de capital atrai capital para ativos de renda fixa e imobiliária, enquanto a incerteza fiscal pode limitar a magnitude da queda de juros, mantendo a seletividade nos setores.",
+      "risco": "O raciocínio pode ser invalidado se a deterioração das contas públicas for mais severa que o esperado, forçando o Banco Central a manter os juros altos por mais tempo para ancorar expectativas, o que encareceria o custo dos investimentos e pressionaria os preços dos FIIs.",
+      "proximo_evento": "Próxima reunião do Copom para definição da taxa Selic e divulgação dos dados de inflação (IPCA) do mês de outubro.",
       "key_numbers": [
-        "Vacância Grande ABC/Barueri/Jundiaí: <1%",
-        "IFIX: +0,65%",
-        "Entrega E-commerce: 15-240 min"
+        "Ifix: +0,65%",
+        "Captação ALLOS/Kinea: R$ 1 bilhão",
+        "Vacância Grande ABC/Barueri/Jundiaí: <1%"
       ],
-      "sentiment": "up"
+      "sentiment": "neutral"
     },
     {
-      "title": "Notícias de Mercado Imobiliário - Clube FII News",
+      "title": "Notícias de Certificados de Recebíveis Imobiliários | Clube FII News",
       "source": "Clube FII News",
-      "link": "https://www.clubefiinews.com.br/mercado-imobiliario",
+      "link": "https://www.clubefiinews.com.br/recebiveis-imobiliarios",
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "O texto fornecido consiste exclusivamente em um aviso legal e de isenção de responsabilidade do Clube FII, sem conter qualquer notícia de mercado, dado econômico ou evento corporativo específico.",
-      "mecanismo": "Não há mecanismo causal identificável, pois o conteúdo não apresenta fatos, variáveis econômicas ou eventos que gerem uma cadeia de consequências para o mercado.",
-      "implicacao": "Sem dados de entrada, não é possível estabelecer uma implicação setorial ou de classe de ativo, pois a ausência de informação não gera sinal de compra, venda ou neutralidade técnica.",
-      "risco": "O principal risco é a interpretação equivocada de um texto institucional como conteúdo de análise de mercado, o que pode levar a decisões baseadas em vacuo informativo.",
-      "proximo_evento": "Não há próximo evento gatilho derivado deste texto, uma vez que ele não contém informações factuais sobre o mercado imobiliário ou financeiro.",
+      "resumo": "A publicação apresenta um aviso legal padrão do Clube FII, esclarecendo que o conteúdo informativo não constitui recomendação de investimento e que a editora não assume responsabilidade por perdas financeiras.",
+      "mecanismo": "O texto não descreve um evento econômico ou corporativo específico, mas sim uma cláusula de isenção de responsabilidade (disclaimer) que serve para proteger a fonte juridicamente, sem gerar impacto direto nos fundamentos dos ativos ou na dinâmica de mercado.",
+      "implicacao": "Por se tratar de uma nota institucional e não de uma informação fundamental, não há implicação setorial direta para a classe de ativos de Certificados de Recebíveis Imobiliários, servindo apenas como contexto de governança da fonte de informação.",
+      "risco": "O risco principal é a confusão do investidor ao interpretar o aviso legal como uma sinalização de mudança de cenário ou uma recomendação implícita, o que não ocorre.",
+      "proximo_evento": "Não há gatilho de mercado associado a este aviso legal; o próximo evento relevante seria a divulgação de notícias concretas sobre emissões, ratings ou resultados de CRIs.",
       "key_numbers": [],
       "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
-    "renda_fixa": [
-      "O artigo discute a expectativa de novos cortes nas taxas de juros, aconselhando paciência aos investidores.",
-      "O texto argumenta que o Fed deve considerar a retomada da expansão quantitativa (QE)."
-    ],
+    "renda_fixa": [],
     "acoes": [
-      "Um estudo aponta que a sangria do Ibovespa no dia seguinte à reeleição de Lula, motivada pela frustração com a expectativa de vitória de Flávio Bolsonaro, insere o evento entre os piores dias do índice, comparáveis a crises internacionais.",
-      "A presidente da Petrobras, Magda Chambriard, classificou a forte queda das ações da estatal após a reeleição de Lula como um movimento especulativo que não reflete os fundamentos da empresa, afirmando que a hora é de comprar.",
-      "A B3 acionou o circuit breaker, procedimento operacional previsto para momentos de forte queda do mercado, enquanto investidores repercutem o resultado das eleições no Brasil."
+      "O Citi rebaixou a recomendação do Banco do Brasil (BBAS3) para venda e reduziu o preço-alvo de R$ 22,40 para R$ 15,00 após o resultado eleitoral.",
+      "O Ibovespa futuro (INDFUT) iniciou o pregão desta terça-feira (27) em leve queda, mas inverteu o sinal para o positivo, subindo 0,20% aos 179.010 pontos por volta das 9h, enquanto o dólar à vista abriu a R$ 5,4096.",
+      "O mercado local busca recuperação após as fortes perdas da véspera, com a ausência de indicadores macroeconômicos nesta terça-feira (27) abrindo espaço para a temporada de balanços, embora os resultados corporativos só ganhem tração em alguns dias.",
+      "A Ágora Investimentos recomendou a compra de BTG Pactual (BPAC11) e a venda de Hapvida (HAPV3) para day trade nesta terça-feira (27), com potencial de ganho de 1,41% para a BPAC11 e stop sugerido de R$ 59,69."
     ],
     "cripto": [
-      "Strategy optou por não realizar novas compras de Bitcoin e direcionou US$ 205 milhões para recompra de STRC.",
-      "Deputados da Coreia do Sul estão considerando adiar a implementação dos impostos sobre criptomoedas para 2029.",
-      "Aviva Investors lançou uma classe de ações tokenizada de um fundo de libras esterlinas de US$ 29 bilhões na XRP Ledger.",
-      "Hong Kong designou a Solana Company, listada na Nasdaq, como empresa estratégica."
+      "ETFs de Bitcoin à vista nos EUA encerraram uma sequência de duas semanas de saídas líquidas com um retorno de US$ 301 milhões.",
+      "Análise de preço do Bitcoin aponta para uma forte alta à medida que moedas antigas se tornam inativas.",
+      "A Ripple obteve a aprovação final dos EUA para operar como banco fiduciário nacional.",
+      "O USDC ultrapassou o USDT no comércio de stablecoins em euros, conforme as regras da UE remodelam o mercado."
     ],
     "debentures": [],
     "exterior": [
-      "Artigo no Seeking Alpha argumenta que o Federal Reserve deve considerar a retomada da expansão quantitativa (QE).",
-      "Publicação no Seeking Alpha sugere que as taxas de juros serão reduzidas novamente, mas recomenda paciência aos investidores.",
-      "Oficial do BCE vê o euro digital como fundamental para proteger a soberania da União Europeia.",
-      "Notícia do Stock Market News analisa de perto o rápido crescimento e os custos em espiral da Anthropic em relação ao seu IPO."
+      "As ações chinesas fecharam em sua menor cotação em 14 meses, com os papéis do setor de tecnologia retomando a queda após uma breve alta.",
+      "A ação da AMD subiu impulsionada por um acordo expandido de infraestrutura de IA com a Meta e por uma alta mais ampla no setor de chips.",
+      "A Oracle expandiu seu acordo de fornecimento de chips com a Nvidia, adicionando também as ofertas da Google e da Cerebras.",
+      "A Alibaba obteve uma liminar contra as restrições de contratos do Pentágono relacionadas à lista negra da China."
     ],
     "imobiliario": [
-      "O Clube FII News afirma que verifica as informações publicadas e ressalta que não faz recomendação de investimento nem se responsabiliza por perdas ou danos.",
-      "O Clube FII News afirma que verifica as informações publicadas e ressalta que não faz recomendação de investimento nem se responsabiliza por perdas ou danos.",
-      "O Clube FII News afirma que verifica as informações publicadas e ressalta que não faz recomendação de investimento nem se responsabiliza por perdas ou danos.",
-      "O Clube FII News afirma que verifica as informações publicadas e ressalta que não faz recomendação de investimento nem se responsabiliza por perdas ou danos."
+      "O resumo da notícia sobre Galpões Logísticos e Industriais contém apenas uma cláusula de isenção de responsabilidade do Clube FII, sem apresentar dados ou eventos específicos do setor.",
+      "O resumo da notícia sobre Shopping Centers limita-se a um aviso legal do Clube FII, afirmando que não faz recomendações de investimento e não se responsabiliza por perdas ou danos.",
+      "O resumo da notícia sobre o segmento Híbrido consiste exclusivamente em um disclaimer do Clube FII, sem fornecer informações factuais sobre os ativos ou o mercado.",
+      "O resumo da notícia sobre Mercado Imobiliário apresenta apenas a declaração padrão do Clube FII de que não realiza recomendações de investimento e não assume responsabilidade por custos ou lucros cessantes."
     ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário local permanece marcado pela aversão ao risco e pela pressão sobre as taxas de juros e o câmbio, impulsionados pela incerteza fiscal após a reeleição de Lula e a zeração das probabilidades de corte na Selic. Enquanto o mercado interno aguarda a definição da equipe econômica e as sinalizações de política fiscal, o debate internacional sobre cortes de juros e a possível retomada da expansão quantitativa pelo Fed oferece um pano de fundo externo que pode influenciar o fluxo de capitais e a dinâmica das taxas de referência.",
-    "acoes": "O mercado brasileiro enfrenta uma reavaliação drástica do prêmio de risco após a vitória de Lula, com o Ibovespa atingindo limites de queda e o dólar subindo, o que pressiona setores alavancados e eleva as expectativas de juros altos. Enquanto a Petrobras tenta acalmar investidores classificando a queda como especulativa, a atenção se volta para a próxima reunião do Copom e os dados de inflação para confirmar a trajetória de juros, além do calendário de divulgações corporativas.",
-    "cripto": "O cenário combina a cautela de grandes players corporativos, como a Strategy que priorizou recompra de ativos em vez de acumular Bitcoin, com movimentos regulatórios e institucionais que sinalizam maturidade do setor, como o possível adiamento fiscal na Coreia do Sul e a entrada de grandes gestoras de ativos em tokenização. Enquanto o mercado observa a decisão do FOMC e o índice PCE para definir o apetite por risco, a dinâmica dos ETFs de Bitcoin e Ethereum continuará sendo um indicador crucial da sustentabilidade do suporte técnico em torno de US$ 81.000.",
+    "renda_fixa": "",
+    "acoes": "O mercado segue em modo de recuperação após o choque de reprecificação causado pela reeleição de Lula, com o Ibovespa tentando estancar as perdas enquanto o Tesouro Nacional atua para conter a volatilidade da curva de juros. A atenção dos investidores permanece voltada para o anúncio oficial do novo ministro da Fazenda e as condições das operações de recompra de NTN-Bs, fatores que definirão a sustentabilidade fiscal e o apetite por risco. No curto prazo, a temporada de balanços corporativos começa a ganhar tração, oferecendo um contraponto à incerteza macroeconômica, enquanto recomendações específicas de bancos e day trade refletem a cautela e a busca por oportunidades táticas em meio à turbulência.",
+    "cripto": "O mercado de criptomoedas enfrenta uma dinâmica de incerteza regulatória e macroeconômica, com a decisão do Banco Central do Brasil sobre a licença da Binance e a expectativa de manutenção dos juros pelo Fed (FOMC) e divulgação do PCE como catalisadores imediatos. Enquanto isso, sinais de fluxo institucional positivo, como o retorno de entradas nos ETFs de Bitcoin e a aprovação final da Ripple para operar como banco fiduciário nos EUA, coexistem com mudanças estruturais no mercado de stablecoins europeias, onde o USDC supera o USDT devido às novas regras da UE.",
     "debentures": "",
-    "exterior": "O mercado observa a tensão entre a pressão inflacionária gerada pelos investimentos em infraestrutura de IA, que pode manter os juros elevados, e os argumentos de analistas pela retomada da expansão quantitativa ou novos cortes de taxas. Enquanto isso, a definição do calendário de negociação das ações da Anthropic na Nasdaq e a divulgação dos relatórios trimestrais das Big Tech são cruciais para validar a sustentabilidade do setor, ao passo que o debate sobre o euro digital na Europa adiciona uma camada de complexidade à soberania monetária global.",
-    "imobiliario": "A categoria permanece focada na expectativa de cortes na Selic e na pressão por aluguéis em ativos logísticos, mas as novas entradas não trazem fatos novos, limitando-se a avisos legais sobre a ausência de recomendação de investimento. O próximo gatilho relevante continua sendo a reunião do Copom e a divulgação do IPCA, além do anúncio oficial sobre o empreendimento da Iguatemi no Itaim."
+    "exterior": "O mercado global enfrenta uma dinâmica de divergência, com a queda das ações chinesas para o menor nível em 14 meses contrastando com a força do setor de semicondutores nos EUA, impulsionada por acordos de infraestrutura de IA entre grandes players como Meta, Oracle e Nvidia. Enquanto o alívio nos preços do petróleo e a expectativa de manutenção dos juros pelo Fed sustentam o S&P 500 e o Nasdaq, a cautela persiste na Europa devido a resultados bancários fracos e instabilidade social na França, aguardando-se as próximas decisões de política monetária do Federal Reserve e do BCE.",
+    "imobiliario": "As notícias adicionais desta categoria consistem exclusivamente em disclaimers legais do Clube FII, sem trazer novos fundamentos ou eventos de mercado. O foco analítico permanece na dinâmica entre a incerteza fiscal e a expectativa de queda na Selic, que define o custo de financiamento e o prêmio de risco nos juros de longo prazo. O próximo gatilho relevante continua sendo a reunião do Copom e a divulgação do IPCA de outubro."
   }
 }
