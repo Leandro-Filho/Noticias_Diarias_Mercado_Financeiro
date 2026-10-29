@@ -1,261 +1,198 @@
-# Resumo de Mercado — digest diário no Telegram, de graça
+# Resumo de Mercado — notícias, radar e chat no Telegram, 100% de graça
 
-Todo dia útil, esse bot busca notícias de 6 categorias (renda fixa, ações,
-cripto, debêntures, exterior, imobiliário), resume com impacto no mercado, e
-manda pro seu Telegram — uma mensagem por categoria, sem custar nada.
+Todo dia útil de manhã, esse projeto manda pro Telegram:
 
-## Como fica 100% gratuito
+1. **📊 Radar do Mercado** — maiores altas e baixas do último pregão entre as
+   ações e FIIs mais líquidos da B3, índices internacionais (S&P 500, Nasdaq,
+   Dow, Euro Stoxx, Nikkei), Bitcoin/Ethereum e os últimos proventos pagos
+   pelos ativos de bolsa da carteira.
+2. **Digest de notícias em 6 categorias** — Renda Fixa, Renda Variável/Ações,
+   Criptomoedas, Debêntures e Crédito Privado, Mercado Internacional e
+   Mercado Imobiliário. Cada categoria vira uma mensagem com análise de
+   impacto (mecanismo causal, implicação por setor/classe, risco da tese e
+   próximo evento a acompanhar), não só um resumo do que aconteceu.
 
-Trocamos a peça que custava dinheiro (API paga da Anthropic com busca na
-web) por peças gratuitas:
+E durante o dia dá pra **conversar com o bot**: qualquer mensagem no Telegram
+é respondida em ~2–5 minutos, com base no digest do dia, em indicadores
+oficiais do Banco Central e na carteira descrita em `carteira.json` — então
+"isso afeta minha debênture IPCA+?" recebe resposta sobre a SUA posição, não
+sobre o mercado em abstrato.
 
-1. **RSS em vez de busca na web** — os feeds RSS das próprias fontes de
-   notícia (InfoMoney, Money Times, Cointelegraph, e outras) são gratuitos e
-   sem limite, sempre foram. Não precisa de chave nem cadastro.
-2. **Texto completo do artigo, extraído localmente** — em vez de se
-   contentar com o resuminho de 1-2 frases que o RSS traz, o script baixa a
-   página de cada notícia selecionada e extrai o texto completo com a
-   biblioteca `trafilatura` (roda no seu próprio script, sem API, sem
-   custo). Isso dá ao resumo final muito mais conteúdo pra trabalhar.
-3. **Groq na camada gratuita** — a Groq dá acesso de graça, sem cartão de
-   crédito, a modelos open-source (Llama, GPT-OSS, Qwen) rodando no
-   hardware próprio dela, que é muito rápido. O script usa 2 etapas: uma
-   chamada pra triagem (decide quais notícias do lote servem pra cada
-   categoria) e uma chamada por categoria pra síntese (resume o texto
-   completo das notícias escolhidas). No total, 7 chamadas por dia — bem
-   dentro do limite gratuito da Groq, que é de 14.400 requisições por dia.
-4. **Telegram Bot API e GitHub Actions** — já eram gratuitos, sem mudança.
+Custo total: **R$ 0**, sem nenhum servidor ligado.
 
-**Por que Groq e não Gemini:** começamos com o Gemini, mas esbarramos em
-dois problemas reais no meio do caminho — nome de modelo que mudou de uma
-hora pra outra, e uma mudança recente no formato das chaves de API do
-Google que quebrou chamada HTTP direta pra várias contas (inclusive a
-nossa). A Groq usa autenticação padrão do mercado (token Bearer simples,
-igual a praticamente todo mundo usa) e tem tier gratuito estável desde o
-lançamento, sem sinal de mudança. Nenhuma garantia é eterna, mas essa tem
-o histórico mais limpo.
+## Arquitetura — quem faz o quê
 
-## Passo a passo
-
-### 1. Criar o bot no Telegram
-
-1. Abra o Telegram e procure por **@BotFather**.
-2. Envie `/newbot` e siga as instruções (nome e username do bot).
-3. O BotFather te dá um **token** — algo como `123456789:ABCdefGhIJKlmNoPQRstuVwxyZ`.
-   Guarde esse valor, é o seu `TELEGRAM_BOT_TOKEN`.
-
-### 2. Pegar seu chat_id (chat padrão / fallback)
-
-1. No Telegram, procure o bot que você criou e envie qualquer mensagem pra
-   ele (ex: "oi").
-2. No navegador, acesse (trocando `<TOKEN>` pelo seu token):
-   `https://api.telegram.org/bot<TOKEN>/getUpdates`
-3. Procure por `"chat":{"id":` — o número ali é o seu `TELEGRAM_CHAT_ID`.
-
-Categoria sem grupo próprio configurado cai aqui.
-
-### 2b. (Opcional) Criar um grupo por categoria
-
-1. Crie o grupo no Telegram (ex: "Renda Fixa - Digest").
-2. Adicione o bot como membro do grupo, normalmente.
-3. Mande qualquer mensagem no grupo.
-4. Acesse de novo o `getUpdates` do passo 2 — vai aparecer uma entrada com
-   `"chat":{"id": -100xxxxxxxxxx, ...}` (grupo tem id negativo, é normal).
-5. Repita pra cada categoria que quiser separar, e junte tudo num JSON:
-
-   ```json
-   {
-     "Renda Fixa": "-1001111111111",
-     "Renda Variável / Ações": "-1002222222222",
-     "Criptomoedas": "-1003333333333",
-     "Debêntures e Crédito Privado": "-1004444444444",
-     "Mercado Internacional": "-1005555555555",
-     "Mercado Imobiliário": "-1006666666666"
-   }
-   ```
-
-   Categoria que não estiver no JSON cai no `TELEGRAM_CHAT_ID` padrão — não
-   precisa preencher tudo de uma vez.
-
-### 3. Pegar sua chave gratuita da Groq
-
-1. Entre em [console.groq.com](https://console.groq.com) e faça login com
-   e-mail ou conta Google/GitHub.
-2. Vá em **API Keys** e crie uma nova chave — não pede cartão de crédito.
-3. Guarde esse valor — é o seu `GROQ_API_KEY`.
-
-### 4. Subir esse projeto pro GitHub
-
-Crie um repositório (pode ser privado) e suba estes 4 arquivos mantendo a
-mesma estrutura de pastas:
-
-```
-market_digest.py
-requirements.txt
-README.md
-.github/workflows/market-digest.yml
-```
-
-### 5. Configurar os secrets
-
-No repositório: **Settings → Secrets and variables → Actions → New
-repository secret**.
-
-| Nome | Valor |
+| Arquivo | Papel |
 |---|---|
-| `GROQ_API_KEY` | a chave do passo 3 |
-| `TELEGRAM_BOT_TOKEN` | o token do passo 1 |
-| `TELEGRAM_CHAT_ID` | o número do passo 2 |
-| `TELEGRAM_CATEGORY_CHAT_IDS` | o JSON do passo 2b — opcional |
+| `market_digest.py` | A rodada da manhã: busca notícias (RSS + sites sem RSS), triagem via Groq, análise profunda das principais + menção rápida das demais, envia as mensagens e salva `ultimo_digest.json` |
+| `radar_mercado.py` | Monta a mensagem do Radar (rankings B3 via brapi, mundo/cripto via yfinance, proventos da carteira). Cada seção falha isolada — se uma fonte cair, as outras saem mesmo assim |
+| `chat_bot.py` | Checa mensagens novas no Telegram e responde usando o digest do dia + indicadores do BCB + carteira com cotação real |
+| `carteira.json` | Sua carteira (só **percentuais**, nunca valores em R$ — o repositório é público) |
+| `ultimo_digest.json` | Gerado a cada rodada e commitado de volta — é a memória que o chat consulta (inclui o texto do radar) |
+| `noticias_enviadas.json` | Memória de dedup: links e títulos já enviados nos últimos 7 dias, pra mesma notícia não repetir em digests seguidos |
+| `.github/workflows/main.yml` | Workflow do digest (roda o `market_digest.py` e commita os JSONs) |
+| `.github/workflows/chat.yml` | Workflow do chat (roda o `chat_bot.py`) |
 
-### 6. Testar
+### O disparo de verdade vem do cron-job.org, não do GitHub
 
-Você tem duas formas de testar — local (mais rápido pra depurar) ou direto
-no GitHub Actions (mais fiel ao que vai rodar de verdade todo dia).
+O agendamento nativo do GitHub Actions (`schedule:`) atrasa — o próprio
+GitHub documenta que em horário de pico os jobs agendados podem demorar (já
+vimos 3 horas de atraso no chat). Por isso o disparo real é feito pelo
+[cron-job.org](https://cron-job.org) (gratuito), chamando a API do GitHub:
 
-**Testar local, com `.env`:**
+- **URL**: `https://api.github.com/repos/<SEU_USUARIO>/<SEU_REPO>/actions/workflows/main.yml/dispatches`
+  (e outro job igual pra `chat.yml`, a cada ~2 min)
+- **Método**: POST
+- **Headers**: `Authorization: Bearer <SEU_TOKEN>`,
+  `Accept: application/vnd.github+json`, `Content-Type: application/json`
+- **Body**: `{"ref":"main"}`
+- O token é um **fine-grained personal access token** do GitHub com permissão
+  `Actions: write` só nesse repositório.
 
-1. Copie `.env.example` pra um arquivo novo chamado `.env` (mesma pasta do
-   `market_digest.py`).
-2. Preencha os valores reais nesse `.env` (chave da Groq, token do bot,
-   etc — os mesmos do passo 3, 1 e 2 acima).
-3. Rode:
-   ```bash
-   pip install -r requirements.txt
-   python3 market_digest.py
-   ```
-4. As mensagens já devem chegar no seu Telegram.
+Os `schedule:` dos workflows continuam lá como backup (o do digest de
+propósito às xx:07, fora da hora cheia, que é quando a fila congestiona).
 
-**⚠️ Segurança:** o `.env` tem suas chaves reais em texto puro — nunca
-suba ele pro GitHub. Já deixei um `.gitignore` no projeto com `.env`
-listado nele, então o Git já ignora esse arquivo sozinho por padrão; mesmo
-assim, antes do primeiro `git push`, vale conferir com `git status` que o
-`.env` não aparece na lista de arquivos a serem enviados.
+**O repositório precisa ser público** pra ter minutos ilimitados de Actions —
+com o chat rodando a cada poucos minutos, um repositório privado estouraria o
+limite gratuito de 2.000 min/mês. É por isso que nada sensível entra em
+arquivo: chaves ficam em Secrets e a carteira só tem percentuais.
 
-**Testar no GitHub Actions (depois de configurar os secrets):**
+## A pilha 100% gratuita
 
-Aba **Actions** → workflow "Resumo de Mercado" → **Run workflow**. Se
-estiver tudo certo, as mensagens chegam no Telegram em menos de um minuto.
+1. **RSS + extração local** — os feeds das fontes (InfoMoney, Money Times,
+   Cointelegraph, Investing.com, Seeking Alpha, Agência Brasil, Fed de St.
+   Louis…) são gratuitos. Pra sites sem RSS (Bora Investir/B3, Clube FII,
+   Livecoins, IBGE…), o script descobre os links pelo sitemap com
+   `trafilatura` e extrai a data de cada artigo (notícia sem data ou fora da
+   janela de 36h é descartada). O texto COMPLETO das notícias escolhidas é
+   baixado e extraído localmente — sem API, sem custo.
+2. **Groq na camada gratuita** — modelos open-source rápidos, sem cartão de
+   crédito. ~8 chamadas por rodada do digest + 1 por mensagem de chat, muito
+   abaixo do limite gratuito.
+3. **Telegram Bot API, GitHub Actions e cron-job.org** — gratuitos.
+4. **brapi.dev** (plano gratuito, 15k req/mês) — cotações da B3: as posições
+   da carteira no chat e os rankings de altas/baixas do Radar.
+5. **APIs do Banco Central** (públicas, sem chave) — SGS pra Dólar PTAX e
+   Meta Selic (ancoram as respostas do chat em número oficial) e Olinda pro
+   Boletim Focus (projeções Selic/IPCA/câmbio/PIB como contexto do digest).
+6. **yfinance** (biblioteca, sem chave) — índices internacionais, cripto e
+   histórico de proventos no Radar. É fonte NÃO oficial (lê o Yahoo Finance)
+   e às vezes limita requisições vindas de datacenter; por isso tudo que
+   depende dela degrada graciosamente.
 
-Depois desse teste, ele roda sozinho todo dia útil às 8h (horário de
-Brasília) — pra isso, precisa mesmo dos secrets configurados no GitHub (o
-`.env` só serve pra teste no seu computador; a nuvem não tem acesso a ele).
-Pra mudar o horário, edite a linha `cron` em
-`.github/workflows/market-digest.yml` (o horário do cron é sempre em UTC).
+### Modelos da Groq: lista com fallback automático
 
-## Conversar com o bot sobre o digest do dia
+A Groq já descontinuou **três** modelos que usávamos, um atrás do outro
+(`openai/gpt-oss-120b` por bug de JSON, `moonshotai/kimi-k2-instruct` e
+`qwen/qwen3.6-27b` por descontinuação) — e cada vez o bot ficou mudo até
+alguém perceber (a última custou 7 dias de silêncio). Por isso o modelo não é
+mais um nome fixo: `GROQ_MODELS` é uma **lista ordenada de candidatos**
+(`qwen/qwen3.8-27b` → `llama-3.3-70b-versatile` → `openai/gpt-oss-120b`), e
+se um deixar de existir o código pula sozinho pro próximo. Se um dia TODOS
+falharem, confira os ativos em <https://console.groq.com/docs/models> e
+atualize a lista nos dois arquivos (`market_digest.py` e `chat_bot.py`).
 
-Além de mandar o digest, agora dá pra responder no Telegram com uma pergunta
-(tipo "aquela notícia sobre IPCA, o que isso muda pra renda fixa mesmo?")
-e o bot responde com base no que foi analisado no dia.
+### Medidas anti-alucinação (aprendidas com erros reais)
 
-**Limitação importante, de propósito:** isso roda como um job agendado que
-checa mensagem nova a cada 30 minutos — não é instantâneo como WhatsApp. Uma
-conversa em tempo real de verdade precisaria de um servidor sempre ligado,
-o que sairia do "100% gratuito, sem manutenção" que o projeto inteiro
-persegue. 30 minutos é o intervalo que cabe com folga no limite gratuito de
-minutos do GitHub Actions pra repositório privado — se você tornar o
-repositório **público** (o código não tem nada sensível, as chaves
-continuam protegidas como secret), o limite de minutos deixa de existir e
-dá pra reduzir esse intervalo bastante, editando o `cron` em
-`.github/workflows/chat.yml`.
+- **Data de hoje em todo prompt** — sem isso, o modelo tratava notícia de
+  2026 como "futuro hipotético", porque o treinamento dele tem corte anterior.
+- **Proibido afirmar direção de indicador** (juros americanos, petróleo,
+  dólar, Wall Street) que não esteja explícita no material — o modelo já
+  inverteu a direção dos Treasuries e do petróleo completando com o padrão
+  "clássico" que aprendeu. Agora, se o dado não está no material, a resposta
+  diz que não tem o dado.
+- **Números oficiais na frente do modelo** — BCB (SGS/Focus) e cotações
+  reais da brapi entram no prompt pra ele não "lembrar" números.
+- **Menções rasas presas ao resumo original** — notícia sem análise profunda
+  vira UMA frase baseada só no texto da fonte, nunca completada com suposição.
+- **`json_repair` + sem `response_format`** — o JSON do modelo é extraído e
+  reparado manualmente (o modo "JSON garantido" da Groq tem bug documentado
+  nos modelos gpt-oss).
+- **Honestidade sobre horário no Radar** — às 8h a B3 não abriu; a mensagem
+  diz explicitamente que as variações são do fechamento do último pregão.
 
-**Como funciona por baixo:** o `market_digest.py` agora salva um arquivo
-`ultimo_digest.json` no próprio repositório ao final de cada rodada, com
-tudo que foi analisado no dia. Um workflow novo, `chat.yml`, roda o
-`chat_bot.py` periodicamente: ele confere se chegou mensagem nova no
-Telegram, e se chegou, usa esse arquivo como contexto pra Groq responder.
+### Outras proteções
 
-**Não precisa fazer nada de configuração nova** — os arquivos usam os
-mesmos secrets que você já tem (`GROQ_API`, `API_BOT_TELEGRAM`,
-`TELEGRAM_ID`). Só suba os arquivos novos:
+- **Mensagens longas são divididas** em partes no limite de 4096 caracteres
+  do Telegram, quebrando em fronteira de parágrafo (nunca no meio de uma
+  linha/tag HTML), com marcador "(continuação N/M)".
+- **Dedup de notícias**: tudo que entra num digest fica registrado por link
+  E título normalizado em `noticias_enviadas.json` (retenção de 7 dias) — a
+  janela de 36h continua pegando notícia de fim de tarde sem repetir a de
+  ontem.
+- **Timeout em tudo** (feeds, APIs, Telegram) e `timeout-minutes` nos
+  workflows — nada trava pra sempre.
 
-```
-chat_bot.py
-ultimo_digest.json (esse é gerado sozinho na primeira rodada do market_digest.py — não precisa criar na mão)
-.github/workflows/chat.yml
-```
+## Configuração do zero
 
-E confirme que o `market_digest.py` e o `.github/workflows/market-digest.yml`
-também estão com a versão mais recente (o primeiro agora salva o digest, o
-segundo agora tem permissão pra commitar esse arquivo de volta no
-repositório — sem isso, o chat nunca teria dado com o que responder).
+### 1. Bot do Telegram
+No Telegram, fale com **@BotFather** → `/newbot` → guarde o token.
 
-## Ajustes que você provavelmente vai querer fazer
+### 2. Chat ID
+Mande "oi" pro seu bot e abra
+`https://api.telegram.org/bot<TOKEN>/getUpdates` no navegador — o número em
+`"chat":{"id":...}` é o seu chat ID. (Grupo tem ID negativo `-100...`; pra
+separar categorias por grupo, monte o JSON opcional do secret
+`TELEGRAM_CATEGORY_CHAT_IDS` mapeando nome da categoria → chat_id.)
 
-- **Sites sem RSS**: a lista `HTML_SOURCES` resolve o problema que apareceu
-  com o Bora Investir (a URL do "feed" baixava HTML, não XML — ou seja, o
-  site não expõe RSS de verdade). Em vez de precisar achar o link certo do
-  feed, o script usa duas técnicas do `trafilatura` pra descobrir notícias
-  recentes direto de uma página de listagem comum:
-  1. **Sitemap** — quase todo site tem um `sitemap.xml` (índice de páginas
-     pro Google indexar), mesmo sem ter RSS. O script procura esse sitemap
-     sozinho e tira os links de lá.
-  2. **Lista de links** — se não achar sitemap, trata a própria página como
-     uma lista de links e extrai as URLs de notícia dela.
+### 3. Chaves
+- **Groq**: [console.groq.com](https://console.groq.com) → API Keys (sem cartão).
+- **brapi**: [brapi.dev](https://brapi.dev) → cadastro gratuito → token.
 
-  Adicionei o Bora Investir (`https://borainvestir.b3.com.br/noticias/`)
-  como primeiro exemplo. Pra adicionar outro site sem RSS (tipo o que você
-  achar do BTG ou da XP), basta colocar a URL da página de listagem de
-  notícias dele em `HTML_SOURCES` — não precisa achar o link exato do feed,
-  só a página onde as notícias aparecem listadas.
+### 4. Secrets no GitHub
+**Settings → Secrets and variables → Actions**. Os nomes abaixo são os que
+os workflows deste repositório usam (⚠️ são nomes customizados — o `env:` dos
+workflows faz o mapeamento pros nomes que os scripts esperam):
 
-- **Feeds RSS**: a lista `RSS_FEEDS` em `market_digest.py` tem 8 fontes,
-  todas com URL completa e confirmada — nada truncado ou adivinhado por
-  padrão de site (foi assim que errei da última vez). Incluí duas
-  internacionais de peso (Investing.com e Seeking Alpha) pra reforçar a
-  categoria "Mercado Internacional".
+| Secret | O que é |
+|---|---|
+| `GROQ_API` | chave da Groq |
+| `API_BOT_TELEGRAM` | token do bot (@BotFather) |
+| `TELEGRAM_ID` | chat ID padrão (só o número) |
+| `BRAPI_TOKEN` | token da brapi (carteira no chat + rankings do Radar) |
+| `TELEGRAM_CATEGORY_CHAT_IDS` | opcional, JSON categoria → chat_id de grupo |
 
-  **Sobre B3, BTG e XP, que você perguntou:** pesquisei os três.
-  - **BTG Pactual**: não achei nenhum RSS público pro conteúdo de research
-    deles — bancos grandes geralmente não publicam feed aberto disso.
-  - **XP**: o hub de conteúdo (`conteudos.xpi.com.br`) não expõe RSS que eu
-    conseguisse confirmar, mas o podcast diário "Morning Call" tem feed
-    confirmado (`https://www.spreaker.com/show/3668124/episodes/feed`) — só
-    que é conteúdo de áudio, então a extração de texto completo do script
-    não rende muito nele (a descrição do episódio é curta). Não incluí por
-    esse motivo, mas fica a opção se você quiser testar.
-  - **B3**: tem um portal educacional próprio, o "Bora Investir"
-    (`borainvestir.b3.com.br`), que aparentemente tem RSS — mas a URL que
-    encontrei estava cortada demais pra eu confiar sem testar.
+### 5. cron-job.org
+Crie dois cronjobs com a configuração da seção de arquitetura acima: um pro
+`main.yml` (dias úteis de manhã) e um pro `chat.yml` (a cada ~2 min).
 
-  Candidatos que valem seu teste (achei referência de que existem, mas a
-  URL completa não veio clara o suficiente pra eu confiar sem verificar):
-  `borainvestir.b3.com.br` (B3), `braziljournal.com` (jornalismo de
-  negócios bem respeitado), `warren.com.br/magazine`,
-  `blog.toroinvestimentos.com.br`, `blog.genialinvestimentos.com.br`. Use o
-  teste de uma linha abaixo pra confirmar antes de adicionar.
+### 6. Carteira
+Edite `carteira.json`: `posicoes_b3` (ativos com ticker — ganham cotação
+real), `outras_posicoes` (LCA, debênture, fundo — sem cotação pública, mas o
+bot sabe que existem e conecta notícia relevante a eles, ex: IPCA → debênture
+IPCA+), `acompanhando` e `perfil`. **Só percentuais, nunca valores em R$** —
+o repositório é público.
 
-  Pra adicionar qualquer feed novo com confiança (sem depender de eu
-  adivinhar), teste assim antes de colocar na lista:
+### 7. Testar
+Aba **Actions** → "Resumo de Mercado" → **Run workflow**. Radar + categorias
+devem chegar no Telegram em 1–3 minutos. Pra testar local: copie suas chaves
+pra um `.env` (NUNCA commitá-lo) e rode `pip install -r requirements.txt &&
+python3 market_digest.py`.
 
+## Ajustes comuns
+
+- **Fontes**: `RSS_FEEDS` (feeds confirmados) e `HTML_SOURCES` (página de
+  listagem de sites sem RSS — o sitemap faz o resto) em `market_digest.py`.
+  Antes de adicionar um feed, confirme que funciona:
   ```bash
-  pip install feedparser
-  python3 -c "import feedparser; f = feedparser.parse('URL_AQUI'); print(len(f.entries), 'itens' if f.entries else f.get('bozo_exception', 'falhou'))"
+  python3 -c "import feedparser; f=feedparser.parse('URL'); print(len(f.entries), 'itens')"
   ```
+- **Categorias**: lista `CATEGORIES` — o `hint` é o que orienta a triagem.
+- **Profundidade**: `MAX_ITENS_PROFUNDOS_POR_CATEGORIA` (análise completa) e
+  `MAX_ITENS_RASOS_POR_CATEGORIA` (menção de uma frase).
+- **Radar**: `TOP_N`, `UNIVERSO_ACOES`/`UNIVERSO_FIIS` (filtro de liquidez —
+  sem ele o ranking vira micro-cap ilíquida que "subiu 40%" com três
+  negócios) e as listas `INDICES_MUNDO`/`CRIPTO` em `radar_mercado.py`.
+- **Horários**: nos cronjobs do cron-job.org (e nos `cron:` de backup dos
+  workflows, sempre em UTC).
 
-  Se aparecer um número de itens maior que zero, o feed funciona. Muitos
-  sites de notícia expõem o link do RSS no `<head>` da página com
-  `rel="alternate" type="application/rss+xml"` — dá pra achar isso vendo o
-  código-fonte da página no navegador (Ctrl+U) e procurando por "rss" ou
-  "feed".
-- **Categorias**: edite a lista `CATEGORIES` — o campo `hint` é o que
-  orienta a Groq a filtrar o que é relevante pra cada uma.
-- **Janela de tempo**: `JANELA_HORAS` controla quantas horas pra trás contam
-  como "recente" no pool de notícias (36h por padrão).
-- **Quantidade de notícias por categoria**: `MAX_ITENS_POR_CATEGORIA` (4 por
-  padrão) e `MAX_CHARS_POR_ARTIGO` (4000 por padrão, o quanto de cada artigo
-  entra no resumo) — suba esses números se quiser resumos mais completos,
-  ao custo de prompts maiores.
-- **Horário**: edite o `cron` em `.github/workflows/market-digest.yml`
-  (sempre em UTC).
+## Problemas conhecidos
 
-## Por que agora são 2 chamadas de Groq por categoria (e não 1)
-
-Antes, uma única chamada tentava filtrar E resumir ao mesmo tempo, só com o
-resuminho do RSS. Agora o processo é em duas etapas: uma triagem rápida
-(barata, só título e resuminho) decide o que é relevante, e só depois disso
-o script busca o artigo inteiro e manda pra Groq resumir com o texto
-completo. Isso evita baixar o texto de dezenas de notícias que nem vão ser
-usadas, e dá um resumo final bem mais rico do que o "clique aqui" de duas
-linhas que vem no RSS.
+- **Boletim Focus retornando 400** — a consulta OData na API Olinda do BCB
+  parou de aceitar nosso filtro; o digest segue sem esse contexto (degrada
+  graciosamente). Pendente de investigação.
+- **Fontes intermitentes** — livecoins.com.br e guiadobitcoin.com.br às vezes
+  dão timeout/526, e os sitemaps do Bora Investir/IBGE nem sempre trazem
+  conteúdo recente. Não derrubam a rodada, só reduzem o pool do dia.
+- **yfinance** pode ser limitado pelo Yahoo em IPs de datacenter — as seções
+  do Radar que dependem dele somem nesses dias e voltam sozinhas.
