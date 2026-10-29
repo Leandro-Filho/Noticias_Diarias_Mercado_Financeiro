@@ -286,37 +286,49 @@ def gera_planilha(carteira: dict) -> Workbook:
         c_val.number_format = FMT_REAIS
         c_val.font = AZUL_INPUT
 
-        # fator do índice (IPCA ou CDI acumulado) — buscado do BCB a cada geração
+        # fator do índice (IPCA ou CDI acumulado) — buscado do BCB a cada
+        # geração; se o BCB estiver fora do ar, cai pra 1,0 COM AVISO no
+        # comentário, em vez de derrubar a planilha inteira
         c_fator = ws_rf.cell(row=linha, column=7)
         c_fator.font = AZUL_INPUT
         c_fator.number_format = FMT_FATOR
         if indexador == "ipca+":
-            fator, ate = fator_ipca_acumulado(aplic)
+            try:
+                fator, ate = fator_ipca_acumulado(aplic)
+                nota_fator = (
+                    f"IPCA acumulado desde a aplicação (meses fechados até {ate}), série SGS "
+                    f"{SGS_IPCA_MENSAL} do BCB. O mês corrente entra quando o IBGE publica."
+                )
+            except Exception as exc:
+                print(f"IPCA indisponível pra {pos['nome']} ({exc}) — usando fator 1.")
+                fator, nota_fator = 1.0, "⚠️ BCB indisponível nesta geração — fator SEM a correção do IPCA."
             c_fator.value = fator
-            c_fator.comment = Comment(
-                f"IPCA acumulado desde a aplicação (meses fechados até {ate}), série SGS "
-                f"{SGS_IPCA_MENSAL} do BCB. O mês corrente entra quando o IBGE publica.",
-                "carteira_excel.py",
-            )
+            c_fator.comment = Comment(nota_fator, "carteira_excel.py")
         elif indexador == "cdi":
-            fator, ate = fator_cdi_acumulado(aplic, pos.get("percentual_cdi", 100))
+            try:
+                fator, ate = fator_cdi_acumulado(aplic, pos.get("percentual_cdi", 100))
+                nota_fator = (
+                    f"CDI acumulado × percentual contratado, dias úteis até {ate}, série SGS "
+                    f"{SGS_CDI_DIARIO} do BCB. Atualiza a cada geração da planilha."
+                )
+            except Exception as exc:
+                print(f"CDI indisponível pra {pos['nome']} ({exc}) — usando fator 1.")
+                fator, nota_fator = 1.0, "⚠️ BCB indisponível nesta geração — fator SEM o acúmulo do CDI."
             c_fator.value = fator
-            c_fator.comment = Comment(
-                f"CDI acumulado × percentual contratado, dias úteis até {ate}, série SGS "
-                f"{SGS_CDI_DIARIO} do BCB. Atualiza a cada geração da planilha.",
-                "carteira_excel.py",
-            )
+            c_fator.comment = Comment(nota_fator, "carteira_excel.py")
         else:
             c_fator.value = 1.0
             c_fator.comment = Comment("Prefixado não usa índice — fator fixo em 1.", "carteira_excel.py")
 
         # dias úteis e valor atual: FÓRMULAS com HOJE() — o arquivo continua
-        # acruando o componente prefixado mesmo dias depois de gerado
-        c_du = ws_rf.cell(row=linha, column=8, value=f"=NETWORKDAYS(D{linha},TODAY())")
+        # acruando o componente prefixado mesmo dias depois de gerado.
+        # O -1 faz o dia da aplicação contar como dia zero (sem rendimento).
+        c_du = ws_rf.cell(row=linha, column=8, value=f"=NETWORKDAYS(D{linha},TODAY())-1")
         c_du.font = PRETO_FORMULA
         c_du.comment = Comment(
-            "Dias úteis (seg-sex) da aplicação até hoje. Aproximação: não desconta "
-            "feriados — pequena diferença frente à convenção DU/252 oficial.",
+            "Dias úteis (seg-sex) da aplicação até hoje, com o dia da aplicação valendo "
+            "zero. Aproximação: não desconta feriados — pequena diferença frente à "
+            "convenção DU/252 oficial.",
             "carteira_excel.py",
         )
 
@@ -370,12 +382,16 @@ def gera_planilha(carteira: dict) -> Workbook:
             c_var = ws_rv.cell(row=linha, column=5, value=(q["variacao"] or 0) / 100)
             c_var.number_format = FMT_PCT
             c_var.font = AZUL_INPUT
-        c_pos = ws_rv.cell(row=linha, column=6, value=f"=B{linha}*D{linha}")
+        # ISNUMBER protege contra cotação indisponível (texto na célula D):
+        # sem isso, um dia de API fora do ar viraria #VALUE! em cascata
+        c_pos = ws_rv.cell(
+            row=linha, column=6, value=f"=IF(ISNUMBER(D{linha}),B{linha}*D{linha},0)"
+        )
         c_pos.number_format = FMT_REAIS
         c_pos.font = PRETO_FORMULA
         c_res = ws_rv.cell(
             row=linha, column=7,
-            value=f'=IF(C{linha}="",0,(D{linha}-C{linha})*B{linha})',
+            value=f"=IF(AND(ISNUMBER(C{linha}),ISNUMBER(D{linha})),(D{linha}-C{linha})*B{linha},0)",
         )
         c_res.number_format = FMT_REAIS
         c_res.font = PRETO_FORMULA
@@ -421,7 +437,10 @@ def gera_planilha(carteira: dict) -> Workbook:
             c_12.font = AZUL_INPUT
             c_dy = ws_pv.cell(
                 row=linha, column=7,
-                value=f"=IF('Renda Variável'!D{linha}=0,0,F{linha}/'Renda Variável'!D{linha})",
+                value=(
+                    f"=IF(AND(ISNUMBER('Renda Variável'!D{linha}),'Renda Variável'!D{linha}>0),"
+                    f"F{linha}/'Renda Variável'!D{linha},0)"
+                ),
             )
             c_dy.number_format = FMT_PCT
             c_dy.font = VERDE_LINK
