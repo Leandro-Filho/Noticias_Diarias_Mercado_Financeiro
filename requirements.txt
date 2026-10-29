@@ -4,3 +4,5 @@ trafilatura>=1.9.0
 python-dotenv>=1.0.0
 openai>=1.0.0
 json_repair>=0.30.0
+yfinance>=0.2.40
+ 

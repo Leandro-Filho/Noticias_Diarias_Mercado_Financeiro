@@ -100,6 +100,11 @@ def monta_contexto_digest(digest: dict) -> str:
     if not itens:
         return "Nenhuma notícia no digest de hoje ainda."
     blocos = []
+    # radar da manhã (altas/baixas da B3, índices mundiais, cripto, proventos)
+    # — permite responder "o que mais subiu hoje?" com os números reais
+    radar = digest.get("radar")
+    if radar:
+        blocos.append(f"Radar do mercado enviado hoje de manhã:\n{radar}")
     for it in itens:
         nums = it.get("key_numbers") or []
         linha_nums = f"  Números: {' · '.join(nums)}\n" if nums else ""
@@ -360,14 +365,45 @@ Regras importantes:
     return call_groq_text(prompt, max_tokens=1000, temperature=0.3)
 
 
+TELEGRAM_LIMITE_CHARS = 4096
+
+
+def dividir_mensagem(texto: str, limite: int = TELEGRAM_LIMITE_CHARS) -> list[str]:
+    """Versão simplificada (texto puro, sem HTML) da divisão que o
+    market_digest.py faz: em vez de cortar a resposta em 4096 caracteres no
+    meio de uma palavra, quebra em parágrafos e manda em várias mensagens."""
+    if len(texto) <= limite:
+        return [texto]
+    limite_util = limite - 32  # margem pro "(continuação)"
+    partes, atual = [], ""
+    for bloco in texto.split("\n\n"):
+        while len(bloco) > limite_util:  # parágrafo gigante: corte duro
+            if atual:
+                partes.append(atual)
+                atual = ""
+            partes.append(bloco[:limite_util])
+            bloco = bloco[limite_util:]
+        candidato = f"{atual}\n\n{bloco}" if atual else bloco
+        if len(candidato) <= limite_util:
+            atual = candidato
+        else:
+            partes.append(atual)
+            atual = bloco
+    if atual:
+        partes.append(atual)
+    return [p if i == 0 else f"(continuação)\n\n{p}" for i, p in enumerate(partes)]
+
+
 def envia_telegram(chat_id: str, texto: str) -> None:
-    resp = requests.post(
-        f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
-        json={"chat_id": chat_id, "text": texto[:4096]},
-        timeout=30,
-    )
-    if not resp.ok:
-        print(f"Erro ao enviar resposta pro chat {chat_id}:", resp.text)
+    for parte in dividir_mensagem(texto):
+        resp = requests.post(
+            f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+            json={"chat_id": chat_id, "text": parte},
+            timeout=30,
+        )
+        if not resp.ok:
+            print(f"Erro ao enviar resposta pro chat {chat_id}:", resp.text)
+        time.sleep(1)
 
 
 def main() -> None:

@@ -382,6 +382,68 @@ def fetch_pool() -> list[dict]:
     return pool
 
 
+# ------------------------------------------------- Notícias já enviadas (dedup)
+
+# O problema: a janela de 36h (necessária pra não perder notícia entre um dia
+# e outro) faz a MESMA notícia aparecer em dois digests seguidos. Em vez de
+# encolher a janela (e voltar a perder notícia de fim de tarde), guardamos o
+# link e o título de tudo que já foi enviado num arquivo do repositório —
+# o workflow commita ele de volta, igual já faz com o ultimo_digest.json —
+# e filtramos o pool contra esse arquivo logo no começo.
+ENVIADAS_PATH = "noticias_enviadas.json"
+RETENCAO_ENVIADAS_DIAS = 7  # mais que isso é inútil: a janela do pool é de 36h
+
+
+def _normaliza_titulo(titulo: str) -> str:
+    """Mesma notícia republicada costuma trocar a URL mas manter o título —
+    por isso deduplicamos pelos dois. Normaliza espaços e caixa pra comparar."""
+    return " ".join((titulo or "").lower().split())
+
+
+def carrega_enviadas() -> dict:
+    try:
+        with open(ENVIADAS_PATH, encoding="utf-8") as f:
+            dados = json.load(f)
+        return dados if isinstance(dados, dict) else {}
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def filtra_ja_enviadas(pool: list[dict], enviadas: dict) -> list[dict]:
+    links = enviadas.get("links", {})
+    titulos = enviadas.get("titulos", {})
+    filtrado, repetidas = [], 0
+    for item in pool:
+        if item["link"] in links or _normaliza_titulo(item["title"]) in titulos:
+            repetidas += 1
+            continue
+        filtrado.append(item)
+    if repetidas:
+        print(f"{repetidas} notícia(s) já enviada(s) em digest anterior — removidas do pool.")
+    return filtrado
+
+
+def registra_enviadas(enviadas: dict, itens_enviados: list[dict]) -> None:
+    """Marca os itens que ENTRARAM no digest de hoje (profundos e rasos) como
+    enviados e poda registros velhos, pro arquivo não crescer pra sempre."""
+    hoje = datetime.now(timezone.utc).date().isoformat()
+    links = enviadas.setdefault("links", {})
+    titulos = enviadas.setdefault("titulos", {})
+    for item in itens_enviados:
+        if item.get("link"):
+            links[item["link"]] = hoje
+        if item.get("title"):
+            titulos[_normaliza_titulo(item["title"])] = hoje
+
+    corte = (datetime.now(timezone.utc) - timedelta(days=RETENCAO_ENVIADAS_DIAS)).date().isoformat()
+    enviadas["links"] = {k: v for k, v in links.items() if v >= corte}
+    enviadas["titulos"] = {k: v for k, v in titulos.items() if v >= corte}
+
+    with open(ENVIADAS_PATH, "w", encoding="utf-8") as f:
+        json.dump(enviadas, f, ensure_ascii=False, indent=2)
+    print(f"Salvo {ENVIADAS_PATH} com {len(enviadas['links'])} links na memória de dedup.")
+
+
 # --------------------------------------------------------------------- Groq
 
 def _modelo_indisponivel(exc: Exception) -> bool:
@@ -657,20 +719,76 @@ def format_category_message(cat: dict, items: list[dict], linhas_rasas: list[str
     return "\n".join(lines)
 
 
+# Limite oficial do Telegram por mensagem. Antes a gente cortava em
+# text[:4096] — o que literalmente amputava a mensagem no meio de uma
+# palavra quando a categoria tinha muita notícia. Agora dividimos em várias
+# mensagens, quebrando em fronteira de parágrafo (nunca no meio de uma
+# linha), o que também garante que nenhuma tag HTML fica aberta — todas as
+# tags que esse script gera (<b>, <i>) abrem e fecham na MESMA linha.
+TELEGRAM_LIMITE_CHARS = 4096
+_MARGEM_CONTINUACAO = 64  # espaço reservado pro cabeçalho "(continuação N/M)"
+
+
+def dividir_mensagem(text: str, limite: int = TELEGRAM_LIMITE_CHARS) -> list[str]:
+    if len(text) <= limite:
+        return [text]
+
+    limite_util = limite - _MARGEM_CONTINUACAO
+    partes: list[str] = []
+    atual = ""
+
+    def fecha_parte():
+        nonlocal atual
+        if atual:
+            partes.append(atual)
+            atual = ""
+
+    for bloco in text.split("\n\n"):
+        # bloco sozinho maior que o limite (raro, mas possível com uma análise
+        # muito longa): corta na última quebra de LINHA que couber, nunca no
+        # meio de uma linha — isso preservaria tags HTML abertas
+        if len(bloco) > limite_util:
+            fecha_parte()
+            while len(bloco) > limite_util:
+                corte = bloco.rfind("\n", 0, limite_util)
+                if corte <= 0:
+                    corte = limite_util  # linha única gigante: corte duro, último recurso
+                partes.append(bloco[:corte])
+                bloco = bloco[corte:].lstrip("\n")
+
+        candidato = f"{atual}\n\n{bloco}" if atual else bloco
+        if len(candidato) <= limite_util:
+            atual = candidato
+        else:
+            fecha_parte()
+            atual = bloco
+    fecha_parte()
+
+    if len(partes) > 1:
+        total = len(partes)
+        partes = [
+            parte if i == 0 else f"↪️ <i>(continuação {i + 1}/{total})</i>\n\n{parte}"
+            for i, parte in enumerate(partes)
+        ]
+    return partes
+
+
 def send_telegram(chat_id: str, text: str) -> None:
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    resp = requests.post(
-        url,
-        json={
-            "chat_id": chat_id,
-            "text": text[:4096],
-            "parse_mode": "HTML",
-            "disable_web_page_preview": True,
-        },
-        timeout=30,
-    )
-    if not resp.ok:
-        print(f"Erro ao enviar mensagem pro chat {chat_id}:", resp.text)
+    for parte in dividir_mensagem(text):
+        resp = requests.post(
+            url,
+            json={
+                "chat_id": chat_id,
+                "text": parte,
+                "parse_mode": "HTML",
+                "disable_web_page_preview": True,
+            },
+            timeout=30,
+        )
+        if not resp.ok:
+            print(f"Erro ao enviar mensagem pro chat {chat_id}:", resp.text)
+        time.sleep(1)  # respeita o rate limit do Telegram entre as partes
 
 
 def resolve_chat_id(category_name: str) -> str | None:
@@ -685,11 +803,32 @@ def main() -> None:
     contexto_macro = fetch_boletim_focus()
     print("Boletim Focus:", "OK" if contexto_macro else "indisponível, seguindo sem esse contexto")
 
+    # Radar do Mercado (altas/baixas da B3, índices mundiais, cripto e
+    # proventos da carteira) — mensagem separada, enviada ANTES das
+    # categorias. Se qualquer parte falhar (yfinance bloqueado, brapi fora),
+    # o digest segue normalmente sem o radar.
+    radar_texto = ""
+    try:
+        from radar_mercado import monta_radar, radar_sem_html
+
+        radar_texto = monta_radar()
+    except Exception as exc:
+        print(f"Radar do mercado falhou ({exc}) — seguindo sem ele.")
+    if radar_texto and DEFAULT_CHAT_ID:
+        send_telegram(DEFAULT_CHAT_ID, radar_texto)
+        time.sleep(2)
+
     pool = fetch_pool()
     pool += fetch_pool_from_html_sources(full_text_cache)  # sites sem RSS, ex: Bora Investir
     print(f"{len(pool)} notícias no pool (últimas {JANELA_HORAS}h, {len(RSS_FEEDS)} feeds RSS + {len(HTML_SOURCES)} sites sem RSS).")
+
+    # remove o que já foi enviado em digest anterior (a janela de 36h faz a
+    # mesma notícia aparecer dois dias seguidos sem esse filtro)
+    enviadas = carrega_enviadas()
+    pool = filtra_ja_enviadas(pool, enviadas)
+
     if not pool:
-        print("Pool vazio, nada a fazer hoje.")
+        print("Pool vazio (ou só notícia repetida), nada a fazer hoje.")
         return
 
     pool_by_link = {item["link"]: item for item in pool}
@@ -777,7 +916,17 @@ def main() -> None:
         send_telegram(chat_id, message)
         time.sleep(2)
 
-    salvar_digest_do_dia(selecao_por_categoria, analises_por_indice, rasos_por_categoria, de_olho_por_categoria)
+    # marca tudo que entrou no digest de hoje (análises profundas E menções
+    # rasas) como "já enviado", pra não repetir amanhã
+    indices_enviados = set()
+    for idxs in selecao_por_categoria.values():
+        indices_enviados.update(idxs)
+    registra_enviadas(enviadas, [pool[i] for i in sorted(indices_enviados)])
+
+    radar_para_digest = radar_sem_html(radar_texto) if radar_texto else ""
+    salvar_digest_do_dia(
+        selecao_por_categoria, analises_por_indice, rasos_por_categoria, de_olho_por_categoria, radar_para_digest
+    )
 
 
 def salvar_digest_do_dia(
@@ -785,6 +934,7 @@ def salvar_digest_do_dia(
     analises_por_indice: dict[int, dict],
     rasos_por_categoria: dict[str, list[str]],
     de_olho_por_categoria: dict[str, str],
+    radar: str = "",
 ) -> None:
     """Grava o digest de hoje num arquivo do próprio repositório, pro
     chat_bot.py conseguir responder pergunta com base nisso depois —
@@ -819,6 +969,9 @@ def salvar_digest_do_dia(
                 "itens": itens,
                 "outras_noticias_por_categoria": rasos_por_categoria,
                 "de_olho_por_categoria": de_olho_por_categoria,
+                # texto do radar (sem HTML) — permite o chat_bot responder
+                # "o que mais subiu hoje?" com os mesmos números da manhã
+                "radar": radar,
             },
             f,
             ensure_ascii=False,
