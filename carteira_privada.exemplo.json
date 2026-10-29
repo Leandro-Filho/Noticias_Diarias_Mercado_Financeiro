@@ -1,0 +1,51 @@
+{
+  "_instrucoes": [
+    "NÃO preencha este arquivo com seus valores reais — ele está num repositório PÚBLICO.",
+    "Copie este JSON, preencha com seus dados, e cole TUDO num GitHub Secret chamado CARTEIRA_PRIVADA",
+    "(Settings → Secrets and variables → Actions → New repository secret).",
+    "O workflow lê esse secret, gera o carteira.xlsx do dia e manda no seu Telegram privado — nada disso é commitado.",
+    "",
+    "Campos de renda_fixa:",
+    "  indexador: 'prefixado' (usa taxa_aa), 'ipca+' (usa taxa_aa como spread acima do IPCA)",
+    "             ou 'cdi' (usa percentual_cdi, ex: 105 = 105% do CDI)",
+    "  taxa_aa: taxa anual contratada, em % (ex: 12.5)",
+    "  datas no formato AAAA-MM-DD",
+    "Campos de renda_variavel:",
+    "  preco_medio é opcional — com ele a planilha mostra seu resultado (lucro/prejuízo)"
+  ],
+
+  "renda_fixa": [
+    {
+      "nome": "LCA Banco Exemplo",
+      "indexador": "prefixado",
+      "taxa_aa": 12.5,
+      "data_aplicacao": "2026-03-10",
+      "vencimento": "2027-03-10",
+      "valor_aplicado": 10000.00
+    },
+    {
+      "nome": "Debênture Exemplo (XXXX12)",
+      "indexador": "ipca+",
+      "taxa_aa": 7.2,
+      "data_aplicacao": "2026-05-04",
+      "vencimento": "2031-05-04",
+      "valor_aplicado": 10000.00
+    },
+    {
+      "nome": "Fundo de crédito Exemplo",
+      "indexador": "cdi",
+      "percentual_cdi": 105,
+      "data_aplicacao": "2026-09-21",
+      "vencimento": null,
+      "valor_aplicado": 2000.00
+    }
+  ],
+
+  "renda_variavel": [
+    {
+      "ticker": "HGLG11",
+      "quantidade": 60,
+      "preco_medio": 158.00
+    }
+  ]
+}

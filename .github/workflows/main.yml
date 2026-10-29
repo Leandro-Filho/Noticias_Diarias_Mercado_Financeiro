@@ -40,3 +40,16 @@ jobs:
           git add ultimo_digest.json noticias_enviadas.json
           git diff --staged --quiet || git commit -m "Atualiza digest do dia"
           git push
+
+      # Planilha da carteira: gerada com os dados PRIVADOS do secret
+      # CARTEIRA_PRIVADA e enviada direto pro Telegram — nunca commitada
+      # (o repositório é público). Se falhar, não derruba o digest.
+      - name: Gerar e enviar carteira.xlsx no Telegram
+        if: always()
+        continue-on-error: true
+        run: python carteira_excel.py
+        env:
+          CARTEIRA_PRIVADA: ${{ secrets.CARTEIRA_PRIVADA }}
+          BRAPI_TOKEN: ${{ secrets.BRAPI_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.API_BOT_TELEGRAM }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_ID }}

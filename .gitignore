@@ -1,5 +1,9 @@
-.venv
-/.venv
-
+# Chaves e dados privados — NUNCA commitá-los (o repositório é público)
 .env
-/.env
+carteira_privada.json
+carteira.xlsx
+carteira_*.xlsx
+
+__pycache__/
+*.pyc
+.venv/

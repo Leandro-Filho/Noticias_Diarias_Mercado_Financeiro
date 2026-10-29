@@ -658,6 +658,78 @@ Responda SOMENTE com um JSON no formato exato:
     return call_groq_json(prompt, max_tokens=700)
 
 
+def alerta_carteira(analises: list[dict]) -> list[str]:
+    """Cruza as notícias analisadas hoje com as posições do carteira.json
+    (o arquivo PÚBLICO, que só tem nomes/indexadores/percentuais — nenhum
+    valor em R$) e devolve linhas de alerta quando alguma posição pode ser
+    afetada. 1 chamada extra à Groq, com regra estrita: só apontar relação
+    que esteja explícita no material — melhor nenhum alerta que alerta
+    inventado."""
+    if not analises:
+        return []
+    try:
+        with open("carteira.json", encoding="utf-8") as f:
+            carteira = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+    posicoes = []
+    for p in carteira.get("posicoes_b3", []):
+        posicoes.append(f"- {p.get('ticker')} ({p.get('tipo', '')}; {p.get('nota', '')})")
+    for p in carteira.get("outras_posicoes", []):
+        partes = [p.get("nome", "")]
+        if p.get("tipo"):
+            partes.append(p["tipo"])
+        if p.get("indexador"):
+            partes.append(f"indexado a {p['indexador']}")
+        posicoes.append("- " + ", ".join(partes))
+    if not posicoes:
+        return []
+
+    noticias = "\n".join(
+        f"{i}. {a.get('title')} — {a.get('resumo')} Implicação: {a.get('implicacao')}"
+        for i, a in enumerate(analises)
+    )
+
+    prompt = f"""{aviso_data()}
+
+Posições da carteira da pessoa:
+{chr(10).join(posicoes)}
+
+Notícias analisadas hoje (numeradas):
+{noticias}
+
+Pra cada posição que alguma notícia de hoje possa afetar DIRETAMENTE (mesmo
+emissor/ticker, mesmo indexador — ex: notícia de IPCA afeta posição indexada
+a IPCA —, mesmo setor da posição), devolva um alerta de UMA frase explicando
+a ligação. REGRAS CRÍTICAS: só aponte ligação que esteja explícita no texto
+das notícias acima — não invente efeito, número nem direção; não recomende
+comprar nem vender nada; se nenhuma notícia tiver ligação clara com nenhuma
+posição, devolva a lista vazia (isso é uma resposta boa, não uma falha).
+
+Responda SOMENTE com um JSON no formato exato:
+{{"alertas": [{{"posicao": "HGLG11", "noticia": 2, "motivo": "uma frase"}}]}}"""
+
+    try:
+        resultado = call_groq_json(prompt, max_tokens=500)
+    except Exception as exc:
+        print(f"Alerta de carteira falhou ({exc}) — seguindo sem ele.")
+        return []
+
+    linhas = []
+    for alerta in resultado.get("alertas", []):
+        idx = alerta.get("noticia")
+        titulo = ""
+        if isinstance(idx, int) and 0 <= idx < len(analises):
+            titulo = analises[idx].get("title") or ""
+        motivo = alerta.get("motivo", "")
+        posicao = alerta.get("posicao", "")
+        if posicao and motivo:
+            sufixo = f" (notícia: {titulo})" if titulo else ""
+            linhas.append(f"• <b>{escape_html(posicao)}</b>: {escape_html(motivo)}{escape_html(sufixo)}")
+    return linhas
+
+
 # -------------------------------------------------------------- Texto completo
 
 def fetch_full_text(url: str) -> str | None:
@@ -915,6 +987,17 @@ def main() -> None:
 
         send_telegram(chat_id, message)
         time.sleep(2)
+
+    # cruza as notícias de hoje com as posições da carteira e avisa se
+    # alguma pode ser afetada — só manda mensagem se houver alerta real
+    if DEFAULT_CHAT_ID:
+        linhas_alerta = alerta_carteira(list(analises_por_indice.values()))
+        if linhas_alerta:
+            send_telegram(
+                DEFAULT_CHAT_ID,
+                "🎯 <b>Sua carteira no noticiário de hoje</b>\n\n" + "\n".join(linhas_alerta),
+            )
+            time.sleep(2)
 
     # marca tudo que entrou no digest de hoje (análises profundas E menções
     # rasas) como "já enviado", pra não repetir amanhã
