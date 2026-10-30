@@ -1,237 +1,187 @@
 {
-  "gerado_em": "2026-10-30T11:17:11.109529+00:00",
+  "gerado_em": "2026-10-30T17:09:24.704693+00:00",
   "itens": [
     {
-      "title": "Semana dos mercados termina com PNAD, reação a balanços e bitcoin (BTC) em queda; Ibovespa em dólar recua nesta sexta-feira (30)",
+      "title": "BTG (BPAC11) sofre corte de recomendação e preço-alvo pelo Itaú BBA, e ação sente",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/semana-dos-mercados-termina-com-pnad-reacao-a-balancos-e-bitcoin-btc-em-queda-ibovespa-em-dolar-cai-nesta-sexta-feira-30-rens/",
+      "link": "https://www.moneytimes.com.br/btg-bpac11-sofre-corte-de-recomendacao-e-preco-alvo-pelo-itau-bba-e-acao-sente/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O mercado brasileiro fecha a semana em queda, pressionado pela forte retração no lucro da Vale e pela deterioração das expectativas de juros, enquanto o setor de criptomoedas sofre com o maior ataque hacker da história na Binance.",
-      "mecanismo": "A queda de 53% no lucro da Vale gera pressão vendedora sobre o Ibovespa, que já vinha em sequência de perdas devido à incerteza sobre o plano econômico do governo e a trajetória de juros; simultaneamente, o hackeamento de US$ 6 bilhões na Binance, apesar da promessa de cobertura, quebrou suportes técnicos do Bitcoin e derrubou o sentimento de risco global, refletido na queda dos futuros de Wall Street.",
-      "implicacao": "Com a deterioração das expectativas de juros e a aversão a risco global, o setor de commodities e grandes blue chips brasileiros tende a continuar sob pressão, enquanto a classe de ativos criptomoedas enfrenta volatilidade extrema e possível desalavancagem, já que a confiança institucional foi abalada pelo ataque cibernético.",
-      "risco": "A promessa da Binance de cobrir integralmente os prejuízos e o congelamento rápido dos ativos por emissores de stablecoins podem limitar a contaminação do sistema financeiro e evitar uma queda mais acentuada do Bitcoin.",
-      "proximo_evento": "Publicação da PNAD Contínua com dados de desemprego do trimestre encerrado em setembro e a teleconferência de resultados da Vale para explicar a queda no lucro.",
+      "resumo": "O Itaú BBA rebaixou a recomendação das units do BTG Pactual para neutro e cortou o preço-alvo para 2027, citando múltiplos de valuation já elevados e um cenário macroeconômico mais desafiador para o próximo ano.",
+      "mecanismo": "A combinação de juros e inflação elevados por mais tempo deve reduzir o volume de operações no mercado de capitais e a expansão dos ativos sob gestão, o que, somado a uma maior exposição ao crédito (38% das receitas), limita o espaço para valorização adicional e justifica o aumento do custo de capital próprio exigido pelos analistas.",
+      "implicacao": "Com a desaceleração esperada no crescimento das receitas de banco de investimento e gestão de patrimônio, o setor de bancos de investimento tende a enfrentar pressão sobre seus múltiplos, já que a qualidade operacional já está precificada e o risco de crédito corporativo e consumidor aumenta em um ambiente de juros altos.",
+      "risco": "O cenário de estagnação pode ser invalidado se a atividade econômica se recuperar mais rápido que o esperado ou se a inadimplência permanecer controlada, permitindo que o banco mantenha sua trajetória de crescimento de lucros acima do projetado.",
+      "proximo_evento": "Divulgação dos resultados trimestrais do BTG Pactual e a próxima reunião do Copom para definição da taxa Selic.",
       "key_numbers": [
-        "Ibovespa: 169.186,42 pontos",
-        "Bitcoin: US$ 77.590,78",
-        "Prejuízo Binance: US$ 6 bilhões",
-        "Lucro Vale: -53%"
+        "Preço-alvo 2027: R$ 60",
+        "Queda intradiária: 4,48%",
+        "Receita projetada 2027: R$ 49 bilhões",
+        "Participação do crédito nas receitas: 38%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Bolsas da Ásia fecham majoritariamente em baixa com techs pressionadas por tombo da Alphabet",
+      "title": "Wall Street abre última sessão da semana em queda em reação aos balanços de tecnologia",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-majoritariamente-em-baixa-com-techs-pressionadas-por-tombo-da-alphabet-fets/",
+      "link": "https://www.moneytimes.com.br/bolsa-eua-abertura-30102026-davs/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "As bolsas asiáticas encerraram a sessão em queda generalizada, lideradas por perdas no setor de tecnologia, após a Alphabet registrar uma forte desvalorização de mercado nos EUA devido a resultados trimestrais que frustraram as expectativas de monetização da inteligência artificial.",
-      "mecanismo": "A desaceleração no crescimento da receita de buscas da Alphabet, atribuída ao menor potencial de monetização das pesquisas com IA, gerou uma reavaliação negativa sobre a rentabilidade das 'hyperscalers', o que provocou uma rotação de capital para fora do setor de tecnologia global, pressionando diretamente as ações de semicondutores e techs na Ásia.",
-      "implicacao": "Com a perda de fôlego na narrativa de monetização da IA, o setor de semicondutores e hardware tende a enfrentar pressão de múltiplos, já que o mercado passa a exigir comprovação de geração de caixa e lucratividade, em vez de apenas crescimento de receita, o que pode levar a uma correção mais ampla em ativos de alta beta.",
-      "risco": "A tese de aversão ao risco pode ser invalidada se as próximas divulgações de balanços do setor mostrarem que a margem de lucro e a demanda por infraestrutura de IA continuam robustas, indicando que o problema da Alphabet foi pontual e não estrutural.",
-      "proximo_evento": "Divulgação dos resultados trimestrais de outras grandes empresas de tecnologia e semicondutores (como Nvidia, Microsoft e TSMC) para verificar se a pressão sobre a rentabilidade da IA é um fenômeno isolado ou setorial.",
+      "resumo": "As bolsas americanas iniciaram a sexta-feira em queda, com o Nasdaq liderando as perdas, após a Amazon e a Intel divulgarem resultados trimestrais abaixo das expectativas do mercado.",
+      "mecanismo": "Os balanços da Amazon e da Intel vieram abaixo do consenso, com a Amazon mostrando lucro menor que o previsto e a Intel projetando receita para o próximo trimestre inferior às estimativas devido à fraqueza nas vendas de PCs; isso reacendeu o temor de que os custos elevados de infraestrutura de IA estejam corroendo as margens das big techs, provocando uma rotação de capital do setor de tecnologia para ativos defensivos.",
+      "implicacao": "Com o aumento da percepção de risco sobre a sustentabilidade dos lucros das empresas de tecnologia devido aos custos de IA, o setor de tecnologia tende a sofrer pressão de vendas, enquanto setores defensivos e de valor podem se beneficiar da busca por segurança patrimonial pelos investidores.",
+      "risco": "A queda pode ser vista como oportunidade de compra se as próximas divulgações de balanços do setor mostrarem que os custos de IA estão sendo absorvidos sem comprometer o crescimento de receita, revertendo a narrativa de deterioração fundamental.",
+      "proximo_evento": "Divulgação dos balanços de outras grandes empresas de tecnologia (como Microsoft, Apple ou Meta) e novos dados macroeconômicos dos EUA que possam confirmar ou refutar a tese de desaceleração no setor.",
       "key_numbers": [
-        "Queda Kospi: 3,48%",
-        "Queda Nikkei: 2,12%",
-        "Queda Xangai Composto: 1,44%",
-        "Taxa Boj: 1,25%"
+        "Nasdaq: -2,19%",
+        "S&P 500: -1,21%",
+        "Dow Jones: -0,39%",
+        "Receita projetada Intel 4T26: US$ 15-16 bilhões"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Tempo real: Ibovespa encerra semana pós-eleições de olho em novos dados do mercado de trabalho",
+      "title": "Ibovespa mantém ritmo de perdas e cai 1% com incertezas locais e exterior; 5 coisas para saber antes de investir hoje (30)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/tempo-real-30-10-26-lils/",
+      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-30-10-26-lils/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa encerrou a semana pós-eleições em queda, refletindo ajustes de portfólio e a reação negativa ao forte recuo no lucro da Vale, enquanto o mercado aguarda dados de emprego e a decisão de juros do Japão.",
-      "mecanismo": "A frustração com a receita da Alphabet e a queda de 53% no lucro da Vale pressionaram os índices globais e setoriais, levando a uma rotação de ativos para fora de tecnologia e commodities; simultaneamente, a expectativa de dados de trabalho (PNAD) e a decisão do Banco do Japão criam incerteza que inibe novas entradas de capital de risco no curto prazo.",
-      "implicacao": "Com a pressão sobre as commodities e a cautela global, o setor de mineração e siderurgia tende a enfrentar volatilidade e desvalorização no curto prazo, já que a queda no lucro da Vale sinaliza possível enfraquecimento da demanda ou margens, enquanto a decisão do BoJ pode impactar o fluxo de capitais para mercados emergentes.",
-      "risco": "Uma surpresa positiva nos dados de emprego brasileiro ou uma decisão de juros do Japão mais dovista do que o esperado poderia reverter a aversão ao risco e sustentar a recuperação dos índices.",
-      "proximo_evento": "Divulgação dos dados da PNAD Contínua e a decisão de política monetária do Banco do Japão (BoJ) na sexta-feira (30).",
+      "resumo": "O Ibovespa acumula a quinta queda consecutiva, pressionado por incertezas políticas locais e pelo avanço dos preços do petróleo no exterior, enquanto o dólar se fortalece frente ao real.",
+      "mecanismo": "A combinação de tensões geopolíticas no Estreito de Ormuz, que elevam o petróleo, e a desvalorização do real aumenta o custo de importações e a pressão inflacionária, o que limita o espaço para cortes de juros e desestimula o fluxo de capital estrangeiro para ações de risco no Brasil.",
+      "implicacao": "Com o petróleo em alta e o dólar forte, o setor de energia tende a se beneficiar pela valorização das receitas, enquanto setores sensíveis a juros e importadores enfrentam pressão, já que o custo de capital e insumos importados sobe.",
+      "risco": "Uma resolução rápida do conflito no Oriente Médio ou uma mudança de tom nas negociações políticas brasileiras poderia reverter a aversão a risco e derrubar o petróleo, invalidando a tese de pressão sobre o câmbio e os juros.",
+      "proximo_evento": "Novos dados do mercado de trabalho (Pnad Contínua) e possíveis atualizações sobre a situação no Estreito de Ormuz ou declarações do governo dos EUA sobre o Irã.",
       "key_numbers": [
-        "Lucro Vale 3T26: -53%",
-        "Preço Brent: US$ 116,72",
-        "Bitcoin: US$ 77.590,78",
-        "Preço-alvo BTG: R$ 60,00"
+        "Ibovespa: -1,09%",
+        "Dólar: R$ 5,4382",
+        "Brent: US$ 117,33",
+        "Desemprego: 5,2%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Bolsas de NY caem com expectativas de alta dos juros; dona do Google tomba 12%",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bolsas-ny-fechamento-29102026-davs/",
+      "title": "Binance working with FBI to recover assets following $6.3B hack",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
-        "exterior"
+        "cripto"
       ],
-      "resumo": "As bolsas americanas recuaram nesta quinta-feira, lideradas por uma queda histórica de 12,64% na Alphabet após balanço trimestral fraco e preocupações com custos de IA, em um contexto de inflação acelerada que reforça apostas em novos aumentos de juros.",
-      "mecanismo": "A combinação de um fluxo de caixa livre negativo e lucro abaixo do esperado pela Alphabet sinalizou que os investimentos massivos em inteligência artificial estão pressionando a rentabilidade no curto prazo, o que, somado à aceleração do PCE (inflação preferida do Fed), eleva a probabilidade de o banco central manter ou elevar os juros em dezembro, desvalorizando ativos de crescimento sensíveis a taxas de desconto.",
-      "implicacao": "Com a perspectiva de juros mais altos por mais tempo e a deterioração da margem de lucro das grandes tecnológicas, o setor de tecnologia tende a sofrer pressão de múltiplos, já que o custo de capital mais elevado reduz o valor presente dos fluxos de caixa futuros projetados para empresas de alto crescimento.",
-      "risco": "O cenário de aperto monetário pode ser invalidado se os dados de inflação de outubro mostrarem desaceleração brusca, ou se a Alphabet demonstrar em futuras divulgações que os custos de IA já estão gerando retornos operacionais significativos que compensam o investimento.",
-      "proximo_evento": "Reunião do Federal Reserve (FOMC) em dezembro, onde será decidido o próximo movimento das taxas de juros.",
+      "resumo": "A Binance está colaborando com o FBI para recuperar ativos roubados em um ataque recorde de 6,3 bilhões de dólares, tendo congelado 3 bilhões e reservado fundos próprios para cobrir o déficit.",
+      "mecanismo": "A cooperação direta com o FBI e o congelamento imediato de 3 bilhões de dólares por parceiros do setor criam um mecanismo de recuperação que mitiga o risco de perda permanente, enquanto a reserva de 6,34 bilhões em fundos da empresa garante a liquidez operacional e a confiança dos usuários, evitando um efeito dominó de saques em massa que poderia desestabilizar o mercado.",
+      "implicacao": "Com a maior exchange do mundo demonstrando capacidade de absorver um choque de 6,3 bilhões sem quebrar, a classe de ativos de exchanges centralizadas (CEXs) tende a ver uma redução no prêmio de risco sistêmico, já que a solidez de capital e a cooperação regulatória reforçam a percepção de segurança institucional no setor.",
+      "risco": "O risco principal é que a recuperação dos fundos congelados falhe ou seja parcial, forçando a Binance a diluir sua base de capital ou vender ativos em momentos de volatilidade, o que poderia reavivar o pânico e acelerar saques para outras plataformas.",
+      "proximo_evento": "Comunicados oficiais do FBI ou da Binance detalhando o status da recuperação dos 3 bilhões de dólares congelados e a conclusão da auditoria de segurança.",
       "key_numbers": [
-        "Queda da Alphabet: -12,64%",
-        "Juros do Fed: 3,75% a 4,00%",
-        "Inflação PCE anual: 3,6%",
-        "PIB 3T26: 3,4% a.a."
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Os dois fatores essenciais para reduzir a pressão no mercado brasileiro, segundo Mansueto, do BTG",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/os-dois-fatores-essenciais-para-reduzir-a-pressao-no-mercado-brasileiro-segundo-mansueto-almeida-do-btg-apsa/",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O economista-chefe do BTG Pactual argumenta que a volatilidade recente no mercado brasileiro é um ajuste de posições causado pela incerteza fiscal e juros altos, e que a definição da nova equipe econômica e um plano claro de controle de gastos são essenciais para recuperar a confiança dos investidores.",
-      "mecanismo": "A falta de clareza sobre a condução da política fiscal e a composição da equipe econômica eleva o prêmio de risco exigido pelos investidores, pressionando os juros futuros e a moeda; a apresentação de um arcabouço fiscal consistente e nomes credíveis para o Ministério da Economia deve reduzir essa incerteza, permitindo que a trajetória de queda dos juros se consolide e reverta a pressão sobre os ativos.",
-      "implicacao": "Com a redução da incerteza fiscal e a consequente queda na curva de juros, o mercado de ações tende a se valorizar, pois o menor custo de capital aumenta o valor presente dos lucros futuros das empresas e torna a renda variável mais competitiva em relação à renda fixa.",
-      "risco": "O cenário se invalida se a nova equipe econômica não apresentar medidas concretas de ajuste ou se a inflação global, impulsionada pela alta do petróleo, impedir a trajetória de queda dos juros esperada pelo mercado.",
-      "proximo_evento": "Anúncio oficial da nova equipe econômica e apresentação do plano de controle de despesas públicas pelo governo reeleito.",
-      "key_numbers": [
-        "Data do evento: 29/10/2026",
-        "Data atual: 30/10/2026"
+        "Valor do hack: 6,3 bilhões de dólares",
+        "Fundos congelados: 3 bilhões de dólares",
+        "Reserva da Binance: 6,34 bilhões de dólares",
+        "Outflows 24h: 6 bilhões de dólares"
       ],
       "sentiment": "neutral"
     },
     {
-      "title": "Live updates: Binance uncovers more breach points in $6.3B hack",
+      "title": "Binance says it holds $5B in matching tokens to cover hack losses",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/live-updates-binance-63b-hack-linked-to-north-koreas-tradertraitor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/news/binance-5-billion-replacement-crypto-in-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "A Binance confirmou um roubo de aproximadamente US$ 6,3 bilhões, com a suspeita de envolvimento do grupo norte-coreano TraderTraitor, e anunciou que usará seus fundos de reserva para cobrir as perdas dos usuários.",
-      "mecanismo": "A descoberta de múltiplos pontos de violação e a atribuição do ataque a um ator estatal sofisticado (DPRK) elevam a percepção de risco sistêmico na infraestrutura de custódia centralizada, o que tende a aumentar a demanda por soluções de segurança descentralizadas e ativos de reserva, enquanto a promessa de cobertura total das perdas pela SAFU visa mitigar o pânico imediato e evitar uma corrida de saques descontrolada.",
-      "implicacao": "Com a exposição de falhas de segurança em grandes exchanges, o setor de infraestrutura de segurança on-chain e protocolos de custódia não custodial tende a se beneficiar, já que investidores e instituições buscam reduzir a dependência de pontos únicos de falha centralizados.",
-      "risco": "O raciocínio pode ser invalidado se a Binance não conseguir rastrear e congelar os fundos restantes, resultando em perdas reais para usuários que minem a confiança na plataforma e causem uma fuga de capital para outras exchanges concorrentes, em vez de para soluções descentralizadas.",
-      "proximo_evento": "Retomada das saques na Binance, prevista para ocorrer em até 48 horas a partir da última atualização, e novos relatórios forenses sobre o rastreamento dos US$ 3,3 bilhões ainda não congelados.",
+      "resumo": "A Binance confirmou que reservou mais de US$ 6,34 bilhões para cobrir as perdas do maior hack da história das criptomoedas, mantendo US$ 5 bilhões em tokens idênticos aos roubados sob sua custódia.",
+      "mecanismo": "A exchange está utilizando seus próprios fundos corporativos e ativos acumulados via taxas de negociação para neutralizar o impacto do roubo de US$ 6,3 bilhões, evitando a necessidade de vender ativos de clientes ou diluir a base de reservas, o que preserva a confiança na solvência da plataforma apesar do ataque atribuído a hackers norte-coreanos.",
+      "implicacao": "Com a demonstração de capacidade de absorver o choque sem comprometer as reservas de clientes, a classe de ativos de exchanges centralizadas (CEXs) tende a ver uma estabilização da confiança institucional, já que a liquidez e a solvência operacional permanecem intactas, reduzindo o prêmio de risco sistêmico do setor.",
+      "risco": "A verificação independente pela CertiK ainda não confirmou a existência on-chain dos US$ 5 bilhões, e a incerteza sobre a origem dos fundos restantes pode gerar volatilidade se a auditoria revelar discrepâncias ou se novos ataques explorarem as mesmas vulnerabilidades.",
+      "proximo_evento": "Publicação do próximo relatório de prova de reservas (proof-of-reserves) da Binance, onde os US$ 5 bilhões em tokens retidos devem aparecer formalmente, e a conclusão da verificação independente pela CertiK.",
       "key_numbers": [
-        "Valor total roubado: US$ 6,3 bilhões",
-        "Fundos congelados: US$ 3 bilhões",
-        "Prazo para retomada de saques: 48 horas"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "A Binance confirmou um ataque cibernético que resultou no congelamento de aproximadamente US$ 3 bilhões em ativos, levando a uma suspensão temporária de depósitos e saques na plataforma. Em resposta, a exchange se comprometeu a cobrir integralmente as perdas dos usuários, mas o incidente gerou forte aversão ao risco no mercado cripto.",
-      "mecanismo": "O hack comprometeu a confiança na segurança da maior exchange do mundo, provocando uma venda generalizada de ativos digitais por medo de contágio sistêmico ou falha de custódia. A suspensão das operações de saque e depósito na Binance forçou a liquidação de posições em outras plataformas, amplificando a queda de Bitcoin, BNB e tokens DeFi, enquanto o índice de medo e ganância despencou para a zona de 'medo'.",
-      "implicacao": "Com a perda de confiança nas exchanges centralizadas (CEXs), o setor de infraestrutura de segurança e protocolos de custódia descentralizada tende a ganhar relevância, já que investidores buscam alternativas que reduzam o risco de contraparte e a dependência de pontos únicos de falha.",
-      "risco": "A tese de recuperação rápida pode ser invalidada se a investigação revelar que o ataque foi mais amplo do que o inicialmente reportado ou se houver evidências de que a Binance não possui liquidez suficiente para honrar o compromisso de cobrir todas as perdas sem diluir a base de usuários.",
-      "proximo_evento": "A reabertura oficial dos saques e depósitos na Binance após a conclusão das verificações de segurança, bem como a divulgação de relatórios forenses detalhados sobre a origem e o escopo final do ataque.",
-      "key_numbers": [
-        "BNB: -8,2%",
-        "Bitcoin: $77.131",
+        "Perdas totais do hack: US$ 6,3 bilhões",
+        "Reserva em tokens correspondentes: US$ 5 bilhões",
         "Ativos congelados: US$ 3 bilhões",
-        "Índice Medo e Ganância: 30"
+        "Reservas totais da exchange: US$ 165 bilhões"
       ],
-      "sentiment": "down"
+      "sentiment": "neutral"
     },
     {
-      "title": "Notícias sobre investimentos e o mercado financeiro | Bora Investir",
-      "source": "Bora Investir",
-      "link": "https://borainvestir.b3.com.br/noticias/",
+      "title": "U.S. Federal Reserve Holds Rates As Markets Look To December",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4960348-us-federal-reserve-holds-rates-as-markets-look-to-december?source=feed_all_articles",
       "categorias": [
-        "renda_fixa"
+        "renda_fixa",
+        "exterior"
       ],
-      "resumo": "O endividamento público brasileiro atingiu 82,9% do PIB, o maior nível desde 2021, com um déficit mensal de R$ 5,5 bilhões, enquanto o Ibovespa sofreu uma queda acentuada de 13% em um único dia devido a tensões eleitorais.",
-      "mecanismo": "A elevação da dívida pública para 82,9% do PIB e a persistência do déficit fiscal aumentam a percepção de risco soberano, o que tende a pressionar a curva de juros e o câmbio; simultaneamente, a volatilidade extrema do Ibovespa (-13%) indica que o mercado está precificando incertezas políticas e de fluxo, não apenas fundamentos macroeconômicos imediatos.",
-      "implicacao": "Com a deterioração do perfil fiscal e a alta volatilidade política, ativos de renda fixa indexados à inflação (IPCA+) podem sofrer com a exigência de prêmio de risco maior, enquanto o setor bancário enfrenta pressão por incertezas sobre a qualidade de ativos e o crescimento do crédito, como evidenciado pelo foco do Bradesco em qualidade de ativos em vez de lucro.",
-      "risco": "A tese de estresse fiscal pode ser invalidada se o mercado interpretar a queda de 13% como um ajuste técnico excessivo que será revertido rapidamente, ou se o Copom sinalizar uma postura mais agressiva de corte de juros que compense o risco fiscal.",
-      "proximo_evento": "Reunião do Copom (a uma semana da data da notícia) e a divulgação dos números da Petrobras e da inflação dos EUA.",
+      "resumo": "O Federal Reserve manteve as taxas de juros inalteradas nesta reunião de outubro, refletindo a cautela dos formuladores de política diante de uma inflação persistente e incertezas econômicas mais amplas.",
+      "mecanismo": "A decisão de manter os juros estáveis ocorre porque o comitê está dividido sobre o equilíbrio entre combater a inflação ainda elevada e evitar choques em uma economia incerta; essa postura de espera sinaliza que o ciclo de cortes não é automático, mantendo o custo de capital elevado e pressionando a curva de juros de longo prazo enquanto o mercado aguarda mais dados para definir a trajetória futura.",
+      "implicacao": "Com a manutenção das taxas e a incerteza sobre cortes futuros, a classe de ativos de renda fixa de longo prazo tende a enfrentar volatilidade e pressão de preços, já que a persistência da inflação limita a capacidade do Fed de reduzir os juros rapidamente, enquanto o dólar pode manter suporte devido à política monetária restritiva em comparação a outras economias.",
+      "risco": "O principal risco é que a inflação persista acima do alvo por mais tempo do que o esperado, forçando o Fed a considerar aumentos de juros no futuro, o que invalidaria a tese de estabilização e pressionaria ainda mais os preços de títulos e o valor do dólar.",
+      "proximo_evento": "A próxima reunião do Federal Reserve em dezembro, quando o mercado buscará sinais concretos sobre a possibilidade de novos cortes ou a manutenção do status quo.",
       "key_numbers": [
-        "Dívida pública: 82,9% do PIB",
-        "Deficit mensal: R$ 5,5 bilhões",
-        "Queda do Ibovespa: 13%",
-        "Dólar: R$ 5,40"
+        "Data da decisão: 30/10/2026",
+        "Próxima reunião: Dezembro/2026",
+        "Status das taxas: Mantidas inalteradas"
       ],
-      "sentiment": "down"
+      "sentiment": "neutral"
     },
     {
-      "title": "Clube FII News - Notícias para o Investidor de Fundos Imobiliários",
+      "title": "Notícias de Híbrido - Clube FII News",
       "source": "Clube FII News",
-      "link": "https://www.clubefiinews.com.br",
+      "link": "https://www.clubefiinews.com.br/hibrido",
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "A reeleição de Lula mantém o mercado focado na sustentabilidade das contas públicas e na trajetória de queda dos juros, fatores que impactam diretamente o custo de capital para investimentos.",
-      "mecanismo": "A manutenção do governo atual preserva a incerteza sobre a disciplina fiscal, o que exige que o mercado precifique um prêmio de risco maior nos juros de longo prazo; simultaneamente, a expectativa de queda na Selic reduz o custo de financiamento, criando uma dinâmica onde o custo dos investimentos é determinado pelo equilíbrio entre a confiança fiscal e a política monetária.",
-      "implicacao": "Com a atenção voltada para a queda dos juros e a estabilidade fiscal, a classe de ativos de Fundos Imobiliários tende a se beneficiar, já que a redução do custo de capital atrai investidores em busca de renda fixa alternativa e aumenta a liquidez no mercado de FIIs.",
-      "risco": "O raciocínio pode ser invalidado se a deterioração das contas públicas for mais severa que o esperado, forçando o Banco Central a manter os juros altos por mais tempo para ancorar expectativas inflacionárias.",
-      "proximo_evento": "Próxima reunião do Copom para definição da taxa Selic e divulgação dos dados de inflação (IPCA) do mês de outubro.",
-      "key_numbers": [
-        "IFIX: +0,65%",
-        "Captação ALLOS/Kinea: até R$ 1 bilhão",
-        "Diferença custo escritório Faria Lima vs Rebouças: R$ 1,4 milhão/ano",
-        "Vacância Grande ABC/Barueri/Jundiaí: <1%"
-      ],
+      "resumo": "O texto fornecido consiste exclusivamente em um aviso legal e de isenção de responsabilidade do Clube FII, sem conter qualquer notícia, dado econômico ou evento de mercado específico.",
+      "mecanismo": "Não há mecanismo causal identificável, pois o conteúdo não apresenta fatos, indicadores ou eventos que gerem efeitos no mercado; trata-se apenas de uma cláusula de proteção jurídica da fonte.",
+      "implicacao": "Não há implicação setorial ou de classe de ativo derivada deste conteúdo, pois a ausência de informação factual impede qualquer raciocínio de investimento ou análise de mercado.",
+      "risco": "O risco principal é a interpretação equivocada de que este aviso legal contém informação de mercado, o que poderia levar a decisões baseadas em dados inexistentes ou desatualizados.",
+      "proximo_evento": "Não há próximo evento gatilho derivado deste texto específico, sendo necessário aguardar a publicação de uma notícia factual subsequente.",
+      "key_numbers": [],
       "sentiment": "neutral"
     },
     {
-      "title": "Notícias de Mercado Imobiliário - Clube FII News",
+      "title": "Notícias de Mercado - Clube FII News",
       "source": "Clube FII News",
-      "link": "https://www.clubefiinews.com.br/mercado-imobiliario",
+      "link": "https://www.clubefiinews.com.br/mercado",
       "categorias": [
         "imobiliario"
       ],
       "resumo": "O texto fornecido consiste exclusivamente em um aviso legal e de isenção de responsabilidade do Clube FII, sem conter qualquer notícia de mercado, dado econômico ou evento corporativo específico.",
-      "mecanismo": "Não há mecanismo causal identificável, pois o conteúdo não apresenta fatos, variáveis econômicas ou eventos que gerem uma cadeia de consequências para o mercado.",
-      "implicacao": "Como não há informação fundamental ou técnica no texto, não é possível deduzir implicações diretas para setores ou classes de ativos; o impacto é neutro e limitado à conformidade regulatória da fonte de informação.",
-      "risco": "O principal risco é a falta de dados para análise, o que pode levar a decisões baseadas em ruído ou em informações incompletas se o investidor tentar extrair sinais de um texto puramente administrativo.",
-      "proximo_evento": "Não há próximo evento específico derivado deste texto; recomenda-se monitorar os comunicados oficiais da CVM ou as próximas divulgações de resultados das administradoras de FIIs para obter informações acionáveis.",
+      "mecanismo": "Não há mecanismo causal identificável, pois o conteúdo não apresenta fatos, variáveis econômicas ou eventos que gerem efeitos no mercado; trata-se apenas de uma cláusula de proteção jurídica da fonte.",
+      "implicacao": "Não há implicação setorial ou de classe de ativo derivada deste texto, pois a ausência de informação factual impede a construção de uma tese de investimento baseada em dados.",
+      "risco": "O principal risco é a interpretação equivocada de que este aviso legal contém conteúdo informativo, o que pode levar a decisões de investimento baseadas em vacuo ou em ruído de comunicação.",
+      "proximo_evento": "Não há próximo evento gatilho derivado deste texto específico; o investidor deve aguardar a publicação de uma notícia factual subsequente para identificar gatilhos.",
       "key_numbers": [],
       "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
-    "renda_fixa": [
-      "O dólar interrompeu a sequência de perdas e fechou a R$ 5,3878, alta de 0,89%, impulsionado por incertezas fiscais e pela precificação de fim de cortes na taxa Selic.",
-      "O Ibovespa registrou sua quarta queda consecutiva pressionado pela deterioração das expectativas sobre a trajetória de juros, enquanto o dólar subiu e encostou em R$ 5,40."
-    ],
+    "renda_fixa": [],
     "acoes": [
-      "Ibovespa registrou sua quarta queda consecutiva pressionado pela deterioração das expectativas sobre a trajetória de juros e incerteza fiscal, enquanto o dólar subiu e encostou em R$ 5,40.",
-      "As ações da Amazon e da Intel caíram fortemente no after hours após a divulgação de balanços do 3T26 com números abaixo das expectativas, somando-se à pressão já causada pelos resultados da Alphabet.",
-      "Ações europeias recuaram devido aos temores sobre o alto consumo de caixa em inteligência artificial, alimentados pelos balanços da Amazon e da Intel.",
-      "As ações indianas encerraram o pregão em alta, com o índice Nifty 50 subindo 0,51%."
+      "Ações da Usiminas (USIM5) operam entre as maiores quedas do Ibovespa após a divulgação de um lucro líquido de R$ 243 milhões no terceiro trimestre de 2026, revertendo o prejuízo de R$ 3,5 bilhões do mesmo período anterior.",
+      "A Ágora Investimentos recomenda a compra de Santander (SANB11) e a venda de Direcional (DIRR3) para day trade nesta sexta-feira (30), com potencial de ganho de 1,38% para o Santander.",
+      "O Ibovespa futuro iniciou o pregão desta sexta-feira (29) com queda de 0,15%, aos 170.990 pontos, enquanto o dólar à vista abriu a R$ 5,3937, refletindo aversão a risco externo e incertezas sobre o cenário fiscal doméstico.",
+      "A Nasdaq atingiu um nível próximo da mínima de três meses, impulsionada por movimentos negativos das ações da Amazon e Intel que abalaram o trade de inteligência artificial."
     ],
     "cripto": [
-      "Binance está investigando uma violação de segurança de múltiplos bilhões de dólares.",
-      "A quantidade de Bitcoin obtida pelo hacker da Binance supera o tesouro corporativo da Coinbase.",
-      "O token RUNE da THORChain subiu 13% após o hack recorde de US$ 6,3 bilhões na Binance.",
-      "O preço do Bitcoin saltou para US$ 81,5 mil após os dados do PIB dos EUA superarem as expectativas."
+      "Métricas de preço do Bitcoin indicam um possível rebote após a liquidação de 1,6 bilhão de dólares que seguiu o hack da Binance.",
+      "A TRM Labs atribuiu o hack de 6,3 bilhões de dólares na Binance ao grupo norte-coreano TraderTraitor.",
+      "A Binance apontou que os atacantes podem ter utilizado o laptop hackeado de um engenheiro para executar a violação de 6,3 bilhões de dólares.",
+      "O Bitcoin corre o risco de registrar seu pior outubro em 12 anos, enquanto a venda de ativos de tecnologia se espalha para o ouro."
     ],
     "debentures": [],
     "exterior": [
-      "Os preços do petróleo sobem nesta sexta-feira (30), encaminhando-se para o quarto ganho mensal consecutivo, após um ataque a um petroleiro no Estreito de Ormuz evidenciar os riscos persistentes de abastecimento decorrentes da guerra entre Estados Unidos, Israel e Irã, que entrou em seu oitavo mês.",
-      "Os lucros da Exxon e da Chevron foram impulsionados pelo aumento da refinação causado pela guerra.",
-      "A ExxonMobil superou as estimativas de lucro no terceiro trimestre devido ao boom na refinação.",
-      "O Banco do Japão atingiu sua meta de preços de 2%."
+      "A Nasdaq atingiu um nível próximo da mínima de três meses em reação aos balanços da Amazon e da Intel, que abalaram a tese de investimento em IA.",
+      "A Goldman Sachs revisou suas perspectivas para ações de joalheria chinesas em meio à queda nos preços do ouro.",
+      "A Amazon estabeleceu um financiamento de fornecedores de US$ 80 bilhões para hardware de IA.",
+      "A inflação na Alemanha caiu para 2,8% em termos anuais em outubro."
     ],
-    "imobiliario": [
-      "O resumo da notícia sobre Certificados de Recebíveis Imobiliários contém apenas o aviso legal do Clube FII, informando que o portal verifica as informações publicadas, não faz recomendação de investimento e não se responsabiliza por perdas ou danos.",
-      "O resumo da notícia sobre Galpões Logísticos e Industriais de Fundos Imobiliários contém apenas o aviso legal do Clube FII, informando que o portal verifica as informações publicadas, não faz recomendação de investimento e não se responsabiliza por perdas ou danos.",
-      "O resumo da notícia sobre Shopping Centers de Fundos Imobiliários contém apenas o aviso legal do Clube FII, informando que o portal verifica as informações publicadas, não faz recomendação de investimento e não se responsabiliza por perdas ou danos.",
-      "O resumo da notícia sobre Agências Bancárias de Fundos Imobiliários contém apenas o aviso legal do Clube FII, informando que o portal verifica as informações publicadas, não faz recomendação de investimento e não se responsabiliza por perdas ou danos."
-    ]
+    "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O mercado está precificando o risco soberano elevado, com a dívida pública em 82,9% do PIB e a falta de clareza sobre a condução fiscal pressionando a curva de juros e o câmbio. A consolidação da trajetória de queda dos juros depende do anúncio oficial da nova equipe econômica e da apresentação de um plano consistente de controle de despesas pelo governo. Investidores devem monitorar a reação dos ativos à definição dos nomes para o Ministério da Economia e ao arcabouço fiscal, que são essenciais para reverter a pressão atual sobre a moeda e os juros futuros.",
-    "acoes": "O mercado brasileiro segue pressionado pela incerteza sobre o plano econômico do governo e a trajetória de juros, com o Ibovespa em sequência de perdas e o dólar próximo de R$ 5,40. Globalmente, a frustração com os balanços de grandes empresas de tecnologia, como Alphabet, Amazon e Intel, tem derrubado o sentimento de risco e pressionado índices europeus e futuros de Wall Street. A atenção permanece voltada para a divulgação da PNAD Contínua e a decisão de política monetária do Banco do Japão, eventos que podem definir a direção dos fluxos de capital no curto prazo.",
-    "cripto": "O mercado está em um estado de tensão dividida entre o pânico causado pelo hack recorde de US$ 6,3 bilhões na Binance, que elevou a percepção de risco sistêmico e a demanda por soluções descentralizadas, e a recuperação de preços impulsionada por dados macroeconômicos fortes, como o PIB dos EUA. Enquanto a investigação forense e a promessa de cobertura total das perdas pela SAFU buscam estabilizar a confiança na custódia centralizada, a valorização de ativos como o RUNE e o salto do Bitcoin para US$ 81,5 mil indicam uma rotação de capital e uma resiliência do mercado diante da crise de segurança.",
+    "renda_fixa": "O cenário de renda fixa permanece condicionado à postura do Federal Reserve, que manteve os juros estáveis devido à divisão interna sobre o equilíbrio entre inflação e crescimento econômico. Essa decisão sinaliza que o ciclo de cortes não é automático, mantendo o custo de capital elevado e pressionando a curva de juros de longo prazo. O foco do mercado agora se volta para a próxima reunião do Fed em dezembro, momento em que se buscará sinais concretos sobre a manutenção do status quo ou a possibilidade de novos cortes.",
+    "acoes": "O mercado brasileiro enfrenta uma combinação de pressões externas, como a aversão a risco global e a valorização do dólar, com incertezas internas ligadas ao cenário fiscal e à expectativa sobre o 'Lula 4'. Enquanto o Ibovespa futuro e o dólar reagem a esses fatores macroeconômicos, o desempenho individual das ações é ditado por resultados corporativos específicos, como o balanço da Usiminas e as recomendações de day trade para bancos como o Santander.",
+    "cripto": "A investigação sobre a origem do hack da Binance avança com a identificação do grupo norte-coreano TraderTraitor e a revelação de que um laptop de engenheiro foi o vetor de entrada, o que deve influenciar as próximas auditorias de segurança e o relatório de prova de reservas. Enquanto isso, o mercado monitora se as métricas de rebote do Bitcoin após as liquidações de 1,6 bilhão de dólares conseguem sustentar a recuperação, mesmo com o risco de um outubro historicamente fraco devido ao contágio da venda de ativos de tecnologia para o ouro.",
     "debentures": "",
-    "exterior": "A atenção do mercado deve se dividir entre a decisão do Federal Reserve em dezembro, que pode manter ou elevar os juros devido à aceleração da inflação, e a divulgação dos resultados de outras grandes empresas de tecnologia para verificar se a pressão sobre a rentabilidade da IA é setorial. Paralelamente, a escalada da guerra no Oriente Médio continua a sustentar os preços do petróleo e os lucros das petrolíferas, enquanto o Banco do Japão atinge sua meta de inflação de 2%.",
-    "imobiliario": "O mercado imobiliário segue influenciado pela tensão entre a incerteza fiscal, que eleva o prêmio de risco nos juros de longo prazo, e a expectativa de queda na Selic, que reduz o custo de financiamento. Como as notícias adicionais não apresentaram fatos novos, o foco permanece na próxima reunião do Copom e na divulgação dos dados de inflação (IPCA) de outubro, além do monitoramento de comunicados oficiais da CVM e das divulgações de resultados das administradoras de FIIs."
+    "exterior": "O mercado observa a pressão sobre o setor de tecnologia, com a Nasdaq em mínimas de três meses e a Amazon estruturando financiamento de US$ 80 bilhões para hardware de IA, enquanto o Federal Reserve mantém os juros estáveis aguardando a reunião de dezembro. Paralelamente, a queda na inflação alemã para 2,8% e a revisão de ações de joalheria chinesas pela Goldman Sachs indicam ajustes globais em resposta a mudanças nos preços de commodities e condições macroeconômicas.",
+    "imobiliario": "O contexto atual da categoria é composto exclusivamente por cláusulas de proteção jurídica, sem a presença de fatos, indicadores econômicos ou eventos que gerem efeitos de mercado. Portanto, não há mecanismos causais identificáveis nem próximos eventos gatilho derivados dos textos analisados, sendo necessário aguardar a publicação de uma notícia factual subsequente para identificar possíveis impactos."
   },
-  "radar": "📊 Radar do Mercado · 30/10\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📈 Maiores altas — ações:\n• ONCO11 +8,33% (R$ 0,13)\n• GGBR4 +5,69% (R$ 25,46)\n• EMBJ3 +5,25% (R$ 102,40)\n• GOAU4 +5,16% (R$ 11,20)\n• GFSA3 +4,55% (R$ 0,23)\n📉 Maiores baixas — ações:\n• PDGR3 -15,00% (R$ 0,17)\n• BHIA3 -12,33% (R$ 0,64)\n• LJQQ3 -11,32% (R$ 0,94)\n• MOVI3 -11,06% (R$ 5,87)\n• BRKM5 -10,39% (R$ 3,02)\n\n📈 Maiores altas — FIIs:\n• HOFC11 +7,46% (R$ 36,00)\n• INHF11 +4,70% (R$ 8,69)\n• TRXF11 +2,87% (R$ 67,38)\n• RECR11 +1,45% (R$ 70,00)\n• RBFM11 +1,20% (R$ 9,30)\n📉 Maiores baixas — FIIs:\n• EMET11 -8,70% (R$ 8,50)\n• BROF11 -7,80% (R$ 53,91)\n• GRUL11 -5,75% (R$ 7,87)\n• URPR11 -4,63% (R$ 18,13)\n• CNES11 -4,26% (R$ 1,35)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -0,30%\n• Nasdaq (EUA): -1,38%\n• Dow Jones (EUA): -0,25%\n• Euro Stoxx 50 (Europa): -0,81%\n• Nikkei 225 (Japão): -2,12%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: -0,23% (US$ 77,596)\n• Ethereum: -0,27% (US$ 2,243)"
+  "radar": "📊 Radar do Mercado · 30/10\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📈 Maiores altas — ações:\n• RAIZ4 +10,71% (R$ 0,31)\n• RANI3 +8,08% (R$ 7,49)\n• SMTO3 +7,88% (R$ 21,09)\n• ONCO3 +7,04% (R$ 0,76)\n• BHIA3 +4,69% (R$ 0,67)\n📉 Maiores baixas — ações:\n• SEQL3 -20,00% (R$ 0,04)\n• PMAM3 -7,69% (R$ 0,24)\n• NATU3 -6,09% (R$ 4,47)\n• USIM3 -5,76% (R$ 5,07)\n• USIM5 -5,48% (R$ 5,17)\n\n📈 Maiores altas — FIIs:\n• HSML11 +2,20% (R$ 78,99)\n• VGIR11 +1,71% (R$ 8,94)\n• CCME11 +1,55% (R$ 8,51)\n• PVBI11 +1,38% (R$ 60,83)\n• CPTS11 +1,16% (R$ 6,95)\n📉 Maiores baixas — FIIs:\n• ARRI11 -3,37% (R$ 4,01)\n• WHGR11 -3,18% (R$ 7,92)\n• SPXS11 -2,22% (R$ 7,04)\n• RBRR11 -2,14% (R$ 64,41)\n• VCJR11 -2,09% (R$ 65,00)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -1,78%\n• Nasdaq (EUA): -2,90%\n• Dow Jones (EUA): -0,92%\n• Euro Stoxx 50 (Europa): -1,22%\n• Nikkei 225 (Japão): +1,10%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: -0,76% (US$ 77,182)\n• Ethereum: -1,02% (US$ 2,227)"
 }
