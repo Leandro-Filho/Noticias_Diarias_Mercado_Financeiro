@@ -186,6 +186,61 @@ python3 market_digest.py`.
 - **Horários**: nos cronjobs do cron-job.org (e nos `cron:` de backup dos
   workflows, sempre em UTC).
 
+## Planilha viva da carteira (carteira.xlsx no Telegram)
+
+Todo dia, junto com o digest, o workflow gera uma planilha da carteira com
+**valores reais** e manda como arquivo pro Telegram privado — ela **nunca é
+commitada**, porque o repositório é público. Os dados reais (valores
+aplicados, taxas contratadas, quantidades) vivem no GitHub Secret
+`CARTEIRA_PRIVADA` (criptografado): copie o modelo de
+`carteira_privada.exemplo.json`, preencha e cole no secret.
+
+O que ela calcula (`carteira_excel.py`):
+
+- **Renda Fixa** — cada título acruando pela taxa contratada: prefixado e
+  IPCA+ capitalizam por dias úteis/252 com fórmulas que usam `HOJE()` (o
+  arquivo continua acruando mesmo aberto dias depois); os fatores de IPCA e
+  CDI acumulados vêm das séries oficiais do BCB a cada geração.
+- **Renda Variável** — cotação do dia (brapi, fallback Yahoo), valor da
+  posição e resultado sobre o preço médio.
+- **Proventos** — último provento anunciado por cota × suas cotas = quanto
+  cai pra você, e o DY de 12 meses. (Provento FUTURO não existe em fonte
+  pública confiável — a planilha mostra o anunciado e o histórico.)
+- **Resumo e Indicadores** — alocação por classe e IPCA/CDI/Selic/PTAX do
+  dia, cada célula com comentário dizendo a fonte.
+
+Convenção de cores: azul = dado buscado hoje · preto = fórmula · verde =
+referência entre abas.
+
+E no digest, o **alerta de carteira**: uma chamada extra à Groq cruza as
+notícias analisadas com as posições do `carteira.json` (o público, só
+nomes/indexadores) e manda "🎯 Sua carteira no noticiário de hoje" quando
+alguma posição pode ser afetada — com regra estrita de só apontar ligação
+explícita no material (nenhum alerta é resposta válida).
+
+## Daily Banker (daily_banker.py)
+
+A camada de "assistente de banker": roda junto com o digest e só manda
+mensagem quando tem algo a dizer.
+
+- **Agenda da semana** (segundas): Copom, Fed (FOMC) e divulgação do IPCA
+  nos próximos 7 dias. As datas vivem na lista `AGENDA` do código, com os
+  calendários oficiais verificados — quando acabarem, o bot manda UMA
+  mensagem pedindo pra atualizar (os calendários do ano seguinte saem no
+  meio do ano anterior).
+- **Alertas de vencimento**: cada renda fixa avisa 30 e 7 dias antes de
+  vencer (uma vez por marco), pra dar tempo de pensar no reinvestimento.
+- **Alocação vs alvo**: defina `alocacao_alvo` no secret (ex: 75/25, banda
+  ±5 p.p.) e o bot avisa quando a carteira desvia além da banda — no máximo
+  1 vez por semana. Aponta o desvio; não recomenda operação.
+- **Índice de rentabilidade** (silencioso, diário): base-100 sobre o custo,
+  salvo em `estado_banker.json` — são SÓ percentuais, por isso pode ser
+  commitado no repositório público. A renda variável entra no índice quando
+  a posição tem `preco_medio` no secret.
+- **Relatório mensal** (1º dia útil): quanto a carteira rendeu no mês
+  fechado vs o CDI do mesmo período. Aporte/resgate distorce a conta (sem
+  ajuste de fluxo de caixa na v1) — a própria mensagem lembra disso.
+
 ## Problemas conhecidos
 
 - **Boletim Focus retornando 400** — a consulta OData na API Olinda do BCB

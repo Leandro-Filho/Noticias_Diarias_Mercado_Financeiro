@@ -11,8 +11,17 @@
     "  taxa_aa: taxa anual contratada, em % (ex: 12.5)",
     "  datas no formato AAAA-MM-DD",
     "Campos de renda_variavel:",
-    "  preco_medio é opcional — com ele a planilha mostra seu resultado (lucro/prejuízo)"
+    "  preco_medio é opcional — com ele a planilha mostra seu resultado (lucro/prejuízo)",
+    "  e o daily banker consegue incluir a renda variável no índice de rentabilidade",
+    "alocacao_alvo (opcional): alvo de alocação em %; o daily banker avisa quando a",
+    "  carteira desvia mais que banda_pp pontos percentuais do alvo"
   ],
+
+  "alocacao_alvo": {
+    "renda_fixa": 75,
+    "renda_variavel": 25,
+    "banda_pp": 5
+  },
 
   "renda_fixa": [
     {

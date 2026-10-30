@@ -33,11 +33,26 @@ jobs:
           TELEGRAM_CATEGORY_CHAT_IDS: ${{ secrets.TELEGRAM_CATEGORY_CHAT_IDS }}
           BRAPI_TOKEN: ${{ secrets.BRAPI_TOKEN }} # usado pelo Radar do Mercado (rankings da B3)
 
-      - name: Salvar digest e memória de dedup no repositório
+      # Daily banker: agenda da semana, alertas de vencimento, alocação vs
+      # alvo e índice de rentabilidade (base-100, só percentuais — por isso
+      # o estado_banker.json pode ser público). Roda antes do commit pra o
+      # estado do dia ser salvo junto. Se falhar, não derruba o digest.
+      - name: Daily banker (agenda, vencimentos, alocação, índice)
+        if: always()
+        continue-on-error: true
+        run: python daily_banker.py
+        env:
+          CARTEIRA_PRIVADA: ${{ secrets.CARTEIRA_PRIVADA }}
+          BRAPI_TOKEN: ${{ secrets.BRAPI_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.API_BOT_TELEGRAM }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_ID }}
+
+      - name: Salvar digest, dedup e estado do banker no repositório
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ultimo_digest.json noticias_enviadas.json
+          git add ultimo_digest.json noticias_enviadas.json estado_banker.json
           git diff --staged --quiet || git commit -m "Atualiza digest do dia"
           git push
 
