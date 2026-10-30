@@ -228,16 +228,18 @@ def fetch_boletim_focus() -> str:
 
     for indicador, rotulo in INDICADORES_FOCUS.items():
         try:
-            resp = requests.get(
-                "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/ExpectativasMercadoAnuais",
-                params={
-                    "$filter": f"Indicador eq '{indicador}' and DataReferencia eq '{ano_atual}'",
-                    "$orderby": "Data desc",
-                    "$top": 1,
-                    "$format": "json",
-                },
-                timeout=15,
+            # URL montada na mão de propósito: o `requests` codifica espaço
+            # como '+' nos params, e a API Olinda do BCB passou a responder
+            # 400 pra isso — OData pede espaço como %20. (Se o 400 voltar
+            # mesmo assim, o problema é outro — aí vale olhar o log.)
+            from urllib.parse import quote
+
+            filtro = quote(f"Indicador eq '{indicador}' and DataReferencia eq '{ano_atual}'", safe="")
+            url = (
+                "https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/"
+                f"ExpectativasMercadoAnuais?$filter={filtro}&$orderby=Data%20desc&$top=1&$format=json"
             )
+            resp = requests.get(url, timeout=15)
             resp.raise_for_status()
             dados = resp.json().get("value", [])
             if dados:

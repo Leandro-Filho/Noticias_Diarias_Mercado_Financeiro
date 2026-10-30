@@ -248,7 +248,8 @@ def gera_planilha(carteira: dict) -> Workbook:
     ws_rf["A1"] = "Renda fixa — acumulando dia a dia"
     ws_rf["A1"].font = TITULO
     cols = ["Nome", "Indexador", "Taxa contratada (a.a.)", "Data aplicação", "Vencimento",
-            "Valor aplicado", "Fator do índice", "Dias úteis", "Valor atual", "Rendimento", "% no período"]
+            "Valor aplicado", "Fator do índice", "Dias úteis", "Valor atual", "Rendimento", "% no período",
+            "Equivalente bruto (a.a.)"]
     _cabecalho(ws_rf, 3, cols)
     linha = 4
     for pos in carteira.get("renda_fixa", []):
@@ -346,6 +347,26 @@ def gera_planilha(carteira: dict) -> Workbook:
         c_pct = ws_rf.cell(row=linha, column=11, value=f"=IF(F{linha}=0,0,I{linha}/F{linha}-1)")
         c_pct.number_format = FMT_PCT
         c_pct.font = PRETO_FORMULA
+
+        # Equivalente bruto: só pra ativo ISENTO de IR (LCA/LCI/CRI/CRA e
+        # debênture incentivada). Mostra a taxa que um CDB/Tesouro TRIBUTADO
+        # precisaria pagar pra empatar — comparação justa é líquido x líquido.
+        # Campo "isento_ir" no secret manda; sem ele, inferimos pelo nome/tipo.
+        nome_tipo = f"{pos.get('nome', '')} {pos.get('tipo', '')}".lower()
+        isento = pos.get("isento_ir")
+        if isento is None:
+            isento = any(t in nome_tipo for t in ("lca", "lci", "cri", "cra", "incentivada", "debênture", "debenture"))
+        if isento and indexador != "cdi":
+            c_eq = ws_rf.cell(row=linha, column=12, value=f"=C{linha}/0.85")
+            c_eq.number_format = FMT_PCT
+            c_eq.font = PRETO_FORMULA
+            prefixo_eq = "IPCA + este spread" if indexador == "ipca+" else "esta taxa"
+            c_eq.comment = Comment(
+                f"Por ser isento de IR, equivale a um título TRIBUTADO pagando {prefixo_eq} "
+                "(gross-up de 15%, alíquota de prazos acima de 720 dias). Use pra comparar "
+                "com CDB/Tesouro, que pagam IR.",
+                "carteira_excel.py",
+            )
         linha += 1
 
     ultima_rf = linha - 1
@@ -356,7 +377,7 @@ def gera_planilha(carteira: dict) -> Workbook:
             c = ws_rf.cell(row=linha + 1, column=col, value=f"=SUM({letra}4:{letra}{ultima_rf})")
             c.number_format = FMT_REAIS
             c.font = Font(name=FONTE, bold=True)
-    _largura(ws_rf, [34, 11, 12, 13, 13, 14, 12, 10, 14, 13, 12])
+    _largura(ws_rf, [34, 11, 12, 13, 13, 14, 12, 10, 14, 13, 12, 14])
 
     # ------------------------------------------------------- Renda Variável
     ws_rv = wb.create_sheet("Renda Variável")

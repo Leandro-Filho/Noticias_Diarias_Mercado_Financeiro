@@ -113,9 +113,10 @@ def salva_estado(estado: dict) -> None:
 
 # ---------------------------------------------- Valor da carteira (de hoje)
 
-def valor_renda_fixa(carteira: dict, hoje: date) -> tuple[float, float]:
-    """(valor atual, custo) da renda fixa — mesmo cálculo da planilha."""
+def valor_renda_fixa(carteira: dict, hoje: date) -> tuple[float, float, list[tuple[dict, float]]]:
+    """(valor atual, custo, detalhe por posição) — mesmo cálculo da planilha."""
     atual = custo = 0.0
+    detalhe: list[tuple[dict, float]] = []
     for pos in carteira.get("renda_fixa", []):
         aplic = datetime.strptime(pos["data_aplicacao"], "%Y-%m-%d").date()
         aplicado = float(pos["valor_aplicado"])
@@ -125,16 +126,18 @@ def valor_renda_fixa(carteira: dict, hoje: date) -> tuple[float, float]:
         try:
             if indexador == "ipca+":
                 fator, _ = ce.fator_ipca_acumulado(aplic)
-                atual += aplicado * fator * (1 + pos.get("taxa_aa", 0) / 100) ** (du / 252)
+                valor = aplicado * fator * (1 + pos.get("taxa_aa", 0) / 100) ** (du / 252)
             elif indexador == "cdi":
                 fator, _ = ce.fator_cdi_acumulado(aplic, pos.get("percentual_cdi", 100))
-                atual += aplicado * fator
+                valor = aplicado * fator
             else:  # prefixado
-                atual += aplicado * (1 + pos.get("taxa_aa", 0) / 100) ** (du / 252)
+                valor = aplicado * (1 + pos.get("taxa_aa", 0) / 100) ** (du / 252)
         except Exception as exc:
             print(f"Índice indisponível pra {pos['nome']} ({exc}) — usando valor sem correção.")
-            atual += aplicado
-    return atual, custo
+            valor = aplicado
+        atual += valor
+        detalhe.append((pos, valor))
+    return atual, custo, detalhe
 
 
 def valor_renda_variavel(carteira: dict) -> tuple[float | None, float | None]:
@@ -255,6 +258,47 @@ def registra_indice(rf_atual: float, rf_custo: float, rv_atual: float | None,
             del historico[k]
 
 
+FGC_TETO_POR_EMISSOR = 250_000  # cobertura do FGC por CPF por instituição
+COBERTOS_FGC = ("lca", "lci", "cdb", "lc ", "poupança")  # debênture e fundo NÃO têm FGC
+
+
+def diagnostico_concentracao(carteira: dict, detalhe_rf: list[tuple[dict, float]],
+                             rv_atual: float | None) -> list[str]:
+    """O que um banker aponta sem ser perguntado: concentração por emissor,
+    cobertura (ou não) do FGC e concentração da renda variável. Tudo
+    calculado — nenhuma chamada de LLM, nenhum palpite."""
+    linhas: list[str] = []
+    total_rf = sum(v for _, v in detalhe_rf)
+
+    if detalhe_rf and total_rf > 0:
+        maior_pos, maior_valor = max(detalhe_rf, key=lambda t: t[1])
+        linhas.append(
+            f"• Maior posição da renda fixa: {maior_pos['nome'].split('(')[0].strip()} "
+            f"({fmt_pct_br(maior_valor / total_rf * 100)} da RF)."
+        )
+        for pos, valor in detalhe_rf:
+            nome_tipo = f"{pos.get('nome', '')} {pos.get('tipo', '')}".lower()
+            coberto = any(t in nome_tipo for t in COBERTOS_FGC)
+            if coberto and valor > FGC_TETO_POR_EMISSOR:
+                linhas.append(
+                    f"• ⚠️ {pos['nome'].split('(')[0].strip()} passou do teto do FGC "
+                    f"(R$ 250 mil por emissor por CPF) — o excedente não tem essa proteção."
+                )
+            if not coberto and any(t in nome_tipo for t in ("debênture", "debenture", "fundo")):
+                linhas.append(
+                    f"• Lembrete: {pos['nome'].split('(')[0].strip()} NÃO tem FGC — "
+                    f"o risco é o crédito do emissor."
+                )
+
+    rv_posicoes = carteira.get("renda_variavel", [])
+    if len(rv_posicoes) == 1 and rv_atual:
+        linhas.append(
+            f"• Renda variável 100% concentrada em {rv_posicoes[0].get('ticker')} — "
+            f"um ativo só responde por toda a sua RV."
+        )
+    return linhas
+
+
 def _cdi_acumulado_mes(ano: int, mes: int) -> float | None:
     """CDI acumulado (%) de um mês fechado, via série SGS 12 do BCB."""
     try:
@@ -271,7 +315,7 @@ def _cdi_acumulado_mes(ano: int, mes: int) -> float | None:
         return None
 
 
-def msg_relatorio_mensal(hoje: date, estado: dict) -> str | None:
+def msg_relatorio_mensal(hoje: date, estado: dict, diagnostico: list[str] | None = None) -> str | None:
     """1º dia útil do mês: rendimento do mês fechado vs CDI do mesmo mês."""
     if hoje.weekday() >= 5 or hoje.day > 3:
         return None
@@ -299,11 +343,14 @@ def msg_relatorio_mensal(hoje: date, estado: dict) -> str | None:
     cdi = _cdi_acumulado_mes(mes_ref.year, mes_ref.month)
     cdi_txt = f" vs CDI {cdi:+.2f}%".replace(".", ",") if cdi is not None else " (CDI do mês indisponível hoje)"
     escopo = estado.get("indice_escopo", "")
-    return (
+    texto = (
         f"📈 <b>Fechamento de {mes_ref.strftime('%m/%Y')}:</b> sua carteira variou "
         f"{retorno:+.2f}%".replace(".", ",") + cdi_txt +
         f". Escopo: {escopo}. Lembrete: aportes/resgates no período distorcem essa conta."
     )
+    if diagnostico:
+        texto += "\n\n<b>Diagnóstico da carteira:</b>\n" + "\n".join(diagnostico)
+    return texto
 
 
 # ---------------------------------------------------------------- Envio
@@ -335,7 +382,7 @@ def main() -> None:
 
     mensagens.extend(msgs_vencimento(carteira, hoje, estado))
 
-    rf_atual, rf_custo = valor_renda_fixa(carteira, hoje)
+    rf_atual, rf_custo, detalhe_rf = valor_renda_fixa(carteira, hoje)
     rv_atual, rv_custo = valor_renda_variavel(carteira)
 
     m = msg_alocacao(carteira, rf_atual, rv_atual, hoje, estado)
@@ -344,7 +391,7 @@ def main() -> None:
 
     registra_indice(rf_atual, rf_custo, rv_atual, rv_custo, hoje, estado)
 
-    m = msg_relatorio_mensal(hoje, estado)
+    m = msg_relatorio_mensal(hoje, estado, diagnostico_concentracao(carteira, detalhe_rf, rv_atual))
     if m:
         mensagens.append(m)
 

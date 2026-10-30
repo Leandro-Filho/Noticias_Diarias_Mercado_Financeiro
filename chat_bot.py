@@ -291,11 +291,27 @@ def call_groq_text(prompt: str, max_tokens: int = 1000, temperature: float = 0.3
     raise ultimo_erro
 
 
+# Regras tributárias GERAIS de pessoa física no Brasil — estáveis há anos e
+# estáticas de propósito (zero risco de alucinação). Entram no prompt quando
+# há carteira, pra resposta sobre rentabilidade considerar o líquido vs
+# bruto (ex: LCA isenta a 12,35% equivale a um CDB tributado bem maior).
+REGRAS_TRIBUTARIAS = """Contexto tributário (regras gerais de pessoa física no Brasil — use pra \
+enquadrar comparações de rentabilidade; não é aconselhamento tributário):
+- LCA e LCI: rendimento ISENTO de IR pra pessoa física.
+- Debênture incentivada (infraestrutura, Lei 12.431): rendimento ISENTO de IR pra PF.
+- FII: dividendos mensais isentos pra PF; ganho de capital na VENDA de cotas paga 20%.
+- Ações: vendas de até R$ 20 mil/mês são isentas de IR sobre o ganho; acima, 15% (day trade 20%).
+- Fundos de renda fixa/crédito: come-cotas (antecipação de IR) em maio e novembro.
+- CDB/Tesouro Direto: tabela regressiva de 22,5% (até 180 dias) a 15% (acima de 720 dias).
+Comparação justa é sempre líquido contra líquido: uma LCA isenta a X% a.a. equivale a um \
+CDB tributado a X/0,85% a.a. em prazos acima de 2 anos."""
+
+
 def responde(pergunta: str, digest: dict, indicadores: str = "", dados_carteira: str = "") -> str:
     contexto_digest = monta_contexto_digest(digest)
     hoje = data_hoje_pt()
     bloco_indicadores = f"\n{indicadores}\n" if indicadores else ""
-    bloco_carteira = f"\n{dados_carteira}\n" if dados_carteira else ""
+    bloco_carteira = f"\n{dados_carteira}\n\n{REGRAS_TRIBUTARIAS}\n" if dados_carteira else ""
 
     prompt = f"""Você é um analista de mercado conversando com um investidor de
 curto/médio prazo sobre o resumo de notícias que ele recebeu hoje. Responda

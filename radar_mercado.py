@@ -193,6 +193,55 @@ def secao_mundo_e_cripto() -> list[str]:
     return linhas
 
 
+# ------------------------------------------------------- Tesouro Direto
+
+# Endpoint JSON que o próprio site do Tesouro Direto usa (hospedado na B3).
+# Não tem documentação oficial nem garantia — e às vezes recusa requisição
+# de datacenter (403). Por isso esta seção é a MENOS confiável do radar:
+# quando falhar, ela simplesmente não aparece naquele dia, sem quebrar nada.
+TESOURO_URL = "https://www.tesourodireto.com.br/json/br/com/b3/tesourodireto/service/api/treasurybondsinfo.json"
+
+
+def secao_tesouro_direto() -> list[str]:
+    """Taxas de compra do dia de 3 títulos-referência (um prefixado, um
+    IPCA+ e um Selic, os de vencimento mais curto sem juros semestrais) —
+    benchmark honesto pra comparar com as taxas da sua renda fixa."""
+    resp = requests.get(
+        TESOURO_URL,
+        timeout=20,
+        headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"},
+    )
+    resp.raise_for_status()
+    lista = resp.json().get("response", {}).get("TrsrBdTradgList", [])
+
+    disponiveis = []
+    for item in lista:
+        bd = item.get("TrsrBd", {})
+        taxa = bd.get("anulInvstmtRate")
+        nome = bd.get("nm", "")
+        if isinstance(taxa, (int, float)) and taxa > 0 and "Juros Semestrais" not in nome:
+            disponiveis.append((nome, taxa))
+
+    def primeiro(prefixo: str):
+        candidatos = sorted(n for n, _ in disponiveis if n.startswith(prefixo))
+        return candidatos[0] if candidatos else None
+
+    linhas = []
+    for prefixo, formato in [
+        ("Tesouro Prefixado", "{taxa} a.a."),
+        ("Tesouro IPCA+", "IPCA + {taxa} a.a."),
+        ("Tesouro Selic", "Selic + {taxa} a.a."),
+    ]:
+        nome = primeiro(prefixo)
+        if nome:
+            taxa = dict(disponiveis)[nome]
+            linhas.append(f"• {escape_html(nome)}: {formato.format(taxa=fmt_pct(taxa).lstrip('+'))}")
+
+    if not linhas:
+        return []
+    return ["🏛️ <b>Tesouro Direto hoje (taxa de compra):</b>"] + linhas + [""]
+
+
 # --------------------------------------------------- Proventos da carteira
 
 def secao_proventos_carteira(carteira: dict) -> list[str]:
@@ -251,6 +300,7 @@ def monta_radar(carteira: dict | None = None) -> str:
     for nome, secao in [
         ("rankings B3", secao_rankings_b3),
         ("mundo/cripto", secao_mundo_e_cripto),
+        ("Tesouro Direto", secao_tesouro_direto),
         ("proventos", lambda: secao_proventos_carteira(carteira)),
     ]:
         try:
