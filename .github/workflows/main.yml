@@ -68,3 +68,16 @@ jobs:
           BRAPI_TOKEN: ${{ secrets.BRAPI_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.API_BOT_TELEGRAM }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_ID }}
+
+      # Alarme anti-morte-silenciosa: o bot já ficou 7 dias mudo (modelo
+      # descontinuado) sem ninguém saber. Se QUALQUER passo essencial falhar,
+      # esta mensagem chega no Telegram com o link do log. Limite honesto:
+      # se o problema for o próprio token do Telegram, nem este aviso sai —
+      # pra essa classe de falha, ative a notificação por e-mail de falha
+      # no cron-job.org (Settings do cronjob → notificações).
+      - name: Avisar no Telegram se o digest falhou
+        if: failure()
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.API_BOT_TELEGRAM }}/sendMessage" \
+            --data-urlencode chat_id="${{ secrets.TELEGRAM_ID }}" \
+            --data-urlencode text="⚠️ O digest de hoje FALHOU. Log: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"

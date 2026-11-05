@@ -31,6 +31,8 @@ import requests
 from dotenv import load_dotenv
 from openai import OpenAI
 
+from produtos_mercado import CATALOGO_PRODUTOS
+
 load_dotenv()
 
 GROQ_API_KEY = os.environ["GROQ_API_KEY"]
@@ -312,6 +314,7 @@ def responde(pergunta: str, digest: dict, indicadores: str = "", dados_carteira:
     hoje = data_hoje_pt()
     bloco_indicadores = f"\n{indicadores}\n" if indicadores else ""
     bloco_carteira = f"\n{dados_carteira}\n\n{REGRAS_TRIBUTARIAS}\n" if dados_carteira else ""
+    bloco_carteira += f"\n{CATALOGO_PRODUTOS}\n"
 
     prompt = f"""Você é um analista de mercado conversando com um investidor de
 curto/médio prazo sobre o resumo de notícias que ele recebeu hoje. Responda
@@ -375,10 +378,121 @@ Regras importantes:
   pode comentar sobre as posições que a pessoa JÁ TEM (ela te deu essa
   informação), mas nunca diga a ela pra comprar ou vender um ativo
   específico. Dê o raciocínio e os dados; a ordem de compra é dela.
+- Quando a pergunta for sobre PRODUTOS ("onde investir", "o que existe",
+  "CDB ou LCA?"), use o catálogo acima: apresente as opções relevantes com
+  os trade-offs (tributação, FGC, liquidez, risco) e compare com as taxas
+  vivas disponíveis acima (Selic, Tesouro do radar). Monte o mapa completo
+  das alternativas — a escolha final continua sendo dela.
 - Seja conciso: 2 a 4 parágrafos curtos costuma bastar, a não ser que a
   pergunta peça claramente mais profundidade."""
 
     return call_groq_text(prompt, max_tokens=1000, temperature=0.3)
+
+
+# ------------------------------------------------- Modo comitê (/analise)
+
+def responde_comite(pergunta: str, digest: dict, indicadores: str = "", dados_carteira: str = "") -> str:
+    """Análise em 4 etapas, como uma mesa de análise faz pra DISCIPLINAR o
+    raciocínio e reduzir viés — não pra fingir previsão:
+      1. Analista-base: a leitura dos dados.
+      2. Cenário otimista: o que precisa dar certo + sinais que confirmariam.
+      3. Cenário pessimista: o que pode dar errado + sinais de alerta.
+      4. Síntese do comitê: onde os cenários divergem e quais GATILHOS
+         observáveis vão decidir entre eles.
+    Custo: 4 chamadas à Groq (com pausa entre elas pro limite de tokens/min
+    da camada gratuita). As mesmas regras anti-alucinação valem em todas."""
+    hoje = data_hoje_pt()
+
+    regras_base = f"""A data de hoje é {hoje} — trate como o presente real; nunca assuma que
+evento datado de {datetime.now().year} é futuro ou hipotético.
+REGRAS CRÍTICAS em TODAS as etapas: nunca afirme direção de indicador que
+não esteja explícita no material fornecido; nunca invente número, data ou
+nome; se um dado faltar, diga qual falta; nunca recomende comprar ou vender
+um ativo específico — cenários e gatilhos, a decisão é da pessoa. Responda
+em português do Brasil, texto corrido, SEM markdown."""
+
+    contexto_completo = (
+        f"{indicadores}\n\n{dados_carteira}\n\n{REGRAS_TRIBUTARIAS}\n\n{CATALOGO_PRODUTOS}\n\n"
+        f"Notícias do digest de hoje:\n{monta_contexto_digest(digest)}"
+    )
+
+    base = call_groq_text(
+        f"""{regras_base}
+
+{contexto_completo}
+
+Você é o ANALISTA-BASE de uma mesa de análise. Questão em discussão: {pergunta}
+
+Dê a leitura-base em até 3 parágrafos curtos: o que os dados acima mostram
+sobre essa questão, quais números sustentam a leitura, e o que NÃO dá pra
+saber com o material disponível.""",
+        max_tokens=700,
+    )
+    time.sleep(3)
+
+    contexto_cenario = (
+        f"{indicadores}\n\n{dados_carteira}\n\n"
+        f"Questão em discussão: {pergunta}\n\nAnálise-base do analista:\n{base}"
+    )
+
+    otimista = call_groq_text(
+        f"""{regras_base}
+
+{contexto_cenario}
+
+Você é o analista do CENÁRIO OTIMISTA da mesa. Em até 2 parágrafos: qual é
+o melhor cenário PLAUSÍVEL pra essa questão, o que precisaria acontecer pra
+ele se realizar, e quais SINAIS OBSERVÁVEIS (eventos, dados, decisões)
+confirmariam que ele está se materializando. Plausível = ancorado na
+análise-base; nada de fantasia.""",
+        max_tokens=500,
+    )
+    time.sleep(3)
+
+    pessimista = call_groq_text(
+        f"""{regras_base}
+
+{contexto_cenario}
+
+Você é o analista do CENÁRIO PESSIMISTA da mesa (advogado do diabo). Em até
+2 parágrafos: qual é o pior cenário PLAUSÍVEL pra essa questão, o que o
+dispararia, e quais SINAIS DE ALERTA observáveis indicariam que ele está se
+materializando. Seja o cético que toda mesa precisa — mas ancorado na
+análise-base, sem catastrofismo inventado.""",
+        max_tokens=500,
+    )
+    time.sleep(3)
+
+    sintese = call_groq_text(
+        f"""{regras_base}
+
+Questão em discussão: {pergunta}
+
+Análise-base:
+{base}
+
+Cenário otimista:
+{otimista}
+
+Cenário pessimista:
+{pessimista}
+
+Você preside o COMITÊ. Em até 2 parágrafos + uma lista curta: (1) onde os
+dois cenários realmente divergem (a variável-chave da discordância); (2) a
+lista "DE OLHO" — os 2 a 4 gatilhos observáveis que vão mostrar qual cenário
+está ganhando, cada um em uma linha começando com "- ". Termine com UMA
+frase lembrando que isso é enquadramento de cenários, não recomendação, e
+que ninguém — humano ou IA — sabe qual cenário vai se realizar.""",
+        max_tokens=600,
+    )
+
+    return (
+        f"🧭 ANÁLISE DE COMITÊ\nQuestão: {pergunta}\n\n"
+        f"🔍 ANALISTA-BASE\n{base}\n\n"
+        f"🟢 CENÁRIO OTIMISTA\n{otimista}\n\n"
+        f"🔴 CENÁRIO PESSIMISTA\n{pessimista}\n\n"
+        f"⚖️ SÍNTESE DO COMITÊ\n{sintese}"
+    )
 
 
 TELEGRAM_LIMITE_CHARS = 4096
@@ -445,7 +559,21 @@ def main() -> None:
 
         print(f"Pergunta recebida ({chat_id}): {texto[:60]}")
         try:
-            resposta = responde(texto, digest, indicadores, dados_carteira)
+            comando_analise = texto.strip().lower().startswith(("/analise", "/análise"))
+            if comando_analise:
+                pergunta = texto.strip()[len("/analise"):].strip(" :—-")
+                if not pergunta:
+                    resposta = (
+                        "Uso: /analise <sua questão>\n\n"
+                        "Exemplo: /analise vale a pena aumentar renda variável agora?\n\n"
+                        "Eu rodo a questão por uma mesa de 4 etapas: analista-base, "
+                        "cenário otimista, cenário pessimista e síntese do comitê com os "
+                        "gatilhos a observar. Demora ~1 minuto a mais que uma resposta normal."
+                    )
+                else:
+                    resposta = responde_comite(pergunta, digest, indicadores, dados_carteira)
+            else:
+                resposta = responde(texto, digest, indicadores, dados_carteira)
         except Exception as exc:
             resposta = f"Não consegui responder agora ({exc}). Tenta de novo daqui a pouco."
 

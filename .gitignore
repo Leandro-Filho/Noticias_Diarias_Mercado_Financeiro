@@ -3,6 +3,7 @@
 carteira_privada.json
 carteira.xlsx
 carteira_*.xlsx
+*.xlsx
 
 __pycache__/
 *.pyc

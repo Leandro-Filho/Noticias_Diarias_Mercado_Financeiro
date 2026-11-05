@@ -241,6 +241,26 @@ mensagem quando tem algo a dizer.
   fechado vs o CDI do mesmo período. Aporte/resgate distorce a conta (sem
   ajuste de fluxo de caixa na v1) — a própria mensagem lembra disso.
 
+## Catálogo de produtos e modo comitê (/analise)
+
+**Catálogo de produtos** (`produtos_mercado.py`): o chat conhece o mapa dos
+produtos do mercado brasileiro — Tesouro, CDB, LCI/LCA, CRI/CRA, debêntures,
+fundos, previdência, FIIs, ETFs, BDRs, COE, poupança — com tributação, FGC,
+liquidez e pra que serve cada um. É texto estático de propósito (regras
+estruturais mudam raramente; zero alucinação), e o modelo cruza com as taxas
+vivas (Selic, CDI, Tesouro do dia no radar). O que NÃO existe de graça: a
+prateleira de CDB/LCA de cada banco no dia — compare ofertas que você
+receber contra os benchmarks vivos.
+
+**Modo comitê**: mande `/analise <questão>` no Telegram (ex: `/analise vale
+a pena aumentar renda variável agora?`) e a pergunta passa por uma mesa de
+4 etapas — analista-base, cenário otimista (com sinais que o confirmariam),
+cenário pessimista (com sinais de alerta) e síntese do comitê com os
+gatilhos observáveis que vão decidir entre os cenários. O formato bull/bear
+existe pra disciplinar o raciocínio e expor os dois lados, não pra fingir
+previsão — a síntese termina lembrando isso. Custa 4 chamadas à Groq e
+demora ~1 min a mais; mensagem normal continua com 1 chamada.
+
 ## Problemas conhecidos
 
 - **Boletim Focus retornando 400** — a consulta OData na API Olinda do BCB
