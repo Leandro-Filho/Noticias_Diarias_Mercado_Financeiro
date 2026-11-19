@@ -36,7 +36,7 @@ import requests
 import trafilatura
 from dotenv import load_dotenv
 from json_repair import repair_json
-from openai import OpenAI
+from provedores_llm import call_llm_json
 from trafilatura import sitemaps as trafilatura_sitemaps
 from trafilatura import feeds as trafilatura_feeds
 
@@ -65,44 +65,13 @@ if not TELEGRAM_BOT_TOKEN:
         "TELEGRAM_BOT_TOKEN no GitHub."
     )
 
-# A Groq expõe uma API compatível com o formato da OpenAI (autenticação
-# padrão via Bearer token) — por isso dá pra usar o pacote "openai" comum,
-# só apontando pra base_url da Groq. Formato de autenticação padrão do
-# mercado, sem as pegadinhas de formato de chave que tivemos com o Gemini.
-groq_client = OpenAI(api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai/v1")
-
-# Nomes de modelo mudam com o tempo — a Groq já descontinuou 3 modelos
-# nossos em sequência (ver histórico abaixo), e cada vez que isso acontece
-# sem a gente perceber, o bot fica mudo (a triagem falha, main() aborta, e
-# nada é enviado pro Telegram — foi exatamente o que causou 7 dias de
-# silêncio em setembro/2026). Por isso GROQ_MODEL virou uma LISTA ordenada
-# de candidatos: call_groq_json() tenta o primeiro, e se ele não existir
-# mais (ou falhar persistentemente), cai pro próximo sozinho, sem precisar
-# de intervenção manual. Se um dia TODOS pararem de funcionar, confira
-# https://console.groq.com/docs/models e atualize a lista.
-# Histórico do que já tentamos e não deu certo, pra não repetir:
-#   - openai/gpt-oss-120b: modelo "de raciocínio" (gasta token pensando
-#     antes de responder) + bug documentado no fórum da Groq com JSON
-#     garantido (json_validate_failed) — por isso não usamos response_format
-#     em call_groq_json, mesmo com esse modelo como fallback abaixo.
-#   - moonshotai/kimi-k2-instruct: descontinuado pela Groq em 2026.
-#   - qwen/qwen3.6-27b: descontinuado pela Groq em setembro/2026, sucessor
-#     oficial é o qwen3.8-27b (mesmas capacidades: 131K de contexto,
-#     thinking/instruct, reasoning_effort ajustável, tool use, JSON mode).
-GROQ_MODELS = [
-    "qwen/qwen3.8-27b",        # sucessor oficial do 3.6 — primeira escolha
-    "llama-3.3-70b-versatile",  # fallback: modelo estável da Meta, roda na
-                                 # Groq há muito tempo sem sinal de descontinuação,
-                                 # não é modelo "de raciocínio" (mais previsível)
-    "openai/gpt-oss-120b",      # fallback final — ver ressalva no histórico acima
-]
-
-# Modelos "de raciocínio" (gastam tokens "pensando" antes de responder, a
-# não ser que a gente desligue isso) — usado pra decidir se manda
-# reasoning_effort="none" na chamada. Mandar esse parâmetro pra um modelo
-# que não é de raciocínio (ex: llama-3.3-70b-versatile) pode gerar erro,
-# então isso é condicional por modelo, não fixo.
-GROQ_REASONING_MODELS = {"qwen/qwen3.8-27b", "qwen/qwen3.6-27b", "openai/gpt-oss-120b", "openai/gpt-oss-20b"}
+# As chamadas de LLM passam pela camada multi-provedor (provedores_llm.py):
+# GPT-5/GPT-4.1 do GitHub Models pras tarefas que exigem inteligência
+# (qualidade="alta"), Groq pro volume (qualidade="bulk"), com fallback
+# automático entre provedores e modelos — a evolução do fallback que já nos
+# salvou de 3 descontinuações da Groq (a última custou 7 dias de bot mudo
+# em setembro/2026). A lista de modelos e o histórico vivem em
+# provedores_llm.py.
 
 # Pool de feeds RSS — gratuitos, sem chave. Mantive só os que dá pra
 # confirmar de forma completa e sem ambiguidade (ver README pra por que
@@ -446,64 +415,12 @@ def registra_enviadas(enviadas: dict, itens_enviados: list[dict]) -> None:
     print(f"Salvo {ENVIADAS_PATH} com {len(enviadas['links'])} links na memória de dedup.")
 
 
-# --------------------------------------------------------------------- Groq
-
-def _modelo_indisponivel(exc: Exception) -> bool:
-    """Detecta se o erro é 'esse modelo não existe/foi descontinuado' (em vez
-    de um erro transitório tipo timeout ou rate limit) — nesse caso não
-    adianta tentar de novo com o MESMO modelo, então pulamos direto pro
-    próximo candidato da lista em vez de gastar as tentativas à toa."""
-    texto = str(exc).lower()
-    return "model_not_found" in texto or "does not exist" in texto
-
-
-def call_groq_json(prompt: str, max_tokens: int = 1500, tentativas_por_modelo: int = 2) -> dict:
-    """Chama a Groq pedindo JSON. NÃO usamos response_format={"type":"json_object"}
-    de propósito: esse modo ("JSON garantido"/constrained decoding) tem bug
-    documentado no fórum da própria Groq nos modelos gpt-oss (json_validate_failed,
-    reproduzível). Em vez disso, pedimos JSON só por instrução no prompt e
-    extraímos o bloco {...} da resposta na mão — mais simples, mas não depende
-    de um mecanismo da Groq que está com bug conhecido.
-
-    Tenta cada modelo de GROQ_MODELS em ordem: se um modelo não existir mais
-    (descontinuado pela Groq), pula pro próximo sozinho, sem abortar o script
-    inteiro — é a defesa contra o que já aconteceu 3 vezes (gpt-oss, kimi-k2,
-    qwen3.6 descontinuados um atrás do outro, cada vez silenciando o bot até
-    alguém notar manualmente)."""
-    prompt_com_reforco = prompt + "\n\nResponda em português, SOMENTE com o JSON pedido, sem markdown, sem texto antes ou depois."
-
-    ultimo_erro = None
-    for modelo in GROQ_MODELS:
-        extra_body = {"reasoning_effort": "none"} if modelo in GROQ_REASONING_MODELS else {}
-        for tentativa in range(1, tentativas_por_modelo + 1):
-            try:
-                response = groq_client.chat.completions.create(
-                    model=modelo,
-                    messages=[{"role": "user", "content": prompt_com_reforco}],
-                    temperature=0,  # mais previsível pra gerar JSON válido, menos "criativo"
-                    max_tokens=max_tokens,
-                    extra_body=extra_body,
-                )
-                raw = response.choices[0].message.content.strip()
-                clean = raw.replace("```json", "").replace("```", "").strip()
-                start, end = clean.find("{"), clean.rfind("}")
-                if start == -1 or end == -1:
-                    raise ValueError(f"Resposta sem JSON reconhecível: {raw[:200]}")
-                # repair_json conserta erros comuns de LLM (vírgula faltando,
-                # chave sem aspas, vírgula sobrando no fim) em vez de exigir
-                # JSON perfeito
-                resultado = repair_json(clean[start : end + 1], return_objects=True)
-                if not isinstance(resultado, dict):
-                    raise ValueError(f"JSON reparado não é um objeto: {resultado!r}")
-                return resultado
-            except Exception as exc:
-                ultimo_erro = exc
-                if _modelo_indisponivel(exc):
-                    print(f"Modelo {modelo} indisponível ({exc}) — pulando pro próximo da lista.")
-                    break  # não adianta insistir nesse modelo, já vai pro próximo
-                print(f"Tentativa {tentativa}/{tentativas_por_modelo} com {modelo} falhou ({exc}); tentando de novo...")
-                time.sleep(2)
-    raise ultimo_erro
+# ----------------------------------------------------------------------- LLM
+# Divisão de qualidade deliberada:
+#   - triagem e menções rasas = "bulk" (mecânico, Groq dá conta, são as
+#     chamadas mais frequentes — não gastar o orçamento de ~50/dia do GPT)
+#   - análise profunda e alerta de carteira = "alta" (é onde o raciocínio
+#     aparece pro leitor; GPT-5/4.1 primeiro, Groq como fallback automático)
 
 
 def triagem(pool: list[dict]) -> dict:
@@ -544,7 +461,7 @@ Formato exato, sem nenhum texto antes ou depois:
 Exemplo de resposta válida (números são só ilustrativos, primeiro = mais
 relevante): {{"renda_fixa": [3, 17], "acoes": [0, 5, 22]}}"""
 
-    return call_groq_json(prompt, max_tokens=400)  # resposta é só números, cabe tranquilo
+    return call_llm_json(prompt, max_tokens=400, qualidade="bulk")  # só números; trabalho mecânico = Groq
 
 
 def analisa_noticia(article: dict, contexto_macro: str = "") -> dict:
@@ -602,7 +519,7 @@ Regras pra cada campo:
   valor", ex: "Selic: 15%") — nunca número solto sem dizer o que é.
 - "sentiment": "up", "down" ou "neutral"."""
 
-    return call_groq_json(prompt, max_tokens=1000)
+    return call_llm_json(prompt, max_tokens=1000, qualidade="alta")  # análise profunda = melhor modelo
 
 
 def resumo_raso_e_de_olho(cat: dict, itens_rasos: list[dict], analises_profundas: list[dict]) -> dict:
@@ -657,7 +574,7 @@ Responda SOMENTE com um JSON no formato exato:
 
 {{"linhas": ["frase sobre notícia 1", "frase sobre notícia 2"], "de_olho": "parágrafo"}}"""
 
-    return call_groq_json(prompt, max_tokens=700)
+    return call_llm_json(prompt, max_tokens=700, qualidade="bulk")  # menção rasa presa ao texto = bulk
 
 
 def alerta_carteira(analises: list[dict]) -> list[str]:
@@ -713,7 +630,7 @@ Responda SOMENTE com um JSON no formato exato:
 {{"alertas": [{{"posicao": "HGLG11", "noticia": 2, "motivo": "uma frase"}}]}}"""
 
     try:
-        resultado = call_groq_json(prompt, max_tokens=500)
+        resultado = call_llm_json(prompt, max_tokens=500, qualidade="alta")  # julgamento sobre a carteira
     except Exception as exc:
         print(f"Alerta de carteira falhou ({exc}) — seguindo sem ele.")
         return []

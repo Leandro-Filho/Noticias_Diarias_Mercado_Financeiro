@@ -25,6 +25,8 @@ jobs:
       - run: python chat_bot.py
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API }}
+          GITHUB_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }} # liga o GPT-5/GPT-4.1 gratuito do GitHub Models
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }} # opcional: mais uma camada de fallback
           TELEGRAM_BOT_TOKEN: ${{ secrets.API_BOT_TELEGRAM }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_ID }}
           TELEGRAM_CATEGORY_CHAT_IDS: ${{ secrets.TELEGRAM_CATEGORY_CHAT_IDS }}

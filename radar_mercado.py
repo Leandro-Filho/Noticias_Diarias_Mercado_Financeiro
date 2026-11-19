@@ -39,14 +39,15 @@ BRAPI_TOKEN = os.environ.get("BRAPI_TOKEN", "")
 CARTEIRA_PATH = "carteira.json"
 
 # Quantos ativos mostrar em cada ranking (altas e baixas).
-TOP_N = 5
+TOP_N_ACOES = 20   # 'pelo menos um Top20 pra visão ampla' — pedido de 19/11
+TOP_N_FUNDOS = 10
 
 # Universo de liquidez: pegamos os N mais negociados por volume e SÓ ENTÃO
 # ordenamos por variação. Sem esse filtro, o ranking de "maiores altas" vira
 # uma lista de micro-caps sem liquidez que subiram 40% com meia dúzia de
 # negócios — informação inútil e enganosa.
 UNIVERSO_ACOES = 150
-UNIVERSO_FIIS = 80
+UNIVERSO_FUNDOS = 100  # FIIs + Fiagro + FI-Infra (tudo que tem pregão diário)
 
 INDICES_MUNDO = {
     "^GSPC": "S&P 500 (EUA)",
@@ -109,21 +110,43 @@ def _busca_lista_brapi(type_: str, limit: int, sub_type: str | None = None) -> l
     ]
 
 
-def _linhas_ranking(ativos: list[dict]) -> list[str]:
+def _linhas_ranking(ativos: list[dict], com_tipo: bool = False) -> list[str]:
+    """Uma linha por ativo: ticker, NOME da empresa/fundo, variação e preço.
+    Ex: '• RCSL4 (Recrusul) +6,56% (R$ 0,65)'. Pros fundos, anota também o
+    tipo quando catalogado: '• VGIR11 (Valora CRI — papel (CDI)) ...'."""
+    from fundos_tipos import tipo_do_fundo
+
     linhas = []
     for a in ativos:
+        ticker = a.get("stock", "?")
+        nome = (a.get("name") or "").strip()[:30]
+        partes_nome = [p for p in [nome] if p]
+        if com_tipo:
+            tipo = tipo_do_fundo(ticker)
+            if tipo:
+                partes_nome.append(tipo)
+        nome_txt = f" ({escape_html(' — '.join(partes_nome))})" if partes_nome else ""
         preco = a.get("close")
         preco_txt = f" ({fmt_reais(preco)})" if isinstance(preco, (int, float)) else ""
-        linhas.append(f"• {escape_html(a.get('stock', '?'))} {fmt_pct(a['change'])}{preco_txt}")
+        linhas.append(f"• {escape_html(ticker)}{nome_txt} {fmt_pct(a['change'])}{preco_txt}")
     return linhas
 
 
-def secao_rankings_b3() -> list[str]:
-    """Maiores altas/baixas entre as ações e FIIs mais líquidos, último pregão."""
+def secao_rankings_b3() -> tuple[list[str], list[dict], list[dict]]:
+    """Maiores altas/baixas entre ações e fundos listados mais líquidos.
+    Devolve também os universos crus (ações, fundos) pro resumo do dia.
+
+    "Fundos listados" = type=fund na brapi SEM filtrar subtipo: pega FIIs,
+    Fiagro e FI-Infra juntos (tudo que tem pregão diário de verdade). FIDC e
+    FIP ficam de fora porque a maioria NEM TEM pregão na B3 — a cota deles
+    vem de informe periódico da CVM, então "maiores altas do dia" não existe
+    pra eles em fonte nenhuma."""
     linhas: list[str] = []
-    for rotulo, type_, sub_type, universo in [
-        ("ações", "stock", None, UNIVERSO_ACOES),
-        ("FIIs", "fund", "fii", UNIVERSO_FIIS),
+    universo_acoes: list[dict] = []
+    universo_fundos: list[dict] = []
+    for rotulo, type_, sub_type, universo, top_n, com_tipo in [
+        ("ações", "stock", None, UNIVERSO_ACOES, TOP_N_ACOES, False),
+        ("fundos listados (FII/Fiagro/FI-Infra)", "fund", None, UNIVERSO_FUNDOS, TOP_N_FUNDOS, True),
     ]:
         try:
             ativos = _busca_lista_brapi(type_, universo, sub_type)
@@ -132,13 +155,49 @@ def secao_rankings_b3() -> list[str]:
             continue
         if not ativos:
             continue
+        if type_ == "stock":
+            universo_acoes = ativos
+        else:
+            universo_fundos = ativos
         ordenado = sorted(ativos, key=lambda a: a["change"], reverse=True)
-        linhas.append(f"📈 <b>Maiores altas — {rotulo}:</b>")
-        linhas.extend(_linhas_ranking(ordenado[:TOP_N]))
-        linhas.append(f"📉 <b>Maiores baixas — {rotulo}:</b>")
-        linhas.extend(_linhas_ranking(list(reversed(ordenado[-TOP_N:]))))
+        linhas.append(f"📈 <b>Maiores altas — {rotulo} (top {top_n}):</b>")
+        linhas.extend(_linhas_ranking(ordenado[:top_n], com_tipo))
+        linhas.append(f"📉 <b>Maiores baixas — {rotulo} (top {top_n}):</b>")
+        linhas.extend(_linhas_ranking(list(reversed(ordenado[-top_n:])), com_tipo))
         linhas.append("")
-    return linhas
+    return linhas, universo_acoes, universo_fundos
+
+
+def secao_resumo_do_dia(universo_acoes: list[dict], universo_fundos: list[dict]) -> list[str]:
+    """O 'qual mercado subiu mais' pedido: melhor e pior SETOR da B3 (média
+    das ações líquidas por setor, mínimo 3 ativos) e a média de cada classe.
+    Tudo aritmética sobre os dados já buscados — zero chamada extra, zero LLM."""
+    linhas: list[str] = []
+
+    por_setor: dict[str, list[float]] = {}
+    for a in universo_acoes:
+        setor = (a.get("sector") or "").strip()
+        if setor:
+            por_setor.setdefault(setor, []).append(a["change"])
+    medias = {s: sum(v) / len(v) for s, v in por_setor.items() if len(v) >= 3}
+    if medias:
+        melhor = max(medias, key=medias.get)
+        pior = min(medias, key=medias.get)
+        linhas.append(
+            f"• Setor que mais subiu: {escape_html(melhor)} ({fmt_pct(medias[melhor])} na média) · "
+            f"que mais caiu: {escape_html(pior)} ({fmt_pct(medias[pior])})"
+        )
+
+    if universo_acoes:
+        media_acoes = sum(a["change"] for a in universo_acoes) / len(universo_acoes)
+        linhas.append(f"• Ações líquidas da B3: média de {fmt_pct(media_acoes)} no último pregão")
+    if universo_fundos:
+        media_fundos = sum(a["change"] for a in universo_fundos) / len(universo_fundos)
+        linhas.append(f"• Fundos listados (FII/Fiagro/FI-Infra): média de {fmt_pct(media_fundos)}")
+
+    if not linhas:
+        return []
+    return ["📊 <b>Resumo do dia:</b>"] + linhas + [""]
 
 
 # ------------------------------------------- Índices mundiais e cripto (yfinance)
@@ -297,8 +356,18 @@ def monta_radar(carteira: dict | None = None) -> str:
     secoes: list[str] = []
     # cada seção falha ISOLADA: se o yfinance estiver bloqueado, por exemplo,
     # os rankings da brapi ainda saem (e vice-versa)
+    # rankings primeiro, porque o resumo do dia reusa os universos deles
+    universo_acoes: list[dict] = []
+    universo_fundos: list[dict] = []
+    try:
+        linhas_rankings, universo_acoes, universo_fundos = secao_rankings_b3()
+    except Exception as exc:
+        print(f"Seção 'rankings B3' do radar falhou ({exc}) — omitida.")
+        linhas_rankings = []
+    secoes.extend(secao_resumo_do_dia(universo_acoes, universo_fundos))
+    secoes.extend(linhas_rankings)
+
     for nome, secao in [
-        ("rankings B3", secao_rankings_b3),
         ("mundo/cripto", secao_mundo_e_cripto),
         ("Tesouro Direto", secao_tesouro_direto),
         ("proventos", lambda: secao_proventos_carteira(carteira)),

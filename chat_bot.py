@@ -29,8 +29,9 @@ from datetime import datetime
 
 import requests
 from dotenv import load_dotenv
-from openai import OpenAI
+from provedores_llm import call_llm_text
 
+from fundos_tipos import texto_tipos_para_chat
 from produtos_mercado import CATALOGO_PRODUTOS
 
 load_dotenv()
@@ -46,17 +47,10 @@ if not GROQ_API_KEY:
 if not TELEGRAM_BOT_TOKEN:
     raise SystemExit("TELEGRAM_BOT_TOKEN está vazio ou não configurado.")
 
-groq_client = OpenAI(api_key=GROQ_API_KEY, base_url="https://api.groq.com/openai/v1")
-# Mesma lista de candidatos do market_digest.py — ver comentários lá pro
-# histórico completo de descontinuações. Se um modelo for descontinuado
-# pela Groq, call_groq_text() pula pro próximo sozinho, sem parar de
-# responder o chat.
-GROQ_MODELS = [
-    "qwen/qwen3.8-27b",
-    "llama-3.3-70b-versatile",
-    "openai/gpt-oss-120b",
-]
-GROQ_REASONING_MODELS = {"qwen/qwen3.8-27b", "qwen/qwen3.6-27b", "openai/gpt-oss-120b", "openai/gpt-oss-20b"}
+# As respostas do chat usam a camada multi-provedor (provedores_llm.py) com
+# qualidade="alta": GPT-5/GPT-4.1 do GitHub Models primeiro (é a conversa —
+# onde a inteligência mais aparece), com fallback automático pra OpenRouter
+# e Groq se o limite diário esgotar ou o provedor cair.
 DIGEST_PATH = "ultimo_digest.json"
 
 # Só responde em chats reconhecidos — evita gastar chamada de API se alguém
@@ -261,38 +255,6 @@ def data_hoje_pt() -> str:
     return f"{agora.day} de {MESES_PT[agora.month - 1]} de {agora.year}"
 
 
-def _modelo_indisponivel(exc: Exception) -> bool:
-    texto = str(exc).lower()
-    return "model_not_found" in texto or "does not exist" in texto
-
-
-def call_groq_text(prompt: str, max_tokens: int = 1000, temperature: float = 0.3, tentativas_por_modelo: int = 2) -> str:
-    """Mesma lógica de fallback entre modelos do call_groq_json em
-    market_digest.py, mas devolvendo texto corrido em vez de JSON (é o que
-    responde() precisa pra falar com a pessoa)."""
-    ultimo_erro = None
-    for modelo in GROQ_MODELS:
-        extra_body = {"reasoning_effort": "none"} if modelo in GROQ_REASONING_MODELS else {}
-        for tentativa in range(1, tentativas_por_modelo + 1):
-            try:
-                response = groq_client.chat.completions.create(
-                    model=modelo,
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=temperature,
-                    max_tokens=max_tokens,
-                    extra_body=extra_body,
-                )
-                return response.choices[0].message.content.strip()
-            except Exception as exc:
-                ultimo_erro = exc
-                if _modelo_indisponivel(exc):
-                    print(f"Modelo {modelo} indisponível ({exc}) — pulando pro próximo da lista.")
-                    break
-                print(f"Tentativa {tentativa}/{tentativas_por_modelo} com {modelo} falhou ({exc}); tentando de novo...")
-                time.sleep(2)
-    raise ultimo_erro
-
-
 # Regras tributárias GERAIS de pessoa física no Brasil — estáveis há anos e
 # estáticas de propósito (zero risco de alucinação). Entram no prompt quando
 # há carteira, pra resposta sobre rentabilidade considerar o líquido vs
@@ -314,7 +276,7 @@ def responde(pergunta: str, digest: dict, indicadores: str = "", dados_carteira:
     hoje = data_hoje_pt()
     bloco_indicadores = f"\n{indicadores}\n" if indicadores else ""
     bloco_carteira = f"\n{dados_carteira}\n\n{REGRAS_TRIBUTARIAS}\n" if dados_carteira else ""
-    bloco_carteira += f"\n{CATALOGO_PRODUTOS}\n"
+    bloco_carteira += f"\n{CATALOGO_PRODUTOS}\n\n{texto_tipos_para_chat()}\n"
 
     prompt = f"""Você é um analista de mercado conversando com um investidor de
 curto/médio prazo sobre o resumo de notícias que ele recebeu hoje. Responda
@@ -386,7 +348,7 @@ Regras importantes:
 - Seja conciso: 2 a 4 parágrafos curtos costuma bastar, a não ser que a
   pergunta peça claramente mais profundidade."""
 
-    return call_groq_text(prompt, max_tokens=1000, temperature=0.3)
+    return call_llm_text(prompt, max_tokens=1000, temperature=0.3)
 
 
 # ------------------------------------------------- Modo comitê (/analise)
@@ -412,11 +374,11 @@ um ativo específico — cenários e gatilhos, a decisão é da pessoa. Responda
 em português do Brasil, texto corrido, SEM markdown."""
 
     contexto_completo = (
-        f"{indicadores}\n\n{dados_carteira}\n\n{REGRAS_TRIBUTARIAS}\n\n{CATALOGO_PRODUTOS}\n\n"
+        f"{indicadores}\n\n{dados_carteira}\n\n{REGRAS_TRIBUTARIAS}\n\n{CATALOGO_PRODUTOS}\n\n{texto_tipos_para_chat()}\n\n"
         f"Notícias do digest de hoje:\n{monta_contexto_digest(digest)}"
     )
 
-    base = call_groq_text(
+    base = call_llm_text(
         f"""{regras_base}
 
 {contexto_completo}
@@ -435,7 +397,7 @@ saber com o material disponível.""",
         f"Questão em discussão: {pergunta}\n\nAnálise-base do analista:\n{base}"
     )
 
-    otimista = call_groq_text(
+    otimista = call_llm_text(
         f"""{regras_base}
 
 {contexto_cenario}
@@ -449,7 +411,7 @@ análise-base; nada de fantasia.""",
     )
     time.sleep(3)
 
-    pessimista = call_groq_text(
+    pessimista = call_llm_text(
         f"""{regras_base}
 
 {contexto_cenario}
@@ -463,7 +425,7 @@ análise-base, sem catastrofismo inventado.""",
     )
     time.sleep(3)
 
-    sintese = call_groq_text(
+    sintese = call_llm_text(
         f"""{regras_base}
 
 Questão em discussão: {pergunta}

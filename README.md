@@ -2,8 +2,11 @@
 
 Todo dia útil de manhã, esse projeto manda pro Telegram:
 
-1. **📊 Radar do Mercado** — maiores altas e baixas do último pregão entre as
-   ações e FIIs mais líquidos da B3, índices internacionais (S&P 500, Nasdaq,
+1. **📊 Radar do Mercado** — resumo do dia (melhor e pior setor da B3 e a
+   média de cada classe), top 20 de altas e baixas entre as ações mais
+   líquidas (com o nome de cada empresa), top 10 dos fundos listados
+   (FIIs, Fiagro e FI-Infra, com o tipo de cada um anotado — papel,
+   logística, shoppings, FOF... — do catálogo curado em `fundos_tipos.py`), índices internacionais (S&P 500, Nasdaq,
    Dow, Euro Stoxx, Nikkei), Bitcoin/Ethereum e os últimos proventos pagos
    pelos ativos de bolsa da carteira.
 2. **Digest de notícias em 6 categorias** — Renda Fixa, Renda Variável/Ações,
@@ -80,17 +83,29 @@ arquivo: chaves ficam em Secrets e a carteira só tem percentuais.
    e às vezes limita requisições vindas de datacenter; por isso tudo que
    depende dela degrada graciosamente.
 
-### Modelos da Groq: lista com fallback automático
+### Modelos: multi-provedor com roteamento por qualidade (provedores_llm.py)
 
-A Groq já descontinuou **três** modelos que usávamos, um atrás do outro
-(`openai/gpt-oss-120b` por bug de JSON, `moonshotai/kimi-k2-instruct` e
-`qwen/qwen3.6-27b` por descontinuação) — e cada vez o bot ficou mudo até
-alguém perceber (a última custou 7 dias de silêncio). Por isso o modelo não é
-mais um nome fixo: `GROQ_MODELS` é uma **lista ordenada de candidatos**
-(`qwen/qwen3.8-27b` → `llama-3.3-70b-versatile` → `openai/gpt-oss-120b`), e
-se um deixar de existir o código pula sozinho pro próximo. Se um dia TODOS
-falharem, confira os ativos em <https://console.groq.com/docs/models> e
-atualize a lista nos dois arquivos (`market_digest.py` e `chat_bot.py`).
+As chamadas de LLM passam por uma camada única com dois níveis:
+
+- **`qualidade="alta"`** (chat, `/analise`, análises profundas, alerta de
+  carteira): tenta primeiro o **GPT-5 e depois o GPT-4.1 do GitHub Models**
+  — modelos de fronteira da OpenAI, gratuitos com conta GitHub (~50
+  req/dia somadas, 10/min, prompts de ~8K tokens) —, depois OpenRouter (se
+  configurado) e por fim a Groq.
+- **`qualidade="bulk"`** (triagem, menções rasas): direto na **Groq**
+  (14.400 req/dia) — não vale gastar o orçamento do GPT em trabalho
+  mecânico.
+
+Provedor sem chave configurada é pulado: **só com `GROQ_API_KEY`, tudo
+funciona como antes**. Pra ligar o GPT-5/4.1: fine-grained token no GitHub
+com a permissão de CONTA **Models: read** (em Account permissions), salvo
+no secret `GH_MODELS_TOKEN`. OpenRouter (opcional): secret
+`OPENROUTER_API_KEY`. Erro 429 (limite do dia) ou 401 pula o provedor; 404
+pula o modelo; o bot segue respondendo — é a evolução do fallback que já
+nos salvou de 3 descontinuações da Groq. Termos: o free tier do GitHub
+Models é pra uso pessoal/experimentação; produto atendendo clientes exige
+API paga. Alternativas avaliadas e descartadas: Gemini (free tier treina
+nos prompts — que carregam a carteira) e Cerebras (passou a exigir cartão).
 
 ### Medidas anti-alucinação (aprendidas com erros reais)
 
