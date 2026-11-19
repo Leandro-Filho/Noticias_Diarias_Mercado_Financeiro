@@ -1,187 +1,251 @@
 {
-  "gerado_em": "2026-10-30T17:09:24.704693+00:00",
+  "gerado_em": "2026-11-19T19:16:42.110852+00:00",
   "itens": [
     {
-      "title": "BTG (BPAC11) sofre corte de recomendação e preço-alvo pelo Itaú BBA, e ação sente",
+      "title": "Bolsas da Europa fecham em queda com pressão geopolítica",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/btg-bpac11-sofre-corte-de-recomendacao-e-preco-alvo-pelo-itau-bba-e-acao-sente/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Itaú BBA rebaixou a recomendação das units do BTG Pactual para neutro e cortou o preço-alvo para 2027, citando múltiplos de valuation já elevados e um cenário macroeconômico mais desafiador para o próximo ano.",
-      "mecanismo": "A combinação de juros e inflação elevados por mais tempo deve reduzir o volume de operações no mercado de capitais e a expansão dos ativos sob gestão, o que, somado a uma maior exposição ao crédito (38% das receitas), limita o espaço para valorização adicional e justifica o aumento do custo de capital próprio exigido pelos analistas.",
-      "implicacao": "Com a desaceleração esperada no crescimento das receitas de banco de investimento e gestão de patrimônio, o setor de bancos de investimento tende a enfrentar pressão sobre seus múltiplos, já que a qualidade operacional já está precificada e o risco de crédito corporativo e consumidor aumenta em um ambiente de juros altos.",
-      "risco": "O cenário de estagnação pode ser invalidado se a atividade econômica se recuperar mais rápido que o esperado ou se a inadimplência permanecer controlada, permitindo que o banco mantenha sua trajetória de crescimento de lucros acima do projetado.",
-      "proximo_evento": "Divulgação dos resultados trimestrais do BTG Pactual e a próxima reunião do Copom para definição da taxa Selic.",
-      "key_numbers": [
-        "Preço-alvo 2027: R$ 60",
-        "Queda intradiária: 4,48%",
-        "Receita projetada 2027: R$ 49 bilhões",
-        "Participação do crédito nas receitas: 38%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Wall Street abre última sessão da semana em queda em reação aos balanços de tecnologia",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bolsa-eua-abertura-30102026-davs/",
+      "link": "https://www.moneytimes.com.br/bolsas-da-europa-caem-com-alta-do-dolar-e-de-olho-no-fed-davs-2/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "As bolsas americanas iniciaram a sexta-feira em queda, com o Nasdaq liderando as perdas, após a Amazon e a Intel divulgarem resultados trimestrais abaixo das expectativas do mercado.",
-      "mecanismo": "Os balanços da Amazon e da Intel vieram abaixo do consenso, com a Amazon mostrando lucro menor que o previsto e a Intel projetando receita para o próximo trimestre inferior às estimativas devido à fraqueza nas vendas de PCs; isso reacendeu o temor de que os custos elevados de infraestrutura de IA estejam corroendo as margens das big techs, provocando uma rotação de capital do setor de tecnologia para ativos defensivos.",
-      "implicacao": "Com o aumento da percepção de risco sobre a sustentabilidade dos lucros das empresas de tecnologia devido aos custos de IA, o setor de tecnologia tende a sofrer pressão de vendas, enquanto setores defensivos e de valor podem se beneficiar da busca por segurança patrimonial pelos investidores.",
-      "risco": "A queda pode ser vista como oportunidade de compra se as próximas divulgações de balanços do setor mostrarem que os custos de IA estão sendo absorvidos sem comprometer o crescimento de receita, revertendo a narrativa de deterioração fundamental.",
-      "proximo_evento": "Divulgação dos balanços de outras grandes empresas de tecnologia (como Microsoft, Apple ou Meta) e novos dados macroeconômicos dos EUA que possam confirmar ou refutar a tese de desaceleração no setor.",
+      "resumo": "Os principais índices europeus encerraram o dia em queda, refletindo o aumento das tensões geopolíticas no Oriente Médio e na Europa Leste, além do clima de cautela herdado dos mercados americanos.",
+      "mecanismo": "A ameaça de novos ataques dos EUA ao Irã e a sinalização de escalada na guerra entre Rússia e Ucrânia elevam a prêmio de risco global, o que desvia capital de ativos de risco (ações) para refúgios e sustenta a demanda por petróleo, pressionando os custos de energia e a margem das empresas europeias.",
+      "implicacao": "Com a elevação do prêmio de risco e a pressão sobre os custos energéticos, o setor de energia tende a se beneficiar da valorização do petróleo, enquanto setores sensíveis a juros e consumo tendem a sofrer com a aversão ao risco e a compressão de margens.",
+      "risco": "Um acordo diplomático súbito entre as potências envolvidas ou uma redução inesperada na oferta de petróleo poderia reverter a aversão ao risco e derrubar os preços das commodities, invalidando a tese de alta no setor energético.",
+      "proximo_evento": "Novos comunicados oficiais ou ações militares dos EUA contra o Irã e atualizações sobre as negociações de paz entre Rússia e Ucrânia.",
       "key_numbers": [
-        "Nasdaq: -2,19%",
-        "S&P 500: -1,21%",
-        "Dow Jones: -0,39%",
-        "Receita projetada Intel 4T26: US$ 15-16 bilhões"
+        "FTSE 100: -0,93%",
+        "DAX: -0,92%",
+        "STOXX Europe 600: -0,78%",
+        "Valuation Anthropic: US$ 1,4 trilhão"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Ibovespa mantém ritmo de perdas e cai 1% com incertezas locais e exterior; 5 coisas para saber antes de investir hoje (30)",
+      "title": "Dólar nas alturas: Banco Central intervém em leilão de US$ 1 bilhão",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-5-coisas-30-10-26-lils/",
+      "link": "https://www.moneytimes.com.br/dolar-nas-alturas-banco-central-intervem-em-leilao-de-us-1-bilhao/",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "O Banco Central realizou um leilão de venda de US$ 1 bilhão para conter a valorização do dólar, que havia atingido a máxima de R$ 5,9287 antes da intervenção.",
+      "mecanismo": "A oferta direta de moeda estrangeira pelo BC aumentou a liquidez em dólar no mercado à vista, o que pressionou a cotação para baixo imediatamente após o anúncio, afastando o câmbio da máxima intradiária de R$ 5,9287, apesar de a mediana do Focus para o fim de 2026 apontar para R$ 5,40.",
+      "implicacao": "Com a intervenção do BC sinalizando defesa do patamar cambial, ativos sensíveis a moeda forte, como exportadoras e empresas com passivos em dólar, tendem a ver alívio no custo de câmbio, enquanto o setor de importação pode enfrentar margens pressionadas se a volatilidade persistir.",
+      "risco": "A intervenção pode ser vista como insuficiente se a pressão vendedora de dólares continuar, levando a uma nova alta do câmbio que anule os benefícios de curto prazo para as empresas endividadas em moeda estrangeira.",
+      "proximo_evento": "Novas intervenções cambiais do Banco Central ou a divulgação dos dados de fluxo de capitais e balança comercial que fundamentam a pressão sobre o câmbio.",
+      "key_numbers": [
+        "Venda BC: US$ 1 bilhão",
+        "Corte leilão: 5,8600",
+        "Máxima dia: R$ 5,9287",
+        "Focus câmbio: R$ 5,40"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Tesouro Direto hoje: prefixado 2029 volta a pagar mais de 15% ao ano com pressão fiscal e juros dos EUA",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/tesouro-direto-hoje-prefixado-2029-volta-a-pagar-mais-de-15-ao-ano-com-pressao-fiscal-e-juros-dos-eua-mlim/",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "A curva de juros brasileira subiu nesta quinta-feira, com o Tesouro Prefixado 2029 ultrapassando a marca de 15% ao ano, impulsionada pela percepção de que o pacote fiscal aprovado no Senado é insuficiente e pelo reforço da expectativa de novos aumentos de juros nos EUA.",
+      "mecanismo": "O mercado está reprecificando o risco soberano brasileiro para cima porque o ajuste fiscal aprovado no Senado reduziu o impacto estimado para 2027 de R$ 56 bilhões para R$ 50 bilhões, o que os agentes veem como insuficiente para conter a pressão inflacionária e a dívida pública; simultaneamente, a ata do Fed reforçou a possibilidade de novos aumentos de juros nos EUA, o que tende a pressionar o câmbio e os juros globais, elevando o custo do capital no Brasil e exigindo um prêmio de risco maior nos títulos prefixados.",
+      "implicacao": "Com a Selic projetada para permanecer elevada (mediana de 13,75% no Focus) e a curva de juros subindo, a classe de ativos de renda fixa prefixada tende a se valorizar para novos entrantes, já que a taxa de juros real está sendo recompensada pelo mercado devido ao risco fiscal e à persistência da inflação, enquanto ativos sensíveis a taxas de juros mais baixas, como imóveis e ações de setores cíclicos, enfrentam pressão de valuation.",
+      "risco": "O raciocínio de alta de juros pode ser invalidado se a Câmara dos Deputados aprovar o pacote fiscal sem as reduções de impacto ou se o Fed sinalizar uma pausa nos aumentos de juros, o que poderia reverter a pressão sobre a curva brasileira e o câmbio.",
+      "proximo_evento": "Votação do pacote de ajuste fiscal na Câmara dos Deputados, agendada para a sessão extraordinária de segunda-feira (23).",
+      "key_numbers": [
+        "Prefixado 2029: 15,07% a.a.",
+        "Selic (fim do ano): 13,75%",
+        "IPCA (fim do ano): 5,11%",
+        "Treasuries 10 anos: 5,08%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Ibovespa pode subir 20%, mas Itaú BBA não vê motivos para comprar; banco rebaixa bolsa para neutra",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-pode-subir-20-mas-itau-bba-nao-ve-motivos-para-comprar-banco-rebaixa-bolsa-para-neutra-miql/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa acumula a quinta queda consecutiva, pressionado por incertezas políticas locais e pelo avanço dos preços do petróleo no exterior, enquanto o dólar se fortalece frente ao real.",
-      "mecanismo": "A combinação de tensões geopolíticas no Estreito de Ormuz, que elevam o petróleo, e a desvalorização do real aumenta o custo de importações e a pressão inflacionária, o que limita o espaço para cortes de juros e desestimula o fluxo de capital estrangeiro para ações de risco no Brasil.",
-      "implicacao": "Com o petróleo em alta e o dólar forte, o setor de energia tende a se beneficiar pela valorização das receitas, enquanto setores sensíveis a juros e importadores enfrentam pressão, já que o custo de capital e insumos importados sobe.",
-      "risco": "Uma resolução rápida do conflito no Oriente Médio ou uma mudança de tom nas negociações políticas brasileiras poderia reverter a aversão a risco e derrubar o petróleo, invalidando a tese de pressão sobre o câmbio e os juros.",
-      "proximo_evento": "Novos dados do mercado de trabalho (Pnad Contínua) e possíveis atualizações sobre a situação no Estreito de Ormuz ou declarações do governo dos EUA sobre o Irã.",
+      "resumo": "O Itaú BBA rebaixou a recomendação para a bolsa brasileira de 'compra' para 'neutra', argumentando que, apesar do desconto no valuation, a persistência de juros altos e a inflação elevada limitam o potencial de alta no curto prazo.",
+      "mecanismo": "A combinação de uma Selic projetada em 13,75% (alinhada à mediana do Focus) e uma inflação acima do teto da meta (projeção do banco de 6,1% para 2027, acima da mediana do Focus de 5,11% para 2026) cria um ambiente de custo de capital elevado que pressiona as margens das empresas e reduz o apetite por risco, justificando a redução da exposição ao mercado local em favor de países com perspectivas macroeconômicas mais favoráveis, como o México.",
+      "implicacao": "Com a Selic mantida em patamares elevados por mais tempo, o setor de infraestrutura e serviços públicos tende a se beneficiar como 'bond proxy', já que essas empresas possuem receitas contratuais indexadas à inflação e menor sensibilidade ao ciclo econômico, oferecendo proteção contra o custo de oportunidade elevado dos juros.",
+      "risco": "A tese de juros altos por mais tempo pode ser invalidada caso haja uma consolidação fiscal mais rápida do que o esperado, o que poderia antecipar cortes de juros e reavaliar positivamente o múltiplo de valuation das ações cíclicas.",
+      "proximo_evento": "Próxima reunião do Copom para definição da taxa Selic e divulgação dos dados de inflação (IPCA) que confirmem ou desmintam a trajetória de alta persistente projetada pelo banco.",
       "key_numbers": [
-        "Ibovespa: -1,09%",
-        "Dólar: R$ 5,4382",
-        "Brent: US$ 117,33",
-        "Desemprego: 5,2%"
+        "Selic (fim de 2026): 13.75%",
+        "IPCA (fim de 2026): 5.11%",
+        "Preço-alvo Ibovespa (fim de 2027): 195.000 pontos",
+        "Potencial de valorização total: 20%"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Ibovespa opera em alta e dólar se aproxima dos R$ 5,90; 5 coisas para saber antes de investir hoje (19)",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-tenta-recuperar-os-169-mil-pontos-de-olho-no-fiscal-5-coisas-para-saber-antes-de-investir-hoje-19-davs/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O Ibovespa avança buscando recuperar os 169 mil pontos após a aprovação do pacote fiscal no Senado, enquanto o dólar se aproxima de R$ 5,90 pressionado por expectativas de juros mais altos nos EUA e incertezas locais.",
+      "mecanismo": "A rejeição de destaques que enfraqueceriam o ajuste fiscal no Senado reforça a credibilidade da meta de superávit primário de 0,5% do PIB, o que tende a reduzir o prêmio de risco soberano e atrair capital para a bolsa; simultaneamente, a ata do Fed e comentários de dirigentes sugerindo possibilidade de alta de juros em dezembro mantêm o dólar forte globalmente, pressionando o câmbio doméstico apesar do alívio fiscal local.",
+      "implicacao": "Com a consolidação do ajuste fiscal e a perspectiva de Selic em 13,75% ao final do ano, setores sensíveis a juros e crédito, como varejo e construção civil, tendem a se beneficiar da redução do prêmio de risco, enquanto ativos de exportação podem enfrentar pressão cambial devido à força do dólar.",
+      "risco": "A aprovação do pacote na Câmara pode sofrer alterações que comprometam a meta de superávit, ou o Fed pode adotar uma postura mais agressiva do que o esperado, elevando o custo de capital e pressionando ainda mais o real e os ativos locais.",
+      "proximo_evento": "Votação do pacote fiscal na Câmara dos Deputados, prevista para a próxima terça-feira (24), e a decisão de política monetária do Federal Reserve em dezembro.",
+      "key_numbers": [
+        "Ibovespa: 168.284,26 pontos",
+        "Dólar: R$ 5,8746",
+        "Selic (fim do ano): 13,75%",
+        "Superávit primário alvo: 0,5% do PIB"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bolsas da Ásia fecham sem direção única com estreia da Anthropic em NY no radar",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-sem-direcao-unica-com-estreia-da-anthropic-em-ny-no-radar-fets/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "As bolsas asiáticas encerraram o pregão de forma mista, com destaque para a queda acentuada em Taiwan e a alta no Japão, enquanto o mercado aguarda a estreia da Anthropic na Nasdaq, que fixou o preço do IPO acima do intervalo inicial.",
+      "mecanismo": "A definição do preço do IPO da Anthropic acima da faixa esperada serve como teste de estresse para a tese de lucratividade do setor de IA, influenciando o apetite por risco em ativos de tecnologia; simultaneamente, a volatilidade é amplificada pela preocupação com regulação mais rigorosa nos EUA após as eleições de meio de mandato e pela incerteza gerada pela saída do CEO da Nvidia, o que leva a uma rotação de capital entre sub-setores de semicondutores e IA, como evidenciado pela queda da TSMC e alta de nomes como SoftBank.",
+      "implicacao": "Com a validação do valuation da Anthropic e a persistência da demanda por infraestrutura de IA, o setor de semicondutores e empresas de infraestrutura de nuvem tendem a manter suporte, já que a capacidade de monetização da tecnologia continua sendo o principal driver de fluxo para essas classes de ativos, apesar da correção recente.",
+      "risco": "A tese de sustentabilidade dos lucros em IA pode ser invalidada se a estreia da Anthropic apresentar fraco desempenho pós-IPO ou se a nova regulação democrática nos EUA impor barreiras significativas ao desenvolvimento e uso de modelos de linguagem avançados.",
+      "proximo_evento": "A estreia oficial das ações da Anthropic na Nasdaq nesta quinta-feira e a divulgação de novos dados macroeconômicos dos EUA que possam confirmar ou refutar a tese de desaceleração do setor de IA.",
+      "key_numbers": [
+        "Preço IPO Anthropic: US$ 83",
+        "Nikkei: 59.444,21",
+        "Taiex: 38.426,89",
+        "Kospi: 5.137,89"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Bitcoin ETF assets fall to three-month low as 2026 net outflows top $2.5B",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-etf-assets-three-month-low-78-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "Os ETFs de Bitcoin à vista nos EUA registraram saídas líquidas de US$ 306,4 milhões na quarta-feira, reduzindo o patrimônio total para US$ 77,7 bilhões, o menor nível em três meses, enquanto o BTC operava abaixo de US$ 63.000.",
+      "mecanismo": "A pressão vendedora institucional e a expectativa de uma política monetária mais restritiva nos EUA estão drenando capital dos ETFs de criptoativos, o que, somado à redução de posições por detentores de longo prazo (121.151 BTC em 30 dias), intensifica a oferta no mercado e pressiona os preços para baixo, refletindo um ambiente de aversão a risco global.",
+      "implicacao": "Com o fluxo de capital institucional saindo dos ETFs de Bitcoin e Ethereum, a classe de ativos de criptomoças tende a enfrentar volatilidade elevada e pressão de baixa, já que a saída de grandes players reduz a liquidez e a demanda estrutural no curto prazo.",
+      "risco": "Um eventual sinal de flexibilização monetária mais rápida pelo Fed ou uma adoção institucional massiva de novas estruturas de custódia poderia reverter o fluxo de saídas e sustentar uma recuperação de preços.",
+      "proximo_evento": "Próxima reunião do Federal Reserve (FOMC) para definição da taxa de juros americana e divulgação dos dados de inflação (CPI/PCE) dos EUA, que podem confirmar ou reverter as expectativas de aperto monetário.",
+      "key_numbers": [
+        "Patrimônio ETFs BTC: US$ 77,7 bilhões",
+        "Saídas líquidas 2026: US$ 2,5 bilhões",
+        "Preço Bitcoin: US$ 63.545",
+        "Saídas diárias: US$ 306,4 milhões"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Binance working with FBI to recover assets following $6.3B hack",
+      "title": "MARA prices $185M debt offering after $1.1B Bitcoin sale",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/binance-fbi-recover-assets-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/markets/mara-long-ridge-debt-offering-bitcoin-sales?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
-        "cripto"
+        "debentures"
       ],
-      "resumo": "A Binance está colaborando com o FBI para recuperar ativos roubados em um ataque recorde de 6,3 bilhões de dólares, tendo congelado 3 bilhões e reservado fundos próprios para cobrir o déficit.",
-      "mecanismo": "A cooperação direta com o FBI e o congelamento imediato de 3 bilhões de dólares por parceiros do setor criam um mecanismo de recuperação que mitiga o risco de perda permanente, enquanto a reserva de 6,34 bilhões em fundos da empresa garante a liquidez operacional e a confiança dos usuários, evitando um efeito dominó de saques em massa que poderia desestabilizar o mercado.",
-      "implicacao": "Com a maior exchange do mundo demonstrando capacidade de absorver um choque de 6,3 bilhões sem quebrar, a classe de ativos de exchanges centralizadas (CEXs) tende a ver uma redução no prêmio de risco sistêmico, já que a solidez de capital e a cooperação regulatória reforçam a percepção de segurança institucional no setor.",
-      "risco": "O risco principal é que a recuperação dos fundos congelados falhe ou seja parcial, forçando a Binance a diluir sua base de capital ou vender ativos em momentos de volatilidade, o que poderia reavivar o pânico e acelerar saques para outras plataformas.",
-      "proximo_evento": "Comunicados oficiais do FBI ou da Binance detalhando o status da recuperação dos 3 bilhões de dólares congelados e a conclusão da auditoria de segurança.",
+      "resumo": "A mineradora MARA Holdings estruturou uma emissão de dívida de US$ 185 milhões para financiar a aquisição da planta de energia Long Ridge, após vender cerca de US$ 1,1 bilhão em Bitcoin para reduzir seu passivo anterior.",
+      "mecanismo": "A empresa está trocando ativos digitais por dívida corporativa de longo prazo (juros de 8,75% até 2032) para financiar a transição para infraestrutura de IA, o que aumenta o custo fixo anual de juros em quase US$ 69 milhões, pressionando a margem de lucro operacional (EBITDA) da nova unidade de negócios.",
+      "implicacao": "Para o setor de mineradoras de criptomoedas que estão migrando para data centers de IA, a tendência é de maior alavancagem e dependência de crédito corporativo, o que pode elevar o custo de capital e a sensibilidade aos juros, já que a geração de caixa operacional precisa cobrir juros elevados antes de retornar valor aos acionistas.",
+      "risco": "A ausência de um inquilino de IA confirmado para a capacidade de 1 GW da planta e a obrigação de resgate de US$ 924 milhões em notas conversíveis em 2027 podem criar um aperto de caixa significativo se a demanda por computação de alto desempenho não materializar os fluxos de caixa projetados.",
+      "proximo_evento": "O fechamento da oferta de dívida e a conclusão da aquisição da Long Ridge, previstos para 27 de novembro de 2026.",
       "key_numbers": [
-        "Valor do hack: 6,3 bilhões de dólares",
-        "Fundos congelados: 3 bilhões de dólares",
-        "Reserva da Binance: 6,34 bilhões de dólares",
-        "Outflows 24h: 6 bilhões de dólares"
+        "Venda de Bitcoin: US$ 1,1 bilhão",
+        "Emissão de dívida: US$ 185 milhões",
+        "Juros anuais adicionais: US$ 68,7 milhões",
+        "Preço da ação: US$ 6,57"
       ],
       "sentiment": "neutral"
     },
     {
-      "title": "Binance says it holds $5B in matching tokens to cover hack losses",
+      "title": "Bitcoin, stocks wobble as Fed’s Waller talks of ‘shock’ 50-point rate hike",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/binance-5-billion-replacement-crypto-in-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/markets/bitcoin-stocks-wobble-waller-talks-shock-50-point-rate-hike?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
-        "cripto"
-      ],
-      "resumo": "A Binance confirmou que reservou mais de US$ 6,34 bilhões para cobrir as perdas do maior hack da história das criptomoedas, mantendo US$ 5 bilhões em tokens idênticos aos roubados sob sua custódia.",
-      "mecanismo": "A exchange está utilizando seus próprios fundos corporativos e ativos acumulados via taxas de negociação para neutralizar o impacto do roubo de US$ 6,3 bilhões, evitando a necessidade de vender ativos de clientes ou diluir a base de reservas, o que preserva a confiança na solvência da plataforma apesar do ataque atribuído a hackers norte-coreanos.",
-      "implicacao": "Com a demonstração de capacidade de absorver o choque sem comprometer as reservas de clientes, a classe de ativos de exchanges centralizadas (CEXs) tende a ver uma estabilização da confiança institucional, já que a liquidez e a solvência operacional permanecem intactas, reduzindo o prêmio de risco sistêmico do setor.",
-      "risco": "A verificação independente pela CertiK ainda não confirmou a existência on-chain dos US$ 5 bilhões, e a incerteza sobre a origem dos fundos restantes pode gerar volatilidade se a auditoria revelar discrepâncias ou se novos ataques explorarem as mesmas vulnerabilidades.",
-      "proximo_evento": "Publicação do próximo relatório de prova de reservas (proof-of-reserves) da Binance, onde os US$ 5 bilhões em tokens retidos devem aparecer formalmente, e a conclusão da verificação independente pela CertiK.",
-      "key_numbers": [
-        "Perdas totais do hack: US$ 6,3 bilhões",
-        "Reserva em tokens correspondentes: US$ 5 bilhões",
-        "Ativos congelados: US$ 3 bilhões",
-        "Reservas totais da exchange: US$ 165 bilhões"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "U.S. Federal Reserve Holds Rates As Markets Look To December",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4960348-us-federal-reserve-holds-rates-as-markets-look-to-december?source=feed_all_articles",
-      "categorias": [
-        "renda_fixa",
+        "cripto",
         "exterior"
       ],
-      "resumo": "O Federal Reserve manteve as taxas de juros inalteradas nesta reunião de outubro, refletindo a cautela dos formuladores de política diante de uma inflação persistente e incertezas econômicas mais amplas.",
-      "mecanismo": "A decisão de manter os juros estáveis ocorre porque o comitê está dividido sobre o equilíbrio entre combater a inflação ainda elevada e evitar choques em uma economia incerta; essa postura de espera sinaliza que o ciclo de cortes não é automático, mantendo o custo de capital elevado e pressionando a curva de juros de longo prazo enquanto o mercado aguarda mais dados para definir a trajetória futura.",
-      "implicacao": "Com a manutenção das taxas e a incerteza sobre cortes futuros, a classe de ativos de renda fixa de longo prazo tende a enfrentar volatilidade e pressão de preços, já que a persistência da inflação limita a capacidade do Fed de reduzir os juros rapidamente, enquanto o dólar pode manter suporte devido à política monetária restritiva em comparação a outras economias.",
-      "risco": "O principal risco é que a inflação persista acima do alvo por mais tempo do que o esperado, forçando o Fed a considerar aumentos de juros no futuro, o que invalidaria a tese de estabilização e pressionaria ainda mais os preços de títulos e o valor do dólar.",
-      "proximo_evento": "A próxima reunião do Federal Reserve em dezembro, quando o mercado buscará sinais concretos sobre a possibilidade de novos cortes ou a manutenção do status quo.",
+      "resumo": "O Bitcoin recuou abaixo de US$ 63.000 e as ações americanas caíram após o membro do Fed Christopher Waller sugerir que o banco central pode precisar de um aumento de juros de 50 pontos-base em dezembro para combater a inflação persistente.",
+      "mecanismo": "A sinalização de um aperto monetário mais agressivo do que o consenso de mercado (que precifica 95% de probabilidade para apenas 25 bps) eleva a expectativa de taxas de juros reais mais altas por mais tempo, o que aumenta o custo de oportunidade para ativos de risco sem rendimento, como criptomoedas, e pressiona os múltiplos de valuation das ações de tecnologia, especialmente em um cenário onde a inflação dos EUA permanece acima da meta de 2% há cinco anos.",
+      "implicacao": "Com a perspectiva de juros americanos mais altos e uma possível saída de capital dos ETFs de Bitcoin, a classe de ativos cripto e o setor de tecnologia de crescimento tendem a enfrentar pressão vendedora, já que o fluxo de capital busca segurança em ativos atrelados a juros nominais em vez de apostas em crescimento futuro.",
+      "risco": "A tese de aperto agressivo pode ser invalidada se os próximos dados de inflação mostrarem desaceleração significativa ou se o mercado interpretar que o Fed está reagindo excessivamente a choques de oferta temporários, como a volatilidade no preço do petróleo.",
+      "proximo_evento": "Reunião do FOMC em dezembro de 2026, onde será decidido o tamanho do ajuste na taxa de juros dos EUA.",
       "key_numbers": [
-        "Data da decisão: 30/10/2026",
-        "Próxima reunião: Dezembro/2026",
-        "Status das taxas: Mantidas inalteradas"
+        "Bitcoin: US$ 63.000",
+        "Saída de capital (30 dias): US$ 8,7 bilhões",
+        "Probabilidade de hike de 25 bps: >95%",
+        "Meta de inflação Fed: 2%"
       ],
-      "sentiment": "neutral"
+      "sentiment": "down"
     },
     {
-      "title": "Notícias de Híbrido - Clube FII News",
+      "title": "Notícias de Entrevistas - Clube FII News",
       "source": "Clube FII News",
-      "link": "https://www.clubefiinews.com.br/hibrido",
+      "link": "https://www.clubefiinews.com.br/entrevistas",
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "O texto fornecido consiste exclusivamente em um aviso legal e de isenção de responsabilidade do Clube FII, sem conter qualquer notícia, dado econômico ou evento de mercado específico.",
-      "mecanismo": "Não há mecanismo causal identificável, pois o conteúdo não apresenta fatos, indicadores ou eventos que gerem efeitos no mercado; trata-se apenas de uma cláusula de proteção jurídica da fonte.",
-      "implicacao": "Não há implicação setorial ou de classe de ativo derivada deste conteúdo, pois a ausência de informação factual impede qualquer raciocínio de investimento ou análise de mercado.",
-      "risco": "O risco principal é a interpretação equivocada de que este aviso legal contém informação de mercado, o que poderia levar a decisões baseadas em dados inexistentes ou desatualizados.",
-      "proximo_evento": "Não há próximo evento gatilho derivado deste texto específico, sendo necessário aguardar a publicação de uma notícia factual subsequente.",
+      "resumo": "O texto fornecido consiste apenas em um aviso legal padrão do Clube FII News, informando que o conteúdo é verificado, mas que a publicação não oferece recomendações de investimento nem assume responsabilidade por perdas financeiras.",
+      "mecanismo": "Não há mecanismo causal de mercado descrito, pois o texto é meramente informativo sobre a política editorial e de responsabilidade civil da fonte, sem apresentar dados econômicos, mudanças de política monetária ou eventos corporativos que gerem impacto nos ativos.",
+      "implicacao": "Como não há informação fundamental nova, não há implicação direta para setores ou classes de ativos; o investidor deve tratar este conteúdo como neutro e focar em fontes com dados concretos para ajustar sua alocação.",
+      "risco": "O risco principal é a confusão entre o aviso legal e uma análise de mercado, o que pode levar o investidor a ignorar a necessidade de due diligence própria e a assumir que a ausência de recomendação implica segurança ou direcionamento implícito.",
+      "proximo_evento": "Não há próximo evento de mercado ou gatilho econômico derivado deste texto específico; o foco deve permanecer nos dados macroeconômicos oficiais, como a próxima divulgação do IPCA ou a reunião do Copom.",
       "key_numbers": [],
       "sentiment": "neutral"
     },
     {
-      "title": "Notícias de Mercado - Clube FII News",
+      "title": "Notícias de Lajes Corporativas de Fundos Imobiliários | Clube FII News",
       "source": "Clube FII News",
-      "link": "https://www.clubefiinews.com.br/mercado",
+      "link": "https://www.clubefiinews.com.br/lajes-corporativas",
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "O texto fornecido consiste exclusivamente em um aviso legal e de isenção de responsabilidade do Clube FII, sem conter qualquer notícia de mercado, dado econômico ou evento corporativo específico.",
-      "mecanismo": "Não há mecanismo causal identificável, pois o conteúdo não apresenta fatos, variáveis econômicas ou eventos que gerem efeitos no mercado; trata-se apenas de uma cláusula de proteção jurídica da fonte.",
-      "implicacao": "Não há implicação setorial ou de classe de ativo derivada deste texto, pois a ausência de informação factual impede a construção de uma tese de investimento baseada em dados.",
-      "risco": "O principal risco é a interpretação equivocada de que este aviso legal contém conteúdo informativo, o que pode levar a decisões de investimento baseadas em vacuo ou em ruído de comunicação.",
-      "proximo_evento": "Não há próximo evento gatilho derivado deste texto específico; o investidor deve aguardar a publicação de uma notícia factual subsequente para identificar gatilhos.",
+      "resumo": "O texto fornecido é apenas um aviso legal padrão do Clube FII News, informando que o conteúdo é informativo e não constitui recomendação de investimento.",
+      "mecanismo": "Não há mecanismo causal ou fato econômico descrito no texto, pois ele se limita a uma cláusula de isenção de responsabilidade e verificação de conteúdo, sem apresentar dados de mercado, notícias de lajes corporativas ou movimentos de preços.",
+      "implicacao": "Como não há informação factual sobre o setor imobiliário ou lajes corporativas, não é possível deduzir implicações diretas para a classe de ativos, mantendo o cenário neutro até a chegada de dados específicos de ocupação, vacância ou dividendos.",
+      "risco": "O risco principal é a interpretação equivocada de que o texto contém análise de mercado, quando na verdade é apenas um disclaimer, o que pode levar a decisões baseadas em ausência de informação.",
+      "proximo_evento": "Não há próximo evento específico mencionado no texto; o próximo gatilho relevante seria a publicação de uma notícia concreta sobre lajes corporativas ou resultados de fundos imobiliários pela mesma fonte.",
       "key_numbers": [],
       "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
-    "renda_fixa": [],
+    "renda_fixa": [
+      "O artigo indica que os fundos PFFA e PFF não são compras recomendadas enquanto as taxas de juros continuarem subindo."
+    ],
     "acoes": [
-      "Ações da Usiminas (USIM5) operam entre as maiores quedas do Ibovespa após a divulgação de um lucro líquido de R$ 243 milhões no terceiro trimestre de 2026, revertendo o prejuízo de R$ 3,5 bilhões do mesmo período anterior.",
-      "A Ágora Investimentos recomenda a compra de Santander (SANB11) e a venda de Direcional (DIRR3) para day trade nesta sexta-feira (30), com potencial de ganho de 1,38% para o Santander.",
-      "O Ibovespa futuro iniciou o pregão desta sexta-feira (29) com queda de 0,15%, aos 170.990 pontos, enquanto o dólar à vista abriu a R$ 5,3937, refletindo aversão a risco externo e incertezas sobre o cenário fiscal doméstico.",
-      "A Nasdaq atingiu um nível próximo da mínima de três meses, impulsionada por movimentos negativos das ações da Amazon e Intel que abalaram o trade de inteligência artificial."
+      "O Ibovespa opera em queda e o dólar ultrapassou os R$ 5,90 nesta quinta-feira (19), com investidores acompanhando a deliberação sobre o pacote fiscal após a votação do Senado na véspera.",
+      "O BTG Pactual rebaixou o Brasil para posição neutra em sua carteira para a América Latina e removeu as ações de Itaú, XP e Assaí, seguindo o movimento de Morgan Stanley e Goldman Sachs de reduzir recomendações para o país.",
+      "O Ibovespa em dólar sobe nesta quinta-feira (19) enquanto o mercado local desacelera antes do feriado da Consciência Negra, com destaque para a reunião do Conselho Monetário Nacional (CMN) no fim da tarde.",
+      "A Wall Street caiu após o estouro do IPO da Anthropic não conseguir reviver o otimismo do comércio de inteligência artificial."
     ],
     "cripto": [
-      "Métricas de preço do Bitcoin indicam um possível rebote após a liquidação de 1,6 bilhão de dólares que seguiu o hack da Binance.",
-      "A TRM Labs atribuiu o hack de 6,3 bilhões de dólares na Binance ao grupo norte-coreano TraderTraitor.",
-      "A Binance apontou que os atacantes podem ter utilizado o laptop hackeado de um engenheiro para executar a violação de 6,3 bilhões de dólares.",
-      "O Bitcoin corre o risco de registrar seu pior outubro em 12 anos, enquanto a venda de ativos de tecnologia se espalha para o ouro."
+      "Os minutos do Fed indicam que os oficiais consideraram a manutenção das taxas de juros em outubro como uma decisão apertada.",
+      "O preço do Bitcoin ignorou o lançamento da Anthropic, enquanto a ação da ANT caiu abaixo de US$ 100.",
+      "O Bitcoin retestou a marca de US$ 62 mil enquanto os futuros do Nasdaq subiam antes do lançamento da Anthropic.",
+      "A atualização Glamsterdam do Ethereum pode ser adiada para maio de 2027 devido a preocupações de compatibilidade."
     ],
     "debentures": [],
     "exterior": [
-      "A Nasdaq atingiu um nível próximo da mínima de três meses em reação aos balanços da Amazon e da Intel, que abalaram a tese de investimento em IA.",
-      "A Goldman Sachs revisou suas perspectivas para ações de joalheria chinesas em meio à queda nos preços do ouro.",
-      "A Amazon estabeleceu um financiamento de fornecedores de US$ 80 bilhões para hardware de IA.",
-      "A inflação na Alemanha caiu para 2,8% em termos anuais em outubro."
+      "Wall Street caiu porque a estreia da Anthropic não conseguiu reviver o otimismo do comércio de IA.",
+      "Os minutos do Fed indicam que os oficiais consideraram a manutenção das taxas de juros em outubro uma decisão apertada.",
+      "Os reguladores federais aprovaram o projeto de expansão do Sabine Pass da Cheniere."
     ],
-    "imobiliario": []
+    "imobiliario": [
+      "O texto do Clube FII News sobre Agronegócio limita-se a uma cláusula de isenção de responsabilidade, afirmando que a fonte verifica as informações, não faz recomendações de investimento e não se responsabiliza por perdas ou danos."
+    ]
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário de renda fixa permanece condicionado à postura do Federal Reserve, que manteve os juros estáveis devido à divisão interna sobre o equilíbrio entre inflação e crescimento econômico. Essa decisão sinaliza que o ciclo de cortes não é automático, mantendo o custo de capital elevado e pressionando a curva de juros de longo prazo. O foco do mercado agora se volta para a próxima reunião do Fed em dezembro, momento em que se buscará sinais concretos sobre a manutenção do status quo ou a possibilidade de novos cortes.",
-    "acoes": "O mercado brasileiro enfrenta uma combinação de pressões externas, como a aversão a risco global e a valorização do dólar, com incertezas internas ligadas ao cenário fiscal e à expectativa sobre o 'Lula 4'. Enquanto o Ibovespa futuro e o dólar reagem a esses fatores macroeconômicos, o desempenho individual das ações é ditado por resultados corporativos específicos, como o balanço da Usiminas e as recomendações de day trade para bancos como o Santander.",
-    "cripto": "A investigação sobre a origem do hack da Binance avança com a identificação do grupo norte-coreano TraderTraitor e a revelação de que um laptop de engenheiro foi o vetor de entrada, o que deve influenciar as próximas auditorias de segurança e o relatório de prova de reservas. Enquanto isso, o mercado monitora se as métricas de rebote do Bitcoin após as liquidações de 1,6 bilhão de dólares conseguem sustentar a recuperação, mesmo com o risco de um outubro historicamente fraco devido ao contágio da venda de ativos de tecnologia para o ouro.",
-    "debentures": "",
-    "exterior": "O mercado observa a pressão sobre o setor de tecnologia, com a Nasdaq em mínimas de três meses e a Amazon estruturando financiamento de US$ 80 bilhões para hardware de IA, enquanto o Federal Reserve mantém os juros estáveis aguardando a reunião de dezembro. Paralelamente, a queda na inflação alemã para 2,8% e a revisão de ações de joalheria chinesas pela Goldman Sachs indicam ajustes globais em resposta a mudanças nos preços de commodities e condições macroeconômicas.",
-    "imobiliario": "O contexto atual da categoria é composto exclusivamente por cláusulas de proteção jurídica, sem a presença de fatos, indicadores econômicos ou eventos que gerem efeitos de mercado. Portanto, não há mecanismos causais identificáveis nem próximos eventos gatilho derivados dos textos analisados, sendo necessário aguardar a publicação de uma notícia factual subsequente para identificar possíveis impactos."
+    "renda_fixa": "O mercado de renda fixa segue pressionado pela reprecificação do risco soberano brasileiro, impulsionada pela percepção de insuficiência do ajuste fiscal aprovado no Senado e pela possibilidade de novos aumentos de juros nos EUA. Nesse cenário, a atenção deve se concentrar na votação do pacote de ajuste fiscal na Câmara dos Deputados, agendada para a sessão extraordinária de segunda-feira (23), e em novas intervenções cambiais do Banco Central para conter a alta do dólar.",
+    "acoes": "A categoria de renda variável brasileira enfrenta pressão vendedora e rebaixamentos de recomendações por grandes bancos, como o BTG Pactual, que justificam a cautela com o custo de capital elevado e a inflação persistente, mesmo com o Senado mantendo o projeto fiscal. O investidor deve monitorar a reunião do Conselho Monetário Nacional (CMN) e a continuidade da alta do dólar, que ultrapassou a marca de R$ 5,90, enquanto o mercado local desacelera antes do feriado da Consciência Negra.",
+    "cripto": "O mercado de criptomoedas enfrenta pressão vendedora institucional e aversão a risco global, impulsionados pela expectativa de uma política monetária mais restritiva nos EUA, com o Fed sinalizando possíveis aumentos agressivos de juros. Enquanto o Bitcoin oscila em torno de US$ 62 mil ignorando eventos corporativos como o lançamento da Anthropic, o setor de infraestrutura enfrenta riscos de atraso, com a atualização Glamsterdam do Ethereum podendo ser adiada para maio de 2027.",
+    "debentures": "O mercado de crédito privado segue atento à transição de empresas que trocam ativos digitais por dívida corporativa de longo prazo, como a emissão de US$ 185 milhões da MARA com juros de 8,75% até 2032. Essa estratégia aumenta o custo fixo anual de juros em quase US$ 69 milhões, pressionando a margem de lucro operacional (EBITDA) da nova unidade de negócios de infraestrutura de IA. O próximo marco relevante é o fechamento da oferta de dívida e a conclusão da aquisição da Long Ridge, previstos para 27 de novembro de 2026.",
+    "exterior": "O mercado enfrenta uma convergência de pressões onde a falha da estreia da Anthropic em reanimar o otimismo da IA coincide com a sinalização de que a decisão de manter os juros em outubro foi apertada, reforçando a cautela diante da possibilidade de um aperto monetário mais agressivo discutido por Waller. Enquanto isso, a aprovação da expansão do Sabine Pass pela Cheniere adiciona um elemento de infraestrutura energética ao cenário, que já é sensível à escalada geopolítica no Oriente Médio e na Europa, impactando diretamente os custos de energia e o prêmio de risco global.",
+    "imobiliario": "As notícias recentes da categoria consistem exclusivamente em cláusulas editoriais e de isenção de responsabilidade, sem apresentar dados de mercado, movimentos de preços ou fatos econômicos concretos. Portanto, não há gatilhos imediatos ou eventos futuros específicos derivados desses textos, mantendo o foco em aguardar a publicação de informações financeiras ou corporativas efetivas."
   },
-  "radar": "📊 Radar do Mercado · 30/10\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📈 Maiores altas — ações:\n• RAIZ4 +10,71% (R$ 0,31)\n• RANI3 +8,08% (R$ 7,49)\n• SMTO3 +7,88% (R$ 21,09)\n• ONCO3 +7,04% (R$ 0,76)\n• BHIA3 +4,69% (R$ 0,67)\n📉 Maiores baixas — ações:\n• SEQL3 -20,00% (R$ 0,04)\n• PMAM3 -7,69% (R$ 0,24)\n• NATU3 -6,09% (R$ 4,47)\n• USIM3 -5,76% (R$ 5,07)\n• USIM5 -5,48% (R$ 5,17)\n\n📈 Maiores altas — FIIs:\n• HSML11 +2,20% (R$ 78,99)\n• VGIR11 +1,71% (R$ 8,94)\n• CCME11 +1,55% (R$ 8,51)\n• PVBI11 +1,38% (R$ 60,83)\n• CPTS11 +1,16% (R$ 6,95)\n📉 Maiores baixas — FIIs:\n• ARRI11 -3,37% (R$ 4,01)\n• WHGR11 -3,18% (R$ 7,92)\n• SPXS11 -2,22% (R$ 7,04)\n• RBRR11 -2,14% (R$ 64,41)\n• VCJR11 -2,09% (R$ 65,00)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -1,78%\n• Nasdaq (EUA): -2,90%\n• Dow Jones (EUA): -0,92%\n• Euro Stoxx 50 (Europa): -1,22%\n• Nikkei 225 (Japão): +1,10%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: -0,76% (US$ 77,182)\n• Ethereum: -1,02% (US$ 2,227)"
+  "radar": "📊 Radar do Mercado · 19/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Electronic Technology (+1,34% na média) · que mais caiu: Consumer Services (-3,69%)\n• Ações líquidas da B3: média de -1,37% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de -0,48%\n\n📈 Maiores altas — ações (top 20):\n• PCAR3 (CIA BRASILEIRA DE DISTRIBUICAO) +6,69% (R$ 3,19)\n• LIGT3 (LIGHT S.A.) +6,29% (R$ 3,04)\n• GFSA3 (GAFISA S.A.) +4,76% (R$ 0,22)\n• POSI3 (POSITIVO TECNOLOGIA S.A.) +4,42% (R$ 3,31)\n• QUAL3 (QUALICORP CONSULTORIA E CORRET) +3,41% (R$ 1,82)\n• USIM5 (USINAS SID DE MINAS GERAIS S.A) +2,99% (R$ 5,16)\n• TEND3 (CONSTRUTORA TENDA S.A.) +2,99% (R$ 15,51)\n• FLRY3 (FLEURY S.A.) +2,14% (R$ 21,43)\n• MELK3 (MELNICK DESENVOLVIMENTO IMOBIL) +2,04% (R$ 2,00)\n• GOAU4 (METALURGICA GERDAU S.A.) +1,96% (R$ 11,47)\n• MGLU3 (MAGAZINE LUIZA S.A.) +1,80% (R$ 8,47)\n• TUPY3 (TUPY S.A.) +1,77% (R$ 20,68)\n• GMAT3 (GRUPO MATEUS S.A.) +1,73% (R$ 4,12)\n• EVEN3 (EVEN CONSTRUTORA E INCORPORADO) +1,66% (R$ 3,68)\n• CSMG3 (CIA SANEAMENTO DE MINAS GERAIS) +1,37% (R$ 56,26)\n• GGBR4 (GERDAU S.A.) +1,29% (R$ 25,92)\n• BRKM5 (BRASKEM S.A.) +1,14% (R$ 2,66)\n• BEEF3 (MINERVA S.A.) +1,08% (R$ 3,75)\n• TASA4 (TAURUS ARMAS S.A.) +1,07% (R$ 4,74)\n• PASS3 (COMPASS GAS E ENERGIA S.A.) +0,91% (R$ 22,15)\n📉 Maiores baixas — ações (top 20):\n• RAIZ55 (RAIZEN S.A.) -10,30% (R$ 0,15)\n• AMBP3 (AMBIPAR PARTICIPACOES E EMPREE) -8,33% (R$ 0,11)\n• HBRE3 (HBR REALTY EMPREENDIMENTOS IMO) -6,87% (R$ 1,22)\n• DASA3 (DIAGNOSTICOS DA AMERICA S.A.) -6,29% (R$ 3,28)\n• PGMN3 (EMPREENDIMENTOS PAGUE MENOS S.) -5,91% (R$ 2,23)\n• AZEV4 (AZEVEDO E TRAVASSOS S.A.) -5,88% (R$ 0,64)\n• POMO3 (MARCOPOLO S.A.) -5,63% (R$ 3,35)\n• POMO4 (MARCOPOLO S.A.) -5,56% (R$ 3,57)\n• CSED3 (CRUZEIRO DO SUL EDUCACIONAL S.) -5,34% (R$ 3,37)\n• AZZA3 (AZZAS 2154 S.A.) -5,20% (R$ 14,96)\n• CVCB3 (CVC BRASIL OPERADORA E AGÊNCIA) -5,13% (R$ 0,74)\n• OPCT3 (OCEANPACT SERVICOS MARITIMOS S) -4,93% (R$ 8,88)\n• RCSL4 (RECRUSUL S.A.) -4,62% (R$ 0,62)\n• CEAB3 (CEA MODAS S.A.) -4,57% (R$ 7,52)\n• ONCO3 (ONCOCLINICAS DO BRASIL SERVICO) -4,17% (R$ 0,69)\n• ORVR3 (ORIZON VALORIZACAO DE RESIDUOS) -3,95% (R$ 18,01)\n• PINE4 (BCO PINE S.A.) -3,89% (R$ 10,38)\n• SIMH3 (SIMPAR S.A.) -3,74% (R$ 5,40)\n• FESA4 (CIA FERRO LIGAS DA BAHIA - FER) -3,52% (R$ 5,21)\n• AZEV3 (AZEVEDO E TRAVASSOS S.A.) -3,50% (R$ 10,47)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNAM11 (FNAM11) +4,62% (R$ 0,68)\n• SOLH11 (HASHDEX NASDAQ SOLANA FUNDO DE) +2,94% (R$ 12,25)\n• BDIF11 (BTG PACTUAL DÍVIDA INFRA FIF E) +2,78% (R$ 60,22)\n• VGIR11 (VALORA CRI CDI FUNDO DE INVEST — papel (CDI)) +2,56% (R$ 8,02)\n• ETHE11 (HASHDEX NASDAQ ETHEREUM REFERE) +2,56% (R$ 30,41)\n• BITH11 (HASHDEX NASDAQ BITCOIN REFEREN) +1,93% (R$ 83,97)\n• XETH11 (TREND ETF BLOOMBERG ETHEREUM C) +1,93% (R$ 28,04)\n• HASH11 (HASHDEX NASDAQ CME CRYPTO INDE) +1,68% (R$ 47,73)\n• SNEL11 (SUNO ENERGIAS LIMPAS FUNDO DE ) +1,62% (R$ 6,90)\n• QBTC11 (QR CME CF BITCOIN REFERENCE RA) +1,49% (R$ 22,47)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNOR11 (FNOR11) -5,08% (R$ 0,56)\n• XPML11 (XP MALLS FUNDO DE INVESTIMENTO — tijolo: shoppings) -4,44% (R$ 81,99)\n• VCRI11 (VINCI CREDIT SECURITIES FUNDO ) -4,14% (R$ 6,48)\n• ALZR11 (ALIANZA TRUST RENDA IMOBILIÁRI) -2,86% (R$ 9,17)\n• HGBS11 (HEDGE BRASIL SHOPPING FUNDO DE — tijolo: shoppings) -2,61% (R$ 16,77)\n• BTCI11 (BTG PACTUAL CRÉDITO IMOBILIÁRI — papel) -2,46% (R$ 7,92)\n• MANA11 (MANATÍ CAPITAL HEDGE FUND FUND) -1,81% (R$ 8,14)\n• RBRX11 (PATRIA PLUS MULTIESTRATÉGIA RE) -1,77% (R$ 6,11)\n• HREC11 (HEDGE RECEBÍVEIS IMOBILIÁRIOS ) -1,67% (R$ 8,24)\n• SNME11 (SUNO MULTIESTRATÉGIA FUNDO DE ) -1,67% (R$ 8,85)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -1,53%\n• Nasdaq (EUA): -1,64%\n• Dow Jones (EUA): -1,75%\n• Euro Stoxx 50 (Europa): -0,66%\n• Nikkei 225 (Japão): +0,28%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: -0,45% (US$ 62,707)\n• Ethereum: -0,12% (US$ 1,773)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,3%"
 }
