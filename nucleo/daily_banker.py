@@ -34,19 +34,28 @@ IPCA/CDI do BCB, cotações) — mesma fonte, mesmos números da planilha.
 
 import json
 import os
+
+from pathlib import Path
+
+# Estrutura de pastas: este arquivo vive em nucleo/, os dados em dados/.
+# Caminhos resolvidos a partir do próprio arquivo = funcionam de qualquer
+# diretório de trabalho (workflow roda da raiz; teste local também deve).
+RAIZ = Path(__file__).resolve().parents[1]
+DADOS = RAIZ / "dados"
+
 from datetime import date, datetime, timedelta
 
 import requests
 from dotenv import load_dotenv
 
-import carteira_excel as ce
+from nucleo import carteira_excel as ce
 
 load_dotenv()
 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
-ESTADO_PATH = "estado_banker.json"
+ESTADO_PATH = str(DADOS / "estado_banker.json")
 MARCOS_VENCIMENTO_DIAS = [30, 7]
 COOLDOWN_ALERTA_ALOCACAO_DIAS = 7
 
@@ -346,7 +355,7 @@ def _focus_resumo() -> str:
 
 def _manchetes_do_mes(ano: int, mes: int) -> list[str]:
     try:
-        with open("memoria_mensal.json", encoding="utf-8") as f:
+        with open(DADOS / "memoria_mensal.json", encoding="utf-8") as f:
             memoria = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         return []
@@ -407,7 +416,7 @@ def msg_retrospectiva_mercado(hoje: date, estado: dict) -> str | None:
         print("Retrospectiva: sem números nem manchetes do mês — pulando.")
         return None
 
-    from provedores_llm import call_llm_text
+    from servicos.provedores_llm import call_llm_text
 
     nomes_meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho",
                    "agosto", "setembro", "outubro", "novembro", "dezembro"]

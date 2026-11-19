@@ -6,7 +6,7 @@ Todo dia útil de manhã, esse projeto manda pro Telegram:
    média de cada classe), top 20 de altas e baixas entre as ações mais
    líquidas (com o nome de cada empresa), top 10 dos fundos listados
    (FIIs, Fiagro e FI-Infra, com o tipo de cada um anotado — papel,
-   logística, shoppings, FOF... — do catálogo curado em `fundos_tipos.py`), índices internacionais (S&P 500, Nasdaq,
+   logística, shoppings, FOF... — do catálogo curado em `conhecimento/fundos_tipos.py`), índices internacionais (S&P 500, Nasdaq,
    Dow, Euro Stoxx, Nikkei), Bitcoin/Ethereum e os últimos proventos pagos
    pelos ativos de bolsa da carteira.
 2. **Digest de notícias em 6 categorias** — Renda Fixa, Renda Variável/Ações,
@@ -17,24 +17,38 @@ Todo dia útil de manhã, esse projeto manda pro Telegram:
 
 E durante o dia dá pra **conversar com o bot**: qualquer mensagem no Telegram
 é respondida em ~2–5 minutos, com base no digest do dia, em indicadores
-oficiais do Banco Central e na carteira descrita em `carteira.json` — então
+oficiais do Banco Central e na carteira descrita em `dados/carteira.json` — então
 "isso afeta minha debênture IPCA+?" recebe resposta sobre a SUA posição, não
 sobre o mercado em abstrato.
 
 Custo total: **R$ 0**, sem nenhum servidor ligado.
 
+## Estrutura de pastas
+
+```
+nucleo/        os 4 executáveis: market_digest (digest da manhã), chat_bot,
+               daily_banker e carteira_excel — rode sempre da raiz, como
+               módulo: python -m nucleo.market_digest
+servicos/      camadas reutilizadas: provedores_llm (cadeia de modelos) e
+               radar_mercado
+conhecimento/  o curado estático: produtos_mercado e fundos_tipos
+dados/         carteira.json (pesos públicos) e os JSONs de estado que o
+               workflow commita; o carteira_privada.json local de teste
+               também mora aqui (e segue no .gitignore)
+```
+
 ## Arquitetura — quem faz o quê
 
 | Arquivo | Papel |
 |---|---|
-| `market_digest.py` | A rodada da manhã: busca notícias (RSS + sites sem RSS), triagem via Groq, análise profunda das principais + menção rápida das demais, envia as mensagens e salva `ultimo_digest.json` |
-| `radar_mercado.py` | Monta a mensagem do Radar (rankings B3 via brapi, mundo/cripto via yfinance, proventos da carteira). Cada seção falha isolada — se uma fonte cair, as outras saem mesmo assim |
-| `chat_bot.py` | Checa mensagens novas no Telegram e responde usando o digest do dia + indicadores do BCB + carteira com cotação real |
-| `carteira.json` | Sua carteira (só **percentuais**, nunca valores em R$ — o repositório é público) |
-| `ultimo_digest.json` | Gerado a cada rodada e commitado de volta — é a memória que o chat consulta (inclui o texto do radar) |
-| `noticias_enviadas.json` | Memória de dedup: links e títulos já enviados nos últimos 7 dias, pra mesma notícia não repetir em digests seguidos |
-| `.github/workflows/main.yml` | Workflow do digest (roda o `market_digest.py` e commita os JSONs) |
-| `.github/workflows/chat.yml` | Workflow do chat (roda o `chat_bot.py`) |
+| `nucleo/market_digest.py` | A rodada da manhã: busca notícias (RSS + sites sem RSS), triagem via Groq, análise profunda das principais + menção rápida das demais, envia as mensagens e salva `dados/ultimo_digest.json` |
+| `servicos/radar_mercado.py` | Monta a mensagem do Radar (rankings B3 via brapi, mundo/cripto via yfinance, proventos da carteira). Cada seção falha isolada — se uma fonte cair, as outras saem mesmo assim |
+| `nucleo/chat_bot.py` | Checa mensagens novas no Telegram e responde usando o digest do dia + indicadores do BCB + carteira com cotação real |
+| `dados/carteira.json` | Sua carteira (só **percentuais**, nunca valores em R$ — o repositório é público) |
+| `dados/ultimo_digest.json` | Gerado a cada rodada e commitado de volta — é a memória que o chat consulta (inclui o texto do radar) |
+| `dados/noticias_enviadas.json` | Memória de dedup: links e títulos já enviados nos últimos 7 dias, pra mesma notícia não repetir em digests seguidos |
+| `.github/workflows/main.yml` | Workflow do digest (roda o `nucleo/market_digest.py` e commita os JSONs) |
+| `.github/workflows/chat.yml` | Workflow do chat (roda o `nucleo/chat_bot.py`) |
 
 ### O disparo de verdade vem do cron-job.org, não do GitHub
 
@@ -132,7 +146,7 @@ nos prompts — que carregam a carteira) e Cerebras (passou a exigir cartão).
   do Telegram, quebrando em fronteira de parágrafo (nunca no meio de uma
   linha/tag HTML), com marcador "(continuação N/M)".
 - **Dedup de notícias**: tudo que entra num digest fica registrado por link
-  E título normalizado em `noticias_enviadas.json` (retenção de 7 dias) — a
+  E título normalizado em `dados/noticias_enviadas.json` (retenção de 7 dias) — a
   janela de 36h continua pegando notícia de fim de tarde sem repetir a de
   ontem.
 - **Timeout em tudo** (feeds, APIs, Telegram) e `timeout-minutes` nos
@@ -172,7 +186,7 @@ Crie dois cronjobs com a configuração da seção de arquitetura acima: um pro
 `main.yml` (dias úteis de manhã) e um pro `chat.yml` (a cada ~2 min).
 
 ### 6. Carteira
-Edite `carteira.json`: `posicoes_b3` (ativos com ticker — ganham cotação
+Edite `dados/carteira.json`: `posicoes_b3` (ativos com ticker — ganham cotação
 real), `outras_posicoes` (LCA, debênture, fundo — sem cotação pública, mas o
 bot sabe que existem e conecta notícia relevante a eles, ex: IPCA → debênture
 IPCA+), `acompanhando` e `perfil`. **Só percentuais, nunca valores em R$** —
@@ -187,7 +201,7 @@ python3 market_digest.py`.
 ## Ajustes comuns
 
 - **Fontes**: `RSS_FEEDS` (feeds confirmados) e `HTML_SOURCES` (página de
-  listagem de sites sem RSS — o sitemap faz o resto) em `market_digest.py`.
+  listagem de sites sem RSS — o sitemap faz o resto) em `nucleo/market_digest.py`.
   Antes de adicionar um feed, confirme que funciona:
   ```bash
   python3 -c "import feedparser; f=feedparser.parse('URL'); print(len(f.entries), 'itens')"
@@ -197,7 +211,7 @@ python3 market_digest.py`.
   `MAX_ITENS_RASOS_POR_CATEGORIA` (menção de uma frase).
 - **Radar**: `TOP_N`, `UNIVERSO_ACOES`/`UNIVERSO_FIIS` (filtro de liquidez —
   sem ele o ranking vira micro-cap ilíquida que "subiu 40%" com três
-  negócios) e as listas `INDICES_MUNDO`/`CRIPTO` em `radar_mercado.py`.
+  negócios) e as listas `INDICES_MUNDO`/`CRIPTO` em `servicos/radar_mercado.py`.
 - **Horários**: nos cronjobs do cron-job.org (e nos `cron:` de backup dos
   workflows, sempre em UTC).
 
@@ -208,9 +222,9 @@ Todo dia, junto com o digest, o workflow gera uma planilha da carteira com
 commitada**, porque o repositório é público. Os dados reais (valores
 aplicados, taxas contratadas, quantidades) vivem no GitHub Secret
 `CARTEIRA_PRIVADA` (criptografado): copie o modelo de
-`carteira_privada.exemplo.json`, preencha e cole no secret.
+`dados/carteira_privada.exemplo.json`, preencha e cole no secret.
 
-O que ela calcula (`carteira_excel.py`):
+O que ela calcula (`nucleo/carteira_excel.py`):
 
 - **Renda Fixa** — cada título acruando pela taxa contratada: prefixado e
   IPCA+ capitalizam por dias úteis/252 com fórmulas que usam `HOJE()` (o
@@ -228,7 +242,7 @@ Convenção de cores: azul = dado buscado hoje · preto = fórmula · verde =
 referência entre abas.
 
 E no digest, o **alerta de carteira**: uma chamada extra à Groq cruza as
-notícias analisadas com as posições do `carteira.json` (o público, só
+notícias analisadas com as posições do `dados/carteira.json` (o público, só
 nomes/indexadores) e manda "🎯 Sua carteira no noticiário de hoje" quando
 alguma posição pode ser afetada — com regra estrita de só apontar ligação
 explícita no material (nenhum alerta é resposta válida).
@@ -249,7 +263,7 @@ mensagem quando tem algo a dizer.
   ±5 p.p.) e o bot avisa quando a carteira desvia além da banda — no máximo
   1 vez por semana. Aponta o desvio; não recomenda operação.
 - **Índice de rentabilidade** (silencioso, diário): base-100 sobre o custo,
-  salvo em `estado_banker.json` — são SÓ percentuais, por isso pode ser
+  salvo em `dados/estado_banker.json` — são SÓ percentuais, por isso pode ser
   commitado no repositório público. A renda variável entra no índice quando
   a posição tem `preco_medio` no secret.
 - **Relatório mensal** (1º dia útil): quanto a carteira rendeu no mês
@@ -258,7 +272,7 @@ mensagem quando tem algo a dizer.
 
 ## Catálogo de produtos e modo comitê (/analise)
 
-**Catálogo de produtos** (`produtos_mercado.py`): o chat conhece o mapa dos
+**Catálogo de produtos** (`conhecimento/produtos_mercado.py`): o chat conhece o mapa dos
 produtos do mercado brasileiro — Tesouro, CDB, LCI/LCA, CRI/CRA, debêntures,
 fundos, previdência, FIIs, ETFs, BDRs, COE, poupança — com tributação, FGC,
 liquidez e pra que serve cada um. É texto estático de propósito (regras

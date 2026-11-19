@@ -28,6 +28,15 @@ Variáveis de ambiente necessárias (ver README.md):
 
 import json
 import os
+
+from pathlib import Path
+
+# Estrutura de pastas: este arquivo vive em nucleo/, os dados em dados/.
+# Caminhos resolvidos a partir do próprio arquivo = funcionam de qualquer
+# diretório de trabalho (workflow roda da raiz; teste local também deve).
+RAIZ = Path(__file__).resolve().parents[1]
+DADOS = RAIZ / "dados"
+
 import time
 from datetime import datetime, timedelta, timezone
 
@@ -36,7 +45,7 @@ import requests
 import trafilatura
 from dotenv import load_dotenv
 from json_repair import repair_json
-from provedores_llm import call_llm_json
+from servicos.provedores_llm import call_llm_json
 from trafilatura import sitemaps as trafilatura_sitemaps
 from trafilatura import feeds as trafilatura_feeds
 
@@ -111,7 +120,7 @@ JANELA_HORAS = 36
 
 # Onde o digest do dia é salvo — o chat_bot.py lê esse arquivo pra poder
 # conversar com base no que já foi analisado hoje.
-DIGEST_PATH = "ultimo_digest.json"
+DIGEST_PATH = str(DADOS / "ultimo_digest.json")
 
 # Quantas notícias por categoria recebem análise completa (mecanismo,
 # implicação, próximo evento) — essas baixam o texto integral do artigo.
@@ -361,7 +370,7 @@ def fetch_pool() -> list[dict]:
 # link e o título de tudo que já foi enviado num arquivo do repositório —
 # o workflow commita ele de volta, igual já faz com o ultimo_digest.json —
 # e filtramos o pool contra esse arquivo logo no começo.
-ENVIADAS_PATH = "noticias_enviadas.json"
+ENVIADAS_PATH = str(DADOS / "noticias_enviadas.json")
 RETENCAO_ENVIADAS_DIAS = 7  # mais que isso é inútil: a janela do pool é de 36h
 
 
@@ -587,7 +596,7 @@ def alerta_carteira(analises: list[dict]) -> list[str]:
     if not analises:
         return []
     try:
-        with open("carteira.json", encoding="utf-8") as f:
+        with open(DADOS / "carteira.json", encoding="utf-8") as f:
             carteira = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         return []
@@ -800,7 +809,7 @@ def main() -> None:
     # o digest segue normalmente sem o radar.
     radar_texto = ""
     try:
-        from radar_mercado import monta_radar, radar_sem_html
+        from servicos.radar_mercado import monta_radar, radar_sem_html
 
         radar_texto = monta_radar()
     except Exception as exc:
@@ -934,7 +943,7 @@ def main() -> None:
 
 # ------------------------------------------------- Memória mensal do mercado
 
-MEMORIA_MENSAL_PATH = "memoria_mensal.json"
+MEMORIA_MENSAL_PATH = str(DADOS / "memoria_mensal.json")
 RETENCAO_MEMORIA_DIAS = 70  # cobre o mês fechado + folga; poda o resto
 
 

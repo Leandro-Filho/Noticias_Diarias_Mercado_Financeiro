@@ -30,13 +30,22 @@ BDRs) são o que dá pra cobrir de verdade.
 
 import json
 import os
+
+from pathlib import Path
+
+# Estrutura de pastas: este arquivo vive em servicos/, os dados em dados/.
+# Caminhos resolvidos a partir do próprio arquivo = funcionam de qualquer
+# diretório de trabalho (workflow roda da raiz; teste local também deve).
+RAIZ = Path(__file__).resolve().parents[1]
+DADOS = RAIZ / "dados"
+
 import re
 from datetime import datetime, timedelta, timezone
 
 import requests
 
 BRAPI_TOKEN = os.environ.get("BRAPI_TOKEN", "")
-CARTEIRA_PATH = "carteira.json"
+CARTEIRA_PATH = str(DADOS / "carteira.json")
 
 # Quantos ativos mostrar em cada ranking (altas e baixas).
 TOP_N_ACOES = 20   # 'pelo menos um Top20 pra visão ampla' — pedido de 19/11
@@ -114,7 +123,7 @@ def _linhas_ranking(ativos: list[dict], com_tipo: bool = False) -> list[str]:
     """Uma linha por ativo: ticker, NOME da empresa/fundo, variação e preço.
     Ex: '• RCSL4 (Recrusul) +6,56% (R$ 0,65)'. Pros fundos, anota também o
     tipo quando catalogado: '• VGIR11 (Valora CRI — papel (CDI)) ...'."""
-    from fundos_tipos import tipo_do_fundo
+    from conhecimento.fundos_tipos import tipo_do_fundo
 
     linhas = []
     for a in ativos:

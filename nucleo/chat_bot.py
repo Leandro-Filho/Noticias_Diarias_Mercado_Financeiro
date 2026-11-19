@@ -24,15 +24,24 @@ Variáveis de ambiente necessárias:
 
 import json
 import os
+
+from pathlib import Path
+
+# Estrutura de pastas: este arquivo vive em nucleo/, os dados em dados/.
+# Caminhos resolvidos a partir do próprio arquivo = funcionam de qualquer
+# diretório de trabalho (workflow roda da raiz; teste local também deve).
+RAIZ = Path(__file__).resolve().parents[1]
+DADOS = RAIZ / "dados"
+
 import time
 from datetime import datetime
 
 import requests
 from dotenv import load_dotenv
-from provedores_llm import call_llm_text
+from servicos.provedores_llm import call_llm_text
 
-from fundos_tipos import texto_tipos_para_chat
-from produtos_mercado import CATALOGO_PRODUTOS
+from conhecimento.fundos_tipos import texto_tipos_para_chat
+from conhecimento.produtos_mercado import CATALOGO_PRODUTOS
 
 load_dotenv()
 
@@ -51,7 +60,7 @@ if not TELEGRAM_BOT_TOKEN:
 # qualidade="alta": GPT-5/GPT-4.1 do GitHub Models primeiro (é a conversa —
 # onde a inteligência mais aparece), com fallback automático pra OpenRouter
 # e Groq se o limite diário esgotar ou o provedor cair.
-DIGEST_PATH = "ultimo_digest.json"
+DIGEST_PATH = str(DADOS / "ultimo_digest.json")
 
 # Só responde em chats reconhecidos — evita gastar chamada de API se alguém
 # de fora encontrar o bot e mandar mensagem.
@@ -155,7 +164,7 @@ def fetch_indicadores_mercado() -> str:
 
 # ------------------------------------------------------- Carteira (brapi.dev)
 
-CARTEIRA_PATH = "carteira.json"
+CARTEIRA_PATH = str(DADOS / "carteira.json")
 
 
 def carrega_carteira() -> dict:

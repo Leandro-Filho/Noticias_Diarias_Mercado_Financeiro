@@ -36,6 +36,15 @@ Para teste local, um arquivo carteira_privada.json (no .gitignore!) substitui o 
 import io
 import json
 import os
+
+from pathlib import Path
+
+# Estrutura de pastas: este arquivo vive em nucleo/, os dados em dados/.
+# Caminhos resolvidos a partir do próprio arquivo = funcionam de qualquer
+# diretório de trabalho (workflow roda da raiz; teste local também deve).
+RAIZ = Path(__file__).resolve().parents[1]
+DADOS = RAIZ / "dados"
+
 from datetime import date, datetime, timedelta
 
 import requests
@@ -51,7 +60,7 @@ BRAPI_TOKEN = os.environ.get("BRAPI_TOKEN", "")
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 
-ARQUIVO_SAIDA = "carteira.xlsx"
+ARQUIVO_SAIDA = str(RAIZ / "carteira.xlsx")  # gerado e enviado, nunca commitado (.gitignore)
 
 FONTE = "Arial"
 AZUL_INPUT = Font(name=FONTE, color="0000FF")          # dado de entrada
@@ -79,7 +88,7 @@ def carrega_carteira_privada() -> dict:
     bruto = os.environ.get("CARTEIRA_PRIVADA", "").strip()
     if not bruto:
         try:
-            with open("carteira_privada.json", encoding="utf-8") as f:
+            with open(DADOS / "carteira_privada.json", encoding="utf-8") as f:
                 bruto = f.read()
             print("Usando carteira_privada.json local (modo teste).")
         except FileNotFoundError:

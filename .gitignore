@@ -1,6 +1,7 @@
 # Chaves e dados privados — NUNCA commitá-los (o repositório é público)
 .env
 carteira_privada.json
+dados/carteira_privada.json
 carteira.xlsx
 carteira_*.xlsx
 *.xlsx

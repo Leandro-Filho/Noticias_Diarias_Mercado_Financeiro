@@ -25,7 +25,7 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: python market_digest.py
+      - run: python -m nucleo.market_digest
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API }}
           GITHUB_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }} # liga o GPT-5/GPT-4.1 gratuito do GitHub Models
@@ -42,7 +42,7 @@ jobs:
       - name: Daily banker (agenda, vencimentos, alocação, índice)
         if: always()
         continue-on-error: true
-        run: python daily_banker.py
+        run: python -m nucleo.daily_banker
         env:
           CARTEIRA_PRIVADA: ${{ secrets.CARTEIRA_PRIVADA }}
           BRAPI_TOKEN: ${{ secrets.BRAPI_TOKEN }}
@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ultimo_digest.json noticias_enviadas.json estado_banker.json memoria_mensal.json
+          git add dados/ultimo_digest.json dados/noticias_enviadas.json dados/estado_banker.json dados/memoria_mensal.json
           git diff --staged --quiet || git commit -m "Atualiza digest do dia"
           git push
 
@@ -64,7 +64,7 @@ jobs:
       - name: Gerar e enviar carteira.xlsx no Telegram
         if: always()
         continue-on-error: true
-        run: python carteira_excel.py
+        run: python -m nucleo.carteira_excel
         env:
           CARTEIRA_PRIVADA: ${{ secrets.CARTEIRA_PRIVADA }}
           BRAPI_TOKEN: ${{ secrets.BRAPI_TOKEN }}

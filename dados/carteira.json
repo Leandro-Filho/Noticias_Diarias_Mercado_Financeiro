@@ -1,0 +1,37 @@
+{
+  "_nota": "Carteira PÚBLICA: só percentuais, indexadores e tickers — nunca valores em R$ (o repositório é público). Os valores reais vivem no secret CARTEIRA_PRIVADA. Recriado em 19/11/2026 após o arquivo original sumir do repositório.",
+  "posicoes_b3": [
+    {
+      "ticker": "HGLG11",
+      "tipo": "FII de tijolo (logística)",
+      "peso_pct": 25,
+      "nota": "única posição de renda variável"
+    }
+  ],
+  "outras_posicoes": [
+    {
+      "nome": "LCA Rabobank",
+      "tipo": "LCA prefixada",
+      "indexador": "prefixado",
+      "nota": "isenta de IR, coberta pelo FGC, vencimento 2028"
+    },
+    {
+      "nome": "LCA Banco Votorantim",
+      "tipo": "LCA prefixada",
+      "indexador": "prefixado",
+      "nota": "isenta de IR, coberta pelo FGC, vencimento 2028"
+    },
+    {
+      "nome": "Debênture incentivada UTPS12 (Usina Termelétrica Pampa Sul)",
+      "tipo": "debênture incentivada",
+      "indexador": "IPCA",
+      "nota": "isenta de IR, SEM FGC (risco do emissor), vencimento 2028"
+    }
+  ],
+  "alocacao_pct": { "renda_fixa": 75, "renda_variavel": 25 },
+  "acompanhando": ["^BVSP", "IFIX"],
+  "perfil": {
+    "horizonte": "médio-longo prazo",
+    "objetivo": "acumulação, com base de renda fixa isenta e renda variável concentrada em FII"
+  }
+}
