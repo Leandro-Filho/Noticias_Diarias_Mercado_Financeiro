@@ -929,6 +929,45 @@ def main() -> None:
     salvar_digest_do_dia(
         selecao_por_categoria, analises_por_indice, rasos_por_categoria, de_olho_por_categoria, radar_para_digest
     )
+    registra_memoria_mensal(list(analises_por_indice.values()), de_olho_por_categoria)
+
+
+# ------------------------------------------------- Memória mensal do mercado
+
+MEMORIA_MENSAL_PATH = "memoria_mensal.json"
+RETENCAO_MEMORIA_DIAS = 70  # cobre o mês fechado + folga; poda o resto
+
+
+def registra_memoria_mensal(analises: list[dict], de_olho_por_categoria: dict[str, str]) -> None:
+    """O digest é sobrescrito todo dia — sem isto, o bot não LEMBRA o que
+    aconteceu no mês. Aqui acumulamos só o essencial de cada dia (manchetes
+    analisadas + eventos "de olho"), commitado pelo workflow, pra
+    retrospectiva mensal do daily_banker ter matéria-prima real em vez de
+    pedir pro modelo "lembrar" (que é como se inventa retrospectiva)."""
+    try:
+        try:
+            with open(MEMORIA_MENSAL_PATH, encoding="utf-8") as f:
+                memoria = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            memoria = []
+
+        hoje = datetime.now(timezone.utc).date()
+        entrada = {
+            "data": hoje.isoformat(),
+            "manchetes": [a.get("title", "")[:160] for a in analises if a.get("title")],
+            "de_olho": sorted({v[:160] for v in de_olho_por_categoria.values() if v})[:6],
+        }
+        memoria = [m for m in memoria if m.get("data") != entrada["data"]]
+        memoria.append(entrada)
+
+        corte = (hoje - timedelta(days=RETENCAO_MEMORIA_DIAS)).isoformat()
+        memoria = [m for m in memoria if m.get("data", "") >= corte]
+
+        with open(MEMORIA_MENSAL_PATH, "w", encoding="utf-8") as f:
+            json.dump(memoria, f, ensure_ascii=False, indent=1)
+        print(f"Memória mensal: {len(memoria)} dias registrados.")
+    except Exception as exc:
+        print(f"Falha registrando memória mensal ({exc}) — seguindo sem ela.")
 
 
 def salvar_digest_do_dia(

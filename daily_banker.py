@@ -299,6 +299,153 @@ def diagnostico_concentracao(carteira: dict, detalhe_rf: list[tuple[dict, float]
     return linhas
 
 
+# --------------------------------------------- Retrospectiva do mercado
+
+def _variacao_mes_yf(simbolo: str, ano: int, mes: int):
+    """Variação % de um índice/ativo dentro de um mês fechado (Yahoo)."""
+    import yfinance as yf
+
+    hist = yf.Ticker(simbolo).history(period="3mo", interval="1d")["Close"].dropna()
+    do_mes = hist[(hist.index.year == ano) & (hist.index.month == mes)]
+    if len(do_mes) < 2:
+        return None
+    return (float(do_mes.iloc[-1]) / float(do_mes.iloc[0]) - 1) * 100
+
+
+def _serie_primeiro_ultimo(codigo: int, ano: int, mes: int):
+    """Primeiro e último valor de uma série SGS dentro do mês."""
+    dados = ce._sgs(codigo, data_inicial=date(ano, mes, 1))
+    do_mes = [d for d in dados
+              if datetime.strptime(d["data"], "%d/%m/%Y").date().month == mes
+              and datetime.strptime(d["data"], "%d/%m/%Y").date().year == ano]
+    if not do_mes:
+        return None
+    return float(do_mes[0]["valor"]), float(do_mes[-1]["valor"])
+
+
+def _focus_resumo() -> str:
+    """Boletim Focus = literalmente 'as previsões dos bancos'. Mesma URL
+    montada na mão com %20 do market_digest (a Olinda rejeita '+')."""
+    from urllib.parse import quote
+
+    ano_ref = date.today().year + 1  # projeções pro ano seguinte são as que importam
+    linhas = []
+    for indicador, rotulo in [("Selic", "Selic fim de"), ("IPCA", "IPCA de"),
+                              ("Câmbio", "Dólar fim de"), ("PIB Total", "PIB de")]:
+        try:
+            filtro = quote(f"Indicador eq '{indicador}' and DataReferencia eq '{ano_ref}'", safe="")
+            url = ("https://olinda.bcb.gov.br/olinda/servico/Expectativas/versao/v1/odata/"
+                   f"ExpectativasMercadoAnuais?$filter={filtro}&$orderby=Data%20desc&$top=1&$format=json")
+            dados = requests.get(url, timeout=15).json().get("value", [])
+            if dados:
+                linhas.append(f"{rotulo} {ano_ref}: mediana {dados[0].get('Mediana')}")
+        except Exception as exc:
+            print(f"Focus {indicador} indisponível: {exc}")
+    return "; ".join(linhas)
+
+
+def _manchetes_do_mes(ano: int, mes: int) -> list[str]:
+    try:
+        with open("memoria_mensal.json", encoding="utf-8") as f:
+            memoria = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+    prefixo = f"{ano:04d}-{mes:02d}"
+    manchetes = []
+    for dia in memoria:
+        if str(dia.get("data", "")).startswith(prefixo):
+            manchetes.extend(dia.get("manchetes", []))
+    return manchetes
+
+
+def msg_retrospectiva_mercado(hoje: date, estado: dict) -> str | None:
+    """1º dia útil: retrospectiva CRÍTICA do mês do mercado — números reais
+    do período + manchetes acumuladas + Focus, sintetizados pelo melhor
+    modelo disponível com as regras anti-alucinação de sempre. É o 'resumo
+    do dia' em versão mês, com análise de tendência."""
+    if hoje.weekday() >= 5 or hoje.day > 3:
+        return None
+    mes_ref = hoje.replace(day=1) - timedelta(days=1)
+    chave = mes_ref.strftime("%Y-%m")
+    if estado.get("ultima_retrospectiva") == chave:
+        return None
+    estado["ultima_retrospectiva"] = chave
+
+    ano, mes = mes_ref.year, mes_ref.month
+    numeros = []
+    for simbolo, nome in [("^BVSP", "Ibovespa"), ("^GSPC", "S&P 500"), ("BTC-USD", "Bitcoin")]:
+        try:
+            var = _variacao_mes_yf(simbolo, ano, mes)
+            if var is not None:
+                numeros.append(f"{nome}: {fmt_pct_br(var, 2)} no mês")
+        except Exception as exc:
+            print(f"Retrospectiva: {simbolo} indisponível ({exc}).")
+    try:
+        ptax = _serie_primeiro_ultimo(ce.SGS_PTAX_VENDA, ano, mes)
+        if ptax:
+            var = (ptax[1] / ptax[0] - 1) * 100
+            numeros.append(f"Dólar PTAX: R$ {ptax[0]:.2f} → R$ {ptax[1]:.2f} ({fmt_pct_br(var, 2)})")
+    except Exception as exc:
+        print(f"Retrospectiva: PTAX indisponível ({exc}).")
+    try:
+        selic = _serie_primeiro_ultimo(ce.SGS_SELIC_META, ano, mes)
+        if selic:
+            numeros.append(
+                f"Meta Selic: {selic[0]:.2f}% → {selic[1]:.2f}%"
+                + (" (inalterada no mês)" if selic[0] == selic[1] else " (MUDOU no mês)")
+            )
+    except Exception as exc:
+        print(f"Retrospectiva: Selic indisponível ({exc}).")
+    cdi = _cdi_acumulado_mes(ano, mes)
+    if cdi is not None:
+        numeros.append(f"CDI acumulado no mês: {fmt_pct_br(cdi, 2)}")
+
+    manchetes = _manchetes_do_mes(ano, mes)
+    focus = _focus_resumo()
+
+    if not numeros and not manchetes:
+        print("Retrospectiva: sem números nem manchetes do mês — pulando.")
+        return None
+
+    from provedores_llm import call_llm_text
+
+    nomes_meses = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho",
+                   "agosto", "setembro", "outubro", "novembro", "dezembro"]
+    nome_mes = nomes_meses[mes - 1]
+    bloco_manchetes = "\n".join(f"- {m}" for m in manchetes[:60]) or "(nenhuma manchete registrada neste mês)"
+
+    prompt = f"""Hoje é {hoje.strftime('%d/%m/%Y')}. Você é o analista que escreve a
+retrospectiva de {nome_mes}/{ano} pro investidor pessoa física brasileiro.
+
+NÚMEROS REAIS do mês (fontes oficiais — a base de tudo):
+{chr(10).join('- ' + n for n in numeros)}
+
+PROJEÇÕES DOS BANCOS (Boletim Focus/BCB, medianas atuais):
+{focus or '(Focus indisponível hoje)'}
+
+MANCHETES analisadas pelo digest ao longo do mês:
+{bloco_manchetes}
+
+Escreva a retrospectiva em 4 partes curtas, texto corrido sem markdown:
+1. TENDÊNCIA: pra onde o mercado caminhou no mês, amarrando os números acima.
+2. AS DECISÕES DO MÊS: os 3-4 eventos/decisões mais relevantes — SOMENTE
+   dos que aparecem nas manchetes acima; se as manchetes não cobrirem algo,
+   não invente.
+3. O QUE OS BANCOS ESPERAM: leia as medianas do Focus acima e diga o que
+   elas implicam (se indisponível, diga que está indisponível).
+4. DE OLHO NO PRÓXIMO MÊS: 2-3 pontos observáveis.
+REGRAS CRÍTICAS: não invente número, data, nome nem direção que não esteja
+no material acima; não recomende compra/venda de ativo específico; incerteza
+é dita como incerteza. Máximo ~250 palavras."""
+
+    try:
+        texto = call_llm_text(prompt, max_tokens=700, qualidade="alta")
+    except Exception as exc:
+        print(f"Retrospectiva: LLM indisponível ({exc}).")
+        return None
+    return f"🗓️ <b>Retrospectiva do mercado — {nome_mes}/{ano}</b>\n\n{texto}"
+
+
 def _cdi_acumulado_mes(ano: int, mes: int) -> float | None:
     """CDI acumulado (%) de um mês fechado, via série SGS 12 do BCB."""
     try:
@@ -394,6 +541,15 @@ def main() -> None:
     m = msg_relatorio_mensal(hoje, estado, diagnostico_concentracao(carteira, detalhe_rf, rv_atual))
     if m:
         mensagens.append(m)
+
+    # retrospectiva crítica do MERCADO no mês (separada do relatório da
+    # carteira): números + manchetes acumuladas + Focus, via melhor modelo
+    try:
+        m = msg_retrospectiva_mercado(hoje, estado)
+        if m:
+            mensagens.append(m)
+    except Exception as exc:
+        print(f"Retrospectiva do mercado falhou ({exc}) — seguindo sem ela.")
 
     salva_estado(estado)
 
