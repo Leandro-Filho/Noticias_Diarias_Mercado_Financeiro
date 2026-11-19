@@ -105,6 +105,24 @@ def monta_contexto_digest(digest: dict) -> str:
     if not itens:
         return "Nenhuma notícia no digest de hoje ainda."
     blocos = []
+    # idade do digest: se o arquivo for de dias atrás (digest falhou, pool
+    # vazio etc.), o modelo precisa SABER — senão apresenta notícia e radar
+    # velhos como se fossem de hoje (aconteceu: radar de 30/10 servido em
+    # 19/11 com dólar defasado em 8%)
+    gerado_em = digest.get("gerado_em", "")
+    try:
+        data_digest = datetime.fromisoformat(gerado_em).date()
+        if data_digest == datetime.now().date():
+            blocos.append(f"Digest gerado HOJE ({data_digest.strftime('%d/%m/%Y')}).")
+        else:
+            blocos.append(
+                f"⚠️ ATENÇÃO: o digest abaixo foi gerado em {data_digest.strftime('%d/%m/%Y')} — "
+                f"NÃO é de hoje. As notícias e o radar dele estão DEFASADOS: ao usar qualquer "
+                f"dado deles, diga explicitamente a data; pra números atuais, use apenas os "
+                f"indicadores oficiais e os dados de carteira desta conversa."
+            )
+    except (ValueError, TypeError):
+        pass
     # radar da manhã (altas/baixas da B3, índices mundiais, cripto, proventos)
     # — permite responder "o que mais subiu hoje?" com os números reais
     radar = digest.get("radar")
@@ -159,7 +177,15 @@ def fetch_indicadores_mercado() -> str:
 
     if not linhas:
         return ""
-    return "Indicadores oficiais mais recentes (Banco Central):\n" + "\n".join(linhas)
+    return (
+        "Indicadores oficiais mais recentes (Banco Central):\n" + "\n".join(linhas) + "\n"
+        "REGRA SOBRE DATAS: a data entre parênteses é a DATA DO DADO, não a da "
+        "decisão que o originou. A meta Selic vigente foi definida na última "
+        "reunião do Copom JÁ REALIZADA — NUNCA atribua o valor atual a uma "
+        "reunião futura que apareça em agenda ou notícia (reunião futura ainda "
+        "não decidiu nada). Se não souber a data da última reunião, diga o valor "
+        "sem inventar a data da decisão."
+    )
 
 
 # ------------------------------------------------------- Carteira (brapi.dev)
@@ -497,13 +523,21 @@ def dividir_mensagem(texto: str, limite: int = TELEGRAM_LIMITE_CHARS) -> list[st
 
 def envia_telegram(chat_id: str, texto: str) -> None:
     for parte in dividir_mensagem(texto):
-        resp = requests.post(
-            f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
-            json={"chat_id": chat_id, "text": parte},
-            timeout=30,
-        )
-        if not resp.ok:
-            print(f"Erro ao enviar resposta pro chat {chat_id}:", resp.text)
+        # retry com espera crescente: queda de conexão com o Telegram não
+        # pode derrubar a rodada (aconteceu em 19/11 no digest)
+        for tentativa in range(1, 4):
+            try:
+                resp = requests.post(
+                    f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+                    json={"chat_id": chat_id, "text": parte},
+                    timeout=30,
+                )
+                if not resp.ok:
+                    print(f"Erro ao enviar resposta pro chat {chat_id}:", resp.text)
+                break
+            except requests.exceptions.RequestException as exc:
+                print(f"Envio ao Telegram falhou (tentativa {tentativa}/3): {exc}")
+                time.sleep(2 * tentativa)
         time.sleep(1)
 
 

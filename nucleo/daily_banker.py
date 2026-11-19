@@ -515,14 +515,20 @@ def envia(texto: str) -> None:
     if not (TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID):
         print("(modo teste, sem Telegram):\n" + texto)
         return
-    resp = requests.post(
-        f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
-        json={"chat_id": TELEGRAM_CHAT_ID, "text": texto[:4096], "parse_mode": "HTML",
-              "disable_web_page_preview": True},
-        timeout=30,
-    )
-    if not resp.ok:
-        print("Erro enviando mensagem do daily banker:", resp.text)
+    for tentativa in range(1, 4):  # retry: queda de conexão não derruba a rodada
+        try:
+            resp = requests.post(
+                f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+                json={"chat_id": TELEGRAM_CHAT_ID, "text": texto[:4096], "parse_mode": "HTML",
+                      "disable_web_page_preview": True},
+                timeout=30,
+            )
+            if not resp.ok:
+                print("Erro enviando mensagem do daily banker:", resp.text)
+            return
+        except requests.exceptions.RequestException as exc:
+            print(f"Envio ao Telegram falhou (tentativa {tentativa}/3): {exc}")
+            time.sleep(2 * tentativa)
 
 
 def main() -> None:

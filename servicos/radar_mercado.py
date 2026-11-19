@@ -378,7 +378,9 @@ def monta_radar(carteira: dict | None = None) -> str:
 
     for nome, secao in [
         ("mundo/cripto", secao_mundo_e_cripto),
-        ("Tesouro Direto", secao_tesouro_direto),
+        # ("Tesouro Direto", secao_tesouro_direto),  # DESATIVADO em 19/11/2026:
+        #  o endpoint da B3 passou a devolver 410 Gone (morreu de vez, como o
+        #  aviso acima previa). A função fica pra reativar se surgir fonte nova.
         ("proventos", lambda: secao_proventos_carteira(carteira)),
     ]:
         try:

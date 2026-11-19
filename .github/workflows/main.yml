@@ -54,7 +54,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dados/ultimo_digest.json dados/noticias_enviadas.json dados/estado_banker.json dados/memoria_mensal.json
+          # adiciona só os que existem: um arquivo ausente (ex: estado do
+          # banker antes do secret CARTEIRA_PRIVADA existir) fazia o git add
+          # inteiro falhar com pathspec error — e NADA era commitado, nunca.
+          # Foi isso que deixou o ultimo_digest.json travado em 30/10.
+          for f in dados/ultimo_digest.json dados/noticias_enviadas.json dados/estado_banker.json dados/memoria_mensal.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
           git diff --staged --quiet || git commit -m "Atualiza digest do dia"
           git push
 

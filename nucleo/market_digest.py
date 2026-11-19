@@ -773,21 +773,37 @@ def dividir_mensagem(text: str, limite: int = TELEGRAM_LIMITE_CHARS) -> list[str
     return partes
 
 
+def _post_telegram_resiliente(url: str, payload: dict, tentativas: int = 3) -> None:
+    """Falha de rede com o Telegram (connection reset, timeout) NÃO pode
+    matar a rodada inteira: em 19/11 um 'Connection reset by peer' no meio
+    do envio derrubou o main() antes do salvar_digest, e esse era um dos
+    motivos do digest ficar semanas sem atualizar. Re-tenta com espera
+    crescente; se falhar tudo, ENGOLE o erro e registra — perder UMA
+    mensagem é melhor que perder o digest do dia inteiro."""
+    for tentativa in range(1, tentativas + 1):
+        try:
+            resp = requests.post(url, json=payload, timeout=30)
+            if not resp.ok:
+                print(f"Telegram respondeu erro pro chat {payload.get('chat_id')}:", resp.text)
+            return
+        except requests.exceptions.RequestException as exc:
+            print(f"Envio ao Telegram falhou (tentativa {tentativa}/{tentativas}): {exc}")
+            time.sleep(2 * tentativa)
+    print("Desisti desta mensagem após as tentativas — seguindo com o resto da rodada.")
+
+
 def send_telegram(chat_id: str, text: str) -> None:
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     for parte in dividir_mensagem(text):
-        resp = requests.post(
+        _post_telegram_resiliente(
             url,
-            json={
+            {
                 "chat_id": chat_id,
                 "text": parte,
                 "parse_mode": "HTML",
                 "disable_web_page_preview": True,
             },
-            timeout=30,
         )
-        if not resp.ok:
-            print(f"Erro ao enviar mensagem pro chat {chat_id}:", resp.text)
         time.sleep(1)  # respeita o rate limit do Telegram entre as partes
 
 
