@@ -42,7 +42,23 @@
     "https://seekingalpha.com/article/4970246-has-nvidia-peaked-techtalk-podcast-episode-3?source=feed_all_articles": "2026-11-19",
     "https://www.clubefiinews.com.br": "2026-11-19",
     "https://www.clubefiinews.com.br/mercado-imobiliario": "2026-11-19",
-    "https://www.clubefiinews.com.br/recebiveis-imobiliarios": "2026-11-19"
+    "https://www.clubefiinews.com.br/recebiveis-imobiliarios": "2026-11-19",
+    "https://www.moneytimes.com.br/ipo-da-anthropic-nao-conseguiu-animar-wall-street-e-bolsas-de-ny-fecham-em-forte-queda-davs/": "2026-11-20",
+    "https://www.moneytimes.com.br/ibovespa-19-11-2026-davs/": "2026-11-20",
+    "https://www.moneytimes.com.br/petroleo-fecha-perto-da-estabilidade-com-aumento-das-tensoes-entre-eua-e-ira-davs/": "2026-11-20",
+    "https://www.moneytimes.com.br/dolar-a-vista-supera-os-r-593-e-renova-maxima-em-mais-de-um-ano-davs/": "2026-11-20",
+    "https://cointelegraph.com/markets/blackrock-ibit-record-single-day-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound": "2026-11-20",
+    "https://cointelegraph.com/markets/institutional-bitcoin-etf-holdings-clock-record-quarter-after-selling-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound": "2026-11-20",
+    "https://cointelegraph.com/magazine/binances-65b-freeze-order-hong-kong-suspicious-of-hype-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound": "2026-11-20",
+    "https://cointelegraph.com/news/moonpay-seeks-us-bank-charter-for-stablecoin-custody-services?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound": "2026-11-20",
+    "https://cointelegraph.com/news/sec-nominees-johnson-levine-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound": "2026-11-20",
+    "https://cointelegraph.com/markets/anthropic-shares-expected-to-open-above-83-ipo-price?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound": "2026-11-20",
+    "https://www.investing.com/news/stock-market-news/wall-streets-fear-gauge-touches-sevenmonth-high-as-ai-worries-mount-5041172": "2026-11-20",
+    "https://www.investing.com/news/stock-market-news/exclusivebeijing-to-bar-young-redchip-firms-from-listing-outside-mainland-china-sources-say-5040979": "2026-11-20",
+    "https://www.investing.com/news/stock-market-news/premarket-movers-anthropic-slides-after-debut-intuit-tumbles-on-mailchimp-sale-5041130": "2026-11-20",
+    "https://www.investing.com/news/stock-market-news/india-stocks-higher-at-close-of-trade-nifty-50-up-112-5041131": "2026-11-20",
+    "https://www.investing.com/news/stock-market-news/european-shares-head-for-steepest-weekly-drop-since-march-5040936": "2026-11-20",
+    "https://seekingalpha.com/article/4970526-2026-semiconductor-stock-selloff-long-term-outlook?source=feed_all_articles": "2026-11-20"
   },
   "titulos": {
     "bolsas da europa fecham em queda com pressão geopolítica": "2026-11-19",
@@ -87,6 +103,22 @@
     "has nvidia peaked? thetechtalk podcast episode 3": "2026-11-19",
     "clube fii news - notícias para o investidor de fundos imobiliários": "2026-11-19",
     "notícias de mercado imobiliário - clube fii news": "2026-11-19",
-    "notícias de certificados de recebíveis imobiliários | clube fii news": "2026-11-19"
+    "notícias de certificados de recebíveis imobiliários | clube fii news": "2026-11-19",
+    "ipo da anthropic não conseguiu animar wall street, e bolsas de ny fecham em forte queda": "2026-11-20",
+    "ibovespa perde os 167 mil pontos com incertezas fiscais e políticas do brasil": "2026-11-20",
+    "petróleo fecha perto da estabilidade com aumento das tensões entre eua e irã": "2026-11-20",
+    "dólar à vista supera os r$ 5,93 e renova máxima em mais de um ano": "2026-11-20",
+    "blackrock’s ibit loses record $541m amid anthropic market debut": "2026-11-20",
+    "institutions pile back into us bitcoin etfs in q3 after selling streak": "2026-11-20",
+    "binance’s $6.5b freeze order, hong kong ‘suspicious’ of hype: asia express": "2026-11-20",
+    "moonpay seeks us bank charter for stablecoin, custody services": "2026-11-20",
+    "trump’s sec nominee johnson backs formal rulemaking for tokenized stock trading": "2026-11-20",
+    "anthropic shares open at $111.50, 34.3% above $83 ipo price": "2026-11-20",
+    "wall street’s fear gauge touches seven-month high as ai worries mount": "2026-11-20",
+    "exclusive-beijing to bar young ’red-chip’ firms from listing outside mainland china, sources say": "2026-11-20",
+    "premarket movers: anthropic slides after debut, intuit tumbles on mailchimp sale": "2026-11-20",
+    "india stocks higher at close of trade; nifty 50 up 1.12%": "2026-11-20",
+    "european shares on track for steepest weekly drop since march": "2026-11-20",
+    "2026 semiconductor stock selloff: the long-term outlook": "2026-11-20"
   }
 }

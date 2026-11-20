@@ -1,213 +1,158 @@
 {
-  "gerado_em": "2026-11-19T19:38:43.643651+00:00",
+  "gerado_em": "2026-11-20T11:15:17.437124+00:00",
   "itens": [
     {
-      "title": "Ouro fecha em queda com expectativas de alta dos juros",
+      "title": "IPO da Anthropic não conseguiu animar Wall Street, e bolsas de NY fecham em forte queda",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ouro-fecha-em-queda-com-expectativas-de-alta-dos-juros-davs/",
+      "link": "https://www.moneytimes.com.br/ipo-da-anthropic-nao-conseguiu-animar-wall-street-e-bolsas-de-ny-fecham-em-forte-queda-davs/",
       "categorias": [
-        "renda_fixa"
+        "acoes",
+        "exterior"
       ],
-      "resumo": "O ouro recuou nesta quinta-feira, atingindo o menor nível em mais de um ano, impulsionado pela percepção de que o Federal Reserve manterá o ciclo de aperto monetário nos EUA.",
-      "mecanismo": "A ata do Fed indicou que a inflação elevada pode justificar novas altas de juros, o que fortalece o dólar e aumenta o custo de oportunidade de manter ativos sem rendimento como o ouro, pressionando seus preços para baixo.",
-      "implicacao": "Com a expectativa de juros mais altos nos EUA, a classe de ativos de metais preciosos tende a enfrentar pressão de venda no curto prazo, enquanto o dólar se fortalece, impactando negativamente ativos sensíveis a moeda forte.",
-      "risco": "A tese de queda pode ser invalidada se o Fed sinalizar uma pausa no ciclo de aperto ou se surgirem choques geopolíticos que reforcem a demanda por ouro como ativo de refúgio.",
-      "proximo_evento": "Reunião de política monetária do Federal Reserve em dezembro, onde se espera a definição do tamanho do próximo ajuste de juros.",
+      "resumo": "A estreia da Anthropic na bolsa não sustentou o otimismo no setor de IA, resultando em forte queda nos principais índices de Nova York, impulsionada por aversão ao risco e temores regulatórios.",
+      "mecanismo": "A vitória democrata nas eleições de meio de mandato nos EUA aumentou a probabilidade de regulamentações mais rígidas para data centers, o que, somado à saída do CEO da Nvidia, elevou o custo e a incerteza dos investimentos em infraestrutura de IA, drenando capital de ações de tecnologia e pressionando os índices de forma mais ampla.",
+      "implicacao": "Com o aumento da incerteza regulatória e a desaceleração esperada nos gastos com infraestrutura, o setor de tecnologia e semicondutores tende a enfrentar pressão de múltiplos, já que a redução no ritmo de construção de data centers impacta diretamente a demanda por chips e serviços de nuvem.",
+      "risco": "O cenário de queda pode ser invalidado se o Congresso dos EUA não aprovar novas restrições regulatórias ou se as empresas de IA demonstrarem crescimento de receita que compense os custos operacionais elevados.",
+      "proximo_evento": "Próximas divulgações de balanços das grandes empresas de tecnologia e possíveis anúncios legislativos do Congresso dos EUA sobre fiscalização de IA e infraestrutura de data centers.",
       "key_numbers": [
-        "Ouro (dez): US$ 3.685,50/oz",
-        "Queda do ouro: 1,51%",
-        "Chance de alta de 0,25 p.p.: 93,5%",
-        "Meta UBS 2026: US$ 4.500/oz"
+        "S&P 500: -2,03%",
+        "Nasdaq Composite: -2,23%",
+        "Preço de estreia Anthropic: US$ 83",
+        "Abertura Anthropic: US$ 111,50"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/sygnum-bitcoin-carry-trades-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O banco Sygnum projeta que estratégias de carry trade em Bitcoin voltarão a superar os rendimentos dos títulos do Tesouro dos EUA em 2027, após um período de baixa atratividade em 2026.",
-      "mecanismo": "A redução da concorrência entre fundos de hedge, que desmontaram posições curtas em futuros, deve aumentar a demanda por alavancagem e elevar o prêmio anualizado dos futuros de Bitcoin para mais de 2% acima dos yields dos T-bills de 3 meses, recuperando a vantagem histórica da estratégia.",
-      "implicacao": "Com a perspectiva de retornos superiores aos títulos públicos americanos, a classe de ativos criptoativos tende a atrair capital institucional em busca de yield, beneficiando a infraestrutura de custódia e negociação de derivativos.",
-      "risco": "A recuperação das taxas de funding pode ser frágil se a demanda por alavancagem não for sustentada por compras no mercado à vista, mantendo os retornos próximos aos dos títulos públicos sem o prêmio de risco adicional.",
-      "proximo_evento": "Monitoramento das taxas de funding perpétuo e dos fluxos institucionais em ETFs de Bitcoin ao longo de 2027 para confirmar a sustentabilidade da recuperação dos prêmios.",
-      "key_numbers": [
-        "Prêmio projetado 2027: >2% acima dos T-bills",
-        "Yield T-bill 3M atual: 4.25%",
-        "Funding rate pico 2024: 20%-40%",
-        "Funding rate atual: 3%-5%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Binance hackers stole 192 tokens across 11 networks, court docs show",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/binance-hackers-stole-192-tokens-across-11-networks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "Documentos judiciais revelam que o ataque à Binance resultou no roubo de 192 criptomoedas em 11 redes, totalizando US$ 6,3 bilhões, com stablecoins representando mais da metade do valor. A justiça dos Emirados Árabes Unidos mantém uma ordem de congelamento global de ativos contra os suspeitos, enquanto autoridades dos EUA já apreenderam parte dos fundos.",
-      "mecanismo": "A exposição pública da escala do hack e a ação coordenada de congelamento de ativos por tribunais internacionais e o DOJ dos EUA criam um precedente de recuperação judicial para grandes perdas em custódia centralizada. Isso tende a acelerar a migração institucional para soluções de custódia descentralizada ou fora da bolsa, reduzindo a concentração de risco em exchanges e potencialmente drenando liquidez dessas plataformas a favor de protocolos de auto-custódia e custódia institucional especializada.",
-      "implicacao": "Com a demonstração de vulnerabilidade sistêmica em custódias centralizadas, o setor de infraestrutura de custódia institucional e protocolos de segurança on-chain tende a se beneficiar, já que a demanda por soluções que mitigam o risco de contraparte e de hack em exchanges deve aumentar entre investidores institucionais.",
-      "risco": "A recuperação judicial pode falhar ou levar anos, e a incerteza prolongada pode gerar pânico no varejo, causando uma venda generalizada de criptoativos que ofusque o benefício setorial para a infraestrutura de segurança.",
-      "proximo_evento": "1 de dezembro de 2026, quando o tribunal de Abu Dhabi decidirá sobre a extensão da ordem de congelamento e se as empresas nomeadas (como Circle e BitGo) devem entregar os ativos retidos.",
-      "key_numbers": [
-        "Valor total roubado: US$ 6,3 bilhões",
-        "Stablecoins roubadas: US$ 3,46 bilhões",
-        "Ativos congelados nos EUA: US$ 1,2 bilhões",
-        "Data da audiência em Abu Dhabi: 01/12/2026"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Binance says it obtained $6.5B worldwide freezing order after hack",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/binance-says-won-65b-worldwide-freezing-order-after-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "A Binance anunciou a obtenção de uma ordem judicial global de congelamento de US$ 6,5 bilhões para recuperar ativos roubados no maior hack da história do setor, que ocorreu em 29 de outubro. A medida permite que avisos legais sejam servidos via blockchain e inclui uma lista dinâmica de 26.000 endereços de carteira vinculados aos fundos desviados.",
-      "mecanismo": "A ordem judicial cria um mecanismo legal para que emissores e exchanges congelem e devolvam ativos roubados, servindo como um instrumento de recuperação que complementa as ações do Departamento de Justiça dos EUA (que já apreendeu mais de US$ 1,2 bilhão) e os fundos de reserva internos da Binance, que já cobriram US$ 6,34 bilhões para repor os clientes.",
-      "implicacao": "A demonstração de capacidade de recuperação e a expansão planejada na Ásia podem fortalecer a confiança institucional no setor de exchanges centralizadas, beneficiando a classe de ativos de infraestrutura cripto e tokens de governança de grandes plataformas, já que a resiliência operacional e a conformidade legal se tornam diferenciais competitivos em um mercado que busca segurança após o incidente.",
-      "risco": "O risco principal é que os atacantes tenham convertido a maior parte dos ativos roubados em Bitcoin ou Ether, que não possuem emissor central e, portanto, não podem ser congelados por ordens judiciais, o que pode limitar drasticamente o valor efetivamente recuperado apesar do montante nominal da ordem.",
-      "proximo_evento": "Acompanhar os detalhes do plano de expansão da Binance para cinco novos mercados na Ásia, previstos para serem divulgados no primeiro trimestre de 2027, e possíveis atualizações sobre a efetividade da lista de endereços congelados.",
-      "key_numbers": [
-        "Valor da ordem de congelamento: US$ 6,5 bilhões",
-        "Ativos já cobertos pela Binance: US$ 6,34 bilhões",
-        "Endereços de carteira na lista: 26.000",
-        "Ativos apreendidos pelo DOJ: US$ 1,2 bilhões"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Anthropic shares slide 14% from debut high as $2 trillion valuation faces pressure",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-opens-34-above-ipo-price-reaches-2-trillion-valuation-in-nasdaq-debut-5039595",
+      "title": "Ibovespa perde os 167 mil pontos com incertezas fiscais e políticas do Brasil",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-19-11-2026-davs/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "As ações da Anthropic recuaram 14% desde o pico de estreia, refletindo pressão sobre a avaliação de mercado de US$ 2 trilhões da empresa de inteligência artificial.",
-      "mecanismo": "A queda de 14% nos papéis indica que o mercado está reprecificando o risco de execução e a sustentabilidade do valuation de US$ 2 trilhões, sugerindo que os investidores estão exigindo um prêmio de risco maior para ativos de IA de alto crescimento, o que pode levar a uma correção mais ampla em empresas do setor que dependem de múltiplos elevados.",
-      "implicacao": "Com a pressão sobre os múltiplos de empresas líderes em IA, o setor de tecnologia de alto crescimento tende a enfrentar volatilidade e possível desalavancagem, já que a perda de confiança no valuation de referência pode contaminar a percepção de risco para outras companhias do mesmo segmento.",
-      "risco": "A tese de correção pode ser invalidada se a Anthropic anunciar resultados de receita ou parcerias estratégicas que comprovem a sustentabilidade do valuation de US$ 2 trilhões, revertendo a pressão vendedora.",
-      "proximo_evento": "Próximos relatórios financeiros ou anúncios de receita da Anthropic e de suas concorrentes diretas no setor de IA generativa.",
+      "resumo": "O Ibovespa recuou para 166.376 pontos e o dólar subiu para R$ 5,9350, refletindo a aversão ao risco diante da percepção de que o pacote fiscal aprovado no Senado é insuficiente e das sinalizações de juros mais altos por mais tempo nos EUA.",
+      "mecanismo": "A rejeição de destaques que enfraqueceriam o ajuste fiscal no Senado foi vista pelo mercado como uma vitória parcial do governo, mas a manutenção de declarações presidenciais contra cortes de benefícios sociais eleva a percepção de risco soberano; simultaneamente, a probabilidade de 93,5% de alta de juros pelo Fed pressiona o câmbio e o fluxo de capitais, o que, somado à mediana do Focus de IPCA em 5,11% e Selic em 13,75%, sugere que o custo de capital no Brasil permanecerá elevado, penalizando ativos sensíveis a juros e risco país.",
+      "implicacao": "Com a persistência da incerteza fiscal e a pressão cambial, o setor de commodities e as blue chips tendem a sofrer com a saída de capital estrangeiro, já que a elevação do prêmio de risco desvaloriza ativos de maior liquidez e peso no índice, enquanto a classe de ativos de renda fixa prefixada pode se beneficiar da manutenção de juros altos, embora com volatilidade aumentada.",
+      "risco": "A aprovação rápida e sem emendas significativas do pacote fiscal na Câmara, combinada com uma reversão abrupta do sentimento de risco global, poderia inverter a tendência de queda do Ibovespa e fortalecer o real, invalidando a tese de aversão prolongada.",
+      "proximo_evento": "Análise do pacote de ajuste fiscal pela Câmara dos Deputados, prevista para a próxima terça-feira (24), e divulgação do Plano Estratégico 2027-2031 da Petrobras na segunda-feira (23).",
       "key_numbers": [
-        "Queda das ações: 14%",
-        "Valuation: US$ 2 trilhões"
+        "Ibovespa: 166.376,43 pontos",
+        "Dólar: R$ 5,9350",
+        "Probabilidade de alta do Fed: 93,5%",
+        "IPCA (Focus): 5,11%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "AMD, Pinduoduo among market cap stock movers on Thursday",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/amd-pinduoduo-among-market-cap-stock-movers-on-thursday-93CH-5039769",
+      "title": "Petróleo fecha perto da estabilidade com aumento das tensões entre EUA e Irã",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/petroleo-fecha-perto-da-estabilidade-com-aumento-das-tensoes-entre-eua-e-ira-davs/",
       "categorias": [
-        "acoes",
         "exterior"
       ],
-      "resumo": "A AMD e a Pinduoduo figuraram entre as ações com maiores variações em capitalização de mercado na quarta-feira, refletindo movimentos pontuais de preço no mercado de ações.",
-      "mecanismo": "A movimentação de capitalização dessas empresas indica uma realocação de capital ou reação a notícias específicas de cada corporação, o que afeta diretamente o valuation e a percepção de risco dos investidores em tecnologia e e-commerce, sem necessariamente impactar macroeconômicos como a Selic (13,75%) ou o IPCA (5,11%) projetados para o fim de 2026.",
-      "implicacao": "Como a volatilidade em grandes nomes de tecnologia e e-commerce pode sinalizar mudanças na apetite por risco global, o setor de tecnologia tende a ver ajustes em múltiplos, já que investidores reprecificam o crescimento futuro dessas empresas em relação a alternativas de renda fixa.",
-      "risco": "O movimento pode ser apenas ruído de curto prazo ou especulação, sem fundamentos sustentáveis, o que levaria a uma reversão rápida dos preços e invalidaria a tese de tendência estrutural.",
-      "proximo_evento": "Próximos relatórios trimestrais (earnings) da AMD e da Pinduoduo, ou divulgação de novos dados de vendas e receita que possam confirmar ou reverter os movimentos de preço recentes.",
+      "resumo": "Os preços do petróleo permaneceram estáveis nesta quinta-feira, refletindo um equilíbrio entre o risco geopolítico de novos conflitos entre EUA e Irã e a perspectiva de excesso de oferta global.",
+      "mecanismo": "A ameaça de retaliação iraniana contra instalações no Golfo Pérsico cria um prêmio de risco que sustenta os preços, mas esse efeito é neutralizado pela previsão da AIE de um excedente de 1,7 milhão de barris diários neste trimestre e pelo aumento de 3,4 milhões de barris nos estoques dos EUA, o que impede uma alta mais acentuada.",
+      "implicacao": "Com a volatilidade geopolítica mantendo o petróleo em patamares elevados (WTI acima de US$ 80), o setor de energia e as empresas exportadoras de commodities tendem a se beneficiar, já que a margem de lucro é preservada apesar da pressão de oferta, enquanto a inflação de combustíveis pode continuar pressionando o IPCA, cuja mediana no Focus está em 5,1082%.",
+      "risco": "A materialização de um acordo diplomático que normalize o fluxo pelo Estreito de Ormuz ou uma desaceleração brusca da demanda global, impulsionada pela expansão de veículos elétricos, poderia reverter a tese de preços firmes e derrubar as cotações.",
+      "proximo_evento": "Avaliações do Pentágono sobre possíveis respostas iranianas e a implementação prática do compromisso entre EUA, China e Rússia de ampliar a oferta global de derivados.",
       "key_numbers": [
-        "Selic (fim do ano): 13.75%",
-        "IPCA (fim do ano): 5.1082%",
-        "PIB (crescimento no ano): 1.7215%",
-        "Câmbio R$/US$ (fim do ano): 5.4%"
+        "WTI: US$ 83,21",
+        "Brent: US$ 91,98",
+        "Excedente AIE (trimestre): 1,7 mi barris/dia",
+        "Estoque EUA (variação semanal): +3,4 mi barris"
       ],
       "sentiment": "neutral"
     },
     {
-      "title": "Anthropic hits $2 trillion market value in debut; major indexes fall",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-set-to-soar-in-debut-will-ai-peers-follow-5039533",
+      "title": "Dólar à vista supera os R$ 5,93 e renova máxima em mais de um ano",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/dolar-a-vista-supera-os-r-593-e-renova-maxima-em-mais-de-um-ano-davs/",
       "categorias": [
-        "acoes",
-        "exterior"
+        "renda_fixa"
       ],
-      "resumo": "A Anthropic estreou no mercado de ações com uma avaliação de mercado de US$ 2 trilhões, enquanto os principais índices acionários registraram queda na sessão.",
-      "mecanismo": "A entrada de uma empresa de IA de altíssimo valor no mercado primário pode ter provocado uma rotação de capital, onde investidores realizaram lucros em outras posições para financiar a compra ou ajustaram carteiras, resultando na queda dos índices gerais, apesar do otimismo específico com o setor de inteligência artificial.",
-      "implicacao": "Com a validação de mercado para empresas de IA, o setor de tecnologia e infraestrutura de computação tende a manter atenção do capital, já que a alta valuation da Anthropic sinaliza que o mercado está disposto a pagar prêmios elevados por crescimento em IA, embora a queda dos índices sugira cautela geral no curto prazo.",
-      "risco": "A avaliação de US$ 2 trilhões pode ser insustentável se os lucros futuros não acompanharem o crescimento, levando a uma correção brusca no setor de tecnologia que arraste os índices para baixo.",
-      "proximo_evento": "Divulgação dos primeiros relatórios financeiros trimestrais da Anthropic e a próxima reunião do FOMC para definição da política monetária dos EUA.",
+      "resumo": "O dólar fechou em R$ 5,9350, maior nível em 19 meses, impulsionado pela demora do presidente em nomear o novo ministro da Fazenda e pela persistência de juros altos nos EUA.",
+      "mecanismo": "A incerteza política sobre a condução fiscal e monetária, somada à expectativa de 93,5% de alta de juros pelo Fed, aumenta a aversão ao risco e o prêmio de risco soberano, pressionando o câmbio para cima apesar da intervenção do BC que vendeu US$ 1 bilhão para conter a alta.",
+      "implicacao": "Com a pressão cambial e a incerteza fiscal, ativos de proteção cambial e títulos indexados ao dólar tendem a se valorizar, enquanto setores exportadores podem se beneficiar da competitividade de preços, mas o custo de importação de insumos pressiona a inflação, que o Focus projeta em 5,1082% para o fim do ano.",
+      "risco": "A nomeação rápida de um ministro com forte credibilidade técnica e a implementação de medidas fiscais mais agressivas poderiam reverter a aversão ao risco e estabilizar o câmbio abaixo da cotação atual.",
+      "proximo_evento": "A nomeação oficial do novo ministro da Fazenda e a divulgação da ata do Federal Reserve (Fed) que confirmou a perspectiva de juros mais altos por mais tempo.",
       "key_numbers": [
-        "Valor de mercado da Anthropic: US$ 2 trilhões",
-        "Selic (fim do ano): 13.75%",
-        "IPCA (fim do ano): 5.1082%",
-        "PIB (crescimento no ano): 1.7215%"
+        "Dólar à vista: R$ 5,9350",
+        "Chance de alta do Fed: 93,5%",
+        "Venda do BC: US$ 1 bilhão",
+        "IPCA Focus (fim do ano): 5.1082%"
       ],
-      "sentiment": "neutral"
+      "sentiment": "down"
     },
     {
-      "title": "Clube FII News - Notícias para o Investidor de Fundos Imobiliários",
-      "source": "Clube FII News",
-      "link": "https://www.clubefiinews.com.br",
+      "title": "BlackRock’s IBIT loses record $541M amid Anthropic market debut",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/blackrock-ibit-record-single-day-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
-        "imobiliario"
+        "cripto"
       ],
-      "resumo": "O mercado imobiliário corporativo e logístico em São Paulo apresenta sinais de forte demanda, com vacância mínima na Avenida Paulista e valorização expressiva de aluguéis em novas regiões, enquanto o setor multifamily enfrenta desafios de ocupação.",
-      "mecanismo": "A combinação de vacância de apenas 1,29% na Paulista e a valorização de até 77,8% no Market Rent em novas áreas corporativas indica que a oferta de espaços de qualidade está insuficiente para a demanda das empresas que retornam ao modelo presencial, o que tende a sustentar ou aumentar os fluxos de receita dos FIIs de escritórios e logística, especialmente considerando que a Selic projetada em 13,75% mantém o custo de capital elevado, favorecendo ativos com contratos indexados à inflação (IPCA projetado em 5,11%) que protegem o poder de compra dos dividendos.",
-      "implicacao": "Com a escassez de oferta em regiões corporativas consolidadas e a expansão para novas áreas, o setor de FIIs de escritórios e logística tende a apresentar maior resiliência e potencial de valorização, já que a baixa vacância e a alta demanda por espaço físico limitam a capacidade de negociação dos inquilinos, garantindo fluxos de caixa mais estáveis e previsíveis para os cotistas.",
-      "risco": "A ocupação média de apenas 53% no segmento multifamily 'long stay' sugere que a demanda por moradia corporativa pode estar saturada ou mal direcionada, o que pode indicar um enfraquecimento geral da atividade econômica ou uma mudança estrutural nos modelos de trabalho que afete negativamente a demanda por outros segmentos imobiliários.",
-      "proximo_evento": "Divulgação dos dados de vacância e Market Rent do próximo trimestre pela SiiLA e a implementação efetiva da CBS de 11,3% prevista para 2027, que poderá alterar a estrutura de custos e créditos tributários dos contratos de locação.",
+      "resumo": "O ETF de Bitcoin da BlackRock registrou seu maior resgate diário histórico, somando quase US$ 900 milhões em saídas nos últimos três dias, enquanto o preço da criptomoeda recuava em meio a uma venda generalizada no mercado de ações.",
+      "mecanismo": "A estreia da Anthropic no mercado de ações não sustentou a alta das ações de IA, gerando preocupações com avaliações elevadas e gastos pesados no setor, o que desencadeou um movimento de realização de lucros e aversão a risco que atingiu ativos de alta volatilidade, como o Bitcoin, forçando investidores a liquidarem posições em ETFs para cobrir perdas ou realocar capital.",
+      "implicacao": "Com o aumento da aversão a risco e a saída de capital de ativos digitais, a classe de ativos de criptomoedas tende a enfrentar pressão de venda contínua, já que a liquidez institucional está migrando para posições defensivas ou para ações de IA com fundamentos mais consolidados, reduzindo o suporte de preço para o Bitcoin.",
+      "risco": "O cenário de venda pode ser interrompido se a Anthropic demonstrar crescimento de receita robusto que justifique a avaliação, ou se novos fluxos institucionais entrarem no mercado de cripto ativos independentemente do desempenho das ações de IA.",
+      "proximo_evento": "Próximos relatórios de fluxo de caixa dos ETFs de Bitcoin nos EUA e a divulgação dos resultados trimestrais das principais empresas de tecnologia e IA para avaliar a sustentabilidade dos gastos e das avaliações.",
       "key_numbers": [
-        "Vacância Paulista: 1,29%",
-        "Valorização Market Rent: 77,8%",
-        "Ocupação Multifamily: 53%",
-        "Selic (Focus): 13,75%"
+        "Saída recorde IBIT: US$ 541 milhões",
+        "Saídas acumuladas 3 dias: ~US$ 900 milhões",
+        "Preço Bitcoin: US$ 61.875",
+        "Queda Bitcoin 7 dias: 9,8%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/institutional-bitcoin-etf-holdings-clock-record-quarter-after-selling-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "Instituições financeiras dos EUA reverteram três trimestres de vendas líquidas em ETFs de Bitcoin à vista no terceiro trimestre, acumulando um total recorde de 356.491 BTC.",
+      "mecanismo": "A entrada de grandes gestoras, liderada por bancos como Wells Fargo e plataformas de wealth management, indica que o Bitcoin está sendo tratado como um ativo de alocação estratégica de longo prazo por investidores institucionais, o que tende a reduzir a volatilidade estrutural e atrair mais capital para a classe de ativos digitais, apesar dos fluxos negativos recentes em outubro.",
+      "implicacao": "Com a consolidação institucional em ETFs de Bitcoin, a classe de ativos criptomoçados tende a ganhar maior liquidez e aceitação em carteiras diversificadas, já que a presença de grandes gestoras reduz o estigma de risco e alinha o ativo a padrões regulatórios tradicionais.",
+      "risco": "O recente recorde de saídas líquidas de US$ 2,9 bilhões em novembro sugere que o sentimento institucional pode ser volátil e sensível a ambientes de aversão a risco, invalidando a tese de acumulação estrutural se as vendas continuarem.",
+      "proximo_evento": "Divulgação dos próximos relatórios 13F do quarto trimestre e os dados mensais de fluxos de entrada/saída dos ETFs de Bitcoin nos EUA para novembro.",
+      "key_numbers": [
+        "Acumulação Q3: 49.229 BTC",
+        "Posição total recorde: 356.491 BTC",
+        "Saídas líquidas novembro: US$ 2,9 bilhões",
+        "Preço Bitcoin set/2026: US$ 83.621"
       ],
       "sentiment": "up"
-    },
-    {
-      "title": "Notícias de Mercado Imobiliário - Clube FII News",
-      "source": "Clube FII News",
-      "link": "https://www.clubefiinews.com.br/mercado-imobiliario",
-      "categorias": [
-        "imobiliario"
-      ],
-      "resumo": "O texto fornecido consiste apenas em um aviso legal padrão do Clube FII News, informando que o conteúdo é verificado, mas que não constitui recomendação de investimento e que a fonte não se responsabiliza por perdas financeiras.",
-      "mecanismo": "Não há mecanismo causal de mercado descrito, pois o texto é um disclaimer institucional e não contém dados econômicos, notícias setoriais ou eventos que gerem uma cadeia de causa e efeito sobre ativos financeiros.",
-      "implicacao": "Como não há informação fundamental ou técnica no texto, não é possível derivar uma implicação setorial ou de classe de ativo; o conteúdo serve apenas como contexto de conformidade e não altera a análise de risco ou retorno de FIIs.",
-      "risco": "O risco principal é a confusão do investidor ao interpretar a ausência de recomendação como uma neutralidade de mercado, quando na verdade o texto não oferece qualquer base para tomada de decisão.",
-      "proximo_evento": "Não há próximo evento de mercado ou gatilho econômico identificado no texto, pois ele se limita a uma declaração de responsabilidade legal.",
-      "key_numbers": [],
-      "sentiment": "neutral"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [],
     "acoes": [
-      "Amodei torna pública sua abordagem de segurança, transicionando de físico anti-guerra para um importante intermediário no setor de IA.",
-      "Um artigo do Seeking Alpha argumenta que, apesar da saída do CEO, o motor de resultados da Nvidia permanece intacto, resultando em uma elevação de recomendação para Strong Buy.",
-      "Um episódio do podcast TheTechTalk discute a possibilidade de a Nvidia ter atingido seu pico de valorização."
+      "O medidor de medo de Wall Street atingiu o nível mais alto em sete meses devido ao aumento das preocupações com a inteligência artificial.",
+      "As ações europeias estão no caminho para registrar a maior queda semanal desde março.",
+      "O pré-mercado registrou a queda das ações da Anthropic após sua estreia e o declínio da Intuit em relação à venda da Mailchimp.",
+      "Um artigo do Seeking Alpha discute a perspectiva de longo prazo do rali de vendas de ações de semicondutores em 2026."
     ],
     "cripto": [
-      "Juros mais altos podem desacelerar as compras de Bitcoin por empresas de tesouraria.",
-      "Senadores alertam que as regras da GENIUS Act podem levar empresas de stablecoins a uma supervisão federal.",
-      "Tether invoca o filme 'A Grande Aposta' em crítica à S&P sobre riscos nas reservas do USDT.",
-      "CoinShares vende todo o ETH de sua tesouraria e reduz pela metade as posições em SOL para recompra de ações."
+      "Binance enfrenta uma ordem de congelamento de US$ 6,5 bilhões, enquanto Hong Kong expressa suspeitas sobre o token HYPE.",
+      "A MoonPay busca uma carta bancária nos EUA para oferecer serviços de stablecoin e custódia.",
+      "O indicado de Trump para a SEC, Johnson, apoia a criação de regras formais para o comércio de ações tokenizadas.",
+      "As ações da Anthropic abriram a US$ 111,50, 34,3% acima do preço de IPO de US$ 83."
     ],
     "debentures": [],
     "exterior": [
-      "Bancos dos EUA estão a caminho de outro ano forte, embora existam riscos potenciais.",
-      "Os dados de sentimento do consumidor de Michigan e a contagem de sondas da Baker Hughes estão previstos para sexta-feira.",
-      "Relatos indicam que a L'Oréal busca comprar uma participação de 10% na Armani, enquanto a LVMH está fora da disputa.",
-      "Fontes afirmam que o BMO do Canadá está retornando aos investimentos em banco de investimento de petróleo e gás nos EUA."
+      "O medidor de medo de Wall Street atingiu o nível mais alto em sete meses devido ao aumento das preocupações com a inteligência artificial.",
+      "As ações europeias estão no caminho para registrar a maior queda semanal desde março.",
+      "As ações da Índia encerraram o pregão em alta, com o índice Nifty 50 subindo 1,12%.",
+      "Fontes afirmam que Pequim proibirá jovens empresas 'red-chip' de listar suas ações fora da China continental."
     ],
-    "imobiliario": [
-      "O Clube FII News publicou um aviso legal informando que não faz recomendações de investimento e não se responsabiliza por perdas, danos ou custos relacionados às informações sobre Certificados de Recebíveis Imobiliários."
-    ]
+    "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário de juros elevados, impulsionado pelas expectativas de novas altas do Federal Reserve, continua pressionando ativos sem rendimento como o ouro e fortalecendo o dólar. Paralelamente, a redução da concorrência entre fundos de hedge deve elevar o prêmio anualizado dos futuros de Bitcoin, potencialmente superando os yields dos T-bills de 3 meses. É fundamental monitorar a definição do tamanho do próximo ajuste de juros na reunião de dezembro do Fed e acompanhar as taxas de funding perpétuo e os fluxos institucionais em ETFs de Bitcoin ao longo de 2027.",
-    "acoes": "O mercado de ações de tecnologia e IA está em um momento de alta volatilidade, marcado pela reprecificação de múltiplos elevados após a entrada e subsequente queda da Anthropic, que sugere uma exigência maior de prêmio de risco por parte dos investidores. Enquanto isso, o debate sobre a sustentabilidade do crescimento da Nvidia, com análises divergindo entre a continuidade do motor de resultados e a possibilidade de ter atingido um pico, indica que o setor segue sensível a mudanças de narrativa e liderança corporativa.",
-    "cripto": "A categoria enfrenta uma convergência entre riscos macroeconômicos e regulatórios, onde a pressão de juros mais altos sobre as tesourarias corporativas de Bitcoin coincide com a intensificação do escrutínio federal sobre stablecoins via GENIUS Act e disputas de classificação de risco, como a de Tether contra a S&P. Esse cenário se soma à instabilidade operacional evidenciada pelos hacks na Binance e à reestruturação de ativos por players institucionais como a CoinShares, sugerindo um período de realocação de capital e adaptação a novas barreiras regulatórias e de liquidez.",
+    "renda_fixa": "O cenário de renda fixa permanece pressionado pela aversão ao risco, com o dólar superando os R$ 5,93 e renovando máximas em mais de um ano devido à incerteza política sobre a condução fiscal e monetária. A atenção deve se concentrar na nomeação oficial do novo ministro da Fazenda e na divulgação da ata do Federal Reserve, que confirmou a perspectiva de juros mais altos por mais tempo, fatores que impactam diretamente o prêmio de risco soberano e as expectativas de Selic.",
+    "acoes": "O cenário global de aversão ao risco, evidenciado pela queda das bolsas europeias e pelo pico do medidor de medo em Wall Street, reforça a pressão sobre o fluxo de capitais para o Brasil, onde a incerteza fiscal e a expectativa de juros elevados (Selic em 13,75%) já penalizam ativos sensíveis. A volatilidade internacional, impulsionada por preocupações com a infraestrutura de IA e a venda de ações de semicondutores, tende a amplificar a sensibilidade do câmbio e do Ibovespa, exigindo atenção redobrada aos próximos eventos domésticos, como a análise do pacote fiscal pela Câmara e o plano estratégico da Petrobras.",
+    "cripto": "O cenário regulatório nos EUA avança com a busca da MoonPay por uma carta bancária e o apoio do indicado da SEC a regras para ações tokenizadas, sinalizando maior integração institucional. Paralelamente, a forte alta inicial das ações da Anthropic contrasta com a pressão de realização de lucros que atingiu o Bitcoin, enquanto tensões regulatórias na Ásia, como a ordem de congelamento contra a Binance, adicionam volatilidade ao mercado global.",
     "debentures": "",
-    "exterior": "O mercado internacional deve ser monitorado em relação à próxima reunião do FOMC e aos primeiros relatórios financeiros da Anthropic, eventos que podem influenciar a rotação de capital observada após a estreia da empresa de IA. Paralelamente, a atenção se volta para os próximos relatórios trimestrais da AMD e da Pinduoduo, bem como para os indicadores de sexta-feira, incluindo o sentimento do consumidor de Michigan e a contagem de sondas da Baker Hughes, que podem sinalizar mudanças na demanda e no setor de energia.",
-    "imobiliario": "O cenário para o setor imobiliário permanece marcado pela tensão entre a forte demanda por espaços corporativos de qualidade, evidenciada pela baixa vacância e valorização dos aluguéis, e o custo de capital elevado mantido pela Selic projetada em 13,75%. Enquanto os fluxos de receita dos FIIs tendem a ser sustentados por contratos indexados à inflação, a atenção deve se voltar para a implementação da CBS de 11,3% prevista para 2027, que pode alterar a estrutura de custos e créditos tributários, além da divulgação dos próximos dados de vacância e Market Rent pela SiiLA."
+    "exterior": "A combinação do medidor de medo de Wall Street em sete meses de alta e a maior queda semanal europeia desde março indica uma aversão ao risco global que se alinha com as preocupações sobre a infraestrutura de IA e a saída do CEO da Nvidia. Enquanto isso, a alta das ações na Índia sugere uma rotação de capital para mercados emergentes, ao passo que a restrição chinesa a listagens externas adiciona uma nova camada de incerteza regulatória ao cenário internacional.",
+    "imobiliario": ""
   },
-  "radar": "📊 Radar do Mercado · 19/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Electronic Technology (+0,55% na média) · que mais caiu: Consumer Services (-3,88%)\n• Ações líquidas da B3: média de -1,73% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de -0,59%\n\n📈 Maiores altas — ações (top 20):\n• LIGT3 (LIGHT S.A.) +5,94% (R$ 3,03)\n• PCAR3 (CIA BRASILEIRA DE DISTRIBUICAO) +5,35% (R$ 3,15)\n• GFSA3 (GAFISA S.A.) +4,76% (R$ 0,22)\n• PMAM3 (PARANAPANEMA S.A.) +4,76% (R$ 0,22)\n• POSI3 (POSITIVO TECNOLOGIA S.A.) +3,79% (R$ 3,29)\n• QUAL3 (QUALICORP CONSULTORIA E CORRET) +2,84% (R$ 1,81)\n• EVEN3 (EVEN CONSTRUTORA E INCORPORADO) +2,21% (R$ 3,70)\n• USIM5 (USINAS SID DE MINAS GERAIS S.A) +2,20% (R$ 5,12)\n• MELK3 (MELNICK DESENVOLVIMENTO IMOBIL) +2,04% (R$ 2,00)\n• FLRY3 (FLEURY S.A.) +1,76% (R$ 21,35)\n• GOAU4 (METALURGICA GERDAU S.A.) +1,69% (R$ 11,44)\n• MGLU3 (MAGAZINE LUIZA S.A.) +1,44% (R$ 8,44)\n• BEEF3 (MINERVA S.A.) +1,35% (R$ 3,76)\n• TEND3 (CONSTRUTORA TENDA S.A.) +1,26% (R$ 15,25)\n• TUPY3 (TUPY S.A.) +1,18% (R$ 20,56)\n• CSMG3 (CIA SANEAMENTO DE MINAS GERAIS) +1,15% (R$ 56,14)\n• BRKM5 (BRASKEM S.A.) +1,14% (R$ 2,66)\n• GGBR4 (GERDAU S.A.) +1,06% (R$ 25,86)\n• GMAT3 (GRUPO MATEUS S.A.) +0,99% (R$ 4,09)\n• BBSE3 (BB SEGURIDADE PARTICIPAÇÕES S.) +0,55% (R$ 36,86)\n📉 Maiores baixas — ações (top 20):\n• RAIZ55 (RAIZEN S.A.) -10,06% (R$ 0,15)\n• AMBP3 (AMBIPAR PARTICIPACOES E EMPREE) -8,33% (R$ 0,11)\n• VVEO3 (CM HOSPITALAR S.A.) -7,41% (R$ 0,50)\n• AZEV4 (AZEVEDO E TRAVASSOS S.A.) -7,35% (R$ 0,63)\n• DASA3 (DIAGNOSTICOS DA AMERICA S.A.) -7,14% (R$ 3,25)\n• AZZA3 (AZZAS 2154 S.A.) -6,15% (R$ 14,81)\n• PGMN3 (EMPREENDIMENTOS PAGUE MENOS S.) -5,91% (R$ 2,23)\n• OPCT3 (OCEANPACT SERVICOS MARITIMOS S) -5,78% (R$ 8,80)\n• HBRE3 (HBR REALTY EMPREENDIMENTOS IMO) -5,34% (R$ 1,24)\n• CEAB3 (CEA MODAS S.A.) -5,20% (R$ 7,47)\n• FESA4 (CIA FERRO LIGAS DA BAHIA - FER) -5,19% (R$ 5,12)\n• CVCB3 (CVC BRASIL OPERADORA E AGÊNCIA) -5,13% (R$ 0,74)\n• CSED3 (CRUZEIRO DO SUL EDUCACIONAL S.) -5,06% (R$ 3,38)\n• POMO4 (MARCOPOLO S.A.) -5,03% (R$ 3,59)\n• POMO3 (MARCOPOLO S.A.) -4,79% (R$ 3,38)\n• ORVR3 (ORIZON VALORIZACAO DE RESIDUOS) -4,69% (R$ 17,87)\n• SIMH3 (SIMPAR S.A.) -4,63% (R$ 5,35)\n• LJQQ3 (LOJAS QUERO-QUERO S/A) -4,63% (R$ 1,03)\n• PINE4 (BCO PINE S.A.) -4,44% (R$ 10,32)\n• AZEV3 (AZEVEDO E TRAVASSOS S.A.) -4,24% (R$ 10,39)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNAM11 (FNAM11) +7,69% (R$ 0,70)\n• VGIR11 (VALORA CRI CDI FUNDO DE INVEST — papel (CDI)) +2,81% (R$ 8,04)\n• ETHE11 (HASHDEX NASDAQ ETHEREUM REFERE) +2,12% (R$ 30,28)\n• QBTC11 (QR CME CF BITCOIN REFERENCE RA) +1,72% (R$ 22,52)\n• SOLH11 (HASHDEX NASDAQ SOLANA FUNDO DE) +1,68% (R$ 12,10)\n• SNEL11 (SUNO ENERGIAS LIMPAS FUNDO DE ) +1,62% (R$ 6,90)\n• BITH11 (HASHDEX NASDAQ BITCOIN REFEREN) +1,43% (R$ 83,56)\n• HASH11 (HASHDEX NASDAQ CME CRYPTO INDE) +1,32% (R$ 47,56)\n• VGIA11 (VALORA CRA FUNDO DE I. NAS C.  — Fiagro (CRA)) +1,29% (R$ 7,85)\n• DOLA11 (BB ETF ÍNDICE FUTURO DE DOLAR ) +0,85% (R$ 11,86)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNOR11 (FNOR11) -5,08% (R$ 0,56)\n• VCRI11 (VINCI CREDIT SECURITIES FUNDO ) -4,73% (R$ 6,44)\n• XPML11 (XP MALLS FUNDO DE INVESTIMENTO — tijolo: shoppings) -4,43% (R$ 82,00)\n• CPTR11 (CAPITANIA AGRO S. FUNDO DE I.  — Fiagro (CRA)) -4,38% (R$ 6,55)\n• ALZR11 (ALIANZA TRUST RENDA IMOBILIÁRI) -2,65% (R$ 9,19)\n• HGBS11 (HEDGE BRASIL SHOPPING FUNDO DE — tijolo: shoppings) -2,50% (R$ 16,79)\n• AAZQ11 (AZ QUEST SOLE FIAGRO - IMOBILI — Fiagro (CRA)) -2,17% (R$ 5,41)\n• BTCI11 (BTG PACTUAL CRÉDITO IMOBILIÁRI — papel) -2,09% (R$ 7,95)\n• SNME11 (SUNO MULTIESTRATÉGIA FUNDO DE ) -1,89% (R$ 8,83)\n• HIGH11 (NU IBOV SMART HIGH BETA B3 CLA) -1,88% (R$ 70,86)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -1,32%\n• Nasdaq (EUA): -1,35%\n• Dow Jones (EUA): -1,63%\n• Euro Stoxx 50 (Europa): -0,66%\n• Nikkei 225 (Japão): +0,28%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: -0,31% (US$ 62,791)\n• Ethereum: +0,27% (US$ 1,779)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,3%"
+  "radar": "📊 Radar do Mercado · 20/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Electronic Technology (+2,67% na média) · que mais caiu: Consumer Services (-4,10%)\n• Ações líquidas da B3: média de -1,42% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de -0,30%\n\n📈 Maiores altas — ações (top 20):\n• PCAR3 (CIA BRASILEIRA DE DISTRIBUICAO) +8,03% (R$ 3,23)\n• LIGT3 (LIGHT S.A.) +6,99% (R$ 3,06)\n• POSI3 (POSITIVO TECNOLOGIA S.A.) +6,31% (R$ 3,37)\n• MELK3 (MELNICK DESENVOLVIMENTO IMOBIL) +4,59% (R$ 2,05)\n• QUAL3 (QUALICORP CONSULTORIA E CORRET) +4,55% (R$ 1,84)\n• GMAT3 (GRUPO MATEUS S.A.) +3,21% (R$ 4,18)\n• TUPY3 (TUPY S.A.) +2,71% (R$ 20,87)\n• USIM5 (USINAS SID DE MINAS GERAIS S.A) +2,59% (R$ 5,14)\n• OBTC3 (ORANJEBTC S.A. - EDUCAÇÃO E IN) +2,59% (R$ 6,34)\n• FLRY3 (FLEURY S.A.) +2,53% (R$ 21,51)\n• GOAU4 (METALURGICA GERDAU S.A.) +2,22% (R$ 11,50)\n• HBSA3 (HIDROVIAS DO BRASIL S.A.) +1,59% (R$ 3,19)\n• MLAS3 (GRUPO MULTI S.A.) +1,37% (R$ 2,22)\n• BBAS3 (BCO BRASIL S.A.) +1,27% (R$ 14,30)\n• TEND3 (CONSTRUTORA TENDA S.A.) +1,13% (R$ 15,23)\n• GGBR4 (GERDAU S.A.) +1,06% (R$ 25,86)\n• CSMG3 (CIA SANEAMENTO DE MINAS GERAIS) +1,06% (R$ 56,09)\n• SAPR11 (CIA SANEAMENTO DO PARANA - SAN) +1,04% (R$ 34,14)\n• BBSE3 (BB SEGURIDADE PARTICIPAÇÕES S.) +0,90% (R$ 36,99)\n• EVEN3 (EVEN CONSTRUTORA E INCORPORADO) +0,83% (R$ 3,65)\n📉 Maiores baixas — ações (top 20):\n• RAIZ55 (RAIZEN S.A.) -10,71% (R$ 0,15)\n• AZEV4 (AZEVEDO E TRAVASSOS S.A.) -8,82% (R$ 0,62)\n• CVCB3 (CVC BRASIL OPERADORA E AGÊNCIA) -7,69% (R$ 0,72)\n• VVEO3 (CM HOSPITALAR S.A.) -7,41% (R$ 0,50)\n• AZZA3 (AZZAS 2154 S.A.) -7,29% (R$ 14,63)\n• HBRE3 (HBR REALTY EMPREENDIMENTOS IMO) -6,87% (R$ 1,22)\n• DASA3 (DIAGNOSTICOS DA AMERICA S.A.) -6,86% (R$ 3,26)\n• NATU3 (NATURA COSMETICOS S.A.) -6,28% (R$ 4,48)\n• CSNA3 (CIA SIDERURGICA NACIONAL) -6,03% (R$ 3,43)\n• VTRU3 (VITRU EDUCAÇÃO S.A) -5,94% (R$ 13,45)\n• CSED3 (CRUZEIRO DO SUL EDUCACIONAL S.) -5,90% (R$ 3,35)\n• ONCO3 (ONCOCLINICAS DO BRASIL SERVICO) -5,56% (R$ 0,68)\n• POMO3 (MARCOPOLO S.A.) -5,07% (R$ 3,37)\n• SIMH3 (SIMPAR S.A.) -4,99% (R$ 5,33)\n• OPCT3 (OCEANPACT SERVICOS MARITIMOS S) -4,82% (R$ 8,89)\n• CEAB3 (CEA MODAS S.A.) -4,82% (R$ 7,50)\n• PMAM3 (PARANAPANEMA S.A.) -4,76% (R$ 0,20)\n• BHIA3 (GRUPO CASAS BAHIA S.A.) -4,48% (R$ 0,64)\n• MOVI3 (MOVIDA PARTICIPACOES SA) -4,41% (R$ 5,64)\n• POMO4 (MARCOPOLO S.A.) -4,23% (R$ 3,62)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNAM11 (FNAM11) +10,77% (R$ 0,72)\n• VGIR11 (VALORA CRI CDI FUNDO DE INVEST — papel (CDI)) +3,96% (R$ 8,13)\n• BDIF11 (BTG PACTUAL DÍVIDA INFRA FIF E) +2,07% (R$ 59,80)\n• SNEL11 (SUNO ENERGIAS LIMPAS FUNDO DE ) +2,06% (R$ 6,93)\n• ETHE11 (HASHDEX NASDAQ ETHEREUM REFERE) +1,55% (R$ 30,11)\n• DOLA11 (BB ETF ÍNDICE FUTURO DE DOLAR ) +1,45% (R$ 11,93)\n• BITH11 (HASHDEX NASDAQ BITCOIN REFEREN) +1,35% (R$ 83,49)\n• VGIA11 (VALORA CRA FUNDO DE I. NAS C.  — Fiagro (CRA)) +0,90% (R$ 7,82)\n• SNME11 (SUNO MULTIESTRATÉGIA FUNDO DE ) +0,89% (R$ 9,08)\n• XPSF11 (XP SELECTION FUNDO DE FUNDOS D) +0,88% (R$ 5,73)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNOR11 (FNOR11) -5,08% (R$ 0,56)\n• XPML11 (XP MALLS FUNDO DE INVESTIMENTO — tijolo: shoppings) -4,44% (R$ 81,99)\n• HGBS11 (HEDGE BRASIL SHOPPING FUNDO DE — tijolo: shoppings) -2,26% (R$ 16,83)\n• RBRX11 (PATRIA PLUS MULTIESTRATÉGIA RE) -2,25% (R$ 6,08)\n• CHIP11 (INVESTO ETF US LISTED  SEMICON) -1,96% (R$ 32,57)\n• GOLX11 (TREND ETF B3 OURO CLASSE DE ÍN) -1,82% (R$ 44,13)\n• HFOF11 (HEDGE TOP FOFII 3 FUNDO DE INV — FOF) -1,82% (R$ 5,40)\n• SPXR11 (IT NOW S&amp;P 500 FUTURES QUANTO ) -1,78% (R$ 71,75)\n• HIGH11 (NU IBOV SMART HIGH BETA B3 CLA) -1,76% (R$ 70,95)\n• BTLG11 (BTG PACTUAL LOGÍSTICA FUNDO DE — tijolo: logística) -1,68% (R$ 94,80)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -2,02%\n• Nasdaq (EUA): -2,25%\n• Dow Jones (EUA): -2,19%\n• Euro Stoxx 50 (Europa): -1,55%\n• Nikkei 225 (Japão): -5,06%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: -0,02% (US$ 61,891)\n• Ethereum: -0,10% (US$ 1,754)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,3%"
 }
