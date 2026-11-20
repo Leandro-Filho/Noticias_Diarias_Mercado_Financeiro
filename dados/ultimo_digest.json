@@ -1,124 +1,145 @@
 {
-  "gerado_em": "2026-11-20T11:15:17.437124+00:00",
+  "gerado_em": "2026-11-20T19:12:26.090386+00:00",
   "itens": [
     {
-      "title": "IPO da Anthropic não conseguiu animar Wall Street, e bolsas de NY fecham em forte queda",
+      "title": "Bolsas da Europa fecham em queda firme com ‘selloff tech’ mesmo após estreia da Anthropic em NY",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ipo-da-anthropic-nao-conseguiu-animar-wall-street-e-bolsas-de-ny-fecham-em-forte-queda-davs/",
+      "link": "https://www.moneytimes.com.br/bolsas-da-europa-fecham-em-queda-firme-com-selloff-tech-mesmo-apos-estreia-da-anthropic-em-ny-pads/",
       "categorias": [
         "acoes",
         "exterior"
       ],
-      "resumo": "A estreia da Anthropic na bolsa não sustentou o otimismo no setor de IA, resultando em forte queda nos principais índices de Nova York, impulsionada por aversão ao risco e temores regulatórios.",
-      "mecanismo": "A vitória democrata nas eleições de meio de mandato nos EUA aumentou a probabilidade de regulamentações mais rígidas para data centers, o que, somado à saída do CEO da Nvidia, elevou o custo e a incerteza dos investimentos em infraestrutura de IA, drenando capital de ações de tecnologia e pressionando os índices de forma mais ampla.",
-      "implicacao": "Com o aumento da incerteza regulatória e a desaceleração esperada nos gastos com infraestrutura, o setor de tecnologia e semicondutores tende a enfrentar pressão de múltiplos, já que a redução no ritmo de construção de data centers impacta diretamente a demanda por chips e serviços de nuvem.",
-      "risco": "O cenário de queda pode ser invalidado se o Congresso dos EUA não aprovar novas restrições regulatórias ou se as empresas de IA demonstrarem crescimento de receita que compense os custos operacionais elevados.",
-      "proximo_evento": "Próximas divulgações de balanços das grandes empresas de tecnologia e possíveis anúncios legislativos do Congresso dos EUA sobre fiscalização de IA e infraestrutura de data centers.",
+      "resumo": "Os principais índices europeus registraram quedas expressivas nesta sexta-feira, liderados por uma forte venda de papéis de tecnologia e infraestrutura de IA, ignorando o otimismo gerado pela estreia da Anthropic na bolsa de Nova York.",
+      "mecanismo": "O mercado está precificando o risco de que os custos bilionários de capitalização para a infraestrutura de IA e as novas restrições à exportação de chips comprometam a sustentabilidade das margens de lucro do setor, o que leva a uma reavaliação negativa das múltiplos de empresas de semicondutores e fornecedores de energia, independentemente do entusiasmo inicial com novas listagens.",
+      "implicacao": "Com a liquidação de ativos de alta tecnologia e a queda de empresas de infraestrutura de IA, o setor de semicondutores e fornecedores industriais tende a sofrer desvalorização, já que o mercado questiona a capacidade de retorno sobre o investimento (ROI) dos gastos massivos em capacidade computacional frente às barreiras regulatórias de exportação.",
+      "risco": "A tese de queda pode ser invalidada se as restrições de exportação de chips forem flexibilizadas ou se as empresas do setor demonstrarem que os custos de infraestrutura estão sendo cobertos por contratos de longo prazo com margens superiores às projetadas.",
+      "proximo_evento": "A divulgação dos dados de inflação ao consumidor (CPI) da Zona do Euro e dos EUA, que podem confirmar ou refutar a pressão de custos sobre a economia real e influenciar as expectativas de juros.",
       "key_numbers": [
-        "S&P 500: -2,03%",
-        "Nasdaq Composite: -2,23%",
-        "Preço de estreia Anthropic: US$ 83",
-        "Abertura Anthropic: US$ 111,50"
+        "DAX: -2,45%",
+        "Stoxx 600 Tech: -4,9%",
+        "PPI Alemanha: 8,1%",
+        "Selic (Focus): 13,75%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Ibovespa perde os 167 mil pontos com incertezas fiscais e políticas do Brasil",
+      "title": "Bolsas da Europa caem com pressão sobre ações de tecnologia",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-19-11-2026-davs/",
+      "link": "https://www.moneytimes.com.br/europa-bolsas-caem-com-tecnologia-apos-relatos-de-juros-de-8-em-financiamento-de-chips-de-ia-igdl/",
+      "categorias": [
+        "acoes",
+        "exterior"
+      ],
+      "resumo": "Os mercados europeus recuam nesta sexta-feira, liderados por quedas no setor de tecnologia, enquanto o continente lida com o aumento dos custos de financiamento para infraestrutura de inteligência artificial.",
+      "mecanismo": "A emissão recorde de 2 trilhões de euros em dívida para financiar projetos de IA e a alta dos rendimentos exigidos (como os 8,259% da SpaceX) elevam o custo de capital para o setor, o que pressiona as margens e os múltiplos das empresas de tecnologia europeias, especialmente as ligadas a semicondutores, em um cenário onde a inflação de preços aos produtores na Alemanha já mostrou aceleração.",
+      "implicacao": "Com o custo de financiamento de projetos de IA subindo e a pressão sobre as margens do setor, a classe de ativos de tecnologia europeia tende a enfrentar volatilidade e desvalorização, enquanto setores defensivos ou menos dependentes de capex em infraestrutura podem ganhar relativo, já que o capital busca proteção contra a deterioração das condições de crédito.",
+      "risco": "A tese de pressão sobre a tecnologia pode ser invalidada se a demanda por chips e infraestrutura de IA se mostrar inelástica ao preço, permitindo que as empresas repassem os custos de financiamento mais altos para seus clientes sem perda de volume.",
+      "proximo_evento": "Novas divulgações de dados de inflação e atividade econômica na Zona do Euro, além de possíveis anúncios de novas emissões de dívida corporativa ou soberana para financiar infraestrutura de IA.",
+      "key_numbers": [
+        "Emissões de dívida na Europa: 2 trilhões de euros",
+        "Rendimento do título SpaceX: 8,259%",
+        "Queda da Bolsa de Frankfurt: 2,16%",
+        "Queda da ASML: 5,8%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "EWZ cai em dia de feriado no Brasil; veja como operam as ações brasileiras no exterior",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ewz-cai-em-dia-de-feriado-no-brasil-veja-como-operam-as-acoes-brasileiras-no-exterior-igdl/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa recuou para 166.376 pontos e o dólar subiu para R$ 5,9350, refletindo a aversão ao risco diante da percepção de que o pacote fiscal aprovado no Senado é insuficiente e das sinalizações de juros mais altos por mais tempo nos EUA.",
-      "mecanismo": "A rejeição de destaques que enfraqueceriam o ajuste fiscal no Senado foi vista pelo mercado como uma vitória parcial do governo, mas a manutenção de declarações presidenciais contra cortes de benefícios sociais eleva a percepção de risco soberano; simultaneamente, a probabilidade de 93,5% de alta de juros pelo Fed pressiona o câmbio e o fluxo de capitais, o que, somado à mediana do Focus de IPCA em 5,11% e Selic em 13,75%, sugere que o custo de capital no Brasil permanecerá elevado, penalizando ativos sensíveis a juros e risco país.",
-      "implicacao": "Com a persistência da incerteza fiscal e a pressão cambial, o setor de commodities e as blue chips tendem a sofrer com a saída de capital estrangeiro, já que a elevação do prêmio de risco desvaloriza ativos de maior liquidez e peso no índice, enquanto a classe de ativos de renda fixa prefixada pode se beneficiar da manutenção de juros altos, embora com volatilidade aumentada.",
-      "risco": "A aprovação rápida e sem emendas significativas do pacote fiscal na Câmara, combinada com uma reversão abrupta do sentimento de risco global, poderia inverter a tendência de queda do Ibovespa e fortalecer o real, invalidando a tese de aversão prolongada.",
-      "proximo_evento": "Análise do pacote de ajuste fiscal pela Câmara dos Deputados, prevista para a próxima terça-feira (24), e divulgação do Plano Estratégico 2027-2031 da Petrobras na segunda-feira (23).",
+      "resumo": "O ETF EWZ e os ADRs de grandes empresas brasileiras operam em queda nos EUA durante o feriado nacional, refletindo o pessimismo que levou o Ibovespa a perder o patamar de 167 mil pontos e o dólar a subir para R$ 5,9350 na semana anterior.",
+      "mecanismo": "A rejeição ao pacote de ajuste fiscal aprovado, considerado insuficiente para sanear as contas públicas, somada à incerteza sobre a composição do Ministério da Fazenda no próximo mandato, gera aversão ao risco soberano brasileiro; isso pressiona o câmbio para cima (dólar forte) e desvaloriza os ativos locais, como o EWZ, que funciona como um termômetro do Ibovespa em dólares.",
+      "implicacao": "Com a percepção de risco fiscal elevado e câmbio pressionado, a classe de ativos de renda variável brasileira tende a sofrer com desvalorização cambial e redução de múltiplos, enquanto ativos atrelados ao dólar ou defensivos podem ganhar tração como proteção.",
+      "risco": "A tese de desvalorização pode ser invalidada se houver uma sinalização clara e rápida de uma equipe econômica com credibilidade técnica, capaz de reverter a percepção de risco fiscal e estabilizar o câmbio.",
+      "proximo_evento": "Retomada das negociações na B3 na segunda-feira (22) e a definição oficial da equipe econômica do próximo mandato presidencial.",
       "key_numbers": [
         "Ibovespa: 166.376,43 pontos",
-        "Dólar: R$ 5,9350",
-        "Probabilidade de alta do Fed: 93,5%",
-        "IPCA (Focus): 5,11%"
+        "Dólar à vista: R$ 5,9350",
+        "EWZ: US$ 29,13",
+        "Queda semanal do Ibovespa: 2,89%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Petróleo fecha perto da estabilidade com aumento das tensões entre EUA e Irã",
+      "title": "Minerva (BEEF3) ganha fôlego com alta do dólar, e Natura (NATU3) fica na lanterna; veja o que rolou no Ibovespa",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/petroleo-fecha-perto-da-estabilidade-com-aumento-das-tensoes-entre-eua-e-ira-davs/",
+      "link": "https://www.moneytimes.com.br/minerva-beef3-ganha-folego-com-alta-do-dolar-e-natura-natu3-fica-na-lanterna-veja-o-que-rolou-no-ibovespa-davs/",
       "categorias": [
-        "exterior"
+        "acoes"
       ],
-      "resumo": "Os preços do petróleo permaneceram estáveis nesta quinta-feira, refletindo um equilíbrio entre o risco geopolítico de novos conflitos entre EUA e Irã e a perspectiva de excesso de oferta global.",
-      "mecanismo": "A ameaça de retaliação iraniana contra instalações no Golfo Pérsico cria um prêmio de risco que sustenta os preços, mas esse efeito é neutralizado pela previsão da AIE de um excedente de 1,7 milhão de barris diários neste trimestre e pelo aumento de 3,4 milhões de barris nos estoques dos EUA, o que impede uma alta mais acentuada.",
-      "implicacao": "Com a volatilidade geopolítica mantendo o petróleo em patamares elevados (WTI acima de US$ 80), o setor de energia e as empresas exportadoras de commodities tendem a se beneficiar, já que a margem de lucro é preservada apesar da pressão de oferta, enquanto a inflação de combustíveis pode continuar pressionando o IPCA, cuja mediana no Focus está em 5,1082%.",
-      "risco": "A materialização de um acordo diplomático que normalize o fluxo pelo Estreito de Ormuz ou uma desaceleração brusca da demanda global, impulsionada pela expansão de veículos elétricos, poderia reverter a tese de preços firmes e derrubar as cotações.",
-      "proximo_evento": "Avaliações do Pentágono sobre possíveis respostas iranianas e a implementação prática do compromisso entre EUA, China e Rússia de ampliar a oferta global de derivados.",
+      "resumo": "O Ibovespa recuou 2,89% na semana, pressionado por incertezas fiscais e sinais de desaceleração econômica, enquanto o dólar subiu 4,95% e ultrapassou a marca de R$ 5,90.",
+      "mecanismo": "A combinação do adiamento de votações no Senado sobre o ajuste fiscal e a queda do IBC-Br em setembro reforçou a percepção de risco soberano e perda de fôlego da atividade, o que, somado à postura restritiva do Fed, provocou uma fuga de capitais para ativos de segurança, elevando o câmbio e penalizando o mercado acionário local.",
+      "implicacao": "Com a valorização do dólar e a aversão ao risco, o setor de exportadoras de commodities tende a se beneficiar, já que a receita em moeda estrangeira ganha poder de compra em reais, enquanto setores sensíveis a juros e consumo doméstico enfrentam pressão adicional devido à incerteza fiscal e à desaceleração econômica.",
+      "risco": "A tese de alta do dólar e pressão sobre o Ibovespa pode ser invalidada se o Congresso aprovar rapidamente um pacote fiscal robusto que restabeleça a confiança dos investidores e se o Fed sinalizar uma flexibilização monetária mais agressiva do que o esperado.",
+      "proximo_evento": "A votação dos destaques do projeto de ajuste fiscal na Câmara dos Deputados e a definição da composição do Ministério da Fazenda no próximo mandato.",
       "key_numbers": [
-        "WTI: US$ 83,21",
-        "Brent: US$ 91,98",
-        "Excedente AIE (trimestre): 1,7 mi barris/dia",
-        "Estoque EUA (variação semanal): +3,4 mi barris"
+        "Ibovespa semanal: -2,89%",
+        "Dólar semanal: +4,95%",
+        "Selic (Focus): 13,75%",
+        "PIB (Focus): 1,72%"
       ],
-      "sentiment": "neutral"
+      "sentiment": "down"
     },
     {
-      "title": "Dólar à vista supera os R$ 5,93 e renova máxima em mais de um ano",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/dolar-a-vista-supera-os-r-593-e-renova-maxima-em-mais-de-um-ano-davs/",
+      "title": "Bitcoin falls below $60K for first time since July amid broader market selloff",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-falls-below-60k-for-first-time-since-july-amid-broader-market-selloff?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O Bitcoin rompeu a barreira psicológica dos US$ 60 mil pela primeira vez desde julho, atingindo mínimas de US$ 58,8 mil, em meio a uma forte venda de ativos de risco e tecnologia nos EUA.",
+      "mecanismo": "A queda é impulsionada pela correlação crescente do Bitcoin com ações de IA e tecnologia, que sofrem com o receio de avaliações elevadas e a perspectiva de juros altos nos EUA (Fed mantendo taxa em 3,75%-4,00% e mercado precificando alta em dezembro), o que reduz a liquidez disponível para ativos sensíveis a risco e pressiona o preço da criptomoeda para baixo.",
+      "implicacao": "Com a liquidez global apertada e o sentimento de risco em baixa, a classe de ativos cripto tende a continuar volátil e correlacionada ao Nasdaq, já que investidores estão reduzindo exposição a ativos de crescimento e tecnologia em favor de segurança, o que limita o fluxo de capital para criptoativos no curto prazo.",
+      "risco": "A tese de exaustão de vendedores pode falhar se o sell-off em ações de IA se aprofundar ou se o Fed surpreender com um ciclo de aperto monetário mais agressivo do que o precificado, prolongando a pressão vendedora sobre o Bitcoin.",
+      "proximo_evento": "Reunião do Federal Reserve em 9 de dezembro de 2026, onde o mercado espera uma decisão sobre a manutenção ou aumento da taxa de juros.",
+      "key_numbers": [
+        "Bitcoin: US$ 59.503",
+        "Queda semanal BTC: 13,8%",
+        "Taxa Fed: 3,75%-4,00%",
+        "Chance de alta Fed (Dez): 94%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-hits-new-20-week-low-anthropic-drops-87-tech-sell-off?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O Bitcoin recuou para a marca de US$ 60.000, seu menor nível em 20 semanas, impulsionado por uma forte venda em ações de tecnologia nos EUA após o IPO da Anthropic não sustentar o otimismo do mercado.",
+      "mecanismo": "A perda de fôlego nas ações de IA, evidenciada pela queda da Anthropic após o IPO, está contaminando o mercado cripto porque o setor de infraestrutura de IA tornou-se uma história de crédito e liquidez; com o Fed mantendo um tom hawkish e sinalizando possíveis aumentos de juros, o custo de financiamento mais alto e a aversão a risco estão drenando capital de ativos de alta beta, como o Bitcoin, enquanto o mercado busca segurança em títulos do Tesouro.",
+      "implicacao": "Com a persistência de juros altos e a sensibilidade do setor de IA a condições de crédito, a classe de ativos de criptomoedas tende a permanecer sob pressão, já que a recuperação do preço do Bitcoin depende da estabilização das ações de tecnologia e do retorno do capital institucional, que está atualmente em fuga para ativos de segurança.",
+      "risco": "O raciocínio de continuidade da queda pode ser invalidado se o Fed surpreender o mercado com uma postura mais dovish do que o esperado ou se houver uma reversão súbita de volatilidade que atraia novamente capital especulativo para criptoativos.",
+      "proximo_evento": "A decisão de política monetária do Federal Reserve em dezembro, onde o mercado espera um aumento de 25 bps, mas o governador Christopher Waller defendeu a necessidade de um corte de 50 bps.",
+      "key_numbers": [
+        "Bitcoin: US$ 60.000",
+        "Yield 10 anos EUA: 4.96%",
+        "Nasdaq Composite: 23.517 pontos",
+        "Selic (fim do ano): 13.75%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Arquivos Notícias",
+      "source": "Livecoins",
+      "link": "https://livecoins.com.br/noticias/",
       "categorias": [
         "renda_fixa"
       ],
-      "resumo": "O dólar fechou em R$ 5,9350, maior nível em 19 meses, impulsionado pela demora do presidente em nomear o novo ministro da Fazenda e pela persistência de juros altos nos EUA.",
-      "mecanismo": "A incerteza política sobre a condução fiscal e monetária, somada à expectativa de 93,5% de alta de juros pelo Fed, aumenta a aversão ao risco e o prêmio de risco soberano, pressionando o câmbio para cima apesar da intervenção do BC que vendeu US$ 1 bilhão para conter a alta.",
-      "implicacao": "Com a pressão cambial e a incerteza fiscal, ativos de proteção cambial e títulos indexados ao dólar tendem a se valorizar, enquanto setores exportadores podem se beneficiar da competitividade de preços, mas o custo de importação de insumos pressiona a inflação, que o Focus projeta em 5,1082% para o fim do ano.",
-      "risco": "A nomeação rápida de um ministro com forte credibilidade técnica e a implementação de medidas fiscais mais agressivas poderiam reverter a aversão ao risco e estabilizar o câmbio abaixo da cotação atual.",
-      "proximo_evento": "A nomeação oficial do novo ministro da Fazenda e a divulgação da ata do Federal Reserve (Fed) que confirmou a perspectiva de juros mais altos por mais tempo.",
+      "resumo": "O ministro Flávio Dino determinou que a CVM e o Banco Central apresentem um plano integrado de regulação para tokenização e criptoativos até janeiro, rejeitando a manutenção de grupos de estudo isolados. A medida busca eliminar zonas cinzentas na fiscalização do mercado digital.",
+      "mecanismo": "A imposição de um prazo rígido para a unificação regulatória reduz a incerteza jurídica que atualmente afasta investidores institucionais e grandes players do mercado de criptoativos no Brasil. Ao alinhar as normas da CVM e do BC, cria-se um ambiente mais previsível que tende a atrair capital para ativos tokenizados e infraestrutura de custódia, desde que a implementação não traga barreiras excessivas à inovação.",
+      "implicacao": "Com a clareza regulatória se aproximando, o setor de infraestrutura de ativos digitais e fintechs focadas em tokenização tende a se valorizar, já que a redução do risco jurídico aumenta a atratividade para alocação de capital institucional em produtos digitais.",
+      "risco": "A regulação integrada pode ser mais restritiva do que o esperado, impondo custos de compliance elevados que inibam a entrada de novos players e reduzam a liquidez do mercado de criptoativos no Brasil.",
+      "proximo_evento": "Entrega do plano de regulação integrada por CVM e Banco Central, com prazo limite de janeiro de 2027.",
       "key_numbers": [
-        "Dólar à vista: R$ 5,9350",
-        "Chance de alta do Fed: 93,5%",
-        "Venda do BC: US$ 1 bilhão",
-        "IPCA Focus (fim do ano): 5.1082%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "BlackRock’s IBIT loses record $541M amid Anthropic market debut",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/blackrock-ibit-record-single-day-outflow?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O ETF de Bitcoin da BlackRock registrou seu maior resgate diário histórico, somando quase US$ 900 milhões em saídas nos últimos três dias, enquanto o preço da criptomoeda recuava em meio a uma venda generalizada no mercado de ações.",
-      "mecanismo": "A estreia da Anthropic no mercado de ações não sustentou a alta das ações de IA, gerando preocupações com avaliações elevadas e gastos pesados no setor, o que desencadeou um movimento de realização de lucros e aversão a risco que atingiu ativos de alta volatilidade, como o Bitcoin, forçando investidores a liquidarem posições em ETFs para cobrir perdas ou realocar capital.",
-      "implicacao": "Com o aumento da aversão a risco e a saída de capital de ativos digitais, a classe de ativos de criptomoedas tende a enfrentar pressão de venda contínua, já que a liquidez institucional está migrando para posições defensivas ou para ações de IA com fundamentos mais consolidados, reduzindo o suporte de preço para o Bitcoin.",
-      "risco": "O cenário de venda pode ser interrompido se a Anthropic demonstrar crescimento de receita robusto que justifique a avaliação, ou se novos fluxos institucionais entrarem no mercado de cripto ativos independentemente do desempenho das ações de IA.",
-      "proximo_evento": "Próximos relatórios de fluxo de caixa dos ETFs de Bitcoin nos EUA e a divulgação dos resultados trimestrais das principais empresas de tecnologia e IA para avaliar a sustentabilidade dos gastos e das avaliações.",
-      "key_numbers": [
-        "Saída recorde IBIT: US$ 541 milhões",
-        "Saídas acumuladas 3 dias: ~US$ 900 milhões",
-        "Preço Bitcoin: US$ 61.875",
-        "Queda Bitcoin 7 dias: 9,8%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/institutional-bitcoin-etf-holdings-clock-record-quarter-after-selling-streak?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "Instituições financeiras dos EUA reverteram três trimestres de vendas líquidas em ETFs de Bitcoin à vista no terceiro trimestre, acumulando um total recorde de 356.491 BTC.",
-      "mecanismo": "A entrada de grandes gestoras, liderada por bancos como Wells Fargo e plataformas de wealth management, indica que o Bitcoin está sendo tratado como um ativo de alocação estratégica de longo prazo por investidores institucionais, o que tende a reduzir a volatilidade estrutural e atrair mais capital para a classe de ativos digitais, apesar dos fluxos negativos recentes em outubro.",
-      "implicacao": "Com a consolidação institucional em ETFs de Bitcoin, a classe de ativos criptomoçados tende a ganhar maior liquidez e aceitação em carteiras diversificadas, já que a presença de grandes gestoras reduz o estigma de risco e alinha o ativo a padrões regulatórios tradicionais.",
-      "risco": "O recente recorde de saídas líquidas de US$ 2,9 bilhões em novembro sugere que o sentimento institucional pode ser volátil e sensível a ambientes de aversão a risco, invalidando a tese de acumulação estrutural se as vendas continuarem.",
-      "proximo_evento": "Divulgação dos próximos relatórios 13F do quarto trimestre e os dados mensais de fluxos de entrada/saída dos ETFs de Bitcoin nos EUA para novembro.",
-      "key_numbers": [
-        "Acumulação Q3: 49.229 BTC",
-        "Posição total recorde: 356.491 BTC",
-        "Saídas líquidas novembro: US$ 2,9 bilhões",
-        "Preço Bitcoin set/2026: US$ 83.621"
+        "Prazo para regulação: janeiro/2027",
+        "Selic (fim do ano): 13.75%",
+        "IPCA (fim do ano): 5.1082%",
+        "PIB (crescimento no ano): 1.7215%"
       ],
       "sentiment": "up"
     }
@@ -126,33 +147,33 @@
   "outras_noticias_por_categoria": {
     "renda_fixa": [],
     "acoes": [
-      "O medidor de medo de Wall Street atingiu o nível mais alto em sete meses devido ao aumento das preocupações com a inteligência artificial.",
-      "As ações europeias estão no caminho para registrar a maior queda semanal desde março.",
-      "O pré-mercado registrou a queda das ações da Anthropic após sua estreia e o declínio da Intuit em relação à venda da Mailchimp.",
-      "Um artigo do Seeking Alpha discute a perspectiva de longo prazo do rali de vendas de ações de semicondutores em 2026."
+      "A Nvidia ficou atrás da Alphabet e passou a ser a quarta empresa mais valiosa dos EUA nesta sexta-feira, devido a uma queda prolongada das ações da fabricante de chips.",
+      "A IPO da Anthropic, avaliada em 81 bilhões de dólares, atraiu metade da compra líquida de varejo registrada na IPO da SpaceX."
     ],
     "cripto": [
-      "Binance enfrenta uma ordem de congelamento de US$ 6,5 bilhões, enquanto Hong Kong expressa suspeitas sobre o token HYPE.",
-      "A MoonPay busca uma carta bancária nos EUA para oferecer serviços de stablecoin e custódia.",
-      "O indicado de Trump para a SEC, Johnson, apoia a criação de regras formais para o comércio de ações tokenizadas.",
-      "As ações da Anthropic abriram a US$ 111,50, 34,3% acima do preço de IPO de US$ 83."
+      "Hacker da Binance moveu quase $600M em ETH, roteando os fundos através da THORChain e Chainflip.",
+      "A SEC processou 8 empresas por plataformas de criptomoedas falsas ligadas a uma fraude de $37M.",
+      "Hong Kong adicionou a Hyperliquid à lista de plataformas de criptomoedas 'suspeitas'.",
+      "Lagarde alertou que a Europa pode perder a chance de unificar os mercados tokenizados."
     ],
     "debentures": [],
     "exterior": [
-      "O medidor de medo de Wall Street atingiu o nível mais alto em sete meses devido ao aumento das preocupações com a inteligência artificial.",
-      "As ações europeias estão no caminho para registrar a maior queda semanal desde março.",
-      "As ações da Índia encerraram o pregão em alta, com o índice Nifty 50 subindo 1,12%.",
-      "Fontes afirmam que Pequim proibirá jovens empresas 'red-chip' de listar suas ações fora da China continental."
+      "A Nvidia ficou atrás da Alphabet e passou a ser a quarta empresa mais valiosa dos EUA nesta sexta-feira, devido a uma queda prolongada das ações da fabricante de chips.",
+      "Trump afirmou que os EUA desejam que apenas chips mais antigos sejam vendidos à China.",
+      "Trump prometeu impor um imposto sobre empresas dos EUA que construam data centers no exterior.",
+      "A ação da Palantir Technologies está em queda hoje.",
+      "A divulgação dos dados de inflação ao consumidor (CPI) da Zona do Euro e dos EUA pode confirmar ou refutar a pressão de custos sobre a economia real e influenciar as expectativas de juros.",
+      "Novas divulgações de dados de inflação e atividade econômica na Zona do Euro, além de possíveis anúncios de novas emissões de dívida corporativa ou soberana para financiar infraestrutura de IA, são eventos a serem monitorados."
     ],
     "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário de renda fixa permanece pressionado pela aversão ao risco, com o dólar superando os R$ 5,93 e renovando máximas em mais de um ano devido à incerteza política sobre a condução fiscal e monetária. A atenção deve se concentrar na nomeação oficial do novo ministro da Fazenda e na divulgação da ata do Federal Reserve, que confirmou a perspectiva de juros mais altos por mais tempo, fatores que impactam diretamente o prêmio de risco soberano e as expectativas de Selic.",
-    "acoes": "O cenário global de aversão ao risco, evidenciado pela queda das bolsas europeias e pelo pico do medidor de medo em Wall Street, reforça a pressão sobre o fluxo de capitais para o Brasil, onde a incerteza fiscal e a expectativa de juros elevados (Selic em 13,75%) já penalizam ativos sensíveis. A volatilidade internacional, impulsionada por preocupações com a infraestrutura de IA e a venda de ações de semicondutores, tende a amplificar a sensibilidade do câmbio e do Ibovespa, exigindo atenção redobrada aos próximos eventos domésticos, como a análise do pacote fiscal pela Câmara e o plano estratégico da Petrobras.",
-    "cripto": "O cenário regulatório nos EUA avança com a busca da MoonPay por uma carta bancária e o apoio do indicado da SEC a regras para ações tokenizadas, sinalizando maior integração institucional. Paralelamente, a forte alta inicial das ações da Anthropic contrasta com a pressão de realização de lucros que atingiu o Bitcoin, enquanto tensões regulatórias na Ásia, como a ordem de congelamento contra a Binance, adicionam volatilidade ao mercado global.",
+    "renda_fixa": "A atenção deve se concentrar na entrega do plano de regulação integrada por CVM e Banco Central, com prazo limite de janeiro de 2027, que visa reduzir a incerteza jurídica e atrair capital para ativos tokenizados. A implementação desse marco regulatório é o principal fator que determinará a previsibilidade do ambiente para investidores institucionais no setor de criptoativos.",
+    "acoes": "O mercado acionário brasileiro segue pressionado pela aversão ao risco soberano, impulsionada pela rejeição ao pacote de ajuste fiscal e pela incerteza sobre a equipe econômica do próximo mandato, o que eleva o câmbio e penaliza ativos locais como o EWZ. No exterior, a reavaliação negativa dos múltiplos do setor de tecnologia, evidenciada pela queda da Nvidia e pela forte emissão de dívida para financiar infraestrutura de IA, sugere que a pressão sobre custos de capital e margens de lucro pode continuar impactando as bolsas globais, especialmente em conjunto com os próximos dados de inflação.",
+    "cripto": "O cenário de criptomoedas em novembro de 2026 é marcado pela pressão de liquidez derivada da política monetária do Fed, que mantém taxas em 3,75%-4,00% e enfrenta expectativas de alta em dezembro, impactando diretamente o Bitcoin. Enquanto o mercado reage à correlação com o setor de IA e à aversão a risco, o ambiente regulatório se intensifica com ações da SEC contra fraudes e a inclusão de plataformas como a Hyperliquid em listas de suspeita em Hong Kong, além de alertas da Lagarde sobre a unificação de mercados tokenizados na Europa.",
     "debentures": "",
-    "exterior": "A combinação do medidor de medo de Wall Street em sete meses de alta e a maior queda semanal europeia desde março indica uma aversão ao risco global que se alinha com as preocupações sobre a infraestrutura de IA e a saída do CEO da Nvidia. Enquanto isso, a alta das ações na Índia sugere uma rotação de capital para mercados emergentes, ao passo que a restrição chinesa a listagens externas adiciona uma nova camada de incerteza regulatória ao cenário internacional.",
+    "exterior": "O mercado está reavaliando os múltiplos do setor de tecnologia e semicondutores devido ao aumento do custo de capital para infraestrutura de IA e às novas restrições comerciais, como a limitação de chips vendidos à China e a ameaça de impostos sobre data centers no exterior. Essa pressão sobre as margens e a reorganização do topo do ranking de valor de mercado, com a Nvidia perdendo posições para a Alphabet, ocorre em um contexto de incerteza que será testado pelos próximos dados de inflação e atividade econômica.",
     "imobiliario": ""
   },
-  "radar": "📊 Radar do Mercado · 20/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Electronic Technology (+2,67% na média) · que mais caiu: Consumer Services (-4,10%)\n• Ações líquidas da B3: média de -1,42% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de -0,30%\n\n📈 Maiores altas — ações (top 20):\n• PCAR3 (CIA BRASILEIRA DE DISTRIBUICAO) +8,03% (R$ 3,23)\n• LIGT3 (LIGHT S.A.) +6,99% (R$ 3,06)\n• POSI3 (POSITIVO TECNOLOGIA S.A.) +6,31% (R$ 3,37)\n• MELK3 (MELNICK DESENVOLVIMENTO IMOBIL) +4,59% (R$ 2,05)\n• QUAL3 (QUALICORP CONSULTORIA E CORRET) +4,55% (R$ 1,84)\n• GMAT3 (GRUPO MATEUS S.A.) +3,21% (R$ 4,18)\n• TUPY3 (TUPY S.A.) +2,71% (R$ 20,87)\n• USIM5 (USINAS SID DE MINAS GERAIS S.A) +2,59% (R$ 5,14)\n• OBTC3 (ORANJEBTC S.A. - EDUCAÇÃO E IN) +2,59% (R$ 6,34)\n• FLRY3 (FLEURY S.A.) +2,53% (R$ 21,51)\n• GOAU4 (METALURGICA GERDAU S.A.) +2,22% (R$ 11,50)\n• HBSA3 (HIDROVIAS DO BRASIL S.A.) +1,59% (R$ 3,19)\n• MLAS3 (GRUPO MULTI S.A.) +1,37% (R$ 2,22)\n• BBAS3 (BCO BRASIL S.A.) +1,27% (R$ 14,30)\n• TEND3 (CONSTRUTORA TENDA S.A.) +1,13% (R$ 15,23)\n• GGBR4 (GERDAU S.A.) +1,06% (R$ 25,86)\n• CSMG3 (CIA SANEAMENTO DE MINAS GERAIS) +1,06% (R$ 56,09)\n• SAPR11 (CIA SANEAMENTO DO PARANA - SAN) +1,04% (R$ 34,14)\n• BBSE3 (BB SEGURIDADE PARTICIPAÇÕES S.) +0,90% (R$ 36,99)\n• EVEN3 (EVEN CONSTRUTORA E INCORPORADO) +0,83% (R$ 3,65)\n📉 Maiores baixas — ações (top 20):\n• RAIZ55 (RAIZEN S.A.) -10,71% (R$ 0,15)\n• AZEV4 (AZEVEDO E TRAVASSOS S.A.) -8,82% (R$ 0,62)\n• CVCB3 (CVC BRASIL OPERADORA E AGÊNCIA) -7,69% (R$ 0,72)\n• VVEO3 (CM HOSPITALAR S.A.) -7,41% (R$ 0,50)\n• AZZA3 (AZZAS 2154 S.A.) -7,29% (R$ 14,63)\n• HBRE3 (HBR REALTY EMPREENDIMENTOS IMO) -6,87% (R$ 1,22)\n• DASA3 (DIAGNOSTICOS DA AMERICA S.A.) -6,86% (R$ 3,26)\n• NATU3 (NATURA COSMETICOS S.A.) -6,28% (R$ 4,48)\n• CSNA3 (CIA SIDERURGICA NACIONAL) -6,03% (R$ 3,43)\n• VTRU3 (VITRU EDUCAÇÃO S.A) -5,94% (R$ 13,45)\n• CSED3 (CRUZEIRO DO SUL EDUCACIONAL S.) -5,90% (R$ 3,35)\n• ONCO3 (ONCOCLINICAS DO BRASIL SERVICO) -5,56% (R$ 0,68)\n• POMO3 (MARCOPOLO S.A.) -5,07% (R$ 3,37)\n• SIMH3 (SIMPAR S.A.) -4,99% (R$ 5,33)\n• OPCT3 (OCEANPACT SERVICOS MARITIMOS S) -4,82% (R$ 8,89)\n• CEAB3 (CEA MODAS S.A.) -4,82% (R$ 7,50)\n• PMAM3 (PARANAPANEMA S.A.) -4,76% (R$ 0,20)\n• BHIA3 (GRUPO CASAS BAHIA S.A.) -4,48% (R$ 0,64)\n• MOVI3 (MOVIDA PARTICIPACOES SA) -4,41% (R$ 5,64)\n• POMO4 (MARCOPOLO S.A.) -4,23% (R$ 3,62)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNAM11 (FNAM11) +10,77% (R$ 0,72)\n• VGIR11 (VALORA CRI CDI FUNDO DE INVEST — papel (CDI)) +3,96% (R$ 8,13)\n• BDIF11 (BTG PACTUAL DÍVIDA INFRA FIF E) +2,07% (R$ 59,80)\n• SNEL11 (SUNO ENERGIAS LIMPAS FUNDO DE ) +2,06% (R$ 6,93)\n• ETHE11 (HASHDEX NASDAQ ETHEREUM REFERE) +1,55% (R$ 30,11)\n• DOLA11 (BB ETF ÍNDICE FUTURO DE DOLAR ) +1,45% (R$ 11,93)\n• BITH11 (HASHDEX NASDAQ BITCOIN REFEREN) +1,35% (R$ 83,49)\n• VGIA11 (VALORA CRA FUNDO DE I. NAS C.  — Fiagro (CRA)) +0,90% (R$ 7,82)\n• SNME11 (SUNO MULTIESTRATÉGIA FUNDO DE ) +0,89% (R$ 9,08)\n• XPSF11 (XP SELECTION FUNDO DE FUNDOS D) +0,88% (R$ 5,73)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNOR11 (FNOR11) -5,08% (R$ 0,56)\n• XPML11 (XP MALLS FUNDO DE INVESTIMENTO — tijolo: shoppings) -4,44% (R$ 81,99)\n• HGBS11 (HEDGE BRASIL SHOPPING FUNDO DE — tijolo: shoppings) -2,26% (R$ 16,83)\n• RBRX11 (PATRIA PLUS MULTIESTRATÉGIA RE) -2,25% (R$ 6,08)\n• CHIP11 (INVESTO ETF US LISTED  SEMICON) -1,96% (R$ 32,57)\n• GOLX11 (TREND ETF B3 OURO CLASSE DE ÍN) -1,82% (R$ 44,13)\n• HFOF11 (HEDGE TOP FOFII 3 FUNDO DE INV — FOF) -1,82% (R$ 5,40)\n• SPXR11 (IT NOW S&amp;P 500 FUTURES QUANTO ) -1,78% (R$ 71,75)\n• HIGH11 (NU IBOV SMART HIGH BETA B3 CLA) -1,76% (R$ 70,95)\n• BTLG11 (BTG PACTUAL LOGÍSTICA FUNDO DE — tijolo: logística) -1,68% (R$ 94,80)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -2,02%\n• Nasdaq (EUA): -2,25%\n• Dow Jones (EUA): -2,19%\n• Euro Stoxx 50 (Europa): -1,55%\n• Nikkei 225 (Japão): -5,06%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: -0,02% (US$ 61,891)\n• Ethereum: -0,10% (US$ 1,754)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,3%"
+  "radar": "📊 Radar do Mercado · 20/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Electronic Technology (+2,67% na média) · que mais caiu: Consumer Services (-4,10%)\n• Ações líquidas da B3: média de -1,42% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de -0,39%\n\n📈 Maiores altas — ações (top 20):\n• PCAR3 (CIA BRASILEIRA DE DISTRIBUICAO) +8,03% (R$ 3,23)\n• LIGT3 (LIGHT S.A.) +6,99% (R$ 3,06)\n• POSI3 (POSITIVO TECNOLOGIA S.A.) +6,31% (R$ 3,37)\n• MELK3 (MELNICK DESENVOLVIMENTO IMOBIL) +4,59% (R$ 2,05)\n• QUAL3 (QUALICORP CONSULTORIA E CORRET) +4,55% (R$ 1,84)\n• GMAT3 (GRUPO MATEUS S.A.) +3,21% (R$ 4,18)\n• TUPY3 (TUPY S.A.) +2,71% (R$ 20,87)\n• USIM5 (USINAS SID DE MINAS GERAIS S.A) +2,59% (R$ 5,14)\n• OBTC3 (ORANJEBTC S.A. - EDUCAÇÃO E IN) +2,59% (R$ 6,34)\n• FLRY3 (FLEURY S.A.) +2,53% (R$ 21,51)\n• GOAU4 (METALURGICA GERDAU S.A.) +2,22% (R$ 11,50)\n• HBSA3 (HIDROVIAS DO BRASIL S.A.) +1,59% (R$ 3,19)\n• MLAS3 (GRUPO MULTI S.A.) +1,37% (R$ 2,22)\n• BBAS3 (BCO BRASIL S.A.) +1,27% (R$ 14,30)\n• TEND3 (CONSTRUTORA TENDA S.A.) +1,13% (R$ 15,23)\n• GGBR4 (GERDAU S.A.) +1,06% (R$ 25,86)\n• CSMG3 (CIA SANEAMENTO DE MINAS GERAIS) +1,06% (R$ 56,09)\n• SAPR11 (CIA SANEAMENTO DO PARANA - SAN) +1,04% (R$ 34,14)\n• BBSE3 (BB SEGURIDADE PARTICIPAÇÕES S.) +0,90% (R$ 36,99)\n• EVEN3 (EVEN CONSTRUTORA E INCORPORADO) +0,83% (R$ 3,65)\n📉 Maiores baixas — ações (top 20):\n• RAIZ55 (RAIZEN S.A.) -10,71% (R$ 0,15)\n• AZEV4 (AZEVEDO E TRAVASSOS S.A.) -8,82% (R$ 0,62)\n• CVCB3 (CVC BRASIL OPERADORA E AGÊNCIA) -7,69% (R$ 0,72)\n• VVEO3 (CM HOSPITALAR S.A.) -7,41% (R$ 0,50)\n• AZZA3 (AZZAS 2154 S.A.) -7,29% (R$ 14,63)\n• HBRE3 (HBR REALTY EMPREENDIMENTOS IMO) -6,87% (R$ 1,22)\n• DASA3 (DIAGNOSTICOS DA AMERICA S.A.) -6,86% (R$ 3,26)\n• NATU3 (NATURA COSMETICOS S.A.) -6,28% (R$ 4,48)\n• CSNA3 (CIA SIDERURGICA NACIONAL) -6,03% (R$ 3,43)\n• VTRU3 (VITRU EDUCAÇÃO S.A) -5,94% (R$ 13,45)\n• CSED3 (CRUZEIRO DO SUL EDUCACIONAL S.) -5,90% (R$ 3,35)\n• ONCO3 (ONCOCLINICAS DO BRASIL SERVICO) -5,56% (R$ 0,68)\n• POMO3 (MARCOPOLO S.A.) -5,07% (R$ 3,37)\n• SIMH3 (SIMPAR S.A.) -4,99% (R$ 5,33)\n• OPCT3 (OCEANPACT SERVICOS MARITIMOS S) -4,82% (R$ 8,89)\n• CEAB3 (CEA MODAS S.A.) -4,82% (R$ 7,50)\n• PMAM3 (PARANAPANEMA S.A.) -4,76% (R$ 0,20)\n• BHIA3 (GRUPO CASAS BAHIA S.A.) -4,48% (R$ 0,64)\n• MOVI3 (MOVIDA PARTICIPACOES SA) -4,41% (R$ 5,64)\n• POMO4 (MARCOPOLO S.A.) -4,23% (R$ 3,62)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNAM11 (FNAM11) +10,77% (R$ 0,72)\n• VGIR11 (VALORA CRI CDI FUNDO DE INVEST — papel (CDI)) +3,96% (R$ 8,13)\n• AIEC11 (ARCH EDIFÍCIOS CORPORATIVOS FU) +2,11% (R$ 71,99)\n• SNEL11 (SUNO ENERGIAS LIMPAS FUNDO DE ) +2,06% (R$ 6,93)\n• DOLA11 (BB ETF ÍNDICE FUTURO DE DOLAR ) +1,45% (R$ 11,93)\n• VGIA11 (VALORA CRA FUNDO DE I. NAS C.  — Fiagro (CRA)) +0,90% (R$ 7,82)\n• SNME11 (SUNO MULTIESTRATÉGIA FUNDO DE ) +0,89% (R$ 9,08)\n• XPSF11 (XP SELECTION FUNDO DE FUNDOS D) +0,88% (R$ 5,73)\n• DOLX11 (TREND ETF S&amp;P / B3 DOLAR CLASS) +0,87% (R$ 55,48)\n• SOLH11 (HASHDEX NASDAQ SOLANA FUNDO DE) +0,84% (R$ 12,00)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNOR11 (FNOR11) -5,08% (R$ 0,56)\n• XPML11 (XP MALLS FUNDO DE INVESTIMENTO — tijolo: shoppings) -4,44% (R$ 81,99)\n• HGBS11 (HEDGE BRASIL SHOPPING FUNDO DE — tijolo: shoppings) -2,26% (R$ 16,83)\n• RBRX11 (PATRIA PLUS MULTIESTRATÉGIA RE) -2,25% (R$ 6,08)\n• HIGH11 (NU IBOV SMART HIGH BETA B3 CLA) -2,12% (R$ 70,69)\n• SPBZ11 (BTG PACTUAL S&amp;P 500 FUTURES QU) -2,06% (R$ 115,62)\n• CHIP11 (INVESTO ETF US LISTED  SEMICON) -1,96% (R$ 32,57)\n• SPXR11 (IT NOW S&amp;P 500 FUTURES QUANTO ) -1,93% (R$ 71,64)\n• HFOF11 (HEDGE TOP FOFII 3 FUNDO DE INV — FOF) -1,82% (R$ 5,40)\n• GOLX11 (TREND ETF B3 OURO CLASSE DE ÍN) -1,74% (R$ 44,17)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -2,08%\n• Nasdaq (EUA): -3,42%\n• Dow Jones (EUA): -0,58%\n• Euro Stoxx 50 (Europa): -2,81%\n• Nikkei 225 (Japão): +0,71%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: -5,82% (US$ 58,298)\n• Ethereum: -8,00% (US$ 1,615)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,3%"
 }
