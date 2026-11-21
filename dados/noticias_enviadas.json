@@ -74,7 +74,22 @@
     "https://www.investing.com/news/stock-market-news/trump-says-us-wants-only-older-chips-sold-to-china-5042407": "2026-11-20",
     "https://www.investing.com/news/stock-market-news/trump-vows-tax-on-us-firms-building-data-centers-abroad-5042405": "2026-11-20",
     "https://www.investing.com/news/stock-market-news/why-is-palantir-technologies-stock-sliding-today-93CH-5042391": "2026-11-20",
-    "https://livecoins.com.br/noticias/": "2026-11-20"
+    "https://livecoins.com.br/noticias/": "2026-11-20",
+    "https://www.moneytimes.com.br/bitcoin-btc-cai-a-us-57-mil-e-renova-minima-em-mais-de-dois-anos-qual-o-fundo-do-poco/": "2026-11-21",
+    "https://www.moneytimes.com.br/vale-itau-petrobras-bradesco-como-fecharam-os-adrs-em-dia-de-bolsa-fechada/": "2026-11-21",
+    "https://www.moneytimes.com.br/em-queda-livre-ibovespa-em-dolar-ewz-despenca-mais-de-3-e-a-culpa-nao-e-so-do-governo/": "2026-11-21",
+    "https://www.moneytimes.com.br/mercado-do-urso-nasdaq-tem-forte-correcao-e-despenca-5-indice-do-medo-salta-ate-31-com-liquidacao-de-techs/": "2026-11-21",
+    "https://www.moneytimes.com.br/small-caps-safra-coloca-na-carteira-banco-que-pode-disparar-80-e-chegar-a-r-100-na-carteira-confira/": "2026-11-21",
+    "https://cointelegraph.com/news/wrapped-monero-token-crashes-998-amid-suspected-135m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound": "2026-11-21",
+    "https://cointelegraph.com/news/sky-protocol-sees-2b-in-stablecoin-withdrawals-disputes-illicit-fund-claims?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound": "2026-11-21",
+    "https://cointelegraph.com/news/vaneck-gemini-etf-custody-end-keep-coinbase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound": "2026-11-21",
+    "https://cointelegraph.com/markets/bitcoin-first-death-cross-repeat-2023-bottom-25k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound": "2026-11-21",
+    "https://www.investing.com/news/stock-market-news/how-are-ai-chip-flows-reshaping-dollar-dominance-deutsche-bank-explains-5043246": "2026-11-21",
+    "https://www.investing.com/news/stock-market-news/analysiswall-street-banks-set-for-banner-year-as-anthropic-spacex-ipos-generate-1-billion-in-fees-5042444": "2026-11-21",
+    "https://seekingalpha.com/article/4970813-the-stock-market-is-declining-and-the-worst-may-be-yet-to-come?source=feed_all_articles": "2026-11-21",
+    "https://seekingalpha.com/article/4970810-whales-insight-can-bitcoin-find-support-after-anthropics-record-ipo?source=feed_all_articles": "2026-11-21",
+    "https://seekingalpha.com/article/4970795-margin-debt-decreases-2-3-percent-in-october?source=feed_all_articles": "2026-11-21",
+    "https://seekingalpha.com/article/4970793-consumer-sentiment-recovers-significantly-in-november?source=feed_all_articles": "2026-11-21"
   },
   "titulos": {
     "bolsas da europa fecham em queda com pressão geopolítica": "2026-11-19",
@@ -151,6 +166,21 @@
     "trump says us wants only older chips sold to china": "2026-11-20",
     "trump vows tax on us firms building data centers abroad": "2026-11-20",
     "why is palantir technologies stock sliding today?": "2026-11-20",
-    "arquivos notícias": "2026-11-20"
+    "arquivos notícias": "2026-11-20",
+    "bitcoin (btc) cai a us$ 57 mil e renova mínima em mais de dois anos; qual o fundo do poço?": "2026-11-21",
+    "vale, itaú, petrobras, bradesco: como fecharam os adrs durante o feriado da bolsa": "2026-11-21",
+    "em queda livre: ibovespa em dólar (ewz) despenca mais de 3% — e a culpa não é só do governo": "2026-11-21",
+    "mercado do urso: nasdaq tem forte correção e despenca 5%; índice do medo salta até 31% com liquidação de techs": "2026-11-21",
+    "small caps: safra coloca na carteira banco que pode disparar 80% e chegar a r$ 100; confira o portfólio": "2026-11-21",
+    "wrapped monero token crashes 99.8% amid suspected $13.5m exploit": "2026-11-21",
+    "sky protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims": "2026-11-21",
+    "vaneck to end gemini etf custody deals, keeps coinbase": "2026-11-21",
+    "bitcoin nears repeat of chart pattern that preceded 2023’s $25k retest": "2026-11-21",
+    "how are ai chip flows reshaping dollar dominance? deutsche bank explains": "2026-11-21",
+    "analysis-wall street banks set for banner year as anthropic, spacex ipos generate $1 billion in fees": "2026-11-21",
+    "the stock market is declining and the worst may be yet to come": "2026-11-21",
+    "whale's insight: can bitcoin find support after anthropic's record ipo?": "2026-11-21",
+    "margin debt decreases 2.3% in october": "2026-11-21",
+    "consumer sentiment recovers significantly in november": "2026-11-21"
   }
 }
