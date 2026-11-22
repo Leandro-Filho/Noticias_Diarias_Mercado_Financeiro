@@ -1,157 +1,197 @@
 {
-  "gerado_em": "2026-11-21T11:15:58.361985+00:00",
+  "gerado_em": "2026-11-22T11:16:34.661475+00:00",
   "itens": [
     {
-      "title": "Bitcoin (BTC) cai a US$ 57 mil e renova mínima em mais de dois anos; qual o fundo do poço?",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bitcoin-btc-cai-a-us-57-mil-e-renova-minima-em-mais-de-dois-anos-qual-o-fundo-do-poco/",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O Bitcoin atingiu US$ 57.957, renovando mínima de dois anos, impulsionado por forte aversão a risco global e saques bilionários de ETFs à vista nos EUA.",
-      "mecanismo": "A correção de 5% no Nasdaq, motivada por dúvidas sobre investimentos em IA, desencadeou uma liquidação ampla de ativos de risco; simultaneamente, a Selic projetada em 13,75% e a possibilidade de novas altas de juros pelo Fed mantêm o custo de oportunidade elevado, reduzindo o apetite por criptoativos e forçando a saída de US$ 3,5 bilhões dos ETFs.",
-      "implicacao": "Com a liquidez sendo drenada dos ETFs e o 'caixa é rei' prevalecendo, a classe de ativos criptomoedas tende a permanecer sob pressão, já que a falta de capitais institucionais e o aumento das liquidações forçadas em derivativos amplificam a volatilidade negativa.",
-      "risco": "Uma reversão súbita no sentimento de risco global ou a confirmação de uma capitulação total por parte dos grandes participantes poderia indicar um fundo de preço mais rápido do que o esperado, invalidando a tese de queda contínua.",
-      "proximo_evento": "Próxima reunião do Federal Reserve (Fed) para definição de política monetária e divulgação dos dados de inflação (CPI) dos EUA.",
-      "key_numbers": [
-        "BTC: US$ 57.957",
-        "Saques ETFs: US$ 3,5 bilhões",
-        "Queda Nasdaq: 5%",
-        "Liquidações derivativos: US$ 1,5 bilhão"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Vale, Itaú, Petrobras, Bradesco: como fecharam os ADRs durante o feriado da bolsa",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/vale-itau-petrobras-bradesco-como-fecharam-os-adrs-em-dia-de-bolsa-fechada/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "Os ADRs de empresas brasileiras e o ETF EWZ registraram quedas expressivas na sexta-feira, refletindo a aversão ao risco global e a deterioração da percepção sobre a sustentabilidade fiscal do país.",
-      "mecanismo": "A combinação de uma queda acentuada em Wall Street (impulsionada por preocupações com o setor de tecnologia) e a insatisfação do mercado com o pacote fiscal brasileiro insuficiente para conter as contas públicas gerou uma fuga de capitais dos ativos de risco do Brasil, pressionando os preços dos ADRs e do EWZ.",
-      "implicacao": "Com a percepção de risco fiscal elevado e juros reais pressionados, o setor de commodities e grandes bancos tendem a sofrer com a desvalorização cambial e o aumento do prêmio de risco, enquanto ativos de defesa ou com fluxo de caixa robusto podem ser preferidos em um cenário de aversão global.",
-      "risco": "A reabertura da B3 pode não replicar integralmente a queda dos ADRs se houver uma reversão rápida do humor global ou se o governo apresentar medidas fiscais adicionais que acalmem o mercado antes da próxima reunião do Copom.",
-      "proximo_evento": "Reabertura da B3 na segunda-feira (23/11), onde o Ibovespa deve reagir ao gap negativo deixado pelos ADRs, e a divulgação dos dados de inflação (IPCA) de novembro, que ocorrerá em breve.",
-      "key_numbers": [
-        "Queda do EWZ: -3%",
-        "Queda do Nasdaq: -5.28%",
-        "Queda do S&P 500: -3.70%",
-        "Queda do ADR da Vale: -3.46%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Em queda livre: Ibovespa em dólar (EWZ) despenca mais de 3% — e a culpa não é só do governo",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/em-queda-livre-ibovespa-em-dolar-ewz-despenca-mais-de-3-e-a-culpa-nao-e-so-do-governo/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O ETF EWZ caiu mais de 3% na sexta-feira, refletindo a aversão global ao risco e a insatisfação com o pacote fiscal brasileiro, enquanto o dólar subiu para R$ 5,9350.",
-      "mecanismo": "A combinação de um pacote fiscal visto como insuficiente para conter a deterioração das contas públicas e a forte queda das bolsas americanas (Nasdaq -5,28%) devido a investigações sobre a Nvidia gerou uma fuga de capitais de ativos de risco, pressionando o câmbio e os ADRs brasileiros, mesmo com a B3 fechada.",
-      "implicacao": "Com a percepção de risco fiscal elevado e o dólar em alta, ativos de defesa como títulos públicos indexados à inflação (IPCA+) e moeda estrangeira tendem a se valorizar, enquanto ações de empresas sensíveis ao custo de capital e à volatilidade cambial enfrentam pressão de desvalorização.",
-      "risco": "A nomeação de um ministro da Fazenda com forte credibilidade técnica e a aprovação de medidas fiscais adicionais mais robustas poderiam reverter a percepção de risco e atrair novamente o fluxo de capital estrangeiro para o mercado acionário.",
-      "proximo_evento": "Definição do comando do Ministério da Fazenda para o próximo mandato, com nomes como Rafael Fonteles e Geraldo Alckmin em destaque, e a retomada das negociações na B3 na segunda-feira (23).",
-      "key_numbers": [
-        "EWZ: -3,29%",
-        "Dólar à vista: R$ 5,9350",
-        "Nasdaq: -5,28%",
-        "VIX: 36 pontos"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Mercado do urso: Nasdaq tem forte correção e despenca 5%; índice do medo salta até 31% com liquidação de techs",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/mercado-do-urso-nasdaq-tem-forte-correcao-e-despenca-5-indice-do-medo-salta-ate-31-com-liquidacao-de-techs/",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "Wall Street sofreu uma forte correção nesta sexta-feira, com o Nasdaq caindo mais de 5% e o VIX atingindo máximos de 2026, impulsionado por dúvidas sobre a sustentabilidade dos investimentos em IA e notícias negativas sobre a contabilidade de grandes empresas de tecnologia.",
-      "mecanismo": "A desconfiança sobre o retorno dos investimentos em infraestrutura de IA, somada a riscos regulatórios e contábeis em empresas líderes do setor, provocou uma realização de lucros massiva que derrubou as ações de semicondutores e forçou uma rotação defensiva, elevando a aversão ao risco medida pelo VIX.",
-      "implicacao": "Com o aumento da aversão ao risco e a correção no setor de tecnologia, ativos defensivos e de valor tendem a se beneficiar, já que o capital sai de papéis de crescimento de alta volatilidade em busca de segurança e dividendos.",
-      "risco": "A correção pode ser apenas um ajuste técnico de curto prazo, e o mercado pode reverter rapidamente se as empresas demonstrarem que os lucros com IA continuam superando as expectativas, invalidando a tese de estagnação do setor.",
-      "proximo_evento": "Novas divulgações de balanços das grandes empresas de tecnologia e possíveis atualizações sobre investigações contábeis ou regulatórias que possam confirmar ou desmentir os temores do mercado.",
-      "key_numbers": [
-        "Nasdaq: -5.28%",
-        "VIX: 36 pontos",
-        "Nvidia: -12%",
-        "S&P 500: -3.70%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Bitcoin nears repeat of chart pattern that preceded 2023’s $25K retest",
+      "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-first-death-cross-repeat-2023-bottom-25k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "O Bitcoin atingiu uma mínima de 20 semanas em torno de US$ 61.231, impulsionado por um cruzamento de médias móveis que historicamente precedeu correções aprofundadas, em meio a uma venda generalizada no setor de tecnologia.",
-      "mecanismo": "A queda do Bitcoin para US$ 61.231 foi catalisada pelo fechamento negativo de 2,25% do Nasdaq Composite, reflexo da volatilidade pós-IPO da Anthropic, o que sugere que a correlação com ativos de risco de alta beta está dominando o fluxo de capital em detrimento de fundamentos específicos do criptoativo.",
-      "implicacao": "Com a confirmação técnica de tendência de baixa e a perda de suporte na média de 200 semanas, a classe de ativos criptográficos tende a enfrentar pressão vendedora adicional, já que a correlação com o Nasdaq indica que investidores institucionais estão reduzindo exposição a ativos de risco globalmente.",
-      "risco": "O padrão técnico é baseado em uma única ocorrência histórica (2023), o que limita a confiabilidade estatística da previsão, e uma reversão no sentimento do mercado de ações de tecnologia poderia invalidar a tese de continuidade da queda.",
-      "proximo_evento": "O fechamento semanal do gráfico diário do BTC/USD, momento em que o analista Keith Alan espera confirmar o cruzamento da média móvel de 50 dias abaixo da de 100 dias, completando o padrão técnico de 'death cross' duplo.",
+      "resumo": "A Kraken confirmou que manterá as execuções de ordens durante uma queda anômala do Bitcoin em seus pares canadenses, onde o ativo chegou a valer cerca de US$ 17.000 devido a uma divergência cambial, enquanto o preço global permanecia próximo de US$ 57.650.",
+      "mecanismo": "A hipótese de Adam Back sugere que um market maker esgotou seu capital no mercado spot USD/CAD, criando uma distorção de preço que o arbitragem espalhou para outros pares em dólar canadense; como a Kraken validou a integridade técnica das ordens, o evento é tratado como falha de liquidez local e não como hackeamento, o que impede a reversão das transações e mantém a confiança na infraestrutura da exchange, embora não altere a fundamentação macroeconômica global do ativo.",
+      "implicacao": "Porque a falha foi isolada a um par cambial específico e não representa uma vulnerabilidade sistêmica de segurança, a classe de ativos cripto tende a manter sua volatilidade estrutural sem perda de credibilidade institucional, já que a liquidez em pares principais (como BTC/USD) permaneceu intacta e o mercado global não sofreu o impacto da distorção local.",
+      "risco": "O raciocínio pode ser invalidado se a investigação revelar que a divergência foi causada por uma falha de segurança não detectada ou por manipulação de mercado, o que poderia levar a uma desconfiança generalizada nas exchanges descentralizadas e centralizadas, provocando uma fuga de capitais do setor.",
+      "proximo_evento": "A divulgação do relatório de auditoria ou a confirmação oficial da Kraken sobre a causa exata da divergência cambial, além do próximo relatório de inflação (IPCA) no Brasil, cuja mediana projetada no Focus é de 5,1082% para o fim de 2026, que impacta o apetite global por risco.",
       "key_numbers": [
-        "BTC/USD: US$ 61.231",
-        "Nasdaq Composite: 23.879 pontos",
-        "Queda do Nasdaq: 2.25%",
-        "Mínima histórica de referência: US$ 25.000"
+        "Bitcoin (Kraken CAD): US$ 16.900",
+        "Bitcoin (Kraken USD): US$ 57.650",
+        "Câmbio C$/US$: 1.4325",
+        "IPCA (Focus 2026): 5.1082%"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Chainflip confirms $12M hack, offers attacker 10% bounty",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/news/chainflip-12m-crypto-hack-10-percent-bounty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O protocolo de trocas cross-chain Chainflip confirmou um roubo de aproximadamente US$ 12 milhões em criptoativos de seus cofres e propôs ao invasor um bônus de 10% para a devolução de 90% dos fundos até a próxima segunda-feira.",
+      "mecanismo": "A exposição de chaves criptográficas permitiu a drenagem dos cofres, o que gerou uma perda de confiança imediata no protocolo e resultou em uma queda de quase 43% no token FLIP em 24 horas, enquanto a oferta de recompensa busca mitigar o dano reputacional e recuperar os ativos antes que sejam lavados em misturadores como o Tornado Cash.",
+      "implicacao": "Devido à vulnerabilidade sistêmica exposta em protocolos de interoperabilidade, a classe de ativos de DeFi cross-chain tende a sofrer pressão de desalavancagem e redução de volume, já que investidores institucionais e de curto prazo reprecificam o risco de custódia e segurança em infraestrutura descentralizada.",
+      "risco": "O raciocínio de recuperação de confiança pode ser invalidado se o invasor ignorar o prazo e realizar a lavagem dos ativos, o que poderia desencadear uma investigação regulatória mais severa e uma saída de capital permanente do setor de swaps cross-chain.",
+      "proximo_evento": "O prazo final de 23 de novembro de 2026 às 18h38 UTC para a devolução dos fundos e a possível retirada das denúncias às autoridades.",
+      "key_numbers": [
+        "Valor roubado: US$ 12 milhões",
+        "Queda do token FLIP: 42.9%",
+        "Prazo para devolução: 23/11/2026",
+        "Bônus oferecido: 10%"
       ],
       "sentiment": "down"
     },
     {
-      "title": "How are AI chip flows reshaping dollar dominance? Deutsche Bank explains",
+      "title": "Swiss inflation accelerates as SNB signals concern over broader price pressures",
       "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/how-are-ai-chip-flows-reshaping-dollar-dominance-deutsche-bank-explains-5043246",
+      "link": "https://www.investing.com/news/stock-market-news/swiss-inflation-accelerates-as-snb-signals-concern-over-broader-price-pressures-5043822",
+      "categorias": [
+        "renda_fixa",
+        "exterior"
+      ],
+      "resumo": "A inflação na Suíça registrou uma aceleração recente, levando o Banco Nacional Suíço (SNB) a expressar preocupação com a persistência das pressões de preços na economia.",
+      "mecanismo": "O aumento da inflação suíça força o SNB a manter ou endurecer sua postura monetária para ancorar expectativas, o que sustenta a taxa de juros local em níveis mais altos e tende a fortalecer o franco suíço frente a moedas de economias com juros reais menores, como o real brasileiro.",
+      "implicacao": "Com a perspectiva de juros reais mais altos na Suíça, ativos denominados em moedas de mercados emergentes, como o real, podem enfrentar pressão de desvalorização, impactando negativamente o retorno de investimentos em ações brasileiras para investidores globais e aumentando o custo de importações.",
+      "risco": "O cenário se inverte se a inflação suíça for percebida como transitória ou se o SNB sinalizar que a desaceleração econômica global justifica um afrouxamento monetário antecipado, enfraquecendo o franco.",
+      "proximo_evento": "Próxima divulgação dos dados de inflação (CPI) da Suíça e a próxima reunião de política monetária do SNB para definição da taxa de juros.",
+      "key_numbers": [
+        "Selic (fim do ano): 13.75%",
+        "IPCA (fim do ano): 5.1082%",
+        "Câmbio R$/US$ (fim do ano): 5.4%"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Will economics continue to outweigh geopolitics?",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/will-economics-continue-to-outweigh-geopolitics-5043785",
       "categorias": [
         "exterior"
       ],
-      "resumo": "O Deutsche Bank analisa como o fluxo de capital para chips de inteligência artificial está alterando a dinâmica de demanda pelo dólar e seu papel como reserva global.",
-      "mecanismo": "A concentração de investimentos em infraestrutura de IA nos EUA gera uma demanda estrutural por dólar para transações e repatriação de lucros, o que pode sustentar a moeda americana mesmo em cenários de divergência de juros, impactando a paridade cambial e o custo de importação de tecnologia no Brasil.",
-      "implicacao": "Com a pressão de demanda pelo dólar ligada a ativos tecnológicos, o setor de tecnologia e empresas exportadoras de commodities brasileiras tendem a enfrentar volatilidade cambial, já que um dólar mais forte encarece a importação de insumos tecnológicos e afeta a competitividade dos preços internacionais.",
-      "risco": "A tese pode ser invalidada se a regulação governamental ou a saturação do mercado de IA reduzir drasticamente os fluxos de investimento, enfraquecendo a demanda estrutural pelo dólar.",
-      "proximo_evento": "Próximos relatórios de fluxo de capital para o setor de semicondutores e dados de balança comercial dos EUA relacionados a exportações de hardware de IA.",
+      "resumo": "O mercado avalia se os fundamentos econômicos domésticos e globais continuarão a dominar a precificação de ativos em detrimento de choques geopolíticos, mantendo o foco na trajetória de juros e crescimento.",
+      "mecanismo": "Com a Selic projetada em 13,75% e o IPCA em 5,11% para o fim de 2026, a persistência de juros reais elevados tende a pressionar a curva de juros e o custo de capital, enquanto a estabilidade geopolítica permite que o fluxo de capitais siga guiado pela diferencial de juros e pela solidez do PIB (1,72%), em vez de movimentos de fuga por risco.",
+      "implicacao": "Se a economia continuar pesando mais que a geopolítica, ativos sensíveis a juros reais, como títulos prefixados de longo prazo e ações de setores cíclicos (bancos e varejo), tendem a se beneficiar da manutenção da previsibilidade macroeconômica, já que a incerteza externa não deve gerar volatilidade excessiva no câmbio (R$/US$ em 5,40).",
+      "risco": "Um choque geopolítico súbito ou uma deterioração fiscal inesperada pode inverter a prioridade do mercado, forçando uma reprecificação abrupta do risco soberano e do câmbio, invalidando a tese de primazia dos fundamentos econômicos.",
+      "proximo_evento": "Próxima reunião do Copom e divulgação dos dados mensais de inflação (IPCA) e atividade econômica (IBGE/FGV) para validação das medianas do Focus.",
       "key_numbers": [
-        "Câmbio R$/US$ (fim do ano): 5.4%",
+        "Selic (fim 2026): 13,75%",
+        "IPCA (fim 2026): 5,11%",
+        "PIB (2026): 1,72%",
+        "Câmbio (fim 2026): R$ 5,40/US$"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "China’s AI stocks lose $1.7 trillion as tech selloff deepens",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/chinas-ai-stocks-lose-17-trillion-as-tech-selloff-deepens-5043672",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O setor de inteligência artificial na China sofreu uma forte desvalorização, com perda de capitalização de mercado estimada em US$ 1,7 trilhão, devido ao aprofundamento da venda de ativos de tecnologia.",
+      "mecanismo": "A intensificação do sell-off em ações de tecnologia globais está pressionando os múltiplos de avaliação das empresas chinesas de IA, forçando uma reprecificação agressiva que reflete a retirada de capital de risco e a aversão a ativos de crescimento de alto beta em um ambiente de incerteza macroeconômica.",
+      "implicacao": "Com a retração do apetite por risco em ativos de tecnologia, o fluxo de capital tende a migrar para setores defensivos e commodities, já que a desvalorização das ações de IA reduz a liquidez e a confiança no setor de crescimento, impactando negativamente a cadeia de suprimentos global de semicondutores.",
+      "risco": "A tese de queda pode ser invalidada se houver anúncios de estímulos fiscais ou monetários significativos por parte do governo chinês para sustentar o setor de tecnologia, revertendo a tendência de venda.",
+      "proximo_evento": "Próximos relatórios trimestrais das principais empresas de tecnologia chinesas e dados de inflação (CPI) da China para avaliar a sustentabilidade da demanda por hardware de IA.",
+      "key_numbers": [
+        "Perda de capitalização: US$ 1,7 trilhão",
         "Selic (fim do ano): 13.75%",
         "IPCA (fim do ano): 5.1082%",
         "PIB (crescimento no ano): 1.7215%"
       ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Week Ahead: Will The Dollar's Resilience In The Face Of Falling Stocks And Rates Be Challenged?",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4970911-week-ahead-will-dollars-resilience-in-face-of-falling-stocks-and-rates-be-challenged?source=feed_all_articles",
+      "categorias": [
+        "renda_fixa",
+        "exterior"
+      ],
+      "resumo": "O dólar americano manteve força apesar da queda de 10% no Nasdaq na última semana, sustentado por dados fortes de emprego e inflação nos EUA que elevaram as taxas de juros de curto prazo.",
+      "mecanismo": "A resiliência do dólar ocorre porque a combinação de mercado de trabalho robusto e inflação persistente nos EUA está mantendo as expectativas de aperto monetário do Fed, o que eleva os rendimentos dos títulos de curto prazo e atrai capital para a moeda americana, mesmo com o recuo nos mercados de ações globais.",
+      "implicacao": "Com o dólar forte e juros americanos elevados, ativos de risco em mercados emergentes, como o Brasil, tendem a enfrentar pressão de saída de capital, o que pode pressionar o câmbio local para cima e limitar a valorização de ações sensíveis a fluxo externo.",
+      "risco": "Uma reversão abrupta na narrativa de inflação nos EUA ou uma intervenção verbal mais agressiva do Banco do Japão poderia enfraquecer o dólar e reverter o fluxo de capital para ativos de risco.",
+      "proximo_evento": "Próximos dados de inflação e emprego dos EUA, além da próxima reunião do Federal Reserve, que podem confirmar ou reverter a tendência de alta do DXY.",
+      "key_numbers": [
+        "Nasdaq (queda semanal): -10%",
+        "DXY (resistência): 104.60",
+        "USD/JPY (suporte): 158",
+        "USD/MXN (resistência): 19.0750"
+      ],
       "sentiment": "neutral"
+    },
+    {
+      "title": "QQQ Has Fallen 20%: The Forward P/E Looks Cheap, But The Earnings Aren't Risk-Free",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4970887-qqq-has-fallen-20-percent-forward-pe-looks-cheap-but-earnings-arent-risk-free?source=feed_all_articles",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O ETF QQQ recuou cerca de 20% desde o topo, levando o índice Nasdaq-100 a 25.029 pontos, mas análises de fluxo de caixa descontado sugerem que o múltiplo atual não oferece margem de segurança suficiente, dado o risco de normalização das margens no setor de semicondutores.",
+      "mecanismo": "A queda de 20% no QQQ reflete a reprecificação do risco de sustentabilidade dos lucros das big techs, pois a normalização das margens brutas de semicondutores e o aumento da depreciação por altos investimentos em capital (capex) ameaçam a geração futura de caixa livre, invalidando a tese de que o P/E forward baixo representa uma oportunidade de compra segura.",
+      "implicacao": "Com a incerteza sobre a durabilidade dos lucros de IA e a pressão sobre as margens de hardware, a classe de ativos de tecnologia de crescimento tende a enfrentar volatilidade elevada e reprecificação de múltiplos, já que o mercado passa a descontar o risco de normalização dos resultados em vez de projetar crescimento perpétuo.",
+      "risco": "O cenário de 'barato' pode se confirmar se a demanda por IA acelerar o suficiente para sustentar as margens dos semicondutores acima do esperado, invalidando a tese de normalização negativa e puxando o índice para cima.",
+      "proximo_evento": "Próximos relatórios trimestrais dos grandes provedores de nuvem (hyperscalers) para avaliar o impacto do capex no fluxo de caixa livre e as revisões de lucro do setor de semicondutores.",
+      "key_numbers": [
+        "Nasdaq-100: 25.029",
+        "QQQ: $608.45",
+        "Queda desde o topo: 20%",
+        "Valor DCF base: 22.679"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "FLRN: Fed Hikes Are Bullish For This High-Quality, Zero Duration ETF",
+      "source": "All Articles on Seeking Alpha",
+      "link": "https://seekingalpha.com/article/4970875-flrn-fed-hikes-are-bullish-for-this-high-quality-zero-duration-etf?source=feed_all_articles",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "O artigo argumenta que o ETF FLRN, focado em títulos de alta qualidade com duração zero, se beneficia de um cenário de alta de juros pelo Fed, pois elimina o risco de marcação a mercado e captura o rendimento corrente elevado.",
+      "mecanismo": "A tese baseia-se na mecânica de títulos de duração zero (como T-Bills ou notas de curto prazo), que não sofrem com a queda de preço quando os juros sobem, diferentemente de bonds longos. Com a Selic projetada em 13,75% no Brasil e o Fed em ciclo de alta nos EUA, o custo de oportunidade de ativos de renda fixa longa aumenta, direcionando fluxos para instrumentos de liquidez imediata e alta qualidade que oferecem yields competitivos sem exposição à volatilidade de preços.",
+      "implicacao": "Em um ambiente de juros elevados e incerteza sobre o pico do ciclo, a classe de ativos de renda fixa de curtíssimo prazo e caixas de liquidez tende a atrair capital em detrimento de bonds longos, já que a ausência de risco de duração protege o capital enquanto maximiza o rendimento nominal em moeda forte.",
+      "risco": "O raciocínio se invalida se o Fed sinalizar cortes agressivos de juros antes do esperado ou se a inflação global desacelerar drasticamente, reduzindo o yield de títulos de curto prazo e tornando-os menos atrativos em comparação com ativos de risco ou bonds longos que poderiam se valorizar.",
+      "proximo_evento": "Próxima reunião do FOMC (Federal Open Market Committee) para definição da taxa de juros nos EUA e divulgação dos dados de inflação (CPI/PCE) que sustentam a tese de juros altos por mais tempo.",
+      "key_numbers": [
+        "Selic (fim do ano): 13.75%",
+        "IPCA (fim do ano): 5.1082%",
+        "PIB (crescimento no ano): 1.7215%",
+        "Câmbio R$/US$ (fim do ano): 5.4%"
+      ],
+      "sentiment": "up"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [],
     "acoes": [
-      "O Banco Safra promoveu alterações em sua carteira recomendada de small caps para novembro e dezembro, incluindo Banco Mercantil (BMEB4), IRB (IRBR3), Metalúrgica Gerdau (GOAU4) e Min, enquanto saíram C&A (CEAB3), JSL (JSLG3), Cyrela (CYRE3) e Banco Inter (INBR34).",
-      "Bancos de Wall Street estão preparados para um ano recorde, com as IPOs da Anthropic e da SpaceX gerando US$ 1 bilhão em taxas.",
-      "Um artigo do Seeking Alpha afirma que o mercado de ações está em declínio e que o pior pode estar por vir.",
-      "Um artigo do Seeking Alpha relata que a dívida com margem (margin debt) diminuiu 2,3% em outubro."
+      "Arista Networks: The AI Pullback May Hammer This Stock Hard (Downgrade)",
+      "Intel's Turnaround Story Remains Firmly Intact, Buy The Panic",
+      "Alibaba: AI Monetization Accelerates, Export Control Does Not Reset The Bullish Thesis",
+      "5 big analyst AI moves: Nvidia downgrade, Anthropic seen as ’generational company’"
     ],
     "cripto": [
-      "O artigo da Seeking Alpha discute se o Bitcoin pode encontrar suporte após o IPO recorde da Anthropic.",
-      "O token Wrapped Monero caiu 99,8% em meio a uma exploração suspeita de US$ 13,5 milhões.",
-      "O Sky Protocol registrou US$ 2 bilhões em saques de stablecoins e contesta alegações de fundos ilícitos.",
-      "A VanEck planeja encerrar os acordos de custódia com a Gemini, mantendo a parceria com a Coinbase."
+      "Exchanges sul-coreanas suspenderam as transferências de CYBER devido a uma suspeita de exploração em uma ponte (bridge).",
+      "Hong Kong está buscando incluir custodiantes e consultores de criptomoedas sob regras de licenciamento.",
+      "O BCE busca parceiros da indústria para experimentos com depósitos e títulos tokenizados.",
+      "O resumo original não fornece detalhes específicos sobre os eventos do dia, limitando-se a indicar a existência de um resumo diário de criptomoedas."
     ],
     "debentures": [],
     "exterior": [
-      "Wall Street banks are set for a banner year as Anthropic and SpaceX IPOs generate $1 billion in fees.",
-      "The stock market is declining and the worst may be yet to come.",
-      "Consumer sentiment recovers significantly in November.",
-      "Margin debt decreases 2.3% in October."
+      "Greves industriais na Alemanha se expandem com a IG Metall convocando 23.000 trabalhadores para paralisar as atividades.",
+      "O mercado aguarda as expectativas para a eleição antecipada na Espanha.",
+      "A Jefferies aponta riscos de que o boom de IA esteja perdendo força nos mercados emergentes."
     ],
     "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "",
-    "acoes": "Com a reabertura da B3 na segunda-feira (23/11) e a divulgação iminente do IPCA de novembro, o mercado brasileiro deve reagir ao gap negativo deixado pelos ADRs e à fuga de capitais causada pela insatisfação com o pacote fiscal e pela queda das bolsas americanas. Enquanto isso, a definição do comando do Ministério da Fazenda para o próximo mandato, com nomes como Rafael Fonteles e Geraldo Alckmin em destaque, permanece como um catalisador político crucial para a estabilidade dos ativos de risco.",
-    "cripto": "O mercado de criptomoedas segue pressionado pela correlação com ativos de risco, evidenciada pela queda do Bitcoin após o IPO da Anthropic e pela liquidação de US$ 3,5 bilhões dos ETFs, enquanto a próxima reunião do Fed e a divulgação do CPI dos EUA permanecem como catalisadores macroeconômicos cruciais. Paralelamente, a instabilidade setorial se intensifica com a exploração de US$ 13,5 milhões no Wrapped Monero e os US$ 2 bilhões em saques do Sky Protocol, além de ajustes estruturais como a saída da Gemini da custódia dos ETFs da VanEck.",
+    "renda_fixa": "O cenário de juros elevados, sustentado pela projeção de Selic em 13,75% no Brasil e pelo ciclo de alta do Fed nos EUA, continua direcionando fluxos para instrumentos de renda fixa de duração zero e alta liquidez, como T-Bills e CDBs, para mitigar a volatilidade de preços. A resiliência do dólar e a aceleração da inflação suíça reforçam a tese de que o aperto monetário global persistirá, exigindo atenção aos próximos dados de inflação (CPI/PCE) e às reuniões do FOMC e do SNB para confirmar a manutenção das taxas em patamares altos.",
+    "acoes": "O mercado de tecnologia global enfrenta uma reprecificação agressiva de múltiplos, impulsionada pela aversão a ativos de alto beta e pela preocupação com a sustentabilidade dos lucros das big techs devido ao alto capex em IA. Enquanto a queda de 20% no QQQ levanta dúvidas sobre a geração futura de caixa livre, a análise de empresas específicas como Intel, Alibaba e Nvidia revela divergências sobre a resiliência das teses de investimento diante do sell-off. É fundamental monitorar os próximos relatórios trimestrais dos hyperscalers e as revisões de lucro do setor de semicondutores para avaliar o impacto real desses investimentos no fluxo de caixa.",
+    "cripto": "A categoria apresenta uma tensão entre a segurança técnica e a regulação institucional, com a suspensão de transferências de CYBER na Coreia do Sul e o hack de $12M na Chainflip evidenciando vulnerabilidades em pontes e chaves criptográficas, enquanto Hong Kong avança na licenciamento de custodiantes e o BCE explora a tokenização de depósitos. O próximo evento crítico é o prazo final de 23 de novembro de 2026 às 18h38 UTC para a devolução dos fundos da Chainflip, que ocorrerá em paralelo à divulgação do relatório de auditoria da Kraken sobre a divergência cambial e ao próximo relatório de inflação (IPCA) no Brasil.",
     "debentures": "",
-    "exterior": "O mercado enfrenta uma tensão entre a recuperação do sentimento do consumidor em novembro e a queda de 2,3% na dívida com margem em outubro, sinais que podem indicar uma mudança no apetite por risco após a forte correção da Nasdaq. Enquanto isso, o setor bancário se beneficia de uma receita recorde de $1 bilhão em taxas de IPOs de empresas como Anthropic e SpaceX, contrastando com as previsões de que o pior pode estar por vir para as ações de tecnologia.",
+    "exterior": "A atenção deve se voltar para a intersecção entre a resiliência do dólar, sustentada por expectativas de aperto do Fed, e os sinais de enfraquecimento do ciclo de IA nos mercados emergentes, o que pode alterar fluxos de capital. Paralelamente, tensões locais como as greves na Alemanha e a incerteza política na Espanha adicionam volatilidade regional, enquanto a postura do SNB e a persistência de juros reais elevados no Brasil continuam a moldar o ambiente global de taxas de câmbio e juros.",
     "imobiliario": ""
   },
-  "radar": "📊 Radar do Mercado · 21/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Electronic Technology (+2,67% na média) · que mais caiu: Consumer Services (-4,10%)\n• Ações líquidas da B3: média de -1,42% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de -0,39%\n\n📈 Maiores altas — ações (top 20):\n• PCAR3 (CIA BRASILEIRA DE DISTRIBUICAO) +8,03% (R$ 3,23)\n• LIGT3 (LIGHT S.A.) +6,99% (R$ 3,06)\n• POSI3 (POSITIVO TECNOLOGIA S.A.) +6,31% (R$ 3,37)\n• MELK3 (MELNICK DESENVOLVIMENTO IMOBIL) +4,59% (R$ 2,05)\n• QUAL3 (QUALICORP CONSULTORIA E CORRET) +4,55% (R$ 1,84)\n• GMAT3 (GRUPO MATEUS S.A.) +3,21% (R$ 4,18)\n• TUPY3 (TUPY S.A.) +2,71% (R$ 20,87)\n• USIM5 (USINAS SID DE MINAS GERAIS S.A) +2,59% (R$ 5,14)\n• OBTC3 (ORANJEBTC S.A. - EDUCAÇÃO E IN) +2,59% (R$ 6,34)\n• FLRY3 (FLEURY S.A.) +2,53% (R$ 21,51)\n• GOAU4 (METALURGICA GERDAU S.A.) +2,22% (R$ 11,50)\n• HBSA3 (HIDROVIAS DO BRASIL S.A.) +1,59% (R$ 3,19)\n• MLAS3 (GRUPO MULTI S.A.) +1,37% (R$ 2,22)\n• BBAS3 (BCO BRASIL S.A.) +1,27% (R$ 14,30)\n• TEND3 (CONSTRUTORA TENDA S.A.) +1,13% (R$ 15,23)\n• GGBR4 (GERDAU S.A.) +1,06% (R$ 25,86)\n• CSMG3 (CIA SANEAMENTO DE MINAS GERAIS) +1,06% (R$ 56,09)\n• SAPR11 (CIA SANEAMENTO DO PARANA - SAN) +1,04% (R$ 34,14)\n• BBSE3 (BB SEGURIDADE PARTICIPAÇÕES S.) +0,90% (R$ 36,99)\n• EVEN3 (EVEN CONSTRUTORA E INCORPORADO) +0,83% (R$ 3,65)\n📉 Maiores baixas — ações (top 20):\n• RAIZ55 (RAIZEN S.A.) -10,71% (R$ 0,15)\n• AZEV4 (AZEVEDO E TRAVASSOS S.A.) -8,82% (R$ 0,62)\n• CVCB3 (CVC BRASIL OPERADORA E AGÊNCIA) -7,69% (R$ 0,72)\n• VVEO3 (CM HOSPITALAR S.A.) -7,41% (R$ 0,50)\n• AZZA3 (AZZAS 2154 S.A.) -7,29% (R$ 14,63)\n• HBRE3 (HBR REALTY EMPREENDIMENTOS IMO) -6,87% (R$ 1,22)\n• DASA3 (DIAGNOSTICOS DA AMERICA S.A.) -6,86% (R$ 3,26)\n• NATU3 (NATURA COSMETICOS S.A.) -6,28% (R$ 4,48)\n• CSNA3 (CIA SIDERURGICA NACIONAL) -6,03% (R$ 3,43)\n• VTRU3 (VITRU EDUCAÇÃO S.A) -5,94% (R$ 13,45)\n• CSED3 (CRUZEIRO DO SUL EDUCACIONAL S.) -5,90% (R$ 3,35)\n• ONCO3 (ONCOCLINICAS DO BRASIL SERVICO) -5,56% (R$ 0,68)\n• POMO3 (MARCOPOLO S.A.) -5,07% (R$ 3,37)\n• SIMH3 (SIMPAR S.A.) -4,99% (R$ 5,33)\n• OPCT3 (OCEANPACT SERVICOS MARITIMOS S) -4,82% (R$ 8,89)\n• CEAB3 (CEA MODAS S.A.) -4,82% (R$ 7,50)\n• PMAM3 (PARANAPANEMA S.A.) -4,76% (R$ 0,20)\n• BHIA3 (GRUPO CASAS BAHIA S.A.) -4,48% (R$ 0,64)\n• MOVI3 (MOVIDA PARTICIPACOES SA) -4,41% (R$ 5,64)\n• POMO4 (MARCOPOLO S.A.) -4,23% (R$ 3,62)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNAM11 (FNAM11) +10,77% (R$ 0,72)\n• VGIR11 (VALORA CRI CDI FUNDO DE INVEST — papel (CDI)) +3,96% (R$ 8,13)\n• AIEC11 (ARCH EDIFÍCIOS CORPORATIVOS FU) +2,11% (R$ 71,99)\n• SNEL11 (SUNO ENERGIAS LIMPAS FUNDO DE ) +2,06% (R$ 6,93)\n• DOLA11 (BB ETF ÍNDICE FUTURO DE DOLAR ) +1,45% (R$ 11,93)\n• VGIA11 (VALORA CRA FUNDO DE I. NAS C.  — Fiagro (CRA)) +0,90% (R$ 7,82)\n• SNME11 (SUNO MULTIESTRATÉGIA FUNDO DE ) +0,89% (R$ 9,08)\n• XPSF11 (XP SELECTION FUNDO DE FUNDOS D) +0,88% (R$ 5,73)\n• DOLX11 (TREND ETF S&amp;P / B3 DOLAR CLASS) +0,87% (R$ 55,48)\n• SOLH11 (HASHDEX NASDAQ SOLANA FUNDO DE) +0,84% (R$ 12,00)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNOR11 (FNOR11) -5,08% (R$ 0,56)\n• XPML11 (XP MALLS FUNDO DE INVESTIMENTO — tijolo: shoppings) -4,44% (R$ 81,99)\n• HGBS11 (HEDGE BRASIL SHOPPING FUNDO DE — tijolo: shoppings) -2,26% (R$ 16,83)\n• RBRX11 (PATRIA PLUS MULTIESTRATÉGIA RE) -2,25% (R$ 6,08)\n• HIGH11 (NU IBOV SMART HIGH BETA B3 CLA) -2,12% (R$ 70,69)\n• SPBZ11 (BTG PACTUAL S&amp;P 500 FUTURES QU) -2,06% (R$ 115,62)\n• CHIP11 (INVESTO ETF US LISTED  SEMICON) -1,96% (R$ 32,57)\n• SPXR11 (IT NOW S&amp;P 500 FUTURES QUANTO ) -1,93% (R$ 71,64)\n• HFOF11 (HEDGE TOP FOFII 3 FUNDO DE INV — FOF) -1,82% (R$ 5,40)\n• GOLX11 (TREND ETF B3 OURO CLASSE DE ÍN) -1,74% (R$ 44,17)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -3,70%\n• Nasdaq (EUA): -5,28%\n• Dow Jones (EUA): -1,93%\n• Euro Stoxx 50 (Europa): -2,81%\n• Nikkei 225 (Japão): -5,06%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: -1,62% (US$ 57,848)\n• Ethereum: +1,19% (US$ 1,639)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,3%"
+  "radar": "📊 Radar do Mercado · 22/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Electronic Technology (+2,67% na média) · que mais caiu: Consumer Services (-4,10%)\n• Ações líquidas da B3: média de -1,42% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de -0,39%\n\n📈 Maiores altas — ações (top 20):\n• PCAR3 (CIA BRASILEIRA DE DISTRIBUICAO) +8,03% (R$ 3,23)\n• LIGT3 (LIGHT S.A.) +6,99% (R$ 3,06)\n• POSI3 (POSITIVO TECNOLOGIA S.A.) +6,31% (R$ 3,37)\n• MELK3 (MELNICK DESENVOLVIMENTO IMOBIL) +4,59% (R$ 2,05)\n• QUAL3 (QUALICORP CONSULTORIA E CORRET) +4,55% (R$ 1,84)\n• GMAT3 (GRUPO MATEUS S.A.) +3,21% (R$ 4,18)\n• TUPY3 (TUPY S.A.) +2,71% (R$ 20,87)\n• USIM5 (USINAS SID DE MINAS GERAIS S.A) +2,59% (R$ 5,14)\n• OBTC3 (ORANJEBTC S.A. - EDUCAÇÃO E IN) +2,59% (R$ 6,34)\n• FLRY3 (FLEURY S.A.) +2,53% (R$ 21,51)\n• GOAU4 (METALURGICA GERDAU S.A.) +2,22% (R$ 11,50)\n• HBSA3 (HIDROVIAS DO BRASIL S.A.) +1,59% (R$ 3,19)\n• MLAS3 (GRUPO MULTI S.A.) +1,37% (R$ 2,22)\n• BBAS3 (BCO BRASIL S.A.) +1,27% (R$ 14,30)\n• TEND3 (CONSTRUTORA TENDA S.A.) +1,13% (R$ 15,23)\n• GGBR4 (GERDAU S.A.) +1,06% (R$ 25,86)\n• CSMG3 (CIA SANEAMENTO DE MINAS GERAIS) +1,06% (R$ 56,09)\n• SAPR11 (CIA SANEAMENTO DO PARANA - SAN) +1,04% (R$ 34,14)\n• BBSE3 (BB SEGURIDADE PARTICIPAÇÕES S.) +0,90% (R$ 36,99)\n• EVEN3 (EVEN CONSTRUTORA E INCORPORADO) +0,83% (R$ 3,65)\n📉 Maiores baixas — ações (top 20):\n• RAIZ55 (RAIZEN S.A.) -10,71% (R$ 0,15)\n• AZEV4 (AZEVEDO E TRAVASSOS S.A.) -8,82% (R$ 0,62)\n• CVCB3 (CVC BRASIL OPERADORA E AGÊNCIA) -7,69% (R$ 0,72)\n• VVEO3 (CM HOSPITALAR S.A.) -7,41% (R$ 0,50)\n• AZZA3 (AZZAS 2154 S.A.) -7,29% (R$ 14,63)\n• HBRE3 (HBR REALTY EMPREENDIMENTOS IMO) -6,87% (R$ 1,22)\n• DASA3 (DIAGNOSTICOS DA AMERICA S.A.) -6,86% (R$ 3,26)\n• NATU3 (NATURA COSMETICOS S.A.) -6,28% (R$ 4,48)\n• CSNA3 (CIA SIDERURGICA NACIONAL) -6,03% (R$ 3,43)\n• VTRU3 (VITRU EDUCAÇÃO S.A) -5,94% (R$ 13,45)\n• CSED3 (CRUZEIRO DO SUL EDUCACIONAL S.) -5,90% (R$ 3,35)\n• ONCO3 (ONCOCLINICAS DO BRASIL SERVICO) -5,56% (R$ 0,68)\n• POMO3 (MARCOPOLO S.A.) -5,07% (R$ 3,37)\n• SIMH3 (SIMPAR S.A.) -4,99% (R$ 5,33)\n• OPCT3 (OCEANPACT SERVICOS MARITIMOS S) -4,82% (R$ 8,89)\n• CEAB3 (CEA MODAS S.A.) -4,82% (R$ 7,50)\n• PMAM3 (PARANAPANEMA S.A.) -4,76% (R$ 0,20)\n• BHIA3 (GRUPO CASAS BAHIA S.A.) -4,48% (R$ 0,64)\n• MOVI3 (MOVIDA PARTICIPACOES SA) -4,41% (R$ 5,64)\n• POMO4 (MARCOPOLO S.A.) -4,23% (R$ 3,62)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNAM11 (FNAM11) +10,77% (R$ 0,72)\n• VGIR11 (VALORA CRI CDI FUNDO DE INVEST — papel (CDI)) +3,96% (R$ 8,13)\n• AIEC11 (ARCH EDIFÍCIOS CORPORATIVOS FU) +2,11% (R$ 71,99)\n• SNEL11 (SUNO ENERGIAS LIMPAS FUNDO DE ) +2,06% (R$ 6,93)\n• DOLA11 (BB ETF ÍNDICE FUTURO DE DOLAR ) +1,45% (R$ 11,93)\n• VGIA11 (VALORA CRA FUNDO DE I. NAS C.  — Fiagro (CRA)) +0,90% (R$ 7,82)\n• SNME11 (SUNO MULTIESTRATÉGIA FUNDO DE ) +0,89% (R$ 9,08)\n• XPSF11 (XP SELECTION FUNDO DE FUNDOS D) +0,88% (R$ 5,73)\n• DOLX11 (TREND ETF S&amp;P / B3 DOLAR CLASS) +0,87% (R$ 55,48)\n• SOLH11 (HASHDEX NASDAQ SOLANA FUNDO DE) +0,84% (R$ 12,00)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNOR11 (FNOR11) -5,08% (R$ 0,56)\n• XPML11 (XP MALLS FUNDO DE INVESTIMENTO — tijolo: shoppings) -4,44% (R$ 81,99)\n• HGBS11 (HEDGE BRASIL SHOPPING FUNDO DE — tijolo: shoppings) -2,26% (R$ 16,83)\n• RBRX11 (PATRIA PLUS MULTIESTRATÉGIA RE) -2,25% (R$ 6,08)\n• HIGH11 (NU IBOV SMART HIGH BETA B3 CLA) -2,12% (R$ 70,69)\n• SPBZ11 (BTG PACTUAL S&amp;P 500 FUTURES QU) -2,06% (R$ 115,62)\n• CHIP11 (INVESTO ETF US LISTED  SEMICON) -1,96% (R$ 32,57)\n• SPXR11 (IT NOW S&amp;P 500 FUTURES QUANTO ) -1,93% (R$ 71,64)\n• HFOF11 (HEDGE TOP FOFII 3 FUNDO DE INV — FOF) -1,82% (R$ 5,40)\n• GOLX11 (TREND ETF B3 OURO CLASSE DE ÍN) -1,74% (R$ 44,17)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -3,70%\n• Nasdaq (EUA): -5,28%\n• Dow Jones (EUA): -1,93%\n• Euro Stoxx 50 (Europa): -2,81%\n• Nikkei 225 (Japão): -5,06%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: +1,21% (US$ 60,820)\n• Ethereum: +1,60% (US$ 1,709)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,3%"
 }
