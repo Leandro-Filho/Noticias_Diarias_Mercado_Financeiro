@@ -1,212 +1,157 @@
 {
-  "gerado_em": "2026-11-23T22:47:08.269776+00:00",
+  "gerado_em": "2026-11-24T11:18:13.651838+00:00",
   "itens": [
     {
-      "title": "Wall Street fecha em forte alta com retorno de Huang à Nvidia",
+      "title": "Aprovação do pacote fiscal e dividendos da Petrobras movimentam bolsa; Ibovespa em dólar cai nesta terça-feira (24)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-23-11-2026-davs/",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "As bolsas de Nova York registraram forte alta, liderada pelo Nasdaq, após o anúncio do retorno de Jensen Huang ao cargo de CEO da Nvidia, movimento endossado pelo presidente dos EUA.",
-      "mecanismo": "A volta de um líder técnico consolidado à Nvidia, com apoio político explícito, reduziu a incerteza sobre a continuidade da estratégia de IA da empresa, o que disparou um rali no setor de tecnologia e puxou os índices de referência para cima, apesar de sinais de desaceleração no PMI e no índice de Chicago.",
-      "implicacao": "Com a liderança tecnológica sustentada por um retorno de confiança específica, o setor de semicondutores e tecnologia tende a manter prêmio de risco, já que a percepção de estabilidade corporativa atrai capital para ativos de crescimento, mesmo em um cenário de juros americanos em alta.",
-      "risco": "A manutenção de juros elevados nos EUA para combater a inflação persistente pode sufocar a demanda por ativos de crescimento e reverter o otimismo gerado pelo retorno do CEO, especialmente se a desaceleração econômica se aprofundar.",
-      "proximo_evento": "A reunião do Federal Reserve em dezembro, onde o mercado precifica 88,6% de probabilidade de um aumento de 25 pontos-base na taxa de juros.",
-      "key_numbers": [
-        "Nasdaq: +6,51%",
-        "S&P 500: +4,73%",
-        "Probabilidade de alta Fed: 88,6%",
-        "PMI Composto EUA: 54,6"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Ibovespa perde os 165 mil pontos e fecha no vermelho com incertezas fiscais",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-23-11-2026-davs/",
+      "link": "https://www.moneytimes.com.br/aprovacao-do-pacote-fiscal-e-plano-da-petrobras-movimentam-bolsa-ibovespa-em-dolar-cai-nesta-terca-feira-24-rens/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa recuou 0,95% para 164.796 pontos, pressionado pela deterioração das expectativas fiscais e inflacionárias no Brasil, enquanto o dólar tocou R$ 6,00 intradiário antes de fechar em queda.",
-      "mecanismo": "A elevação das projeções de IPCA para 5,15% em 2026 e 5,12% em 2027, somada à incerteza sobre o pacote fiscal na Câmara, força o mercado a precificar uma Selic mais alta por mais tempo (mediana de 13,75% para o fim de 2026), o que aumenta o custo de capital e reduz a atratividade de ativos de risco locais frente a títulos de renda fixa.",
-      "implicacao": "Com a Selic projetada em patamares elevados (13,75%) e incertezas fiscais, o setor de crédito e empresas alavancadas tende a sofrer com o aumento do custo de dívida, enquanto a classe de ativos de renda fixa prefixada pode se beneficiar da manutenção de juros altos, desde que a inflação não supere as expectativas.",
-      "risco": "O cenário de aperto monetário global, com 88,6% de probabilidade de alta de juros pelo Fed em dezembro, pode intensificar a aversão ao risco e pressionar ainda mais o câmbio e os mercados emergentes, invalidando a tese de recuperação local.",
-      "proximo_evento": "A votação do pacote de medidas fiscais na Câmara dos Deputais e a divulgação dos dados de inflação (IPCA) de novembro.",
+      "resumo": "A aprovação do pacote fiscal na Câmara e o anúncio de dividendos elevados pela Petrobras não conseguiram reverter a aversão ao risco, resultando em queda do Ibovespa e pressão sobre o dólar.",
+      "mecanismo": "Embora o ajuste fiscal aprovado (com meta de superávit primário de R$ 18,7 bilhões) e o plano de dividendos da Petrobras (US$ 55-60 bilhões) sejam catalisadores positivos para a confiança, a persistência da aversão ao risco global e a incerteza sobre a execução das medidas mantêm o fluxo de capital externo cauteloso, o que sustenta a pressão vendedora sobre o Ibovespa e mantém o dólar em patamares elevados, apesar da queda intradiária.",
+      "implicacao": "Com a Selic projetada em 13,75% e o pacote fiscal buscando reduzir o prêmio de risco soberano, o setor de energia e utilidades tende a se beneficiar, já que a redução da incerteza fiscal e a garantia de fluxos de caixa robustos (como os dividendos da estatal) aumentam a atratividade de ativos com forte componente de renda fixa e valor.",
+      "risco": "A execução efetiva das medidas de austeridade pode enfrentar resistência política ou judicial, e a pausa nas negociações dos EUA pode gerar volatilidade adicional que anule os ganhos de confiança locais.",
+      "proximo_evento": "Divulgação da Confiança do Consumidor da FGV de novembro às 8h e a pausa nas negociações dos Estados Unidos no final desta semana.",
       "key_numbers": [
-        "Ibovespa: 164.796,05 pontos",
-        "IPCA 2026 (Focus): 5,15%",
-        "Selic 2026 (Focus): 13,75%",
-        "Dólar: R$ 5,9262"
+        "Selic (fim do ano): 13.75%",
+        "IPCA (fim do ano): 5.1505%",
+        "Superávit primário 2027: R$ 18,7 bilhões",
+        "Dividendos Petrobras 2027-2031: US$ 55-60 bilhões"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Dólar fecha em leve queda após ultrapassar os R$ 6 com tensão fiscal",
+      "title": "Bolsas da Ásia fecham majoritariamente em alta após recondução de Huang à Nvidia",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/dolar-23-22-2026-davs/",
+      "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-majoritariamente-em-alta-apos-reconducao-de-huang-a-nvidia-fets/",
       "categorias": [
-        "renda_fixa"
+        "acoes",
+        "exterior"
       ],
-      "resumo": "O dólar encerrou o pregão em queda de 0,15%, a R$ 5,9262, revertendo uma sequência de seis altas consecutivas após ter ultrapassado a marca de R$ 6,00 no início do dia. A melhora no humor do mercado foi impulsionada por sinais de que o governo buscará nomes amigáveis ao mercado para a diretoria do Banco Central, o que mitigou temores sobre a condução da política monetária.",
-      "mecanismo": "A incerteza fiscal e institucional, agravada pela dívida pública em 82,9% do PIB e pela indefinição sobre a equipe econômica, pressionou o real no início da sessão; contudo, a sinalização de que o BC manterá ortodoxia na escolha de seus diretores reduziu o prêmio de risco exigido pelos investidores, permitindo que o apetite global por risco (com o DXY em alta, mas sem impacto imediato no real) se traduzisse em valorização cambial doméstica, apesar da Selic projetada em 13,75% no Focus.",
-      "implicacao": "Com a redução do prêmio de risco cambial e a manutenção da expectativa de juros altos (Selic em 13,75%), ativos de renda fixa atrelados ao IPCA tendem a se beneficiar da estabilidade cambial, enquanto o setor exportador pode enfrentar margens menores devido à força do real, já que a desvalorização cambial que impulsionava suas receitas foi interrompida.",
-      "risco": "A aprovação de um pacote fiscal insuficiente para estabilizar a trajetória da dívida pública ou a indicação de nomes não ortodoxos para o Banco Central pode reverter a valorização do real e elevar a Selic acima da mediana de 13,75% projetada no Focus.",
-      "proximo_evento": "Votação do pacote fiscal pela Câmara dos Deputados, agendada para hoje após as 18h, e a definição oficial dos nomes para a diretoria do Banco Central e para o Ministério da Fazenda.",
+      "resumo": "Os mercados asiáticos registraram fortes altas nesta terça-feira, impulsionados pela recondução de Jensen Huang ao comando da Nvidia, o que restaurou a confiança dos investidores no setor de tecnologia e inteligência artificial.",
+      "mecanismo": "A volta de Huang ao cargo removeu a incerteza sobre a liderança da principal empresa do ecossistema de IA, desencadeando uma onda de apetite por risco que elevou as ações de semicondutores e tecnologia na Ásia, refletindo a percepção de que a estabilidade corporativa é essencial para a continuidade do ciclo de investimentos em chips.",
+      "implicacao": "Com a recuperação do apetite por risco em tecnologia, o setor de semicondutores e equipamentos industriais tende a se valorizar, já que a confiança na liderança da Nvidia reativa o fluxo de capital para a cadeia de suprimentos global de chips.",
+      "risco": "A volatilidade extrema observada (como o salto de 31% da Nvidia em um dia) sugere que o mercado pode estar superdimensionando a recuperação, e qualquer nova instabilidade corporativa ou desaceleração na demanda por IA pode reverter rapidamente esses ganhos.",
+      "proximo_evento": "Próximos relatórios trimestrais das grandes fabricantes de semicondutores asiáticas e novas divulgações de resultados da Nvidia para confirmar a sustentabilidade da demanda por chips de IA.",
       "key_numbers": [
-        "Dólar: R$ 5,9262",
-        "Variação do Dólar: -0,15%",
-        "Dívida Pública: 82,9% do PIB",
-        "Selic (Focus): 13,75%"
+        "Taiex: +8,99%",
+        "Nvidia: +31,5%",
+        "S&P 500: +4,7%",
+        "Nasdaq Composite: +6,5%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Braskem (BRKM5) dispara com acordo com credores no radar; Petrobras pode aportar US$ 1,3 bilhão, diz jornal",
+      "title": "Tempo real: Ibovespa de olho no ajuste fiscal e na Petrobras; veja os destaques desta terça-feira (24)",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/braskem-brkm5-dispara-com-acordo-com-credores-no-radar-petrobras-pode-aportar-us-13-bilhao-diz-jornal-lmrs/",
+      "link": "https://www.moneytimes.com.br/tempo-real-24-11-2026-davs/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "A Braskem avançou significativamente na bolsa após confirmar a adesão de mais da metade dos credores ao seu plano de recuperação extrajudicial, que inclui um aporte de US$ 1,3 bilhão da Petrobras.",
-      "mecanismo": "A adesão de mais de 50% dos credores valida a viabilidade do plano de reestruturação, reduzindo a incerteza sobre a solvência da empresa; a injeção de capital pela Petrobras e a conversão de dívida em ações diminuem a alavancagem, o que tende a reprecificar o risco de crédito e atrair capital para o papel, especialmente em um cenário onde a Selic projetada em 13,75% mantém o custo de capital elevado, tornando a redução da dívida um fator crítico para a geração de caixa futura.",
-      "implicacao": "Com a reestruturação da dívida de uma das maiores petroquímicas do país, o setor de materiais e commodities tende a ver uma redução no prêmio de risco sistêmico, já que a resolução da crise da Braskem remove uma âncora de incerteza para o fluxo de caixa do grupo Petrobras e estabiliza a cadeia de suprimentos de resinas.",
-      "risco": "O acordo pode ser invalidado se os credores restantes não aderirem ao plano dentro do prazo legal ou se a Petrobras recuar do aporte devido a restrições de caixa ou mudanças na política de dividendos, o que reverteria a tese de reestruturação.",
-      "proximo_evento": "Apresentação formal do plano de recuperação extrajudicial aos credores e à Justiça, prevista para ocorrer ainda nesta segunda-feira (23), dentro do prazo de 90 dias.",
+      "resumo": "O mercado brasileiro reage à aprovação do texto-base do pacote de ajuste fiscal na Câmara e ao novo plano estratégico da Petrobras, enquanto o Ibovespa opera em queda no pré-mercado em dólar.",
+      "mecanismo": "A aprovação do texto-base do ajuste fiscal, que visa um superávit primário de R$ 18,7 bilhões em 2027, reduz a incerteza sobre a trajetória da dívida pública, o que tende a estabilizar a curva de juros e o câmbio, apesar da pressão de juros altos por mais tempo (Selic projetada em 13,75% no Focus) e da cautela global com a política monetária dos EUA.",
+      "implicacao": "Com a sinalização de compromisso fiscal e a manutenção de juros elevados para conter a inflação (IPCA projetado em 5,15%), ativos de renda fixa atrelados ao IPCA tendem a manter atratividade para proteção real, enquanto o setor de energia pode sofrer pressão de valuation devido à revisão de expectativas de dividendos e investimentos da estatal.",
+      "risco": "A rejeição ou alteração substancial dos destaques do pacote fiscal na votação de hoje pode reavivar o prêmio de risco soberano e pressionar o câmbio e os juros longos, invalidando a tese de estabilização fiscal.",
+      "proximo_evento": "Votação dos destaques do pacote de ajuste fiscal pela Câmara dos Deputas nesta terça-feira (24) e divulgação dos dados de arrecadação federal de outubro.",
       "key_numbers": [
-        "Capitalização total: US$ 4,9 bilhões",
-        "Aporte Petrobras: US$ 1,3 bilhão",
-        "Dívida remanescente: US$ 7 bilhões",
-        "Participação Petrobras: 47,03%"
+        "Selic (fim do ano): 13.75%",
+        "IPCA (fim do ano): 5.1505%",
+        "Superávit primário 2027: R$ 18,7 bilhões",
+        "Bitcoin: US$ 60.142,84"
       ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Bolsas da Europa fecham em forte alta com retorno Huang ao comando da Nvidia",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bolsas-europa-23-11-2026-davs/",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "Os mercados europeus registraram forte alta nesta segunda-feira, impulsionados pelo anúncio do retorno de Jensen Huang à presidência da Nvidia e pela queda nos preços do petróleo, apesar das tensões geopolíticas no Oriente Médio.",
-      "mecanismo": "A confirmação de que o retorno de Huang não representa risco à segurança nacional dos EUA removeu uma incerteza regulatória significativa para o setor de semicondutores, o que, somado à redução no custo de energia (petróleo), estimulou a busca por ativos de risco e beneficiou diretamente as cadeias de suprimento de tecnologia na Europa.",
-      "implicacao": "Com a redução da incerteza regulatória nos EUA e a queda no custo de insumos energéticos, o setor de tecnologia e semicondutores tende a se valorizar, já que a confiança no líder de mercado (Nvidia) puxa a demanda por fornecedores e concorrentes europeus, enquanto a energia mais barata melhora as margens de empresas industriais.",
-      "risco": "A escalada das tensões no Oriente Médio pode levar a novos ataques à navegação, interrompendo o fluxo de petróleo e revertendo a queda nos preços de energia, o que pressionaria as margens das empresas e reavivaria a aversão ao risco.",
-      "proximo_evento": "Divulgação das leituras finais do PMI da zona do euro e da Alemanha, além de novos dados sobre a oferta de petróleo no Oriente Médio.",
-      "key_numbers": [
-        "FTSE 100: 10.480,82 pontos",
-        "DAX: 25.363,70 pontos",
-        "PMI composto zona do euro: 51,7",
-        "ASML: alta de 9,35%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/bitcoin-rebounds-lows-nvidia-rally-sparks-500m-crypto-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O Bitcoin recuperou 17% desde as mínimas de US$ 55 mil, atingindo US$ 64,5 mil, impulsionado pela forte alta das ações da Nvidia após a reinstalação de Jensen Huang como CEO.",
-      "mecanismo": "A decisão do conselho da Nvidia de readmitir Jensen Huang gerou um salto de 35% nas ações da empresa, adicionando US$ 1 trilhão à capitalização e puxando os índices de tecnologia (Nasdaq +6,8%) e o apetite por risco global; essa euforia nos ativos de risco forçou a liquidação de mais de US$ 500 milhões em posições vendidas de criptomoedas, criando pressão compradora imediata no Bitcoin.",
-      "implicacao": "Com o retorno do apetite por risco e a liquidação de shorts, a classe de ativos de criptomoedas tende a se beneficiar de fluxos especulativos, já que a correlação com o setor de tecnologia em alta reduz o prêmio de risco percebido para investidores de curto prazo.",
-      "risco": "O movimento pode ser apenas um 'relief rally' (rali de alívio) temporário, invalidando a tese se o Bitcoin não conseguir romper as médias móveis de 200 dias, repetindo o padrão de reversão visto em 2023 após cruzamentos de médias.",
-      "proximo_evento": "A capacidade do Bitcoin de sustentar preços acima das médias móveis simples de 21 dias (US$ 69.014) e 200 dias (US$ 72.240), que atuam como resistências técnicas críticas para a continuidade do rali.",
-      "key_numbers": [
-        "Bitcoin (máxima): US$ 64.505",
-        "Liquidações cripto: US$ 500 milhões",
-        "Alta Nvidia: 35%",
-        "Resistência 200 SMA: US$ 72.240"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "BTC price gains 12% from $55K: Three things to know in Bitcoin this week",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/btc-price-stock-futures-rebound-three-things-know-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O Bitcoin recuperou o patamar de US$ 60 mil após atingir uma mínima de dois anos, impulsionado pela recuperação dos futuros de tecnologia nos EUA e pela expectativa de desaceleração da inflação americana.",
-      "mecanismo": "A queda anterior nos ativos de risco foi agravada pela realização de lucros no setor de IA e pela postura hawkish do Fed, mas a expectativa de que o índice PCE de outubro mostre desaceleração (0,3% m/m) reduz a pressão por aumentos agressivos de juros em dezembro, o que melhora o ambiente para ativos sensíveis a taxas de juros, como criptomoedas.",
-      "implicacao": "Com a possibilidade de o Fed moderar o ritmo de aperto monetário devido à desaceleração inflacionária, a classe de ativos de risco, incluindo criptomoedas e ações de tecnologia, tende a se beneficiar, já que a redução da pressão sobre as taxas de juros diminui o custo de oportunidade de manter ativos sem rendimento.",
-      "risco": "Uma leitura do PCE acima do esperado ou novos comentários hawkish de membros do Fed podem reverter a expectativa de pausa nos juros, provocando nova queda acentuada em ativos de risco e criptomoedas.",
-      "proximo_evento": "Divulgação do índice de preços PCE de outubro nos EUA, prevista para quarta-feira, que servirá como principal insumo para as expectativas de política monetária do Fed em dezembro.",
-      "key_numbers": [
-        "BTC: US$ 61.846",
-        "PCE mensal esperado: 0,3%",
-        "Nasdaq-100 futuros: +3,1%",
-        "Selic (fim do ano): 13,75%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Notícias sobre investimentos e o mercado financeiro",
-      "source": "Bora Investir",
-      "link": "https://borainvestir.b3.com.br/noticias/",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O Ministério da Fazenda revisou suas projeções macroeconômicas para 2027, reduzindo a estimativa de crescimento do PIB e elevando a previsão de inflação, refletindo o impacto esperado da política monetária restritiva atual.",
-      "mecanismo": "A manutenção da Selic em patamares elevados (mediana de 13,75% para o fim de 2026, segundo o Focus) atua como um freio à atividade econômica, o que justifica a redução da previsão de PIB para 2027; simultaneamente, a pressão sobre preços persiste, levando a Fazenda a elevar a projeção de inflação, indicando que o ciclo de alta de juros ainda não foi totalmente absorvido pela economia.",
-      "implicacao": "Com a perspectiva de juros reais elevados e crescimento econômico mais fraco, ativos de renda fixa atrelados à inflação (IPCA+) tendem a se valorizar como proteção, enquanto setores cíclicos sensíveis ao crédito e ao consumo doméstico podem enfrentar margens comprimidas devido ao custo de capital mais alto e à demanda mais fraca.",
-      "risco": "O risco principal é que a inflação desacelere mais rapidamente do que o projetado pela Fazenda, o que poderia antecipar cortes na Selic e reverter a tese de juros reais altos, beneficiando ações cíclicas em detrimento da renda fixa.",
-      "proximo_evento": "Divulgação dos dados oficiais de inflação (IPCA) da semana e a próxima reunião do Copom, onde o mercado buscará sinais sobre a duração do ciclo de juros altos.",
-      "key_numbers": [
-        "Selic (fim 2026): 13.75%",
-        "IPCA (fim 2026): 5.15%",
-        "PIB (2026): 1.70%",
-        "Dólar (hoje): R$ 5.92"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Notícias de Agências Bancárias de Fundos Imobiliários",
-      "source": "Clube FII News",
-      "link": "https://www.clubefiinews.com.br/agencias-bancarias",
-      "categorias": [
-        "imobiliario"
-      ],
-      "resumo": "O texto apresentado é apenas um aviso legal padrão do Clube FII News, informando que o conteúdo é informativo e não constitui recomendação de investimento.",
-      "mecanismo": "Não há mecanismo causal de mercado descrito, pois o texto não contém notícias, dados econômicos ou eventos corporativos, limitando-se a uma cláusula de isenção de responsabilidade.",
-      "implicacao": "Como não há informação fundamental ou técnica, não há implicação direta para setores ou classes de ativos, servindo apenas como contexto de compliance para as próximas publicações.",
-      "risco": "O risco principal é a confusão do investidor ao interpretar a ausência de dados como neutralidade de mercado, quando na verdade trata-se apenas de um aviso legal sem conteúdo analítico.",
-      "proximo_evento": "Não há próximo evento específico derivado deste texto; o investidor deve aguardar a publicação de notícias concretas sobre agências bancárias de FIIs.",
-      "key_numbers": [],
       "sentiment": "neutral"
+    },
+    {
+      "title": "Preços do petróleo próximos das mínimas de três meses com aumento da oferta compensando ameaças",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/precos-do-petroleo-proximos-das-minimas-de-tres-meses-com-aumento-da-oferta-compensando-ameacas-fets/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "O petróleo Brent e WTI recuam para mínimas de três meses devido ao aumento da oferta global e à reabertura de rotas de suprimento, superando temporariamente os riscos geopolíticos no Estreito de Ormuz.",
+      "mecanismo": "O mercado está precificando a transição de um cenário de escassez aguda para um excedente de oferta, impulsionado pelo acúmulo de 52 milhões de barris nos estoques globais em outubro e pela normalização logística na Líbia; essa dinâmica de abundância de suprimento exerce pressão direta sobre os preços, reduzindo a premiação de risco associada às tensões no Oriente Médio, apesar da persistência de ameaças ao transporte marítimo.",
+      "implicacao": "Com a perspectiva de preços do petróleo mais baixos e estáveis, o setor de companhias aéreas e transportadoras tende a se beneficiar, já que a redução no custo do combustível melhora as margens operacionais e alivia a pressão sobre a formação de passagens aéreas.",
+      "risco": "Uma escalada súbita das tensões entre EUA e Irã, como novos ataques a navios ou fechamento efetivo do Estreito de Ormuz, poderia interromper o fluxo de oferta e provocar uma alta abrupta e desordenada nos preços do petróleo.",
+      "proximo_evento": "Divulgação dos dados oficiais de estoques de petróleo bruto e derivados nos Estados Unidos pela API e EIA, que confirmarão ou refutarão a tendência de acúmulo apontada pela pesquisa preliminar da Reuters.",
+      "key_numbers": [
+        "Brent: US$ 89,12",
+        "WTI: US$ 80,03",
+        "Excedente de oferta: 1,7 mi barris/dia",
+        "Acúmulo de estoques: 52 mi barris"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Bitcoin dips back under $60K as gold seals worst 60-day loss since 1980s",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-dips-60k-gold-worst-60-day-loss-1980s?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O Bitcoin recuou abaixo de US$ 60 mil após uma liquidação massiva de posições, enquanto o ouro registrou sua pior queda em 60 dias em 44 anos, refletindo uma forte saída de liquidez dos mercados.",
+      "mecanismo": "A recuperação inicial impulsionada pela volta de Jensen Huang à Nvidia foi revertida por um evento de liquidez sistêmica, onde a correção no setor de IA está drenando capital de todos os ativos de risco e commodities, forçando a venda de posições alavancadas em cripto e metais preciosos independentemente de fundamentos.",
+      "implicacao": "Com a liquidez sendo drenada do mercado global, a classe de ativos de risco (cripto e commodities) tende a sofrer pressão vendedora contínua, já que a capitulação de holders de longo prazo em Bitcoin e a queda histórica do ouro indicam que o fluxo de caixa está priorizando segurança sobre retorno.",
+      "risco": "A tese de correção técnica pode ser invalidada se a saída de liquidez se transformar em uma crise de solvência no setor de IA, ou se novos estímulos de liquidez forem injetados no sistema financeiro, revertendo a tendência de venda.",
+      "proximo_evento": "Novos títulos políticos relacionados à controvérsia da CEO da Nvidia e a confirmação de se a queda atual é apenas uma correção técnica ou o início de um bear market prolongado, conforme alertado pela análise do Kobeissi Letter.",
+      "key_numbers": [
+        "Bitcoin: US$ 59.380",
+        "Queda do Ouro (60 dias): 24,6%",
+        "Liquidações Cripto (24h): US$ 827 milhões",
+        "Nasdaq Composite: 24.089"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-etfs-bleed-ibit-shares-gain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "Os ETFs de Bitcoin à vista nos EUA registraram saídas líquidas de US$ 4,71 bilhões em novembro, superando o recorde anterior, enquanto as ações do fundo IBIT da BlackRock subiram 4,85% antes de recuar no pregão noturno.",
+      "mecanismo": "A retirada de capital dos ETFs reflete um recuo mais amplo de ativos de risco impulsionado por preocupações com o setor de tecnologia e sinais de postura mais restritiva do Federal Reserve, o que pressiona a demanda por criptoativos de alta volatilidade, mesmo quando o preço do ativo subjacente (Bitcoin) apresenta oscilações pontuais.",
+      "implicacao": "Com o recuo de risco global e a pressão sobre o setor de tecnologia, a classe de ativos criptoativos tende a enfrentar volatilidade elevada e pressão vendedora, já que a liquidez institucional migra para ativos de menor risco ou para posições defensivas em meio à incerteza macroeconômica.",
+      "risco": "O raciocínio de continuidade das saídas pode ser invalidado se o Federal Reserve sinalizar uma pausa ou flexibilização monetária mais cedo do que o esperado, ou se houver um repique forte no preço do Bitcoin que atrai novos fluxos de entrada para os ETFs.",
+      "proximo_evento": "Próxima reunião do Federal Reserve (FOMC) e divulgação dos dados de inflação (CPI/PCE) dos EUA, que definirão a persistência do tom 'hawkish' e o fluxo de capital para ativos de risco.",
+      "key_numbers": [
+        "Saídas líquidas em novembro: US$ 4,71 bilhões",
+        "Preço do Bitcoin: US$ 60.450",
+        "Patrimônio líquido do IBIT: US$ 45,64 bilhões",
+        "Variação do IBIT na segunda-feira: +4,85%"
+      ],
+      "sentiment": "down"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [],
     "acoes": [
-      "O BB Investimentos reduziu o preço-alvo da CSN Mineração (CMIN3) de R$ 5,40 para R$ 5,10 e manteve a recomendação de venda, citando o desafio de lidar com geração de caixa pressionada e aumento do endividamento.",
-      "A CSD BR recebeu um aporte da International Finance Corporation (IFC), braço do Banco Mundial para o setor privado, que passa a compor o quadro de seus acionistas.",
-      "A ação da Nvidia registrou seu melhor dia em mais de 23 anos após a reinstalação de Jensen Huang.",
-      "A volta de Huang é vista como a remoção do maior risco para a Nvidia."
+      "Os futuros das ações dos Estados Unidos recuaram após a alta liderada pela Nvidia em Wall Street.",
+      "Um artigo argumenta que a alta de 30% da Nvidia pode ser apenas um 'dead cat bounce'.",
+      "Outro artigo afirma que a volta de Jensen Huang fortalece a tese de compra da Nvidia."
     ],
     "cripto": [
-      "Os EUA buscam recuperar 1,1 bilhão de dólares em criptomoedas roubadas em um hack da Binance vinculado à Coreia do Norte.",
-      "A Strategy comprou 457 Bitcoins e gastou 212 milhões de dólares em recompra de ações preferenciais.",
-      "OKX e ICE lançaram 113 ativos tokenizados apesar das objeções dos emissores.",
-      "A mineradora American Bitcoin, ligada a Trump, garantiu uma linha de crédito de 150 milhões de dólares da FalconX."
+      "Funcionários da CFTC afirmam que as exchanges podem contar Bitcoin para reservas operacionais.",
+      "O Cross River Bank entra no empréstimo lastreado em Bitcoin com empréstimos de US$ 250 mil.",
+      "O BCE permitirá que os bancos ofereçam mais títulos tokenizados como colateral.",
+      "A BTCS descarrega US$ 44 milhões em ETH para reduzir dívida DeFi em meio à queda do mercado."
     ],
     "debentures": [],
     "exterior": [
-      "As bolsas de Nova York abriram em forte alta nesta segunda-feira (23), revertendo as fortes perdas do último pregão, impulsionadas pela recondução de Jensen Huang ao cargo de CEO da Nvidia com apoio do presidente dos Estados Unidos.",
-      "O Dow Jones Industrial Average subiu 3,01% no fechamento do pregão nos Estados Unidos.",
-      "Os contratos futuros de petróleo fecharam em queda de mais de 3% nesta segunda-feira (23), com o Brent encerrando abaixo dos US$ 90 pela primeira vez em duas semanas devido ao aumento do fluxo da commodity do Oriente Médio.",
-      "O ouro fechou em forte alta nesta segunda-feira (23), acompanhando a melhora do apetite por risco nas bolsas globais e refletindo o ajuste nas expectativas para os juros do Federal Reserve."
+      "Os futuros das ações dos Estados Unidos recuaram após a alta liderada pela Nvidia em Wall Street.",
+      "O boom de lucros na Europa desafia Wall Street, mas pode se provar passageiro.",
+      "O crescimento do Japão torna-se cada vez mais desigual, com a confiança dos negócios enfraquecendo e as pressões de preços permanecendo elevadas.",
+      "As ações da Aixtron caíram 10% após o UBS alertar que o boom de equipamentos a laser para IA pode desaparecer."
     ],
     "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O mercado monitora a manutenção da Selic em patamares elevados, com mediana de 13,75% para o fim de 2026, que atua como freio à atividade econômica e justifica a redução da previsão de PIB para 2027, enquanto a pressão sobre preços persiste. A atenção se volta para a divulgação dos dados oficiais de inflação (IPCA) da semana e a próxima reunião do Copom, onde o mercado buscará sinais sobre a duração do ciclo de juros altos, além da votação do pacote fiscal pela Câmara dos Deputados e da definição oficial dos nomes para a diretoria do Banco Central e para o Ministério da Fazenda.",
-    "acoes": "O cenário de renda variável local segue pressionado pela incerteza fiscal e pela projeção de Selic em 13,75%, o que eleva o custo de capital e impacta diretamente empresas endividadas, como evidenciado pela recomendação de venda para a CSN Mineração. Enquanto o mercado aguarda a votação do pacote fiscal na Câmara e os dados de inflação de novembro, a Braskem tenta reprecificar seu risco de crédito com a apresentação do plano de recuperação extrajudicial e possível aporte da Petrobras. No exterior, a recuperação da Nvidia após a reinstalação de Jensen Huang oferece um contraponto positivo de redução de risco corporativo, mas o foco doméstico permanece na sustentabilidade das contas públicas e na capacidade das empresas de gerir dívidas em um ambiente de juros altos.",
-    "cripto": "O mercado de criptomoedas enfrenta uma dinâmica de alta volatilidade impulsionada por fatores macroeconômicos, como a decisão do Fed e o desempenho do setor de tecnologia, que recentemente forçaram a liquidação de posições vendidas e elevaram o Bitcoin. Enquanto a pressão compradora técnica busca sustentar preços acima das médias móveis de 21 e 200 dias, o cenário é moldado por movimentos corporativos significativos, como as compras de Bitcoin pela Strategy e a expansão de ativos tokenizados por OKX e ICE, além de tensões regulatórias e de segurança envolvendo a recuperação de fundos roubados da Binance.",
+    "renda_fixa": "",
+    "acoes": "A volatilidade global em torno da Nvidia e do setor de semicondutores, impulsionada pela recondução de Jensen Huang e pela incerteza sobre a sustentabilidade da alta, contrasta com a cautela no mercado brasileiro, onde a execução do pacote fiscal e os dividendos da Petrobras ainda não conseguiram reverter a aversão ao risco e a pressão sobre o câmbio. O foco permanece na votação dos destaques do ajuste fiscal na Câmara e na divulgação da Confiança do Consumidor da FGV, enquanto o mercado observa se a estabilidade corporativa na Ásia e EUA se traduzirá em fluxo de capital para o Brasil.",
+    "cripto": "A categoria apresenta uma dinâmica de tensão entre a crescente institucionalização regulatória, evidenciada pela permissão da CFTC para uso de Bitcoin em reservas e a abertura do BCE para colateral tokenizado, e a pressão de liquidez sistêmica que força a venda de ativos como visto na saída de capital dos ETFs e na redução de dívidas DeFi pela BTCS. O foco deve permanecer na capacidade do setor de absorver a drenagem de capital causada pela correção no setor de IA e na postura restritiva do Federal Reserve, enquanto se monitora se as novas normas regulatórias conseguem sustentar a demanda institucional mesmo em um ambiente de alta volatilidade e correção técnica.",
     "debentures": "",
-    "exterior": "O mercado global segue dominado pela resolução da incerteza regulatória sobre a Nvidia, que impulsionou os índices de tecnologia e reduziu o prêmio de risco em ativos como petróleo e ouro. A atenção deve se manter na reunião do Federal Reserve em dezembro, onde o mercado precifica alta probabilidade de aumento de juros, e nas leituras finais do PMI da zona do euro e da Alemanha, que podem confirmar ou reverter os sinais de desaceleração econômica.",
-    "imobiliario": "O cenário atual para o mercado imobiliário, especificamente no que tange a fundos imobiliários, carece de notícias concretas ou dados econômicos recentes, limitando-se a cláusulas de isenção de responsabilidade. Portanto, não há eventos futuros ou mecanismos causais de mercado identificados para monitoramento imediato, exigindo que o investidor aguarde a publicação de informações específicas sobre agências bancárias de FIIs."
+    "exterior": "O mercado global enfrenta uma dinâmica de divergência, onde a estabilidade da Nvidia sustenta o apetite por risco em semicondutores, mas é contrabalançada por sinais de fraqueza na confiança empresarial japonesa e alertas de que o boom de equipamentos de IA pode ser passageiro. Enquanto a Europa apresenta um ciclo de lucros forte que desafia Wall Street, a pressão sobre os preços do petróleo por excesso de oferta e a incerteza sobre a durabilidade do crescimento tecnológico exigem atenção aos próximos relatórios trimestrais e dados de estoques para confirmar a sustentabilidade da atual tendência de alta.",
+    "imobiliario": ""
   },
-  "radar": "📊 Radar do Mercado · 23/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Communications (+6,16% na média) · que mais caiu: Energy Minerals (-2,99%)\n• Ações líquidas da B3: média de -0,26% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de -0,54%\n\n📈 Maiores altas — ações (top 20):\n• FIQE3 (UNIFIQUE TELECOMUNICAÇÕES S.A.) +19,55% (R$ 6,85)\n• AZEV3 (AZEVEDO E TRAVASSOS S.A.) +13,70% (R$ 11,95)\n• BRKM5 (BRASKEM S.A.) +11,92% (R$ 2,91)\n• PCAR3 (CIA BRASILEIRA DE DISTRIBUICAO) +11,46% (R$ 3,60)\n• MGLU3 (MAGAZINE LUIZA S.A.) +9,63% (R$ 8,99)\n• RADL3 (RAIA DROGASIL S.A.) +7,07% (R$ 14,69)\n• ECOR3 (ECORODOVIAS INFRAESTRUTURA E L) +4,43% (R$ 6,13)\n• VAMO3 (VAMOS LOCAÇÃO DE CAMINHÕES. MÁ) +4,42% (R$ 2,60)\n• PGMN3 (EMPREENDIMENTOS PAGUE MENOS S.) +4,37% (R$ 2,39)\n• GGPS3 (GPS PARTICIPACOES E EMPREENDIM) +3,31% (R$ 10,61)\n• MOVI3 (MOVIDA PARTICIPACOES SA) +3,01% (R$ 5,81)\n• SAUD3 (BRADSAUDE S.A.) +2,70% (R$ 15,96)\n• SIMH3 (SIMPAR S.A.) +2,44% (R$ 5,46)\n• DIRR3 (DIRECIONAL ENGENHARIA S.A.) +2,29% (R$ 8,94)\n• PNVL3 (DIMED S.A. DISTRIBUIDORA DE ME) +2,23% (R$ 11,01)\n• HBSA3 (HIDROVIAS DO BRASIL S.A.) +2,19% (R$ 3,26)\n• CSAN3 (COSAN S.A.) +1,95% (R$ 3,14)\n• VBBR3 (VIBRA ENERGIA S.A.) +1,83% (R$ 30,68)\n• JSLG3 (JSL S.A.) +1,76% (R$ 5,78)\n• AZEV4 (AZEVEDO E TRAVASSOS S.A.) +1,61% (R$ 0,63)\n📉 Maiores baixas — ações (top 20):\n• ONCO3 (ONCOCLINICAS DO BRASIL SERVICO) -7,35% (R$ 0,63)\n• RAIZ55 (RAIZEN S.A.) -7,33% (R$ 0,14)\n• INTB3 (INTELBRAS S.A. IND DE TELEC EL) -5,92% (R$ 14,46)\n• HAPV3 (HAPVIDA PARTICIPACOES E INVEST) -5,84% (R$ 5,80)\n• PMAM3 (PARANAPANEMA S.A.) -5,00% (R$ 0,19)\n• JALL3 (JALLES MACHADO S.A.) -4,85% (R$ 2,16)\n• RCSL4 (RECRUSUL S.A.) -4,76% (R$ 0,60)\n• OBTC3 (ORANJEBTC S.A. - EDUCAÇÃO E IN) -4,42% (R$ 6,06)\n• SMTO3 (SAO MARTINHO S.A.) -4,19% (R$ 16,91)\n• SEER3 (SER EDUCACIONAL S.A.) -3,80% (R$ 10,39)\n• SLCE3 (SLC AGRICOLA S.A.) -3,37% (R$ 16,94)\n• PETR3 (PETROLEO BRASILEIRO S.A. PETRO) -3,31% (R$ 47,02)\n• EVEN3 (EVEN CONSTRUTORA E INCORPORADO) -3,29% (R$ 3,53)\n• PRIO3 (PRIO S.A.) -3,29% (R$ 58,22)\n• BRAV3 (BRAVA ENERGIA S.A.) -3,27% (R$ 12,41)\n• SBFG3 (GRUPO SBF SA) -3,25% (R$ 3,87)\n• PETR4 (PETROLEO BRASILEIRO S.A. PETRO) -3,21% (R$ 41,30)\n• EMBJ3 (EMBRAER S.A.) -2,90% (R$ 106,96)\n• QUAL3 (QUALICORP CONSULTORIA E CORRET) -2,72% (R$ 1,79)\n• POMO3 (MARCOPOLO S.A.) -2,67% (R$ 3,28)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNAM11 (FNAM11) +8,33% (R$ 0,78)\n• PNPR11 (PANORAMA PROPERTIES FUNDO DE I) +4,79% (R$ 49,25)\n• DIGY11 (ORANJEBTC MARKETVECTOR BITCOIN) +3,11% (R$ 9,95)\n• CHIP11 (INVESTO ETF US LISTED  SEMICON) +2,70% (R$ 33,45)\n• QQQI11 (BUENA VISTA NASDAQ-100 NEOS HI) +1,70% (R$ 99,14)\n• SNEL11 (SUNO ENERGIAS LIMPAS FUNDO DE ) +1,59% (R$ 7,04)\n• IVVB11 (ISHARES S&amp;P 500 CLASSE DE ÍNDI) +1,38% (R$ 487,81)\n• XPML11 (XP MALLS FUNDO DE INVESTIMENTO — tijolo: shoppings) +1,23% (R$ 83,00)\n• UTEC11 (TREND ETF BLOOMBERG US 3000 TE) +1,15% (R$ 29,91)\n• BODB11 (BOCAINA INFRA FI EM COTAS DE F) +1,13% (R$ 7,18)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• PORD11 (POLO CRÉDITO IMOBILIÁRIO - FUN) -5,04% (R$ 7,54)\n• VRTM11 (FATOR VERITÀ MULTIESTRATÉGIA F) -4,81% (R$ 5,14)\n• BTCI11 (BTG PACTUAL CRÉDITO IMOBILIÁRI — papel) -4,75% (R$ 7,62)\n• HFOF11 (HEDGE TOP FOFII 3 FUNDO DE INV — FOF) -4,63% (R$ 5,15)\n• VGHF11 (VALORA HEDGE FUND FUNDO DE INV) -4,39% (R$ 3,70)\n• VGIA11 (VALORA CRA FUNDO DE I. NAS C.  — Fiagro (CRA)) -3,58% (R$ 7,54)\n• CPOF11 (CAPITÂNIA OFFICE FII - FUNDO D) -3,23% (R$ 119,99)\n• RZAG11 (FIAGRO RIZA AGRO IMOBILIÁRIO) -3,22% (R$ 7,21)\n• KNSC11 (KINEA SECURITIES FUNDO DE INVE — papel) -2,78% (R$ 8,03)\n• HGBS11 (HEDGE BRASIL SHOPPING FUNDO DE — tijolo: shoppings) -2,55% (R$ 16,40)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): +4,73%\n• Nasdaq (EUA): +6,51%\n• Dow Jones (EUA): +3,01%\n• Euro Stoxx 50 (Europa): +2,23%\n• Nikkei 225 (Japão): -5,06%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: -0,10% (US$ 61,101)\n• Ethereum: -0,57% (US$ 1,711)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,4%"
+  "radar": "📊 Radar do Mercado · 24/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Communications (+6,16% na média) · que mais caiu: Energy Minerals (-2,99%)\n• Ações líquidas da B3: média de -0,26% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de -0,54%\n\n📈 Maiores altas — ações (top 20):\n• FIQE3 (UNIFIQUE TELECOMUNICAÇÕES S.A.) +19,55% (R$ 6,85)\n• AZEV3 (AZEVEDO E TRAVASSOS S.A.) +13,70% (R$ 11,95)\n• BRKM5 (BRASKEM S.A.) +11,92% (R$ 2,91)\n• PCAR3 (CIA BRASILEIRA DE DISTRIBUICAO) +11,46% (R$ 3,60)\n• MGLU3 (MAGAZINE LUIZA S.A.) +9,63% (R$ 8,99)\n• RADL3 (RAIA DROGASIL S.A.) +7,07% (R$ 14,69)\n• ECOR3 (ECORODOVIAS INFRAESTRUTURA E L) +4,43% (R$ 6,13)\n• VAMO3 (VAMOS LOCAÇÃO DE CAMINHÕES. MÁ) +4,42% (R$ 2,60)\n• PGMN3 (EMPREENDIMENTOS PAGUE MENOS S.) +4,37% (R$ 2,39)\n• GGPS3 (GPS PARTICIPACOES E EMPREENDIM) +3,31% (R$ 10,61)\n• MOVI3 (MOVIDA PARTICIPACOES SA) +3,01% (R$ 5,81)\n• SAUD3 (BRADSAUDE S.A.) +2,70% (R$ 15,96)\n• SIMH3 (SIMPAR S.A.) +2,44% (R$ 5,46)\n• DIRR3 (DIRECIONAL ENGENHARIA S.A.) +2,29% (R$ 8,94)\n• PNVL3 (DIMED S.A. DISTRIBUIDORA DE ME) +2,23% (R$ 11,01)\n• HBSA3 (HIDROVIAS DO BRASIL S.A.) +2,19% (R$ 3,26)\n• CSAN3 (COSAN S.A.) +1,95% (R$ 3,14)\n• VBBR3 (VIBRA ENERGIA S.A.) +1,83% (R$ 30,68)\n• JSLG3 (JSL S.A.) +1,76% (R$ 5,78)\n• AZEV4 (AZEVEDO E TRAVASSOS S.A.) +1,61% (R$ 0,63)\n📉 Maiores baixas — ações (top 20):\n• ONCO3 (ONCOCLINICAS DO BRASIL SERVICO) -7,35% (R$ 0,63)\n• RAIZ55 (RAIZEN S.A.) -7,33% (R$ 0,14)\n• INTB3 (INTELBRAS S.A. IND DE TELEC EL) -5,92% (R$ 14,46)\n• HAPV3 (HAPVIDA PARTICIPACOES E INVEST) -5,84% (R$ 5,80)\n• PMAM3 (PARANAPANEMA S.A.) -5,00% (R$ 0,19)\n• JALL3 (JALLES MACHADO S.A.) -4,85% (R$ 2,16)\n• RCSL4 (RECRUSUL S.A.) -4,76% (R$ 0,60)\n• OBTC3 (ORANJEBTC S.A. - EDUCAÇÃO E IN) -4,42% (R$ 6,06)\n• SMTO3 (SAO MARTINHO S.A.) -4,19% (R$ 16,91)\n• SEER3 (SER EDUCACIONAL S.A.) -3,80% (R$ 10,39)\n• SLCE3 (SLC AGRICOLA S.A.) -3,37% (R$ 16,94)\n• PETR3 (PETROLEO BRASILEIRO S.A. PETRO) -3,31% (R$ 47,02)\n• EVEN3 (EVEN CONSTRUTORA E INCORPORADO) -3,29% (R$ 3,53)\n• PRIO3 (PRIO S.A.) -3,29% (R$ 58,22)\n• BRAV3 (BRAVA ENERGIA S.A.) -3,27% (R$ 12,41)\n• SBFG3 (GRUPO SBF SA) -3,25% (R$ 3,87)\n• PETR4 (PETROLEO BRASILEIRO S.A. PETRO) -3,21% (R$ 41,30)\n• EMBJ3 (EMBRAER S.A.) -2,90% (R$ 106,96)\n• QUAL3 (QUALICORP CONSULTORIA E CORRET) -2,72% (R$ 1,79)\n• POMO3 (MARCOPOLO S.A.) -2,67% (R$ 3,28)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNAM11 (FNAM11) +8,33% (R$ 0,78)\n• PNPR11 (PANORAMA PROPERTIES FUNDO DE I) +4,79% (R$ 49,25)\n• DIGY11 (ORANJEBTC MARKETVECTOR BITCOIN) +3,11% (R$ 9,95)\n• CHIP11 (INVESTO ETF US LISTED  SEMICON) +2,70% (R$ 33,45)\n• QQQI11 (BUENA VISTA NASDAQ-100 NEOS HI) +1,70% (R$ 99,14)\n• SNEL11 (SUNO ENERGIAS LIMPAS FUNDO DE ) +1,59% (R$ 7,04)\n• IVVB11 (ISHARES S&amp;P 500 CLASSE DE ÍNDI) +1,38% (R$ 487,81)\n• XPML11 (XP MALLS FUNDO DE INVESTIMENTO — tijolo: shoppings) +1,23% (R$ 83,00)\n• UTEC11 (TREND ETF BLOOMBERG US 3000 TE) +1,15% (R$ 29,91)\n• BODB11 (BOCAINA INFRA FI EM COTAS DE F) +1,13% (R$ 7,18)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• PORD11 (POLO CRÉDITO IMOBILIÁRIO - FUN) -5,04% (R$ 7,54)\n• VRTM11 (FATOR VERITÀ MULTIESTRATÉGIA F) -4,81% (R$ 5,14)\n• BTCI11 (BTG PACTUAL CRÉDITO IMOBILIÁRI — papel) -4,75% (R$ 7,62)\n• HFOF11 (HEDGE TOP FOFII 3 FUNDO DE INV — FOF) -4,63% (R$ 5,15)\n• VGHF11 (VALORA HEDGE FUND FUNDO DE INV) -4,39% (R$ 3,70)\n• VGIA11 (VALORA CRA FUNDO DE I. NAS C.  — Fiagro (CRA)) -3,58% (R$ 7,54)\n• CPOF11 (CAPITÂNIA OFFICE FII - FUNDO D) -3,23% (R$ 119,99)\n• RZAG11 (FIAGRO RIZA AGRO IMOBILIÁRIO) -3,22% (R$ 7,21)\n• KNSC11 (KINEA SECURITIES FUNDO DE INVE — papel) -2,78% (R$ 8,03)\n• HGBS11 (HEDGE BRASIL SHOPPING FUNDO DE — tijolo: shoppings) -2,55% (R$ 16,40)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): +4,73%\n• Nasdaq (EUA): +6,51%\n• Dow Jones (EUA): +3,01%\n• Euro Stoxx 50 (Europa): -0,80%\n• Nikkei 225 (Japão): +3,91%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: -2,39% (US$ 59,750)\n• Ethereum: -1,38% (US$ 1,685)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,4%"
 }
