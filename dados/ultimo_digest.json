@@ -1,218 +1,259 @@
 {
-  "gerado_em": "2026-11-25T11:19:50.690100+00:00",
+  "gerado_em": "2026-11-25T20:40:17.129226+00:00",
   "itens": [
     {
-      "title": "PCE e Livro Bege nos EUA mexem com bolsas hoje; Ibovespa em dólar cai nesta quarta-feira (25)",
+      "title": "Ouro fecha em queda com perspectiva de alta dos juros nos EUA após PCE",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/pce-e-livro-bege-nos-eua-mexem-com-bolsas-hoje-ibovespa-em-dolar-cai-nesta-quarta-feira-25-rens/",
+      "link": "https://www.moneytimes.com.br/ouro-fecha-em-queda-com-perspectiva-de-alta-dos-juros-nos-eua-apos-pce-davs/",
       "categorias": [
-        "acoes"
+        "renda_fixa",
+        "exterior"
       ],
-      "resumo": "A agenda econômica dos EUA, com a divulgação do PCE e do Livro Bege, domina o cenário global, enquanto o Ibovespa recua levemente após a queda do dólar frente ao real e declarações da presidente da Petrobras.",
-      "mecanismo": "O mercado reage à expectativa de dados de inflação americana (PCE) e ao tom do Livro Bege do Fed, que podem influenciar a trajetória dos juros nos EUA; simultaneamente, a queda do dólar global (DXY) e local (R$/US$) alivia a pressão cambial sobre o Brasil, mas o Ibovespa em dólar cai devido à aversão ao risco e às notícias corporativas negativas, refletindo uma cautela que pode persistir até a confirmação da política monetária americana.",
-      "implicacao": "Com a incerteza sobre a política monetária do Fed e a volatilidade cambial, ativos de proteção cambial e títulos públicos indexados à inflação (IPCA+) tendem a ser preferidos por investidores de curto prazo, já que a Selic projetada em 13,75% oferece proteção real enquanto o mercado aguarda clareza sobre os juros globais.",
-      "risco": "Uma surpresa inflacionária alta no PCE ou um tom mais hawkish no Livro Bege pode reverter a queda do dólar, pressionando o câmbio e os mercados emergentes, invalidando a tese de alívio cambial.",
-      "proximo_evento": "Divulgação do índice PCE de outubro e do Livro Bege do Federal Reserve nos EUA, além da segunda estimativa do PIB americano do terceiro trimestre.",
+      "resumo": "O ouro recuou nesta quarta-feira após a divulgação do PCE dos EUA, que mostrou inflação anual de 3,8%, reforçando as apostas de que o Federal Reserve manterá o ciclo de alta de juros.",
+      "mecanismo": "A persistência da inflação americana acima da meta de 2% eleva a probabilidade de um novo aumento de 25 pontos-base na taxa de juros pelo Fed em dezembro, o que aumenta o custo de oportunidade de manter ativos sem rendimento, como o ouro, pressionando seus preços para baixo.",
+      "implicacao": "Com a perspectiva de juros reais mais altos nos EUA, a classe de ativos de metais preciosos tende a enfrentar pressão vendedora, enquanto ativos de renda fixa atrelados ao dólar podem se tornar mais atrativos para investidores globais em busca de proteção contra a inflação.",
+      "risco": "A tese de alta de juros pode ser invalidada se os próximos dados de salários e preços de commodities nos EUA mostrarem um arrefecimento inflacionário mais rápido do que o projetado, ou se novas tensões comerciais globais gerarem uma fuga massiva para ativos de refúgio.",
+      "proximo_evento": "Reunião de política monetária do Federal Reserve (FOMC) agendada para 9 de dezembro de 2026.",
       "key_numbers": [
-        "Selic (fim do ano): 13.75%",
-        "IPCA (fim do ano): 5.1505%",
-        "Câmbio R$/US$ (fim do ano): 5.55",
-        "Ibovespa: 164.089,81 pontos"
+        "PCE anual EUA: 3,8%",
+        "Ouro (dez/26): US$ 3.535,80/oz",
+        "Prata (dez/26): US$ 40,058/oz",
+        "Alta esperada Fed: 25 bps"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Tempo real: Ibovespa acompanha novas medidas de ajuste fiscal e PCE dos EUA; veja os destaques desta quarta-feira (25)",
+      "title": "Bolsas da Europa fecham em queda com nova proposta tarifária dos EUA e pressão tech",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/tempo-real-25-11-2026-davs/",
+      "link": "https://www.moneytimes.com.br/bolsas-da-europa-fecham-em-queda-com-nova-proposta-tarifaria-dos-eua-e-pressao-tech-lmrs/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "Os mercados europeus encerraram o pregão em território negativo, impulsionados por temores sobre novas barreiras comerciais americanas e pela revisão para baixo do crescimento econômico alemão.",
+      "mecanismo": "A combinação da proposta de tarifas de 15% dos EUA sobre a UE e a desaceleração do PIB alemão (0,1% no 3T) gera incerteza sobre a demanda externa e a saúde da maior economia da zona do euro, o que, somado à pressão sobre o setor de tecnologia, leva a uma reprecificação de risco e venda de ativos de maior beta, enquanto o núcleo do PCE americano acima do esperado reforça a cautela global.",
+      "implicacao": "Com a pressão sobre o crescimento europeu e a incerteza tarifária, o setor bancário tende a enfrentar restrições de liquidez e margens, já que o aumento das reservas mínimas pelo BCE reduz a capacidade de crédito, enquanto o setor de tecnologia permanece vulnerável à revisão de múltiplos diante das dúvidas sobre a rentabilidade dos investimentos em IA.",
+      "risco": "A tese de queda pode ser invalidada se as negociações comerciais entre EUA e UE resultarem em um acordo que evite a implementação efetiva das tarifas de 15%, ou se os próximos dados de inflação europeia mostrarem uma desaceleração mais rápida que o esperado, aliviando a pressão sobre a política monetária.",
+      "proximo_evento": "Reunião do Banco Central Europeu (BCE) em dezembro, onde se espera a elevação das exigências de reservas mínimas dos bancos da zona do euro.",
+      "key_numbers": [
+        "Tarifa proposta EUA-UE: 15%",
+        "PIB Alemanha 3T: 0,1%",
+        "PCE núcleo EUA (out): 3,3%",
+        "Queda Stoxx 600 Tech: 2,8%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Ações da Embraer (EMBJ3) caem com proposta de taxação dos EUA no radar; veja",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/acoes-da-embraer-embj3-com-proposta-de-taxacao-dos-eua-no-radar-veja-lmrs/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O mercado brasileiro monitora a elaboração de uma nova PEC de ajuste fiscal pelo governo, enquanto a atenção global se volta para a divulgação do PCE dos EUA, indicador-chave para as decisões de juros do Fed.",
-      "mecanismo": "A sinalização de um reforço no ajuste fiscal via PEC busca reduzir a incerteza sobre a trajetória da dívida pública, o que tende a estabilizar o prêmio de risco soberano e o câmbio, enquanto o PCE norte-americano atua como variável externa que pode alterar as expectativas de política monetária global, impactando o fluxo de capitais para emergentes.",
-      "implicacao": "Com a Selic projetada em 13,75% e a inflação em 5,15%, a confirmação de medidas fiscais duradouras tende a beneficiar ativos de renda fixa atrelados ao IPCA+ e o setor bancário, já que a redução do prêmio de risco soberano pode aliviar a pressão sobre a curva de juros e fortalecer a confiança no crédito.",
-      "risco": "A rejeição ou enfraquecimento da PEC no Congresso, ou um PCE norte-americano que force o Fed a manter juros altos por mais tempo, pode reverter o otimismo e pressionar o Ibovespa e o dólar.",
-      "proximo_evento": "Divulgação oficial do PCE de outubro dos EUA e eventual envio da nova PEC de contenção de gastos ao Congresso Nacional.",
+      "resumo": "As ações da Embraer recuaram após o anúncio de uma consulta pública nos EUA para impor tarifas de 10% sobre aeronaves brasileiras, medida que visa pressionar o governo brasileiro em negociações comerciais.",
+      "mecanismo": "A proposta de taxação de 10% sobre aeronaves acabadas atinge diretamente a margem de lucro da companhia, já que o UBS BB estima que essa alíquota represente cerca de 8% do Ebit projetado para 2027, impactando negativamente a rentabilidade e a competitividade dos jatos executivos no mercado americano.",
+      "implicacao": "Com a incerteza regulatória e o risco de custos adicionais sobre exportações, o setor de defesa e aeroespacial tende a enfrentar pressão de múltiplos, já que a dependência de mercados internacionais expõe as empresas a choques tarifários que comprimem a margem operacional.",
+      "risco": "A consulta pública pode não resultar em tarifas efetivas se as negociações diplomáticas avançarem, ou a Embraer pode repassar parte do custo aos clientes, mitigando o impacto no lucro líquido.",
+      "proximo_evento": "O encerramento do prazo da consulta pública sobre a Seção 301 e a definição final das tarifas pelos Estados Unidos, além de possíveis respostas diplomáticas do governo brasileiro.",
+      "key_numbers": [
+        "Queda das ações: 5,63%",
+        "Cotação: R$ 101,45",
+        "Tarifa proposta: 10%",
+        "Impacto no Ebit 2027: 8%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Wall Street em queda e nova liquidação de IA: por que mercado cai hoje? Leia análise",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/wall-street-em-queda-e-nova-liquidacao-de-ia-por-que-mercado-esta-em-queda-hoje-leia-analise-rens/",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "Wall Street opera em forte queda nesta quarta-feira, impulsionada por novas tarifas de Trump sobre parceiros comerciais e uma correção acentuada no setor de inteligência artificial, que enfrenta dúvidas sobre a sustentabilidade dos investimentos das grandes tecnológicas.",
+      "mecanismo": "A imposição de novas tarifas de até 20% sobre produtos da China, UE e outros parceiros eleva custos e incerteza, enquanto a projeção de fluxo de caixa livre negativo para as hyperscalers em 2027 força o mercado a reavaliar a viabilidade econômica da expansão de IA, penalizando empresas dependentes de alavancagem e favorecendo apenas as líderes em infraestrutura crítica.",
+      "implicacao": "Com a pressão sobre os custos de capital e a seletividade crescente, o setor de tecnologia tende a divergir, beneficiando fornecedores essenciais de semicondutores e infraestrutura com geração de caixa comprovada, enquanto empresas de software ou serviços de IA com alto endividamento e retorno incerto enfrentam maior risco de desvalorização.",
+      "risco": "A tese de correção pode ser invalidada se as novas tarifas resultarem em um acordo comercial rápido que alivie as tensões, ou se as grandes tecnológicas apresentarem resultados trimestrais que demonstrem retorno imediato e robusto dos investimentos em IA, revertendo a narrativa de insustentabilidade.",
+      "proximo_evento": "Expiração da trégua comercial entre EUA e China, prevista para 10 de janeiro de 2027.",
+      "key_numbers": [
+        "Nasdaq futuros: -3,17%",
+        "Tarifa adicional EUA-China: 20%",
+        "Queda do Nasdaq na semana anterior: 10%",
+        "FCF agregado hyperscalers 2027: Negativo"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Ibovespa sobe com novas medidas fiscais e PCE dos EUA; 5 coisas para saber antes de investir hoje (25)",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-oscila-perto-da-estabilidade-com-novas-medidas-fiscais-e-pce-dos-eua-5-coisas-para-saber-antes-de-investir-hoje-25/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O Ibovespa opera em leve alta enquanto o mercado avalia novas propostas de ajuste fiscal e dados de inflação dos EUA, com o dólar recuando frente ao real apesar da força da moeda americana no exterior.",
+      "mecanismo": "A sinalização de contenção de gastos e a definição de uma PEC para limitar despesas obrigatórias a partir de 2027 buscam reduzir a incerteza fiscal, o que tende a diminuir o prêmio de risco exigido pelos investidores e sustenta a valorização do Ibovespa e a queda do dólar, mesmo com a Selic projetada em 13,75% e o IPCA em 5,15% no Focus.",
+      "implicacao": "Com a melhora na percepção de risco fiscal, o setor de bancos e empresas de capital intensivo tende a se beneficiar, já que a redução da incerteza sobre a sustentabilidade das contas públicas favorece a entrada de capital estrangeiro e a compressão dos spreads de crédito.",
+      "risco": "A aprovação de uma PEC fiscal insuficiente para conter o crescimento das despesas obrigatórias ou uma inflação americana (PCE) mais persistente do que o esperado pode reverter o otimismo, pressionando o Ibovespa e fortalecendo o dólar.",
+      "proximo_evento": "Entrevista do ministro do Planejamento, Bruno Moretti, sobre o Relatório de Avaliação de Receitas e Despesas do 5º bimestre e a definição final do alcance da PEC fiscal pela equipe econômica.",
+      "key_numbers": [
+        "Ibovespa: 164.468,47 pontos",
+        "Dólar à vista: R$ 5,8879",
+        "Selic (fim do ano): 13.75%",
+        "IPCA (fim do ano): 5.1505%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/news/us-inflation-rises-december-fed-meeting-clouding-crypto-outlook?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "renda_fixa",
+        "exterior"
+      ],
+      "resumo": "A inflação subjacente dos EUA (PCE core) acelerou para 3,3% em outubro, superando as expectativas e reforçando a pressão sobre o Federal Reserve para elevar os juros na reunião de dezembro.",
+      "mecanismo": "O aumento da inflação acima da meta de 2% do Fed, combinado com um crescimento do PIB robusto de 4,3% no 3º trimestre, reduz o espaço para cortes de juros e aumenta a probabilidade de uma alta de 0,25 p.p. em dezembro, o que encarece o custo de capital e tende a desviar fluxos de ativos de risco, como criptomoedas, para títulos do Tesouro americano.",
+      "implicacao": "Com a perspectiva de juros mais altos por mais tempo, a classe de ativos criptomoedas tende a enfrentar pressão de baixa ou recuperação lenta, já que o aumento do custo de empréstimos e a atração por rendimentos livres de risco nos EUA reduzem a liquidez disponível para investimentos especulativos.",
+      "risco": "A tese de pressão sobre criptoativos pode ser invalidada se o Fed adotar uma postura mais cautelosa, optando por não elevar os juros ou por um ajuste menor que o esperado, ou se houver uma desaceleração econômica súbita que force uma mudança rápida na política monetária.",
+      "proximo_evento": "Reunião do Federal Reserve nos dias 8 e 9 de dezembro de 2026, onde será decidido o novo patamar da taxa de juros básica.",
+      "key_numbers": [
+        "PCE Core (anual): 3,3%",
+        "PIB EUA (3º tri, anualizado): 4,3%",
+        "Probabilidade de alta de juros em dez: 94,4%",
+        "Variação capitalização cripto (YTD): -32%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-falls-57k-us-tariff-pce-data-nasdaq-drops?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "O Bitcoin recuou para a faixa de US$ 57 mil impulsionado por dados de inflação nos EUA acima do esperado e pelo temor de novas tarifas comerciais, movimento que derrubou o índice Nasdaq em mais de 4%.",
+      "mecanismo": "A leitura do PCE core de 3,3% (acima da expectativa de 3,2%) e a ameaça de tarifas de 15% a 20% reforçam a tese de que o Fed manterá o ciclo restritivo ou até aumentará os juros em dezembro, o que reduz a liquidez global e penaliza ativos de risco como criptomoedas, que apresentam alta correlação (0,73) com o Nasdaq.",
+      "implicacao": "Com a perspectiva de juros mais altos por mais tempo nos EUA, a classe de ativos de criptomoedas tende a enfrentar pressão de venda, pois o custo de capital elevado desvia fluxos para ativos de renda fixa e reduz a apetite por risco no mercado global.",
+      "risco": "A tese de alta de juros pode ser invalidada se os dados de inflação futuros mostrarem desaceleração brusca ou se o Fed priorizar o crescimento econômico sobre o controle da inflação, o que poderia reverter o fluxo de capital para ativos de risco.",
+      "proximo_evento": "Reunião do Federal Reserve em 9 de dezembro, onde o mercado já precifica a possibilidade de um aumento de 25 ou 50 pontos-base na taxa de juros.",
+      "key_numbers": [
+        "Bitcoin: US$ 57.209",
+        "PCE Core (EUA): 3,3%",
+        "Nasdaq: -4,2%",
+        "Liquidações Crypto: US$ 512 milhões"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "Hong Kong launches tokenized debt platform with 24-hour settlement",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/news/hong-kong-central-bank-platform-tokenized-debt-securities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "debentures"
+      ],
+      "resumo": "O Banco Central de Hong Kong (HKMA) lançou uma plataforma que permite a emissão e o assentamento de títulos de dívida tokenizados em múltiplas moedas, operando 24 horas por dia com liquidação em tempo real.",
+      "mecanismo": "A implementação do modelo de entrega-contra-pagamento (DvP) on-chain garante que a transferência do ativo e do pagamento ocorram simultaneamente ou não ocorram, eliminando o risco de contraparte no assentamento e reduzindo custos operacionais; isso tende a aumentar a eficiência do mercado de capitais e a atrair fluxos de capital para ativos digitais regulados, complementando a infraestrutura de pagamentos digitais já expandida pela HKMA.",
+      "implicacao": "Com a redução de custos e riscos operacionais no assentamento de dívida, o setor de infraestrutura financeira e fintechs reguladas tende a se beneficiar, já que a tokenização de ativos tradicionais aumenta a liquidez e a acessibilidade desses instrumentos para investidores institucionais.",
+      "risco": "A adoção em larga escala pode ser limitada pela resistência de bancos tradicionais a migrar para novas tecnologias e pela incerteza regulatória global sobre a interoperabilidade de tokens de dívida entre diferentes jurisdições.",
+      "proximo_evento": "Acompanhar a expansão do piloto do Project Ensemble para além da fase inicial e a possível integração de mais instituições financeiras globais à plataforma CMU Digital Asset Platform.",
+      "key_numbers": [
+        "Horas de operação: 24h",
+        "Data de lançamento: 25/11/2026",
+        "Moedas suportadas: Múltiplas"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout",
+      "source": "Cointelegraph.com News",
+      "link": "https://cointelegraph.com/markets/bitcoin-etfs-near-record-5-billion-monthly-outflows?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "categorias": [
+        "cripto"
+      ],
+      "resumo": "Os ETFs de Bitcoin à vista nos EUA registraram saídas líquidas recorde de US$ 4,94 bilhões em novembro, superando a marca anterior de junho, impulsionadas pela queda nas ações de IA e expectativas de alta de juros.",
+      "mecanismo": "A combinação de juros americanos em alta (com expectativa de novo aumento pelo Fed em dezembro) e a fragilidade do setor de IA está drenando capital dos ETFs de Bitcoin, pois investidores institucionais realocam recursos para ativos de menor risco ou ajustam posições em meio ao aumento do custo de oportunidade, anulando os ingressos do terceiro trimestre.",
+      "implicacao": "Com a pressão vendedora nos ETFs e a incerteza sobre os juros globais, a classe de ativos criptoativos tende a enfrentar volatilidade elevada e pressão de baixa no curto prazo, já que o fluxo institucional é o principal motor de liquidez e preço para o Bitcoin no mercado regulado americano.",
+      "risco": "O cenário de saída massiva pode ser revertido rapidamente se o Fed sinalizar um ciclo de cortes de juros ou se as ações de IA encontrarem um fundo técnico, atraindo novamente capital especulativo para criptomoedas como hedge.",
+      "proximo_evento": "Decisão de política monetária do Federal Reserve (Fed) em dezembro de 2026.",
+      "key_numbers": [
+        "Saídas líquidas Nov/2026: US$ 4,94 bilhões",
+        "Saídas líquidas 2026 acumulado: US$ 4,57 bilhões",
+        "Saídas líquidas Q3/2026 (ingressos): US$ 6,34 bilhões",
+        "Selic (fim do ano): 13.75%"
+      ],
+      "sentiment": "down"
+    },
+    {
+      "title": "In olive branch to banks, Italy plans to drop curbs on home renovation tax credits",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/in-olive-branch-to-banks-italy-plans-to-drop-curbs-on-home-renovation-tax-credits-5051276",
+      "categorias": [
+        "imobiliario"
+      ],
+      "resumo": "O governo italiano anunciou a intenção de eliminar as restrições aos créditos fiscais para reformas residenciais, uma medida voltada a estimular o setor da construção civil e enviar um sinal de cooperação ao sistema bancário.",
+      "mecanismo": "A flexibilização dos limites para o 'bonus ristrutturazioni' aumenta a demanda agregada por materiais de construção e serviços de mão de obra, o que tende a impulsionar a atividade econômica doméstica e aliviar a pressão sobre o crédito bancário, já que o Estado assume parte do custo via dedução fiscal em vez de financiamento direto.",
+      "implicacao": "Com o estímulo fiscal direcionado ao setor imobiliário e de construção, as empresas de materiais de construção e serviços de engenharia na Itália tendem a se beneficiar, já que a redução das barreiras fiscais aumenta o volume de projetos de reforma e a liquidez disponível para esses investimentos.",
+      "risco": "O impacto pode ser limitado se a confiança do consumidor permanecer fraca ou se o custo do crédito bancário continuar elevado, impedindo que os lares efetivem as reformas mesmo com o incentivo fiscal.",
+      "proximo_evento": "Aprovção formal da medida no parlamento italiano e a divulgação dos dados de inflação (HICP) da zona do euro, que podem influenciar a postura do BCE.",
       "key_numbers": [
         "Selic (fim do ano): 13.75%",
         "IPCA (fim do ano): 5.1505%",
         "Câmbio R$/US$ (fim do ano): 5.55",
         "PIB (crescimento no ano): 1.7018%"
       ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Bolsas da Ásia fecham em baixa com dúvidas sobre IA e temor de novas tarifas dos EUA",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-em-baixa-com-duvidas-sobre-ia-e-temor-de-novas-tarifas-dos-eua-fets/",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "Os mercados asiáticos registraram quedas expressivas nesta quarta-feira, impulsionados por ceticismo sobre a viabilidade econômica da inteligência artificial e pelo receio de novas barreiras comerciais impostas pelos Estados Unidos.",
-      "mecanismo": "A perda de fôlego no setor de tecnologia, após a euforia inicial com o retorno de Jensen Huang à Nvidia, expôs a fragilidade das valuations baseadas em expectativas irreais de receita com IA; simultaneamente, a ameaça de novas tarifas americanas sobre a China e outros parceiros comerciais aumenta a incerteza macroeconômica global, o que tende a pressionar ativos de risco e fortalecer a aversão ao risco, impactando negativamente o fluxo de capitais para mercados emergentes e exportadores.",
-      "implicacao": "Com o aumento da aversão ao risco e a pressão sobre o setor de semicondutores, a classe de ativos de tecnologia e hardware tende a sofrer desvalorização, enquanto ativos defensivos e commodities ligadas a cadeias de suprimentos menos expostas a tarifas podem ganhar relativo destaque, já que o capital busca refúgio diante da incerteza regulatória e comercial.",
-      "risco": "O cenário de queda pode ser invalidado se a investigação dos EUA resultar em medidas tarifárias mais brandas do que o esperado ou se houver uma nova onda de estímulos governamentais em mercados asiáticos que reforce a demanda por chips, revertendo a narrativa de excesso de capacidade e baixa rentabilidade na IA.",
-      "proximo_evento": "A divulgação, ainda nesta semana, dos resultados da investigação conduzida pelo representante comercial dos EUA (Jamieson Greer) sobre subsídios industriais da China, da UE e de outros 14 países, que pode embasar a implementação de novas tarifas.",
-      "key_numbers": [
-        "Kospi: -6,16%",
-        "Nikkei: -2,78%",
-        "Taiex: -4,8%",
-        "Xangai Composto: -2,03%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "Petróleo recua 2% com perspectiva de excesso de oferta superando temores de interrupções no Oriente Médio",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/petroleo-recua-2-com-perspectiva-de-excesso-de-oferta-superando-temores-de-interrupcoes-no-oriente-medio-fets/",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "Os preços do petróleo caíram cerca de 2% nesta quarta-feira, revertendo os ganhos da véspera, pois a perspectiva de um excedente global de oferta passou a dominar as preocupações com riscos geopolíticos no Oriente Médio.",
-      "mecanismo": "A expectativa de que a oferta de petróleo supere a demanda a partir de 2027, impulsionada pela pressão do Iraque para ampliar sua capacidade produtiva e pela saída dos Emirados Árabes Unidos das restrições da Opep+, está pesando sobre os preços, superando o prêmio de risco associado aos recentes ataques a navios no Estreito de Ormuz e à instabilidade regional.",
-      "implicacao": "Com a pressão de excesso de oferta limitando o upside do petróleo, o setor de energia tende a enfrentar margens comprimidas, já que a incerteza sobre as cotas de produção e a aversão ao risco global reduzem a atratividade de ativos de commodities em relação a defensivos.",
-      "risco": "Uma escalada significativa dos conflitos no Estreito de Ormuz ou uma decisão da Opep+ de cortar produção mais agressivamente do que o esperado poderia reverter a tendência de queda e provocar um salto abrupto nos preços.",
-      "proximo_evento": "Reunião dos ministros da Opep+ em 29 de novembro para definir a política de produção do grupo para 2027.",
-      "key_numbers": [
-        "Brent: US$ 89,69",
-        "WTI: US$ 80,25",
-        "Queda Brent: 1,87%",
-        "Queda WTI: 2,19%"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "French Senate rejects 100K euro crypto wallet disclosure requirement",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/french-senate-rejects-disclosing-self-custodied-crypto-wallets-100k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "O Senado francês rejeitou propostas que obrigariam a declaração de carteiras de criptomoedas auto-custodiadas acima de 100 mil euros, além de impostos sobre conversões para stablecoins e ganhos não realizados em caso de mudança de residência fiscal.",
-      "mecanismo": "A rejeição ocorre porque o governo argumenta que a mera declaração de posse não permite rastrear o uso dos ativos para lavagem de dinheiro ou fraude, e porque a medida criaria uma suspeita generalizada sobre usuários de boa-fé, tratando cripto de forma desigual a outros bens como joias; isso reduz a incerteza regulatória imediata para detentores de ativos digitais na França, removendo uma barreira burocrática que poderia ter incentivado a migração de capital para jurisdições mais amigáveis ou para exchanges reguladas.",
-      "implicacao": "Com a queda de barreiras regulatórias específicas para auto-custódia na França, o setor de infraestrutura de criptoativos e protocolos de DeFi tendem a ver uma melhora no sentimento de investidores institucionais e varejo europeus, já que a clareza regulatória reduz o prêmio de risco associado à jurisdição francesa e pode aumentar a liquidez local em plataformas descentralizadas.",
-      "risco": "O orçamento ainda está em negociação e a Câmara dos Deputados pode reintroduzir medidas fiscais sobre criptoativos em futuras revisões, além de a União Europeia poder impor regras mais rígidas de reporte que sobreponham a legislação nacional francesa.",
-      "proximo_evento": "Votação final do orçamento francês no Senado, agendada para 9 de dezembro de 2026, e a conclusão do debate sobre a seção de receitas no sábado.",
-      "key_numbers": [
-        "Limite de declaração rejeitado: 100.000 euros",
-        "Multa proposta para recusa de informação: 50.000 euros",
-        "Data da votação final do orçamento: 09/12/2026"
-      ],
       "sentiment": "up"
     },
     {
-      "title": "Stablecoin redemptions hit $12B in 30 days, echoing 2022 bear market",
-      "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/stablecoin-cash-out-2022-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "categorias": [
-        "cripto"
-      ],
-      "resumo": "Resgates de stablecoins somaram US$ 12 bilhões em 30 dias, indicando uma retirada de capital do ecossistema cripto que se assemelha ao padrão observado no bear market de 2022, embora em menor escala.",
-      "mecanismo": "A redução na oferta de stablecoins (USDT e USDC) diminui a liquidez imediata disponível para compra de ativos digitais, um efeito agravado pela mudança nas expectativas de política monetária mais restritiva do Federal Reserve e pelos saques de ETFs de Bitcoin à vista, o que pressiona os preços para baixo por falta de demanda marginal.",
-      "implicacao": "Com a liquidez em cripto ativos em retração e o apetite por risco global diminuindo, a classe de ativos digitais tende a enfrentar pressão de venda, já que a menor disponibilidade de stablecoins nas exchanges reduz a capacidade de alavancagem e compra de novos ativos.",
-      "risco": "O cenário de queda pode ser invalidado se a oferta de stablecoins voltar a crescer rapidamente, sinalizando retorno de liquidez, ou se o Federal Reserve adotar uma postura mais dovista do que o esperado, revertendo a pressão sobre ativos de risco.",
-      "proximo_evento": "Próxima reunião do Federal Reserve (FOMC) para definição da política de juros e divulgação dos dados de oferta de stablecoins nas principais redes (Ethereum e Tron) para verificar se a contração se estabiliza ou acelera.",
-      "key_numbers": [
-        "Resgates de stablecoins (30 dias): US$ 12 bilhões",
-        "Queda na oferta de USDT e USDC: ~4%",
-        "Queda na oferta total desde 13/nov: 0,4%",
-        "Volume diário de transações on-chain: US$ 157 bilhões"
-      ],
-      "sentiment": "down"
-    },
-    {
-      "title": "NNN REIT: A Dividend Champion Paying A Well-Covered 6.2% Yield After The Selloff",
+      "title": "U.S. Housing: Now In The Ice Box",
       "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4971787-nnn-reit-a-dividend-champion-paying-a-well-covered-6-2-percent-yield-after-the-selloff?source=feed_all_articles",
+      "link": "https://seekingalpha.com/article/4972014-us-housing-now-in-the-ice-box?source=feed_all_articles",
       "categorias": [
         "imobiliario"
       ],
-      "resumo": "O analista destaca que a NNN REIT oferece um rendimento de dividendos de 6,2% com forte cobertura por AFFO, tornando o ativo atrativo após a recente queda no preço das ações.",
-      "mecanismo": "A combinação de uma queda no preço da ação (selloff) com a manutenção de um fluxo de caixa operacional robusto (AFFO) eleva o yield efetivo para o investidor, criando uma margem de segurança que atrai capital em busca de renda fixa-alta em um cenário onde a Selic projetada para 2026 é de 13,75%, tornando o diferencial de retorno em dólar competitivo.",
-      "implicacao": "Com a Selic em patamar elevado (13,75% projetado), o setor de REITs de renda fixa-alta tende a atrair investidores que buscam proteção real e diversificação cambial, já que o yield de 6,2% em dólar, somado à potencial valorização cambial (R$/US$ projetado em 5,55), pode superar o retorno nominal de ativos locais de renda fixa.",
-      "risco": "O risco principal é a deterioração da taxa de ocupação ou o aumento de custos operacionais que comprometam a cobertura do dividendo, invalidando a tese de segurança do yield.",
-      "proximo_evento": "Divulgação dos resultados trimestrais e da atualização da orientação de AFFO pela NNN REIT.",
+      "resumo": "O mercado imobiliário dos EUA enfrenta um congelamento profundo, com a queda anual dos preços médios de casas e uma deterioração significativa na confiança dos construtores em novembro.",
+      "mecanismo": "A combinação de preços caindo e taxas de cancelamento de vendas elevadas (atingindo 23% em grandes construtores) indica uma desalavancagem forçada do setor, enquanto o crescimento do emprego na construção é sustentado artificialmente por data centers, cujo investimento tende a desacelerar em 2027 devido a restrições de dívida e infraestrutura de energia.",
+      "implicacao": "Com o setor imobiliário em contração e balanços de construtores resilientes, ativos do setor de construção residencial podem se tornar oportunidades de valor extremo, já que a queda nos preços e a alta nos cancelamentos sugerem que o pior do ciclo pode estar próximo, embora a demanda por moradia permaneça fraca.",
+      "risco": "A tese de recuperação de valor pode ser invalidada se a desaceleração do investimento em data centers em 2027 levar a um colapso mais amplo no emprego da construção, ou se as taxas de juros permanecerem elevadas por mais tempo, impedindo a recuperação da demanda por moradia.",
+      "proximo_evento": "Divulgação dos dados de vendas de casas novas e usadas de novembro e a atualização do índice de confiança dos construtores (NAHB) para dezembro.",
       "key_numbers": [
-        "Yield: 6.2%",
-        "Selic (fim 2026): 13.75%",
-        "Câmbio (fim 2026): 5.55",
-        "IPCA (fim 2026): 5.15%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "Australia's CPI Surprise Keeps RBA On Alert, But Weak Growth Signals Argue For Patience",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4971806-australia-cpi-surprise-keeps-rba-on-alert-weak-growth-signals-argue-for-patience?source=feed_all_articles",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "A inflação na Austrália acelerou para 4,9% em outubro, impulsionada por transportes e energia, mas o mercado de trabalho enfraqueceu com o desemprego atingindo 4,9%.",
-      "mecanismo": "O Banco Central Australiano (RBA) deve manter os juros inalterados porque, apesar do choque inflacionário pontual, a queda de 23% no preço do petróleo e a deterioração do mercado de trabalho (queda de 44 mil empregos) reduzem a urgência de aperto monetário adicional, permitindo que a política de juros altos já implementada faça efeito sobre a atividade econômica.",
-      "implicacao": "Com a expectativa de pausa nos juros e desaceleração do crescimento para 1,4% em 2027, o setor imobiliário australiano tende a enfrentar pressão negativa, já que o custo de financiamento permanece elevado e a demanda é inibida pelo enfraquecimento do emprego e da renda.",
-      "risco": "O risco principal é que a inflação subjacente (core) continue passando para outros setores da economia, forçando o RBA a retomar o ciclo de alta de juros antes do previsto, o que agravaria a recessão no setor imobiliário.",
-      "proximo_evento": "Próxima reunião do RBA para decisão de política monetária e divulgação dos dados de inflação do trimestre de dezembro.",
-      "key_numbers": [
-        "CPI Austrália (out/26): 4.9%",
-        "Desemprego Austrália: 4.9%",
-        "Variação Petróleo Brent: -23%",
-        "PIB Austrália (proj. 2027): 1.4%"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Navigating The Fog: Correction, Inflation, Interest Rates And AI",
-      "source": "All Articles on Seeking Alpha",
-      "link": "https://seekingalpha.com/article/4971799-navigating-fog-correction-inflation-interest-rates-ai?source=feed_all_articles",
-      "categorias": [
-        "renda_fixa"
-      ],
-      "resumo": "O S&P 500 entrou em correção técnica de 11,7% após atingir máxima histórica em outubro, impulsionado por preocupações com a sustentabilidade do déficit fiscal dos EUA e a desaceleração do ciclo de investimentos em infraestrutura de IA.",
-      "mecanismo": "O déficit federal próximo de US$ 2 trilhões anuais exige emissão de dívida ou expansão monetária (M2 crescendo ~6% vs PIB real de 2%), o que pressiona a inflação e limita a capacidade do Fed de cortar juros; simultaneamente, o CapEx em data centers (2,1% do PIB) enfrenta riscos de supercapacidade, o que pode reduzir o crescimento de lucros das empresas de tecnologia que sustentam o índice.",
-      "implicacao": "Com a perspectiva de juros altos por mais tempo e desaceleração do crescimento de lucros em tecnologia, o setor de mega-caps de IA tende a sofrer pressão de múltiplos, enquanto setores defensivos e de crescimento de dividendos podem se beneficiar do realocação de capital em busca de segurança e fluxo de caixa estável.",
-      "risco": "A tese de correção prolongada pode ser invalidada se o Fed sinalizar cortes agressivos de juros para evitar recessão ou se os lucros das empresas de IA superarem as expectativas de supercapacidade, reavaliando o crescimento do setor.",
-      "proximo_evento": "Próxima reunião do FOMC (Federal Open Market Committee) para definição da política de juros e divulgação dos dados de inflação (CPI/PCE) dos EUA, que confirmarão se a inflação está realmente 'pegando' como alertado.",
-      "key_numbers": [
-        "Correção S&P 500: -11,7%",
-        "Deficit Fiscal EUA: ~US$ 2 trilhões/ano",
-        "Crescimento M2: 6%",
-        "CapEx Data Centers: 2,1% do PIB"
+        "Confiança dos construtores (Nov): 25",
+        "Taxa de cancelamento (D.R. Horton): 23%",
+        "Preço médio de casas: Queda anual",
+        "Expectativa de confiança: 29"
       ],
       "sentiment": "down"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [
-      "A retomada econômica da Alemanha perdeu força no terceiro trimestre."
+      "O resumo da notícia sobre o Thrivent Government Bond Fund Q3 2026 Commentary não contém informações factuais além do título.",
+      "O resumo da notícia sobre o Victory Tax Exempt Intermediate-Term Fund Q3 2026 Commentary não contém informações factuais além do título."
     ],
     "acoes": [
-      "Ibovespa fechou em queda de 0,43%, aos 164.089,81 pontos, após a presidente da Petrobras, Magda Chambriard, não garantir dividendos extraordinários.",
-      "As bolsas de Nova York fecharam sem direção única, com o Dow Jones subindo 0,85% aos 50.018,7 pontos, enquanto o setor de tecnologia e IA pressionou os índices.",
-      "Os futuros de Wall Street caíram em meio a uma venda de ações de tecnologia e a relatórios sobre tarifas dos EUA.",
-      "As ações da Índia fecharam em alta, com o índice Nifty 50 subindo 1,85%."
+      "O Itaú BBA está estruturando a estratégia de investimentos para 2027 com a conclusão de que ativos internacionais devem ocupar mais espaço nas carteiras do que os brasileiros, especialmente em ações.",
+      "O nome de Luiz Carlos Trabuco Cappi, presidente do Conselho de Administração do Bradesco, ganhou força nos bastidores de Brasília para assumir o Ministério da Fazenda no quarto mandato de Lula.",
+      "O dólar recuou para os R$ 5,80, fechando em queda de 1,59% a R$ 5,8168 no mercado à vista, impulsionado pelas expectativas de nomeação de Luiz Carlos Trabuco para o Ministério da Fazenda.",
+      "O resumo original não fornece informações factuais específicas sobre as ações de Consumer Staples ou o pullback liderado por tech, limitando-se apenas ao título da matéria."
     ],
     "cripto": [
-      "A Coreia do Sul propôs a criação de stablecoins lideradas por bancos e um limite de 20% para a participação em exchanges de criptomoedas.",
-      "A BlackRock lançou um fundo de mercado de dinheiro tokenizado que aceita stablecoins em Hong Kong.",
-      "O projeto de lei de criptomoedas da Coreia do Sul pode levar a corrida das stablecoins além da emissão de tokens.",
-      "Compradores de USDT enfrentam um IVA de 22% quando a Bolsa de Moscou abre o comércio de criptomoedas."
+      "O preço do Bitcoin pode cair abaixo de US$ 53 mil se a história dos mercados de baixa se repetir.",
+      "O parlamento da Ucrânia aprovou um projeto de lei para legalizar criptomoedas e taxar lucros em 23%.",
+      "A SBI e a SMFG do Japão lançaram uma joint venture na Solana focada em stablecoins e tokenização.",
+      "O token HYPE caiu 8% enquanto o impulso inicial dá lugar a uma queda de 40% desde o pico."
     ],
     "debentures": [],
     "exterior": [
-      "As bolsas de Nova York fecharam sem direção única nesta terça-feira (24), com o Dow Jones subindo 0,85% aos 50.018,7, enquanto ações de tecnologia e IA penalizaram os índices.",
-      "Os futuros de Wall Street caíram em meio a uma venda de ações de tecnologia e a relatórios sobre tarifas dos EUA.",
-      "As ações da Índia fecharam em alta, com o índice Nifty 50 subindo 1,85%.",
-      "A recuperação econômica da Alemanha perdeu fôlego no terceiro trimestre."
+      "O petróleo fechou em forte alta nesta quarta-feira (25) devido às tensões entre houthis e Arábia Saudita no Mar Vermelho, à paralisação das negociações entre EUA e Irã e aos riscos de alastramento das guerras na Ucrânia e no Oriente Médio.",
+      "A União Europeia adiou a discussão para aprovar a tecnologia de direção autônoma da Tesla."
     ],
     "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O cenário global de renda fixa permanece pressionado pela combinação de déficits fiscais elevados nos EUA e choques inflacionários pontuais na Austrália, que limitam a capacidade dos bancos centrais de cortar juros. Enquanto o Fed enfrenta restrições devido à emissão de dívida e o RBA avalia a persistência da inflação frente ao enfraquecimento do mercado de trabalho, a desaceleração do crescimento econômico na Alemanha adiciona incerteza sobre a sincronia da recuperação global e a eficácia das políticas monetárias atuais.",
-    "acoes": "O mercado brasileiro enfrenta pressão interna com a cautela sobre dividendos da Petrobras, enquanto o cenário externo é marcado pela volatilidade no setor de tecnologia dos EUA e pela expectativa de dados de inflação (PCE) e Livro Bege do Fed. A combinação desses fatores, somada à sinalização de ajuste fiscal no Brasil, mantém o Ibovespa sensível a mudanças no fluxo de capitais e na aversão ao risco global.",
-    "cripto": "A categoria apresenta uma dinâmica de fragmentação regulatória e institucionalização, com a Coreia do Sul propondo um modelo de stablecoins bancárias e limites de propriedade, enquanto a BlackRock avança com produtos tokenizados em Hong Kong e a Rússia impõe barreiras fiscais ao comércio de cripto. Esse cenário contrasta com a rejeição francesa de requisitos de divulgação e a contração de liquidez via resgates de stablecoins, sugerindo que o próximo movimento dependerá da implementação das regras coreanas e da resposta do mercado à política monetária do Federal Reserve.",
-    "debentures": "",
-    "exterior": "O mercado global enfrenta uma dinâmica de aversão ao risco impulsionada pela fragilidade das valuations de tecnologia e IA, que segue pressionando os índices mesmo após eventos corporativos positivos, enquanto a ameaça de novas tarifas americanas aumenta a incerteza macroeconômica. Essa tensão comercial, que pode ser aprofundada pela investigação sobre subsídios industriais, contrasta com o otimismo pontual em mercados como o indiano, mas mantém o foco investidor na definição da política de produção da Opep+ e nos desdobramentos das barreiras tarifárias.",
-    "imobiliario": "O mercado de fundos imobiliários segue atento à dinâmica entre quedas de preço e a manutenção de fluxos de caixa robustos, como observado no caso da NNN REIT, onde o yield elevado atrai capital em busca de renda. O próximo ponto de atenção é a divulgação dos resultados trimestrais e a atualização da orientação de AFFO pela empresa, que podem confirmar a sustentabilidade desse diferencial de retorno."
+    "renda_fixa": "A persistência da inflação americana acima da meta de 2% e o crescimento robusto do PIB reduzem o espaço para cortes de juros, elevando a probabilidade de um novo aumento de 25 pontos-base pelo Fed na reunião de 9 de dezembro de 2026. Esse cenário tende a pressionar ativos sem rendimento, como o ouro, e a desviar fluxos de ativos de risco para títulos do Tesouro americano, impactando o custo de capital global.",
+    "acoes": "O mercado brasileiro está reagindo positivamente à possibilidade de Luiz Carlos Trabuco assumir a Fazenda, o que contribuiu para a queda do dólar e sustenta a valorização do Ibovespa, alinhando-se com a redução da incerteza fiscal promovida pela PEC de limitação de despesas. Enquanto a estratégia do Itaú BBA para 2027 sugere uma rotação para ativos internacionais, o foco doméstico permanece na definição final da equipe econômica e no encerramento da consulta pública sobre as tarifas dos EUA que impactam a Embraer.",
+    "cripto": "A categoria enfrenta pressão vendedora significativa, com o Bitcoin testando níveis de US$ 53 mil a US$ 57 mil devido ao medo de tarifas e dados de inflação (PCE) que reforçam a tese de juros altos, enquanto os ETFs registram saídas recorde de US$ 5 bilhões. Em contrapartida, o cenário regulatório e institucional avança com a legalização de cripto na Ucrânia e o lançamento de uma joint venture japonesa na Solana, sugerindo uma divergência entre a volatilidade de curto prazo e a adoção estrutural de longo prazo.",
+    "debentures": "O mercado de crédito privado e debêntures deve acompanhar a expansão do piloto do Project Ensemble para além da fase inicial e a possível integração de mais instituições financeiras globais à plataforma CMU Digital Asset Platform. Essa evolução é relevante pois o modelo de entrega-contra-pagamento (DvP) on-chain elimina o risco de contraparte no assentamento, aumentando a eficiência do mercado de capitais e atraindo fluxos de capital para ativos digitais regulados.",
+    "exterior": "O cenário global permanece pressionado pela combinação de inflação americana elevada (3,8%) e a expectativa de alta de juros pelo Fed em 9 de dezembro, o que, somado às novas tarifas de até 20% sobre a China e 15% sobre a UE, intensifica a reprecificação de risco em ativos de tecnologia e commodities. A atenção deve se manter na interseção entre a política monetária restritiva e os choques geopolíticos, como as tensões no Oriente Médio que elevam o petróleo, enquanto o mercado aguarda a definição do novo patamar de juros e a expiração da trégua comercial entre EUA e China em 10 de janeiro de 2027.",
+    "imobiliario": "O mercado imobiliário global apresenta dinâmicas divergentes, com os EUA enfrentando uma desalavancagem forçada impulsionada pela queda de preços e altas taxas de cancelamento de vendas, enquanto a Itália busca estimular a atividade econômica doméstica ao flexibilizar os limites do crédito fiscal para reformas residenciais. A atenção deve se concentrar na divulgação dos dados de vendas de casas novas e usadas de novembro e na atualização do índice de confiança dos construtores (NAHB) para dezembro, além da aprovação formal da medida italiana no parlamento e dos dados de inflação (HICP) da zona do euro, que podem influenciar a postura do BCE."
   },
-  "radar": "📊 Radar do Mercado · 25/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Industrial Services (+5,99% na média) · que mais caiu: Non-Energy Minerals (-2,97%)\n• Ações líquidas da B3: média de -0,56% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de -0,22%\n\n📈 Maiores altas — ações (top 20):\n• AZEV3 (AZEVEDO E TRAVASSOS S.A.) +17,24% (R$ 14,01)\n• DASA3 (DIAGNOSTICOS DA AMERICA S.A.) +6,56% (R$ 3,41)\n• COGN3 (COGNA EDUCAÇÃO S.A.) +5,77% (R$ 1,65)\n• HAPV3 (HAPVIDA PARTICIPACOES E INVEST) +5,17% (R$ 6,10)\n• LJQQ3 (LOJAS QUERO-QUERO S/A) +3,88% (R$ 1,07)\n• HBSA3 (HIDROVIAS DO BRASIL S.A.) +3,68% (R$ 3,38)\n• FLRY3 (FLEURY S.A.) +3,59% (R$ 22,51)\n• GRND3 (GRENDENE S.A.) +3,56% (R$ 3,78)\n• ASAI3 (SENDAS DISTRIBUIDORA S.A.) +3,10% (R$ 9,65)\n• SAUD3 (BRADSAUDE S.A.) +2,94% (R$ 16,43)\n• CSAN3 (COSAN S.A.) +2,87% (R$ 3,23)\n• ECOR3 (ECORODOVIAS INFRAESTRUTURA E L) +2,77% (R$ 6,30)\n• EQTL3 (EQUATORIAL S.A.) +2,47% (R$ 33,55)\n• PRIO3 (PRIO S.A.) +2,37% (R$ 59,60)\n• TEND3 (CONSTRUTORA TENDA S.A.) +2,22% (R$ 15,20)\n• RADL3 (RAIA DROGASIL S.A.) +2,04% (R$ 14,99)\n• ORVR3 (ORIZON VALORIZACAO DE RESIDUOS) +1,93% (R$ 18,52)\n• ENEV3 (ENEVA S.A) +1,84% (R$ 26,55)\n• VBBR3 (VIBRA ENERGIA S.A.) +1,76% (R$ 31,22)\n• HYPE3 (HYPERA S.A.) +1,74% (R$ 21,64)\n📉 Maiores baixas — ações (top 20):\n• BRKM5 (BRASKEM S.A.) -14,09% (R$ 2,50)\n• PMAM3 (PARANAPANEMA S.A.) -10,53% (R$ 0,17)\n• MDIA3 (M.DIAS BRANCO S.A. IND COM DE ) -9,34% (R$ 15,05)\n• PCAR3 (CIA BRASILEIRA DE DISTRIBUICAO) -9,17% (R$ 3,27)\n• EVEN3 (EVEN CONSTRUTORA E INCORPORADO) -8,50% (R$ 3,23)\n• POSI3 (POSITIVO TECNOLOGIA S.A.) -7,10% (R$ 3,14)\n• CSNA3 (CIA SIDERURGICA NACIONAL) -6,90% (R$ 3,24)\n• POMO4 (MARCOPOLO S.A.) -6,39% (R$ 3,37)\n• NATU3 (NATURA COSMETICOS S.A.) -6,37% (R$ 4,26)\n• OBTC3 (ORANJEBTC S.A. - EDUCAÇÃO E IN) -5,78% (R$ 5,71)\n• VALE3 (VALE S.A.) -5,51% (R$ 55,19)\n• BRAP4 (BRADESPAR S.A.) -4,48% (R$ 15,76)\n• OPCT3 (OCEANPACT SERVICOS MARITIMOS S) -4,32% (R$ 8,41)\n• UGPA3 (ULTRAPAR PARTICIPACOES S.A.) -4,28% (R$ 30,22)\n• CVCB3 (CVC BRASIL OPERADORA E AGÊNCIA) -4,17% (R$ 0,69)\n• USIM5 (USINAS SID DE MINAS GERAIS S.A) -4,16% (R$ 4,84)\n• SOJA3 (BOA SAFRA SEMENTES S.A.) -4,13% (R$ 4,88)\n• VVEO3 (CM HOSPITALAR S.A.) -4,00% (R$ 0,48)\n• BRAV3 (BRAVA ENERGIA S.A.) -3,95% (R$ 11,92)\n• CEAB3 (CEA MODAS S.A.) -3,90% (R$ 7,15)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• VGHF11 (VALORA HEDGE FUND FUNDO DE INV) +5,14% (R$ 3,89)\n• PNPR11 (PANORAMA PROPERTIES FUNDO DE I) +4,79% (R$ 49,25)\n• RBVA11 (RIO BRAVO RENDA VAREJO FUNDO D) +4,28% (R$ 7,55)\n• TEPP11 (TELLUS PROPERTIES - FUNDO DE I — tijolo: lajes) +3,80% (R$ 6,55)\n• RBRX11 (PATRIA PLUS MULTIESTRATÉGIA RE) +3,26% (R$ 6,34)\n• HFOF11 (HEDGE TOP FOFII 3 FUNDO DE INV — FOF) +2,72% (R$ 5,29)\n• MCCI11 (FUNDO DE INVESTIMENTO IMOBILIÁ) +2,57% (R$ 88,20)\n• CPSH11 (CAPITÂNIA SHOPPINGS FUNDO DE I) +2,16% (R$ 8,99)\n• TRXF11 (TRX REAL ESTATE FUNDO DE INVES — renda urbana) +1,82% (R$ 53,81)\n• MANA11 (MANATÍ CAPITAL HEDGE FUND FUND) +1,74% (R$ 8,20)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNAM11 (FNAM11) -10,26% (R$ 0,70)\n• CHIP11 (INVESTO ETF US LISTED  SEMICON) -7,35% (R$ 30,99)\n• SOLH11 (HASHDEX NASDAQ SOLANA FUNDO DE) -6,03% (R$ 11,37)\n• QETH11 (QR CME CF ETHER REFERENCE RATE) -3,85% (R$ 7,00)\n• BITH11 (HASHDEX NASDAQ BITCOIN REFEREN) -3,30% (R$ 79,44)\n• UTEC11 (TREND ETF BLOOMBERG US 3000 TE) -3,28% (R$ 28,93)\n• COIN11 (BUENA VISTA NEOS BITCOIN HIGH ) -3,01% (R$ 36,10)\n• HASH11 (HASHDEX NASDAQ CME CRYPTO INDE) -3,00% (R$ 45,00)\n• HODL11 (INVESTO ETF MARKETVECTOR BITCO) -2,94% (R$ 59,17)\n• ETHE11 (HASHDEX NASDAQ ETHEREUM REFERE) -2,92% (R$ 28,64)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -0,50%\n• Nasdaq (EUA): -1,48%\n• Dow Jones (EUA): +0,85%\n• Euro Stoxx 50 (Europa): +0,02%\n• Nikkei 225 (Japão): -2,78%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: -1,69% (US$ 58,741)\n• Ethereum: -1,97% (US$ 1,645)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,4%"
+  "radar": "📊 Radar do Mercado · 25/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Retail Trade (+4,68% na média) · que mais caiu: Process Industries (-1,11%)\n• Ações líquidas da B3: média de +2,00% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de +0,49%\n\n📈 Maiores altas — ações (top 20):\n• RAIZ55 (RAIZEN S.A.) +24,88% (R$ 0,18)\n• NATU3 (NATURA COSMETICOS S.A.) +7,98% (R$ 4,60)\n• MOVI3 (MOVIDA PARTICIPACOES SA) +7,42% (R$ 6,08)\n• SIMH3 (SIMPAR S.A.) +6,85% (R$ 5,93)\n• SBFG3 (GRUPO SBF SA) +6,65% (R$ 4,17)\n• PGMN3 (EMPREENDIMENTOS PAGUE MENOS S.) +6,52% (R$ 2,45)\n• CSNA3 (CIA SIDERURGICA NACIONAL) +6,48% (R$ 3,45)\n• BRAV3 (BRAVA ENERGIA S.A.) +6,46% (R$ 12,69)\n• AZZA3 (AZZAS 2154 S.A.) +6,42% (R$ 15,09)\n• IRBR3 (IRB - BRASIL RESSEGUROS S.A.) +6,29% (R$ 62,02)\n• VAMO3 (VAMOS LOCAÇÃO DE CAMINHÕES. MÁ) +6,20% (R$ 2,74)\n• MRVE3 (MRV ENGENHARIA E PARTICIPACOES) +5,99% (R$ 4,60)\n• PMAM3 (PARANAPANEMA S.A.) +5,88% (R$ 0,18)\n• MGLU3 (MAGAZINE LUIZA S.A.) +5,83% (R$ 9,26)\n• POSI3 (POSITIVO TECNOLOGIA S.A.) +5,73% (R$ 3,32)\n• BPAC11 (BCO BTG PACTUAL S.A.) +5,62% (R$ 52,81)\n• ECOR3 (ECORODOVIAS INFRAESTRUTURA E L) +5,24% (R$ 6,63)\n• CSAN3 (COSAN S.A.) +4,95% (R$ 3,39)\n• YDUQ3 (YDUQS PARTICIPACOES S.A.) +4,80% (R$ 10,04)\n• BHIA3 (GRUPO CASAS BAHIA S.A.) +4,76% (R$ 0,66)\n📉 Maiores baixas — ações (top 20):\n• BRKM5 (BRASKEM S.A.) -9,60% (R$ 2,26)\n• AZEV4 (AZEVEDO E TRAVASSOS S.A.) -4,76% (R$ 0,60)\n• SAUD3 (BRADSAUDE S.A.) -4,69% (R$ 15,66)\n• BMGB4 (BANCO BMG S.A.) -3,70% (R$ 4,69)\n• AZEV3 (AZEVEDO E TRAVASSOS S.A.) -3,50% (R$ 13,52)\n• EMBJ3 (EMBRAER S.A.) -3,43% (R$ 103,81)\n• RCSL4 (RECRUSUL S.A.) -3,39% (R$ 0,57)\n• SANB11 (BCO SANTANDER (BRASIL) S.A.) -2,60% (R$ 27,37)\n• HBRE3 (HBR REALTY EMPREENDIMENTOS IMO) -2,48% (R$ 1,18)\n• MBRF3 (MARFRIG GLOBAL FOODS S.A.) -1,58% (R$ 18,01)\n• SEER3 (SER EDUCACIONAL S.A.) -1,40% (R$ 10,60)\n• VIVT3 (TELEFÔNICA BRASIL S.A) -1,39% (R$ 34,81)\n• ABEV3 (AMBEV S.A.) -1,24% (R$ 15,90)\n• CPFE3 (CPFL ENERGIA S.A.) -1,10% (R$ 43,02)\n• WEGE3 (WEG S.A.) -1,08% (R$ 49,66)\n• ALPA4 (ALPARGATAS S.A.) -1,07% (R$ 12,96)\n• MLAS3 (GRUPO MULTI S.A.) -0,91% (R$ 2,18)\n• SUZB3 (SUZANO S.A.) -0,87% (R$ 55,65)\n• PSSA3 (PORTO SEGURO S.A.) -0,69% (R$ 41,64)\n• TAEE11 (TRANSMISSORA ALIANÇA DE ENERGI) -0,58% (R$ 39,52)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNOR11 (FNOR11) +18,18% (R$ 0,65)\n• PNPR11 (FII PAN PROP) +4,79% (R$ 49,25)\n• TRXF11 (FII TRX REAL — renda urbana) +3,77% (R$ 55,84)\n• HIGH11 (NUIBOVHIGHBT) +3,22% (R$ 73,97)\n• XPML11 (FII XP MALLS — tijolo: shoppings) +3,09% (R$ 86,34)\n• BTCI11 (FII BTG CRI — papel) +3,03% (R$ 7,83)\n• SMAL11 (ISHARES SMAL) +2,58% (R$ 100,32)\n• SNEL11 (FII SUNO EL) +2,54% (R$ 7,27)\n• VISC11 (FII VINCI SC — tijolo: shoppings) +2,32% (R$ 97,13)\n• KNIP11 (FII KINEA IP — papel (IPCA)) +2,03% (R$ 86,78)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• CHIP11 (INVESTO CHIP) -3,23% (R$ 29,99)\n• FNAM11 (FNAM11) -2,86% (R$ 0,68)\n• QQQI11 (ETF BV QQQI) -2,47% (R$ 93,66)\n• SNME11 (FII SNME) -2,17% (R$ 8,56)\n• NASD11 (TREND NASDAQ) -2,14% (R$ 21,08)\n• DOLA11 (BB ETF DOLAR) -2,02% (R$ 11,65)\n• SPYI11 (ETF BV SPYI) -1,88% (R$ 113,25)\n• QBTC11 (QR BITCOIN) -1,77% (R$ 21,12)\n• IVVB11 (ISHARE SP500) -1,70% (R$ 471,83)\n• XINA11 (XPETFCHINA) -1,69% (R$ 6,99)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -0,38%\n• Nasdaq (EUA): -0,85%\n• Dow Jones (EUA): +0,35%\n• Euro Stoxx 50 (Europa): -1,82%\n• Nikkei 225 (Japão): +3,91%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: +0,28% (US$ 59,912)\n• Ethereum: +0,36% (US$ 1,684)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,2%"
 }
