@@ -1,177 +1,174 @@
 {
-  "gerado_em": "2026-11-26T11:17:59.056577+00:00",
+  "gerado_em": "2026-11-26T20:18:32.458613+00:00",
   "itens": [
     {
-      "title": "Feriado nos EUA reduz liquidez do mercado em dia de inflação no Brasil; Ibovespa em dólar sobe nesta quinta (26)",
+      "title": "Nenhuma ação em queda no Ibovespa: os dois motivos por trás da festa de hoje",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/feriado-nos-eua-reduz-liquidez-do-mercado-em-dia-de-inflacao-ibovespa-em-dolar-sobe-nesta-quinta-feira-26-rens/",
+      "link": "https://www.moneytimes.com.br/nenhuma-acao-em-queda-no-ibovespa-os-dois-motivos-por-tras-da-festa-de-hoje-bdap/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa avançou 1,58% e o dólar caiu 1,59% nesta quinta-feira, impulsionados por otimismo com a possível entrada de um nome do setor bancário na equipe econômica e pela liquidez reduzida nos EUA devido ao feriado de Ação de Graças.",
-      "mecanismo": "A expectativa de uma equipe econômica com perfil técnico e experiente (possível indicação de Trabuco) reduz a incerteza fiscal e política, o que atrai capital estrangeiro para o mercado local; simultaneamente, a ausência de liquidez nos EUA limita a pressão vendedora sobre o real, enquanto a confirmação de tarifas limitadas a 15% para a UE melhora o apetite global por risco, beneficiando ativos emergentes como o Brasil.",
-      "implicacao": "Com a redução da aversão ao risco e a queda do dólar, o setor de exportadoras e empresas com forte exposição a commodities tendem a se beneficiar, já que a desvalorização cambial aumenta a competitividade dos preços em dólar e melhora a margem de lucro quando repassada, além de atrair fluxo para ações de valor.",
-      "risco": "A tese se invalida se a indicação do nome especulado for negada ou se o IPCA-15 vier acima da mediana de 0,36%, reacendendo o debate sobre a trajetória da Selic, que a mediana do Focus aponta em 13,75% para o fim do ano.",
-      "proximo_evento": "Divulgação do IPCA-15 de novembro às 9h e a definição oficial sobre a composição da equipe econômica do governo federal.",
+      "resumo": "O Ibovespa opera em alta generalizada impulsionado pela surpresa positiva do IPCA-15 de novembro e pelo otimismo com a possível nomeação de um perfil técnico para o Ministério da Fazenda.",
+      "mecanismo": "A desaceleração da inflação mensal (0,22% vs 0,32% em outubro) reforça a tese de que o ciclo de alta de juros pode estar perto do fim, o que alivia a pressão sobre os juros futuros e aumenta a apetite por risco; simultaneamente, a expectativa de uma condução econômica mais previsível sob a gestão de um nome do mercado financeiro reduz o prêmio de risco fiscal, sustentando a valorização das ações.",
+      "implicacao": "Com a perspectiva de estabilização da inflação e redução do risco fiscal, o setor de bancos e empresas de capital intensivo tendem a se beneficiar, já que a queda na curva de juros futuros reduz o custo de capital e a incerteza regulatória favorece a reprecificação positiva dos múltiplos.",
+      "risco": "O IPCA-15 acumulado em 12 meses segue acima do teto da meta (4,64% vs 4,5%), o que pode limitar a magnitude dos cortes futuros da Selic e manter a pressão sobre o câmbio se o ajuste fiscal não for concreto.",
+      "proximo_evento": "Reunião de Lula com a equipe econômica nesta quinta-feira (26) para definir o conteúdo e o cronograma da PEC de ajuste fiscal a ser enviada ao Congresso.",
       "key_numbers": [
-        "Ibovespa: 166.684,61 pontos",
-        "Dólar: R$ 5,8168",
-        "IPCA-15 (mediana): 0,36%",
-        "Selic (fim do ano, Focus): 13,75%"
+        "IPCA-15 (nov): 0,22%",
+        "IPCA-15 (12m): 4,64%",
+        "Selic (fim ano): 13,75%",
+        "IPCA (fim ano): 5,15%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Bolsas da Ásia fecham majoritariamente em alta apesar de novas propostas tarifárias dos EUA",
+      "title": "Bolsas da Europa fecham em alta com ponderações sobre tarifas e expectativas de juros do BCE",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/bolsas-da-asia-fecham-majoritariamente-em-alta-apesar-de-novas-propostas-tarifarias-dos-eua-fets/",
+      "link": "https://www.moneytimes.com.br/bolsas-da-europa-fecham-em-alta-com-ponderacoes-sobre-tarifas-e-expectativas-de-juros-do-bce-lmrs/",
       "categorias": [
         "exterior"
       ],
-      "resumo": "Os mercados asiáticos encerraram a sessão em alta, liderados por índices de tecnologia, ignorando o anúncio de novas tarifas dos EUA que, segundo analistas, representam mais um ajuste jurídico do que um choque econômico inédito.",
-      "mecanismo": "A interpretação de que as novas tarifas não são cumulativas e que a alíquota efetiva será menor que o esperado reduziu o prêmio de risco percebido, permitindo que o capital retornasse a ativos de crescimento (tech) na Ásia, enquanto a recuperação de Wall Street na véspera estabilizou o sentimento global antes do feriado de Ação de Graças.",
-      "implicacao": "Com a redução do medo de um choque tarifário severo, o setor de tecnologia e semicondutores na Ásia tende a manter o viés positivo, já que a incerteza regulatória diminui e o fluxo de capital volta a buscar rentabilidade em ativos de crescimento, enquanto a estabilidade cambial e a recuperação dos índices americanos suportam a apetite por risco global.",
-      "risco": "O raciocínio pode ser invalidado se o período de comentários resultar em alíquotas finais significativamente mais altas que o esperado ou se a recuperação de Wall Street se reverter, reacendendo o medo de uma desaceleração econômica global.",
-      "proximo_evento": "O período de comentários dos setores afetados pelas novas tarifas e a entrada em vigor das taxas, prevista para ocorrer no mínimo em janeiro de 2027.",
+      "resumo": "Os principais índices europeus registraram forte alta nesta quinta-feira, impulsionados pelo alívio das tensões comerciais após a confirmação de que as novas tarifas dos EUA substituirão as antigas, limitando o impacto sobre a UE a 15%, e pela expectativa de um possível aperto monetário do BCE.",
+      "mecanismo": "A redução da incerteza tarifária (limitação a 15% e substituição em vez de acúmulo) diminui o prêmio de risco exigido pelos investidores, revertendo a aversão a risco recente; simultaneamente, a ata do BCE indicando piora na perspectiva de inflação sugere que a política monetária pode se tornar mais restritiva, o que tende a pressionar os juros futuros europeus e fortalecer o euro, impactando positivamente setores sensíveis a volatilidade geopolítica e comercial.",
+      "implicacao": "Com a redução do risco de choque tarifário severo, o setor automotivo europeu tende a se beneficiar da recuperação da demanda e da estabilidade nas margens, já que a exposição às tarifas dos EUA é mitigada pelo teto de 15%, enquanto o setor bancário ganha com a melhora no apetite a risco e a perspectiva de juros mais altos sustentados pelo BCE.",
+      "risco": "A tese de alívio tarifário pode ser invalidada se as negociações de segunda-feira revelarem que as tarifas de 15% serão aplicadas de forma cumulativa a outras barreiras não tarifárias ou se o BCE surpreender com um aperto mais agressivo do que o mercado precifica, pressionando os múltiplos de valuation.",
+      "proximo_evento": "Contato direto do comissário de Comércio da UE, Maros Sefcovic, com os responsáveis pelo comércio dos EUA na segunda-feira para discutir a implementação das novas tarifas.",
       "key_numbers": [
-        "Taiex: 39.151,81",
-        "Nikkei: 57.499,16",
-        "Kospi: 4.711,21",
-        "Taxa BoK: 3,25%"
+        "DAX: 25.231,42",
+        "Tarifa UE: 15%",
+        "Stellantis: 9,05%",
+        "FTSE MIB: 48.362,35"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Tempo real: Ibovespa será testado pelo IPCA-15 em dia de feriado nos EUA; veja os destaques desta quinta-feira (26)",
+      "title": "Ibovespa sobe mais de 4% e dólar recua a R$ 5,71 com otimismo no mercado",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/tempo-real-26-11-2026-davs/",
+      "link": "https://www.moneytimes.com.br/ibovespa-dispara-mais-de-4-e-dolar-recua-a-r-571-o-que-anima-o-mercado-hoje-davs/",
       "categorias": [
-        "renda_fixa",
         "acoes"
       ],
-      "resumo": "O mercado brasileiro opera com liquidez reduzida nesta quinta-feira devido ao feriado de Ação de Graças nos EUA, focando na divulgação do IPCA-15 e em dados de fluxo de capitais, enquanto o apetite por risco melhora globalmente com a perspectiva de tarifas comerciais menos severas.",
-      "mecanismo": "A ausência de Wall Street desloca a atenção para os indicadores regionais, onde o IPCA-15 atua como prévia da inflação oficial; dado que a mediana do Focus para o IPCA anual está em 5,15% e a Selic em 13,75%, a leitura deste dado é crucial para calibrar as expectativas de trajetória da política monetária, impactando diretamente o custo de crédito e a precificação de ativos sensíveis a juros.",
-      "implicacao": "Com a incerteza sobre a inflação ainda elevada (IPCA projetado em 5,15%), ativos atrelados à inflação (IPCA+) tendem a manter atratividade como proteção, enquanto o setor de crédito e empresas alavancadas permanecem sensíveis à manutenção de juros altos (Selic em 13,75%), limitando a expansão de margens até haver clareza sobre a desaceleração inflacionária.",
-      "risco": "O IPCA-15 pode vir acima das expectativas do mercado, reforçando a tese de que a Selic permanecerá elevada por mais tempo do que o projetado, o que pressionaria os múltiplos de ações e aumentaria o custo de capital para empresas.",
-      "proximo_evento": "Divulgação do IPCA-15 de novembro e dos dados de investimento estrangeiro direto e transações correntes de outubro.",
+      "resumo": "O Ibovespa registrou alta superior a 4% e o dólar caiu para R$ 5,71, impulsionado por uma prévia de inflação mais baixa que o esperado e especulações sobre a nomeação de um novo ministro da Fazenda.",
+      "mecanismo": "A desaceleração do IPCA-15 para 0,22% em novembro, abaixo do consenso, reforçou a tese de que a inflação está perdendo força, o que, somado à expectativa de uma condução fiscal mais previsível com a possível chegada de Trabuco ao Ministério da Fazenda, reduziu o prêmio de risco e atraiu capital para ativos de risco locais, pressionando o dólar para baixo.",
+      "implicacao": "Com a melhora nas expectativas de inflação e a redução do risco fiscal, o setor de bancos e empresas de capital intensivo tendem a se beneficiar, já que a queda na curva de juros futuros e a valorização do real melhoram a margem de lucro e reduzem o custo de captação.",
+      "risco": "O IPCA-15 acumulado em 12 meses segue acima do teto da meta (4,64% vs 4,5%), o que pode limitar o espaço para cortes agressivos de juros pelo Copom e invalidar a tese de alívio monetário se a inflação oficial vier mais alta.",
+      "proximo_evento": "Reunião de Lula com a equipe econômica nesta quinta-feira (26) para definir o conteúdo e o calendário da PEC de ajuste fiscal, além da divulgação do IPCA oficial de novembro.",
+      "key_numbers": [
+        "Ibovespa: 174.204,58 pontos",
+        "Dólar: R$ 5,71",
+        "IPCA-15 (nov): 0,22%",
+        "IPCA-15 (12m): 4,64%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Letras Financeiras superam retorno do Tesouro Selic e lideram ranking de renda fixa da B3",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/letras-financeiras-superam-retorno-do-tesouro-selic-e-lideram-ranking-de-renda-fixa-da-b3-mlim/",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "Em outubro, as Letras Financeiras de bancos S1 superaram os títulos públicos pós-fixados no ranking de desempenho da B3, impulsionadas por spreads adicionais sobre o CDI.",
+      "mecanismo": "Com a Selic projetada em 13,75% a.a. pelo Focus, o custo de oportunidade é alto, mas investidores de curto prazo buscam o prêmio de crédito (spread) oferecido por ativos privados de alta liquidez e qualidade (S1/AAA) para superar o retorno básico dos títulos públicos indexados à Selic.",
+      "implicacao": "Com a Selic elevada e a busca por alfa em renda fixa, a classe de ativos de crédito privado de alta qualidade (Letras Financeiras e Debêntures AAA) tende a atrair fluxos em detrimento dos títulos públicos pós-fixados, já que oferece remuneração marginal superior com risco de crédito controlado.",
+      "risco": "Um aumento súbito no risco de crédito ou uma mudança na política monetária que reduza a Selic mais rápido que o esperado pode comprimir os spreads de crédito, eliminando a vantagem de retorno das Letras Financeiras sobre o Tesouro Selic.",
+      "proximo_evento": "Divulgação do novo ranking mensal de índices de renda fixa da B3 referente a novembro e a próxima reunião do Copom para definição da taxa Selic.",
       "key_numbers": [
         "Selic (fim do ano): 13.75%",
-        "IPCA (fim do ano): 5.1505%",
-        "PIB (crescimento no ano): 1.7018%",
-        "Câmbio R$/US$ (fim do ano): 5.55"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Wall Street fecha no vermelho com pressão do setor tech — mas Dow Jones tem recuperação surpreendente",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/wall-street-fecha-no-vermelho-com-pressao-do-setor-tech-mas-dow-jones-tem-recuperacao-surpreendente-davs/",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "A aversão ao risco dominou Wall Street após dados de inflação acima do esperado e anúncio de novas tarifas, mas o Dow Jones conseguiu reverter perdas iniciais e fechar em alta, enquanto os índices de tecnologia recuaram.",
-      "mecanismo": "O PCE norte-americano veio em 3,8% anual, distante da meta de 2%, o que elevou para 97,5% a probabilidade de alta de juros pelo Fed; somado às novas tarifas de até 20% sobre parceiros comerciais, isso restringe as condições financeiras globais e pressiona ativos de crescimento (tech), enquanto o Dow Jones, mais defensivo e industrial, encontrou suporte em grandes empresas de software e bens de consumo.",
-      "implicacao": "Com a perspectiva de juros mais altos por mais tempo nos EUA e incerteza comercial, o setor de tecnologia tende a enfrentar volatilidade e seletividade, enquanto setores defensivos e de valor podem ter desempenho relativo superior, já que o custo de capital elevado penaliza mais empresas com múltiplos altos dependentes de fluxos futuros.",
-      "risco": "A tese de seletividade pode ser invalidada se o Fed sinalizar uma pausa nos aumentos de juros antes do esperado ou se as negociações comerciais resultarem em um acordo mais amplo que reduza a tensão geopolítica.",
-      "proximo_evento": "Expiração da trégua comercial entre EUA e China em 10 de janeiro de 2027 e a próxima reunião do Fed para definição da taxa de juros.",
-      "key_numbers": [
-        "PCE anual: 3,8%",
-        "Probabilidade de alta Fed: 97,5%",
-        "Dow Jones: 50.182,95",
-        "Tarifa adicional: 20%"
-      ],
-      "sentiment": "neutral"
-    },
-    {
-      "title": "Ibovespa fecha em alta e recupera os 166 mil pontos com PEC fiscal e expectativas sobre equipe econômica de Lula",
-      "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-fecha-em-alta-e-recupera-os-166-mil-pontos-com-pec-fiscal-e-expectativas-sobre-equipe-economica-de-lula-davs/",
-      "categorias": [
-        "acoes"
-      ],
-      "resumo": "O Ibovespa recuperou os 166 mil pontos impulsionado por rumores de nomeação técnica para a Fazenda e avanços na PEC fiscal, enquanto o dólar caiu para R$ 5,81.",
-      "mecanismo": "A expectativa de uma equipe econômica mais técnica e a proposta de teto para gastos obrigatórios reduzem o prêmio de risco soberano, o que tende a comprimir os juros futuros e fortalecer o real, apesar do cenário externo restritivo com o Fed precificando altas de juros.",
-      "implicacao": "Com a redução do prêmio de risco e a valorização do real, o setor de varejo tende a se beneficiar por conta da melhora no poder de compra e das expectativas de consumo para a Black Friday, enquanto empresas com forte exposição cambial podem enfrentar pressão sobre suas margens.",
-      "risco": "O ministro do Planejamento esclareceu que não há uma PEC pronta, o que pode gerar frustração no mercado se as medidas concretas não vierem à altura das expectativas de contenção de despesas.",
-      "proximo_evento": "Divulgação do IPCA-15 de novembro, prevista para hoje (26/11), que servirá como teste para a trajetória inflacionária.",
-      "key_numbers": [
-        "Ibovespa: 166.684,61 pontos",
-        "Dólar: R$ 5,8168",
-        "IPCA (fim do ano): 5.1505%",
-        "Selic (fim do ano): 13.75%"
+        "Retorno ILFB (out): 1.08%",
+        "Retorno TSLC (out): 0.99%",
+        "IPCA (fim do ano): 5.1505%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Bitcoin ETF November outflows top $5B, Morgan Stanley bucks trend",
+      "title": "Crypto on notice as hawkish Fed risks December ‘meltdown’",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/markets/morgan-stanley-bitcoin-etf-trend-outflows-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/markets/crypto-hawkish-fed-risks-december-meltdown?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "Os ETFs de Bitcoin à vista nos EUA registraram saídas líquidas de US$ 5,39 bilhões em novembro, superando o recorde anterior, enquanto o fundo da Morgan Stanley foi a exceção ao captar US$ 114,1 milhões.",
-      "mecanismo": "A saída massiva de capital institucional é atribuída ao aumento dos juros e à fraqueza no setor de IA, fatores que elevam o custo de oportunidade e o estresse dos investidores; a recuperação do Bitcoin acima de US$ 60.000 não foi suficiente para reverter o fluxo negativo, indicando que a demanda depende da estabilização dos rendimentos dos Treasuries de longo prazo.",
-      "implicacao": "Com a pressão vendedora institucional e a incerteza sobre os juros de longo prazo, a classe de ativos criptoativos tende a enfrentar volatilidade elevada e pressão de baixa, já que a falta de fluxo positivo nos ETFs remove um dos principais vetores de demanda estrutural do mercado.",
-      "risco": "A tese de pressão vendedora pode ser invalidada se os rendimentos dos Treasuries de longo prazo estabilizarem rapidamente ou se houver um evento macroeconômico que reforce a narrativa de alta do Bitcoin, revertendo o fluxo dos ETFs.",
-      "proximo_evento": "A sessão de negociação completa da segunda-feira (29/11), única data útil restante do mês após o feriado de Ação de Graças, para observar se a tendência de saídas se mantém ou se há reversão pontual.",
+      "resumo": "O economista Robin Brooks alerta para o risco de um colapso nos ativos de risco caso o Federal Reserve mantenha sua postura hawkish e não sinalize flexibilização antes do início do período de silêncio do FOMC em 28 de novembro.",
+      "mecanismo": "A combinação de alta de juros reais (devido ao Fed subir taxas enquanto o petróleo cai) e a força do dólar (DXY em 104,5) está desmontando o carry trade de forma caótica, o que pressiona os mercados acionários e de commodities; se essa pressão não for aliviada por sinais dovish antes do blackout, o estresse pode forçar o Fed a abandonar a alta de 25 bps prevista para dezembro.",
+      "implicacao": "Com a perspectiva de juros reais elevados e dólar forte, a classe de ativos de risco (ações e criptoativos) tende a sofrer pressão vendedora, enquanto o dólar se fortalece contra moedas de mercados emergentes, já que o custo de capital global aumenta e o apetite por risco diminui.",
+      "risco": "O cenário de colapso pode não se materializar se o Fed realizar uma comunicação dovish suficiente antes do blackout ou se os dados macroeconômicos dos EUA mostrarem uma desaceleração mais acentuada que justifique a manutenção das taxas atuais sem novas altas.",
+      "proximo_evento": "Início do período de silêncio (blackout) do FOMC em 28 de novembro, seguido da reunião de política monetária em 8-9 de dezembro.",
       "key_numbers": [
-        "Saídas líquidas ETFs (Nov): US$ 5,39 bilhões",
-        "Entradas líquidas Morgan Stanley: US$ 114,1 milhões",
-        "Preço Bitcoin: acima de US$ 60.000",
-        "Recorde anterior de saídas: US$ 4,51 bilhões"
+        "DXY: 104.5",
+        "Petróleo WTI: $79.25",
+        "S&P 500: 6,882",
+        "Alta esperada Fed: 25 bps"
       ],
       "sentiment": "down"
     },
     {
-      "title": "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions",
+      "title": "Bitcoin price eyes $61K as Talos warns of thin Thanksgiving liquidity",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/senate-democrats-urge-sec-to-scrap-crypto-tokenized-stock-exemptions?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-talos-warns-thin-thanksgiving-liquidity?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "Senadores democratas pressionaram a SEC para revogar isenções regulatórias recentes que permitem a captação de recursos por projetos cripto e a negociação de ações tokenizadas sem registro formal, argumentando que as medidas excedem a autoridade legal da agência e expõem investidores a riscos.",
-      "mecanismo": "A tentativa de revogar as isenções cria uma incerteza regulatória imediata sobre a viabilidade de plataformas de tokenização e ofertas de tokens nos EUA, o que tende a reduzir a liquidez e o apetite por risco em ativos digitais de infraestrutura, já que a remoção do 'fast track' regulatório aumenta o custo de compliance e a barreira de entrada para novos projetos.",
-      "implicacao": "Com a ameaça de endurecimento regulatório e a possível revogação de isenções, o setor de infraestrutura cripto e plataformas de tokenização tende a sofrer pressão de vendas, já que a incerteza jurídica desestimula a alocação de capital em ativos que dependem de um ambiente regulatório favorável para sua operação.",
-      "risco": "A SEC pode ignorar a pressão política e manter as isenções como medida interina, ou o CLARITY Act pode avançar no Congresso, o que legitimaria a tokenização e neutralizaria o impacto negativo da carta dos senadores.",
-      "proximo_evento": "A resposta oficial da SEC à carta dos senadores e o andamento do CLARITY Act no Congresso, que define o marco legal definitivo para a indústria cripto nos EUA.",
+      "resumo": "O Bitcoin recuperou a marca de US$ 60.000 em meio a um rali de alívio nos futuros de ações dos EUA, mas analistas alertam que a liquidez reduzida do feriado de Ação de Graças e a falta de demanda spot sustentada tornam o movimento frágil.",
+      "mecanismo": "A correlação de 0,73 entre Bitcoin e o Nasdaq faz com que o criptoativo acompanhe o rali de alívio das ações, porém a volatilidade de baixa (46% anualizada) é 2,4 vezes maior que a de alta (19%), indicando que o mercado está sendo repricicado para baixo de forma incremental; a ausência de compra spot e a liquidez fina do feriado impedem que o suporte técnico (preço realizado) se consolide, mantendo a pressão vendedora nos livros de ordens.",
+      "implicacao": "Com a liquidez institucional reduzida e a correlação alta com o setor de tecnologia, a classe de ativos criptoativos tende a exibir alta volatilidade e movimentos de curto prazo amplificados, já que a falta de fluxo de compra spot impede a formação de um piso de preço sólido durante o feriado.",
+      "risco": "A tese de fragilidade pode ser invalidada se a reabertura do mercado de ações na sexta-feira trouxer um fluxo de compra institucional massivo que converta a cobertura de shorts em demanda spot líquida, quebrando o padrão de volatilidade assimétrica.",
+      "proximo_evento": "Reabertura do mercado de ações dos EUA na sexta-feira com sessão encurtada, que servirá como teste para a sustentabilidade do rali de alívio e a possível entrada de demanda spot em criptoativos.",
       "key_numbers": [
-        "Limite de captação (startup): $5 milhões",
-        "Limite de captação (fundraising): $75 milhões",
-        "Votos faltantes no CLARITY Act: 60",
-        "Período de objeção à tokenização: 30 dias"
+        "Preço do Bitcoin: US$ 60.000",
+        "Volatilidade de baixa anualizada: 46%",
+        "Correlação BTC-Nasdaq: 0.73",
+        "Razão volatilidade baixa/alta: 2.4x"
       ],
-      "sentiment": "down"
+      "sentiment": "neutral"
+    },
+    {
+      "title": "U.K. stocks higher at close of trade; Investing.com United Kingdom 100 up 1.88%",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/uk-stocks-higher-at-close-of-trade-investingcom-united-kingdom-100-up-188-5052644",
+      "categorias": [
+        "exterior"
+      ],
+      "resumo": "O índice Investing.com United Kingdom 100 registrou alta de 1,88% no fechamento da sessão, refletindo um movimento positivo amplo no mercado acionário britânico.",
+      "mecanismo": "A valorização de quase 2% no índice britânico sugere uma melhora no apetite por risco ou uma rotação de capital para o Reino Unido, o que tende a elevar as avaliações das empresas listadas e atrair fluxo comprador para o mercado local, independentemente do cenário macroeconômico global específico não detalhado na fonte.",
+      "implicacao": "Com o índice britânico em alta, o setor de exportadores e empresas com forte exposição internacional tendem a se beneficiar, já que a valorização do mercado local pode indicar uma percepção de maior estabilidade econômica ou fluxo de capital estrangeiro para o Reino Unido.",
+      "risco": "A alta pode ser reversível se houver uma mudança abrupta no sentimento global de risco ou se os próximos dados macroeconômicos britânicos vierem abaixo das expectativas, invalidando a tese de melhora fundamentalista.",
+      "proximo_evento": "Próxima divulgação de dados de inflação (CPI) ou atividade econômica do Reino Unido, que podem confirmar ou reverter o momentum positivo do mercado.",
+      "key_numbers": [
+        "Investing.com UK 100: 1.88%"
+      ],
+      "sentiment": "up"
     }
   ],
   "outras_noticias_por_categoria": {
     "renda_fixa": [],
     "acoes": [
-      "Ações nos EUA subiram enquanto os traders ignoraram a mais recente salva de tarifas americanas.",
-      "Ações europeias subiram devido às tarifas benignas dos EUA e à pausa do feriado de Ação de Graças.",
-      "As ações da Índia fecharam em alta, com o índice Nifty 50 subindo 0,25%."
+      "O Banco do Brasil (BBAS3) registrou alta de 6% impulsionado por especulações sobre a nomeação de Luiz Trabuco para o Ministério da Fazenda, embora gestoras apontem que os fundamentos do banco continuam ruins.",
+      "O CEO da JBS (JBSS32) projetou a retomada das vendas de carne de frango do Brasil para a União Europeia em dezembro, após esclarecimentos sobre questões relacionadas a antimicrobianos proibidos.",
+      "A ação da Imperial teve seu melhor desempenho desde 1999 devido ao interesse de aquisição por parte da Altria e da Japan Tobacco.",
+      "A Altria, fabricante do Marlboro, está explorando uma oferta em dinheiro pela Imperial e a possibilidade de uma divisão da empresa."
     ],
     "cripto": [
-      "O regulador do Reino Unido planeja regras mais rígidas para DeFi, citando o hack de US$ 6,3 bilhões na Binance.",
-      "A Fundação Ethereum apoia o uso do Keccak-256 para combater ameaças quânticas e de IA.",
-      "O primeiro ETF de Bitcoin à vista da Suíça subiu 0,6% na primeira hora de negociação.",
-      "A Braiins alerta para ataques de mineração de Bitcoin que afetam mais de 1.000 sites."
+      "A Espanha está avançando para conceder ao seu órgão regulador financeiro o poder de congelar contas de criptomoedas.",
+      "A Nvidia concordou em um acordo de US$ 290 milhões referente a divulgações de receita de mineração de criptomoedas.",
+      "A elegibilidade de colateral do BCE poderia impulsionar a demanda por títulos tokenizados.",
+      "Vitalik Buterin chama por chips verificáveis à medida que as ameaças às carteiras de hardware evoluem."
     ],
     "debentures": [],
     "exterior": [
-      "Os preços do petróleo bruto subiram nesta quinta-feira (26) após os houthis do Iêmen afirmarem ter atingido a maior refinaria de petróleo da Arábia Saudita e pelo menos dois navios atingirem minas iranianas.",
-      "Ações europeias subiram devido ao alívio proporcionado por tarifas dos EUA consideradas benignas e ao período de calmaria do feriado de Ação de Graças.",
-      "As ações subiram enquanto os traders ignoraram a mais recente leva de tarifas dos EUA.",
-      "As ações da Índia fecharam em alta, com o índice Nifty 50 subindo 0,25%."
+      "A bolsa da Espanha fechou em alta, com o índice IBEX 35 subindo 2,35%.",
+      "A bolsa de Portugal encerrou o pregão em alta, com o índice PSI avançando 1,33%.",
+      "A bolsa da Holanda fechou em alta, com o índice AEX subindo 1,86%.",
+      "Um artigo do Seeking Alpha discute a relação entre as ações de Trump e os custos assumidos pelo Federal Reserve."
     ],
     "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "A divulgação do IPCA-15 de novembro é o evento central para calibrar as expectativas de inflação, dado que a mediana do Focus para o IPCA anual está em 5,15% e a Selic em 13,75%. A ausência de Wall Street desloca a atenção para os indicadores regionais, tornando a leitura deste dado crucial para definir a trajetória da política monetária e o custo de crédito. Além disso, os dados de investimento estrangeiro direto e transações correntes de outubro também devem ser monitorados.",
-    "acoes": "O mercado brasileiro opera com liquidez reduzida devido ao feriado nos EUA, o que limita a pressão vendedora sobre o real e desloca a atenção para o IPCA-15 de novembro, divulgado hoje, como principal teste para a trajetória inflacionária e para a calibração das expectativas sobre a Selic. Enquanto isso, o cenário externo mostra alívio com a reação positiva dos mercados globais às tarifas limitadas, o que, somado à expectativa de uma equipe econômica técnica no Brasil, tende a reduzir o prêmio de risco soberano e fortalecer o apetite por ativos emergentes.",
-    "cripto": "A categoria enfrenta uma convergência de pressões regulatórias e de segurança, com o Reino Unido endurecendo regras de DeFi após o hack da Binance e a SEC nos EUA sob pressão para revogar isenções de tokenização, o que aumenta a incerteza jurídica global. Enquanto isso, a infraestrutura técnica busca resiliência contra ameaças quânticas e ataques a mineração, contrastando com a entrada de novos produtos institucionais, como o ETF suíço, que tenta captar liquidez mesmo com os fluxos negativos recentes nos EUA.",
+    "renda_fixa": "Com a Selic projetada em 13,75% a.a. pelo Focus, o custo de oportunidade elevado mantém a busca por prêmios de crédito em ativos privados de alta liquidez e qualidade, como as Letras Financeiras que superaram o retorno do Tesouro Selic. O foco permanece na divulgação do novo ranking mensal de índices de renda fixa da B3 referente a novembro e na próxima reunião do Copom para definição da taxa Selic.",
+    "acoes": "O mercado brasileiro segue sensível à definição da equipe econômica, com a reunião de Lula nesta quinta-feira (26) para definir a PEC de ajuste fiscal e a divulgação do IPCA oficial de novembro sendo os próximos catalisadores cruciais. Enquanto o otimismo com a possível chegada de Trabuco à Fazenda sustenta a valorização de ativos como o Banco do Brasil, é fundamental monitorar se a melhora no humor do mercado se sustenta diante dos fundamentos corporativos ainda frágeis em alguns setores.",
+    "cripto": "O cenário regulatório europeu está se intensificando com a Espanha buscando poderes de congelamento de ativos e o BCE potencialmente impulsionando a demanda por títulos tokenizados através da elegibilidade de colateral. Enquanto isso, o mercado enfrenta riscos sistêmicos de liquidez fina e pressão de juros reais, com a reabertura do mercado de ações dos EUA servindo como teste crucial para a sustentabilidade do rali de alívio e a entrada de demanda spot em criptoativos.",
     "debentures": "",
-    "exterior": "O mercado global está equilibrando a pressão inflacionária e a probabilidade de alta de juros pelo Fed, impulsionada pelo PCE de 3,8%, contra o alívio temporário trazido pela interpretação de que as novas tarifas não são cumulativas e pelo feriado de Ação de Graças. Enquanto a Ásia e a Europa mostram resiliência e alta nos índices, o setor de energia enfrenta riscos geopolíticos agudos com ataques a refinarias sauditas e navios, o que pode elevar os preços do petróleo e complicar ainda mais o cenário inflacionário antes da próxima reunião do Fed e da expiração da trégua comercial com a China em janeiro de 2027.",
+    "exterior": "O movimento de alta generalizada nas bolsas europeias, incluindo Espanha, Portugal, Holanda e Reino Unido, reforça a tese de redução do prêmio de risco associada à limitação das tarifas comerciais a 15%, enquanto a ata do BCE sugere uma postura monetária mais restritiva que pode pressionar os juros futuros e fortalecer o euro. Nesse cenário, a atenção deve se voltar para o contato direto entre o comissário de Comércio da UE e os responsáveis pelo comércio dos EUA na segunda-feira, bem como para a próxima divulgação de dados de inflação do Reino Unido, que podem confirmar ou reverter o momentum positivo observado nos mercados.",
     "imobiliario": ""
   },
-  "radar": "📊 Radar do Mercado · 26/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Consumer Durables (+4,93% na média) · que mais caiu: Industrial Services (-2,64%)\n• Ações líquidas da B3: média de +2,12% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de +0,75%\n\n📈 Maiores altas — ações (top 20):\n• RAIZ55 (RAIZEN S.A.) +17,22% (R$ 0,17)\n• NATU3 (NATURA COSMETICOS S.A.) +10,56% (R$ 4,71)\n• HBOR3 (HELBOR EMPREENDIMENTOS S.A.) +8,89% (R$ 0,98)\n• MOVI3 (MOVIDA PARTICIPACOES SA) +8,66% (R$ 6,15)\n• SBFG3 (GRUPO SBF SA) +8,44% (R$ 4,24)\n• AZZA3 (AZZAS 2154 S.A.) +8,11% (R$ 15,33)\n• VAMO3 (VAMOS LOCAÇÃO DE CAMINHÕES. MÁ) +7,75% (R$ 2,78)\n• PCAR3 (CIA BRASILEIRA DE DISTRIBUICAO) +7,65% (R$ 3,52)\n• SIMH3 (SIMPAR S.A.) +7,57% (R$ 5,97)\n• CSNA3 (CIA SIDERURGICA NACIONAL) +6,48% (R$ 3,45)\n• MRVE3 (MRV ENGENHARIA E PARTICIPACOES) +6,45% (R$ 4,62)\n• BRAV3 (BRAVA ENERGIA S.A.) +6,38% (R$ 12,68)\n• MGLU3 (MAGAZINE LUIZA S.A.) +6,17% (R$ 9,29)\n• CEAB3 (CEA MODAS S.A.) +6,01% (R$ 7,58)\n• CYRE3 (CYRELA BRAZIL REALTY S.A.EMPRE) +5,98% (R$ 19,66)\n• BPAC11 (BCO BTG PACTUAL S.A.) +5,90% (R$ 52,95)\n• CSAN3 (COSAN S.A.) +5,88% (R$ 3,42)\n• PMAM3 (PARANAPANEMA S.A.) +5,88% (R$ 0,18)\n• ECOR3 (ECORODOVIAS INFRAESTRUTURA E L) +5,87% (R$ 6,67)\n• CVCB3 (CVC BRASIL OPERADORA E AGÊNCIA) +5,80% (R$ 0,73)\n📉 Maiores baixas — ações (top 20):\n• BRKM5 (BRASKEM S.A.) -10,40% (R$ 2,24)\n• AZEV3 (AZEVEDO E TRAVASSOS S.A.) -6,50% (R$ 13,10)\n• AZEV4 (AZEVEDO E TRAVASSOS S.A.) -6,35% (R$ 0,59)\n• SAUD3 (BRADSAUDE S.A.) -5,48% (R$ 15,53)\n• RCSL4 (RECRUSUL S.A.) -5,08% (R$ 0,56)\n• EMBJ3 (EMBRAER S.A.) -4,00% (R$ 103,20)\n• BMGB4 (BANCO BMG S.A.) -3,08% (R$ 4,72)\n• SANB11 (BCO SANTANDER (BRASIL) S.A.) -2,60% (R$ 27,37)\n• MLAS3 (GRUPO MULTI S.A.) -1,82% (R$ 2,16)\n• ABEV3 (AMBEV S.A.) -1,80% (R$ 15,81)\n• MBRF3 (MARFRIG GLOBAL FOODS S.A.) -1,58% (R$ 18,01)\n• VIVT3 (TELEFÔNICA BRASIL S.A) -1,42% (R$ 34,80)\n• SEER3 (SER EDUCACIONAL S.A.) -1,40% (R$ 10,60)\n• CSED3 (CRUZEIRO DO SUL EDUCACIONAL S.) -1,40% (R$ 3,52)\n• CPFE3 (CPFL ENERGIA S.A.) -1,40% (R$ 42,89)\n• SUZB3 (SUZANO S.A.) -1,32% (R$ 55,40)\n• ALPA4 (ALPARGATAS S.A.) -1,22% (R$ 12,94)\n• WEGE3 (WEG S.A.) -1,10% (R$ 49,65)\n• OBTC3 (ORANJEBTC S.A. - EDUCAÇÃO E IN) -1,05% (R$ 5,65)\n• HBRE3 (HBR REALTY EMPREENDIMENTOS IMO) -0,83% (R$ 1,20)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNOR11 (FNOR11) +18,18% (R$ 0,65)\n• PNPR11 (FII PAN PROP) +4,79% (R$ 49,25)\n• TRXF11 (FII TRX REAL — renda urbana) +4,24% (R$ 56,09)\n• XPML11 (FII XP MALLS — tijolo: shoppings) +3,84% (R$ 86,97)\n• HFOF11 (FII HTOPFOF3 — FOF) +3,78% (R$ 5,49)\n• RURA11 (FIAGRO RURA — Fiagro (CRA)) +3,77% (R$ 7,43)\n• HIGH11 (NUIBOVHIGHBT) +3,53% (R$ 74,19)\n• RBVA11 (FII RIOB VA) +3,18% (R$ 7,79)\n• BTCI11 (FII BTG CRI — papel) +3,16% (R$ 7,84)\n• KNIP11 (FII KINEA IP — papel (IPCA)) +2,96% (R$ 87,57)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNAM11 (FNAM11) -4,29% (R$ 0,67)\n• SNME11 (FII SNME) -2,86% (R$ 8,50)\n• CHIP11 (INVESTO CHIP) -2,68% (R$ 30,16)\n• QQQI11 (ETF BV QQQI) -2,27% (R$ 93,85)\n• NASD11 (TREND NASDAQ) -2,18% (R$ 21,07)\n• TECK11 (IT NOW TECK) -2,15% (R$ 121,37)\n• DOLA11 (BB ETF DOLAR) -1,85% (R$ 11,67)\n• SPYI11 (ETF BV SPYI) -1,78% (R$ 113,36)\n• XINA11 (XPETFCHINA) -1,69% (R$ 6,99)\n• IVVB11 (ISHARE SP500) -1,65% (R$ 472,10)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -0,25%\n• Nasdaq (EUA): -0,62%\n• Dow Jones (EUA): +0,33%\n• Euro Stoxx 50 (Europa): +1,90%\n• Nikkei 225 (Japão): +0,86%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: +0,06% (US$ 60,413)\n• Ethereum: +0,04% (US$ 1,691)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,2%"
+  "radar": "📊 Radar do Mercado · 26/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Industrial Services (+9,64% na média) · que mais caiu: Communications (+2,29%)\n• Ações líquidas da B3: média de +4,50% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de +0,86%\n\n📈 Maiores altas — ações (top 20):\n• AZEV3 (AZEVEDO E TRAVASSOS S.A.) +20,46% (R$ 15,78)\n• AZTE3 (AZEVEDO &amp; TRAVASSOS ENERGIA S.) +13,33% (R$ 0,68)\n• LJQQ3 (LOJAS QUERO-QUERO S/A) +10,81% (R$ 1,23)\n• RENT3 (LOCALIZA RENT A CAR S.A.) +10,61% (R$ 32,43)\n• SIMH3 (SIMPAR S.A.) +10,22% (R$ 6,58)\n• MRVE3 (MRV ENGENHARIA E PARTICIPACOES) +10,17% (R$ 5,09)\n• AZEV4 (AZEVEDO E TRAVASSOS S.A.) +10,17% (R$ 0,65)\n• ARML3 (ARMAC LOCAÇÃO. LOGÍSTICA E SER) +10,17% (R$ 4,55)\n• PLPL3 (PLANO &amp; PLANO DESENVOLVIMENTO ) +8,71% (R$ 4,62)\n• SBFG3 (GRUPO SBF SA) +8,49% (R$ 4,60)\n• CSAN3 (COSAN S.A.) +8,48% (R$ 3,71)\n• CEAB3 (CEA MODAS S.A.) +8,44% (R$ 8,22)\n• CAML3 (CAMIL ALIMENTOS S.A.) +8,21% (R$ 5,14)\n• TOTS3 (TOTVS S.A.) +8,14% (R$ 34,40)\n• RAIZ55 (RAIZEN S.A.) +7,98% (R$ 0,18)\n• SEER3 (SER EDUCACIONAL S.A.) +7,92% (R$ 11,44)\n• COGN3 (COGNA EDUCAÇÃO S.A.) +7,88% (R$ 1,78)\n• BMGB4 (BANCO BMG S.A.) +7,84% (R$ 5,09)\n• YDUQ3 (YDUQS PARTICIPACOES S.A.) +7,77% (R$ 10,82)\n• ECOR3 (ECORODOVIAS INFRAESTRUTURA E L) +7,65% (R$ 7,18)\n📉 Maiores baixas — ações (top 20):\n• LIGT3 (LIGHT S.A.) -12,19% (R$ 2,81)\n• BRKM5 (BRASKEM S.A.) -5,36% (R$ 2,12)\n• RCSL4 (RECRUSUL S.A.) -1,79% (R$ 0,55)\n• CBAV3 (COMPANHIA BRASILEIRA DE ALUMÍN) -0,09% (R$ 11,32)\n• AMBP3 (AMBIPAR PARTICIPACOES E EMPREE) +0,00% (R$ 0,11)\n• FIQE3 (UNIFIQUE TELECOMUNICAÇÕES S.A.) +0,00% (R$ 6,88)\n• ONCO3 (ONCOCLINICAS DO BRASIL SERVICO) +0,00% (R$ 0,64)\n• MNCO5L (MNCO5L) +0,00% (R$ 0,01)\n• CLFC6L (CLFC6L) +0,00% (R$ 0,35)\n• RIBE6L (RIBE6L) +0,00% (R$ 0,01)\n• SUZB3 (SUZANO S.A.) +0,11% (R$ 55,46)\n• MGLU3 (MAGAZINE LUIZA S.A.) +0,43% (R$ 9,33)\n• GRND3 (GRENDENE S.A.) +0,52% (R$ 3,87)\n• BEEF3 (MINERVA S.A.) +0,53% (R$ 3,82)\n• PRIO3 (PRIO S.A.) +0,93% (R$ 61,06)\n• CSED3 (CRUZEIRO DO SUL EDUCACIONAL S.) +1,14% (R$ 3,56)\n• MBRF3 (MARFRIG GLOBAL FOODS S.A.) +1,50% (R$ 18,28)\n• SANB11 (BCO SANTANDER (BRASIL) S.A.) +1,68% (R$ 27,83)\n• MYPK3 (IOCHPE MAXION S.A.) +1,69% (R$ 10,23)\n• AMER3 (AMERICANAS S.A) +1,75% (R$ 4,07)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• HIGH11 (NU IBOV SMART HIGH BETA B3 CLA) +5,90% (R$ 78,57)\n• SMAL11 (ISHARES BM&amp;FBOVESPA SMALL CAP ) +4,87% (R$ 105,45)\n• AUVP11 (BTG PACTUAL TEVA AUVP AÇÕES FU) +4,81% (R$ 123,68)\n• PNPR11 (PANORAMA PROPERTIES FUNDO DE I) +4,79% (R$ 49,25)\n• BTCI11 (BTG PACTUAL CRÉDITO IMOBILIÁRI — papel) +4,72% (R$ 8,21)\n• VGIA11 (VALORA CRA FUNDO DE I. NAS C.  — Fiagro (CRA)) +4,58% (R$ 8,00)\n• UTLL11 (INVESTO B3 UTILIDADE PÚBLICA F) +4,36% (R$ 124,45)\n• DIVO11 (IT NOW IDIV FUNDO DE ÍNDICE RE) +4,28% (R$ 124,88)\n• BOVA11 (ISHARES IBOVESPA CLASSE DE ÍND) +4,27% (R$ 171,02)\n• MCRE11 (MAUÁ CAPITAL REAL ESTATE FUNDO) +4,17% (R$ 6,75)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNOR11 (FNOR11) -7,69% (R$ 0,60)\n• TRXF11 (TRX REAL ESTATE FUNDO DE INVES — renda urbana) -2,82% (R$ 54,51)\n• SNME11 (SUNO MULTIESTRATÉGIA FUNDO DE ) -2,59% (R$ 8,28)\n• XPML11 (XP MALLS FUNDO DE INVESTIMENTO — tijolo: shoppings) -2,21% (R$ 85,05)\n• BITH11 (HASHDEX NASDAQ BITCOIN REFEREN) -1,72% (R$ 78,13)\n• FNAM11 (FNAM11) -1,49% (R$ 0,66)\n• ARRI11 (OPEN K ATIVOS E RECEBIVEIS IMO — papel) -1,36% (R$ 2,90)\n• DOLA11 (BB ETF ÍNDICE FUTURO DE DOLAR ) -1,29% (R$ 11,52)\n• SPXU11 (SPXU11) -1,06% (R$ 17,81)\n• RURA11 (ITAÚ ASSET RURAL FIAGRO RESPON — Fiagro (CRA)) -0,94% (R$ 7,36)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -0,25%\n• Nasdaq (EUA): -0,62%\n• Dow Jones (EUA): +0,33%\n• Euro Stoxx 50 (Europa): +2,04%\n• Nikkei 225 (Japão): -2,78%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: +0,43% (US$ 60,637)\n• Ethereum: +0,66% (US$ 1,702)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,1%"
 }
