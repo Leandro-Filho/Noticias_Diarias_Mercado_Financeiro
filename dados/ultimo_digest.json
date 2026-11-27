@@ -1,175 +1,220 @@
 {
-  "gerado_em": "2026-11-27T11:17:40.235005+00:00",
+  "gerado_em": "2026-11-27T20:08:35.717085+00:00",
   "itens": [
     {
-      "title": "Lula saca Trabuco na Fazenda e anima mercado local; Ibovespa em dólar dispara 11% nesta sexta (27)",
+      "title": "Bolsas da Europa fecham em alta com setor tech e expectativas sobre futuro do BCE",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/lula-saca-trabuco-na-fazenda-e-anima-mercado-local-em-dia-curto-no-exterior-ibovespa-em-dolar-dispara-11-nesta-sexta-27-rens/",
+      "link": "https://www.moneytimes.com.br/bolsas-da-europa-fecham-em-alta-com-setor-tech-e-expectativas-sobre-futuro-do-bce-davs/",
       "categorias": [
-        "acoes"
+        "acoes",
+        "exterior"
       ],
-      "resumo": "A confirmação de Luiz Carlos Trabuco Cappi para o Ministério da Fazenda no quarto mandato de Lula gerou forte otimismo no mercado, impulsionando o Ibovespa e o ETF brasileiro EWZ em alta expressiva nesta sexta-feira.",
-      "mecanismo": "A nomeação de uma figura com forte credibilidade técnica e histórico de gestão no setor financeiro sinaliza ao mercado a intenção de implementar um ajuste fiscal rigoroso e sustentável, o que reduz a percepção de risco soberano e de incerteza política, favorecendo a entrada de capital estrangeiro e a valorização dos ativos locais.",
-      "implicacao": "Com a redução do prêmio de risco e a expectativa de disciplina fiscal, o setor financeiro e as ações de empresas com forte exposição ao crédito tendem a se beneficiar, já que a estabilidade macroeconômica e a confiança no governo melhoram as condições para o crescimento do crédito e a valorização das carteiras bancárias.",
-      "risco": "O otimismo pode ser revertido se os dados fiscais de outubro mostrarem um déficit primário maior que o esperado ou se a implementação do ajuste fiscal enfrentar resistências políticas no Congresso, invalidando a tese de credibilidade técnica.",
-      "proximo_evento": "Divulgação dos dados da Pnad Contínua (taxa de desemprego de outubro) e do resultado primário do governo central de outubro, ambos previstos para hoje.",
+      "resumo": "Os principais índices europeus encerraram o pregão em alta, impulsionados pela recuperação do apetite por ações de tecnologia e pela expectativa de uma política monetária menos restritiva do BCE.",
+      "mecanismo": "A redução das preocupações imediatas com a sustentabilidade dos gastos em IA e a especulação de que o próximo presidente do BCE adotará uma postura mais dovish (menos restritiva) reduzem o prêmio de risco e o custo de capital, o que favorece a reprecificação de ativos de crescimento e tecnologia, enquanto a incerteza política na França e Espanha adiciona volatilidade setorial específica.",
+      "implicacao": "Com a perspectiva de juros europeus mais baixos no futuro, o setor de tecnologia e semicondutores tende a se beneficiar, já que a redução no custo de financiamento melhora a avaliação de empresas com fluxos de caixa futuros e intensivas em capital, enquanto o setor bancário pode sofrer pressão se a queda de juros comprimir margens, embora a incerteza eleitoral possa gerar movimentos táticos pontuais.",
+      "risco": "A entrada da França em recessão técnica e a instabilidade política nas eleições espanholas podem reavivar o aversão ao risco, invalidando a tese de continuidade do apetite por ativos de crescimento e pressionando os índices de volta para níveis de cautela.",
+      "proximo_evento": "Eleições antecipadas na Espanha no domingo e a definição oficial do sucessor de Christine Lagarde na presidência do BCE.",
       "key_numbers": [
-        "Ibovespa: 176.799,84 pontos",
-        "EWZ: +11,54%",
-        "Dólar: R$ 5,8168",
-        "Desemprego (projeção): 5,1%"
+        "STOXX Europe 600: +1,06%",
+        "FTSE 100: 10.698,81 pontos",
+        "DAX: 25.431,29 pontos",
+        "CAC 40: 8.156,09 pontos"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Ibovespa dispara e recupera os 176 mil pontos com encontro entre Lula e Trabuco",
+      "title": "Ibovespa reduz fôlego após euforia com Trabuco no comando da Fazenda; entenda",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/ibovespa-dispara-e-recupera-os-176-mil-pontos-com-encontro-entre-lula-e-trabuco-davs/",
+      "link": "https://www.moneytimes.com.br/ibovespa-reduz-folego-apos-euforia-com-trabuco-no-comando-da-fazenda-davs/",
       "categorias": [
         "acoes"
       ],
-      "resumo": "O Ibovespa registrou alta de 6,07% impulsionado por uma prévia de inflação mais baixa que o esperado e pela expectativa de nomeação de um perfil técnico para a Fazenda, enquanto o dólar caiu 1,59%.",
-      "mecanismo": "A desaceleração do IPCA-15 (0,22% vs 0,32% em outubro) e a perspectiva de maior previsibilidade na política econômica com a possível chegada de Trabuco à Fazenda reduzem a prêmio de risco e as expectativas de juros futuros, o que, somado ao feriado nos EUA que limita a liquidez externa, favorece a rotação para ativos de risco domésticos e a valorização do real.",
-      "implicacao": "Com a perspectiva de juros futuros mais baixos e maior previsibilidade fiscal, o setor de varejo e empresas de capital intensivo tendem a se beneficiar, já que a redução do custo de alavancagem e a melhora no cenário macroestimulam a demanda e reduzem o custo de capital.",
-      "risco": "A tese pode ser invalidada se a PEC de ajuste fiscal for rejeitada ou considerada insuficiente pelo mercado, ou se a nomeação do novo ministro não gerar a mudança de postura esperada na condução da política econômica.",
-      "proximo_evento": "A confirmação oficial da nomeação do novo Ministro da Fazenda e o envio da PEC de ajuste fiscal ao Congresso Nacional.",
+      "resumo": "O Ibovespa perdeu força após a euforia inicial com a nomeação de Trabuco para a Fazenda, recuando de sua máxima intradiária, enquanto o dólar caiu fortemente para a casa dos R$ 5,55.",
+      "mecanismo": "A perda de fôlego na bolsa ocorre porque as falas do presidente Lula sobre a manutenção de gastos sociais e a pressão sobre as exportadoras (Vale e Petrobras) ofuscaram o otimismo fiscal inicial; simultaneamente, a queda acentuada do dólar (3,38%) reflete a entrada de fluxo estrangeiro atraído pela perspectiva de estabilidade macroeconômica com a nova liderança na Fazenda, apesar da cautela com o déficit primário.",
+      "implicacao": "Com a perspectiva de um governo mais alinhado às regras fiscais e a queda do dólar, o setor de exportadoras de commodities tende a enfrentar pressão de curto prazo devido à desvalorização do real, enquanto o setor de consumo doméstico e empresas com dívida em dólar podem se beneficiar da redução do custo de importação e da melhora no sentimento de risco.",
+      "risco": "A tese de estabilização fiscal pode ser invalidada se o novo ministro da Fazenda não conseguir apresentar um plano concreto de ajuste primário que satisfaça o mercado, mantendo a pressão sobre a curva de juros e o câmbio.",
+      "proximo_evento": "Primeira reunião do novo Ministério da Fazenda com o mercado e a divulgação dos dados de inflação (IPCA) de novembro, que testarão a credibilidade da nova equipe econômica.",
       "key_numbers": [
-        "Ibovespa: 176.799,84 pontos",
-        "Dólar: R$ 5,8168",
-        "IPCA-15 (nov): 0,22%",
-        "Selic (fim do ano): 13.75%"
+        "Ibovespa: 176.930,62 pontos",
+        "Dólar: R$ 5,5495",
+        "Minério de ferro: US$ 98,99",
+        "Queda do dólar: 3,38%"
       ],
-      "sentiment": "up"
+      "sentiment": "neutral"
     },
     {
-      "title": "Dólar recua para os R$ 5,7435 com IPCA-15 e expectativas sobre equipe econômica de Lula",
+      "title": "Rali no Tesouro Direto tira plataforma do ar após confirmação de Trabuco na Fazenda; juros caem para 13% ao ano",
       "source": "Mercados – Últimas notícias",
-      "link": "https://www.moneytimes.com.br/dolar-recua-para-os-r-57435-com-ipca-15-e-expectativas-sobre-equipe-economica-de-lula-davs/",
+      "link": "https://www.moneytimes.com.br/rali-no-tesouro-direto-tira-plataforma-do-ar-apos-confirmacao-de-trabuco-na-fazenda-juros-caem-para-13-ao-ano-mlim/",
       "categorias": [
         "renda_fixa"
       ],
-      "resumo": "O dólar caiu para R$ 5,7435 impulsionado pela desaceleração da inflação na prévia do IPCA-15 e por otimismo com a possível nomeação de um nome técnico para a Fazenda, somado a avanços em propostas de contenção de gastos.",
-      "mecanismo": "A surpresa positiva do IPCA-15 (0,22% vs 0,27%-0,41% esperado) e a perspectiva de uma equipe econômica mais fiscalmente responsável reduziram o prêmio de risco soberano, o que, combinado com a fraqueza global do dólar (DXY em queda), pressionou o câmbio para baixo e aliviou as expectativas de juros futuros, apesar da Selic projetada em 13,75% no Focus.",
-      "implicacao": "Com a redução do prêmio de risco e a sinalização de disciplina fiscal, ativos de risco brasileiros, como ações de setores sensíveis a juros e crédito, tendem a se valorizar, já que a queda do câmbio e a estabilidade das expectativas inflacionárias melhoram o ambiente para o fluxo de capital estrangeiro.",
-      "risco": "O raciocínio pode ser invalidado se a PEC de contenção de despesas for rejeitada ou se a nomeação para a Fazenda não ocorrer, o que poderia reavivar o prêmio de risco e pressionar o dólar para cima, contrariando a tendência atual de queda.",
-      "proximo_evento": "Divulgação do IPCA oficial de novembro e confirmação oficial da composição da equipe econômica do governo, incluindo a eventual nomeação do Ministério da Fazenda.",
+      "resumo": "A confirmação de Luiz Carlos Trabuco como próximo ministro da Fazenda provocou uma forte queda nas taxas de juros futuros e uma valorização imediata dos títulos públicos no Tesouro Direto, levando a plataforma a suspender as negociações por volatilidade.",
+      "mecanismo": "O mercado interpretou a escolha de um banqueiro experiente com autonomia para montar sua equipe como um sinal de compromisso com a credibilidade fiscal e a estabilidade macroeconômica, o que reduziu o prêmio de risco exigido pelos investidores e fez as taxas dos títulos prefixados e IPCA+ caírem significativamente, apesar da mediana do Focus para a Selic em 2026 permanecer elevada em 13,75%.",
+      "implicacao": "Com a queda das taxas de juros e a redução da incerteza política, a classe de ativos de renda fixa de longo prazo tende a se valorizar, enquanto o setor de crédito e empresas alavancadas podem se beneficiar da perspectiva de um custo de capital mais estável e previsível no médio prazo.",
+      "risco": "A tese de valorização pode ser invalidada se o mercado perceber que Trabuco terá limitações políticas severas para implementar o ajuste fiscal necessário, o que poderia reverter a queda das taxas e aumentar a volatilidade novamente.",
+      "proximo_evento": "A divulgação da composição da equipe econômica de Trabuco e as primeiras sinalizações sobre o plano de ajuste fiscal para 2027.",
       "key_numbers": [
-        "Dólar: R$ 5,7435",
-        "IPCA-15 (nov): 0,22%",
-        "Selic (Focus): 13,75%",
-        "DXY: 103,7710"
+        "Prefixado 2029: 13,73% a.a.",
+        "Prefixado 2029 (queda): 74 p.b.",
+        "IPCA+ 2032: IPCA + 7,22%",
+        "Selic (Focus 2026): 13,75%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Ethereum devs set Glamsterdam’s Hoodi rollout for mid-December after delays",
+      "title": "Ibovespa salta mais de 3% e recupera os 182 mil pontos; 5 coisas para saber antes de investir hoje (27)",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/ibovespa-salta-mais-de-3-e-recupera-os-183-mil-pontos-5-coisas-para-saber-antes-de-investir-hoje-27-davs/",
+      "categorias": [
+        "acoes"
+      ],
+      "resumo": "O Ibovespa avançou mais de 3% e o dólar caiu abaixo de R$ 5,50 após a confirmação de Luiz Carlos Trabuco como novo ministro da Fazenda, sinalizando maior previsibilidade fiscal. O otimismo foi reforçado pela queda do desemprego para 5,1%, mas contrabalançado por um IGP-M acima do esperado.",
+      "mecanismo": "A nomeação de um perfil técnico e associado à responsabilidade fiscal no Ministério da Fazenda reduz a prêmio de risco soberano e a incerteza sobre a trajetória das contas públicas, o que atrai fluxo estrangeiro para ativos locais e pressiona o câmbio para baixo, enquanto a inflação de serviços e bens (IGP-M de 1,24%) mantém a Selic elevada (mediana Focus de 13,75%), limitando o espaço para cortes agressivos de juros no curto prazo.",
+      "implicacao": "Com a redução do prêmio de risco e a queda do dólar, o setor de exportadoras e empresas com dívida em moeda estrangeira tende a se beneficiar, já que a desvalorização do real melhora a competitividade externa e reduz o custo de refinanciamento da dívida cambial, enquanto a alta do IGP-M pressiona setores sensíveis a insumos e margens.",
+      "risco": "O IGP-M de 1,24% em novembro, acima do esperado, indica que a inflação pode permanecer elevada, o que pode forçar o Banco Central a manter a Selic em patamares altos por mais tempo, limitando o ganho de valuation das ações e pressionando o consumo de massa.",
+      "proximo_evento": "Reunião do Copom para definição da taxa Selic e divulgação do IPCA de novembro, que confirmará se a inflação segue acelerada conforme o IGP-M.",
+      "key_numbers": [
+        "Ibovespa: 182.729,75 pontos",
+        "Dólar: R$ 5,5203",
+        "IGP-M (novembro): 1,24%",
+        "Desemprego: 5,1%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Taxas dos DIs desabam após confirmação de Trabuco no Ministério da Fazenda",
+      "source": "Mercados – Últimas notícias",
+      "link": "https://www.moneytimes.com.br/taxas-dos-dis-desabam-apos-confirmacao-de-trabuco-no-ministerio-da-fazenda/",
+      "categorias": [
+        "renda_fixa"
+      ],
+      "resumo": "A nomeação de Luiz Carlos Trabuco para o Ministério da Fazenda provocou uma queda acentuada nas taxas dos DIs, refletindo a expectativa do mercado sobre a recuperação da credibilidade fiscal do governo.",
+      "mecanismo": "A percepção de que um gestor com histórico no setor privado e alta credibilidade no mercado financeiro assumirá a pasta reduz o prêmio de risco fiscal embutido na curva de juros, fazendo com que as taxas nominais caiam para se alinhar a uma trajetória mais sustentável de endividamento, mesmo com a Selic projetada em 13,75% no Focus.",
+      "implicacao": "Com a queda das taxas nominais e a redução do prêmio de risco, a classe de ativos de renda fixa prefixada tende a se valorizar, enquanto o setor de infraestrutura e construção civil pode se beneficiar da redução do custo do capital de longo prazo.",
+      "risco": "O principal risco é a falta de autonomia política do novo ministro para implementar os ajustes necessários, o que poderia levar a uma reversão da confiança e a um novo aumento dos prêmios de risco na curva de juros.",
+      "proximo_evento": "A apresentação do plano de ajuste fiscal e as primeiras medidas concretas de contenção de gastos por parte do novo ministro da Fazenda.",
+      "key_numbers": [
+        "DI Jan/2028: 13,68%",
+        "DI Jan/2035: 13,92%",
+        "Treasury 10 anos: 4,904%",
+        "Selic (Focus): 13,75%"
+      ],
+      "sentiment": "up"
+    },
+    {
+      "title": "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/ethereum-devs-set-glamsterdams-hoodi-rollout-for-mid-december-after-delays?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/markets/bitcoin-price-below-59k-anthropic-tech-stock-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "Os desenvolvedores do Ethereum confirmaram a ativação da atualização Glamsterdam na testnet Hoodi para 15 de dezembro, após um atraso de dois meses causado por preocupações com a quebra de contratos inteligentes devido às novas regras de precificação de gás.",
-      "mecanismo": "A decisão de manter as propostas EIP-8037 e EIP-8038 sem alterações, apesar dos riscos de compatibilidade, visa evitar um adiamento ainda maior para 2027, permitindo que os projetos com problemas de severidade alta apliquem correções até meados de dezembro e liberando o caminho para o lançamento na mainnet, estimado para meados de janeiro.",
-      "implicacao": "Com a confirmação do cronograma e a resolução iminente dos bugs de compatibilidade, o setor de infraestrutura de criptoativos e tokens nativos da Ethereum tende a ganhar tração, já que a remoção da incerteza regulatória e técnica sobre o upgrade reduz o prêmio de risco e antecipa a adoção das novas funcionalidades de escalonamento.",
-      "risco": "O risco principal é que os projetos com problemas de severidade média, que têm prazos de correção estendidos até 10 de janeiro, não consigam implementar as mudanças a tempo, o que poderia forçar um novo adiamento do lançamento na mainnet e gerar volatilidade negativa no ativo.",
-      "proximo_evento": "Ativação da atualização Glamsterdam na testnet Hoodi em 15 de dezembro de 2026.",
+      "resumo": "O Bitcoin recuou para abaixo de US$ 59 mil após uma sessão de alta inicial, enquanto o mercado acionário de tecnologia e metais preciosos operaram em alta no feriado de Ação de Graças nos EUA.",
+      "mecanismo": "A divergência de ativos ocorreu porque os investidores priorizaram a exposição a ações de tecnologia (como a Anthropic) e metais preciosos em detrimento do Bitcoin, que sofreu liquidações de US$ 228 milhões em posições alavancadas devido à pressão vendedora persistente e sinais de exaustão do lado vendedor.",
+      "implicacao": "Com o capital migrando para ações de tecnologia e ouro em busca de valorização e proteção, a classe de ativos criptoativos tende a enfrentar pressão de liquidez e volatilidade, já que a rotação de portfólio reduz a demanda marginal por Bitcoin em momentos de incerteza macroeconômica.",
+      "risco": "O cenário de capitulação vendedora no Bitcoin pode ser invalidado se o Fed sinalizar cortes de juros mais agressivos do que o esperado, o que aumentaria a liquidez global e atrairia capital de volta para ativos de risco como criptomoedas.",
+      "proximo_evento": "A próxima reunião do Federal Reserve (Fed) em dezembro, onde o tom hawkish (dovish) pode determinar se a pressão vendedora no Bitcoin se intensifica ou se estabiliza.",
       "key_numbers": [
-        "Data de rollout na Hoodi: 15/12/2026",
-        "Data original adiada: 26/10/2026",
-        "Estimativa de mainnet: meados de janeiro/2027"
+        "Bitcoin: US$ 58.700",
+        "Liquidações: US$ 228 milhões",
+        "Ouro: US$ 3.635/oz",
+        "Selic (Focus): 13,75%"
       ],
-      "sentiment": "up"
+      "sentiment": "down"
     },
     {
-      "title": "Binance completes withdrawal recovery four weeks after $6.3B hack",
+      "title": "Brazil’s stock exchange pushes stablecoin launch back to 2027",
       "source": "Cointelegraph.com News",
-      "link": "https://cointelegraph.com/news/binance-completes-withdrawal-recovery-four-weeks-after-63b-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "link": "https://cointelegraph.com/news/brazil-b3-stablecoin-tokenization-launch-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "categorias": [
         "cripto"
       ],
-      "resumo": "A Binance encerrou as suspensões de saques em quase todas as redes após o maior roubo de criptomoedas da história, ocorrido em outubro. A normalização dos serviços foi concluída quatro semanas após o ataque, com a empresa garantindo a cobertura integral das perdas com seus próprios fundos.",
-      "mecanismo": "A restauração completa das saques elimina a incerteza operacional e o risco de contraparte imediato que pesava sobre a maior exchange do mundo, o que tende a reduzir o prêmio de risco exigido por investidores institucionais e a estabilizar a liquidez no mercado de criptoativos, independentemente das condições macroeconômicas brasileiras como a Selic projetada em 13,75%.",
-      "implicacao": "Com a resolução da crise de confiança na infraestrutura de custódia, a classe de ativos de criptomoedas tende a recuperar atratividade para carteiras diversificadas, já que a remoção do risco de plataforma específica permite que o fluxo de capital volte a ser guiado pela narrativa de adoção e tecnologia, em vez de pela segurança operacional.",
-      "risco": "O raciocínio pode ser invalidado se novas evidências surgirem de que os fundos roubados foram usados para manipular preços ou se a Binance enfrentar sanções regulatórias severas que limitem sua operação global, reacendendo a desconfiança no setor.",
-      "proximo_evento": "Monitoramento das próximas auditorias de prova de reservas (proof-of-reserves) e possíveis investigações regulatórias internacionais sobre a origem dos fundos roubados pelo grupo TraderTraitor.",
+      "resumo": "A B3 adiou o lançamento do stablecoin lastreado no real, inicialmente previsto para 2026, para o primeiro trimestre de 2027, em parceria com seis grandes bancos brasileiros.",
+      "mecanismo": "O adiamento reflete a complexidade regulatória e técnica necessária para integrar ativos digitais ao sistema financeiro tradicional, onde a CVM ainda está estruturando o marco legal para tokenização; isso significa que a infraestrutura de liquidez e custódia de criptoativos no Brasil não estará pronta para operar em escala no curto prazo, mantendo o foco do mercado em ativos tradicionais enquanto a Selic permanece elevada (mediana de 13,75% no Focus).",
+      "implicacao": "Com a infraestrutura de stablecoins e tokenização de ações adiada para 2027, o setor de fintechs e empresas de tecnologia financeira tende a ver sua narrativa de crescimento acelerado por criptoativos perder fôlego no curto prazo, já que a liquidez e a adoção institucional dependem dessa base tecnológica que ainda não está operacional.",
+      "risco": "A CVM pode aprovar um marco regulatório mais rápido do que o esperado ou a B3 pode antecipar o lançamento para manter a competitividade frente a outras bolsas globais, invalidando a tese de atraso estrutural.",
+      "proximo_evento": "Publicação do novo marco regulatório para tokenização pela CVM e confirmação oficial da B3 sobre a relação entre os projetos Open BRL e B3RL.",
       "key_numbers": [
-        "Valor roubado: US$ 6,3 bilhões",
-        "Tempo de recuperação: 4 semanas",
-        "Fundos provisionados: US$ 6,34 bilhões"
+        "Selic (fim do ano): 13.75%",
+        "IPCA (fim do ano): 5.1505%",
+        "PIB (crescimento no ano): 1.7018%",
+        "Câmbio R$/US$ (fim do ano): 5.55%"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "title": "Wall Street ends higher as battered AI stocks gain in volatile week",
+      "source": "Stock Market News",
+      "link": "https://www.investing.com/news/stock-market-news/wall-st-futures-surge-as-investors-return-from-holiday-5053052",
+      "categorias": [
+        "acoes",
+        "exterior"
+      ],
+      "resumo": "O mercado acionário dos Estados Unidos encerrou a sessão em alta, impulsionado pela recuperação de papéis ligados à inteligência artificial após uma semana marcada por forte volatilidade.",
+      "mecanismo": "A recuperação dos ativos de IA sugere que o mercado está reinterpretando a sustentabilidade dos fluxos de caixa e das margens do setor, o que tende a reduzir a aversão ao risco global e a atrair capital para ativos de crescimento, mesmo em um cenário onde a Selic brasileira está projetada em 13,75% e o IPCA em 5,15%, mantendo o custo de capital elevado no Brasil.",
+      "implicacao": "Com a melhora do sentimento em ativos de tecnologia global, o setor de tecnologia brasileiro e empresas exportadoras de serviços digitais tendem a se beneficiar, já que a valorização dos pares internacionais reduz o prêmio de risco exigido para ativos de crescimento emergentes.",
+      "risco": "A volatilidade persiste se os próximos balanços das empresas de IA mostrarem desaceleração no crescimento de receita ou aumento excessivo de custos operacionais, invalidando a tese de recuperação.",
+      "proximo_evento": "Próximos relatórios trimestrais das grandes empresas de tecnologia e IA para validação das expectativas de crescimento e margens.",
+      "key_numbers": [
+        "Selic (fim do ano): 13.75%",
+        "IPCA (fim do ano): 5.1505%",
+        "PIB (crescimento no ano): 1.7018%",
+        "Câmbio R$/US$ (fim do ano): 5.55%"
       ],
       "sentiment": "up"
     },
     {
-      "title": "Wall street futures surge toward best week in months on Nvidia lifeline",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-rise-in-holidaythinned-trade-tech-rebound-in-focus-5052775",
+      "title": "Clube FII News - Notícias para o Investidor de Fundos Imobiliários",
+      "source": "Clube FII News",
+      "link": "https://www.clubefiinews.com.br",
       "categorias": [
-        "exterior"
+        "imobiliario"
       ],
-      "resumo": "Os contratos futuros das principais bolsas americanas avançam, apontando para a melhor semana em meses, impulsionados pela recuperação do sentimento de mercado após o desempenho recente da Nvidia.",
-      "mecanismo": "A Nvidia, como um dos principais pilares do índice S&P 500 e do setor de tecnologia, atua como âncora para o apetite a risco global; sua força recente sugere que a narrativa de crescimento em inteligência artificial segue intacta, o que reduz a aversão ao risco e atrai capital para ativos de maior beta, como as ações de tecnologia e crescimento, elevando os futuros de Wall Street.",
-      "implicacao": "Com a liderança do setor de tecnologia puxando o mercado, ativos correlacionados a infraestrutura de computação e semicondutores tendem a se valorizar, enquanto setores defensivos podem perder espaço relativo, já que o fluxo de capital migra para onde há maior expectativa de crescimento de lucros.",
-      "risco": "O rali pode ser revertido se os próximos balanços das empresas de tecnologia mostrarem desaceleração de receita ou se o Federal Reserve sinalizar uma postura mais restritiva de juros, aumentando o custo do capital para empresas de alto crescimento.",
-      "proximo_evento": "Divulgação dos resultados trimestrais de outras grandes empresas de tecnologia (Big Tech) e a próxima reunião do Federal Reserve, que podem confirmar ou refutar a sustentabilidade do rali no setor de IA.",
+      "resumo": "O mercado imobiliário corporativo de São Paulo apresenta sinais de forte recuperação, com vacância mínima na Avenida Paulista e valorização expressiva dos aluguéis em novas regiões além da Faria Lima. Paralelamente, o setor de self storage cresce impulsionado pelo e-commerce, enquanto o multifamily ainda enfrenta desafios de ocupação.",
+      "mecanismo": "A transição para o modelo híbrido de trabalho está concentrando a demanda corporativa em áreas centrais de alta qualidade, o que reduz a vacância para níveis críticos (1,29% na Paulista) e pressiona a alta do Market Rent em novas regiões (até 77,8%). Simultaneamente, o boom do e-commerce gera demanda estrutural por armazenagem urbana (self storage), enquanto o segmento de long stay/multifamily segue em fase de maturação, com ocupação média de apenas 53% nos últimos 12 meses, indicando que a estabilização desse nicho levará mais tempo.",
+      "implicacao": "Com a Selic projetada em 13,75% no fim de 2026 e a inflação (IPCA) em 5,15%, os FIIs de escritórios corporativos em áreas premium e de self storage tendem a se beneficiar, pois a escassez de espaço e a demanda estrutural do e-commerce sustentam a valorização dos ativos e a geração de caixa, enquanto FIIs de multifamily podem enfrentar pressão de preços até a ocupação se normalizar.",
+      "risco": "A alta persistente da Selic pode limitar a capacidade de pagamento dos inquilinos corporativos e residenciais, potencialmente estagnando a ocupação ou forçando descontos nos aluguéis, invalidando a tese de valorização contínua.",
+      "proximo_evento": "Próxima divulgação dos dados de vacância e Market Rent da SiiLA para o próximo trimestre, além do balanço trimestral dos FIIs de shoppings e escritórios para verificar o impacto real da valorização nos proventos.",
       "key_numbers": [
-        "Selic (fim do ano): 13.75%",
-        "IPCA (fim do ano): 5.1505%",
-        "Câmbio R$/US$ (fim do ano): 5.55",
-        "PIB (crescimento no ano): 1.7018%"
-      ],
-      "sentiment": "up"
-    },
-    {
-      "title": "European shares rise on tech, miners strength; head for weekly gains",
-      "source": "Stock Market News",
-      "link": "https://www.investing.com/news/stock-market-news/european-stocks-extend-recovery-as-tech-miners-advance-5053129",
-      "categorias": [
-        "exterior"
-      ],
-      "resumo": "As bolsas europeias registraram alta nesta semana, impulsionadas principalmente pelo desempenho positivo dos setores de tecnologia e mineração.",
-      "mecanismo": "A força nos setores de tecnologia e mineração sugere uma rotação de capital para ativos cíclicos e de crescimento, indicando que o mercado está precificando uma recuperação na demanda global ou uma melhora nas margens dessas indústrias, o que sustenta o otimismo e puxa o índice geral para cima.",
-      "implicacao": "Com a alta concentrada em tecnologia e mineração, a classe de ativos de ações europeias tende a manter momentum, já que esses setores são os principais vetores de crescimento e sensíveis a ciclos de commodities e inovação.",
-      "risco": "Uma reversão brusca nos preços de commodities ou um dado de inflação europeia mais quente do que o esperado poderia travar a alta dos mineradores e pressionar as avaliações das ações de tecnologia.",
-      "proximo_evento": "Divulgação dos dados de inflação (CPI/HICP) da Zona do Euro e decisões de política monetária do BCE nas próximas semanas.",
-      "key_numbers": [
-        "Selic (fim do ano): 13.75%",
-        "IPCA (fim do ano): 5.1505%",
-        "Câmbio R$/US$ (fim do ano): 5.55",
-        "PIB (crescimento no ano): 1.7018%"
+        "Vacância Paulista: 1,29%",
+        "Valorização Market Rent: 77,8%",
+        "Ocupação Multifamily: 53%",
+        "Selic (Focus): 13,75%"
       ],
       "sentiment": "up"
     }
   ],
   "outras_noticias_por_categoria": {
-    "renda_fixa": [],
+    "renda_fixa": [
+      "O contrato futuro do ouro fechou em alta nesta sexta-feira (27), impulsionado por uma melhora no sentimento de mercado e avanço das ações globais puxado pelo otimismo com o setor de inteligência artificial.",
+      "O ouro se recuperou após uma forte queda, com o sentimento mais positivo no mercado de ações apoiando os metais preciosos."
+    ],
     "acoes": [
-      "O Ibovespa encerra a semana aguardando a possível nomeação de Luiz Carlos Trabuco Cappi, presidente do Conselho de Administração do Bradesco, para o Ministério da Fazenda no próximo governo de Lula, após reunião realizada na véspera.",
-      "A confirmação de Luiz Carlos Trabuco Cappi para assumir o Ministério da Fazenda no quarto mandato de Lula deve impulsionar os ativos brasileiros nesta sexta-feira, com expectativa de abertura positiva.",
-      "As bolsas asiáticas fecharam em forte alta nesta sexta-feira, acompanhando os ganhos dos futuros de ações dos EUA e o avanço dos mercados chineses, com o sentimento em torno de investimentos em inteligência artificial se estabilizando após o feriado de Wall Street.",
-      "A Patria Investments afirma que a queda do mercado brasileiro pós-eleições criou um desconto ainda mais profundo nos ativos."
+      "O Bradesco BBI elevou a recomendação para o Brasil para compra e projeta alta de 30% na bolsa, argumentando que a escolha de Luiz Carlos Trabuco para o Ministério da Fazenda atrai novamente o interesse de investidores estrangeiros.",
+      "O Itaú BBA estima que a moagem de cana-de-açúcar no Centro-Sul na safra 2026/27 ficará entre 620 e 640 milhões de toneladas, indicando redução ante as expectativas iniciais devido ao excesso de chuvas e projetando menor estoque de etanol em 10 anos."
     ],
     "cripto": [
-      "A ESMA planeja reformular o registro de criptoativos da UE sob a MiCA em 2027.",
-      "O Japão está avaliando uma supervisão mais rigorosa sobre DeFi e carteiras de auto-custódia.",
-      "A Coinbase afirma que o Reino Unido está 'errando' na regulação de DeFi.",
-      "Um executivo da Nasdaq defende regras comuns na UE para valores mobiliários tokenizados."
+      "Whales de Bitcoin estão acumulando BTC apesar da redução da margem de lucro, segundo a CryptoQuant.",
+      "Uma métrica de oferta de Bitcoin atingiu um mínimo de 11 anos, sinalizando uma nova onda de capitulação.",
+      "A Binance está contratando pessoal para lançar um programa de IPO tokenizado após obter aprovação regulatória, conforme informado por Yi He.",
+      "Pablo Hernández de Cos, chefe do BIS, está prestes a se tornar o próximo presidente do BCE, de acordo com o Financial Times."
     ],
     "debentures": [],
     "exterior": [
-      "As bolsas asiáticas fecharam em forte alta nesta sexta-feira (27), acompanhando os ganhos dos futuros de ações dos Estados Unidos e o avanço expressivo dos mercados chineses, com o sentimento em torno dos investimentos em inteligência artificial se estabilizando.",
-      "Os preços do petróleo sobem nesta sexta-feira (27) e caminham para interromper uma sequência de três semanas de perdas, à medida que os ataques contínuos a petroleiros no Estreito de Ormuz e à infraestrutura energética da Arábia Saudita intensificaram as preocupações com o abastecimento.",
-      "O petróleo fechou em alta pelo terceiro pregão consecutivo nesta quinta-feira (26), à medida que a escalada das tensões no Oriente Médio amplia os temores de interrupções na oferta da commodity, com a liquidez reduzida pelo feriado de Ação de Graças nos Estados Unidos também podendo intensificar os movimentos.",
-      "Cobre e ouro reagem com alta enquanto o petróleo estende seus ganhos."
+      "Ações europeias estenderam a alta, mas o mês de novembro deixou cicatrizes no setor de IA.",
+      "O chefe do BIS, Pablo Hernández de Cos, está prestes a se tornar o próximo presidente do BCE, segundo a FT.",
+      "O FTSE 100 subiu com a liderança das mineradoras devido à recuperação dos metais e ao ganho da Entain.",
+      "Arista Networks e Intel estiveram entre as ações com maior variação de capitalização de mercado na sexta-feira."
     ],
     "imobiliario": []
   },
   "de_olho_por_categoria": {
-    "renda_fixa": "O recuo do dólar para R$ 5,7435, impulsionado pela surpresa positiva do IPCA-15 e pela perspectiva de uma equipe econômica mais fiscalmente responsável, aliviou o prêmio de risco soberano e as expectativas de juros futuros. O próximo passo crítico é a divulgação do IPCA oficial de novembro e a confirmação da composição da equipe econômica do governo, incluindo a eventual nomeação do Ministério da Fazenda.",
-    "acoes": "O mercado brasileiro está focado na confirmação oficial da nomeação de Trabuco para a Fazenda e no envio da PEC de ajuste fiscal ao Congresso, eventos que, somados à desaceleração do IPCA-15, reduzem o prêmio de risco e favorecem a entrada de capital estrangeiro. A atenção deve se manter também na divulgação dos dados da Pnad Contínua e do resultado primário do governo central de outubro, ambos previstos para hoje, enquanto o cenário externo é marcado pela alta das bolsas asiáticas e pela estabilização do sentimento em torno de IA.",
-    "cripto": "O cenário regulatório global de criptoativos está se intensificando, com a ESMA preparando a reformulação do registro MiCA para 2027 e o Japão considerando controles mais rígidos sobre DeFi e carteiras de auto-custódia. Enquanto isso, a indústria, representada pela Coinbase e pela Nasdaq, pressiona por abordagens regulatórias mais alinhadas e menos restritivas, especialmente no Reino Unido e na União Europeia. Essa dinâmica ocorre em paralelo à estabilização operacional da Binance após o hack e aos preparativos técnicos para a atualização Glamsterdam do Ethereum, indicando um período de transição entre a consolidação técnica e a definição de marcos regulatórios.",
+    "renda_fixa": "Com a queda das taxas dos DIs e do Tesouro Direto após a confirmação de Trabuco na Fazenda, o foco permanece na divulgação da equipe econômica e no plano de ajuste fiscal para 2027, que definirá a sustentabilidade da trajetória de juros. Paralelamente, a alta do ouro, impulsionada pelo otimismo com a inteligência artificial e pela melhora no sentimento das bolsas globais, indica que o mercado está equilibrando a exposição a renda fixa com ativos de proteção e crescimento.",
+    "acoes": "O mercado monitora a transição do otimismo inicial com a nomeação de Trabuco para a Fazenda, que já impactou o câmbio e as recomendações de compra, para a validação prática da responsabilidade fiscal, enquanto a inflação de serviços e a mediana da Selic em 13,75% limitam cortes agressivos de juros. A atenção se volta para a reunião do Copom e a divulgação do IPCA de novembro, que testarão a credibilidade da nova equipe econômica, ao mesmo tempo em que fatores climáticos começam a pressionar o setor sucroenergético com a redução da moagem e estoques de etanol.",
+    "cripto": "O mercado de criptomoedas apresenta sinais contraditórios, com grandes investidores acumulando Bitcoin e métricas de oferta indicando capitulação, enquanto a pressão vendedora e as liquidações recentes mantêm o preço abaixo de US$ 59 mil. A dinâmica é influenciada pela priorização de ações de tecnologia e pela expectativa sobre o tom do Federal Reserve em dezembro, que pode definir a estabilização ou intensificação da pressão vendedora. Paralelamente, a infraestrutura regulatória avança com a aprovação do programa de IPO tokenizado da Binance, embora a implementação de stablecoins no Brasil permaneça adiada para 2027 devido à complexidade do marco legal da CVM.",
     "debentures": "",
-    "exterior": "O mercado global opera sob a influência da força do setor de inteligência artificial, que sustenta o apetite a risco e puxa as bolsas asiáticas e os futuros de Wall Street, enquanto a escalada das tensões no Oriente Médio e os ataques à infraestrutura energética na Arábia Saudita pressionam os preços do petróleo para cima. A combinação de uma narrativa de crescimento em IA intacta e riscos geopolíticos de oferta cria um cenário de divergência entre ativos de tecnologia e commodities energéticas, com a próxima reunião do Federal Reserve e a divulgação de resultados de Big Tech como catalisadores para a sustentabilidade do rali.",
-    "imobiliario": ""
+    "exterior": "A definição de Pablo Hernández de Cos como próximo presidente do BCE é o evento central a ser monitorado, dado que a expectativa de uma postura mais dovish já está impulsionando a reprecificação de ativos de crescimento e tecnologia na Europa. Enquanto isso, a recuperação dos metais e a volatilidade persistente no setor de IA, que ainda carrega as marcas de um novembro difícil, devem continuar a influenciar a dinâmica setorial e o apetite por risco global.",
+    "imobiliario": "A transição para o modelo híbrido de trabalho está concentrando a demanda corporativa em áreas centrais de alta qualidade, reduzindo a vacância para níveis críticos e pressionando a alta do Market Rent, enquanto o boom do e-commerce gera demanda estrutural por armazenagem urbana. O segmento de long stay/multifamily segue em fase de maturação, com ocupação média de apenas 53% nos últimos 12 meses, indicando que a estabilização desse nicho levará mais tempo. O próximo passo é aguardar a divulgação dos dados de vacância e Market Rent da SiiLA para o próximo trimestre, além do balanço trimestral dos FIIs de shoppings e escritórios para verificar o impacto real da valorização nos proventos."
   },
-  "radar": "📊 Radar do Mercado · 27/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Technology Services (+8,98% na média) · que mais caiu: Communications (+3,06%)\n• Ações líquidas da B3: média de +6,37% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de +1,25%\n\n📈 Maiores altas — ações (top 20):\n• AZTE3 (AZEVEDO &amp; TRAVASSOS ENERGIA S.) +20,00% (R$ 0,72)\n• PMAM3 (PARANAPANEMA S.A.) +16,67% (R$ 0,21)\n• MRVE3 (MRV ENGENHARIA E PARTICIPACOES) +15,37% (R$ 5,33)\n• RENT3 (LOCALIZA RENT A CAR S.A.) +15,18% (R$ 33,77)\n• SIMH3 (SIMPAR S.A.) +14,74% (R$ 6,85)\n• AZEV3 (AZEVEDO E TRAVASSOS S.A.) +14,50% (R$ 15,00)\n• LJQQ3 (LOJAS QUERO-QUERO S/A) +14,41% (R$ 1,27)\n• RADL3 (RAIA DROGASIL S.A.) +13,16% (R$ 17,46)\n• BBAS3 (BCO BRASIL S.A.) +12,59% (R$ 16,54)\n• CSAN3 (COSAN S.A.) +12,28% (R$ 3,84)\n• SBFG3 (GRUPO SBF SA) +12,03% (R$ 4,75)\n• PLPL3 (PLANO &amp; PLANO DESENVOLVIMENTO ) +11,76% (R$ 4,75)\n• CEAB3 (CEA MODAS S.A.) +11,74% (R$ 8,47)\n• BBDC4 (BCO BRADESCO S.A.) +11,56% (R$ 15,83)\n• BPAC11 (BCO BTG PACTUAL S.A.) +11,50% (R$ 59,04)\n• ARML3 (ARMAC LOCAÇÃO. LOGÍSTICA E SER) +11,38% (R$ 4,60)\n• TOTS3 (TOTVS S.A.) +11,29% (R$ 35,40)\n• VAMO3 (VAMOS LOCAÇÃO DE CAMINHÕES. MÁ) +11,15% (R$ 3,09)\n• ECOR3 (ECORODOVIAS INFRAESTRUTURA E L) +11,09% (R$ 7,41)\n• COGN3 (COGNA EDUCAÇÃO S.A.) +10,91% (R$ 1,83)\n📉 Maiores baixas — ações (top 20):\n• LIGT3 (LIGHT S.A.) -13,13% (R$ 2,78)\n• BRKM5 (BRASKEM S.A.) -3,13% (R$ 2,17)\n• SUZB3 (SUZANO S.A.) -0,96% (R$ 54,87)\n• RCSL4 (RECRUSUL S.A.) +0,00% (R$ 0,56)\n• MNCO5L (MNCO5L) +0,00% (R$ 0,01)\n• CLFC6L (CLFC6L) +0,00% (R$ 0,35)\n• RIBE6L (RIBE6L) +0,00% (R$ 0,01)\n• FIQE3 (UNIFIQUE TELECOMUNICAÇÕES S.A.) +0,29% (R$ 6,90)\n• CBAV3 (COMPANHIA BRASILEIRA DE ALUMÍN) +0,71% (R$ 11,41)\n• SANB11 (BCO SANTANDER (BRASIL) S.A.) +0,95% (R$ 27,63)\n• KLBN11 (KLABIN S.A.) +1,01% (R$ 16,95)\n• MYPK3 (IOCHPE MAXION S.A.) +1,59% (R$ 10,22)\n• MBRF3 (MARFRIG GLOBAL FOODS S.A.) +1,61% (R$ 18,30)\n• VVEO3 (CM HOSPITALAR S.A.) +2,08% (R$ 0,49)\n• KLBN4 (KLABIN S.A.) +2,10% (R$ 3,41)\n• AMER3 (AMERICANAS S.A) +2,25% (R$ 4,09)\n• SAUD3 (BRADSAUDE S.A.) +2,25% (R$ 15,88)\n• BEEF3 (MINERVA S.A.) +2,37% (R$ 3,89)\n• GGBR4 (GERDAU S.A.) +2,47% (R$ 26,50)\n• GOAU4 (METALURGICA GERDAU S.A.) +2,58% (R$ 11,94)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• HIGH11 (NU IBOV SMART HIGH BETA B3 CLA) +8,68% (R$ 80,63)\n• VRTM11 (FATOR VERITÀ MULTIESTRATÉGIA F) +7,07% (R$ 5,60)\n• AUVP11 (BTG PACTUAL TEVA AUVP AÇÕES FU) +6,85% (R$ 126,08)\n• SMAL11 (ISHARES BM&amp;FBOVESPA SMALL CAP ) +6,46% (R$ 107,05)\n• UTLL11 (INVESTO B3 UTILIDADE PÚBLICA F) +6,26% (R$ 126,72)\n• IBOB11 (BTG PACTUAL B3 IBOVESPA FUNDO ) +6,16% (R$ 145,90)\n• VGIA11 (VALORA CRA FUNDO DE I. NAS C.  — Fiagro (CRA)) +6,14% (R$ 8,12)\n• BBOV11 (BB ETF IBOVESPA FUNDO DE ÍNDIC) +6,12% (R$ 93,16)\n• BOVX11 (TREND ETF IBOVESPA CLASSE DE Í) +6,06% (R$ 18,20)\n• DIVO11 (IT NOW IDIV FUNDO DE ÍNDICE RE) +5,85% (R$ 126,77)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNOR11 (FNOR11) -6,15% (R$ 0,61)\n• DOLX11 (TREND ETF S&amp;P / B3 DOLAR CLASS) -3,38% (R$ 52,61)\n• ETHE11 (HASHDEX NASDAQ ETHEREUM REFERE) -3,30% (R$ 27,51)\n• DOLA11 (BB ETF ÍNDICE FUTURO DE DOLAR ) -3,26% (R$ 11,29)\n• BITH11 (HASHDEX NASDAQ BITCOIN REFEREN) -3,12% (R$ 77,02)\n• TRXF11 (TRX REAL ESTATE FUNDO DE INVES — renda urbana) -3,08% (R$ 54,36)\n• SPXU11 (SPXU11) -3,06% (R$ 17,45)\n• FNAM11 (FNAM11) -2,99% (R$ 0,65)\n• SPXI11 (IT NOW S&amp;P500® TRN FUNDO DE ÍN) -2,59% (R$ 55,99)\n• GOLD11 (TREND ETF LBMA OURO CLASSE DE ) -1,99% (R$ 21,15)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): -0,25%\n• Nasdaq (EUA): -0,62%\n• Dow Jones (EUA): +0,33%\n• Euro Stoxx 50 (Europa): +1,37%\n• Nikkei 225 (Japão): +2,11%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: +1,58% (US$ 61,450)\n• Ethereum: +2,02% (US$ 1,722)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~10,1%"
+  "radar": "📊 Radar do Mercado · 27/11\nAções e FIIs: variação do fechamento do último pregão (a B3 ainda não abriu).\n\n📊 Resumo do dia:\n• Setor que mais subiu: Consumer Services (+6,08% na média) · que mais caiu: Communications (-1,29%)\n• Ações líquidas da B3: média de +2,49% no último pregão\n• Fundos listados (FII/Fiagro/FI-Infra): média de +1,23%\n\n📈 Maiores altas — ações (top 20):\n• LJQQ3 (LOJAS QUERO-QUERO S/A) +18,11% (R$ 1,50)\n• SIMH3 (SIMPAR S.A.) +17,52% (R$ 8,05)\n• TEND3 (CONSTRUTORA TENDA S.A.) +12,54% (R$ 18,58)\n• ANIM3 (ANIMA HOLDING S.A.) +12,09% (R$ 3,06)\n• MRVE3 (MRV ENGENHARIA E PARTICIPACOES) +10,88% (R$ 5,91)\n• MOVI3 (MOVIDA PARTICIPACOES SA) +10,80% (R$ 7,49)\n• PGMN3 (EMPREENDIMENTOS PAGUE MENOS S.) +10,15% (R$ 2,93)\n• HAPV3 (HAPVIDA PARTICIPACOES E INVEST) +9,38% (R$ 7,11)\n• MGLU3 (MAGAZINE LUIZA S.A.) +9,12% (R$ 10,53)\n• VAMO3 (VAMOS LOCAÇÃO DE CAMINHÕES. MÁ) +8,74% (R$ 3,36)\n• ARML3 (ARMAC LOCAÇÃO. LOGÍSTICA E SER) +8,48% (R$ 4,99)\n• VVEO3 (CM HOSPITALAR S.A.) +8,16% (R$ 0,53)\n• EZTC3 (EZ TEC EMPREEND. E PARTICIPACO) +7,87% (R$ 11,10)\n• MDNE3 (MOURA DUBEUX ENGENHARIA S/A) +7,81% (R$ 20,56)\n• RAPT4 (RANDONCORP S.A.) +7,28% (R$ 4,42)\n• COGN3 (COGNA EDUCAÇÃO S.A.) +7,10% (R$ 1,96)\n• LAVV3 (LAVVI EMPREENDIMENTOS IMOBILIÁ) +6,96% (R$ 8,91)\n• VIVA3 (VIVARA PARTICIPAÇOES S.A) +6,95% (R$ 17,69)\n• GMAT3 (GRUPO MATEUS S.A.) +6,74% (R$ 4,59)\n• YDUQ3 (YDUQS PARTICIPACOES S.A.) +6,70% (R$ 11,79)\n📉 Maiores baixas — ações (top 20):\n• PMAM3 (PARANAPANEMA S.A.) -4,76% (R$ 0,20)\n• BRKM5 (BRASKEM S.A.) -4,61% (R$ 2,07)\n• NATU3 (NATURA COSMETICOS S.A.) -3,85% (R$ 5,00)\n• VBBR3 (VIBRA ENERGIA S.A.) -3,58% (R$ 33,94)\n• SUZB3 (SUZANO S.A.) -3,55% (R$ 52,92)\n• PETR3 (PETROLEO BRASILEIRO S.A. PETRO) -2,87% (R$ 47,68)\n• TUPY3 (TUPY S.A.) -2,67% (R$ 20,80)\n• SMTO3 (SAO MARTINHO S.A.) -2,56% (R$ 16,36)\n• AZZA3 (AZZAS 2154 S.A.) -2,42% (R$ 16,53)\n• CXSE3 (CAIXA SEGURIDADE PARTICIPAÇÕES) -2,33% (R$ 20,58)\n• USIM5 (USINAS SID DE MINAS GERAIS S.A) -2,33% (R$ 5,03)\n• PETR4 (PETROLEO BRASILEIRO S.A. PETRO) -2,25% (R$ 42,22)\n• VALE3 (VALE S.A.) -2,21% (R$ 57,43)\n• UGPA3 (ULTRAPAR PARTICIPACOES S.A.) -2,19% (R$ 32,20)\n• VIVT3 (TELEFÔNICA BRASIL S.A) -2,00% (R$ 35,33)\n• TIMS3 (TIM S.A.) -2,00% (R$ 22,53)\n• ALUP11 (ALUPAR INVESTIMENTO S/A) -1,97% (R$ 34,31)\n• RAIZ55 (RAIZEN S.A.) -1,96% (R$ 0,17)\n• SLCE3 (SLC AGRICOLA S.A.) -1,86% (R$ 16,90)\n• OPCT3 (OCEANPACT SERVICOS MARITIMOS S) -1,67% (R$ 8,82)\n\n📈 Maiores altas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• FNAM11 (FNAM11) +20,00% (R$ 0,78)\n• LIFE11 (LIFE CAPITAL PARTNERS FUNDO DE) +6,88% (R$ 6,21)\n• HGBS11 (HEDGE BRASIL SHOPPING FUNDO DE — tijolo: shoppings) +5,40% (R$ 17,76)\n• HIGH11 (NU IBOV SMART HIGH BETA B3 CLA) +5,37% (R$ 84,96)\n• PVBI11 (FUNDO DE INVESTIMENTO IMOBILIÁ — tijolo: lajes) +5,25% (R$ 67,54)\n• CNES11 (CENESP FUNDO DE INVESTIMENTO I) +4,94% (R$ 1,70)\n• XPML11 (XP MALLS FUNDO DE INVESTIMENTO — tijolo: shoppings) +4,89% (R$ 89,68)\n• PNPR11 (PANORAMA PROPERTIES FUNDO DE I) +4,79% (R$ 49,25)\n• VCRI11 (VINCI CREDIT SECURITIES FUNDO ) +4,64% (R$ 6,76)\n• VGHF11 (VALORA HEDGE FUND FUNDO DE INV) +4,51% (R$ 4,17)\n📉 Maiores baixas — fundos listados (FII/Fiagro/FI-Infra) (top 10):\n• QETH11 (QR CME CF ETHER REFERENCE RATE) -5,13% (R$ 6,66)\n• HODL11 (INVESTO ETF MARKETVECTOR BITCO) -3,78% (R$ 56,18)\n• COIN11 (BUENA VISTA NEOS BITCOIN HIGH ) -3,41% (R$ 34,58)\n• BITH11 (HASHDEX NASDAQ BITCOIN REFEREN) -3,39% (R$ 74,41)\n• QBTC11 (QR CME CF BITCOIN REFERENCE RA) -3,21% (R$ 20,20)\n• HASH11 (HASHDEX NASDAQ CME CRYPTO INDE) -3,17% (R$ 42,78)\n• ETHE11 (HASHDEX NASDAQ ETHEREUM REFERE) -2,80% (R$ 26,74)\n• SOLH11 (HASHDEX NASDAQ SOLANA FUNDO DE) -2,12% (R$ 11,06)\n• QQQI11 (BUENA VISTA NASDAQ-100 NEOS HI) -2,10% (R$ 92,15)\n• DOLX11 (TREND ETF S&amp;P / B3 DOLAR CLASS) -1,98% (R$ 51,57)\n\n🌎 Mundo (último fechamento):\n• S&P 500 (EUA): +1,60%\n• Nasdaq (EUA): +2,31%\n• Dow Jones (EUA): +1,18%\n• Euro Stoxx 50 (Europa): +1,24%\n• Nikkei 225 (Japão): +0,86%\n🪙 Cripto (últimas 24h de fechamento diário):\n• Bitcoin: -1,14% (US$ 59,807)\n• Ethereum: -1,11% (US$ 1,669)\n\n💰 Proventos da sua carteira:\n• HGLG11: último provento R$ 1,17/cota em 03/11 · DY 12m ~9,9%"
 }
